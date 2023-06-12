@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <meta xmlns="http://exist-db.org/xquery/repo">
-    <description>
-    eXist-db Documentation
-    </description>
-    <author>
-    DHBern
-    </author>
-    <website>
-    https://github.com/DHBern/data_parzival
-    </website>
-    <status>
-    development
-    </status>
-    <license>
-    GNU Lesser General Public License, version 2.1
-    </license>
-    <copyright>
-    true
-    </copyright>
-    <type>
-    library
-    </type>
-    <target>
-    parzival
-    </target>
-    <prepare>
-    pre-install.xql
-    </prepare>
-    <deployed/>
+    <description>Data Repository for parzival</description>
+    <author>DHBern</author>
+    <website>https://github.com/DHBern/data_parzival</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>parzival</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="simple" user="tei" group="tei" mode="rw-r--r--" />
 </meta>
