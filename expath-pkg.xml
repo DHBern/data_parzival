@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://expath.org/ns/pkg" abbrev="parzival" name="https://github.com/DHBern/data_parzival" spec="1.0" version="0.1">
     <title>
     Parzival XML
@@ -5,6 +6,9 @@
     <home>
     https://github.com/DHBern/data_parzival
     </home>
+    <dependency package="http://exist-db.org/xquery/semver-xq" semver-min="3.0.0"/>
+    <dependency package="http://exist-db.org/apps/shared" semver-min="0.9.1"/>
+    <dependency package="http://exist-db.org/html-templating" semver-min="1.1.0"/>
     <dependency processor="http://exist-db.org" semver-min="6.2.0"/>
     <dependency package="http://exist-db.org/html-templating"/>
     <dependency package="http://existsolutions.com/apps/tei-publisher-lib" semver="3"/>
