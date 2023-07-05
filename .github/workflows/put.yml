@@ -31,13 +31,16 @@ jobs:
       # Logs the user in and puts the JSessionID-cookie in the jar
       - name: Login
         if: ${{ steps.changed-files.outputs.any_modified }}
+        env:
+          user: ${{ secrets.USER }}
+          password: ${{ secrets.PASSWORD }}
         run: |
           curl -X 'POST' \
           'http://130.92.252.143:8081/exist/apps/parzival/api/login' \
           -H 'accept: application/json' \
           -H 'Content-Type: multipart/form-data' \
-          -F `user=${{ env.user}}` \
-          -F `password=${{ env.password }}` \
+          -F 'user=$user' \
+          -F 'password=$password' \
           --cookie-jar 'cookies.txt'
 
       # Uploads files (Added, Copied, Modified and Renamed Files)
