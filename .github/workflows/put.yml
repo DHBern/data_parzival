@@ -44,7 +44,6 @@ jobs:
           USER: ${{ secrets.USER }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
-          echo "$host_url"
           curl -X 'POST' \
           "${host_url}/api/login" \
           -H 'accept: application/json' \
@@ -55,7 +54,8 @@ jobs:
 
       # Uploads files (Added, Copied, Modified and Renamed Files)
       - name: ACMR
-        if: ${{ steps.changed-files.outputs.any_changed }}
+        #test if the if works...
+        if: false
         run: |
           curl_command="curl -X 'POST' \
           '$host_url/api/upload' \
@@ -63,7 +63,7 @@ jobs:
           -H 'Content-Type: multipart/form-data' \
           -b 'cookies.txt'"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            curl_command="$curl_command -F 'files[]=@$file;type=text/xml'"
+            curl_command="${curl_command} -F 'files[]=@$file;type=text/xml'"
           done
           echo "$curl_command"
           
