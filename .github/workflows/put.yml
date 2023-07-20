@@ -44,6 +44,7 @@ jobs:
           USER: ${{ secrets.USER }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
+          echo "$host_url"
           curl -X 'POST' \
           '${host_url}/api/login' \
           -H 'accept: application/json' \
