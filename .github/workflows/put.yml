@@ -44,7 +44,7 @@ jobs:
       
       # Logs the user in and puts the JSessionID-cookie in the jar
       - name: Login
-        if: ${{ steps.changed-files.outputs.any_modified }}
+        if: steps.changed-files.outputs.any_modified
         env:
           USER: ${{ secrets.USER }}
           PASSWORD: ${{ secrets.PASSWORD }}
@@ -59,7 +59,7 @@ jobs:
 
       # Uploads files (Added, Copied, Modified and Renamed Files)
       - name: ACMR
-        if: ${{ steps.changed-files.outputs.any_changed }}
+        if: steps.changed-files.outputs.any_changed
         run: |
           curl_command="curl -X 'POST' \
           '$host_url/api/upload' \
