@@ -45,11 +45,11 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           curl -X 'POST' \
-          '$host_url/api/login' \
+          '${host_url}/api/login' \
           -H 'accept: application/json' \
           -H 'Content-Type: multipart/form-data' \
-          -F 'user=$USER' \
-          -F 'password=$PASSWORD' \
+          -F 'user=${USER}' \
+          -F 'password=${PASSWORD}' \
           --cookie-jar 'cookies.txt'
 
       # Uploads files (Added, Copied, Modified and Renamed Files)
