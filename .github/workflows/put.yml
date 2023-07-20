@@ -45,7 +45,7 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           curl -X 'POST' \
-          '$host_url/parzival/api/login' \
+          '$host_url/api/login' \
           -H 'accept: application/json' \
           -H 'Content-Type: multipart/form-data' \
           -F 'user=$USER' \
