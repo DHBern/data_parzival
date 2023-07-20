@@ -36,6 +36,11 @@ jobs:
           dir_names_max_depth: 0
           files: |
             **.xml
+            
+      - name: tests
+        env:
+          any_modified: ${{ steps.changed-files.outputs.any_modified }}
+        run: echo "$any_modified"
       
       # Logs the user in and puts the JSessionID-cookie in the jar
       - name: Login
@@ -54,8 +59,7 @@ jobs:
 
       # Uploads files (Added, Copied, Modified and Renamed Files)
       - name: ACMR
-        #test if the if works...
-        if: false
+        if: ${{ steps.changed-files.outputs.any_changed }}
         run: |
           curl_command="curl -X 'POST' \
           '$host_url/api/upload' \
