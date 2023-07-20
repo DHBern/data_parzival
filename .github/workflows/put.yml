@@ -18,8 +18,7 @@ env:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  push:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -42,15 +41,15 @@ jobs:
       - name: Login
         if: ${{ steps.changed-files.outputs.any_modified }}
         env:
-          user: ${{ secrets.USER }}
-          password: ${{ secrets.PASSWORD }}
+          USER: ${{ secrets.USER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           curl -X 'POST' \
           '$host_url/parzival/api/login' \
           -H 'accept: application/json' \
           -H 'Content-Type: multipart/form-data' \
-          -F 'user=$user' \
-          -F 'password=$password' \
+          -F 'user=$USER' \
+          -F 'password=$PASSWORD' \
           --cookie-jar 'cookies.txt'
 
       # Uploads files (Added, Copied, Modified and Renamed Files)
