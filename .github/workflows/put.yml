@@ -4,7 +4,7 @@ name: CI
 on:
 # Triggers the workflow on push events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "main", "2-git-exist-sync" ]
     paths: '**.xml'
 
   # Allows you to run this workflow manually from the Actions tab
@@ -55,14 +55,14 @@ jobs:
         if: fromJSON(steps.changed-files.outputs.any_changed)
         run: |
           curl_command="curl -X 'POST' \
-          '$host_url/api/upload' \
+          "${host_url}/api/upload" \
           -H 'accept: application/json' \
           -H 'Content-Type: multipart/form-data' \
           -b 'cookies.txt'"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            curl_command="${curl_command} -F 'files[]=@$file;type=text/xml'"
+            curl_command="${curl_command} -F 'files[]=@${file};type=text/xml'"
           done
-          echo "$curl_command"
+          echo "${curl_command}"
           
           
       # Deletes files
@@ -70,7 +70,7 @@ jobs:
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            curl -X 'DELETE' "$host_url/api/document/$file"
+            curl -X 'DELETE' "${host_url}/api/document/${file}"
           done
 
       # Deletes the old files when a file was renamed.
@@ -79,5 +79,5 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_old_new_renamed_files }}; do
             echo $file
-            curl -X 'DELETE' "$host_url/api/document/$file"
+            curl -X 'DELETE' "${host_url}/api/document/${file}"
           done
