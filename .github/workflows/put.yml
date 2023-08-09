@@ -61,9 +61,8 @@ jobs:
           -b 'cookies.txt'"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             curl_command="${curl_command} -F 'files[]=@${file};type=text/xml'"
-            cat $file
           done
-          echo "${curl_command}"
+          echo $($curl_command)
           
           
       # Deletes files
