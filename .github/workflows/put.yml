@@ -55,12 +55,13 @@ jobs:
         if: fromJSON(steps.changed-files.outputs.any_changed)
         run: |
           curl_command="curl -X 'POST' \
-          "${host_url}/api/upload" \
+          '${host_url}/api/upload' \
           -H 'accept: application/json' \
           -H 'Content-Type: multipart/form-data' \
           -b 'cookies.txt'"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             curl_command="${curl_command} -F 'files[]=@${file};type=text/xml'"
+            cat $file
           done
           echo "${curl_command}"
           
