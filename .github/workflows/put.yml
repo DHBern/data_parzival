@@ -70,7 +70,7 @@ jobs:
       - name: DR
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
-          for file in "${{ steps.changed-files.outputs.deleted_files }}""; do
+          for file in "${{ steps.changed-files.outputs.deleted_files }}"; do
             echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/$(basename "$file")''"
             curl -X 'DELETE' \
             "${host_url}/api/document/$(basename "$file")" \
