@@ -65,26 +65,14 @@ jobs:
           done
           eval "$curl_command"
 
-      # Deletes files
-      - name: D
+      # Deletes files (in case of a deletion and a rename)
+      - name: DR
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
           for file in ${{ steps.changed-files.outputs.deleted_files }}; do
-            echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/${file##*/}''"
+            echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/$(basename "$file")''"
             curl -X 'DELETE' \
-            "${host_url}/api/document/${file##*/}" \
-            -b 'cookies.txt' \
-            -i
-          done
-
-      # Deletes the old files when a file was renamed.
-      - name: R
-        if: fromJSON(steps.changed-files.outputs.all_old_new_renamed_files_count) > 0
-        run: |
-          for file in ${{ steps.changed-files.outputs.all_old_new_renamed_files }}; do
-            echo "${file##*/}"
-            curl -X 'DELETE' \
-            "${host_url}/api/document/${file##*/}" \
+            "${host_url}/api/document/$(basename "$file")" \
             -b 'cookies.txt' \
             -i
           done
