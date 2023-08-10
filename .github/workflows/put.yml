@@ -60,7 +60,7 @@ jobs:
           -H 'Content-Type: multipart/form-data' \
           -b 'cookies.txt' \
           -i"
-          for file in "${ steps.changed-files.outputs.all_changed_files }"; do
+          for file in "${{ steps.changed-files.outputs.all_changed_files }}"; do
             curl_command="${curl_command} -F 'files[]=@\"${file}\";type=text/xml'"
           done
           echo $curl_command
@@ -70,7 +70,7 @@ jobs:
       - name: DR
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
-          for file in "${ steps.changed-files.outputs.deleted_files }""; do
+          for file in "${{ steps.changed-files.outputs.deleted_files }}""; do
             echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/$(basename "$file")''"
             curl -X 'DELETE' \
             "${host_url}/api/document/$(basename "$file")" \
