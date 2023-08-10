@@ -61,7 +61,7 @@ jobs:
           -b 'cookies.txt' \
           -i"
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            curl_command="${curl_command} -F 'files[]=@${file};type=text/xml'"
+            curl_command="${curl_command} -F 'files[]=@\"${file}\";type=text/xml'"
           done
           eval "$curl_command"
 
