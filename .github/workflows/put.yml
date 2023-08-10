@@ -54,7 +54,6 @@ jobs:
       - name: ACMR
         if: fromJSON(steps.changed-files.outputs.any_changed)
         run: |
-          echo "'${host_url}/api/upload'" \
           curl_command="curl -X 'POST' \
           '${host_url}/api/upload' \
           -H 'accept: application/json' \
