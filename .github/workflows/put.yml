@@ -63,6 +63,7 @@ jobs:
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             curl_command="${curl_command} -F 'files[]=@\"${file}\";type=text/xml'"
           done
+          echo $curl_command
           eval "$curl_command"
 
       # Deletes files (in case of a deletion and a rename)
