@@ -68,7 +68,7 @@ jobs:
       - name: D
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+          for file in ${{ steps.changed-files.outputs.deleted_files }}; do
             echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/${file##*/}''"
             curl -X 'DELETE' "${host_url}/api/document/${file##*/}"
           done
@@ -78,6 +78,6 @@ jobs:
         if: fromJSON(steps.changed-files.outputs.all_old_new_renamed_files_count) > 0
         run: |
           for file in ${{ steps.changed-files.outputs.all_old_new_renamed_files }}; do
-            echo $file
+            echo "${file##*/}"
             curl -X 'DELETE' "${host_url}/api/document/${file##*/}"
           done
