@@ -71,9 +71,9 @@ jobs:
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
           for file in "${{ steps.changed-files.outputs.deleted_files }}"; do
-            echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/$(basename "$file")''"
+            echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/$(basename "${file// /%20}")''"
             curl -X 'DELETE' \
-            "${host_url}/api/document/$(basename "$file")" \
+            "${host_url}/api/document/$(basename "${file// /%20}")" \
             -b 'cookies.txt' \
             -i
           done
