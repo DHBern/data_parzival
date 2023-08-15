@@ -33,7 +33,7 @@ jobs:
           include_all_old_new_renamed_files: true
           output_renamed_files_as_deleted_and_added: true
           dir_names_max_depth: 0
-          quotepath: true
+          quotepath: false
           files: |
             **.xml
 
