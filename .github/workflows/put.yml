@@ -74,13 +74,15 @@ jobs:
       - name: DR
         if: fromJSON(steps.changed-files.outputs.any_deleted)
         run: |
+          sudo apt-get install -y jq
           # Split the comma-separated list of filenames into an array
           IFS="," read -ra files_array <<< "${{ steps.changed-files.outputs.deleted_files }}"
           for file in "${files_array[@]}"; do
-            # Replace spaces with %20 in the filename
-            echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/$(basename "${file// /%20}")''"
+            # url-encode the filename
+            filename=$(echo $file | jq -sRr @uri)
+            echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/${filename}''"
             curl -X 'DELETE' \
-            "${host_url}/api/document/$(basename "${file// /%20}")" \
+            "${host_url}/api/document/${filename}" \
             -b 'cookies.txt' \
             -i
           done
