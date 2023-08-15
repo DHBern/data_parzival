@@ -36,6 +36,14 @@ jobs:
           files: |
             **.xml
 
+      - name: Debugging
+        run: |
+          echo "Any modified: ${{ fromJSON(steps.changed-files.outputs.any_modified) }}"
+          echo "Any changed: ${{ fromJSON(steps.changed-files.outputs.any_changed) }}"
+          echo "Any deleted: ${{ fromJSON(steps.changed-files.outputs.any_deleted) }}"
+          echo "All changed files: ${{ fromJSON(steps.changed-files.outputs.all_changed_files) }}"
+          echo "Deleted files: ${{ fromJSON(steps.changed-files.outputs.deleted_files) }}"
+
       # Logs the user in and puts the JSessionID-cookie in the jar
       - name: Login
         # fromJSON converts the string to a boolean
