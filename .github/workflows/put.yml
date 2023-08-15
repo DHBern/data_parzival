@@ -87,8 +87,8 @@ jobs:
           # Split the comma-separated list of filenames into an array
           IFS="," read -ra files_array <<< "${{ steps.changed-files.outputs.deleted_files }}"
           for file in "${files_array[@]}"; do
-            # url-encode the filename
-            filename=$(echo $file | jq -sRr @uri)
+            # url-encode the basename of the file with jq
+            filename=$(basename $file | jq -sRr '@uri')
             echo "running this command: 'curl -X 'DELETE' '${host_url}/api/document/${filename}''"
             curl -X 'DELETE' \
             "${host_url}/api/document/${filename}" \
