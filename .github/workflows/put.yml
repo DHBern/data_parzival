@@ -4,7 +4,7 @@ name: CI
 on:
   # Triggers the workflow on push events but only for the "main" branch
   push:
-    branches: ["main", "2-git-exist-sync"]
+    branches: ["main", "5-exist-git-sync"]
     paths: "**.xml"
 
   # Allows you to run this workflow manually from the Actions tab
@@ -22,6 +22,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - env:
+          EVENT_CONTEXT: ${{ toJSON(github.event) }}
+        run: |
+          echo $EVENT_CONTEXT
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
