@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 24</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 24.01">si nam in selbe mit der hant.</l>
+<l n="*D 24.02">gein den vîenden an die want</l>
+<l n="*D 24.03">sâzen si in diu venster wît</l>
+<l n="*D 24.04">ûf einen kulter, gesteppet samît.</l>
+<l n="*D 24.05">dâr und<reg type="Synkope">e</reg>r ein weichez bette lac.</l>
+<l n="*D 24.06">ist iht liehters denne der tac,</l>
+<l n="*D 24.07">dem gelîchet niht diu künegîn.</l>
+<l n="*D 24.08">si hete wîplîchen sin</l>
+<l n="*D 24.09">unt was ab<reg type="Synkope">e</reg>r anders rîterlîch,</l>
+<l n="*D 24.10">der touwigen rôsen ungelîch.</l>
+<l n="*D 24.11">nâch swarzer varwe was ir schîn,</l>
+<l n="*D 24.12">ir krône ein lieht<reg type="Synkope">e</reg>r <name type="Sonstiges">rubîn</name>.</l>
+<l n="*D 24.13">ir houbet man d<reg type="Synkope">a</reg>r durch sach.</l>
+<l n="*D 24.14">diu wirtîn zir gaste sprach,</l>
+<l n="*D 24.15">daz ir liep w&#x00E6;re sîn kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 24.16">"hêrre, ich hân von iu vernom<reg type="Synkope">e</reg>n</l>
+<l n="*D 24.17">vil rîterlîcher werdecheit.</l>
+<l n="*D 24.18">durch iwer zuht lât iu niht <seg type="singuläre_Lesart">wesen</seg> leit,</l>
+<l n="*D 24.19">ob ich iu mînen kumber klage,</l>
+<l n="*D 24.20">den ich nâhe in mînem herzen trage."</l>
+<l n="*D 24.21">"<seg type="Initiale">M</seg>în helfe i<corr type="Emendation">u</corr>ch, vrouwe, niht irret.</l>
+<l n="*D 24.22">swaz iu war od<reg type="Synkope">e</reg>r wirret,</l>
+<l n="*D 24.23">swâ daz wenden sol mîn hant,</l>
+<l n="*D 24.24">diu sî ze dienste dar benant.</l>
+<l n="*D 24.25">ich bin niht wan einec man.</l>
+<l n="*D 24.26">swer iu tuot od<reg type="Synkope">e</reg>r hât getân,</l>
+<l n="*D 24.27">dâ biut ich gein mînen schilt.</l>
+<l n="*D 24.28"><seg type="Initiale" subtype="Majuskel">D</seg>ie vîende wênec des bevilt."</l>
+<l n="*D 24.29">mit zühten sprach ein vürste sân:</l>
+<l n="*D 24.30">"heten wir einen houbetman,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit> <note>(24.1-21)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(24.3-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="24.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="24.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="24.21"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr14</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="24.28"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="24.29"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="24.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="24.01">
+<rdg>unde nam (Vnd fienge <wit>O</wit> Vnd vie <wit>L</wit> Sie nam <wit>Z</wit>) in (selbe <wit>O</wit> <wit>L</wit> [<wit>Z</wit>]) bî der hant <wit>*G</wit></rdg>
+</app>
+<app loc="24.01">
+<rdg>und vienc (<subst><del>*</del><add>nam</add></subst> <wit>V</wit>) in selbe bî der hant <wit>*T</wit></rdg>
+</app>
+<app loc="24.01">
+<lem>selbe</lem> <rdg>selbes <wit>*m</wit></rdg>
+</app>
+<app loc="24.04">
+<lem>einen</lem> <rdg>einem <wit>*m</wit></rdg>
+</app>
+<app loc="24.08">
+<lem>hete</lem> <rdg>het doch <wit>*m</wit></rdg>
+</app>
+<app loc="24.09">
+<lem>aber</lem> <rdg>ouch <wit>*m</wit></rdg>
+</app>
+<app loc="24.13">
+<lem>sach</lem> <rdg>wol sach <wit>Fr14</wit> <wit>*m</wit></rdg>
+</app>
+<app loc="24.14">
+<lem>wirtîn</lem> <rdg>vürstîn <wit>*m</wit></rdg>
+</app>
+<app loc="24.15">
+<lem>sîn</lem> <rdg>ir <wit>Fr14</wit></rdg>
+</app>
+<app loc="24.16">
+<lem>von iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="24.17">
+<lem>rîterlîcher</lem> <rdg>ritterlîche <wit>*m</wit></rdg>
+</app>
+<app loc="24.18">
+<rdg>durch iuwer zuht lât ir niht leit. <wit>*m</wit></rdg>
+</app>
+<app loc="24.18">
+<lem>iu niht wesen</lem> <rdg>iv nicht <add>sin</add> <wit>Fr14</wit></rdg>
+</app>
+<app loc="24.19">
+<rdg>ob ich iu] vorabe ich <wit>*m</wit></rdg>
+</app>
+<app loc="24.20">
+<lem>in</lem> <rdg>an <wit>*m</wit></rdg>
+</app>
+<app loc="24.21">
+<lem>iuch</lem> <rdg>iwch <wit>D</wit></rdg>
+</app>
+<app loc="24.23">
+<rdg>zwâr, daz wenden sol mîn hant, <wit>*m</wit></rdg>
+</app>
+<app loc="24.25">
+<lem>einec</lem> <rdg>ein einic <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="24.01">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="24.02">
+<rdg>v. in die <wit>*T</wit></rdg>
+</app>
+<app loc="24.03">
+<rdg></rdg>
+</app>
+<app loc="24.04">
+<rdg>gulter von s. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="24.05">
+<rdg></rdg>
+</app>
+<app loc="24.06">
+<rdg>liehter (lýchtes <wit>L</wit>) <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="24.07">
+<rdg></rdg>
+</app>
+<app loc="24.08">
+<rdg>si h. aber w. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> · schîn <wit>*G</wit> <note>(ohne Z)</note> <wit>U</wit> <wit>V</wit></rdg>
+</app>
+<app loc="24.09">
+<rdg>was anders <wit>*G</wit> <note>(ohne Z)</note> was ouch anders <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="24.10">
+<rdg></rdg>
+</app>
+<app loc="24.11">
+<rdg></rdg>
+</app>
+<app loc="24.12">
+<rdg></rdg>
+</app>
+<app loc="24.13">
+<rdg>man (ir <wit>O</wit>) dar d. wol (man wol dadu̽rch <wit>L</wit> dar dorch man wol <wit>U</wit> [<wit>V</wit>]) s. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="24.14">
+<rdg>Diu küneginne zir g. sp., <wit>*T</wit></rdg>
+</app>
+<app loc="24.15">
+<rdg>w&#x00E6;re lîp <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="24.16">
+<rdg></rdg>
+</app>
+<app loc="24.17">
+<rdg>rîterlîche <wit>*T</wit> <note>(ohne V)</note> ritterlichiv <wit>O</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="24.18">
+<rdg>d. i. z. sî iu n. (lat ev n. sin <wit>Z</wit>) l. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="24.19">
+<rdg></rdg>
+</app>
+<app loc="24.20">
+<rdg>nâhen (in <wit>L</wit> nahen in <wit>Z</wit>) m. <wit>*G</wit> nâhen an m. <wit>*T</wit></rdg>
+</app>
+<app loc="24.21">
+<rdg>iu. des n. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="24.22">
+<rdg></rdg>
+</app>
+<app loc="24.23">
+<rdg></rdg>
+</app>
+<app loc="24.24">
+<rdg>dar bewant. <wit>*G</wit> <note>(nur G)</note> <wit>U</wit></rdg>
+</app>
+<app loc="24.25">
+<rdg>wan ein e. (&#x00E6;nich <wit>O</wit> <subst><del>eẏm</del><add>eẏn</add></subst> enich <wit>L</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="24.26">
+<rdg>iu iht t. <wit>*T</wit></rdg>
+</app>
+<app loc="24.27">
+<rdg>engegene biut ich <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="24.28">
+<rdg></rdg>
+</app>
+<app loc="24.29">
+<rdg></rdg>
+</app>
+<app loc="24.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

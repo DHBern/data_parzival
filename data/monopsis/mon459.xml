@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 459</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 459.01"><name type="Person"><seg type="Initiale">P</seg>arzival</name> stuont ûffem snê.</l>
+<l n="*D 459.02">ez t&#x00E6;te einem kranken manne wê,</l>
+<l n="*D 459.03">ob er harnasch trüege,</l>
+<l n="*D 459.04">dâ der vrost sus an in slüege.</l>
+<l n="*D 459.05">der wirt in vuorte in eine gruft,</l>
+<l n="*D 459.06">dar selten kom des windes luft.</l>
+<l n="*D 459.07">dâ lâgen glüendic koln.</l>
+<l n="*D 459.08">die mohte der gast vil gerne doln.</l>
+<l n="*D 459.09">eine kerzen zunde des wirtes hant.</l>
+<l n="*D 459.10">dô entwâpent sich der wîgant.</l>
+<l n="*D 459.11">under im lac ramschoup unt <corr type="Emendation">v</corr>arm.</l>
+<l n="*D 459.12">al sîne lide im wurden warm,</l>
+<l n="*D 459.13">sô daz sîn vel liehten schîn</l>
+<l n="*D 459.14">gap. er mohte wol waltmüede sîn,</l>
+<l n="*D 459.15">wand er het der strâzen wênec g<corr type="Emendation">e</corr>riten,</l>
+<l n="*D 459.16">âne dach die naht des tages erbiten.</l>
+<l n="*D 459.17">als het er manege ander.</l>
+<l n="*D 459.18">getriwen wirt dâ vander.</l>
+<l n="*D 459.19">dâ lac ein roc. den lêch im an</l>
+<l n="*D 459.20">der wirt unt vuort<reg type="Synkope">e</reg>n mit im dan</l>
+<l n="*D 459.21">zeiner andern gruft. dâ inne was</l>
+<l n="*D 459.22">sîniu buoch, dâr an der kiusche las.</l>
+<l n="*D 459.23">nâch des tages site ein alterstein</l>
+<l n="*D 459.24">dâ stuont al blôz. dâr ûf erschein</l>
+<l n="*D 459.25">ein kefse. diu wart schiere erkant:</l>
+<l n="*D 459.26">dar ûffe <name type="Person">Parzivals</name> hant</l>
+<l n="*D 459.27">swuor einen ungevelschten eit,</l>
+<l n="*D 459.28">dâ von vroun <name type="Person">Jeschuten</name> leit</l>
+<l n="*D 459.29">ze liebe wart verkêret</l>
+<l n="*D 459.30">unt ir vröude gemêret.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <note><hi rend="hochgestellt">2</hi></note><wit>Z</wit> <note>(Versdoppelung 459.11-12 nach 457.28)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 459.19-20)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="459.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+<app loc="459.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="459.04">
+<lem>in</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="459.07">
+<lem>glüendic</lem> <rdg>glüejende <wit>*m</wit></rdg>
+</app>
+<app loc="459.09">
+<lem>zunde</lem> <rdg>enzündet <wit>*m</wit></rdg>
+</app>
+<app loc="459.11">
+<lem>varm</lem> <rdg>warm <wit>D</wit> <wit>L</wit></rdg>
+</app>
+<app loc="459.13">
+<rdg>sô daz sîn vel (pfelle <wit>mk</wit>) gap liehten schîn. <wit>*m</wit></rdg>
+</app>
+<app loc="459.14">
+<lem>gap</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="459.15">
+<lem>geriten</lem> <rdg>getriten <wit>D</wit></rdg>
+</app>
+<app loc="459.15">
+<lem>wênec</lem> <rdg>niht mêr <wit>*m</wit></rdg>
+</app>
+<app loc="459.20">
+<lem>mit im</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="459.22">
+<lem>sîniu</lem> <rdg>sîn <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="459.01">
+<rdg></rdg>
+</app>
+<app loc="459.02">
+<rdg></rdg>
+</app>
+<app loc="459.03">
+<rdg></rdg>
+</app>
+<app loc="459.04">
+<rdg>in <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="459.05">
+<rdg></rdg>
+</app>
+<app loc="459.06">
+<rdg></rdg>
+</app>
+<app loc="459.07">
+<rdg>glüende (genv&#x0366;ge <wit>O</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="459.08">
+<rdg>daz m. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="459.09">
+<rdg><note>Versfolge 459.10-9</note> <wit>*T</wit> · k. enzunte des (der <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="459.10">
+<rdg></rdg>
+</app>
+<app loc="459.11">
+<rdg></rdg>
+</app>
+<app loc="459.12">
+<rdg>alle s. gelide (lide <wit>O</wit>) w. warm, <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="459.13">
+<rdg>vel gap l. schîn. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="459.14">
+<rdg>gap <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="459.15">
+<rdg></rdg>
+</app>
+<app loc="459.16">
+<rdg></rdg>
+</app>
+<app loc="459.17">
+<rdg></rdg>
+</app>
+<app loc="459.18">
+<rdg></rdg>
+</app>
+<app loc="459.19">
+<rdg></rdg>
+</app>
+<app loc="459.20">
+<rdg></rdg>
+</app>
+<app loc="459.21">
+<rdg></rdg>
+</app>
+<app loc="459.22">
+<rdg>sîn b., <wit>*T</wit></rdg>
+</app>
+<app loc="459.23">
+<rdg>t. zît ein <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="459.24">
+<rdg>ûf schein <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="459.25">
+<rdg></rdg>
+</app>
+<app loc="459.26">
+<rdg>dar û. swuor Parcifales hant <wit>*T</wit></rdg>
+</app>
+<app loc="459.27">
+<rdg>swuor <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="459.28">
+<rdg></rdg>
+</app>
+<app loc="459.29">
+<rdg></rdg>
+</app>
+<app loc="459.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

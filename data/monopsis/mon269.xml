@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 269</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 269.01"><name type="Person"><seg type="Initiale">P</seg>arzival</name> dô mit triwen vuor:</l>
+<l n="*D 269.02">er nam daz heilictuom, drûf er swuor.</l>
+<l n="*D 269.03">sus stabt er selbe sînen eit.</l>
+<l n="*D 269.04">er sprach: "hân ich werdecheit</l>
+<l n="*D 269.05">- ich hab si od<reg type="Synkope">e</reg>r enhab ir niht -,</l>
+<l n="*D 269.06">swer mich bîme schilde siht,</l>
+<l n="*D 269.07">der prüevet mich gein ritterschaft.</l>
+<l n="*D 269.08">des nam<corr type="Emendation">en</corr> ordenlîchiu kraft,</l>
+<l n="*D 269.09">als uns des schildes ambet sagt,</l>
+<l n="*D 269.10">hât dicke hôhen prîs bejagt.</l>
+<l n="*D 269.11"><seg type="Initiale" subtype="Majuskel">E</seg>z ist ouch noch ein hôher name.</l>
+<l n="*D 269.12">mîn lîp gein werltlîcher schame</l>
+<l n="*D 269.13">immer sî gewenket</l>
+<l n="*D 269.14">unt al mîn prîs verkrenket.</l>
+<l n="*D 269.15">dirre wort sî mit werken pfant</l>
+<l n="*D 269.16">mîn gelücke vor der h&#x0153;hsten hant.</l>
+<l n="*D 269.17">ich hânz dâ vür, die treit got.</l>
+<l n="*D 269.18">nû müeze ich vlusteclîchen spot</l>
+<l n="*D 269.19">ze bêden lîben immer hân</l>
+<l n="*D 269.20">von sîner kraft, ob missetân</l>
+<l n="*D 269.21">disiu vrouwe habe, dô diz geschach,</l>
+<l n="*D 269.22">daz ich ir vürspan von ir brach.</l>
+<l n="*D 269.23">ouch vuort ich mêr goldes dan.</l>
+<l n="*D 269.24">ich was ein tôre unt niht ein man,</l>
+<l n="*D 269.25">gewahsen niht bî witzen.</l>
+<l n="*D 269.26">vil weinens, dâ bî switzen</l>
+<l n="*D 269.27">mit jâmer dolte vil ir lîp.</l>
+<l n="*D 269.28">si ist benam<reg type="Synkope">e</reg>n ein unschuldic wîp.</l>
+<l n="*D 269.29">dâne scheide ich ûz niht mêre;</l>
+<l n="*D 269.30">des sî pfant mîn s&#x00E6;lde unt êre.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(269.10-12, 15-17 und 23-25)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <note>(ohne 269.25)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="269.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit>
+</rdg></app>
+<app loc="269.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="269.27"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="269.29"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="269.02">
+<lem>heilictuom</lem> <rdg>heiltuom (haltumb <wit>mk</wit>) <wit>*m</wit> (<wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="269.05">
+<lem>ir</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="269.07">
+<lem>mich gein</lem> <rdg>gegen mir (<subst><del>*</del><add>gegen mir</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="269.08">
+<lem>namen</lem> <rdg>nam <wit>D</wit></rdg>
+</app>
+<app loc="269.14">
+<lem>al</lem> <rdg>alsô <wit>*m</wit></rdg>
+</app>
+<app loc="269.28">
+<lem>benamen</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="269.01">
+<rdg>P. mit (alda mit <wit>I</wit>) tr. v.: <wit>*G</wit> <note>(ohne Z)</note> · Parcifal mit tr. dô gevuor (swu&#x0366;r <wit>T</wit>): <wit>*T</wit></rdg>
+</app>
+<app loc="269.02">
+<rdg>er nam daz heiltuom unde (druf er <wit>V</wit>) swuor. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="269.03">
+<rdg></rdg>
+</app>
+<app loc="269.04">
+<rdg>er sp.: "hêrre, hân ich werdicheit <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="269.05">
+<rdg>oder ichne (<note>om.</note> <wit>U</wit>) haber n. -, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="269.06">
+<rdg></rdg>
+</app>
+<app loc="269.07">
+<rdg></rdg>
+</app>
+<app loc="269.08">
+<rdg></rdg>
+</app>
+<app loc="269.09">
+<rdg>als mir (<subst><del>*</del><add>vnz</add></subst> <wit>V</wit>) des <wit>*T</wit></rdg>
+</app>
+<app loc="269.10">
+<rdg></rdg>
+</app>
+<app loc="269.11">
+<rdg>daz ist <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="269.12">
+<rdg></rdg>
+</app>
+<app loc="269.13">
+<rdg></rdg>
+</app>
+<app loc="269.14">
+<rdg></rdg>
+</app>
+<app loc="269.15">
+<rdg>der (<subst><del>D*</del><add>Dirre</add></subst> <wit>V</wit>) worte <wit>*T</wit></rdg>
+</app>
+<app loc="269.16">
+<rdg></rdg>
+</app>
+<app loc="269.17">
+<rdg></rdg>
+</app>
+<app loc="269.18">
+<rdg>vlühteclîchen (<subst><del>*</del><add>verlústeclichen</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="269.19">
+<rdg>leben (liden <wit>L</wit>) <wit>*G</wit> <note>(nur GO)</note></rdg>
+</app>
+<app loc="269.20">
+<rdg>vor s. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="269.21">
+<rdg>diu vr. <wit>*T</wit> <note>(nur T)</note> (<wit>L</wit>) · dô daz (<subst><del>d*</del><add>daz</add></subst> <wit>V</wit>) g., <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="269.22">
+<rdg></rdg>
+</app>
+<app loc="269.23">
+<rdg>ich ir mê g. (ir goldes mer <wit>I</wit> mere ir goldes <wit>L</wit> mer goldes <wit>Z</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="269.24">
+<rdg>ein t., n. (<subst><del>*h*</del><add>vnde niht</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="269.25">
+<rdg>gescheiden von den (Gewahsen bi <wit>O</wit> [<wit>L</wit>]) w. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="269.26">
+<rdg></rdg>
+</app>
+<app loc="269.27">
+<rdg>mit j. vil (dise not an shult hat <wit>I</wit>) gedolt ir lîp. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="269.28">
+<rdg></rdg>
+</app>
+<app loc="269.29">
+<rdg>n. m., <wit>*T</wit></rdg>
+</app>
+<app loc="269.30">
+<rdg>es sî <wit>*G</wit> <note>(ohne IZ)</note> wan des sî <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

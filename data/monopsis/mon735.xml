@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 735</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>22.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 735.01"><seg type="Initiale"><corr type="Emendation">Û</corr></seg>f sîner unverzagten reise.</l>
+<l n="*D 735.02">der selbe kurteise</l>
+<l n="*D 735.03">was ein <name type="Person">heid<reg type="Synkope">e</reg>nischer</name> man,</l>
+<l n="*D 735.04">der toufes kunde nie gewan.</l>
+<l n="*D 735.05"><name type="Person">Parzival</name> reit balde</l>
+<l n="*D 735.06">gein eime grôzem walde</l>
+<l n="*D 735.07">ûf einer liehten waste</l>
+<l n="*D 735.08">gein eime rîchen gaste.</l>
+<l n="*D 735.09">ez ist wunder, ob ich armer man</l>
+<l n="*D 735.10">die rîcheit iu gesagen kan,</l>
+<l n="*D 735.11">die der <name type="Person">heiden</name> vür zimierde truoc.</l>
+<l n="*D 735.12">sage ich des mêre denne g<reg type="Synkope">e</reg>nuoc,</l>
+<l n="*D 735.13">dennoch mac ichs iu mêr wol sag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 735.14">wil ich sîner rîcheit niht gedag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 735.15"><seg type="Initiale" subtype="Majuskel">S</seg>waz diende <name type="Person">Artus<reg type="Synkope">e</reg>s</name> hant</l>
+<l n="*D 735.16">ze <name type="Ort">Bertane</name> unt in <name type="Ort">Engellant</name>,</l>
+<l n="*D 735.17">daz vergülte niht die steine,</l>
+<l n="*D 735.18">die mit edelem arde reine</l>
+<l n="*D 735.19">lâgen ûf des heldes wâpenroc.</l>
+<l n="*D 735.20">der was tiure ân al getroc.</l>
+<l n="*D 735.21"><name type="Sonstiges">rubîne</name>, <name type="Sonstiges">calcidône</name></l>
+<l n="*D 735.22">wâren dâ ze swachem lône.</l>
+<l n="*D 735.23">der wâpenroc gap blanken schîn.</l>
+<l n="*D 735.24">in dem berge z<name type="Ort">Agremuntin</name></l>
+<l n="*D 735.25">die würme salamander</l>
+<l n="*D 735.26">in worhten zein ander</l>
+<l n="*D 735.27">in dem heizen viure.</l>
+<l n="*D 735.28">die wâren steine tiure</l>
+<l n="*D 735.29">lâgen drûf tunkel und lieht,</l>
+<l n="*D 735.30">ir art mac ich benennen niht.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 735.26)</note> <wit>V</wit> <wit>Fr69</wit> <note>(735.4-7, 13-15 und 18-21)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <wit>Fr24</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="735.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <wit>U</wit>
+</rdg></app>
+<app loc="735.05"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>Fr69</wit> <wit>Fr24</wit>
+</rdg></app>
+<app loc="735.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="735.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="735.01">
+<lem>Ûf</lem> <rdg>&#x00F7;f <wit>D</wit></rdg>
+</app>
+<app loc="735.13">
+<lem>ichs iu mêr wol</lem> <rdg>ich iu mê wol (ich ev me <wit>I</wit> ich wol mere <wit>L</wit> ichs mer ev wol <wit>Z</wit> ich wol mer iv <wit>Fr18</wit>) <wit>*G</wit> (<wit>V</wit>) ich es mêr wol <wit>*T</wit></rdg>
+</app>
+<app loc="735.13">
+<lem>sagen</lem> <rdg>gesagen <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="735.14">
+<lem>wil ich</lem> <rdg>ich wil <wit>*m</wit></rdg>
+</app>
+<app loc="735.17">
+<lem>vergülte</lem> <rdg>vergülten (ergultten <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="735.19">
+<lem>heldes</lem> <rdg><note>om.</note> (<subst><del>*</del><add>heldez</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="735.21">
+<rdg>rubîne oder calcedône <wit>*m</wit></rdg>
+</app>
+<app loc="735.25">
+<lem>würme</lem> <rdg>tierlîn <wit>*m</wit></rdg>
+</app>
+<app loc="735.28">
+<rdg>die edelen stein tiur <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="735.01">
+<rdg></rdg>
+</app>
+<app loc="735.02">
+<rdg></rdg>
+</app>
+<app loc="735.03">
+<rdg></rdg>
+</app>
+<app loc="735.04">
+<rdg>k. ê nie <wit>*T</wit></rdg>
+</app>
+<app loc="735.05">
+<rdg></rdg>
+</app>
+<app loc="735.06">
+<rdg></rdg>
+</app>
+<app loc="735.07">
+<rdg></rdg>
+</app>
+<app loc="735.08">
+<rdg></rdg>
+</app>
+<app loc="735.09">
+<rdg>ich arman <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="735.10">
+<rdg>dise r. g. (ev g. <wit>I</wit> <wit>Z</wit>) kan, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="735.11">
+<rdg></rdg>
+</app>
+<app loc="735.12">
+<rdg>ich iu des <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="735.13">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="735.14">
+<rdg>n. verdagen (dagen <wit>I</wit>). <wit>*G</wit> <note>(ohne ZFr24)</note> (<wit>Fr69</wit>)</rdg>
+</app>
+<app loc="735.15">
+<rdg>sw. dient A. h., <wit>*G</wit></rdg>
+</app>
+<app loc="735.16">
+<rdg>Britanie und E., <wit>*G</wit></rdg>
+</app>
+<app loc="735.17">
+<rdg>die (daz <wit>*T</wit>) vergülten n. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="735.18">
+<rdg></rdg>
+</app>
+<app loc="735.19">
+<rdg>des heiden w. <wit>*G</wit> <note>(ohne Fr18)</note></rdg>
+</app>
+<app loc="735.20">
+<rdg>die wâren (<subst><del>D*</del><add>Die worent</add></subst> <wit>V</wit>) t. <wit>*G</wit> <wit>*T</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="735.21">
+<rdg></rdg>
+</app>
+<app loc="735.22">
+<rdg></rdg>
+</app>
+<app loc="735.23">
+<rdg>gab liehten sch. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="735.24">
+<rdg></rdg>
+</app>
+<app loc="735.25">
+<rdg></rdg>
+</app>
+<app loc="735.26">
+<rdg></rdg>
+</app>
+<app loc="735.27">
+<rdg></rdg>
+</app>
+<app loc="735.28">
+<rdg>daz (<subst><del>D*</del><add>daz</add></subst> <wit>U</wit>) w. <wit>*T</wit></rdg>
+</app>
+<app loc="735.29">
+<rdg></rdg>
+</app>
+<app loc="735.30">
+<rdg>ir art mac ich (ich mach <wit>L</wit>) genennen n. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

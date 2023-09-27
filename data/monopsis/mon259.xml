@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 259</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 259.01">si muose in doch erbarmen.</l>
+<l n="*D 259.02">mit henden unt mit armen</l>
+<l n="*D 259.03">begunde si sich decken</l>
+<l n="*D 259.04">vor <name type="Person">Parzival</name>, dem recken.</l>
+<l n="*D 259.05"><seg type="Initiale">D</seg>ô sprach er: "vrouwe, nemt durch got</l>
+<l n="*D 259.06">ûf rehten dienst sund<reg type="Synkope">e</reg>r spot</l>
+<l n="*D 259.07">an iwern lîp mîn kursît."</l>
+<l n="*D 259.08">"hêrre, w&#x00E6;re daz âne strît,</l>
+<l n="*D 259.09">daz al mîn vreude l&#x00E6;ge dran,</l>
+<l n="*D 259.10">sô get<corr type="Emendation">ö</corr>rst ichz doch niht grîfen an.</l>
+<l n="*D 259.11"><seg type="Initiale" subtype="Majuskel">W</seg>elt ir uns t&#x0153;tens machen vrî,</l>
+<l n="*D 259.12">sô rîtet, daz ich iu verre sî.</l>
+<l n="*D 259.13">doch klagte ich wênec mîn nôt,</l>
+<l n="*D 259.14">wan daz ich vürhte, ir kiest den tôt."</l>
+<l n="*D 259.15"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "vrouwe, wer n&#x00E6;me unsz leb<reg type="Synkope">e</reg>n?</l>
+<l n="*D 259.16">daz hât uns gotes kraft gegeb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 259.17">ob des gerte ein ganzez her,</l>
+<l n="*D 259.18">man s&#x00E6;he mich vür uns ze wer."</l>
+<l n="*D 259.19"><seg type="Initiale" subtype="Majuskel">S</seg>i sprach: "es gert ein werd<reg type="Synkope">e</reg>r degen,</l>
+<l n="*D 259.20">der hât sich strîtes sô bewegen,</l>
+<l n="*D 259.21">iwer sehse k&#x0153;men si in arbeit.</l>
+<l n="*D 259.22">mir ist iwer rîten bî mir leit.</l>
+<l n="*D 259.23">ich was etswenne sîn wîp.</l>
+<l n="*D 259.24">nû m<corr type="Emendation">ö</corr>hte mîn vertwâlet lîp</l>
+<l n="*D 259.25">des heldes diern niht gesîn.</l>
+<l n="*D 259.26">sus tuot er gein mir zürnen schîn."</l>
+<l n="*D 259.27"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er zuo der vrouwen sân:</l>
+<l n="*D 259.28">"wer ist hie mit iwerem man?</l>
+<l n="*D 259.29">wan vlühe ich nû durch iwern rât,</l>
+<l n="*D 259.30">daz diuhte iuch lîhte ein missetât.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(259.1-4)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="259.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="259.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="259.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="259.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="259.15"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="259.19"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="259.27"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app><app loc="259.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="259.30"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="259.10">
+<lem>getörst</lem> <rdg>getorst <wit>D</wit></rdg>
+</app>
+<app loc="259.11">
+<lem>t&#x0153;tens machen</lem> <rdg>machen tôdes <wit>*m</wit></rdg>
+</app>
+<app loc="259.13">
+<lem>mîn nôt</lem> <rdg>mînen tôt <wit>*m</wit></rdg>
+</app>
+<app loc="259.14">
+<lem>kiest den tôt</lem> <rdg>komets in nôt <wit>*m</wit></rdg>
+</app>
+<app loc="259.15">
+<rdg>"vrouwe (do sprach er vrowe <wit>I</wit> [<wit>Z</wit>] Er sprach frowe <wit>O</wit> [<wit>L</wit> <wit>Fr21</wit>]), wer n&#x00E6;me uns (<note>om.</note> <wit>I</wit>) unser (daz <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) leben? <wit>*G</wit></rdg>
+</app>
+<app loc="259.15">
+<lem>unsz</lem> <rdg>unser <wit>*m</wit></rdg>
+</app>
+<app loc="259.17">
+<lem>des</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="259.18">
+<lem>uns</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="259.24">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="259.30">
+<rdg>daz diuhte (dohte <wit>mk</wit>) iuch lîhte ein missetât, <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="259.01">
+<rdg></rdg>
+</app>
+<app loc="259.02">
+<rdg></rdg>
+</app>
+<app loc="259.03">
+<rdg></rdg>
+</app>
+<app loc="259.04">
+<rdg></rdg>
+</app>
+<app loc="259.05">
+<rdg></rdg>
+</app>
+<app loc="259.06">
+<rdg></rdg>
+</app>
+<app loc="259.07">
+<rdg></rdg>
+</app>
+<app loc="259.08">
+<rdg>Si sprach: "unde (<subst><del>*</del><add>Herre</add></subst> <wit>V</wit>) w. daz âne st., <wit>*T</wit></rdg>
+</app>
+<app loc="259.09">
+<rdg></rdg>
+</app>
+<app loc="259.10">
+<rdg>d. (<note>om.</note> <wit>*T</wit> <wit>I</wit>) n. nemen (legen <wit>I</wit> grîfen <wit>*T</wit>) an (<note>om.</note> <wit>U</wit>). <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(nur T)</note></rdg>
+</app>
+<app loc="259.11">
+<rdg>w. ir (<note>om.</note> <wit>U</wit>) uns m. tôdes (todes machen <wit>L</wit>) vrî, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="259.12">
+<rdg></rdg>
+</app>
+<app loc="259.13">
+<rdg>wênic mînen tôt, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="259.14">
+<rdg>ir komts (chomt sin <wit>I</wit> [<wit>L</wit>] komt <wit>Z</wit> [<wit>U</wit>] komentz <wit>T</wit>) in nôt." <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="259.15">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="259.16">
+<rdg>kr. g., <wit>*T</wit></rdg>
+</app>
+<app loc="259.17">
+<rdg>unde ob (<note>om.</note> <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="259.18">
+<rdg>vür in ze <wit>*T</wit></rdg>
+</app>
+<app loc="259.19">
+<rdg>"des (ez <wit>V</wit>) g. <wit>*T</wit></rdg>
+</app>
+<app loc="259.20">
+<rdg></rdg>
+</app>
+<app loc="259.21">
+<rdg>k&#x0153;met es (cômet ez <wit>T</wit> quamen is <wit>U</wit>) in <wit>*T</wit></rdg>
+</app>
+<app loc="259.22">
+<rdg></rdg>
+</app>
+<app loc="259.23">
+<rdg></rdg>
+</app>
+<app loc="259.24">
+<rdg></rdg>
+</app>
+<app loc="259.25">
+<rdg></rdg>
+</app>
+<app loc="259.26">
+<rdg>g. mir zornes (zu̽rnen gein mir <wit>L</wit> [<wit>Z</wit>] zorne <wit>U</wit>) sch." <wit>*G</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="259.27">
+<rdg></rdg>
+</app>
+<app loc="259.28">
+<rdg></rdg>
+</app>
+<app loc="259.29">
+<rdg>wan <note>om.</note> <wit>*T</wit> <wit>G</wit></rdg>
+</app>
+<app loc="259.30">
+<rdg>ein <note>om.</note> <wit>*G</wit> <note>(nur GL)</note> <wit>U</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

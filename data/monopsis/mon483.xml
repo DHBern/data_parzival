@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 483</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 483.01"><seg type="Initiale">D</seg>er dâ wehset under sîme horne;</l>
+<l n="*D 483.02">wir bestrichen die wunden vorne</l>
+<l n="*D 483.03">und besouften den stein drinne gar.</l>
+<l n="*D 483.04">diu wunde was êt lüppec var;</l>
+<l n="*D 483.05">daz tet uns mit dem künege wê.</l>
+<l n="*D 483.06">wir gewunnen eine würzen, heizet trachontê</l>
+<l n="*D 483.07">- wir h&#x0153;ren von der würze sagen,</l>
+<l n="*D 483.08">swâ ein trache werde erslagen,</l>
+<l n="*D 483.09">si wahse von dem bluote;</l>
+<l n="*D 483.10">der würze ist sô ze muote,</l>
+<l n="*D 483.11">si hât al des luftes art -,</l>
+<l n="*D 483.12">ob uns des trachen umbevart</l>
+<l n="*D 483.13">dar zuo m<corr type="Emendation">ö</corr>ht iht gevromen</l>
+<l n="*D 483.14">vür der sterne widerkomen</l>
+<l n="*D 483.15">unt vür des mânen wandeltac,</l>
+<l n="*D 483.16">dâr an der wunden smerze lac.</l>
+<l n="*D 483.17">der würze edel, hôch geslehte</l>
+<l n="*D 483.18">kom uns dâ vür niht rehte.</l>
+<l n="*D 483.19">unser venje vielen wir vür den <name type="Sonstiges">Grâl</name>.</l>
+<l n="*D 483.20">dâr an gesâhen wir zeinem mâl</l>
+<l n="*D 483.21">geschriben, dar solde ein rîter kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 483.22">würde des vrâge aldâ vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 483.23">sô solde der kumber ende hân.</l>
+<l n="*D 483.24">ez w&#x00E6;re kint, magt ode man,</l>
+<l n="*D 483.25">daz in der vrâge warnet iht,</l>
+<l n="*D 483.26">sône solde diu vrâge helfen niht,</l>
+<l n="*D 483.27">wan daz der schade stüende als ê</l>
+<l n="*D 483.28">unt herzelîcher t&#x00E6;te wê.</l>
+<l n="*D 483.29">diu schrift sprach: 'habt ir daz vernom<reg type="Synkope">e</reg>n?</l>
+<l n="*D 483.30">iwer warnen mac ze schaden kom<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="483.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="483.05"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="483.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="483.17"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="483.29"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="483.01">
+<rdg>der wehset under sînem horn, <wit>*m</wit></rdg>
+</app>
+<app loc="483.02">
+<lem>wir</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="483.06">
+<rdg>Wir gewonnen eine wize Dragvnte <wit>L</wit></rdg>
+</app>
+<app loc="483.07">
+<rdg>- von der h&#x0153;ren wir sagen, <wit>*m</wit></rdg>
+</app>
+<app loc="483.08">
+<lem>werde</lem> <rdg>würde <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="483.11">
+<lem>al</lem> <rdg>alle <wit>*m</wit></rdg>
+</app>
+<app loc="483.13">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="483.22">
+<lem>vrâge aldâ</lem> <rdg>vrâgen dâ <wit>*m</wit></rdg>
+</app>
+<app loc="483.29">
+<lem>schrift</lem> <rdg>geschrift <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="483.01">
+<rdg>u. sînem h., <wit>*T</wit></rdg>
+</app>
+<app loc="483.02">
+<rdg>unde b. <wit>*T</wit></rdg>
+</app>
+<app loc="483.03">
+<rdg></rdg>
+</app>
+<app loc="483.04">
+<rdg></rdg>
+</app>
+<app loc="483.05">
+<rdg></rdg>
+</app>
+<app loc="483.06">
+<rdg>ein würz, diu h. &#x2193;<wit>*G</wit> <note>(nur GO)</note></rdg>
+</app>
+<app loc="483.07">
+<rdg></rdg>
+</app>
+<app loc="483.08">
+<rdg></rdg>
+</app>
+<app loc="483.09">
+<rdg></rdg>
+</app>
+<app loc="483.10">
+<rdg></rdg>
+</app>
+<app loc="483.11">
+<rdg></rdg>
+</app>
+<app loc="483.12">
+<rdg></rdg>
+</app>
+<app loc="483.13">
+<rdg>zuo <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> · iht (<subst><del>*</del><add>iht</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="483.14">
+<rdg></rdg>
+</app>
+<app loc="483.15">
+<rdg></rdg>
+</app>
+<app loc="483.16">
+<rdg>dâr an des küneges (<subst><del>de*</del><add>des kvniges</add></subst> <wit>V</wit>) sm. lac. <wit>*T</wit></rdg>
+</app>
+<app loc="483.17">
+<rdg></rdg>
+</app>
+<app loc="483.18">
+<rdg></rdg>
+</app>
+<app loc="483.19">
+<rdg></rdg>
+</app>
+<app loc="483.20">
+<rdg>dô (<subst><del>Da*</del><add>Dar an</add></subst> <wit>V</wit>) g. (sahen <wit>V</wit> <wit>O</wit>) <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="483.21">
+<rdg></rdg>
+</app>
+<app loc="483.22">
+<rdg>vrâgen al (frage <wit>O</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="483.23">
+<rdg></rdg>
+</app>
+<app loc="483.24">
+<rdg></rdg>
+</app>
+<app loc="483.25">
+<rdg></rdg>
+</app>
+<app loc="483.26">
+<rdg></rdg>
+</app>
+<app loc="483.27">
+<rdg></rdg>
+</app>
+<app loc="483.28">
+<rdg></rdg>
+</app>
+<app loc="483.29">
+<rdg></rdg>
+</app>
+<app loc="483.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

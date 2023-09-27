@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 50</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 50.01">"dâne erkant ich niht des ankers dîn.</l>
+<l n="*D 50.02">mîner muomen man <name type="Person">Gandin</name></l>
+<l n="*D 50.03">hât in gevüeret selten ûz."</l>
+<l n="*D 50.04">"dô erkante ab<reg type="Synkope">e</reg>r ich wol dînen strûz,</l>
+<l n="*D 50.05">ame schilde ein sarapandratest.</l>
+<l n="*D 50.06">dîn strûz stuont hôch sund<reg type="Synkope">e</reg>r nest.</l>
+<l n="*D 50.07"><seg type="Initiale">I</seg>ch sach an dîner gelegenheit,</l>
+<l n="*D 50.08">dir was diu sicherheit vil leit,</l>
+<l n="*D 50.09">die mir tâten zwêne man.</l>
+<l n="*D 50.10">die hetens dâ vil guot getân."</l>
+<l n="*D 50.11">"mir w&#x00E6;re ouch lîhte alsam geschehen.</l>
+<l n="*D 50.12">ich muoz des eime tiuvel jehen,</l>
+<l n="*D 50.13">des vuor ich nimmer wirde vrô.</l>
+<l n="*D 50.14">het er den prîs behalten sô</l>
+<l n="*D 50.15">an vrevelen helden sô dîn lîp,</l>
+<l n="*D 50.16">vür zucker g<reg type="Synkope">e</reg>&#x00E6;zen in diu wîp."</l>
+<l n="*D 50.17">"<seg type="Initiale" subtype="Majuskel">D</seg>în munt mir lob<reg type="Synkope">e</reg>s ze vil vergiht."</l>
+<l n="*D 50.18">"nein, ine kan gesmeichen niht.</l>
+<l n="*D 50.19">nim ander<reg type="Synkope">e</reg>r mîner helfe war."</l>
+<l n="*D 50.20">si riefen <name type="Person">Razalige</name> dar.</l>
+<l n="*D 50.21">mit zühten sprach dô <name type="Person">Kaylet</name>:</l>
+<l n="*D 50.22">"iuch hât mîn neve <name type="Person">Gahmuret</name></l>
+<l n="*D 50.23">mit sîner hant gevangen."</l>
+<l n="*D 50.24">"hêrre, daz ist ergangen.</l>
+<l n="*D 50.25"><seg type="Initiale" subtype="Majuskel">I</seg>ch hân den dâ vür erkant,</l>
+<l n="*D 50.26">daz im <name type="Ort">Azagouc</name>, daz lant,</l>
+<l n="*D 50.27">mit dienste nimmer wirt verspart,</l>
+<l n="*D 50.28">sît unser hêrre <name type="Person">Isenhart</name></l>
+<l n="*D 50.29">aldâ niht krône solde tragen.</l>
+<l n="*D 50.30">er wart in ir dienste erslagen,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="50.01"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>T</wit>
+</rdg></app>
+<app loc="50.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="50.07"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="50.07"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="50.17"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="50.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="50.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="50.20"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="50.21"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="50.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="50.25"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app><app loc="50.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="50.01">
+<lem>erkant</lem> <rdg>kant <wit>*m</wit></rdg>
+</app>
+<app loc="50.04">
+<lem>wol</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="50.06">
+<rdg>dîn strûz, der stuont (Do stvnt din stru̽z ho <wit>L</wit>) sunder nest. <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="50.06">
+<lem>hôch</lem> <rdg>h&#x0153;her (<subst><del>*</del><add>hoch</add></subst> <wit>V</wit> hohe <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="50.10">
+<rdg>die hetenz ouch (<note>om.</note> <wit>O</wit> <wit>L</wit>) dâ vil (<note>om.</note> <wit>I</wit>) guot getân." <wit>*G</wit></rdg>
+</app>
+<app loc="50.10">
+<rdg>die hatten (hettens <wit>V</wit> [<wit>T</wit>]) dâ vil wol (gv&#x0366;t <wit>T</wit>) getân." <wit>*T</wit></rdg>
+</app>
+<app loc="50.10">
+<lem>hetens</lem> <rdg>hetenz <wit>*m</wit></rdg>
+</app>
+<app loc="50.11">
+<lem>alsam</lem> <rdg>alsô <wit>*m</wit></rdg>
+</app>
+<app loc="50.12">
+<lem>des</lem> <rdg>es <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="50.19">
+<lem>anderer</lem> <rdg>ander <wit>*m</wit></rdg>
+</app>
+<app loc="50.25">
+<lem>den</lem> <rdg>den helt <wit>*m</wit></rdg>
+</app>
+<app loc="50.27">
+<lem>wirt</lem> <rdg>würde <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="50.01">
+<rdg></rdg>
+</app>
+<app loc="50.02">
+<rdg></rdg>
+</app>
+<app loc="50.03">
+<rdg></rdg>
+</app>
+<app loc="50.04">
+<rdg>"sô erkande <wit>*G</wit> <note>(nur GI)</note> · a. ich d. st. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="50.05">
+<rdg>und (<note>om.</note> <wit>T</wit>) an mîme (<subst><del>*</del><add>dime</add></subst> <wit>V</wit>) schilt <wit>*T</wit></rdg>
+</app>
+<app loc="50.06">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="50.07">
+<rdg></rdg>
+</app>
+<app loc="50.08">
+<rdg></rdg>
+</app>
+<app loc="50.09">
+<rdg></rdg>
+</app>
+<app loc="50.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="50.11">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(ohne L)</note> · l. alsô g. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="50.12">
+<rdg>ich wil des (wolte es <wit>L</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="50.13">
+<rdg>würde <wit>*T</wit></rdg>
+</app>
+<app loc="50.14">
+<rdg>b. dô <wit>*T</wit> <note>(nur U)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="50.15">
+<rdg>an vrechen (werden <wit>V</wit>) h. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="50.16">
+<rdg></rdg>
+</app>
+<app loc="50.17">
+<rdg></rdg>
+</app>
+<app loc="50.18">
+<rdg>kan smeichen (gesmaichent <wit>I</wit> gesmeicheln <wit>L</wit>) n. <wit>*G</wit> <note>(nur G)</note> <wit>V</wit></rdg>
+</app>
+<app loc="50.19">
+<rdg>nim ander (anders <wit>I</wit> <subst><del>*</del><add>ander</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit> <note>(ohne T)</note> · mînes dienstes war." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="50.21">
+<rdg>dô sp. der künic Kailet: <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="50.22">
+<rdg>"hât iuch <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="50.23">
+<rdg>h. g.?" <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="50.24">
+<rdg></rdg>
+</app>
+<app loc="50.25">
+<rdg>hân den helt dâ <wit>*G</wit> <wit>T</wit> hân in dâ <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="50.26">
+<rdg></rdg>
+</app>
+<app loc="50.27">
+<rdg></rdg>
+</app>
+<app loc="50.28">
+<rdg></rdg>
+</app>
+<app loc="50.29">
+<rdg></rdg>
+</app>
+<app loc="50.30">
+<rdg>in ir d. er w. e., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

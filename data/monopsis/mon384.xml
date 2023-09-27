@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 384</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 384.01"><name type="Person"><seg type="Initiale"><corr type="Emendation">M</corr></seg>elyanze</name> er helfe sich bewac.</l>
+<l n="*D 384.02">der erwarb ouch im von <name type="Ort">Semblidac</name></l>
+<l n="*D 384.03">zwelf knappen, die sîn nâmen war</l>
+<l n="*D 384.04">an der tjoste unt an der poynd<reg type="Synkope">e</reg>r schar.</l>
+<l n="*D 384.05">swaz sper gebieten moht ir hant,</l>
+<l n="*D 384.06">diu wurden gar von im verswant.</l>
+<l n="*D 384.07">sîne tjoste wâren mit hurte hel,</l>
+<l n="*D 384.08">wander den künec <name type="Person">Schirniel</name></l>
+<l n="*D 384.09">unt sînen bruod<reg type="Synkope">e</reg>r dâ vienc.</l>
+<l n="*D 384.10">dennoch dâ mêr von im ergienc:</l>
+<l n="*D 384.11">sicherheit er niht erliez</l>
+<l n="*D 384.12">den herzogen <name type="Person">Marangliez</name>.</l>
+<l n="*D 384.13">die wâren des ortes herte.</l>
+<l n="*D 384.14">ir volc sich dennoch werte.</l>
+<l n="*D 384.15"><name type="Person">Meljanz</name>, der künec, dâ selbe streit.</l>
+<l n="*D 384.16">swem er lieb unt herzeleit</l>
+<l n="*D 384.17">hete getân, die muosen jeh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 384.18">daz selten mêre w&#x00E6;re gescheh<reg type="Synkope">e</reg>n</l>
+<l n="*D 384.19">von decheinem alsô jungen man,</l>
+<l n="*D 384.20">alsez dâ von im wart getân.</l>
+<l n="*D 384.21">sîn hant vil vester schilde kloup.</l>
+<l n="*D 384.22">waz starker sper vor im zerstoup,</l>
+<l n="*D 384.23">dâ sich poynd<reg type="Synkope">e</reg>r in den poynd<reg type="Synkope">e</reg>r slôz.</l>
+<l n="*D 384.24">sîn jungez herze was sô grôz,</l>
+<l n="*D 384.25">daz er strît<reg type="Synkope">e</reg>s muose gern.</l>
+<l n="*D 384.26">des enmoht in niemen dâ gewern</l>
+<l n="*D 384.27">volleclîche, daz was ein nôt,</l>
+<l n="*D 384.28">unz er <name type="Person">Gawane</name> tjustieren bôt.</l>
+<l n="*D 384.29"><name type="Person"><seg type="Initiale">G</seg>awan</name> ze sîme knappen nam</l>
+<l n="*D 384.30">der zwelf sper einez von <name type="Ort">Angram</name>,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(384.1-9)</note> <wit>Fr41</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="384.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app>
+<app loc="384.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="384.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr41</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="384.01">
+<lem>Melyanze</lem> <rdg>&#x00F7;elyanze <wit>D</wit></rdg>
+</app>
+<app loc="384.07">
+<rdg>sîne tjoste wâren (die waren <wit>Fr21</wit>) mit (von <wit>O</wit> <wit>L</wit> <wit>Fr21</wit> <subst><del>*</del><add>von</add></subst> <wit>V</wit>) hurte (hurten <wit>Z</wit> tiost <wit>Fr21</wit>) snel (hel <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <subst><del>*</del><add>snel</add></subst> <wit>V</wit>), <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="384.07">
+<lem>mit</lem> <rdg>von <wit>*m</wit></rdg>
+</app>
+<app loc="384.16">
+<lem>unt</lem> <rdg>oder <wit>*m</wit></rdg>
+</app>
+<app loc="384.22">
+<lem>vor im zerstoup</lem> <rdg>von ime stoup <wit>*m</wit></rdg>
+</app>
+<app loc="384.23">
+<lem>den</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="384.29">
+<rdg>von (Don <wit>T</wit>) sînen knappen er dô (:::ze sinem knappen <wit>Fr41</wit> <subst><del>*</del><add>Gawan von sinen knappen</add></subst> <wit>V</wit>) nam <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="384.29">
+<lem>sîme</lem> <rdg>sînen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="384.01">
+<rdg>bewac, <wit>*T</wit></rdg>
+</app>
+<app loc="384.02">
+<rdg>dem er wart (<subst><del>De*</del><add>Der</add></subst> erwarp <subst><del>*</del><add>im</add></subst> <wit>V</wit>) ou. von (vo <wit>T</wit>) S. <wit>*T</wit></rdg>
+</app>
+<app loc="384.03">
+<rdg></rdg>
+</app>
+<app loc="384.04">
+<rdg>zer (an der <wit>Fr41</wit>) tjost unde (<note>om.</note> <wit>V</wit>) in (<note>om.</note> <wit>L</wit>) der ponder sch. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="384.05">
+<rdg></rdg>
+</app>
+<app loc="384.06">
+<rdg></rdg>
+</app>
+<app loc="384.07">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="384.08">
+<rdg></rdg>
+</app>
+<app loc="384.09">
+<rdg></rdg>
+</app>
+<app loc="384.10">
+<rdg>dannoch mêr von im dâ (<note>om.</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>) e.: <wit>*G</wit> (<wit>V</wit>) · dannoch von im noch mêr e.: <wit>*T</wit></rdg>
+</app>
+<app loc="384.11">
+<rdg></rdg>
+</app>
+<app loc="384.12">
+<rdg></rdg>
+</app>
+<app loc="384.13">
+<rdg></rdg>
+</app>
+<app loc="384.14">
+<rdg></rdg>
+</app>
+<app loc="384.15">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="384.16">
+<rdg>liep oder h. (leit <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="384.17">
+<rdg>h. g., der muose j., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="384.18">
+<rdg>daz s. (selbe <wit>L</wit>) ê was (was ê <wit>O</wit>) g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="384.19">
+<rdg></rdg>
+</app>
+<app loc="384.20">
+<rdg>dâ w. von im <wit>*G</wit> <note>(ohne LZ)</note> von im dâ w. (wart <subst><del>*</del><add>do</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>I</wit> <wit>Fr41</wit>)</rdg>
+</app>
+<app loc="384.21">
+<rdg></rdg>
+</app>
+<app loc="384.22">
+<rdg>sp. (<note>om.</note> <wit>T</wit>) von im (in <wit>G</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="384.23">
+<rdg>den (<subst><del>*</del><add>den</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="384.24">
+<rdg></rdg>
+</app>
+<app loc="384.25">
+<rdg></rdg>
+</app>
+<app loc="384.26">
+<rdg></rdg>
+</app>
+<app loc="384.27">
+<rdg></rdg>
+</app>
+<app loc="384.28">
+<rdg></rdg>
+</app>
+<app loc="384.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="384.30">
+<rdg>zwelf <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

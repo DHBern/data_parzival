@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 81</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 81.01">des twanc in werdiu minne</l>
+<l n="*D 81.02">einer rîchen küneginne.</l>
+<l n="*D 81.03">diu kom ouch sît nâch im in nôt.</l>
+<l n="*D 81.04">si lag an klagenden triwen tôt.</l>
+<l n="*D 81.05"><seg type="Initiale" subtype="Majuskel">S</seg>wie <name type="Person">Gahmuret</name> w&#x00E6;re ouch mit klage,</l>
+<l n="*D 81.06">doch het er an dem halben tage</l>
+<l n="*D 81.07">gevrumt sô vil der sper enzwei.</l>
+<l n="*D 81.08">w&#x00E6;re worden der turnei,</l>
+<l n="*D 81.09">sô w&#x00E6;re verswendet der walt.</l>
+<l n="*D 81.10">geverwet hundert im wâren gezalt,</l>
+<l n="*D 81.11"><seg type="Initiale">D</seg>i<corr type="Emendation">u</corr> gar vertet der fiere.</l>
+<l n="*D 81.12">sîne liehten baniere</l>
+<l n="*D 81.13">wâren den krîgiere<corr type="Emendation">r</corr>n worden.</l>
+<l n="*D 81.14">daz was in ir orden.</l>
+<l n="*D 81.15">dô reit er gein dem poulûn.</l>
+<l n="*D 81.16">der <name type="Person">Waleisinne</name> garzûn</l>
+<l n="*D 81.17">huop sich nâch im ûf die vart.</l>
+<l n="*D 81.18">der tiwer wâpenroc im wart</l>
+<l n="*D 81.19">durchstochen unt verhouwen.</l>
+<l n="*D 81.20">den truog er vür die vrouwen.</l>
+<l n="*D 81.21">er was von golde dennoch guot.</l>
+<l n="*D 81.22">er gleste als ein glüendic gluot.</l>
+<l n="*D 81.23">dâr an kôs man rîcheit.</l>
+<l n="*D 81.24">dô sprach diu künegîn gemeit:</l>
+<l n="*D 81.25">"dich hât ein werdez wîp gesant</l>
+<l n="*D 81.26">bî disem ritt<reg type="Synkope">e</reg>r in ditze lant.</l>
+<l n="*D 81.27"><seg type="Initiale" subtype="Majuskel">N</seg>û mant mich diu vuoge mîn,</l>
+<l n="*D 81.28">daz die andern niht verkrenket sîn,</l>
+<l n="*D 81.29">die âventiure brâhte dar.</l>
+<l n="*D 81.30">ieslîcher nem mînes wunsches war,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="81.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="81.05"><rdg>
+<note>Initiale</note> <wit>L</wit><wit>Z</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="81.05"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="81.11"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="81.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="81.15"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+<app loc="81.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="81.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="81.27"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="81.27"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="81.01">
+<rdg>den riet (demriet <wit>I</wit> <subst><del>*</del><add>Daz riet im</add></subst> <wit>V</wit>) ein (div <wit>O</wit> [<wit>L</wit>] <wit>T</wit>) werdiu (werde <wit>T</wit>) minne <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="81.11">
+<lem>Diu</lem> <rdg>Die <wit>D</wit></rdg>
+</app>
+<app loc="81.13">
+<lem>krîgierern</lem> <rdg>chrigîren <wit>D</wit></rdg>
+</app>
+<app loc="81.14">
+<lem>was</lem> <rdg>was wol <wit>*m</wit></rdg>
+</app>
+<app loc="81.22">
+<rdg>unde (Er <wit>Z</wit>) glaste als (sam <wit>O</wit>) ein glüende (glvgendiger <wit>L</wit> glu&#x0364;gender <wit>V</wit>) gluot (von golde als ein glo&#x036E;t <wit>T</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="81.22">
+<lem>glüendic</lem> <rdg>glüende <wit>*m</wit></rdg>
+</app>
+<app loc="81.29">
+<lem>die</lem> <rdg>die diu <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="81.01">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="81.02">
+<rdg></rdg>
+</app>
+<app loc="81.03">
+<rdg>sît durch in (sit von im <wit>I</wit> [<wit>O</wit>] <wit>T</wit>) in nôt. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="81.04">
+<rdg>an klagenden riwen lac si tôt. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="81.05">
+<rdg>G. was (wer <wit>Z</wit>) ou. mit kl. <wit>*G</wit></rdg>
+</app>
+<app loc="81.06">
+<rdg>an dem selben t. <wit>*G</wit> <note>(ohne Z)</note> in dem h. t. <wit>*T</wit> <wit>O</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="81.07">
+<rdg>sô <note>om.</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="81.08">
+<rdg></rdg>
+</app>
+<app loc="81.09">
+<rdg>w. gar v. (verswendet gar <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="81.10">
+<rdg>h. sper im w. (wart <wit>I</wit>) g., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="81.11">
+<rdg></rdg>
+</app>
+<app loc="81.12">
+<rdg></rdg>
+</app>
+<app loc="81.13">
+<rdg>den krojierern wâren w. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="81.14">
+<rdg>daz was wol in ir (wol im mer <wit>I</wit>) o. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="81.15">
+<rdg>dô kêrter (chert <wit>I</wit>) g.<wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="81.16">
+<rdg>der (die <wit>U</wit>) küniginne g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="81.17">
+<rdg></rdg>
+</app>
+<app loc="81.18">
+<rdg></rdg>
+</app>
+<app loc="81.19">
+<rdg>d. und durchhouwen. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="81.20">
+<rdg></rdg>
+</app>
+<app loc="81.21">
+<rdg>der was (waz da <wit>V</wit>) dannoch von g. (von g. d. <wit>*T</wit> <wit>O</wit> <wit>L</wit> [<wit>Z</wit>]) guot <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="81.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="81.23">
+<rdg></rdg>
+</app>
+<app loc="81.24">
+<rdg></rdg>
+</app>
+<app loc="81.25">
+<rdg></rdg>
+</app>
+<app loc="81.26">
+<rdg></rdg>
+</app>
+<app loc="81.27">
+<rdg></rdg>
+</app>
+<app loc="81.28">
+<rdg>iht (ih <wit>T</wit>) <wit>*G</wit> <note>(ohne I)</note> <wit>V</wit> êt <wit>*T</wit></rdg>
+</app>
+<app loc="81.29">
+<rdg>die diu (diu die <wit>I</wit>) â. <wit>*G</wit> <note>(ohne Z)</note> (<wit>V</wit> <wit>T</wit>) · br. (brahten <wit>V</wit>) har <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="81.30">
+<rdg>w. war: <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

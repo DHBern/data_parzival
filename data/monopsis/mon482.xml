@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 482</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 482.01"><seg type="Initiale">D</seg>ar ûf <name type="Person">Sibille</name> jach</l>
+<l n="*D 482.02"><name type="Person">Eneas</name> vür hellesch ungemach</l>
+<l n="*D 482.03">unt vür de<corr type="Emendation">n</corr> <name type="Ort">Flegetonen</name> rouch,</l>
+<l n="*D 482.04">vür ander vlüzze, die drinne vliezent, ouch.</l>
+<l n="*D 482.05">des nâmen wir uns muoze</l>
+<l n="*D 482.06">unt gewunnen daz rîs ze buoze,</l>
+<l n="*D 482.07">ob daz sper ungehiure</l>
+<l n="*D 482.08">in dem <seg type="singuläre_Lesart">hellischem</seg> viure</l>
+<l n="*D 482.09">w&#x00E6;re gelüppet ode gel&#x0153;t,</l>
+<l n="*D 482.10">daz uns <seg type="singuläre_Lesart">an</seg> vreuden t&#x0153;t.</l>
+<l n="*D 482.11">dô was dem sper niht alsus.</l>
+<l n="*D 482.12">ein vogel, heizet pellicânus,</l>
+<l n="*D 482.13">swenne <seg type="singuläre_Lesart">der</seg> vruht gewinnet,</l>
+<l n="*D 482.14">al ze sêre er die minnet.</l>
+<l n="*D 482.15">in twinget sîner triwe gelust,</l>
+<l n="*D 482.16">daz er bîzet durch sîn selbes brust</l>
+<l n="*D 482.17">unt l&#x00E6;t daz bluot den jungen in den munt;</l>
+<l n="*D 482.18">er stirbet an der selben stunt.</l>
+<l n="*D 482.19">dô gewunnen wir des vogels bluot,</l>
+<l n="*D 482.20">ob uns sîn triwe w&#x00E6;re guot,</l>
+<l n="*D 482.21">unt <seg type="singuläre_Lesart">strichens</seg> an die wunden,</l>
+<l n="*D 482.22">sô wir beste kunden.</l>
+<l n="*D 482.23">daz moht uns niht <seg type="singuläre_Lesart">gehelfen</seg> sus.</l>
+<l n="*D 482.24">ein tier, heizet <seg type="singuläre_Lesart">monîzirus</seg>,</l>
+<l n="*D 482.25">daz erkennet der meide reine sô grôz,</l>
+<l n="*D 482.26">daz ez <seg type="singuläre_Lesart">sl&#x00E6;fet</seg> ûf <seg type="singuläre_Lesart">der meide</seg> schôz.</l>
+<l n="*D 482.27">wir gewunnen des tier<reg type="Synkope">e</reg>s herzen</l>
+<l n="*D 482.28">über des küneges smerzen.</l>
+<l n="*D 482.29">wir nâmen den <name type="Sonstiges">karfunkelstein</name></l>
+<l n="*D 482.30">ûf de<corr type="Emendation">s</corr> selben tier<reg type="Synkope">e</reg>s hirnbein,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="482.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="482.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+<app loc="482.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="482.03">
+<lem>den</lem> <rdg>der <wit>D</wit> <wit>I</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="482.19">
+<lem>wir</lem> <rdg>wir an <wit>*m</wit></rdg>
+</app>
+<app loc="482.21">
+<lem>strichens</lem> <rdg>strichenz <wit>*m</wit></rdg>
+</app>
+<app loc="482.30">
+<lem>des selben</lem> <rdg>der selben <wit>D</wit> (<wit>I</wit>) des (<subst><del>der</del><add>des</add></subst> <wit>G</wit>) <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="482.01">
+<rdg></rdg>
+</app>
+<app loc="482.02">
+<rdg></rdg>
+</app>
+<app loc="482.03">
+<rdg>unde vür des F. r., <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="482.04">
+<rdg></rdg>
+</app>
+<app loc="482.05">
+<rdg>uns ze (<note>om.</note> <wit>O</wit>) unmuoze <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit> <wit>L</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="482.06">
+<rdg></rdg>
+</app>
+<app loc="482.07">
+<rdg></rdg>
+</app>
+<app loc="482.08">
+<rdg></rdg>
+</app>
+<app loc="482.09">
+<rdg></rdg>
+</app>
+<app loc="482.10">
+<rdg></rdg>
+</app>
+<app loc="482.11">
+<rdg></rdg>
+</app>
+<app loc="482.12">
+<rdg></rdg>
+</app>
+<app loc="482.13">
+<rdg></rdg>
+</app>
+<app loc="482.14">
+<rdg>er diu m. <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="482.15">
+<rdg></rdg>
+</app>
+<app loc="482.16">
+<rdg>bîzet in sîn <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="482.17">
+<rdg></rdg>
+</app>
+<app loc="482.18">
+<rdg></rdg>
+</app>
+<app loc="482.19">
+<rdg></rdg>
+</app>
+<app loc="482.20">
+<rdg>sîn triuwe uns <wit>*T</wit></rdg>
+</app>
+<app loc="482.21">
+<rdg>strichenz (strichen <wit>O</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="482.22">
+<rdg></rdg>
+</app>
+<app loc="482.23">
+<rdg></rdg>
+</app>
+<app loc="482.24">
+<rdg>t., daz h. <wit>*T</wit></rdg>
+</app>
+<app loc="482.25">
+<rdg></rdg>
+</app>
+<app loc="482.26">
+<rdg>slâfet in der (ir <wit>I</wit> <wit>O</wit>) <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="482.27">
+<rdg></rdg>
+</app>
+<app loc="482.28">
+<rdg></rdg>
+</app>
+<app loc="482.29">
+<rdg>den (einen <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="482.30">
+<rdg>&#x2193;<wit>*G</wit> · unde leiten ûffe des (<subst><del>Vnd*</del><add>Vf dez selben</add></subst> <wit>V</wit>) t. h., <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 475</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 475.01"><seg type="Initiale">S</seg>ult ir in nemen in iwer gebet.</l>
+<l n="*D 475.02">mîn vater, der hiez <name type="Person">Gahmuret</name>;</l>
+<l n="*D 475.03">er was von arde ein <name type="Person">Anschevin</name>.</l>
+<l n="*D 475.04">hêrre, ich enbin ez niht, <name type="Person">L&#x00E6;helin</name>.</l>
+<l n="*D 475.05">genam ich ie den rêroup,</l>
+<l n="*D 475.06">sô was ich an den witzen toup.</l>
+<l n="*D 475.07">ez ist i<reg type="Synkope">e</reg>doch von mir gescheh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 475.08">der selben sünde muoz ich jeh<reg type="Synkope">e</reg>n:</l>
+<l n="*D 475.09"><name type="Person">Ithern</name> von <name type="Ort">Kukumerlant</name>,</l>
+<l n="*D 475.10">den sluoc mîn sündeb&#x00E6;riu hant.</l>
+<l n="*D 475.11">ich leite in tôten ûffez gras</l>
+<l n="*D 475.12">unt nam, swaz dâ ze nemen was."</l>
+<l n="*D 475.13">"<seg type="Initiale" subtype="Majuskel">O</seg>wê, werlt, wie tuostû sô?",</l>
+<l n="*D 475.14">sprach der wirt; der was des m&#x00E6;r<reg type="Synkope">e</reg>s unvrô.</l>
+<l n="*D 475.15">"dû gîst den liuten herzesêr</l>
+<l n="*D 475.16">unt riweb&#x00E6;res mêr</l>
+<l n="*D 475.17">denne der vreude. wie stêt dîn lôn?</l>
+<l n="*D 475.18">sus endet sich dîn<reg type="Synkope">e</reg>s m&#x00E6;r<reg type="Synkope">e</reg>s dôn."</l>
+<l n="*D 475.19">dô sprach er: "lieber swester sun,</l>
+<l n="*D 475.20">waz râtes möht ich dir nû tuon?</l>
+<l n="*D 475.21">dû hâst dîn eigen verch erslag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 475.22">wil dû vür got die schulde trag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 475.23">sît daz ir bêde wâret ein bluot,</l>
+<l n="*D 475.24">ob got dâ reht gerihte tuot,</l>
+<l n="*D 475.25">sô gilt im dîn eigen leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 475.26">waz wildû im dâ ze gelte geb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 475.27"><name type="Person">Ithern</name> von <name type="Ort">Gaheviez</name>?</l>
+<l n="*D 475.28">der rehten werdecheit geniez,</l>
+<l n="*D 475.29">des diu werlt was gereinet,</l>
+<l n="*D 475.30">het got an im erscheinet.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(Versdoppelung 475.13-14 [²m] nach 475.13)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="475.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app>
+<app loc="475.13"><rdg>
+<note>Initiale</note> <note><hi rend="hochgestellt">2</hi></note><wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="475.13"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="475.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="475.02">
+<rdg>mîn vater hiez Gahmuret. <wit>*m</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="475.04">
+<lem>ez</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="475.07">
+<lem>geschehen</lem> <rdg>beschehen <wit>*m</wit></rdg>
+</app>
+<app loc="475.08">
+<lem>sünde</lem> <rdg>sünden (su̽nne <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="475.12">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="475.14">
+<lem>des m&#x00E6;res</lem> <rdg>der m&#x00E6;re <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="475.16">
+<rdg>und riuweb&#x00E6;res kumbers (thomer <wit>mk</wit>) mêre <wit>*m</wit></rdg>
+</app>
+<app loc="475.20">
+<lem>nû tuon</lem> <rdg>getuon (nu getun <wit>Z</wit> [<wit>V</wit>]) <wit>*m</wit> (<wit>Z</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="475.29">
+<rdg><note>Versfolge 475.30-29</note> <wit>*m</wit></rdg>
+</app>
+<app loc="475.29">
+<rdg>des diu werlt was gereinet. <wit>*m</wit></rdg>
+</app>
+<app loc="475.30">
+<rdg>got het (<subst><del>*z d*</del><add>Got hette</add></subst> <wit>V</wit>) an ime erscheinet (erschinet <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="475.01">
+<rdg></rdg>
+</app>
+<app loc="475.02">
+<rdg>h. Gahmuret <wit>*T</wit></rdg>
+</app>
+<app loc="475.03">
+<rdg>unde was <wit>*T</wit></rdg>
+</app>
+<app loc="475.04">
+<rdg></rdg>
+</app>
+<app loc="475.05">
+<rdg></rdg>
+</app>
+<app loc="475.06">
+<rdg></rdg>
+</app>
+<app loc="475.07">
+<rdg>von <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="475.08">
+<rdg>sünden <wit>*G</wit> <note>(nur GIL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="475.09">
+<rdg></rdg>
+</app>
+<app loc="475.10">
+<rdg></rdg>
+</app>
+<app loc="475.11">
+<rdg></rdg>
+</app>
+<app loc="475.12">
+<rdg></rdg>
+</app>
+<app loc="475.13">
+<rdg></rdg>
+</app>
+<app loc="475.14">
+<rdg>sp. der w. unde was (wart <wit>O</wit> <wit>Fr18</wit>) <wit>*T</wit> (<wit>O</wit> <wit>Fr18</wit>)</rdg>
+</app>
+<app loc="475.15">
+<rdg></rdg>
+</app>
+<app loc="475.16">
+<rdg>unde riuweb&#x00E6;res (riwes <wit>O</wit>) kumbers mêr <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="475.17">
+<rdg></rdg>
+</app>
+<app loc="475.18">
+<rdg></rdg>
+</app>
+<app loc="475.19">
+<rdg></rdg>
+</app>
+<app loc="475.20">
+<rdg></rdg>
+</app>
+<app loc="475.21">
+<rdg></rdg>
+</app>
+<app loc="475.22">
+<rdg></rdg>
+</app>
+<app loc="475.23">
+<rdg>sô daz <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="475.24">
+<rdg></rdg>
+</app>
+<app loc="475.25">
+<rdg></rdg>
+</app>
+<app loc="475.26">
+<rdg></rdg>
+</app>
+<app loc="475.27">
+<rdg></rdg>
+</app>
+<app loc="475.28">
+<rdg></rdg>
+</app>
+<app loc="475.29">
+<rdg></rdg>
+</app>
+<app loc="475.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

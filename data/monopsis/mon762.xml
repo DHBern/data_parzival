@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 762</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 762.01"><name type="Person"><seg type="Initiale">J</seg>ofreit</name> was wider kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 762.02">von dem hete <name type="Person">Artus</name> vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 762.03">wie er werben solde,</l>
+<l n="*D 762.04">ob er enpfâhen wolde</l>
+<l n="*D 762.05">sînen neven, den <name type="Person">heiden</name>.</l>
+<l n="*D 762.06">daz sitzen wart bescheiden</l>
+<l n="*D 762.07">an <name type="Person">Gawans</name> ringe</l>
+<l n="*D 762.08">mit höfschlîchem dinge.</l>
+<l n="*D 762.09"><seg type="Initiale" subtype="Majuskel">D</seg>iu massenîe der herzogîn</l>
+<l n="*D 762.10">unt die gesellen under in</l>
+<l n="*D 762.11">ze <name type="Person">Gawans</name> zeswen saz.</l>
+<l n="*D 762.12">anderthalb<reg type="Synkope">e</reg>n si mit vreuden az,</l>
+<l n="*D 762.13">ritter, <name type="Person">Clinschors</name> diet.</l>
+<l n="*D 762.14">der vrouwen sitzen man beschiet.</l>
+<l n="*D 762.15">über gein <name type="Person">Gawane</name> an den ort</l>
+<l n="*D 762.16">sâzen <name type="Person">Clinschors</name> vrouwen dort;</l>
+<l n="*D 762.17">der was manegiu lieht gemâl.</l>
+<l n="*D 762.18"><name type="Person">Feirefiz</name> unt <name type="Person">Parzival</name></l>
+<l n="*D 762.19">sâzen mitten zwischen den vrouwen;</l>
+<l n="*D 762.20">man moht dâ clârheit schouwen.</l>
+<l n="*D 762.21"><seg type="Initiale" subtype="Majuskel">D</seg>er <name type="Person">Turkoyte</name> <name type="Person">Florant</name></l>
+<l n="*D 762.22">unt <name type="Person">Sangive</name>, diu wert erkant,</l>
+<l n="*D 762.23">unt der herzoge von <name type="Ort">Gowerzin</name></l>
+<l n="*D 762.24">unt <name type="Person">Cundrie</name>, daz wîp sîn,</l>
+<l n="*D 762.25">über gein ein ander sâzen.</l>
+<l n="*D 762.26">ich w&#x00E6;ne des, niht vergâzen</l>
+<l n="*D 762.27"><name type="Person">Gawan</name> und <name type="Person">Jofreit</name></l>
+<l n="*D 762.28">ir alten gesellecheit.</l>
+<l n="*D 762.29">si âzen mit ein ander.</l>
+<l n="*D 762.30">diu herzogîn mit blicken glander</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="762.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="762.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="762.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="762.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="762.02">
+<lem>hete</lem> <rdg>hât <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="762.08">
+<lem>höfschlîchem dinge</lem> <rdg>hovelîchem dinge (<subst><del>dingen</del><add>dinge</add></subst> <wit>V</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="762.10">
+<lem>gesellen</lem> <rdg>geselleschaft <wit>*m</wit></rdg>
+</app>
+<app loc="762.12">
+<lem>si</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="762.13">
+<rdg>rîter unde kleine (Ritern vnd der chlainen <wit>I</wit> Ritter vnd clare <wit>L</wit> Die ritter Clingsors <wit>Z</wit>) diet. <wit>*G</wit></rdg>
+</app>
+<app loc="762.19">
+<lem>den</lem> <rdg>die <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="762.26">
+<lem>niht</lem> <rdg>iht (eht <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="762.30">
+<lem>blicken</lem> <rdg>blic <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="762.01">
+<rdg></rdg>
+</app>
+<app loc="762.02">
+<rdg></rdg>
+</app>
+<app loc="762.03">
+<rdg></rdg>
+</app>
+<app loc="762.04">
+<rdg>oder er <wit>*T</wit></rdg>
+</app>
+<app loc="762.05">
+<rdg></rdg>
+</app>
+<app loc="762.06">
+<rdg>daz s. w. (daz wart in <wit>I</wit>) beiden <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="762.07">
+<rdg></rdg>
+</app>
+<app loc="762.08">
+<rdg>mit höveschlîchen dingen. <wit>*T</wit></rdg>
+</app>
+<app loc="762.09">
+<rdg></rdg>
+</app>
+<app loc="762.10">
+<rdg></rdg>
+</app>
+<app loc="762.11">
+<rdg>z. (Geselle <wit>I</wit>) sâzen (<subst><del>sa:en</del><add>sasen</add></subst> <wit>V</wit>). <wit>*G</wit> <wit>*T</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="762.12">
+<rdg>si <note>om.</note> <wit>*G</wit> sus <wit>*T</wit> · mit vröuden âzen (<subst><del>a*en</del><add>asen</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="762.13">
+<rdg>&#x2193;<wit>*G</wit> · die rîter, <wit>*T</wit></rdg>
+</app>
+<app loc="762.14">
+<rdg>den vr. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="762.15">
+<rdg>an dem ort <wit>*T</wit></rdg>
+</app>
+<app loc="762.16">
+<rdg>s. kleine (clare <wit>L</wit> <wit>Z</wit>) vr. d.; <wit>*G</wit></rdg>
+</app>
+<app loc="762.17">
+<rdg></rdg>
+</app>
+<app loc="762.18">
+<rdg></rdg>
+</app>
+<app loc="762.19">
+<rdg>zw. die vr.; <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="762.20">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="762.21">
+<rdg>der kurtoise Fl. <wit>*T</wit></rdg>
+</app>
+<app loc="762.22">
+<rdg>Seyue, <wit>*T</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="762.23">
+<rdg></rdg>
+</app>
+<app loc="762.24">
+<rdg></rdg>
+</app>
+<app loc="762.25">
+<rdg></rdg>
+</app>
+<app loc="762.26">
+<rdg>des (si des <wit>I</wit> <note>om.</note> <wit>L</wit>), iht v. <wit>*G</wit> <wit>*T</wit> · Jht des iht vergazzen <wit>Z</wit></rdg>
+</app>
+<app loc="762.27">
+<rdg></rdg>
+</app>
+<app loc="762.28">
+<rdg></rdg>
+</app>
+<app loc="762.29">
+<rdg></rdg>
+</app>
+<app loc="762.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 423</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>09.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 423.01"><seg type="Initiale"><corr type="Emendation">I</corr></seg>n die kemenâten sân</l>
+<l n="*D 423.02">gienc diu k<corr type="Emendation">ü</corr>neginne unt die zwêne man.</l>
+<l n="*D 423.03">vor den andern beleip si l&#x00E6;re</l>
+<l n="*D 423.04">- des pflâgen kamer&#x00E6;re -,</l>
+<l n="*D 423.05">wan clâriu juncvröuwelîn,</l>
+<l n="*D 423.06">der muose vil dort inne sîn.</l>
+<l n="*D 423.07">diu künegîn mit zühten pflac</l>
+<l n="*D 423.08"><name type="Person">Gawans</name>, der ir ze herzen lac.</l>
+<l n="*D 423.09">dâ was der lantgrâve mite.</l>
+<l n="*D 423.10">der schiet si ninder von dem site.</l>
+<l n="*D 423.11">doch sorgete vil diu werdiu magt</l>
+<l n="*D 423.12">umbe <name type="Person">Gawans</name> lîp, wart mir gesagt.</l>
+<l n="*D 423.13"><seg type="Initiale" subtype="Majuskel">S</seg>us wâren die zwêne dâ inne</l>
+<l n="*D 423.14">bî der küneginne,</l>
+<l n="*D 423.15">unz daz der tac liez sînen strît.</l>
+<l n="*D 423.16">diu naht kom, dô was ezzens zît.</l>
+<l n="*D 423.17"><seg type="Initiale" subtype="Majuskel">M</seg>ôraz, wîn, lûtertranc</l>
+<l n="*D 423.18">brâhten juncvrouwen, dâ mitten kranc,</l>
+<l n="*D 423.19">unt and<reg type="Synkope">e</reg>r guote spîse:</l>
+<l n="*D 423.20">fasân, pardrîse,</l>
+<l n="*D 423.21">guote vische unt blankiu wastel.</l>
+<l n="*D 423.22"><name type="Person">Gawan</name> unt <name type="Person">Kyngrimursel</name></l>
+<l n="*D 423.23">wâren kom<reg type="Synkope">e</reg>n ûz grôzer nôt.</l>
+<l n="*D 423.24">sît ez diu küneginne gebôt,</l>
+<l n="*D 423.25">si âzen, als si solten,</l>
+<l n="*D 423.26">unt and<reg type="Synkope">e</reg>r, dies iht wolten.</l>
+<l n="*D 423.27"><name type="Person">Antikonie</name> in selbe sneit.</l>
+<l n="*D 423.28">daz was durch zuht in bêden leit.</l>
+<l n="*D 423.29"><seg type="Initiale"><corr type="Emendation">S</corr></seg>waz man dâ kniend<reg type="Synkope">e</reg>r schenken sach,</l>
+<l n="*D 423.30">ir decheinem diu hosennestel brach.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr1</wit> <wit>Fr5</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="423.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr5</wit> <wit>I</wit> <wit>O</wit> <wit>Z</wit>
+</rdg></app><app loc="423.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="423.07"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="423.07"><rdg><note>Versal</note> <wit>Fr1</wit>
+</rdg></app>
+<app loc="423.11"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="423.13"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="423.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="423.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="423.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="423.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="423.01">
+<lem>In</lem> <rdg>&#x00F7;n <wit>D</wit></rdg>
+</app>
+<app loc="423.01">
+<lem>die</lem> <rdg>eine <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.02">
+<lem>küneginne</lem> <rdg>keneginne <wit>D</wit> frowe <wit>Fr1</wit> (<wit>*m</wit>)</rdg>
+</app>
+<app loc="423.02">
+<lem>die</lem> <rdg><note>om.</note> <wit>Fr5</wit> <wit>L</wit> <wit>U</wit></rdg>
+</app>
+<app loc="423.03">
+<lem>vor</lem> <rdg>von (<subst><del>Vo*</del><add>Von</add></subst> <wit>V</wit>) <wit>*m</wit> <wit>I</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="423.05">
+<lem>clâriu</lem> <rdg>clarin <wit>Fr5</wit></rdg>
+</app>
+<app loc="423.06">
+<rdg>vil dort inne muose (die vil dort mugen <wit>I</wit> <subst><del>D*</del><add>Der</add></subst> mu&#x0364;ste vil dort ýnne <wit>L</wit> Der mv&#x0364;ste vil dar inne <wit>V</wit>) sîn. <wit>*G</wit> <note>(ohne OZ)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="423.06">
+<lem>dort</lem> <rdg>dâr <wit>*m</wit></rdg>
+</app>
+<app loc="423.09">
+<rdg><note>Versfolge 423.11-12-9-10</note> <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.09">
+<lem>mite</lem> <rdg>allez mite <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.10">
+<lem>dem</lem> <rdg>der <wit>Fr5</wit></rdg>
+</app>
+<app loc="423.11">
+<lem>doch</lem> <rdg>Do <wit>Fr5</wit> (<wit>I</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="423.11">
+<lem>werdiu</lem> <rdg>sv&#x0364;ze <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.12">
+<lem>lîp</lem> <rdg>tot <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.13">
+<rdg><subst><del>Da</del><add>Svs</add></subst> waren di zwene <add>da</add> inne <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.16">
+<lem>kom</lem> <rdg>div quam <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.17">
+<rdg>môraz (Mora <wit>mk</wit>), wîn und lûtertranc (<subst><del>*utertrang</del><add>vnde lutertrang</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>O</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="423.18">
+<lem>dâ</lem> <rdg>in <wit>Fr5</wit></rdg>
+</app>
+<app loc="423.20">
+<rdg>Fasâne vnt parterîse <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.21">
+<lem>guote</lem> <rdg><note>om.</note> <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.21">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>O</wit> <wit>L</wit> <wit>U</wit> <wit>V</wit></rdg>
+</app>
+<app loc="423.23">
+<lem>ûz</lem> <rdg>von <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.24">
+<lem>sît</lem> <rdg>do <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.24">
+<lem>gebôt</lem> <rdg>bôt <wit>*m</wit></rdg>
+</app>
+<app loc="423.25">
+<lem>si âzen</lem> <rdg>dô âzen (<subst><del>*</del><add>Da asen</add></subst>) si <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="423.26">
+<lem>dies iht</lem> <rdg>die ez iht <wit>Fr5</wit> die ez <wit>*m</wit> <wit>O</wit> <wit>V</wit></rdg>
+</app>
+<app loc="423.27">
+<lem>Antikonie</lem> <rdg>Div kvneginne <wit>Fr1</wit></rdg>
+</app>
+<app loc="423.27">
+<lem>in selbe</lem> <rdg>an selbiv <wit>Fr5</wit></rdg>
+</app>
+<app loc="423.29">
+<rdg>swaz man dâ (<note>om.</note> <wit>O</wit> <wit>L</wit>) kinder senken (knîender schenchen <wit>O</wit> [<wit>L</wit>]) sach, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="423.29">
+<rdg>Swaz man dâ kniender schenkel (man kinder schenken <wit>U</wit>) sach, <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="423.29">
+<lem>Swaz</lem> <rdg>&#x00F7;waz <wit>D</wit></rdg>
+</app>
+<app loc="423.29">
+<lem>kniender</lem> <rdg>kinder <wit>Fr5</wit></rdg>
+</app>
+<app loc="423.30">
+<lem>diu</lem> <rdg>der <wit>Fr5</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="423.01">
+<rdg></rdg>
+</app>
+<app loc="423.02">
+<rdg></rdg>
+</app>
+<app loc="423.03">
+<rdg></rdg>
+</app>
+<app loc="423.04">
+<rdg>des (was des <wit>I</wit> Der <wit>L</wit>) pf. kamer&#x00E6;re. <wit>*G</wit></rdg>
+</app>
+<app loc="423.05">
+<rdg>kleiniu (wan vil klarev <wit>I</wit> Wan clarie <wit>L</wit>) j. (ivchfro&#x036E;welin <wit>G</wit>) <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="423.06">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="423.07">
+<rdg></rdg>
+</app>
+<app loc="423.08">
+<rdg></rdg>
+</app>
+<app loc="423.09">
+<rdg></rdg>
+</app>
+<app loc="423.10">
+<rdg>der sch. sich n. <wit>*G</wit> <note>(nur GI)</note> den sch. si niender <wit>*T</wit></rdg>
+</app>
+<app loc="423.11">
+<rdg>diu selbe (<subst><del>*</del><add>werde</add></subst> <wit>V</wit>) maget <wit>*T</wit></rdg>
+</app>
+<app loc="423.12">
+<rdg></rdg>
+</app>
+<app loc="423.13">
+<rdg></rdg>
+</app>
+<app loc="423.14">
+<rdg></rdg>
+</app>
+<app loc="423.15">
+<rdg></rdg>
+</app>
+<app loc="423.16">
+<rdg></rdg>
+</app>
+<app loc="423.17">
+<rdg></rdg>
+</app>
+<app loc="423.18">
+<rdg>dâ <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="423.19">
+<rdg></rdg>
+</app>
+<app loc="423.20">
+<rdg></rdg>
+</app>
+<app loc="423.21">
+<rdg></rdg>
+</app>
+<app loc="423.22">
+<rdg></rdg>
+</app>
+<app loc="423.23">
+<rdg></rdg>
+</app>
+<app loc="423.24">
+<rdg></rdg>
+</app>
+<app loc="423.25">
+<rdg></rdg>
+</app>
+<app loc="423.26">
+<rdg></rdg>
+</app>
+<app loc="423.27">
+<rdg></rdg>
+</app>
+<app loc="423.28">
+<rdg>durch ir z. in (<note>om.</note> <wit>O</wit> <subst><del>*</del><add>in</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne V)</note> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="423.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="423.30">
+<rdg>ir neheinen diu <wit>*G</wit> <note>(nur G)</note> ir deheinem kein (dekeinre den <wit>V</wit>) <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

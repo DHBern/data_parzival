@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 509</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>02.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 509.01"><name type="Person"><seg type="Initiale">G</seg>awan</name> bôt ir sînen gruoz.</l>
+<l n="*D 509.02">er sprach: "ob ich erbeizen muoz</l>
+<l n="*D 509.03">mit iweren hulden, vrouwe,</l>
+<l n="*D 509.04">ob ich iuch des willen schouwe,</l>
+<l n="*D 509.05">daz ir mich gerne bî iu hât,</l>
+<l n="*D 509.06">grôz rîwe mich bî vreuden lât:</l>
+<l n="*D 509.07">sône wart nie rît<reg type="Synkope">e</reg>r mêr sô vrô.</l>
+<l n="*D 509.08">mîn lîp muoz ersterben sô,</l>
+<l n="*D 509.09">daz mir nimmer wîp gevellet baz."</l>
+<l n="*D 509.10">"deist êt wol, nû weiz ich ouch daz."</l>
+<l n="*D 509.11">sölch was ir rede, dô si an in sach.</l>
+<l n="*D 509.12">ir süezer munt mêr dannoch sprach:</l>
+<l n="*D 509.13">"nû enlobt mich niht ze sêre;</l>
+<l n="*D 509.14">ir enpfâht es lîhte unêre.</l>
+<l n="*D 509.15">ichn wil niht, daz ieslîch munt</l>
+<l n="*D 509.16">gein mir tuo sîn prüeven kunt.</l>
+<l n="*D 509.17">w&#x00E6;re mîn lop gemeine</l>
+<l n="*D 509.18">- daz hieze ein wirde kleine -</l>
+<l n="*D 509.19">dem wîsen unt dem tumben,</l>
+<l n="*D 509.20">dem slehten unt dem krumben,</l>
+<l n="*D 509.21">wâ riht ez sich danne vür</l>
+<l n="*D 509.22">nâch der werdecheit kür?</l>
+<l n="*D 509.23">ich sol mîn lop behalten,</l>
+<l n="*D 509.24">daz es die wîsen walten.</l>
+<l n="*D 509.25">ichn weiz niht, hêrre, wer ir sît;</l>
+<l n="*D 509.26">iwers rîtens w&#x00E6;re von mir zît.</l>
+<l n="*D 509.27">mîn p<corr type="Emendation">r</corr>üeven lât iuch doch niht vrî:</l>
+<l n="*D 509.28">ir sît mînem herzen bî -</l>
+<l n="*D 509.29">verre ûzerhalp, niht drinne!</l>
+<l n="*D 509.30">gert ir mîner minne,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 509.16)</note> <wit>I</wit> <note>(ohne 509.11-12)</note> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <note>(509.13-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="509.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="509.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.06"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="509.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="509.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="509.06">
+<lem>rîwe</lem> <rdg>riuwen <wit>*m</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="509.07">
+<lem>mêr sô</lem> <rdg>alsô <wit>*m</wit></rdg>
+</app>
+<app loc="509.08">
+<rdg>mîn lîp ersterben muoz alsô, <wit>*m</wit></rdg>
+</app>
+<app loc="509.10">
+<lem>wol</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="509.10">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="509.12">
+<lem>dannoch</lem> <rdg>dar nâch <wit>*m</wit></rdg>
+</app>
+<app loc="509.14">
+<lem>es</lem> <rdg>sîn <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="509.27">
+<lem>prüeven</lem> <rdg>pv&#x0364;uen <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="509.01">
+<rdg></rdg>
+</app>
+<app loc="509.02">
+<rdg></rdg>
+</app>
+<app loc="509.03">
+<rdg></rdg>
+</app>
+<app loc="509.04">
+<rdg></rdg>
+</app>
+<app loc="509.05">
+<rdg></rdg>
+</app>
+<app loc="509.06">
+<rdg></rdg>
+</app>
+<app loc="509.07">
+<rdg></rdg>
+</app>
+<app loc="509.08">
+<rdg>ich m. sterben lîhte alsô, <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="509.09">
+<rdg></rdg>
+</app>
+<app loc="509.10">
+<rdg>ouch ich <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="509.11">
+<rdg></rdg>
+</app>
+<app loc="509.12">
+<rdg></rdg>
+</app>
+<app loc="509.13">
+<rdg></rdg>
+</app>
+<app loc="509.14">
+<rdg></rdg>
+</app>
+<app loc="509.15">
+<rdg>daz ein ie. <wit>*T</wit></rdg>
+</app>
+<app loc="509.16">
+<rdg>tuo sîn brüeven g. mir k. <wit>*G</wit> <note>(nur I)</note></rdg>
+</app>
+<app loc="509.17">
+<rdg></rdg>
+</app>
+<app loc="509.18">
+<rdg>- daz h. w. (wider <wit>T</wit> ich werde <wit>U</wit> [<wit>O</wit> <wit>I</wit>] <subst><del>*</del><add>eine wurde</add></subst> <wit>V</wit>) kl. - <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="509.19">
+<rdg></rdg>
+</app>
+<app loc="509.20">
+<rdg></rdg>
+</app>
+<app loc="509.21">
+<rdg></rdg>
+</app>
+<app loc="509.22">
+<rdg></rdg>
+</app>
+<app loc="509.23">
+<rdg></rdg>
+</app>
+<app loc="509.24">
+<rdg></rdg>
+</app>
+<app loc="509.25">
+<rdg></rdg>
+</app>
+<app loc="509.26">
+<rdg></rdg>
+</app>
+<app loc="509.27">
+<rdg></rdg>
+</app>
+<app loc="509.28">
+<rdg></rdg>
+</app>
+<app loc="509.29">
+<rdg></rdg>
+</app>
+<app loc="509.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

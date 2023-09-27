@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 772</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>26.09.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 772.01"><seg type="Initiale">V</seg>on <name type="Ort">Lirivoyn</name> den künec <name type="Person">Schirniel</name></l>
+<l n="*D 772.02">unt von <name type="Ort">Avendroyn</name> sînen bruoder <name type="Person">Mirabel</name>,</l>
+<l n="*D 772.03">den künec <name type="Person">Serabil</name> von <name type="Ort">Rozokarz</name></l>
+<l n="*D 772.04">unt den künec <name type="Person">Piblesun</name> von <name type="Ort">Lorneparz</name>,</l>
+<l n="*D 772.05">von <name type="Ort">Sirnegunz</name> den künec <name type="Person">Senilgorz</name></l>
+<l n="*D 772.06">unt von <name type="Ort">Villegarunz</name> <name type="Person">Strangedorz</name>,</l>
+<l n="*D 772.07">von <name type="Ort">Mirnetalle</name> den grâven <name type="Person">Rogedal</name></l>
+<l n="*D 772.08">unt von <name type="Ort">Pleyedunze</name> <name type="Person">Laudunal</name>,</l>
+<l n="*D 772.09">den künec <name type="Person">Onipriz</name> von <name type="Ort">Itolac</name></l>
+<l n="*D 772.10">unt den künec <name type="Person">Zyrolan</name> von <name type="Ort">Semblidac</name>,</l>
+<l n="*D 772.11">von <name type="Ort">Jeroplis</name> den herzog<reg type="Synkope">e</reg>n <name type="Person">Jerneganz</name></l>
+<l n="*D 772.12">unt von <name type="Ort">Zambron</name> den grâven <name type="Person">Plineschanz</name>,</l>
+<l n="*D 772.13">von <name type="Ort">Tuteleunz</name> den grâven <name type="Person">Longefiez</name></l>
+<l n="*D 772.14">unt von <name type="Ort">Privegarz</name> den herzogen <name type="Person">Marangliez</name>,</l>
+<l n="*D 772.15">von <name type="Ort">Pictacon</name> den herzogen <name type="Person">Strennolas</name></l>
+<l n="*D 772.16">unt von <name type="Ort">Lampregun</name> den grâven <name type="Person">Parfoyas</name>,</l>
+<l n="*D 772.17">von <name type="Ort">Ascalun</name> den künec <name type="Person">Vergulaht</name></l>
+<l n="*D 772.18">unt von <name type="Ort">Pranzile</name> den grâven <name type="Person">Bogudaht</name>,</l>
+<l n="*D 772.19"><name type="Person">Postefar</name> von <name type="Ort">Laudundrehte</name></l>
+<l n="*D 772.20">unt den herzog<reg type="Synkope">e</reg>n <name type="Person">Leidebron</name> von <name type="Ort">Redunzehte</name>,</l>
+<l n="*D 772.21">von <name type="Ort">Leterbe</name> <name type="Person">Colleval</name></l>
+<l n="*D 772.22">unt <name type="Person">Jovedast</name> von <name type="Ort">Arel</name>, ein <name type="Person">Provenzal</name>,</l>
+<l n="*D 772.23">von <name type="Ort">Tripparun</name> den grâven <name type="Person">Karfodyas</name>.</l>
+<l n="*D 772.24">diz ergienc dâ turnieren was,</l>
+<l n="*D 772.25">die wîle ich nâch dem <name type="Sonstiges">Grâle</name> reit.</l>
+<l n="*D 772.26">solt ich gar nennen, dâ ich streit,</l>
+<l n="*D 772.27">daz w&#x00E6;ren unkundiu zil.</l>
+<l n="*D 772.28">durch nôt ichs muoz verswîgen vil.</l>
+<l n="*D 772.29">swaz ir mir kunt ist getân,</l>
+<l n="*D 772.30">die w&#x00E6;ne ich hie genennet hân."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit> <note>(772.14-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 772.5 und 10)</note> <wit>V</wit> <note>(mit 772.30¹-30⁷⁴)</note> <wit>Fr6</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 772.3-22)</note> <wit>I</wit> <note>(ohne 772.3-22)</note> <wit>L</wit> <note>(ohne 772.3-22)</note> <wit>Z</wit> <note>(ohne 772.3-22)</note> <wit>Fr18</wit> <note>(ohne 772.3-22)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="772.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="772.01">
+<lem>den</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="772.02">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note> <wit>L</wit></rdg>
+</app>
+<app loc="772.03">
+<lem>den</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="772.04">
+<lem>den</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="772.06">
+<lem>unt von Villegarunz</lem> <rdg>von Villegrane <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="772.07">
+<lem>den grâven</lem> <rdg>der grâve <wit>*m</wit></rdg>
+</app>
+<app loc="772.08">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="772.09">
+<rdg>der künic Conipries von Itolac <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="772.10">
+<lem>den</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="772.11">
+<lem>den herzogen</lem> <rdg>der herzoge <wit>*m</wit></rdg>
+</app>
+<app loc="772.12">
+<rdg>von Tampron der grâve Plineschanz, <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="772.13">
+<lem>den grâven</lem> <rdg>der grâve <wit>*m</wit></rdg>
+</app>
+<app loc="772.14">
+<lem>den herzogen</lem> <rdg>(der <wit>V</wit> [<wit>Fr6</wit>]) herzoge <wit>*m</wit></rdg>
+</app>
+<app loc="772.15">
+<lem>den herzogen</lem> <rdg>der herzoge <wit>*m</wit></rdg>
+</app>
+<app loc="772.16">
+<rdg>von Lampregun der grâve (der grave von lampengvn <wit>Fr6</wit>) Parfoias, <wit>*m</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="772.17">
+<lem>den</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="772.18">
+<rdg>von Prancile der grâve Rohudaht, <wit>*m</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="772.20">
+<lem>den herzogen</lem> <rdg>der herzoge <wit>*m</wit></rdg>
+</app>
+<app loc="772.22">
+<rdg>und (<note>om.</note> <wit>Fr6</wit>) von Arl Jovedast, der Provenzal, <wit>*m</wit></rdg>
+</app>
+<app loc="772.23">
+<rdg>von Tripparun der grâve Carfoias (Kardofeydas <wit>*T</wit>). <wit>*m</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="772.23">
+<rdg>der grâve Minadas (fallarastias <wit>L</wit> saz <wit>Z</wit> falerostas <wit>Fr18</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="772.26">
+<lem>gar</lem> <rdg>iu gar <wit>*m</wit></rdg>
+</app>
+<app loc="772.28">
+<lem>ichs muoz</lem> <rdg>ich mvz <wit>Fr2</wit> muoz ich (ichs <wit>Fr6</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="772.30">
+<rdg><milestone unit="Chretien"/> <note>nach 772.30: Einschub 772.30¹-30⁷⁴ (entspr. 'Troisième Continuation', Ep. 29, V. 42355-42438)</note> <wit>V</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="772.01">
+<rdg>den künec <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="772.02">
+<rdg></rdg>
+</app>
+<app loc="772.03">
+<rdg><note>Die Verse 772.3-22 fehlen</note> <wit>*G</wit> · der k. <wit>*T</wit></rdg>
+</app>
+<app loc="772.04">
+<rdg>und der k. Pliplesun von Lereparz, <wit>*T</wit></rdg>
+</app>
+<app loc="772.05">
+<rdg>von S. der k. S. <wit>*T</wit></rdg>
+</app>
+<app loc="772.06">
+<rdg></rdg>
+</app>
+<app loc="772.07">
+<rdg>von Mirntalle der grâve Rogetal <wit>*T</wit></rdg>
+</app>
+<app loc="772.08">
+<rdg>Pleidusse <wit>*T</wit></rdg>
+</app>
+<app loc="772.09">
+<rdg>der k. Onypuez von I. <wit>*T</wit></rdg>
+</app>
+<app loc="772.10">
+<rdg>und der k. <wit>*T</wit></rdg>
+</app>
+<app loc="772.11">
+<rdg>von J. der herzoge Gerneganz <wit>*T</wit></rdg>
+</app>
+<app loc="772.12">
+<rdg>und von Zanbron der grâve Plyneschanz, <wit>*T</wit></rdg>
+</app>
+<app loc="772.13">
+<rdg>von T. der grâve L. <wit>*T</wit></rdg>
+</app>
+<app loc="772.14">
+<rdg>und von Brevegariez der herzoge M., <wit>*T</wit></rdg>
+</app>
+<app loc="772.15">
+<rdg>von P. der herzoge St. <wit>*T</wit></rdg>
+</app>
+<app loc="772.16">
+<rdg>und von L. der grâve Parfoias, <wit>*T</wit></rdg>
+</app>
+<app loc="772.17">
+<rdg>von A. der k. V. <wit>*T</wit></rdg>
+</app>
+<app loc="772.18">
+<rdg>und von Pr. der grâve B., <wit>*T</wit></rdg>
+</app>
+<app loc="772.19">
+<rdg></rdg>
+</app>
+<app loc="772.20">
+<rdg>und der herzoge Leidebrun von R., <wit>*T</wit></rdg>
+</app>
+<app loc="772.21">
+<rdg></rdg>
+</app>
+<app loc="772.22">
+<rdg></rdg>
+</app>
+<app loc="772.23">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="772.24">
+<rdg></rdg>
+</app>
+<app loc="772.25">
+<rdg></rdg>
+</app>
+<app loc="772.26">
+<rdg>daz ich st., <wit>*G</wit> daz ich erstreit, <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="772.27">
+<rdg></rdg>
+</app>
+<app loc="772.28">
+<rdg>ich <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="772.29">
+<rdg>sw. mir k. (<subst><del>ýe</del><add>ýr</add></subst> kvnde <wit>L</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="772.30">
+<rdg>&#x2193;<wit>V</wit> <milestone unit="Chretien"/> · die ich wênic hie (Ein teil ich der <wit>Z</wit>) g. (benennet <wit>G</wit>) hân." <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

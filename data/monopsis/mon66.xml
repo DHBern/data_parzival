@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 66</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 66.01">ein m&#x00E6;re in stichet als ein dorn,</l>
+<l n="*D 66.02">daz er sîn wîp hât verlorn,</l>
+<l n="*D 66.03">diu <name type="Person">Artus<reg type="Synkope">e</reg>s</name> muot<reg type="Synkope">e</reg>r was.</l>
+<l n="*D 66.04">ein pfaffe, der wol zouber las,</l>
+<l n="*D 66.05">mit dem diu vrouwe ist hin gewant,</l>
+<l n="*D 66.06">dem ist <name type="Person">Artus</name> nâch gerant.</l>
+<l n="*D 66.07">ez ist nû ime dritten jâr,</l>
+<l n="*D 66.08">daz er sun unt wîp verlôs vür wâr.</l>
+<l n="*D 66.09">hie ist ouch sîner tohter man,</l>
+<l n="*D 66.10">der wol mit rîterschefte kan,</l>
+<l n="*D 66.11"><name type="Person">Lot</name> von <name type="Ort">Norw&#x00E6;ge</name>,</l>
+<l n="*D 66.12">gein valscheit der tr&#x00E6;ge</l>
+<l n="*D 66.13">unt der snelle gein dem prîse,</l>
+<l n="*D 66.14">der küene degen wîse.</l>
+<l n="*D 66.15">hie ist ouch <name type="Person">Gawan</name>, des sun,</l>
+<l n="*D 66.16">sô kranc, daz er niht mac getuon</l>
+<l n="*D 66.17">rîterschaft enkeine.</l>
+<l n="*D 66.18">er was bî mir, der kleine.</l>
+<l n="*D 66.19">er sprichet, möht er einen schaft</l>
+<l n="*D 66.20">gebrechen, trôste in des sîn kraft,</l>
+<l n="*D 66.21">er t&#x00E6;te gerne rîters tât.</l>
+<l n="*D 66.22">wie vruo sîn ger begunnen hât!</l>
+<l n="*D 66.23"><seg type="Initiale" subtype="Majuskel">H</seg>ie hât der künec von <name type="Ort">Patrigalt</name></l>
+<l n="*D 66.24">von spern einen ganzen walt.</l>
+<l n="*D 66.25">des vuore ist dâ engein gar ein wint,</l>
+<l n="*D 66.26">wan die von <name type="Ort">Portegal</name> hie sint,</l>
+<l n="*D 66.27">die heizen wir die vrechen.</l>
+<l n="*D 66.28">si wellent durch schilde stechen.</l>
+<l n="*D 66.29"><seg type="Initiale">H</seg>ie hânt die <name type="Person">Provenzale</name></l>
+<l n="*D 66.30">schilde wol gemâle.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(ohne 66.13-14 und 29-30)</note> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="66.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="66.05"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="66.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="66.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="66.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="66.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="66.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit>
+</rdg></app><app loc="66.29"><rdg> <note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="66.13">
+<rdg>Vnd der snelle gegen (gegn dem <wit>T</wit>) prise <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="66.14">
+<rdg>Der kv&#x0364;ne helt wise <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="66.18">
+<rdg>er was bî mir, der kleine, <wit>*m</wit></rdg>
+</app>
+<app loc="66.19">
+<lem>er</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="66.22">
+<lem>wie vruo sîn ger</lem> <rdg>wie vruo es sîn ger <wit>*m</wit> wie (<note>om.</note> <wit>G</wit> Vil <wit>O</wit>) vruo es (er <wit>I</wit>) sîn ger (<note>om.</note> <wit>I</wit>) <wit>*G</wit> wie vrô (<subst><del>V*</del><add>Vil frv&#x0366; ez</add></subst> <wit>V</wit> wie vru&#x0366;z <wit>T</wit>) sîn ger <wit>*T</wit></rdg>
+</app>
+<app loc="66.25">
+<rdg>der (Des <wit>O</wit> [<wit>L</wit>] <wit>Z</wit>) vuor ist wider die (wider den <wit>O</wit> <wit>L</wit> da gein gar <wit>Z</wit>) ein wint. <wit>*G</wit></rdg>
+</app>
+<app loc="66.25">
+<rdg>des vuore ist gein den (<subst><del>*</del><add>wider den</add></subst> <wit>V</wit> wider die als <wit>T</wit>) ein wint. <wit>*T</wit></rdg>
+</app>
+<app loc="66.25">
+<lem>engein</lem> <rdg>wider <wit>*m</wit></rdg>
+</app>
+<app loc="66.29">
+<rdg>HJe hant die provenzale (von provenzale <wit>T</wit>) <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="66.30">
+<rdg>Schilte wol gemale <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="66.01">
+<rdg></rdg>
+</app>
+<app loc="66.02">
+<rdg>hatte <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="66.03">
+<rdg></rdg>
+</app>
+<app loc="66.04">
+<rdg>der von z. <wit>*T</wit></rdg>
+</app>
+<app loc="66.05">
+<rdg></rdg>
+</app>
+<app loc="66.06">
+<rdg></rdg>
+</app>
+<app loc="66.07">
+<rdg>ez ist nû (nv wol <wit>V</wit>) daz drite jâr, <wit>*G</wit> <note>(nur GI)</note> (<wit>T</wit> <wit>V</wit>) · daz ist <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="66.08">
+<rdg>v. zwâre <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="66.09">
+<rdg></rdg>
+</app>
+<app loc="66.10">
+<rdg>mit ritterschefte wol <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="66.11">
+<rdg></rdg>
+</app>
+<app loc="66.12">
+<rdg>der tr&#x00E6;ge. <wit>*T</wit></rdg>
+</app>
+<app loc="66.13">
+<rdg><note>Die Verse 66.13-14 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="66.14">
+<rdg>der stolze d. (chv&#x0366;ne helt <wit>O</wit> [<wit>L</wit> <wit>V</wit> <wit>T</wit>]) w. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="66.15">
+<rdg></rdg>
+</app>
+<app loc="66.16">
+<rdg></rdg>
+</app>
+<app loc="66.17">
+<rdg></rdg>
+</app>
+<app loc="66.18">
+<rdg>der kl., <wit>*G</wit></rdg>
+</app>
+<app loc="66.19">
+<rdg>unde giht, möhter <wit>*G</wit> (<wit>V</wit> <wit>T</wit>) er giht, und möhter <wit>*T</wit></rdg>
+</app>
+<app loc="66.20">
+<rdg>zerbrechen, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="66.21">
+<rdg>er worhte g. <wit>*G</wit> <note>(ohne Z)</note> er wolde (er worde <wit>U</wit> so worhter <wit>T</wit>) g. <wit>*T</wit></rdg>
+</app>
+<app loc="66.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="66.23">
+<rdg>hie habent die von (hat der chvnich <wit>O</wit>) P. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="66.24">
+<rdg></rdg>
+</app>
+<app loc="66.25">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="66.26">
+<rdg>die von P. hie (die hie von portigale <wit>I</wit>) s., <wit>*G</wit> <note>(ohne Z)</note> · wan <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="66.27">
+<rdg></rdg>
+</app>
+<app loc="66.28">
+<rdg>die w. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="66.29">
+<rdg><note>Die Verse 66.29-30 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="66.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

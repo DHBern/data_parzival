@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 566</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.09.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 566.01"><seg type="Initiale">D</seg>â wâren si doch unschuldec an.</l>
+<l n="*D 566.02">dô gienc mîn hêr <name type="Person">Gawan</name></l>
+<l n="*D 566.03">beidiu her unt dar;</l>
+<l n="*D 566.04"><seg type="Initiale" subtype="Majuskel">E</seg>r nam des palas<reg type="Synkope">e</reg>s war.</l>
+<l n="*D 566.05">er sach an einer wende</l>
+<l n="*D 566.06">- ine weiz ze weder<reg type="Synkope">e</reg>r hende -</l>
+<l n="*D 566.07">eine tür wît offen stên;</l>
+<l n="*D 566.08">dâ inrehalp im solte ergên</l>
+<l n="*D 566.09">hôhes prîs<reg type="Synkope">e</reg>s erwerb<reg type="Synkope">e</reg>n</l>
+<l n="*D 566.10">oder nâch dem prîse ersterb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 566.11"><seg type="Initiale" subtype="Majuskel">E</seg>r gienc zer kemenâten în.</l>
+<l n="*D 566.12">der was ir estriches schîn</l>
+<l n="*D 566.13">lûter, h&#x00E6;le als ein glas,</l>
+<l n="*D 566.14">dâ <name type="Sonstiges">Lit Marvale</name> was,</l>
+<l n="*D 566.15">daz bette von dem wunder.</l>
+<l n="*D 566.16">vier schîben liefen drunder,</l>
+<l n="*D 566.17">von <name type="Sonstiges">rubînen</name> lieht sinwel,</l>
+<l n="*D 566.18">daz der wint wart nie sô snel;</l>
+<l n="*D 566.19">dâ wâren die stollen ûf geklob<reg type="Synkope">e</reg>n.</l>
+<l n="*D 566.20">den estrich muoz ich iu lob<reg type="Synkope">e</reg>n:</l>
+<l n="*D 566.21">von <name type="Sonstiges">jaspis</name>, von <name type="Sonstiges">krisolte</name>,</l>
+<l n="*D 566.22">von <name type="Sonstiges">sardîn</name>, als er wolte,</l>
+<l n="*D 566.23"><name type="Person">Clinschor</name>, der des erdâhte,</l>
+<l n="*D 566.24">ûz manegem lande brâhte</l>
+<l n="*D 566.25">sîn listeclîchiu wîsheit</l>
+<l n="*D 566.26">werc, daz hier an was geleit.</l>
+<l n="*D 566.27">der estrich was gar sô sleif,</l>
+<l n="*D 566.28">daz <name type="Person">Gawan</name> kûme al dâ begreif</l>
+<l n="*D 566.29">mit den vüezen stiure.</l>
+<l n="*D 566.30">er gienc nâch âventiure.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 566.6 und 21-22)</note> <wit>V</wit> <wit>Fr25</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="566.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit>
+</rdg></app>
+<app loc="566.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="566.03"><rdg>
+<note>Initiale</note> <wit>Z</wit> <wit>Fr25</wit>
+</rdg></app>
+<app loc="566.04"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="566.11"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="566.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="566.27"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="566.04">
+<rdg>er nam des palases war (pallas was vnd dar <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="566.05">
+<lem>er</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="566.06">
+<rdg>Jch enweis (weiz <wit>Fr25</wit>) zv&#x0366; wederre hende <wit>V</wit> (<wit>Fr25</wit>)</rdg>
+</app>
+<app loc="566.09">
+<rdg>hôhes prîses erwerben. <wit>*m</wit></rdg>
+</app>
+<app loc="566.10">
+<rdg>waz, ob er solte sterben? <wit>*m</wit></rdg>
+</app>
+<app loc="566.12">
+<rdg>der was ir estrich (astrich <wit>mk</wit>) schîn, <wit>*m</wit></rdg>
+</app>
+<app loc="566.13">
+<rdg>l., h&#x00E6;l und als ein glas, <wit>*m</wit></rdg>
+</app>
+<app loc="566.17">
+<lem>sinwel</lem> <rdg><seg type="singuläre_Lesart">ein vel</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="566.20">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="566.21">
+<rdg>von jaspis und (<subst><del>*</del><add>vnde</add></subst> <wit>V</wit>) krisolt, <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="566.21">
+<rdg>Japsis crisolden <wit>Fr25</wit></rdg>
+</app>
+<app loc="566.22">
+<rdg>Von <subst><del>sar*</del><add>sardine als er wolte</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="566.22">
+<rdg>vnde sardin als er wolde <wit>Fr25</wit></rdg>
+</app>
+<app loc="566.23">
+<rdg>Clinsor, der des erdâht <wit>*m</wit></rdg>
+</app>
+<app loc="566.24">
+<rdg>und manigen landen brâht <wit>*m</wit></rdg>
+</app>
+<app loc="566.26">
+<lem>hier</lem> <rdg>her <wit>*m</wit></rdg>
+</app>
+<app loc="566.27">
+<lem>gar</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="566.01">
+<rdg>doch <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="566.02">
+<rdg></rdg>
+</app>
+<app loc="566.03">
+<rdg>în zer kemenâten tür. <wit>*T</wit></rdg>
+</app>
+<app loc="566.04">
+<rdg>dô sach er wider unde vür. <wit>*T</wit></rdg>
+</app>
+<app loc="566.05">
+<rdg>er vant an <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="566.06">
+<rdg><note>Vers 566.6 fehlt</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="566.07">
+<rdg></rdg>
+</app>
+<app loc="566.08">
+<rdg></rdg>
+</app>
+<app loc="566.09">
+<rdg></rdg>
+</app>
+<app loc="566.10">
+<rdg>pr. sterben (<subst><del>*</del><add>ersterben</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne Fr25)</note></rdg>
+</app>
+<app loc="566.11">
+<rdg></rdg>
+</app>
+<app loc="566.12">
+<rdg></rdg>
+</app>
+<app loc="566.13">
+<rdg></rdg>
+</app>
+<app loc="566.14">
+<rdg>dâ Let Marvele inne was, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="566.15">
+<rdg></rdg>
+</app>
+<app loc="566.16">
+<rdg></rdg>
+</app>
+<app loc="566.17">
+<rdg>rubîne <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="566.18">
+<rdg></rdg>
+</app>
+<app loc="566.19">
+<rdg></rdg>
+</app>
+<app loc="566.20">
+<rdg>den e. m. ich loben. <wit>*T</wit> <note>(ohne Fr25)</note></rdg>
+</app>
+<app loc="566.21">
+<rdg><note>Die Verse 566.21-22 fehlen</note> &#x2193;<wit>*T</wit> · von j. unde (<note>om.</note> <wit>I</wit> vnd von <wit>L</wit> <wit>Z</wit>) kr., <wit>*G</wit></rdg>
+</app>
+<app loc="566.22">
+<rdg></rdg>
+</app>
+<app loc="566.23">
+<rdg>des gedâhte (daz erdahte <wit>V</wit>), <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="566.24">
+<rdg>ûz manigen landen (lande <wit>Fr25</wit>) br. <wit>*G</wit> <note>(nur GZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="566.25">
+<rdg></rdg>
+</app>
+<app loc="566.26">
+<rdg>daz dran was <wit>*T</wit></rdg>
+</app>
+<app loc="566.27">
+<rdg></rdg>
+</app>
+<app loc="566.28">
+<rdg>al dâ <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="566.29">
+<rdg></rdg>
+</app>
+<app loc="566.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

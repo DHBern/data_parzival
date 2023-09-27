@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 743</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 743.01"><seg type="Initiale">D</seg>er <name type="Person">heiden</name> truoc zwô geselleschaft,</l>
+<l n="*D 743.02">dâr an doch lac sîn meistiu kraft.</l>
+<l n="*D 743.03">einiu, daz er minne pflac,</l>
+<l n="*D 743.04">diu mit st&#x00E6;te in sîme herzen lac.</l>
+<l n="*D 743.05">daz ander wâren steine,</l>
+<l n="*D 743.06">die mit edelem arde reine</l>
+<l n="*D 743.07">in hôchgemüete lêrten</l>
+<l n="*D 743.08">unt sîne kraft gemêrten.</l>
+<l n="*D 743.09"><seg type="Initiale" subtype="Majuskel">M</seg>ich müet, daz der getoufte</l>
+<l n="*D 743.10">an strîte und an loufte</l>
+<l n="*D 743.11">sus müedet unt an starken slegen.</l>
+<l n="*D 743.12">ob im nû niht gehelfen megen</l>
+<l n="*D 743.13"><name type="Person">Condwiramurs</name> noch der <name type="Sonstiges">Grâl</name>,</l>
+<l n="*D 743.14">werlîcher <name type="Person">Parzival</name>,</l>
+<l n="*D 743.15">sô müezest einen trôst doch hab<reg type="Synkope">e</reg>n,</l>
+<l n="*D 743.16">daz die clâren süezen knab<reg type="Synkope">e</reg>n</l>
+<l n="*D 743.17">sus vruo niht verweiset sîn,</l>
+<l n="*D 743.18"><name type="Person">Kardeiz</name> unt <name type="Person">Loherangrin</name>,</l>
+<l n="*D 743.19">die bêde lebendic truoc sîn wîp,</l>
+<l n="*D 743.20">dô er jungest umbevienc ir lîp.</l>
+<l n="*D 743.21">mit rehter kiusche erworb<reg type="Synkope">e</reg>n kint,</l>
+<l n="*D 743.22">ich w&#x00E6;ne, diu smannes s&#x00E6;lde sint.</l>
+<l n="*D 743.23"><seg type="Initiale" subtype="Majuskel">D</seg>er getoufte nam an kreften zuo.</l>
+<l n="*D 743.24">er dâhte - des was im niht ze vruo -</l>
+<l n="*D 743.25">an sîn wîp, die küneginne,</l>
+<l n="*D 743.26">unt an ir werden minne,</l>
+<l n="*D 743.27">die er mit swertes schimpfe erranc,</l>
+<l n="*D 743.28">dâ viwer von slegen ûz helmen spranc,</l>
+<l n="*D 743.29">vor <name type="Ort">Pelrapeire</name> an <name type="Person">Clamide</name>.</l>
+<l n="*D 743.30"><name type="Ort">Thabronit</name> unde <name type="Ort">Thasme</name>,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr69</wit> <note>(743.5-7 und 18-20)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 743.17 und 21-22)</note> <wit>I</wit> <note>(ohne 743.17 und 21-22, mit 743.18¹)</note> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit> <note>(743.1-24)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="743.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>Z</wit> <wit>Fr24</wit>
+</rdg></app>
+<app loc="743.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="743.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="743.23"><rdg>
+<note>Initiale</note> <wit>V</wit> 
+</rdg></app><app loc="743.23"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="743.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="743.07">
+<rdg>hôchgemüete in lêrten <wit>*m</wit></rdg>
+</app>
+<app loc="743.10">
+<lem>und</lem> <rdg>und ouch <wit>*m</wit></rdg>
+</app>
+<app loc="743.14">
+<lem>werlîcher</lem> <rdg>vil werlîcher (wellicher <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="743.15">
+<lem>müezest</lem> <rdg>muost dû (mu̽ste <wit>mk</wit>) <wit>*m</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="743.19">
+<lem>lebendic truoc</lem> <rdg>lebende truoc (lebene tro&#x036E;c <wit>G</wit> lebedende tru&#x0364;c <wit>I</wit> tru̽ch lebende <wit>L</wit>) <wit>*G</wit> <note>(ohne ZFr24)</note></rdg>
+</app>
+<app loc="743.21">
+<rdg>Mit rechter kv̽sche erworben kint <wit>L</wit> (<wit>Z</wit> <wit>Fr24</wit>)</rdg>
+</app>
+<app loc="743.22">
+<rdg>Jch wane die des mannez salde sint <wit>L</wit> (<wit>Z</wit> <wit>Fr24</wit>)</rdg>
+</app>
+<app loc="743.24">
+<lem>dâhte des</lem> <rdg>gedâht daz (des <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="743.28">
+<lem>von slegen</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="743.01">
+<rdg>zwô <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="743.02">
+<rdg>dâr ane ouch lac <wit>*T</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr24</wit>)</rdg>
+</app>
+<app loc="743.03">
+<rdg></rdg>
+</app>
+<app loc="743.04">
+<rdg>st. an s. h. <wit>*T</wit></rdg>
+</app>
+<app loc="743.05">
+<rdg>w. steine <wit>*G</wit></rdg>
+</app>
+<app loc="743.06">
+<rdg>die <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="743.07">
+<rdg></rdg>
+</app>
+<app loc="743.08">
+<rdg>unde s. kr. mêrten. <wit>*G</wit> <note>(ohne I)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="743.09">
+<rdg>m. müete, <wit>*T</wit> (<wit>Z</wit> <wit>Fr24</wit>)</rdg>
+</app>
+<app loc="743.10">
+<rdg></rdg>
+</app>
+<app loc="743.11">
+<rdg>m. (mu&#x0366;te <wit>I</wit>) unde <wit>*G</wit> sus muote und <wit>*T</wit></rdg>
+</app>
+<app loc="743.12">
+<rdg></rdg>
+</app>
+<app loc="743.13">
+<rdg>Kundewiramurs und der Gr., <wit>*T</wit> (<wit>L</wit> <wit>Fr24</wit>)</rdg>
+</app>
+<app loc="743.14">
+<rdg></rdg>
+</app>
+<app loc="743.15">
+<rdg>nû muostû (mvzzest <wit>Z</wit> mu&#x0366;zzestu&#x0366; <wit>U</wit>) e. <wit>*G</wit> <wit>*T</wit> · doch <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="743.16">
+<rdg></rdg>
+</app>
+<app loc="743.17">
+<rdg>sô vr. <wit>*G</wit> (<wit>*T</wit>) · n. verwîset sîn, <wit>*T</wit></rdg>
+</app>
+<app loc="743.18">
+<rdg></rdg>
+</app>
+<app loc="743.19">
+<rdg>&#x2193;<wit>*G</wit> · tr. ein wîp, <wit>*T</wit></rdg>
+</app>
+<app loc="743.20">
+<rdg></rdg>
+</app>
+<app loc="743.21">
+<rdg><note>Die Verse 743.21-22 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="743.22">
+<rdg></rdg>
+</app>
+<app loc="743.23">
+<rdg></rdg>
+</app>
+<app loc="743.24">
+<rdg>er d. (Gedaht <wit>I</wit>) - ez was <wit>*G</wit> er gedâhte - des was <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="743.25">
+<rdg></rdg>
+</app>
+<app loc="743.26">
+<rdg></rdg>
+</app>
+<app loc="743.27">
+<rdg></rdg>
+</app>
+<app loc="743.28">
+<rdg>daz (Da <wit>Z</wit>) viur ûz h. (helme <wit>I</wit>) von sl. sp., <wit>*G</wit> · dâ viur ûz den h. von sl. sp., <wit>*T</wit></rdg>
+</app>
+<app loc="743.29">
+<rdg>von (Vor <wit>L</wit> <wit>Z</wit>) Peilrapeire C. <wit>*G</wit> · vor Peilrapere an C. <wit>*T</wit></rdg>
+</app>
+<app loc="743.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

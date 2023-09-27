@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 216</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>31.07.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 216.01">vrümt er an ir reste.</l>
+<l n="*D 216.02">dô rûmdenz lant die geste.</l>
+<l n="*D 216.03"><name type="Person">Clamide</name>, der werde,</l>
+<l n="*D 216.04">reit gein <name type="Ort">L&#x0153;ver</name> ûf die erde.</l>
+<l n="*D 216.05">ensamt, niht besunder</l>
+<l n="*D 216.06">die von der tavelrunder</l>
+<l n="*D 216.07">wâren ze <name type="Ort">Dianazdrun</name></l>
+<l n="*D 216.08">bî <name type="Person">Artuse</name> dem <name type="Person">Bertun</name>.</l>
+<l n="*D 216.09">ob ich iu niht gelogen hân,</l>
+<l n="*D 216.10">von <name type="Ort">Dianazdrun</name> der plân</l>
+<l n="*D 216.11">muose zeltstangen wonen</l>
+<l n="*D 216.12">mêr, dann in <name type="Ort">Spehtshart</name> sî ronen.</l>
+<l n="*D 216.13"><seg type="Initiale" subtype="Majuskel">M</seg>it sölher massenîe lac</l>
+<l n="*D 216.14">durch hôchgezît den pfing<reg type="Synkope">e</reg>stac</l>
+<l n="*D 216.15"><name type="Person">Artus</name> mit maneger vrouwen.</l>
+<l n="*D 216.16">ouch mohte man dâ schouwen</l>
+<l n="*D 216.17">manege baniere und schilt,</l>
+<l n="*D 216.18">den sund<reg type="Synkope">e</reg>rwâpen was gezilt,</l>
+<l n="*D 216.19">manegen wol gehêrten rinc.</l>
+<l n="*D 216.20">ez diuhten nû vil grôziu dinc.</l>
+<l n="*D 216.21">wer m<corr type="Emendation">ö</corr>hte diu reis<reg type="Synkope">e</reg>lachen</l>
+<l n="*D 216.22">solhem wîbe her gemachen?</l>
+<l n="*D 216.23"><corr type="Emendation">ou</corr>ch wânde dô ein vrouwe sân,</l>
+<l n="*D 216.24">si solt den prîs verloren hân,</l>
+<l n="*D 216.25">hete si dâ niht ir âmîs.</l>
+<l n="*D 216.26">ich ent&#x00E6;tes niht decheinen g<reg type="Synkope">e</reg>wîs.</l>
+<l n="*D 216.27"><seg type="Initiale">E</seg>z was dô manec tumber lîp.</l>
+<l n="*D 216.28">ich br&#x00E6;hte ungern nû mîn wîp</l>
+<l n="*D 216.29">in alsô grôz gemenge.</l>
+<l n="*D 216.30">ich vorhte unkunt gedrenge.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(216.9-12, 17-19 und 22-24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="216.01"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="216.03"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="216.09"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit>
+</rdg></app>
+<app loc="216.13"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="216.21"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="216.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="216.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="216.27"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="216.05">
+<rdg><note>Versfolge 216.8-7-6-5</note> <wit>*m</wit></rdg>
+</app>
+<app loc="216.05">
+<rdg>ensament, niht besunder. <wit>*m</wit></rdg>
+</app>
+<app loc="216.06">
+<rdg>und die von der tavelrunder, <wit>*m</wit></rdg>
+</app>
+<app loc="216.07">
+<rdg>der lac ze Dianazdrun (dianazdrim <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="216.08">
+<rdg>Artus der Britun (bittun <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="216.09">
+<lem>iu</lem> <rdg>nû <wit>*m</wit></rdg>
+</app>
+<app loc="216.10">
+<rdg>vor Dianazdrun der plân, <wit>*m</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="216.11">
+<rdg>der muose zeltstangen (mu&#x0364;ze gezelt stangen <wit>Fr69</wit>) wonen <wit>*m</wit></rdg>
+</app>
+<app loc="216.12">
+<lem>Spehtshart</lem> <rdg><subst><del>Spethtshart</del><add>Spehtshart</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="216.14">
+<rdg>durch hôchzît den pfingesttac (phichest tach <wit>G</wit>), <wit>*G</wit> <note>(ohne L)</note> (<wit>U</wit>)</rdg>
+</app>
+<app loc="216.14">
+<rdg> durch hôchvart den pfingestac <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="216.15">
+<lem>Artus</lem> <rdg>der künic <wit>*m</wit></rdg>
+</app>
+<app loc="216.17">
+<lem>manege</lem> <rdg>maniger <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="216.19">
+<lem>manegen</lem> <rdg>und manigen <wit>*m</wit></rdg>
+</app>
+<app loc="216.21">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="216.22">
+<lem>solhem wîbe</lem> <rdg>solichem (Sollichen <wit>mk</wit> [<wit>Fr69</wit>]) wîbes <wit>*m</wit></rdg>
+</app>
+<app loc="216.23">
+<lem>ouch</lem> <rdg>v&#x0366;ch <wit>D</wit></rdg>
+</app>
+<app loc="216.26">
+<lem>decheinen gewîs</lem> <rdg>dekeine (dekeines <wit>mk</wit>) wîs <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="216.01">
+<rdg>Vuorter an ir r. <wit>*G</wit> <note>(nur GI)</note> · vrumt er an die (<subst><del>*</del><add>ir</add></subst> <wit>V</wit>) r. <wit>*T</wit></rdg>
+</app>
+<app loc="216.02">
+<rdg></rdg>
+</app>
+<app loc="216.03">
+<rdg></rdg>
+</app>
+<app loc="216.04">
+<rdg></rdg>
+</app>
+<app loc="216.05">
+<rdg></rdg>
+</app>
+<app loc="216.06">
+<rdg></rdg>
+</app>
+<app loc="216.07">
+<rdg></rdg>
+</app>
+<app loc="216.08">
+<rdg></rdg>
+</app>
+<app loc="216.09">
+<rdg></rdg>
+</app>
+<app loc="216.10">
+<rdg>vor Dyanarsun ûf dem (den <wit>T</wit>) pl. <wit>*T</wit></rdg>
+</app>
+<app loc="216.11">
+<rdg>m. (Mv&#x0366;sen <wit>Fr21</wit>) zeltstange w. <wit>*G</wit> <note>(ohne OLZ)</note> · m. (mu&#x0366;ze <wit>U</wit>) mê gezeltstangen w., <wit>*T</wit></rdg>
+</app>
+<app loc="216.12">
+<rdg>d. (me dann <wit>I</wit> [<wit>O</wit> <wit>Z</wit>]) in dem Sp. sî (sten <wit>I</wit>) r. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="216.13">
+<rdg>mit solher messenîe (<subst><del>hochzit</del><add>messnie</add></subst> <wit>G</wit>) er lac <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="216.14">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="216.15">
+<rdg>A., mit <wit>*G</wit></rdg>
+</app>
+<app loc="216.16">
+<rdg></rdg>
+</app>
+<app loc="216.17">
+<rdg>vil m. <wit>*T</wit></rdg>
+</app>
+<app loc="216.18">
+<rdg></rdg>
+</app>
+<app loc="216.19">
+<rdg>unde manigen (Vnde manic <wit>Fr21</wit> <subst><del>*</del><add>Vnde manigen</add></subst> <wit>V</wit>) wol g. (geherter <wit>Fr21</wit>) r. <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="216.20">
+<rdg></rdg>
+</app>
+<app loc="216.21">
+<rdg>wer wolte (mochte <wit>U</wit>) diu r. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="216.22">
+<rdg>s. wîbes <wit>*G</wit> solhen wîben (<subst><del>Sol* wibe*</del><add>Solhem wibez</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="216.23">
+<rdg>Dô kunte ein ieslîch vr. sân (<subst><del>D*</del><add>O&#x036E;ch wonde do ein frowe san</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="216.24">
+<rdg>si s. ir (ir ere ir <wit>L</wit>) brîs <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="216.25">
+<rdg>niht dâ <wit>*T</wit></rdg>
+</app>
+<app loc="216.26">
+<rdg>n. deheine wîs. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="216.27">
+<rdg></rdg>
+</app>
+<app loc="216.28">
+<rdg></rdg>
+</app>
+<app loc="216.29">
+<rdg>in als gr. (alsolch <wit>G</wit>) gedrenge (gestrenge <wit>O</wit>). <wit>*G</wit> <note>(ohne Fr21)</note></rdg>
+</app>
+<app loc="216.30">
+<rdg>u. (vnchunde <wit>I</wit>) gemenge. <wit>*G</wit> <note>(ohne Fr21)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 67</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 67.01">hie sint die <name type="Person">Waleise</name>,</l>
+<l n="*D 67.02">daz si behabent ir reise</l>
+<l n="*D 67.03">durch den poind<reg type="Synkope">e</reg>r, swâ sis gernt.</l>
+<l n="*D 67.04">von der kraft ir landes si des wernt.</l>
+<l n="*D 67.05">hie ist manec ritter durch diu wîp,</l>
+<l n="*D 67.06">des niht erkennen mac mîn lîp.</l>
+<l n="*D 67.07">al die ich hie benennet hân,</l>
+<l n="*D 67.08">wir ligen mit wârheit sund<reg type="Synkope">e</reg>r wân</l>
+<l n="*D 67.09">mit grôzer vuore in der stat,</l>
+<l n="*D 67.10">als uns diu küneginne bat.</l>
+<l n="*D 67.11"><seg type="Initiale" subtype="Majuskel">I</seg>ch sage dir, wer ze velde ligt,</l>
+<l n="*D 67.12">die unser wer vil ringe wigt:</l>
+<l n="*D 67.13">der werde künec von <name type="Ort">Ascalun</name></l>
+<l n="*D 67.14">unt der stolze künec von <name type="Ort">Arragun</name>,</l>
+<l n="*D 67.15"><name type="Person">Cid<reg type="Synkope">e</reg>gast</name> von <name type="Ort">Logroys</name></l>
+<l n="*D 67.16">unt der künec von <name type="Ort">Punturtoys</name>,</l>
+<l n="*D 67.17">der heizet <name type="Person">Brandelidelin</name>.</l>
+<l n="*D 67.18">dâ ist ouch der küene <name type="Person">L&#x00E6;helin</name>.</l>
+<l n="*D 67.19">dâ ist <name type="Person">Morholt</name> von <name type="Ort">Yrlant</name>,</l>
+<l n="*D 67.20">der brichet ab uns beidiu pfant.</l>
+<l n="*D 67.21"><seg type="Initiale" subtype="Majuskel">D</seg>â ligent ûf dem plâne</l>
+<l n="*D 67.22">die stolzen <name type="Person">Alemane</name>.</l>
+<l n="*D 67.23">der herzoge von <name type="Ort">Brabant</name></l>
+<l n="*D 67.24">ist gestrichen in ditze lant</l>
+<l n="*D 67.25">durch den künec <name type="Person">Hardizen</name>.</l>
+<l n="*D 67.26">sîne swester <name type="Person">Alizen</name></l>
+<l n="*D 67.27">gap i<corr type="Emendation">m</corr> der künec von <name type="Ort">Gascon</name>.</l>
+<l n="*D 67.28">sîn dienest hât vor enpfangen lôn.</l>
+<l n="*D 67.29"><seg type="Initiale">D</seg>ie sint mit zorne hie gein mir.</l>
+<l n="*D 67.30">nû sol ich wol getrûwen dir.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(67.18-30)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="67.01"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="67.02"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="67.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="67.05"><rdg>
+<note>Initiale</note> <wit>Z</wit> <wit>T</wit>
+</rdg></app><app loc="67.05"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="67.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="67.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="67.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="67.19"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="67.19"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="67.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="67.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="67.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="67.03">
+<rdg>Durch die poynder wan si sin gerne <wit>Z</wit></rdg>
+</app>
+<app loc="67.03">
+<lem>den</lem> <rdg>die <wit>*m</wit></rdg>
+</app>
+<app loc="67.07">
+<rdg>wan (Alle <wit>Z</wit>) die ich dir benennet hân (genennet han <wit>I</wit> [<wit>L</wit>] hie benennen chan <wit>O</wit> hie genennet han <wit>Z</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="67.07">
+<rdg>wan die ich dir (<note>om.</note> <wit>T</wit>) hie genennet (<subst><del>*an</del><add>benennet</add></subst> <wit>V</wit>) hân. <wit>*T</wit></rdg>
+</app>
+<app loc="67.15">
+<lem>von</lem> <rdg>de <wit>*m</wit></rdg>
+</app>
+<app loc="67.17">
+<lem>heizet</lem> <rdg>herzoge <wit>*m</wit></rdg>
+</app>
+<app loc="67.20">
+<lem>ab uns beidiu</lem> <rdg>ab uns g&#x00E6;ben <wit>*m</wit> abe uns g&#x00E6;biu (div geben <wit>O</wit> garbi <wit>L</wit> der g&#x00E6;ben <wit>Fr21</wit>) <wit>*G</wit> uns abe g&#x00E6;biu <wit>*T</wit> (<wit>I</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="67.27">
+<lem>im</lem> <rdg>in <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="67.01">
+<rdg>hie hânt die W. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="67.02">
+<rdg>durch sie behabet ir r. <wit>*T</wit> <note>(nur U)</note> · b. die r. <wit>*G</wit> <note>(nur GI)</note> <wit>V</wit></rdg>
+</app>
+<app loc="67.03">
+<rdg></rdg>
+</app>
+<app loc="67.04">
+<rdg>Jr stichgenôze si crefte wernt <wit>T</wit> · von ir (<note>om.</note> <wit>V</wit>) kr. <wit>*T</wit></rdg>
+</app>
+<app loc="67.05">
+<rdg></rdg>
+</app>
+<app loc="67.06">
+<rdg>des n. e. mac mîn lîp, <wit>*G</wit> · der (Des <wit>V</wit> [<wit>T</wit>]) n. e. kan mîn lîp, <wit>*T</wit></rdg>
+</app>
+<app loc="67.07">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="67.08">
+<rdg></rdg>
+</app>
+<app loc="67.09">
+<rdg></rdg>
+</app>
+<app loc="67.10">
+<rdg></rdg>
+</app>
+<app loc="67.11">
+<rdg></rdg>
+</app>
+<app loc="67.12">
+<rdg>die u. strît vil <wit>*G</wit> <note>(nur GI)</note> den u. vuore (Die <subst><del>*sser</del><add>vsser</add></subst> wer <wit>V</wit>) vil <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="67.13">
+<rdg></rdg>
+</app>
+<app loc="67.14">
+<rdg>der vreche (werde <wit>O</wit> <note>om.</note> <wit>T</wit>) künic von A. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="67.15">
+<rdg>dâ (daz <wit>G</wit>) ist Zidegast von Orileis (longroys <wit>Z</wit>) <wit>*G</wit> · hie ist Cydegast von Logroys <wit>*T</wit></rdg>
+</app>
+<app loc="67.16">
+<rdg></rdg>
+</app>
+<app loc="67.17">
+<rdg>der h. B., <wit>*T</wit></rdg>
+</app>
+<app loc="67.18">
+<rdg>hie ist (ist ouch [vnd <wit>T</wit>] <wit>*T</wit>) der k. (kunc <wit>I</wit> [<wit>T</wit>]) L. <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="67.19">
+<rdg>hie ist <wit>*T</wit> <note>(ohne T)</note> (<wit>G</wit>)</rdg>
+</app>
+<app loc="67.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="67.21">
+<rdg>hie (Da <wit>O</wit> [<wit>T</wit>] Die <wit>L</wit>) l. ûf der plânje (dem plâne <wit>*T</wit> [<wit>L</wit> <wit>Z</wit>]) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="67.22">
+<rdg></rdg>
+</app>
+<app loc="67.23">
+<rdg>der h. von Br., <wit>*G</wit></rdg>
+</app>
+<app loc="67.24">
+<rdg>der ist <wit>*G</wit> <note>(ohne IZ)</note> <wit>T</wit></rdg>
+</app>
+<app loc="67.25">
+<rdg></rdg>
+</app>
+<app loc="67.26">
+<rdg></rdg>
+</app>
+<app loc="67.27">
+<rdg></rdg>
+</app>
+<app loc="67.28">
+<rdg></rdg>
+</app>
+<app loc="67.29">
+<rdg>si s. mit z. gein mir. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="67.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

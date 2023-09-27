@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 102</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 102.01">daz was ein stolz werd<reg type="Synkope">e</reg>r man -</l>
+<l n="*D 102.02">niht der von <name type="Ort">Rome</name> entran</l>
+<l n="*D 102.03"><name type="Person">Julius</name> dâ bevor.</l>
+<l n="*D 102.04">de<corr type="Emendation">r</corr> künec <name type="Person">Nabuchodonozor</name></l>
+<l n="*D 102.05">sîner muot<reg type="Synkope">e</reg>r bruoder was,</l>
+<l n="*D 102.06">der an trüg<reg type="Synkope">e</reg>lîchen buochen las,</l>
+<l n="*D 102.07">er solte selbe sîn ein got.</l>
+<l n="*D 102.08">daz w&#x00E6;re nû der liute spot.</l>
+<l n="*D 102.09">ir lîp, ir guot was ungespart.</l>
+<l n="*D 102.10">die gebruod<reg type="Synkope">e</reg>r wâren von hôher art,</l>
+<l n="*D 102.11">von <name type="Person">Ninus</name>, der gewaldes pflac,</l>
+<l n="*D 102.12">ê würde gestiftet <name type="Ort">Baldac</name>.</l>
+<l n="*D 102.13">der selbe stifte ouch <name type="Ort">Ninnive</name>.</l>
+<l n="*D 102.14">in tet schade unt last<reg type="Synkope">e</reg>r wê.</l>
+<l n="*D 102.15">der jach der bâruc zurborn.</l>
+<l n="*D 102.16">des wart gewunnen unt verlorn</l>
+<l n="*D 102.17">genuoc ze bêden sîten.</l>
+<l n="*D 102.18">man sach dâ helde strîten.</l>
+<l n="*D 102.19"><seg type="Initiale" subtype="Majuskel">D</seg>ô schift er sich über mer</l>
+<l n="*D 102.20">unt vant den bâruc mit wer.</l>
+<l n="*D 102.21">mit vreuden er enpfangen wart,</l>
+<l n="*D 102.22">swie mich jâmer sîner vart.</l>
+<l n="*D 102.23"><seg type="Initiale">W</seg>az dâ gesch&#x00E6;he, wie ez dort ergê,</l>
+<l n="*D 102.24">gewin unt vlust, wie daz gestê,</l>
+<l n="*D 102.25">den enweiz vrou <name type="Person">Herzeloyde</name> niht.</l>
+<l n="*D 102.26">diu was alsô diu sunne lieht</l>
+<l n="*D 102.27">unt hete minneclîchen lîp.</l>
+<l n="*D 102.28">rîcheit bî tugende pflac daz wîp</l>
+<l n="*D 102.29">unt vreuden mêr denne ze vil.</l>
+<l n="*D 102.30">si was gar ob dem wunsches zil.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="102.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="102.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="102.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="102.19"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="102.23"><rdg>
+<note>Überschrift:</note> Auentiwer wie Gahmuret den leib verlos ze dem barrvch <wit>I</wit>
+</rdg></app><app loc="102.23"><rdg><note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="102.23"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="102.04">
+<lem>der</lem> <rdg>de <wit>D</wit></rdg>
+</app>
+<app loc="102.15">
+<lem>bâruc</lem> <rdg>künic <wit>*m</wit></rdg>
+</app>
+<app loc="102.16">
+<lem>wart</lem> <rdg>was <wit>*m</wit></rdg>
+</app>
+<app loc="102.22">
+<lem>jâmer</lem> <rdg>jâmert <wit>*m</wit> (<wit>I</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="102.23">
+<lem>Waz</lem> <rdg>Daz <wit>*m</wit></rdg>
+</app>
+<app loc="102.24">
+<lem>gestê</lem> <rdg>geschê <wit>*m</wit></rdg>
+</app>
+<app loc="102.25">
+<lem>den</lem> <rdg>des <wit>*m</wit></rdg>
+</app>
+<app loc="102.28">
+<lem>tugende</lem> <rdg>jugende <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="102.01">
+<rdg></rdg>
+</app>
+<app loc="102.02">
+<rdg></rdg>
+</app>
+<app loc="102.03">
+<rdg>J. dâ vor (<subst><del>*</del><add>belior</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="102.04">
+<rdg></rdg>
+</app>
+<app loc="102.05">
+<rdg></rdg>
+</app>
+<app loc="102.06">
+<rdg></rdg>
+</app>
+<app loc="102.07">
+<rdg>er wolt s. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="102.08">
+<rdg>ez w. nû <wit>*G</wit> <wit>*T</wit> · der werlde sp. <wit>*T</wit> <note>(ohne T)</note> <wit>O</wit></rdg>
+</app>
+<app loc="102.09">
+<rdg>sîn habe, sîn (Jr <subst><del>*spart</del><add>lip ir</add></subst> <wit>V</wit>) g. was u. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="102.10">
+<rdg>die bruoder w. <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="102.11">
+<rdg>Linus <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="102.12">
+<rdg>gestiftet würde (wurde gestiftet der <wit>O</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="102.13">
+<rdg></rdg>
+</app>
+<app loc="102.14">
+<rdg></rdg>
+</app>
+<app loc="102.15">
+<rdg></rdg>
+</app>
+<app loc="102.16">
+<rdg></rdg>
+</app>
+<app loc="102.17">
+<rdg></rdg>
+</app>
+<app loc="102.18">
+<rdg>man s. die h. st. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="102.19">
+<rdg></rdg>
+</app>
+<app loc="102.20">
+<rdg>mit her. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="102.21">
+<rdg></rdg>
+</app>
+<app loc="102.22">
+<rdg>sîne v. <wit>*T</wit> <note>(ohne T)</note> (<wit>Fr21</wit>)</rdg>
+</app>
+<app loc="102.23">
+<rdg></rdg>
+</app>
+<app loc="102.24">
+<rdg></rdg>
+</app>
+<app loc="102.25">
+<rdg>des weiz vrô <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="102.26">
+<rdg>si was <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="102.27">
+<rdg></rdg>
+</app>
+<app loc="102.28">
+<rdg>bî jugent (iu̽ngen da <wit>L</wit>) pf. <wit>*G</wit> (<wit>V</wit> <wit>T</wit>) bî der jugent pf. <wit>*T</wit></rdg>
+</app>
+<app loc="102.29">
+<rdg>ze <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="102.30">
+<rdg>si was gar über (ob <wit>I</wit> <wit>O</wit> <wit>V</wit> <wit>T</wit>) des w. (dem wunsc ein <wit>T</wit>) zil. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

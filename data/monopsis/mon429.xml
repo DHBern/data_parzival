@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 429</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 429.01"><seg type="Initiale">D</seg>â ir swert wâren gehangen,</l>
+<l n="*D 429.02">diu wâren in undergangen,</l>
+<l n="*D 429.03"><name type="Person">Gawans</name> knappen, an des strît<reg type="Synkope">e</reg>s stunt,</l>
+<l n="*D 429.04">daz ir decheiner was worden wunt.</l>
+<l n="*D 429.05">ein gewaltec man von der stat</l>
+<l n="*D 429.06"><seg type="singuläre_Lesart"></seg>in vrides vor den andern bat.</l>
+<l n="*D 429.07">der vienc si unt leite si in prîsûn.</l>
+<l n="*D 429.08">ez w&#x00E6;re <name type="Person">Franzeys</name> oder <name type="Person">Bertun</name>,</l>
+<l n="*D 429.09">starke knappen <seg type="singuläre_Lesart">unt</seg> kleiniu kint,</l>
+<l n="*D 429.10">von <seg type="singuläre_Lesart">swelhen landen</seg> si kom<reg type="Synkope">e</reg>n sint,</l>
+<l n="*D 429.11">die brâht man <seg type="singuläre_Lesart">dô</seg> ledeclîchen</l>
+<l n="*D 429.12"><name type="Person">Gawane</name>, <seg type="singuläre_Lesart">dem</seg> ellens rîchen.</l>
+<l n="*D 429.13"><seg type="Initiale" subtype="Majuskel">D</seg>ô in diu kint ersâhen,</l>
+<l n="*D 429.14">dâ wart grôz umbevâhen.</l>
+<l n="*D 429.15">ieslîchez sich weinende an in hienc.</l>
+<l n="*D 429.16">daz weinen i<reg type="Synkope">e</reg>doch von liebe ergienc.</l>
+<l n="*D 429.17">von <name type="Ort">Curnewals</name> mit im dâ was</l>
+<l n="*D 429.18">cons <name type="Person">Layz</name> fiz <name type="Person">Tynas</name>.</l>
+<l n="*D 429.19">ein edel kint wont im ouch bî:</l>
+<l n="*D 429.20">duc <name type="Person">Gandiluz</name> fiz <name type="Person">Gurzgri</name>,</l>
+<l n="*D 429.21">der durch <name type="Ort">Schoydelakurt</name> den lîp verlôs,</l>
+<l n="*D 429.22">dâ manec vrouwe ir jâmer kôs.</l>
+<l n="*D 429.23"><name type="Person">Liaze</name> was des kindes base.</l>
+<l n="*D 429.24">sîn munt, sîn ougen unt sîn nase</l>
+<l n="*D 429.25">was reht der minne kern.</l>
+<l n="*D 429.26">al diu werlt sach in gern,</l>
+<l n="*D 429.27">dar zuo sehs and<reg type="Synkope">e</reg>r kindelîn.</l>
+<l n="*D 429.28">dise aht junchêrr<reg type="Synkope">e</reg>n sîn</l>
+<l n="*D 429.29">wâren <corr type="Emendation">g</corr>e<corr type="Emendation">b</corr>ürte des bewart,</l>
+<l n="*D 429.30">elliu von edeler, hôhen art.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr1</wit> <note>(429.1-5)</note> <wit>Fr5</wit> <note>(429.1-9 und 14-28)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <note>(ohne 429.15-16)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="429.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr1</wit> <wit>Fr5</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>V</wit>
+</rdg></app><app loc="429.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="429.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="429.13"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="429.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="429.01">
+<lem>Dâ</lem> <rdg>DA in <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.02">
+<lem>in</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="429.03">
+<lem>an</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.03">
+<lem>des strîtes</lem> <rdg>der selben <wit>*m</wit></rdg>
+</app>
+<app loc="429.04">
+<lem>ir</lem> <rdg>in <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.06">
+<lem>in</lem> <rdg>Der in <wit>Fr5</wit> (<wit>*m</wit>)</rdg>
+</app>
+<app loc="429.06">
+<lem>vor</lem> <rdg>von <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.08">
+<lem>ez</lem> <rdg>Er <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.09">
+<rdg><note>Verse 429.9-13 kontrahiert zu:</note> Starche knappin vnd cleiniv kint irsahin <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.09">
+<lem>unt</lem> <rdg>oder <wit>*m</wit></rdg>
+</app>
+<app loc="429.10">
+<lem>swelhen landen</lem> <rdg>welhem lande (welhelim lande <wit>mk</wit> <subst><del>welchem</del><add>welchen</add></subst> landen <wit>U</wit> swelme lande <wit>V</wit>) <wit>*m</wit> (<wit>*G</wit>) <note>(ohne OLZ)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="429.15">
+<rdg>ieglîchez weinende an &#x2020;in&#x2020; hienc. <wit>*m</wit></rdg>
+</app>
+<app loc="429.16">
+<rdg>daz weinen doch von liebe gienc. <wit>*m</wit></rdg>
+</app>
+<app loc="429.16">
+<lem>von</lem> <rdg>vor <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.18">
+<rdg>cons Lan fiz (fir <wit>mk</wit>) Tinas <wit>*m</wit></rdg>
+</app>
+<app loc="429.19">
+<lem>wont im</lem> <rdg><subst><del>vont</del><add>wont</add></subst> im <wit>Fr5</wit></rdg>
+</app>
+<app loc="429.19">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="429.24">
+<lem>unt</lem> <rdg><note>om.</note> <wit>Fr5</wit> <wit>L</wit></rdg>
+</app>
+<app loc="429.29">
+<lem>gebürte</lem> <rdg>begvrte <wit>D</wit></rdg>
+</app>
+<app loc="429.30">
+<rdg>elliu (alle <wit>O</wit> <wit>Fr21</wit>) von edel hôher (von edler <wit>Z</wit>) art. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="429.30">
+<rdg>alle (Alles <wit>V</wit>) von hôher (ediler <subst><del>hoh*</del><add>hoher</add></subst> <wit>V</wit>) art. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="429.01">
+<rdg></rdg>
+</app>
+<app loc="429.02">
+<rdg></rdg>
+</app>
+<app loc="429.03">
+<rdg>an der (<note>om.</note> <wit>L</wit>) st. stunt, <wit>*G</wit> <note>(nur G)</note> an der (der <subst><del>*</del><add>selben</add></subst> <wit>V</wit>) stunt, <wit>*T</wit></rdg>
+</app>
+<app loc="429.04">
+<rdg></rdg>
+</app>
+<app loc="429.05">
+<rdg></rdg>
+</app>
+<app loc="429.06">
+<rdg>der in <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="429.07">
+<rdg></rdg>
+</app>
+<app loc="429.08">
+<rdg></rdg>
+</app>
+<app loc="429.09">
+<rdg></rdg>
+</app>
+<app loc="429.10">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="429.11">
+<rdg>die brâhte man (dô <wit>*T</wit>) lediclîchen <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="429.12">
+<rdg>Gawan, der e. rîche. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="429.13">
+<rdg></rdg>
+</app>
+<app loc="429.14">
+<rdg></rdg>
+</app>
+<app loc="429.15">
+<rdg>iegeslîchez weinde (sich weinende <wit>V</wit>) an im h. <wit>*T</wit></rdg>
+</app>
+<app loc="429.16">
+<rdg>w. doch von l. (vor leide <wit>O</wit> <wit>Fr21</wit> vor liebe <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note> w. ie. vor l. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="429.17">
+<rdg></rdg>
+</app>
+<app loc="429.18">
+<rdg>c. (Graue <wit>V</wit>) Liaz (Larz <wit>*T</wit>) fiz (svn von <wit>V</wit>) Tinas. <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) (<wit>L</wit>)</rdg>
+</app>
+<app loc="429.19">
+<rdg></rdg>
+</app>
+<app loc="429.20">
+<rdg></rdg>
+</app>
+<app loc="429.21">
+<rdg></rdg>
+</app>
+<app loc="429.22">
+<rdg>ir leit erkôs (<subst><del>*</del><add>kos</add></subst> <wit>V</wit> an kos <wit>O</wit>). <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="429.23">
+<rdg></rdg>
+</app>
+<app loc="429.24">
+<rdg></rdg>
+</app>
+<app loc="429.25">
+<rdg></rdg>
+</app>
+<app loc="429.26">
+<rdg></rdg>
+</app>
+<app loc="429.27">
+<rdg></rdg>
+</app>
+<app loc="429.28">
+<rdg>die (<subst><del>die</del><add>dise</add></subst> <wit>T</wit> <subst><del>D*</del><add>Dise</add></subst> <wit>V</wit>) ahte <wit>*G</wit> <note>(nur GI)</note> (<wit>T</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="429.29">
+<rdg>w. von geburt des b., <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="429.30">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

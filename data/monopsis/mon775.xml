@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 775</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 775.01"><name type="Person"><seg type="Initiale">U</seg>tepandraguns</name> sun,</l>
+<l n="*D 775.02"><name type="Person">Artusen</name>, sach man alsus tuon:</l>
+<l n="*D 775.03">er prüevete kostenlîche</l>
+<l n="*D 775.04">eine tavelrunde rîche</l>
+<l n="*D 775.05">ûz eime drîanthasmê.</l>
+<l n="*D 775.06">ir habt wol gehôrt ê,</l>
+<l n="*D 775.07">wie ûf dem <name type="Ort">Plimiz&#x0153;l<reg type="Synkope">e</reg>s</name> plân</l>
+<l n="*D 775.08">einer tavelrunde wart getân.</l>
+<l n="*D 775.09">nâch der disiu wart gesniten,</l>
+<l n="*D 775.10">sinwel, mit solhen siten,</l>
+<l n="*D 775.11">si erzeigete rîlîchiu dinc.</l>
+<l n="*D 775.12">sinwel man drumbe nam den rinc</l>
+<l n="*D 775.13">ûf einem touwec grüenem gras,</l>
+<l n="*D 775.14">daz wol ein poynder landes was</l>
+<l n="*D 775.15">vome sedel an tavelrunder;</l>
+<l n="*D 775.16">diu stuont dâ mitten sunder,</l>
+<l n="*D 775.17">niht durch den nutz, êt durch den nam<reg type="Synkope">e</reg>n.</l>
+<l n="*D 775.18">sich moht ein b&#x0153;se man wol scham<reg type="Synkope">e</reg>n,</l>
+<l n="*D 775.19">ob er dâ bî den werden saz.</l>
+<l n="*D 775.20">die spîse sîn munt mit sünden az.</l>
+<l n="*D 775.21"><seg type="Initiale" subtype="Majuskel">D</seg>er rinc wart bî der sch&#x0153;nen naht</l>
+<l n="*D 775.22">gemezzen unt vor bedâht</l>
+<l n="*D 775.23">wol nâch rîlîchen ziln.</l>
+<l n="*D 775.24">es mohte einen armen künec beviln,</l>
+<l n="*D 775.25">als man den rinc gezieret vant,</l>
+<l n="*D 775.26">dô der mitte morgen wart erkant,</l>
+<l n="*D 775.27"><name type="Person">Gramoflanz</name> unt <name type="Person">Gawan</name>,</l>
+<l n="*D 775.28">von in diu koste wart getân.</l>
+<l n="*D 775.29"><name type="Person">Artus</name> was des landes gast.</l>
+<l n="*D 775.30">sîner koste iedoch dâ niht gebrast.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <note>(775.1-2)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit> <note>(ohne 775.17)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="775.01"><rdg>
+<note>Großinitiale</note> <wit>U</wit>
+</rdg></app><app loc="775.01"><rdg><note>Initiale</note> <wit>D</wit> <wit>Fr2</wit> <wit>V</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app>
+<app loc="775.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="775.01">
+<rdg>waz Artus des morgens tuo? <wit>*m</wit></rdg>
+</app>
+<app loc="775.01">
+<lem>Utepandraguns</lem> <rdg>&#x00F7;tepandragvns <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.02">
+<rdg>dô greif er vr&#x0153;lich zuo <wit>*m</wit></rdg>
+</app>
+<app loc="775.03">
+<rdg>und brüefte kostlîch <wit>*m</wit></rdg>
+</app>
+<app loc="775.08">
+<lem>einer</lem> <rdg>Eine <wit>Fr2</wit> (<wit>*m</wit> <note>[nur m]</note>)</rdg>
+</app>
+<app loc="775.10">
+<lem>mit solhen</lem> <rdg>nâch solhem <wit>*m</wit></rdg>
+</app>
+<app loc="775.12">
+<lem>man drumbe</lem> <rdg>drvmbe man <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.13">
+<lem>einem</lem> <rdg>ein <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.13">
+<lem>touwec</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="775.13">
+<lem>grüenem</lem> <rdg>grvne <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.14">
+<lem>landes</lem> <rdg>langez <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="775.17">
+<lem>êt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="775.23">
+<lem>rîlîchen</lem> <rdg>rîchen <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="775.24">
+<lem>mohte</lem> <rdg>moht wol <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.26">
+<lem>mitte</lem> <rdg>mitten <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.30">
+<rdg>:::ost da doch ::: <wit>Fr2</wit></rdg>
+</app>
+<app loc="775.30">
+<lem>iedoch</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="775.01">
+<rdg></rdg>
+</app>
+<app loc="775.02">
+<rdg>Artus, sprach: "man sol sus t." <wit>*G</wit> <note>(nur GI)</note> · sus <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="775.03">
+<rdg>er pr. stolzlîche <wit>*T</wit></rdg>
+</app>
+<app loc="775.04">
+<rdg></rdg>
+</app>
+<app loc="775.05">
+<rdg></rdg>
+</app>
+<app loc="775.06">
+<rdg></rdg>
+</app>
+<app loc="775.07">
+<rdg></rdg>
+</app>
+<app loc="775.08">
+<rdg>ein tavelrunder (Tavelrvnde <wit>L</wit>) w. g. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="775.09">
+<rdg>dâ w. disiu n. g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="775.10">
+<rdg></rdg>
+</app>
+<app loc="775.11">
+<rdg></rdg>
+</app>
+<app loc="775.12">
+<rdg></rdg>
+</app>
+<app loc="775.13">
+<rdg>ûf ein t. (getouwet <wit>*T</wit>) grüene gr., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="775.14">
+<rdg>dâ wol <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="775.15">
+<rdg>von s. (gesidel <wit>L</wit>) ein t.; <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="775.16">
+<rdg>dâ enmitten st. besunder - <wit>*G</wit> <note>(nur GI)</note> · dâ enmitten (ein miten <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="775.17">
+<rdg>êr (durch <wit>Z</wit>) den namen. <wit>*G</wit> ouch d. den namen. <wit>*T</wit></rdg>
+</app>
+<app loc="775.18">
+<rdg></rdg>
+</app>
+<app loc="775.19">
+<rdg>dâ <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="775.20">
+<rdg></rdg>
+</app>
+<app loc="775.21">
+<rdg></rdg>
+</app>
+<app loc="775.22">
+<rdg>wol g. unde vor b. (vnde Gedaht <wit>I</wit>) <wit>*G</wit> <note>(nur GI)</note> · g. und verdâht <wit>*T</wit></rdg>
+</app>
+<app loc="775.23">
+<rdg></rdg>
+</app>
+<app loc="775.24">
+<rdg></rdg>
+</app>
+<app loc="775.25">
+<rdg></rdg>
+</app>
+<app loc="775.26">
+<rdg>morgen w. (was <wit>I</wit> dâ wart <wit>*T</wit>) bekant, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="775.27">
+<rdg></rdg>
+</app>
+<app loc="775.28">
+<rdg></rdg>
+</app>
+<app loc="775.29">
+<rdg></rdg>
+</app>
+<app loc="775.30">
+<rdg>k. doch dâ <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

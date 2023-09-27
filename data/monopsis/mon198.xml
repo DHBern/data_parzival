@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 198</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>05.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 198.01">decheinem man, sîn sicherheit.</l>
+<l n="*D 198.02">ir enwolde niht, der mit im streit.</l>
+<l n="*D 198.03">er bat in fîanze</l>
+<l n="*D 198.04">bringen <name type="Person">Gurnamanze</name>.</l>
+<l n="*D 198.05">"<seg type="Initiale" subtype="Majuskel">N</seg>ein, hêrre, dû maht mir gerner tuon</l>
+<l n="*D 198.06">den tôt. ich sluog im sînen suon.</l>
+<l n="*D 198.07"><name type="Person">Schenteflorn</name> nam ich sîn leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 198.08">got hât dir êren vil gegeb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 198.09">swâ man daz seit von dir,</l>
+<l n="*D 198.10">diu kraft erzeiget ist an mir,</l>
+<l n="*D 198.11">daz dû mich hâst betwungen,</l>
+<l n="*D 198.12">sô ist dir wol gelungen."</l>
+<l n="*D 198.13">dô sprach der junge <name type="Person">Parzival</name>:</l>
+<l n="*D 198.14">"ich wil dir lâzen and<reg type="Synkope">e</reg>r wal.</l>
+<l n="*D 198.15">nû sichere der künegîn,</l>
+<l n="*D 198.16">der dîn hêrre hôhen pîn</l>
+<l n="*D 198.17">hât gevrumt mit zorne."</l>
+<l n="*D 198.18">"sô würde ich der verlorne.</l>
+<l n="*D 198.19">mit swerten w&#x00E6;re mîn lîp verzert</l>
+<l n="*D 198.20">kleine, sô daz in sunnen vert.</l>
+<l n="*D 198.21">wande ich hân herzeleit getân</l>
+<l n="*D 198.22">dort inne manegen küenem man."</l>
+<l n="*D 198.23">"<seg type="Initiale">S</seg>ô vüere von disem plâne</l>
+<l n="*D 198.24">inz lant ze <name type="Ort">Bertane</name></l>
+<l n="*D 198.25">dîne ritterlîche sicherheit</l>
+<l n="*D 198.26">einer magt, diu durch mich leit,</l>
+<l n="*D 198.27">des si niht lîden solde,</l>
+<l n="*D 198.28">der unvuoge erkennen wolde,</l>
+<l n="*D 198.29">unt sag ir, swaz halt mir geschehe,</l>
+<l n="*D 198.30">daz si mich nimmer vrô gesehe,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(198.2-5, 10-12, 22-25 und 28-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="198.05"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="198.13"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="198.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="198.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="198.21"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="198.23"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="198.23"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="198.01">
+<lem>decheinem</lem> <rdg>wart dekeinem (dekeinen <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="198.02">
+<lem>ir enwolde</lem> <rdg>er wolt ir (ern wolt <wit>I</wit> [<wit>Z</wit>]) <wit>*G</wit> <note>(ohne O)</note> dône woltir (Do in wolt <subst><del>r*</del><add>r</add></subst> <wit>U</wit> Der enwolt er <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="198.03">
+<rdg>er bat in (im <wit>Fr69</wit>) Gurnemanze <wit>*m</wit></rdg>
+</app>
+<app loc="198.04">
+<rdg>bringen (Bringent <wit>mk</wit>) die fîanze. <wit>*m</wit></rdg>
+</app>
+<app loc="198.09">
+<rdg><note>Versfolge 198.10-9</note> <wit>*m</wit></rdg>
+</app>
+<app loc="198.09">
+<lem>daz seit</lem> <rdg>saget daz <wit>*m</wit></rdg>
+</app>
+<app loc="198.20">
+<lem>sunnen</lem> <rdg>der sunne <wit>*m</wit></rdg>
+</app>
+<app loc="198.28">
+<lem>unvuoge</lem> <rdg>vuoge (fu̽gen <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="198.30">
+<lem>si mich</lem> <rdg>ich si <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="198.01">
+<rdg>sîn (<subst><del>*</del><add>sine</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="198.02">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="198.03">
+<rdg></rdg>
+</app>
+<app loc="198.04">
+<rdg></rdg>
+</app>
+<app loc="198.05">
+<rdg></rdg>
+</app>
+<app loc="198.06">
+<rdg></rdg>
+</app>
+<app loc="198.07">
+<rdg>ich nam (nam im <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="198.08">
+<rdg>dir hât got <wit>*T</wit></rdg>
+</app>
+<app loc="198.09">
+<rdg>swâ man saget daz (daz saget <wit>L</wit>) von dir, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="198.10">
+<rdg>dîn (daz si din <wit>I</wit> daz dîn <wit>*T</wit>) kr. (prisz <wit>L</wit>) <wit>*G</wit> (<wit>*T</wit>) · e. sî (<note>om.</note> <wit>I</wit>) an mir, <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="198.11">
+<rdg>unde dû <wit>*T</wit></rdg>
+</app>
+<app loc="198.12">
+<rdg></rdg>
+</app>
+<app loc="198.13">
+<rdg></rdg>
+</app>
+<app loc="198.14">
+<rdg></rdg>
+</app>
+<app loc="198.15">
+<rdg>sô (<note>om.</note> <wit>*T</wit>) sicher (schiere <wit>T</wit>) der künigîn, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="198.16">
+<rdg></rdg>
+</app>
+<app loc="198.17">
+<rdg>hât getân mit z." <wit>*G</wit></rdg>
+</app>
+<app loc="198.18">
+<rdg>"sô w&#x00E6;re ich <wit>*G</wit> "Hei (<subst><del>He*</del><add>Hei</add></subst> <wit>V</wit>), sô w&#x00E6;re ich <wit>*T</wit></rdg>
+</app>
+<app loc="198.19">
+<rdg></rdg>
+</app>
+<app loc="198.20">
+<rdg>kl. (<note>om.</note> <wit>O</wit>), als daz (sam daz <wit>L</wit> <wit>U</wit> <wit>V</wit> sam dô <wit>*T</wit> <note>[nur T]</note>) in der s. (su&#x0366;nne <wit>U</wit>) v. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="198.21">
+<rdg>wande <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> · hân ir h. <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="198.22">
+<rdg>dort inne an manegem werden man." <wit>*T</wit></rdg>
+</app>
+<app loc="198.23">
+<rdg>von dirre plânîe <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="198.24">
+<rdg></rdg>
+</app>
+<app loc="198.25">
+<rdg></rdg>
+</app>
+<app loc="198.26">
+<rdg></rdg>
+</app>
+<app loc="198.27">
+<rdg></rdg>
+</app>
+<app loc="198.28">
+<rdg>der vuoge e. w., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="198.29">
+<rdg></rdg>
+</app>
+<app loc="198.30">
+<rdg>daz ich si (<subst><del>*</del><add>sv́ mich</add></subst> <wit>V</wit>) niemer vrô g., <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

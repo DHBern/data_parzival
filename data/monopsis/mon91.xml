@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 91</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 91.01">dô wânde ich, daz rîterschaft</l>
+<l n="*D 91.02">mich neme von ungemüetes kraft.</l>
+<l n="*D 91.03">der hân ich hie ein teil getân.</l>
+<l n="*D 91.04">nû w&#x00E6;net manec ungewisser man,</l>
+<l n="*D 91.05">daz mich ir swerze jagte dan.</l>
+<l n="*D 91.06">die sach ich vür die sunnen an.</l>
+<l n="*D 91.07">ir wîplîch prîs mir vüeget leit.</l>
+<l n="*D 91.08">si ist ein buckel ob der werdecheit.</l>
+<l n="*D 91.09"><seg type="Initiale">E</seg>inez undz and<reg type="Synkope">e</reg>r muoz ich klagen:</l>
+<l n="*D 91.10">ich sach mînes bruod<reg type="Synkope">e</reg>r wâpen tragen</l>
+<l n="*D 91.11">mit ûf kêrtem orte."</l>
+<l n="*D 91.12">owê mir dirre worte!</l>
+<l n="*D 91.13">daz m&#x00E6;re wart dô jâmerlîch.</l>
+<l n="*D 91.14">von wazzer wurden diu ougen rîch</l>
+<l n="*D 91.15">dem werden <name type="Person">Spanole</name>.</l>
+<l n="*D 91.16">"owî, küneginne <name type="Person">Fole</name>,</l>
+<l n="*D 91.17">durch dîne minne gap den lîp</l>
+<l n="*D 91.18"><name type="Person">Galoes</name>, den elliu wîp</l>
+<l n="*D 91.19">von herzen klagen solten</l>
+<l n="*D 91.20">mit triwen, ob si wolten,</l>
+<l n="*D 91.21">daz ir site br&#x00E6;hte</l>
+<l n="*D 91.22">lop, swâ mans ged&#x00E6;hte.</l>
+<l n="*D 91.23"><seg type="Initiale" subtype="Majuskel">K</seg>ünegîn von <name type="Ort">Averre</name>,</l>
+<l n="*D 91.24">swie lützel dir daz werre,</l>
+<l n="*D 91.25">den mâg ich doch durch dich verlôs,</l>
+<l n="*D 91.26">der rîterlîchen ende kôs</l>
+<l n="*D 91.27">von einer tjost, diu in sluoc,</l>
+<l n="*D 91.28">der dîn kleinôt truoc.</l>
+<l n="*D 91.29"><seg type="Initiale" subtype="Majuskel">V</seg>ürsten, die gesellen sîn,</l>
+<l n="*D 91.30">tuont herzenlîche ir klagen schîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 91.1-2)</note> <wit>I</wit> <note>(ohne 91.1-2)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="91.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="91.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="91.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="91.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="91.09"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="91.09"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="91.13"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+<app loc="91.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="91.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="91.29"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="91.01">
+<rdg>&#x00F7;o (Do <wit>L</wit> <wit>Fr21</wit> [<wit>Z</wit>]) wande ich daz mich riterschaft <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="91.01">
+<lem>daz</lem> <rdg>daz mich <wit>*m</wit></rdg>
+</app>
+<app loc="91.02">
+<rdg>Nem von vngemv&#x0366;tes chraft <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="91.02">
+<lem>mich</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="91.04">
+<lem>manic ungewisser man</lem> <rdg>manic (min <wit>I</wit>) unwîse man <wit>*G</wit> <note>(ohne OFr21)</note> manec unverwizzen (manig <subst><del>*wisser</del><add>vngewisser</add></subst> <wit>V</wit> lihte ein tvmber <wit>T</wit>) man <wit>*T</wit></rdg>
+</app>
+<app loc="91.09">
+<rdg>ich muoz einez unt daz (<note>om.</note> <wit>Z</wit>) ander (andern <wit>Fr21</wit>) klagen: <wit>*G</wit></rdg>
+</app>
+<app loc="91.09">
+<rdg>ich muoz ein und (Dar zv&#x0366; mv&#x0366;z ich <wit>T</wit>) ander klagen: <wit>*T</wit></rdg>
+</app>
+<app loc="91.09">
+<lem>klagen</lem> <rdg>sagen <wit>*m</wit></rdg>
+</app>
+<app loc="91.14">
+<lem>wazzer</lem> <rdg>swerze <wit>*m</wit></rdg>
+</app>
+<app loc="91.16">
+<rdg>er sprach ouwê küniginne Fole <wit>*m</wit></rdg>
+</app>
+<app loc="91.16">
+<rdg>"ei (haia <wit>I</wit> Ein <wit>O</wit> <wit>L</wit>), künigîn Anphole, <wit>*G</wit></rdg>
+</app>
+<app loc="91.16">
+<rdg>er sprach: "ein (er sprach ei <wit>V</wit> ein <wit>T</wit>) künegîn Anfole, <wit>*T</wit></rdg>
+</app>
+<app loc="91.24">
+<lem>dir daz</lem> <rdg>ez dir <wit>*m</wit></rdg>
+</app>
+<app loc="91.25">
+<lem>doch</lem> <rdg><subst><del>dorh</del><add>doch</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="91.30">
+<lem>tuont</lem> <rdg><subst><del>tv&#x0366;t</del><add>tv&#x0366;nt</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="91.30">
+<lem>klagen</lem> <rdg>klage <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="91.01">
+<rdg><note>Die Verse 91.1-2 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="91.01">
+<rdg>daz mich ritterschaft <wit>*T</wit></rdg>
+</app>
+<app loc="91.02">
+<rdg>mich <note>om.</note> <wit>*T</wit> · von leide tête sigehaft <wit>T</wit></rdg>
+</app>
+<app loc="91.03">
+<rdg></rdg>
+</app>
+<app loc="91.04">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="91.05">
+<rdg></rdg>
+</app>
+<app loc="91.06">
+<rdg>dâ sach <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="91.07">
+<rdg>pr. mir vuocte (pris mir <subst><del>fu&#x0364;get*</del><add>fu&#x0364;get</add></subst> <wit>V</wit> gvete tv&#x0366;t mir <wit>T</wit>) <wit>*T</wit> (<wit>O</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="91.08">
+<rdg>ein buckeler über der <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="91.09">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="91.10">
+<rdg></rdg>
+</app>
+<app loc="91.11">
+<rdg></rdg>
+</app>
+<app loc="91.12">
+<rdg>d. (der <wit>V</wit>) w., <wit>*T</wit></rdg>
+</app>
+<app loc="91.13">
+<rdg>daz mir dô w. j&#x00E6;merlîch! <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="91.14">
+<rdg></rdg>
+</app>
+<app loc="91.15">
+<rdg></rdg>
+</app>
+<app loc="91.16">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="91.17">
+<rdg></rdg>
+</app>
+<app loc="91.18">
+<rdg></rdg>
+</app>
+<app loc="91.19">
+<rdg></rdg>
+</app>
+<app loc="91.20">
+<rdg></rdg>
+</app>
+<app loc="91.21">
+<rdg>brâhte <wit>*T</wit> (<wit>G</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="91.22">
+<rdg>gedâhte. <wit>*T</wit> (<wit>G</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="91.23">
+<rdg>ein (Eẏ <wit>V</wit> Div <wit>T</wit>) k. <wit>*T</wit></rdg>
+</app>
+<app loc="91.24">
+<rdg>sw. wênic ez dir w., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="91.25">
+<rdg></rdg>
+</app>
+<app loc="91.26">
+<rdg>ritterlîches e. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="91.27">
+<rdg>an e. tjoste, <wit>*G</wit> <note>(ohne Z)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="91.28">
+<rdg>dâ (Daz <wit>Z</wit> <subst><del>da*</del><add>da</add></subst> <wit>V</wit>) er dîn <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="91.29">
+<rdg></rdg>
+</app>
+<app loc="91.30">
+<rdg>t. (tu&#x0364;t <wit>I</wit> [<wit>U</wit>]) h. (herzenlicher <wit>O</wit> [<wit>L</wit> <wit>Z</wit>] iamerliche <wit>T</wit>) klage (klagen <wit>I</wit>) sch. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

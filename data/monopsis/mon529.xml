@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 529</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>02.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 529.01"><seg type="Initiale">V</seg>rouwe, daz ist sîn râche ûf mich."</l>
+<l n="*D 529.02">si sprach: "sich twirhet sîn gerich.</l>
+<l n="*D 529.03">ich enwirde iu lîhte nimmer holt,</l>
+<l n="*D 529.04">doch enpf&#x00E6;het er drumbe alsolhen solt,</l>
+<l n="*D 529.05">ê er scheide von mîme lande,</l>
+<l n="*D 529.06">des er jeh<reg type="Synkope">e</reg>n mac vür schande.</l>
+<l n="*D 529.07"><seg type="Initiale" subtype="Majuskel">S</seg>ît ez der künec dort niht rach</l>
+<l n="*D 529.08"><seg type="singuläre_Lesart">al</seg> daz der vrouwen dâ geschach,</l>
+<l n="*D 529.09">unt ez sich hât an mich gezogt,</l>
+<l n="*D 529.10">ich bin nû iwer bêder vogt</l>
+<l n="*D 529.11">unt enweiz doch, wer ir beidiu sît.</l>
+<l n="*D 529.12">er muoz dar umbe enpfâhen strît,</l>
+<l n="*D 529.13">durch die vrouwen eine</l>
+<l n="*D 529.14">unt durch iuch harte kleine.</l>
+<l n="*D 529.15">man sol unvuoge rechen</l>
+<l n="*D 529.16">mit slahen und mit stechen."</l>
+<l n="*D 529.17"><name type="Person">Gawan</name> zuo dem pferde gienc,</l>
+<l n="*D 529.18">mit lîhtem sprunge erz doch gevienc.</l>
+<l n="*D 529.19">dâ was der knappe kom<reg type="Synkope">e</reg>n nâch,</l>
+<l n="*D 529.20">ze dem diu vrouwe <name type="Person">heidensch</name> sprach</l>
+<l n="*D 529.21">al daz si wid<reg type="Synkope">e</reg>r ûf enbôt.</l>
+<l n="*D 529.22">nû n&#x00E6;het ouch <name type="Person">Gawans</name> nôt.</l>
+<l n="*D 529.23"><name type="Person">Malcreatiure</name> ze vuoz vuor dan.</l>
+<l n="*D 529.24">dô gesach ouch mîn hêr <name type="Person">Gawan</name></l>
+<l n="*D 529.25">des <seg type="singuläre_Lesart">hêrren</seg> runzît;</l>
+<l n="*D 529.26">da<corr type="Emendation">z</corr> was ze kranc ûf einen strît.</l>
+<l n="*D 529.27">ez hete der knappe dort genom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 529.28">ê er von der halden w&#x00E6;re kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 529.29">einem vilâne.</l>
+<l n="*D 529.30">dô geschach ez <name type="Person">Gawane</name></l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="529.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app><app loc="529.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="529.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="529.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="529.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="529.23"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="529.30"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="529.04">
+<lem>alsolchen</lem> <rdg>solichen <wit>*m</wit></rdg>
+</app>
+<app loc="529.07">
+<rdg>sît ez der künic dort niht rach, <wit>*m</wit></rdg>
+</app>
+<app loc="529.08">
+<rdg>aldâ ez der vrouwen geschach, <wit>*m</wit></rdg>
+</app>
+<app loc="529.15">
+<lem>unvuoge</lem> <rdg>sîn unvuoge <wit>*m</wit></rdg>
+</app>
+<app loc="529.22">
+<rdg>nû nâhet ouch Gawanen nôt. <wit>*m</wit></rdg>
+</app>
+<app loc="529.23">
+<lem>vuor</lem> <rdg>schiet <wit>*m</wit></rdg>
+</app>
+<app loc="529.24">
+<lem>gesach ouch</lem> <rdg>besach (beschah <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="529.25">
+<rdg>des junchêrren runzît; <wit>*m</wit></rdg>
+</app>
+<app loc="529.26">
+<lem>daz</lem> <rdg>das <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="529.01">
+<rdg></rdg>
+</app>
+<app loc="529.02">
+<rdg></rdg>
+</app>
+<app loc="529.03">
+<rdg></rdg>
+</app>
+<app loc="529.04">
+<rdg>dr. solchen s., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="529.05">
+<rdg></rdg>
+</app>
+<app loc="529.06">
+<rdg></rdg>
+</app>
+<app loc="529.07">
+<rdg>n. r., <wit>*T</wit></rdg>
+</app>
+<app loc="529.08">
+<rdg>daz (<subst><del>A*</del><add>Aldo</add></subst> <wit>V</wit> Da <wit>O</wit>) ez der juncvrouwen g., <wit>*T</wit></rdg>
+</app>
+<app loc="529.09">
+<rdg>sît ez <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="529.10">
+<rdg></rdg>
+</app>
+<app loc="529.11">
+<rdg></rdg>
+</app>
+<app loc="529.12">
+<rdg>doch muoz er drumbe e. st. (leit <wit>O</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="529.13">
+<rdg>d. die juncvrouwe (ivncrouwe <wit>T</wit>) e. <wit>*T</wit></rdg>
+</app>
+<app loc="529.14">
+<rdg></rdg>
+</app>
+<app loc="529.15">
+<rdg>man sol ungevuoge r. <wit>*G</wit> <note>(nur GI)</note> (<wit>U</wit>)</rdg>
+</app>
+<app loc="529.16">
+<rdg></rdg>
+</app>
+<app loc="529.17">
+<rdg></rdg>
+</app>
+<app loc="529.18">
+<rdg>mit lîhten sprüngen (sprvnge <wit>G</wit>) erz d. (<note>om.</note> <wit>*T</wit> <wit>I</wit>) g. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) (<wit>I</wit>)</rdg>
+</app>
+<app loc="529.19">
+<rdg></rdg>
+</app>
+<app loc="529.20">
+<rdg>diu juncvrouwe h. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="529.21">
+<rdg></rdg>
+</app>
+<app loc="529.22">
+<rdg>nû nâhent <wit>*G</wit> <note>(ohne L)</note> dô nâhet <wit>*T</wit></rdg>
+</app>
+<app loc="529.23">
+<rdg></rdg>
+</app>
+<app loc="529.24">
+<rdg>dô (Doch <wit>V</wit>) besach (sach <wit>O</wit> gesach <wit>L</wit>) mîn <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="529.25">
+<rdg>des junchêrren (ivncherre <wit>T</wit>) r.; <wit>*G</wit></rdg>
+<rdg><wit>*T</wit></rdg>
+</app>
+<app loc="529.26">
+<rdg></rdg>
+</app>
+<app loc="529.27">
+<rdg></rdg>
+</app>
+<app loc="529.28">
+<rdg>ê er vonme lande (von <subst><del>*</del><add>der halde</add></subst> <wit>V</wit>) w. k., <wit>*T</wit></rdg>
+</app>
+<app loc="529.29">
+<rdg></rdg>
+</app>
+<app loc="529.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

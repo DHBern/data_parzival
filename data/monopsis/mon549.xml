@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 549</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 549.01"><seg type="Initiale">D</seg>er wirt ze sîner tohter sprach:</l>
+<l n="*D 549.02">"dû solt schaffen guot gemach</l>
+<l n="*D 549.03">mîme hêrren, der hie stêt.</l>
+<l n="*D 549.04">ir zwei mit ein ander gêt.</l>
+<l n="*D 549.05">nû diene im unverdrozzen;</l>
+<l n="*D 549.06">wir hân sîn vil genozzen."</l>
+<l n="*D 549.07"><seg type="Initiale" subtype="Majuskel">S</seg>îme sune bevalch er <name type="Sonstiges">Gringuljeten</name>.</l>
+<l n="*D 549.08">des diu magt was gebeten,</l>
+<l n="*D 549.09">mit grôzer zuht daz wart getân.</l>
+<l n="*D 549.10">mit der meide <name type="Person">Gawan</name></l>
+<l n="*D 549.11">ûf eine kemenâten gienc.</l>
+<l n="*D 549.12">den estrîch al übervienc</l>
+<l n="*D 549.13">niwer binz unt bluomen wol gevar</l>
+<l n="*D 549.14">wâren drûf gesniten dar.</l>
+<l n="*D 549.15">dâ entwâpende in diu süeze.</l>
+<l n="*D 549.16">"got iu des danken müeze",</l>
+<l n="*D 549.17">sprach <name type="Person">Gawan</name>. "vrouwe, es ist mir nôt.</l>
+<l n="*D 549.18">wan daz manz iu von hove gebôt,</l>
+<l n="*D 549.19">sô dient ir mir ze sêre."</l>
+<l n="*D 549.20"><seg type="Initiale" subtype="Majuskel">S</seg>i sprach: "ich diene iu mêre,</l>
+<l n="*D 549.21">hêrre, nâch iweren hulden</l>
+<l n="*D 549.22">denne von andern schulden."</l>
+<l n="*D 549.23"><seg type="Initiale" subtype="Majuskel">D</seg>es wirtes sun, ein knappe, truoc</l>
+<l n="*D 549.24">senfter bette dar genuoc.</l>
+<l n="*D 549.25">an die want gein der tür</l>
+<l n="*D 549.26">ein teppech wart geleit dar vür;</l>
+<l n="*D 549.27">dâ solte <name type="Person">Gawan</name> sitzen.</l>
+<l n="*D 549.28">der knappe truoc mit witzen</l>
+<l n="*D 549.29">eine kultern sô gemâl</l>
+<l n="*D 549.30">ûfez bette von rôtem zindâl.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> 
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 549.10)</note> <wit>U</wit> <wit>V</wit> <wit>O</wit> <note>(teilsweise Textverlust 549.21-550.7)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="549.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="549.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="549.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="549.09"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="549.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="549.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="549.20"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="549.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="547.07">
+<lem>bevalch</lem> <rdg>enpfalch <wit>*m</wit></rdg>
+</app>
+<app loc="549.12">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="549.13">
+<rdg>niu binz, bluomen &#x2020;und&#x2020; wol gevar <wit>*m</wit></rdg>
+</app>
+<app loc="549.17">
+<rdg>sprach Gawan. "es ist mir nôt. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="549.01">
+<rdg></rdg>
+</app>
+<app loc="549.02">
+<rdg></rdg>
+</app>
+<app loc="549.03">
+<rdg></rdg>
+</app>
+<app loc="549.04">
+<rdg>a. gêt <wit>*T</wit></rdg>
+</app>
+<app loc="549.05">
+<rdg>unde (nu <wit>I</wit> [<wit>Z</wit>]) dient im u.; <wit>*T</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="549.06">
+<rdg></rdg>
+</app>
+<app loc="549.07">
+<rdg></rdg>
+</app>
+<app loc="549.08">
+<rdg></rdg>
+</app>
+<app loc="549.09">
+<rdg>daz was g. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="549.10">
+<rdg></rdg>
+</app>
+<app loc="549.11">
+<rdg></rdg>
+</app>
+<app loc="549.12">
+<rdg></rdg>
+</app>
+<app loc="549.13">
+<rdg>niuwe binzen unde (vnde vnde <wit>T</wit>) bl. clâr <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="549.14">
+<rdg>g. gar (<subst><del>gar</del><add>dar</add></subst> <wit>Z</wit>). <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="549.15">
+<rdg></rdg>
+</app>
+<app loc="549.16">
+<rdg>"got iu des lônen m.", <wit>*T</wit></rdg>
+</app>
+<app loc="549.17">
+<rdg>"vr., ez (sin <wit>I</wit>) ist mir nôt. <wit>*G</wit> "mir (vrowe mir <wit>V</wit> [<wit>O</wit>]) ist sîn nôt. <wit>*T</wit></rdg>
+</app>
+<app loc="549.18">
+<rdg></rdg>
+</app>
+<app loc="549.19">
+<rdg></rdg>
+</app>
+<app loc="549.20">
+<rdg></rdg>
+</app>
+<app loc="549.21">
+<rdg></rdg>
+</app>
+<app loc="549.22">
+<rdg></rdg>
+</app>
+<app loc="549.23">
+<rdg>Ein kn., des w. sun, dar tr. <wit>*T</wit></rdg>
+</app>
+<app loc="549.24">
+<rdg>dar <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="549.25">
+<rdg></rdg>
+</app>
+<app loc="549.26">
+<rdg></rdg>
+</app>
+<app loc="549.27">
+<rdg>dâ G. solte s. <wit>*T</wit></rdg>
+</app>
+<app loc="549.28">
+<rdg>tr. dar mit <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="549.29">
+<rdg></rdg>
+</app>
+<app loc="549.30">
+<rdg>über b. von (mit <wit>G</wit>) r. zendâl. <wit>*G</wit> <note>(nur GI)</note> · dar ûf (Vffens bette <wit>V</wit>) von r. z. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

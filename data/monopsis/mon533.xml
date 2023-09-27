@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 533</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 533.01"><seg type="Initiale">L</seg>ât nâher gên, hêr minnen druc.</l>
+<l n="*D 533.02">ir tuot der vreude alsolhen zuc,</l>
+<l n="*D 533.03">daz sich dürkelt vreuden stat</l>
+<l n="*D 533.04">unt bant sich der riwen pfat.</l>
+<l n="*D 533.05">sus breitet sich der riwen slâ.</l>
+<l n="*D 533.06"><seg type="singuläre_Lesart">gienge</seg> ir reise anderswâ</l>
+<l n="*D 533.07">dann in des herzen hôhen muot,</l>
+<l n="*D 533.08">daz d<corr type="Emendation">iu</corr>hte mich gein vreuden guot.</l>
+<l n="*D 533.09"><seg type="Initiale" subtype="Majuskel">I</seg>st minne <seg type="singuläre_Lesart"></seg>unvuoge balt,</l>
+<l n="*D 533.10">dar zuo dunket si mich zalt;</l>
+<l n="*D 533.11">od<reg type="Synkope">e</reg>r giht sis ûf ir kintheit,</l>
+<l n="*D 533.12">swem si vüeget herzeleit?</l>
+<l n="*D 533.13">unvuoge gan ich baz ir jugent,</l>
+<l n="*D 533.14">denne daz si ir alter br&#x00E6;che tugent.</l>
+<l n="*D 533.15"><seg type="Initiale" subtype="Majuskel">V</seg>il dinges ist von ir geschehen.</l>
+<l n="*D 533.16">wederhalp sol ich des jehen?</l>
+<l n="*D 533.17">wil si mit jungen r&#x00E6;ten</l>
+<l n="*D 533.18">ir alten sit<reg type="Synkope">e</reg> unst&#x00E6;ten,</l>
+<l n="*D 533.19">sô wirt si schiere an prîse laz.</l>
+<l n="*D 533.20"><seg type="singuläre_Lesart">man</seg> sol <seg type="singuläre_Lesart">sis</seg> <seg type="singuläre_Lesart">underscheiden</seg> baz.</l>
+<l n="*D 533.21"><seg type="Initiale" subtype="Majuskel">L</seg>ûter minne ich prîse</l>
+<l n="*D 533.22">unt alle, die sint wîse,</l>
+<l n="*D 533.23">ez sî wîp oder man,</l>
+<l n="*D 533.24">von den ichs ganze volge hân.</l>
+<l n="*D 533.25">swâ liep gein liebe erhüebe</l>
+<l n="*D 533.26">lûter âne trüebe,</l>
+<l n="*D 533.27"><seg type="singuläre_Lesart">denne</seg> <seg type="singuläre_Lesart">wederz</seg> des verdrüzze,</l>
+<l n="*D 533.28">daz minne ir herze slüzze</l>
+<l n="*D 533.29"><seg type="singuläre_Lesart">mit</seg> minne, von der <seg type="singuläre_Lesart">wanc</seg> ie vlôch -</l>
+<l n="*D 533.30">diu minne <seg type="singuläre_Lesart">ist</seg> ob den andern <seg type="singuläre_Lesart">hôch</seg>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit> <note>(533.23-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit> <note>(ohne 535.15-20)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="533.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="533.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="533.07"><rdg>
+<note>Initiale</note> <wit>O</wit> 
+</rdg></app>
+<app loc="533.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="533.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="533.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="533.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="533.02">
+<rdg>ir tuot der minne sölhen (minnen soliche <wit>U</wit> <subst><del>*</del><add>minne</add></subst> solichen <wit>V</wit> frevden selhen <wit>O</wit> [<wit>I</wit>] <subst><del>*</del><add>mẏnne</add></subst> alsolchen <wit>L</wit>) zuc, <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="533.03">
+<rdg>Daz enget sich der frevden stat <wit>O</wit></rdg>
+</app>
+<app loc="533.05">
+<lem>breitet</lem> <rdg>bereitet <wit>*m</wit></rdg>
+</app>
+<app loc="533.06">
+<lem>gienge</lem> <rdg>giengen <wit>*m</wit></rdg>
+</app>
+<app loc="533.08">
+<lem>diuhte</lem> <rdg>dvhte <wit>D</wit></rdg>
+</app>
+<app loc="533.09">
+<lem>minne</lem> <rdg>minne ir <wit>*m</wit></rdg>
+</app>
+<app loc="533.14">
+<rdg>dan daz si alter br&#x00E6;ch ir tugent. <wit>*m</wit></rdg>
+</app>
+<app loc="533.20">
+<rdg>man sol sus underscheiden baz: <wit>*m</wit></rdg>
+</app>
+<app loc="533.24">
+<lem>ichs</lem> <rdg>ich <wit>*m</wit> <wit>L</wit> <wit>Fr19</wit></rdg>
+</app>
+<app loc="533.27">
+<rdg>der enwederz (den dwedez <wit>I</wit> deweders <wit>L</wit>) des (der <wit>Fr19</wit>) verdrüzze, <wit>*m</wit> <wit>*G</wit></rdg>
+</app>
+<app loc="533.27">
+<rdg>dâ dewederz (de weders <wit>T</wit> Do sie beider <wit>U</wit> <subst><del>Di:weders</del><add>Do ieweders</add></subst> <wit>V</wit> Da twederz <wit>O</wit>) des (dez <wit>V</wit>) verdrüzze (verdru&#x0366;zzen <wit>U</wit>), <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="533.01">
+<rdg></rdg>
+</app>
+<app loc="533.02">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="533.03">
+<rdg>dürkelt (<subst><del>tvnkelt</del><add>tvrkelt</add></subst> <wit>V</wit>) der vröuden <wit>*G</wit> <note>(nur GI)</note> (<wit>V</wit> &#x2193;<wit>O</wit>)</rdg>
+</app>
+<app loc="533.04">
+<rdg>der triuwen (<subst><del>*rv́wen</del><add>rv́wen</add></subst> <wit>V</wit>) pf. <wit>*G</wit> <note>(nur GI)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="533.05">
+<rdg></rdg>
+</app>
+<app loc="533.06">
+<rdg></rdg>
+</app>
+<app loc="533.07">
+<rdg></rdg>
+</app>
+<app loc="533.08">
+<rdg></rdg>
+</app>
+<app loc="533.09">
+<rdg><note>Versfolge 533.10-9</note> <wit>*T</wit> <note>(ohne O)</note> · ist m. ir ungevüege b., <wit>*G</wit> · ist m. ir u. b.; <wit>*T</wit></rdg>
+</app>
+<app loc="533.10">
+<rdg>m. ze alt, <wit>*T</wit></rdg>
+</app>
+<app loc="533.11">
+<rdg></rdg>
+</app>
+<app loc="533.12">
+<rdg>dem si <wit>*T</wit></rdg>
+</app>
+<app loc="533.13">
+<rdg></rdg>
+</app>
+<app loc="533.14">
+<rdg>danne si dem (Danne daz sý im <wit>L</wit>) a. br. ir t. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="533.15">
+<rdg></rdg>
+</app>
+<app loc="533.16">
+<rdg></rdg>
+</app>
+<app loc="533.17">
+<rdg></rdg>
+</app>
+<app loc="533.18">
+<rdg></rdg>
+</app>
+<app loc="533.19">
+<rdg>an witzen laz. <wit>*T</wit></rdg>
+</app>
+<app loc="533.20">
+<rdg>sis underwîsen baz (vnderscheiden daz <wit>U</wit>). <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="533.21">
+<rdg></rdg>
+</app>
+<app loc="533.22">
+<rdg></rdg>
+</app>
+<app loc="533.23">
+<rdg></rdg>
+</app>
+<app loc="533.24">
+<rdg></rdg>
+</app>
+<app loc="533.25">
+<rdg></rdg>
+</app>
+<app loc="533.26">
+<rdg></rdg>
+</app>
+<app loc="533.27">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="533.28">
+<rdg>ob m. <wit>*T</wit></rdg>
+</app>
+<app loc="533.29">
+<rdg>mit m., die (ie <wit>O</wit>) der w. ie (do <wit>O</wit>) vl. - <wit>*T</wit></rdg>
+</app>
+<app loc="533.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

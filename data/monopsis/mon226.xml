@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 226</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>07.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 226.01"><seg type="Initiale"><corr type="Emendation">E</corr></seg>r tet, als im der visch&#x00E6;re riet;</l>
+<l n="*D 226.02">mit urloube er dannen schiet.</l>
+<l n="*D 226.03">er sprach: "komt ir rehte dar,</l>
+<l n="*D 226.04">ich nim iwer hînte selbe war.</l>
+<l n="*D 226.05">sô danket, als man iwer pflege.</l>
+<l n="*D 226.06">hüetet iuch: dâ gênt unkunde wege.</l>
+<l n="*D 226.07">ir muget an der lîten</l>
+<l n="*D 226.08">wol misserîten,</l>
+<l n="*D 226.09">deiswâr, des ich iu doch niht gan."</l>
+<l n="*D 226.10"><name type="Person">Parzival</name>, der huop sich dan.</l>
+<l n="*D 226.11">er begunde wackerlîchen draben</l>
+<l n="*D 226.12">den rehten pfat unz an den graben.</l>
+<l n="*D 226.13">dâ was diu brücke ûf gezogen,</l>
+<l n="*D 226.14">diu burc an veste niht betrogen.</l>
+<l n="*D 226.15">si stuont, als si w&#x00E6;re gedr&#x00E6;t.</l>
+<l n="*D 226.16">ez envlüge oder hete der wint gew&#x00E6;t,</l>
+<l n="*D 226.17">mit sturme ir niht geschadet was.</l>
+<l n="*D 226.18">vil turne, manec palas</l>
+<l n="*D 226.19">dâ stuont mit wunderlîcher wer.</l>
+<l n="*D 226.20">ob si suochten elliu her,</l>
+<l n="*D 226.21">sine g&#x00E6;ben vür die selben nôt</l>
+<l n="*D 226.22">ze drîzec jâren niht ein brôt.</l>
+<l n="*D 226.23"><seg type="Initiale" subtype="Majuskel">E</seg>in knappe des geruochte</l>
+<l n="*D 226.24">unt vrâgte in, wa<corr type="Emendation">z</corr> er suochte</l>
+<l n="*D 226.25">od<reg type="Synkope">e</reg>r wannen sîn reise w&#x00E6;re.</l>
+<l n="*D 226.26">er sprach: "der visch&#x00E6;re</l>
+<l n="*D 226.27">hât mich von im her gesant.</l>
+<l n="*D 226.28">ich hân genigen sîner hant</l>
+<l n="*D 226.29"><seg type="Initiale">N</seg>iwan durch der herberge wân.</l>
+<l n="*D 226.30">er bat die brücken nider lân</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(226.17-19 und 27-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr23</wit> <note>(226.9-14)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="226.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="226.02"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="226.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="226.23"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="226.23"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="226.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="226.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="226.01">
+<rdg><note>Versfolge 226.2-1</note> <wit>*m</wit></rdg>
+</app>
+<app loc="226.01">
+<lem>Er</lem> <rdg>&#x00F7;R <note>nachträglich korrigiert zu:</note> ER <wit>D</wit> und <wit>*m</wit></rdg>
+</app>
+<app loc="226.03">
+<lem>er</lem> <rdg>der <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="226.07">
+<lem>an der</lem> <rdg>ander <wit>D</wit> an den <wit>*m</wit></rdg>
+</app>
+<app loc="226.08">
+<rdg>vil wol misserîten (missirietten <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="226.15">
+<lem>si stuont</lem> <rdg>&#x2020;drîstunt&#x2020; rehte <wit>*m</wit></rdg>
+</app>
+<app loc="226.17">
+<lem>geschadet</lem> <rdg>ze schadene (<subst><del>*</del><add>zeschadende</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="226.18">
+<lem>manec</lem> <rdg>manige <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="226.24">
+<lem>waz</lem> <rdg>was <wit>D</wit></rdg>
+</app>
+<app loc="226.29">
+<lem>der</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="226.01">
+<rdg><note>Versfolge 226.2-1</note> <wit>*T</wit> · Er tet (Vnd tet <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="226.02">
+<rdg></rdg>
+</app>
+<app loc="226.03">
+<rdg>er sp.: "unde komet <wit>*T</wit></rdg>
+</app>
+<app loc="226.04">
+<rdg>sô nim ich iuwer <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="226.05">
+<rdg></rdg>
+</app>
+<app loc="226.06">
+<rdg></rdg>
+</app>
+<app loc="226.07">
+<rdg></rdg>
+</app>
+<app loc="226.08">
+<rdg>vil wol m., <wit>*G</wit> <note>(ohne OFr21)</note> · vil lîhte m., <wit>*T</wit></rdg>
+</app>
+<app loc="226.09">
+<rdg>iu niene gan." <wit>*G</wit> <note>(nur GFr23)</note> iu niht engan (nit heizen gan <wit>U</wit>)." <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="226.10">
+<rdg></rdg>
+</app>
+<app loc="226.11">
+<rdg>unde b. werlîche dr. <wit>*T</wit></rdg>
+</app>
+<app loc="226.12">
+<rdg>r. weg unz <wit>*T</wit></rdg>
+</app>
+<app loc="226.13">
+<rdg></rdg>
+</app>
+<app loc="226.14">
+<rdg></rdg>
+</app>
+<app loc="226.15">
+<rdg>si st. reht (reht reht <wit>I</wit>), <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="226.16">
+<rdg>o. der w. w&#x00E6;t (oder wint wete <wit>I</wit> ez hiet der wint gew&#x00E6;t <wit>Fr21</wit>), <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="226.17">
+<rdg></rdg>
+</app>
+<app loc="226.18">
+<rdg>manigiu p. <wit>*G</wit> <note>(ohne IFr21)</note> unde m. p. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="226.19">
+<rdg>stuonden (stu&#x0364;nt <wit>I</wit>) dâ mit <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="226.20">
+<rdg></rdg>
+</app>
+<app loc="226.21">
+<rdg></rdg>
+</app>
+<app loc="226.22">
+<rdg></rdg>
+</app>
+<app loc="226.23">
+<rdg>Ein kn. daz g. <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="226.24">
+<rdg></rdg>
+</app>
+<app loc="226.25">
+<rdg></rdg>
+</app>
+<app loc="226.26">
+<rdg></rdg>
+</app>
+<app loc="226.27">
+<rdg>m. vor im <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="226.28">
+<rdg></rdg>
+</app>
+<app loc="226.29">
+<rdg>Niwan <note>om.</note> <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="226.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

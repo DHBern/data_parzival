@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 816</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 816.01"><seg type="Initiale">W</seg>ie diu wirtîn selbe dan gegienc</l>
+<l n="*D 816.02">unt wie manz dâ nâch an gevienc,</l>
+<l n="*D 816.03">daz man sîn wol mit betten pflac,</l>
+<l n="*D 816.04">der doch durch minne unsanfte lac,</l>
+<l n="*D 816.05"><seg type="Initiale" subtype="Majuskel">W</seg>ie al der templeise diet</l>
+<l n="*D 816.06">mit senfte unsenfte von in schiet,</l>
+<l n="*D 816.07">dâ von würde ein langiu sage.</l>
+<l n="*D 816.08">ich wil iu künden von dem tage,</l>
+<l n="*D 816.09">dô der des morgens vruo erschein,</l>
+<l n="*D 816.10"><name type="Person">Parzival</name> wart des enein</l>
+<l n="*D 816.11">unt <name type="Person">Anfortas</name>, der guote,</l>
+<l n="*D 816.12">mit endehaftem muote</l>
+<l n="*D 816.13">si bâten den von <name type="Ort">Zazamanc</name></l>
+<l n="*D 816.14">komen, den diu minne twanc,</l>
+<l n="*D 816.15">in den tempel vür den <name type="Sonstiges">Grâl</name>.</l>
+<l n="*D 816.16">er gebôt ouch an dem selbem mâl</l>
+<l n="*D 816.17">dem wîsem templeise dar.</l>
+<l n="*D 816.18">scharjande, rîter, grôziu schar</l>
+<l n="*D 816.19">dâ stuont. nû gienc der <name type="Person">heiden</name> în.</l>
+<l n="*D 816.20">der toufnapf was ein <name type="Sonstiges">rubîn</name>,</l>
+<l n="*D 816.21">von <name type="Sonstiges">jaspis</name> ein grêde sinwel,</l>
+<l n="*D 816.22">dâr ûf er stuont. <name type="Person">Titurel</name></l>
+<l n="*D 816.23">het in mit kost erziuget sô.</l>
+<l n="*D 816.24"><name type="Person">Parzival</name> zuo sînem bruoder dô</l>
+<l n="*D 816.25">sprach: "wiltû die muomen mîn</l>
+<l n="*D 816.26">hab<reg type="Synkope">e</reg>n, al die gote dîn</l>
+<l n="*D 816.27">muostû durch si versprechen</l>
+<l n="*D 816.28">unt immer gerne rechen</l>
+<l n="*D 816.29">den widersaz des h&#x0153;hsten got<reg type="Synkope">e</reg>s</l>
+<l n="*D 816.30">unt mit triwen schônen sîn<reg type="Synkope">e</reg>s gebot<reg type="Synkope">e</reg>s."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <note>(816.4¹-1⁴)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="816.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="816.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="816.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="816.01">
+<lem>selbe dan gegienc</lem> <rdg>selben dan gienc <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="816.02">
+<lem>gevienc</lem> <rdg>vienc <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="816.06">
+<rdg>mit vröuden (fro&#x0364;ide <wit>V</wit>) unvröude von in schiet, <wit>*m</wit></rdg>
+</app>
+<app loc="816.09">
+<lem>der</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="816.09">
+<lem>vruo</lem> <rdg>lieht <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="816.01">
+<rdg>dan gienc <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="816.02">
+<rdg>an vienc, <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="816.03">
+<rdg>mit triwen pf. (plach <wit>G</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="816.04">
+<rdg></rdg>
+</app>
+<app loc="816.05">
+<rdg>unde wie <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="816.06">
+<rdg>von im sch., <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="816.07">
+<rdg>daz w. ein (<note>om.</note> <wit>*T</wit>) al ze l. s. (klage <wit>Z</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="816.08">
+<rdg></rdg>
+</app>
+<app loc="816.09">
+<rdg>dô ders m. (oder des morgens <wit>I</wit> Do der morgen <wit>L</wit> Da des morgens <wit>Z</wit>) lieht e., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="816.10">
+<rdg></rdg>
+</app>
+<app loc="816.11">
+<rdg></rdg>
+</app>
+<app loc="816.12">
+<rdg></rdg>
+</app>
+<app loc="816.13">
+<rdg></rdg>
+</app>
+<app loc="816.14">
+<rdg></rdg>
+</app>
+<app loc="816.15">
+<rdg></rdg>
+</app>
+<app loc="816.16">
+<rdg></rdg>
+</app>
+<app loc="816.17">
+<rdg>den (<subst><del>De</del><add>Den</add></subst> <wit>V</wit>) wîsen templeisen dar. <wit>*G</wit> (<wit>*T</wit>) (<wit>V</wit>)</rdg>
+</app>
+<app loc="816.18">
+<rdg></rdg>
+</app>
+<app loc="816.19">
+<rdg>hie st. dâ (hie do stu&#x0364;nden do <wit>I</wit>) g. <wit>*G</wit> dâ st. hie g. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="816.20">
+<rdg></rdg>
+</app>
+<app loc="816.21">
+<rdg>ein grât sinewel, <wit>*T</wit></rdg>
+</app>
+<app loc="816.22">
+<rdg></rdg>
+</app>
+<app loc="816.23">
+<rdg></rdg>
+</app>
+<app loc="816.24">
+<rdg></rdg>
+</app>
+<app loc="816.25">
+<rdg></rdg>
+</app>
+<app loc="816.26">
+<rdg></rdg>
+</app>
+<app loc="816.27">
+<rdg></rdg>
+</app>
+<app loc="816.28">
+<rdg></rdg>
+</app>
+<app loc="816.29">
+<rdg></rdg>
+</app>
+<app loc="816.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

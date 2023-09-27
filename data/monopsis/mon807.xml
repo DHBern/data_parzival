@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 807</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>05.09.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 807.01"><name type="Person"><seg type="Initiale">F</seg>eirefiz</name> si vuorte mit der hant,</l>
+<l n="*D 807.02">dô si des wirt<reg type="Synkope">e</reg>s muomen vant,</l>
+<l n="*D 807.03"><name type="Person">Repansen de Schoye</name>, stên.</l>
+<l n="*D 807.04">dâ muose küssens vil ergên.</l>
+<l n="*D 807.05"><seg type="Initiale" subtype="Majuskel">D</seg>ar zuo ir munt was ê sô rôt.</l>
+<l n="*D 807.06">der leit von küssen nû die nôt,</l>
+<l n="*D 807.07">daz ez mich müet unt ist mir leit,</l>
+<l n="*D 807.08">daz ich niht hân solhe arbeit</l>
+<l n="*D 807.09">vür si. wand si kom müediu zin.</l>
+<l n="*D 807.10">juncvrouwen vuorten ir vrouwen hin.</l>
+<l n="*D 807.11"><seg type="Initiale" subtype="Majuskel">D</seg>ie rîter in dem palas</l>
+<l n="*D 807.12">belib<reg type="Synkope">e</reg>n, der wol gekerzet was,</l>
+<l n="*D 807.13">die harte liehte brunnen.</l>
+<l n="*D 807.14">dô wart mit zuht begunnen</l>
+<l n="*D 807.15">gereitschaft gein dem <name type="Sonstiges">Grâle</name>.</l>
+<l n="*D 807.16">den truog man zallem mâle</l>
+<l n="*D 807.17">der diet niht durch schouwen vür,</l>
+<l n="*D 807.18">niht wan ze hôchgezîte kür.</l>
+<l n="*D 807.19"><seg type="Initiale" subtype="Majuskel">D</seg>urch daz si trôstes wânden,</l>
+<l n="*D 807.20">dô si sich vreuden ânden</l>
+<l n="*D 807.21">des âbents umbe daz bluotige sper,</l>
+<l n="*D 807.22">dô wart der <name type="Sonstiges">Grâl</name> durch helfe ger</l>
+<l n="*D 807.23">vür getragen an der selb<reg type="Synkope">e</reg>n zît.</l>
+<l n="*D 807.24"><name type="Person">Parcifal</name> si liez in sorgen sît.</l>
+<l n="*D 807.25">mit vreude er wirt nû vür getrag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 807.26">ir sorge ist under gar geslag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 807.27"><seg type="Initiale" subtype="Majuskel">D</seg>ô diu künegîn ir reisegewant</l>
+<l n="*D 807.28">ab gezôch unt sich gebant,</l>
+<l n="*D 807.29">si kom, als ez ir wol gezam.</l>
+<l n="*D 807.30"><name type="Person">Feirefiz</name> an einer tür si nam.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <note>(ohne 807.19-24)</note> <wit>Z</wit> <note>(807.25-30)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="807.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit>
+</rdg></app>
+<app loc="807.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="807.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="807.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="807.19"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="807.27"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit>
+</rdg></app><app loc="807.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="807.01">
+<lem>si vuorte</lem> <rdg>vuorte si (sv́ <subst><del>fv&#x0366;rten</del><add>fv&#x0366;rte</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="807.02">
+<lem>dô</lem> <rdg>daz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="807.10">
+<lem>juncvrouwen</lem> <rdg>die juncvrowen <wit>*m</wit></rdg>
+</app>
+<app loc="807.15">
+<lem>gereitschaft</lem> <rdg>bereitschaft <wit>*m</wit></rdg>
+</app>
+<app loc="807.18">
+<lem>ze hôchgezîte</lem> <rdg>zer hôchzîte (zv&#x0366; hochgeziten <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="807.25">
+<lem>wirt nû</lem> <rdg>nû wirt <wit>*m</wit></rdg>
+</app>
+<app loc="807.26">
+<lem>under gar</lem> <rdg>gar hin dan <wit>*m</wit></rdg>
+</app>
+<app loc="807.29">
+<lem>ez ir</lem> <rdg>irz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="807.01">
+<rdg>vuorte si <wit>*T</wit></rdg>
+</app>
+<app loc="807.02">
+<rdg></rdg>
+</app>
+<app loc="807.03">
+<rdg>Urrepanse de schoyen, st. <wit>*G</wit></rdg>
+</app>
+<app loc="807.04">
+<rdg>vil k. (chussen <wit>I</wit>) m. dâ e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="807.05">
+<rdg>ê <note>om.</note> <wit>*G</wit> <wit>*T</wit> <wit>V</wit></rdg>
+</app>
+<app loc="807.06">
+<rdg></rdg>
+</app>
+<app loc="807.07">
+<rdg></rdg>
+</app>
+<app loc="807.08">
+<rdg>hân die a. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="807.09">
+<rdg></rdg>
+</app>
+<app loc="807.10">
+<rdg></rdg>
+</app>
+<app loc="807.11">
+<rdg>die r. ûf dem (den <wit>G</wit>) p. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="807.12">
+<rdg></rdg>
+</app>
+<app loc="807.13">
+<rdg></rdg>
+</app>
+<app loc="807.14">
+<rdg>zühten <wit>*G</wit> <note>(ohne I)</note></rdg>
+</app>
+<app loc="807.15">
+<rdg>bereitschaft (bereitschaft de <wit>G</wit>) geinm Grâl. <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="807.16">
+<rdg></rdg>
+</app>
+<app loc="807.17">
+<rdg> </rdg>
+</app>
+<app loc="807.18">
+<rdg>niwan durch hôchzîte (hochgeziten <wit>L</wit> hôchgezîte <wit>*T</wit> [<wit>I</wit>]) kür. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="807.19">
+<rdg></rdg>
+</app>
+<app loc="807.20">
+<rdg>daz si (<note>om.</note> <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="807.21">
+<rdg></rdg>
+</app>
+<app loc="807.22">
+<rdg></rdg>
+</app>
+<app loc="807.23">
+<rdg></rdg>
+</app>
+<app loc="807.24">
+<rdg>in ruowen (riwe <wit>I</wit>) sît. <wit>*G</wit></rdg>
+</app>
+<app loc="807.25">
+<rdg>er wart nû (wart er <wit>I</wit> er wirt <wit>Z</wit>) <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="807.26">
+<rdg>ir (<note>om.</note> <wit>*T</wit>) riwe ist <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="807.27">
+<rdg></rdg>
+</app>
+<app loc="807.28">
+<rdg>unde ir g., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="807.29">
+<rdg></rdg>
+</app>
+<app loc="807.30">
+<rdg>Feirafiz in e. tür si (sý an einer tvr <wit>L</wit>) nam. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

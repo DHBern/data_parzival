@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 191</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>05.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 191.01"><seg type="Initiale" subtype="Majuskel">T</seg>eilen ez hiez diu künegîn,</l>
+<l n="*D 191.02">dar zuo die k&#x00E6;se, daz vleisch, den wîn</l>
+<l n="*D 191.03">dirre kreftelôsen diet.</l>
+<l n="*D 191.04"><name type="Person">Parzival</name>, ir gast, daz riet.</l>
+<l n="*D 191.05">des beleip in zwein vil kûme ein snite.</l>
+<l n="*D 191.06">die teiltens âne bâgens site.</l>
+<l n="*D 191.07"><seg type="Initiale">D</seg>iu wirtschaft was ouch verzert,</l>
+<l n="*D 191.08">dâ mite maneges tôt erwert,</l>
+<l n="*D 191.09">den der hunger leb<reg type="Synkope">e</reg>n liez.</l>
+<l n="*D 191.10">dem gaste man dô beiten hiez</l>
+<l n="*D 191.11">sanfte, des ich w&#x00E6;nen wil.</l>
+<l n="*D 191.12">w&#x00E6;ren die burg&#x00E6;re vederspil,</l>
+<l n="*D 191.13">sine w&#x00E6;ren überkrüpfet niht,</l>
+<l n="*D 191.14">des noch ir tischgerihte giht.</l>
+<l n="*D 191.15"><seg type="Initiale" subtype="Majuskel">S</seg>i truogen alle hungers mâl,</l>
+<l n="*D 191.16">wan der junge <name type="Person">Parzival</name>.</l>
+<l n="*D 191.17">der nam slâfes urloup.</l>
+<l n="*D 191.18">ob sîne kerzen w&#x00E6;ren schoup?</l>
+<l n="*D 191.19">nein, si wâren bezzer gar.</l>
+<l n="*D 191.20">dô gienc der junge wol gevar</l>
+<l n="*D 191.21">an ein bette rîche,</l>
+<l n="*D 191.22">gehêrt küneclîche,</l>
+<l n="*D 191.23">niht nâch armüete kür.</l>
+<l n="*D 191.24">ein teppich was geleit dar vür.</l>
+<l n="*D 191.25"><seg type="Initiale" subtype="Majuskel">E</seg>r bat die ritt<reg type="Synkope">e</reg>r wid<reg type="Synkope">e</reg>r gên.</l>
+<l n="*D 191.26">diene liez er dâ niht langer stên.</l>
+<l n="*D 191.27">kint im entschuohten. sân er slief,</l>
+<l n="*D 191.28">unz im der wâre jâmer rief</l>
+<l n="*D 191.29">unt liehter ougen herzen regen.</l>
+<l n="*D 191.30">die wachten schiere den werden degen.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 191.1-6)</note> <wit>Fr69</wit> <note>(191.7-10 und 15-17)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="191.01"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="191.07"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit> 
+</rdg></app>
+<app loc="191.13"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="191.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="191.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="191.19"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="191.25"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="191.01">
+<rdg><note>Die Verse 191.1-6</note> fehlen <wit>*m</wit></rdg>
+</app>
+<app loc="191.02">
+<rdg>daz vleisch, die k&#x00E6;se (daz fleisch div chase <wit>G</wit> den chese fleish brot <wit>I</wit> Dar zv&#x0366; den ch&#x00E6;se daz fleisch <wit>O</wit> Dar zv die kese fleisch <wit>Z</wit>) unde den (vnd <wit>I</wit> <wit>Z</wit> den <wit>O</wit> <wit>L</wit>) wîn <wit>*G</wit></rdg>
+</app>
+<app loc="191.02">
+<rdg>die k&#x00E6;se, daz vleisch, daz brôt, den wîn <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="191.10">
+<lem>beiten</lem> <rdg>betten <wit>*m</wit></rdg>
+</app>
+<app loc="191.17">
+<lem>slâfes</lem> <rdg>slâfens <wit>*m</wit></rdg>
+</app>
+<app loc="191.25">
+<rdg>er hiez die rîter wider gên. <wit>*G</wit></rdg>
+</app>
+<app loc="191.25">
+<rdg>Die rîter muosen (mvesen <wit>T</wit>) wider gân (<subst><del>*i*</del><add>Er bat die ritter wider gen</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="191.30">
+<lem>die wachten schiere</lem> <rdg>die erwachten (wachtan <wit>I</wit>) schiere <wit>*G</wit> <note>(nur GZ)</note> er wachte schiere (<subst><del>*hiere</del><add>Die wahtent schiere</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="191.01">
+<rdg>t. h. (hiez ez <wit>I</wit> <wit>Z</wit> <wit>V</wit>) <wit>*G</wit> <note>(nur GL)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="191.02">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="191.03">
+<rdg></rdg>
+</app>
+<app loc="191.04">
+<rdg></rdg>
+</app>
+<app loc="191.05">
+<rdg>es b. <wit>*G</wit> ez bleip <wit>*T</wit></rdg>
+</app>
+<app loc="191.06">
+<rdg></rdg>
+</app>
+<app loc="191.07">
+<rdg>w., diu was <wit>*T</wit></rdg>
+</app>
+<app loc="191.08">
+<rdg></rdg>
+</app>
+<app loc="191.09">
+<rdg></rdg>
+</app>
+<app loc="191.10">
+<rdg>ir g. <wit>*G</wit> · betten <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="191.11">
+<rdg></rdg>
+</app>
+<app loc="191.12">
+<rdg></rdg>
+</app>
+<app loc="191.13">
+<rdg></rdg>
+</app>
+<app loc="191.14">
+<rdg></rdg>
+</app>
+<app loc="191.15">
+<rdg>a. hungermâl, <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="191.16">
+<rdg>niuwan (Nu&#x0366;me dan <wit>U</wit>) der <wit>*T</wit></rdg>
+</app>
+<app loc="191.17">
+<rdg>slâfens (zu&#x0366; schafen <wit>U</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="191.18">
+<rdg></rdg>
+</app>
+<app loc="191.19">
+<rdg></rdg>
+</app>
+<app loc="191.20">
+<rdg></rdg>
+</app>
+<app loc="191.21">
+<rdg></rdg>
+</app>
+<app loc="191.22">
+<rdg>gezieret k., <wit>*T</wit></rdg>
+</app>
+<app loc="191.23">
+<rdg>n. n. âventiure kür. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="191.24">
+<rdg>dâ wart g. ein t. vür. <wit>*T</wit></rdg>
+</app>
+<app loc="191.25">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="191.26">
+<rdg></rdg>
+</app>
+<app loc="191.27">
+<rdg>k. in e. (entshu&#x0364;ctan im <wit>I</wit> v́ntschv&#x0366;heten <subst><del>im</del><add>in</add></subst> <wit>V</wit>). <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="191.28">
+<rdg></rdg>
+</app>
+<app loc="191.29">
+<rdg>ein (<subst><del>E*</del><add>Vnde</add></subst> <wit>V</wit>) l. <wit>*T</wit></rdg>
+</app>
+<app loc="191.30">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

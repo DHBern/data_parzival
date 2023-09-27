@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 397</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 397.01"><seg type="Initiale">W</seg>er machte si vor der diet sô balt?</l>
+<l n="*D 397.02">daz tet diu minne junc unt alt.</l>
+<l n="*D 397.03"><name type="Person">Lyppaut</name> sînen willen dô sach,</l>
+<l n="*D 397.04">wande im sô liebe nie geschach,</l>
+<l n="*D 397.05">sît got der êren in niht erliez,</l>
+<l n="*D 397.06">sîne tohter er dô vrouwe hiez.</l>
+<l n="*D 397.07"><seg type="Initiale" subtype="Majuskel">W</seg>ie diu hôchzît ergîenc,</l>
+<l n="*D 397.08">des vrâget den, der dâ gâbe enpfienc,</l>
+<l n="*D 397.09">unt war dô manneg<reg type="Synkope">e</reg>lîch rite,</l>
+<l n="*D 397.10">er hete gemach od<reg type="Synkope">e</reg>r er strite,</l>
+<l n="*D 397.11">des mag ich niht ein ende hân.</l>
+<l n="*D 397.12">man sagte mir, daz <name type="Person">Gawan</name></l>
+<l n="*D 397.13">urloup nam ûf dem palas,</l>
+<l n="*D 397.14">dar er durch urloup kom<reg type="Synkope">e</reg>n was.</l>
+<l n="*D 397.15"><name type="Person">Obilot</name> des weinde vil.</l>
+<l n="*D 397.15-1"></l>
+<l n="*D 397.15-2"></l>
+<l n="*D 397.16">si sprach: "nû vüeret mich mit iu hin."</l>
+<l n="*D 397.17">dô wart der jungen, süezen magt</l>
+<l n="*D 397.18">diu bete von <name type="Person">Gawane</name> versagt.</l>
+<l n="*D 397.19">ir muot<reg type="Synkope">e</reg>r si kûme von im brach.</l>
+<l n="*D 397.20">urloup er dô zin allen sprach.</l>
+<l n="*D 397.21"><name type="Person">Lyppaut</name> im dienstes bôt genuoc,</l>
+<l n="*D 397.22">wand<reg type="Synkope">e</reg>r im holdez herze truoc.</l>
+<l n="*D 397.23"><name type="Person">Scherules</name>, sîn stolzer wirt,</l>
+<l n="*D 397.24">mit alden sînen niht verbirt,</l>
+<l n="*D 397.25">ern rîte ûz mit dem deg<reg type="Synkope">e</reg>n balt.</l>
+<l n="*D 397.26"><name type="Person">Gawans</name> strâze ûf einen walt</l>
+<l n="*D 397.27">gienc. dar sant er weideman</l>
+<l n="*D 397.28">unt spîse verre mit in dan.</l>
+<l n="*D 397.29">urloup nam der werde helt.</l>
+<l n="*D 397.30"><name type="Person">Gawan</name> gein kumber was verselt.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(mit 397.15¹-15²)</note> <wit>I</wit> <note>(mit 397.15¹-15²)</note> <wit>O</wit> <note>(mit 397.15¹-15²)</note> <wit>L</wit> <note>(mit 397.15¹-15²)</note> <wit>Z</wit> <note>(mit 397.15¹-15²)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 397.6, mit 397.15¹-15²)</note> <wit>V</wit> <note>(mit 397.15¹-15²)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="397.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="397.02"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="397.07"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit>
+</rdg></app><app loc="397.07"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="397.15-2"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="397.15-2"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="397.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="397.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="397.03">
+<rdg>Lippout dô sînen willen sach, <wit>*m</wit></rdg>
+</app>
+<app loc="397.05">
+<rdg>&#x2020;si&#x2020; got der êre in niht erliez, <wit>*m</wit></rdg>
+</app>
+<app loc="397.09">
+<rdg>und war mannegelîch dô rite, <wit>*m</wit></rdg>
+</app>
+<app loc="397.10">
+<lem>oder er</lem> <rdg>oder <wit>*m</wit></rdg>
+</app>
+<app loc="397.11">
+<lem>niht ein ende</lem> <rdg>nû (min <wit>mk</wit>) kein ende (dehein ende nv <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="397.16">
+<rdg>si sprach: "mit iu ich hinnen varn wil." <wit>*m</wit></rdg>
+</app>
+<app loc="397.17">
+<rdg>dô wart der s&#x00E6;ldeb&#x00E6;ren maget <wit>*m</wit></rdg>
+</app>
+<app loc="397.19">
+<lem>brach</lem> <rdg>gebrach <wit>*m</wit></rdg>
+</app>
+<app loc="397.21">
+<lem>dienstes</lem> <rdg>diens <wit>D</wit></rdg>
+</app>
+<app loc="397.28">
+<lem>in</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="397.01">
+<rdg>waz (Daz <wit>I</wit>) m. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.02">
+<rdg></rdg>
+</app>
+<app loc="397.03">
+<rdg>Libaut nû (do <wit>V</wit>) s. w. s., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.04">
+<rdg></rdg>
+</app>
+<app loc="397.05">
+<rdg>daz (sît <wit>*T</wit>) in got der êren (ere <wit>Z</wit>) n. e., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.06">
+<rdg></rdg>
+</app>
+<app loc="397.07">
+<rdg></rdg>
+</app>
+<app loc="397.08">
+<rdg>der die g. <wit>*G</wit> <note>(nur GO)</note> der g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="397.09">
+<rdg>unde war (wer <wit>O</wit>) m. (manlichen <wit>I</wit> menniclich da <wit>Z</wit>) r., <wit>*G</wit> · unde wer manlîch dô r., <wit>*T</wit></rdg>
+</app>
+<app loc="397.10">
+<rdg></rdg>
+</app>
+<app loc="397.11">
+<rdg>ich dehein e. <wit>*T</wit></rdg>
+</app>
+<app loc="397.12">
+<rdg></rdg>
+</app>
+<app loc="397.13">
+<rdg>nam urloup <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="397.14">
+<rdg></rdg>
+</app>
+<app loc="397.15">
+<rdg>daz was Obilote leit, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.15-1">
+<rdg>wan si grôz weinen (groz weinen si <wit>I</wit>) niht vermeit. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.15-2">
+<rdg>dô sprach si (Sý sprach <wit>L</wit>): "hêrre, sît ich bin <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.16">
+<rdg>iwer, sô v. m. mit (<note>om.</note> <wit>Z</wit>) iu hin." <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.17">
+<rdg></rdg>
+</app>
+<app loc="397.18">
+<rdg>diu b. von G. widersaget. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="397.19">
+<rdg>von im gebrach. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="397.20">
+<rdg></rdg>
+</app>
+<app loc="397.21">
+<rdg>Libaut im dankte g., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="397.22">
+<rdg></rdg>
+</app>
+<app loc="397.23">
+<rdg></rdg>
+</app>
+<app loc="397.24">
+<rdg></rdg>
+</app>
+<app loc="397.25">
+<rdg></rdg>
+</app>
+<app loc="397.26">
+<rdg>st. in e. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="397.27">
+<rdg>gienc. dô santer w. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="397.28">
+<rdg>mit sp. <wit>*T</wit> <note>(nur T)</note> · v. mit im (<subst><del>in</del><add>im</add></subst> <wit>L</wit>) dan. <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="397.29">
+<rdg>w. helt (<note>om.</note> <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="397.30">
+<rdg>G., der gegen k. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 804</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 804.01"><seg type="Initiale">M</seg>anec juncvrouwe unt ir and<reg type="Synkope">e</reg>r diet</l>
+<l n="*D 804.02">sich von der küneginne schiet,</l>
+<l n="*D 804.03">sô daz si tâten klage schîn.</l>
+<l n="*D 804.04">dô nâmen <name type="Person">Loherangrin</name></l>
+<l n="*D 804.05">unt si, muoter wolgetân,</l>
+<l n="*D 804.06">die templeise unt riten dan</l>
+<l n="*D 804.07">gein <name type="Ort">Munsalv&#x00E6;sche</name> balde.</l>
+<l n="*D 804.08">"zeiner zît ûf disem walde",</l>
+<l n="*D 804.09">sprach <name type="Person">Parzival</name>, "dâ sach ich stên</l>
+<l n="*D 804.10">eine klôsen, dâ durch balde gên</l>
+<l n="*D 804.11">einen snellen brunnen clâr.</l>
+<l n="*D 804.12">ob ir si wizzet, sô wîset mich dar."</l>
+<l n="*D 804.13">von sînen gesellen wart im gesagt,</l>
+<l n="*D 804.14">si wisten eine: "dâ wont ein magt</l>
+<l n="*D 804.15">al klagende ûf vriw<reg type="Synkope">e</reg>ndes sarche.</l>
+<l n="*D 804.16">diu ist rehter güete ein arche.</l>
+<l n="*D 804.17">unser reise gêt ir nâhe bî.</l>
+<l n="*D 804.18">man vind<corr type="Emendation">e</corr>t si selten jâmers vrî."</l>
+<l n="*D 804.19"><seg type="Initiale" subtype="Majuskel">D</seg>er künec sprach: "wir sulen si seh<reg type="Synkope">e</reg>n."</l>
+<l n="*D 804.20">des wart i<corr type="Emendation">m</corr> volge an in verjeh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 804.21">si riten vür sich drâte</l>
+<l n="*D 804.22">unt vunden des âbents spâte</l>
+<l n="*D 804.23"><name type="Person">Sigunen</name> an ir venje tôt.</l>
+<l n="*D 804.24">dâ sach diu künegîn jâmers nôt.</l>
+<l n="*D 804.25"><seg type="Initiale" subtype="Majuskel">S</seg>i brâchen zuo zir dar în.</l>
+<l n="*D 804.26"><name type="Person">Parzival</name> durch die nifteln sîn</l>
+<l n="*D 804.27">bat ûf wegen den sarches stein.</l>
+<l n="*D 804.28"><name type="Person">Schianatulander</name> schein</l>
+<l n="*D 804.29">unervûlt schône balsemvar.</l>
+<l n="*D 804.30">man leite si nâhe zuo zim dar,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 804.12)</note> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="804.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="804.19"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>U</wit>
+</rdg></app><app loc="804.19"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="804.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="804.01">
+<lem>ir</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>L</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="804.05">
+<lem>si</lem> <rdg>sîn <wit>*m</wit></rdg>
+</app>
+<app loc="804.06">
+<lem>dan</lem> <rdg>sân (<subst><del>*</del><add>dan</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="804.08">
+<rdg>"in disem selben walde", <wit>*m</wit></rdg>
+</app>
+<app loc="804.10">
+<rdg>ein klôsen und (Vnd ein closen <wit>mk</wit>) dâ durch gên <wit>*m</wit></rdg>
+</app>
+<app loc="804.18">
+<lem>vindet</lem> <rdg>vindent <wit>D</wit></rdg>
+</app>
+<app loc="804.20">
+<lem>im</lem> <rdg>in <wit>D</wit></rdg>
+</app>
+<app loc="804.20">
+<lem>an in</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="804.22">
+<lem>vunden des</lem> <rdg>vundens des (<note>om.</note> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="804.25">
+<lem>zir</lem> <rdg>ir <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="804.27">
+<lem>wegen den</lem> <rdg>wegen (wegens <wit>mk</wit>) des <wit>*m</wit></rdg>
+</app>
+<app loc="804.30">
+<lem>zim</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="804.01">
+<rdg>manegiu junge vrouwe und <wit>*T</wit></rdg>
+</app>
+<app loc="804.02">
+<rdg></rdg>
+</app>
+<app loc="804.03">
+<rdg></rdg>
+</app>
+<app loc="804.04">
+<rdg>nam (namen si <wit>I</wit>) <wit>*G</wit> <note>(nur GZ)</note></rdg>
+</app>
+<app loc="804.05">
+<rdg>unde sîn m. w. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="804.06">
+<rdg></rdg>
+</app>
+<app loc="804.07">
+<rdg></rdg>
+</app>
+<app loc="804.08">
+<rdg></rdg>
+</app>
+<app loc="804.09">
+<rdg></rdg>
+</app>
+<app loc="804.10">
+<rdg></rdg>
+</app>
+<app loc="804.11">
+<rdg></rdg>
+</app>
+<app loc="804.12">
+<rdg></rdg>
+</app>
+<app loc="804.13">
+<rdg></rdg>
+</app>
+<app loc="804.14">
+<rdg></rdg>
+</app>
+<app loc="804.15">
+<rdg>ûf ir (irm <wit>U</wit>) vriundes (<subst><del>*</del><add>ir frúdez</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="804.16">
+<rdg>ir herze ist r. <wit>*G</wit> <note>(nur GI)</note> diu ist ouch r. <wit>*T</wit></rdg>
+</app>
+<app loc="804.17">
+<rdg>u. strâze gêt dâ nâhen (nahe da <wit>L</wit> ir nâhe <wit>*T</wit>) bî. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="804.18">
+<rdg></rdg>
+</app>
+<app loc="804.19">
+<rdg></rdg>
+</app>
+<app loc="804.20">
+<rdg>w. ein volge <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="804.21">
+<rdg>si r. des endes dr. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="804.22">
+<rdg></rdg>
+</app>
+<app loc="804.23">
+<rdg></rdg>
+</app>
+<app loc="804.24">
+<rdg>des kom diu küniginne in (<note>om.</note> <wit>L</wit>) nôt. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="804.25">
+<rdg>zuo ir dar <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="804.26">
+<rdg></rdg>
+</app>
+<app loc="804.27">
+<rdg>hiez ûf w. des s. (den sarg <wit>L</wit>) st. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="804.28">
+<rdg>dâr ûz der tôte rîter sch. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="804.29">
+<rdg></rdg>
+</app>
+<app loc="804.30">
+<rdg>man leit si (si im <wit>*T</wit>) nâhen zuo im dar, <wit>*G</wit> <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

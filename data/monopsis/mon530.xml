@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 530</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 530.01">vür sîn ors ze behalten;</l>
+<l n="*D 530.02">des geltes muoser walten.</l>
+<l n="*D 530.03"><seg type="Initiale">S</seg>i sprach hin zim, ich w&#x00E6;ne durch haz:</l>
+<l n="*D 530.04">"saget an, welt ir iht vürbaz?"</l>
+<l n="*D 530.05">dô sprach mîn hêr <name type="Person">Gawan</name>:</l>
+<l n="*D 530.06">"mîn vart <seg type="singuläre_Lesart">von hinnen wirt</seg> getân</l>
+<l n="*D 530.07">al nâch iwerm râte."</l>
+<l n="*D 530.08"><seg type="Initiale" subtype="Majuskel">S</seg>i sprach: "der kumt iu spâte."</l>
+<l n="*D 530.09">"nû diene ich iu doch drumbe."</l>
+<l n="*D 530.10">"des dunket ir mich der tumbe.</l>
+<l n="*D 530.11">welt ir daz niht vermîden,</l>
+<l n="*D 530.12">sô müezet ir von den blîden</l>
+<l n="*D 530.13">kêren gein der riwe;</l>
+<l n="*D 530.14">iwer kumber wirt al niwe."</l>
+<l n="*D 530.15"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der minnen gernde:</l>
+<l n="*D 530.16">"ich bin iuch dienstes wernde,</l>
+<l n="*D 530.17">ich enpfâhes <seg type="singuläre_Lesart"></seg>vreude od<reg type="Synkope">e</reg>r nôt,</l>
+<l n="*D 530.18">sît iwer minne <seg type="singuläre_Lesart">mir</seg> gebôt,</l>
+<l n="*D 530.19">daz ich muoz ziwerm gebote stên,</l>
+<l n="*D 530.20">ich mege rîten od<reg type="Synkope">e</reg>r gên."</l>
+<l n="*D 530.21"><seg type="Initiale" subtype="Majuskel">A</seg>l stênde bî der vrouwen</l>
+<l n="*D 530.22">daz marc begunder schouwen.</l>
+<l n="*D 530.23">daz was ze dr&#x00E6;ter tjoste</l>
+<l n="*D 530.24">ein harte krankiu koste,</l>
+<l n="*D 530.25">diu stîcled<reg type="Synkope">e</reg>r von baste.</l>
+<l n="*D 530.26">dem edelem, werdem gaste</l>
+<l n="*D 530.27">was etswenne gesatelt baz.</l>
+<l n="*D 530.28">ûf sitzen meit er umbe daz:</l>
+<l n="*D 530.29">er vorhte, daz er zertr&#x00E6;te</l>
+<l n="*D 530.30">des satels gew&#x00E6;te.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="530.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="530.03"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="530.03"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="530.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="530.08"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="530.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="530.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="530.15"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="530.15"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="530.21"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="530.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="530.03">
+<lem>hin</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="530.08">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="530.09">
+<lem>doch</lem> <rdg><note>om.</note> (<subst><del>*</del><add>doch</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="530.17">
+<lem>enpfâhes</lem> <rdg>enpfâhe dô (<note>om.</note> <wit>I</wit> <wit>Z</wit>) sîn <wit>*m</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="530.19">
+<lem>gebote</lem> <rdg>bote <wit>*m</wit> <wit>G</wit></rdg>
+</app>
+<app loc="530.24">
+<rdg>ein harte kranker kuste, <wit>*m</wit></rdg>
+</app>
+<app loc="530.30">
+<rdg>des satels ger&#x00E6;te. <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="530.01">
+<rdg></rdg>
+</app>
+<app loc="530.02">
+<rdg></rdg>
+</app>
+<app loc="530.03">
+<rdg></rdg>
+</app>
+<app loc="530.04">
+<rdg>iht <note>om.</note> <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="530.05">
+<rdg>"Jâ, vrouwe", sp. hêr (<note>om.</note> <wit>O</wit>) G., <wit>*T</wit></rdg>
+</app>
+<app loc="530.06">
+<rdg></rdg>
+</app>
+<app loc="530.07">
+<rdg></rdg>
+</app>
+<app loc="530.08">
+<rdg></rdg>
+</app>
+<app loc="530.09">
+<rdg></rdg>
+</app>
+<app loc="530.10">
+<rdg></rdg>
+</app>
+<app loc="530.11">
+<rdg>w. ir daz n. mîden (<subst><del>*</del><add>Wellent daz niht vermiden</add></subst> <wit>V</wit>), <wit>*T</wit> <note>(nur TU)</note></rdg>
+</app>
+<app loc="530.12">
+<rdg>sô m. ir kumber lîden (ir von den liben <wit>U</wit> <subst><del>*</del><add>ir von dem bliden</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="530.13">
+<rdg>unde k. (<subst><del>*</del><add>Keren</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="530.14">
+<rdg></rdg>
+</app>
+<app loc="530.15">
+<rdg></rdg>
+</app>
+<app loc="530.16">
+<rdg>iu. doch (<subst><del>*</del><add>vch</add></subst> <wit>V</wit>) d. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="530.17">
+<rdg></rdg>
+</app>
+<app loc="530.18">
+<rdg></rdg>
+</app>
+<app loc="530.19">
+<rdg>muoz <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="530.20">
+<rdg></rdg>
+</app>
+<app loc="530.21">
+<rdg></rdg>
+</app>
+<app loc="530.22">
+<rdg></rdg>
+</app>
+<app loc="530.23">
+<rdg></rdg>
+</app>
+<app loc="530.24">
+<rdg>ein h. kleiniu k., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="530.25">
+<rdg>diu <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="530.26">
+<rdg></rdg>
+</app>
+<app loc="530.27">
+<rdg></rdg>
+</app>
+<app loc="530.28">
+<rdg></rdg>
+</app>
+<app loc="530.29">
+<rdg></rdg>
+</app>
+<app loc="530.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

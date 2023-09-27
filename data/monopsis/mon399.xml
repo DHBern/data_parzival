@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 399</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>18.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 399.01"><seg type="Initiale">N</seg>û h&#x0153;ret von âventiuren sag<reg type="Synkope">e</reg>n</l>
+<l n="*D 399.02">unt helfet mir dâr und<reg type="Synkope">e</reg>r klag<reg type="Synkope">e</reg>n</l>
+<l n="*D 399.03"><name type="Person">Gawans</name> grôzen kumber.</l>
+<l n="*D 399.04">mîn wîser unt mîn tumber,</l>
+<l n="*D 399.05">die tuonz durch ir gesellecheit</l>
+<l n="*D 399.06">unt lâzen in mit mir sîn leit.</l>
+<l n="*D 399.07">owê, nû solt ich swîgen!</l>
+<l n="*D 399.08">nein, lât vürbaz sîgen,</l>
+<l n="*D 399.09">der etswenne gelücke neic</l>
+<l n="*D 399.10">unt nû gein ungemache seic.</l>
+<l n="*D 399.11"><seg type="Initiale" subtype="Majuskel">D</seg>isiu burc was gehêrt sô,</l>
+<l n="*D 399.12">daz <name type="Person">Eneas</name> <name type="Ort">Kartago</name></l>
+<l n="*D 399.13">nie sô hêrr<reg type="Synkope">e</reg>nlîche vant,</l>
+<l n="*D 399.14">dâ vroun <name type="Person">Didon</name> tôt was minnen pfant.</l>
+<l n="*D 399.15">waz si palase pfl&#x00E6;ge,</l>
+<l n="*D 399.16">unt wie vil dâ türne l&#x00E6;ge?</l>
+<l n="*D 399.17">ir hete <name type="Ort">Acraton</name> genuoc,</l>
+<l n="*D 399.18">diu âne <name type="Ort">Babylonie</name> ie truoc</l>
+<l n="*D 399.19">ame griffe die gr&#x0153;sten wîte</l>
+<l n="*D 399.20">nâch <name type="Person">heiden</name> worte strîte.</l>
+<l n="*D 399.21">si was alumbe wol sô hôch</l>
+<l n="*D 399.22">unt dâ si gein dem mer gezôch,</l>
+<l n="*D 399.23">decheinen sturm si widersaz</l>
+<l n="*D 399.24">noch grôzen, unge<corr type="Emendation">v</corr>üegen haz.</l>
+<l n="*D 399.25">dâr vor lac raste breit ein plân,</l>
+<l n="*D 399.26">dar über reit hêr <name type="Person">Gawan</name>.</l>
+<l n="*D 399.27">vünf hundert ritt<reg type="Synkope">e</reg>r od<reg type="Synkope">e</reg>r mêr,</l>
+<l n="*D 399.28">ob den allen was einer hêr,</l>
+<l n="*D 399.29">die kôm<reg type="Synkope">e</reg>n im dâ wid<reg type="Synkope">e</reg>rriten</l>
+<l n="*D 399.30">in liehten kleidern wol gesniten.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 399.24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 399.20)</note> <wit>U</wit> <note>(ohne 399.20)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="399.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="399.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="399.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="399.11"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="399.19"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="399.01">
+<lem>âventiuren</lem> <rdg>âventiure <wit>*m</wit></rdg>
+</app>
+<app loc="399.06">
+<lem>lâzen</lem> <rdg>lâzent <wit>*m</wit></rdg>
+</app>
+<app loc="399.06">
+<lem>sîn</lem> <rdg>wesen <wit>*m</wit></rdg>
+</app>
+<app loc="399.14">
+<lem>was minnen</lem> <rdg>was in minnen (minem <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="399.22">
+<lem>unt</lem> <rdg>unz <wit>*m</wit></rdg>
+</app>
+<app loc="399.23">
+<rdg>daz si enkeinem (nie keinen <wit>V</wit>) sturm dô entsaz <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="399.24">
+<lem>ungevüegen</lem> <rdg>vngefiv&#x0364;gen <wit>D</wit></rdg>
+</app>
+<app loc="399.27">
+<lem>vünf</lem> <rdg>wol <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="399.01">
+<rdg>âventiure sagen <wit>*G</wit> âventiure sagen. <wit>*T</wit></rdg>
+</app>
+<app loc="399.02">
+<rdg>nû h. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="399.03">
+<rdg></rdg>
+</app>
+<app loc="399.04">
+<rdg></rdg>
+</app>
+<app loc="399.05">
+<rdg></rdg>
+</app>
+<app loc="399.06">
+<rdg>mir wesen leit. <wit>*T</wit> <wit>I</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="399.07">
+<rdg></rdg>
+</app>
+<app loc="399.08">
+<rdg></rdg>
+</app>
+<app loc="399.09">
+<rdg>dâr (dem <wit>I</wit> [<wit>V</wit>]) e. <wit>*G</wit> <note>(ohne OLZ)</note> <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="399.10">
+<rdg></rdg>
+</app>
+<app loc="399.11">
+<rdg></rdg>
+</app>
+<app loc="399.12">
+<rdg></rdg>
+</app>
+<app loc="399.13">
+<rdg></rdg>
+</app>
+<app loc="399.14">
+<rdg>was in m. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="399.15">
+<rdg></rdg>
+</app>
+<app loc="399.16">
+<rdg>unt <note>om.</note> <wit>*G</wit> <note>(nur GL)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="399.17">
+<rdg></rdg>
+</app>
+<app loc="399.18">
+<rdg>ie <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="399.19">
+<rdg>Anme (Manme <wit>G</wit>) gr. die h&#x0153;hesten (griffen die grosten <wit>O</wit>) w. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="399.20">
+<rdg></rdg>
+</app>
+<app loc="399.21">
+<rdg></rdg>
+</app>
+<app loc="399.22">
+<rdg>unde daz (Vntze do <wit>V</wit>) si gegen dem mer sich zôch (mer gezoch <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="399.23">
+<rdg></rdg>
+</app>
+<app loc="399.24">
+<rdg></rdg>
+</app>
+<app loc="399.25">
+<rdg></rdg>
+</app>
+<app loc="399.26">
+<rdg></rdg>
+</app>
+<app loc="399.27">
+<rdg></rdg>
+</app>
+<app loc="399.28">
+<rdg></rdg>
+</app>
+<app loc="399.29">
+<rdg></rdg>
+</app>
+<app loc="399.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

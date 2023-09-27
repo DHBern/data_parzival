@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 747</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 747.01"><seg type="Initiale">D</seg>ô sprach der <name type="Person">heidenische</name> man:</l>
+<l n="*D 747.02">"dîn<reg type="Synkope">e</reg>s strît<reg type="Synkope">e</reg>s ich wênec angest hân.</l>
+<l n="*D 747.03">stüende ich gar blôz, sît ich hân swert,</l>
+<l n="*D 747.04">dû w&#x00E6;rst doch schumpfentiure gewert,</l>
+<l n="*D 747.05">sît dîn swert zerbrosten ist.</l>
+<l n="*D 747.06">al dîn werlîcher list</l>
+<l n="*D 747.07">mac dich vor tôde niht bewarn,</l>
+<l n="*D 747.08">ine welle dich anders gerne sparn.</l>
+<l n="*D 747.09"><seg type="Initiale" subtype="Majuskel">Ê</seg> dû begundest ringen,</l>
+<l n="*D 747.10">mîn swert lieze ich klingen</l>
+<l n="*D 747.11">beidiu durch îser unt durch vel."</l>
+<l n="*D 747.12">der <name type="Person">heiden</name> starc und snel</l>
+<l n="*D 747.13">tet manlîchen site schîn:</l>
+<l n="*D 747.14">"diz swert sol unser deweders sîn."</l>
+<l n="*D 747.15">ez warf der küene degen balt</l>
+<l n="*D 747.16">verre von im in den walt.</l>
+<l n="*D 747.17">er sprach: "sol nû hie strît ergên,</l>
+<l n="*D 747.18">dâ muoz glîchiu schanze stên."</l>
+<l n="*D 747.19"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der rîche <name type="Person">Feirefîz</name>:</l>
+<l n="*D 747.20">"helt, durch dîner zühte vlîz,</l>
+<l n="*D 747.21">sît dû bruoder megest hân,</l>
+<l n="*D 747.22">sô sage mir, wie ist er getân?</l>
+<l n="*D 747.23">tuo mir sîn antlütze erkant,</l>
+<l n="*D 747.24">wie dir sîn varwe sî genant."</l>
+<l n="*D 747.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach <name type="Person">Herzeloyden</name> kint:</l>
+<l n="*D 747.26">"als ein geschriben permint,</l>
+<l n="*D 747.27">swarz und blanc her unt dâ,</l>
+<l n="*D 747.28">sus nante mir in <name type="Person">Eckuba</name>."</l>
+<l n="*D 747.29"><seg type="Initiale">D</seg>er <name type="Person">heiden</name> sprach: "der bin ich."</l>
+<l n="*D 747.30">si bêde wênec dô sûmten sich,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr69</wit> <note>(747.22-24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="747.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit> <wit>G</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="747.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="747.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="747.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="747.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="747.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="747.05">
+<lem>zerbrosten</lem> <rdg>zerbrochen (gebrochen <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="747.08">
+<lem>welle</lem> <rdg>wil <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="747.09">
+<lem>begundest</lem> <rdg>beginnest <wit>*m</wit> <note>(nur m)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="747.11">
+<lem>îser</lem> <rdg>îsen <wit>*m</wit></rdg>
+</app>
+<app loc="747.14">
+<lem>deweders</lem> <rdg>ieweders <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="747.17">
+<lem>nû hie</lem> <rdg>mîn <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="747.19">
+<rdg>aber sprach dô Ferefiz: <wit>*m</wit></rdg>
+</app>
+<app loc="747.25">
+<lem>sprach</lem> <rdg>sprach der <wit>*m</wit></rdg>
+</app>
+<app loc="747.27">
+<lem>her</lem> <rdg>hie <wit>*m</wit></rdg>
+</app>
+<app loc="747.30">
+<lem>dô</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="747.01">
+<rdg></rdg>
+</app>
+<app loc="747.02">
+<rdg></rdg>
+</app>
+<app loc="747.03">
+<rdg>ich alblôz, <wit>*G</wit> <note>(nur GI)</note> ich hie bl., <wit>*T</wit> · hân ein sw., <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="747.04">
+<rdg></rdg>
+</app>
+<app loc="747.05">
+<rdg>sît dîn sw. zerbrochen ist <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="747.06">
+<rdg></rdg>
+</app>
+<app loc="747.07">
+<rdg>vor dem t. <wit>*T</wit></rdg>
+</app>
+<app loc="747.08">
+<rdg></rdg>
+</app>
+<app loc="747.09">
+<rdg></rdg>
+</app>
+<app loc="747.10">
+<rdg>mîn sw. (mit swerte <wit>I</wit>) l. ich dringen <wit>*G</wit> · mîn sw., daz liez ich dringen <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="747.11">
+<rdg>îsen <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="747.12">
+<rdg></rdg>
+</app>
+<app loc="747.13">
+<rdg>tet menschlîche s. sch.: <wit>*T</wit></rdg>
+</app>
+<app loc="747.14">
+<rdg>u. beider sîn." <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="747.15">
+<rdg></rdg>
+</app>
+<app loc="747.16">
+<rdg></rdg>
+</app>
+<app loc="747.17">
+<rdg>"sol hie st. (sol nu strit hie <wit>I</wit> [<wit>L</wit>] sol hie strit nu <wit>Z</wit>) <wit>*G</wit> "sol hie nû st. <wit>*T</wit></rdg>
+</app>
+<app loc="747.18">
+<rdg>der m. <wit>*G</wit> daz m. <wit>*T</wit> (<wit>Z</wit>) · sch. hân <wit>*T</wit></rdg>
+</app>
+<app loc="747.19">
+<rdg></rdg>
+</app>
+<app loc="747.20">
+<rdg></rdg>
+</app>
+<app loc="747.21">
+<rdg></rdg>
+</app>
+<app loc="747.22">
+<rdg>mir <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="747.23">
+<rdg></rdg>
+</app>
+<app loc="747.24">
+<rdg></rdg>
+</app>
+<app loc="747.25">
+<rdg></rdg>
+</app>
+<app loc="747.26">
+<rdg></rdg>
+</app>
+<app loc="747.27">
+<rdg>sw., bl. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="747.28">
+<rdg>alsô nande <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="747.29">
+<rdg>"daz bin ich." <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="747.30">
+<rdg>dô (<note>om.</note> <wit>L</wit>) wênic <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 15</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>22.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 15.01">dâne wâren si ninder în geslagen.</l>
+<l n="*D 15.02">der hêrre muose vürbaz tragen</l>
+<l n="*D 15.03">disen wâpenlîchen last</l>
+<l n="*D 15.04">in manegiu lant, der werde gast,</l>
+<l n="*D 15.05"><seg type="Initiale">N</seg>âch dem anker disiu mâl,</l>
+<l n="*D 15.06">wander deheiner slahte twâl</l>
+<l n="*D 15.07">hete ninder noch gebite.</l>
+<l n="*D 15.08">wie vil er lande durchrite</l>
+<l n="*D 15.09">und in schiffen umbevüere,</l>
+<l n="*D 15.10">ob ich iu dâ nâch swüere,</l>
+<l n="*D 15.11">sô seit iu ûf mînen eit</l>
+<l n="*D 15.12">mîn ritterlîchiu sicherheit,</l>
+<l n="*D 15.13">als mir diu âventiure giht.</l>
+<l n="*D 15.14">ine hân nû mêr geziuges niht.</l>
+<l n="*D 15.15">diu seit, sîn manlîchiu kraft</l>
+<l n="*D 15.16">behielt den prîs in heiden<corr type="Emendation">sc</corr>haft,</l>
+<l n="*D 15.17">ze <name type="Ort">Marroch</name> und ze <name type="Ort">Persia</name>.</l>
+<l n="*D 15.18">sîn hant bezalt ouch anderswâ,</l>
+<l n="*D 15.19">ze <name type="Ort">Damasc</name> und ze <name type="Ort">Halap</name>,</l>
+<l n="*D 15.20">und swâ man ritterschaft dâ gap,</l>
+<l n="*D 15.21">ze <name type="Ort">Arabie</name> und vor <name type="Ort">Arabi</name>,</l>
+<l n="*D 15.22">daz er was gegenstrîtes vrî</l>
+<l n="*D 15.23">vor ieslîch einem man.</l>
+<l n="*D 15.24">disen ruoft er dâ gewan.</l>
+<l n="*D 15.25">sînes herzen gir nâch prîse greif.</l>
+<l n="*D 15.26">ir aller tât vor im zersleif</l>
+<l n="*D 15.27">und was vil nâch entnihtet.</l>
+<l n="*D 15.28">sus was ie der berihtet,</l>
+<l n="*D 15.29">der gein im tjustierens pflac.</l>
+<l n="*D 15.30">man jach im des ze <name type="Ort">Baldac</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(15.7-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="15.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="15.05"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="15.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="15.15"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="15.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="15.01">
+<lem>ninder</lem> <rdg>wider <wit>*m</wit></rdg>
+</app>
+<app loc="15.08">
+<lem>er lande</lem> <rdg>lande er <wit>*m</wit></rdg>
+</app>
+<app loc="15.10">
+<lem>iu</lem> <rdg>ie <wit>*m</wit></rdg>
+</app>
+<app loc="15.11">
+<lem>iu</lem> <rdg>ich ie <wit>*m</wit> ich iv <wit>O</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="15.12">
+<lem>ritterlîchiu</lem> <rdg>ritterlîche <wit>*m</wit></rdg>
+</app>
+<app loc="15.14">
+<lem>ine</lem> <rdg>wir <wit>*m</wit></rdg>
+</app>
+<app loc="15.16">
+<lem>heidenschaft</lem> <rdg>heidenhaft <wit>D</wit></rdg>
+</app>
+<app loc="15.17">
+<lem>ze</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="15.24">
+<lem>ruoft</lem> <rdg>ruof <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="15.01">
+<rdg></rdg>
+</app>
+<app loc="15.02">
+<rdg></rdg>
+</app>
+<app loc="15.03">
+<rdg></rdg>
+</app>
+<app loc="15.04">
+<rdg>in vrömdiu l., <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="15.05">
+<rdg></rdg>
+</app>
+<app loc="15.06">
+<rdg></rdg>
+</app>
+<app loc="15.07">
+<rdg></rdg>
+</app>
+<app loc="15.08">
+<rdg></rdg>
+</app>
+<app loc="15.09">
+<rdg>oder in <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="15.10">
+<rdg></rdg>
+</app>
+<app loc="15.11">
+<rdg></rdg>
+</app>
+<app loc="15.12">
+<rdg></rdg>
+</app>
+<app loc="15.13">
+<rdg></rdg>
+</app>
+<app loc="15.14">
+<rdg>geziuge <wit>*T</wit></rdg>
+</app>
+<app loc="15.15">
+<rdg>saget, daz sîn <wit>*T</wit></rdg>
+</app>
+<app loc="15.16">
+<rdg>behielte <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="15.17">
+<rdg></rdg>
+</app>
+<app loc="15.18">
+<rdg></rdg>
+</app>
+<app loc="15.19">
+<rdg></rdg>
+</app>
+<app loc="15.20">
+<rdg></rdg>
+</app>
+<app loc="15.21">
+<rdg>unt ze Arabi, <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="15.22">
+<rdg>gein strîte (gein strites <wit>O</wit> [<wit>Z</wit>] <subst><del>geg*</del><add>gegen</add></subst> strite <wit>V</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="15.23">
+<rdg>von iegeslîchem <wit>*G</wit> gegen (<subst><del>*i*</del><add>Vor</add></subst> <wit>V</wit>) ieslîchem <wit>*T</wit></rdg>
+</app>
+<app loc="15.24">
+<rdg>ruof <wit>*T</wit> <subst><del>tv&#x0366;f</del><add>rv&#x0366;f</add></subst> <wit>O</wit></rdg>
+</app>
+<app loc="15.25">
+<rdg>girde <wit>*T</wit></rdg>
+</app>
+<app loc="15.26">
+<rdg></rdg>
+</app>
+<app loc="15.27">
+<rdg></rdg>
+</app>
+<app loc="15.28">
+<rdg>wart <wit>*G</wit></rdg>
+</app>
+<app loc="15.29">
+<rdg>der tjostierens wider (iostiernes gegen <wit>U</wit> iustierdes <subst><del>geg*</del><add>gegen</add></subst> <wit>V</wit>) im pf. <wit>*T</wit></rdg>
+</app>
+<app loc="15.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

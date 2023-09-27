@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 121</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>26.09.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 121.01">lûte rief der knappe sân:</l>
+<l n="*D 121.02">"hilf got, dû maht wol helfe hân!"</l>
+<l n="*D 121.03">der vord<reg type="Synkope">e</reg>r zornes sich bewac,</l>
+<l n="*D 121.04">dô der knappe ime pfade lac.</l>
+<l n="*D 121.05">"dirre t&#x0153;rsche <name type="Person">Waleise</name></l>
+<l n="*D 121.06">unsich wendet gâher reise."</l>
+<l n="*D 121.07">ein<reg type="Synkope">e</reg>n prîs, den wir <name type="Person">Beier</name> trag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 121.08">muoz ich von <name type="Person">Waleisen</name> sag<reg type="Synkope">e</reg>n:</l>
+<l n="*D 121.09">die sint t&#x0153;rscher denne <name type="Person">Beiersch</name> her</l>
+<l n="*D 121.10">unt doch bî manlîcher wer.</l>
+<l n="*D 121.11">swer in den zwein landen wirt,</l>
+<l n="*D 121.12">gevuoge ein wund<reg type="Synkope">e</reg>r an im birt.</l>
+<l n="*D 121.13"><seg type="Initiale">D</seg>ô kom geleischieret</l>
+<l n="*D 121.14">unt wol gezimieret</l>
+<l n="*D 121.15">ein ritt<reg type="Synkope">e</reg>r, dem was harte gâch.</l>
+<l n="*D 121.16">er reit in striteclîchen nâch,</l>
+<l n="*D 121.17">die verre wâren von im kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 121.18">zwêne ritter heten im genom<reg type="Synkope">e</reg>n</l>
+<l n="*D 121.19">eine juncvrouwen in sîme lande.</l>
+<l n="*D 121.20">den helt ez dûhte schande.</l>
+<l n="*D 121.21">in müete der juncvrouwen leit,</l>
+<l n="*D 121.22">diu j&#x00E6;merlîche vor in reit.</l>
+<l n="*D 121.23">dise drî wâren sîne man.</l>
+<l n="*D 121.24">er reit ein sch&#x0153;ne kastelân.</l>
+<l n="*D 121.25">sînes schildes was vil wênic ganz.</l>
+<l n="*D 121.26">er hiez <name type="Person">Karnahkarnanz</name></l>
+<l n="*D 121.27"><seg type="Initiale" subtype="Majuskel">L</seg>ah cons <name type="Ort">Ulterlec</name>.</l>
+<l n="*D 121.28">er sprach: "wer irret uns den wec?"</l>
+<l n="*D 121.29">sus vuor er zuome knappen sân;</l>
+<l n="*D 121.30">den dûht er als ein got getân.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="121.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="121.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="121.03"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+<app loc="121.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="121.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="121.13"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="121.13"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="121.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="121.27"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="121.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="121.01">
+<rdg>und begunde dâ mite ruofen sân: <wit>*m</wit></rdg>
+</app>
+<app loc="121.05">
+<rdg>er sprach: "dirre t&#x0153;rsche Waleise <wit>*m</wit></rdg>
+</app>
+<app loc="121.06">
+<lem>gâher</lem> <rdg>g&#x00E6;he <wit>*m</wit></rdg>
+</app>
+<app loc="121.09">
+<lem>Beiersch</lem> <rdg>Beiers <wit>*m</wit> (<wit>L</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="121.17">
+<lem>wâren von im</lem> <rdg>von im wâren (werren <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="121.22">
+<lem>in</lem> <rdg>ime <wit>*m</wit></rdg>
+</app>
+<app loc="121.24">
+<lem>er</lem> <rdg>ein <wit>*m</wit></rdg>
+</app>
+<app loc="121.29">
+<lem>vuor</lem> <rdg>reit <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="121.01">
+<rdg>vil l. <wit>*G</wit> (<wit>V</wit> <wit>T</wit>)</rdg>
+</app>
+<app loc="121.02">
+<rdg></rdg>
+</app>
+<app loc="121.03">
+<rdg>der vorderste (<subst><del>*</del><add>vorder</add></subst> <wit>V</wit>) z. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="121.04">
+<rdg></rdg>
+</app>
+<app loc="121.05">
+<rdg></rdg>
+</app>
+<app loc="121.06">
+<rdg>g&#x00E6;he <wit>*G</wit> <note>(ohne IL)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="121.07">
+<rdg>den pr., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="121.08">
+<rdg></rdg>
+</app>
+<app loc="121.09">
+<rdg></rdg>
+</app>
+<app loc="121.10">
+<rdg></rdg>
+</app>
+<app loc="121.11">
+<rdg></rdg>
+</app>
+<app loc="121.12">
+<rdg></rdg>
+</app>
+<app loc="121.13">
+<rdg></rdg>
+</app>
+<app loc="121.14">
+<rdg></rdg>
+</app>
+<app loc="121.15">
+<rdg></rdg>
+</app>
+<app loc="121.16">
+<rdg>er vuor in <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="121.17">
+<rdg>von (vor <wit>L</wit>) im wâren k. <wit>*G</wit> <note>(ohne Z)</note> vor in wâren k. <wit>*T</wit> <note>(ohne T)</note> (<wit>G</wit>)</rdg>
+</app>
+<app loc="121.18">
+<rdg></rdg>
+</app>
+<app loc="121.19">
+<rdg>e. vrouwen <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="121.20">
+<rdg>dûht ez (dvht ez were ein <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="121.21">
+<rdg></rdg>
+</app>
+<app loc="121.22">
+<rdg>vor (von <wit>U</wit>) im r. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="121.23">
+<rdg></rdg>
+</app>
+<app loc="121.24">
+<rdg></rdg>
+</app>
+<app loc="121.25">
+<rdg></rdg>
+</app>
+<app loc="121.26">
+<rdg></rdg>
+</app>
+<app loc="121.27">
+<rdg></rdg>
+</app>
+<app loc="121.28">
+<rdg>der (<subst><del>Er</del><add>Der</add></subst> <wit>V</wit>) sp.: <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="121.29">
+<rdg></rdg>
+</app>
+<app loc="121.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

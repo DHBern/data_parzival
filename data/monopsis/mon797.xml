@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 797</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 797.01"><seg type="Initiale"><corr type="Emendation">S</corr></seg>i hete die wârheit ê vernomen.</l>
+<l n="*D 797.02">solch botschaft was nâch ir komen,</l>
+<l n="*D 797.03">daz wendec w&#x00E6;re ir klagendiu nôt.</l>
+<l n="*D 797.04">der herzoge <name type="Person">Kyot</name></l>
+<l n="*D 797.05">unt anders manec werder man</l>
+<l n="*D 797.06">heten si gevüeret dan</l>
+<l n="*D 797.07">ze <name type="Ort">Terre de Salv&#x00E6;sche</name> in den walt,</l>
+<l n="*D 797.08">dâ mit der tjoste wart gevalt</l>
+<l n="*D 797.09"><name type="Person">Segramors</name> unt dâ der snê</l>
+<l n="*D 797.10">mit bluote sich ir gelîcht ê.</l>
+<l n="*D 797.11">dâ solte <name type="Person">Parzival</name> si holn.</l>
+<l n="*D 797.12">die reise er gerne mohte doln.</l>
+<l n="*D 797.13"><seg type="Initiale" subtype="Majuskel">D</seg>ise m&#x00E6;re sagte im ein templeis:</l>
+<l n="*D 797.14">"manec rîter kurteis</l>
+<l n="*D 797.15">die küneginne hânt mit zühten brâht."</l>
+<l n="*D 797.16"><name type="Person">Parzival</name> was sô bedâht,</l>
+<l n="*D 797.17">er nam ein teil des <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> schar</l>
+<l n="*D 797.18">unt reit vür <name type="Person">Trevrizende</name> dar.</l>
+<l n="*D 797.19">des herze wart der m&#x00E6;re vrô,</l>
+<l n="*D 797.20">daz <name type="Person">Anfortas<reg type="Synkope">e</reg>s</name> dinc alsô</l>
+<l n="*D 797.21"><corr type="Emendation">stuont</corr>, daz er der tjost niht starp</l>
+<l n="*D 797.22">unt im diu vrâge ruowe erwarp.</l>
+<l n="*D 797.23"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "got vil tougen hât.</l>
+<l n="*D 797.24">wer gesaz ie an sînen rât</l>
+<l n="*D 797.25">oder wer weiz ende sîner kraft?</l>
+<l n="*D 797.26">al die engele mit ir geselleschaft</l>
+<l n="*D 797.27">bevindentz nimmer an den ort.</l>
+<l n="*D 797.28">got ist mennesch unt sîn<reg type="Synkope">e</reg>s vater wort,</l>
+<l n="*D 797.29">got ist vater und sun,</l>
+<l n="*D 797.30">sîn geist mac grôze helfe tuon."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 797.14-15)</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="797.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="797.13"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="797.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="797.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="797.01">
+<lem>Si</lem> <rdg>&#x00F7;i <wit>D</wit></rdg>
+</app>
+<app loc="797.02">
+<lem>nâch</lem> <rdg>ouch <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="797.12">
+<lem>mohte</lem> <rdg>wolte (mo&#x0364;hte <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="797.13">
+<lem>im</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="797.14">
+<rdg>der was hofsh vnde churtoys <wit>I</wit></rdg>
+</app>
+<app loc="797.14">
+<rdg>Mit mangem ritter ku&#x0366;rteis <wit>L</wit></rdg>
+</app>
+<app loc="797.14">
+<rdg>Manic ritter kvrteis <wit>Z</wit></rdg>
+</app>
+<app loc="797.15">
+<rdg>vnd was von arde wol Geslaht <wit>I</wit></rdg>
+</app>
+<app loc="797.15">
+<rdg>Fu̽ren sẏ dan bi der naht <wit>L</wit></rdg>
+</app>
+<app loc="797.15">
+<rdg>Hant die kvniginne braht <wit>Z</wit></rdg>
+</app>
+<app loc="797.19">
+<lem>wart</lem> <rdg>was <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="797.21">
+<lem>stuont</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="797.26">
+<lem>mit</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="797.27">
+<rdg>ervindet si (Befindens <wit>V</wit>) niemer an ein ort. <wit>*T</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="797.27">
+<lem>bevindentz</lem> <rdg>bevündenz (Befundens <wit>mk</wit> [<wit>G</wit>] Befvnden <wit>L</wit> Vol freischentz <wit>Z</wit>) <wit>*m</wit> <note>(nur m)</note> <wit>*G</wit> <note>(ohne I)</note></rdg>
+</app>
+<app loc="797.30">
+<lem>mac</lem> <rdg>mac wol <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="797.01">
+<rdg>ê <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="797.02">
+<rdg></rdg>
+</app>
+<app loc="797.03">
+<rdg>w. was ir <wit>*T</wit></rdg>
+</app>
+<app loc="797.04">
+<rdg></rdg>
+</app>
+<app loc="797.05">
+<rdg>ander <wit>*T</wit> <wit>L</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="797.06">
+<rdg></rdg>
+</app>
+<app loc="797.07">
+<rdg></rdg>
+</app>
+<app loc="797.08">
+<rdg></rdg>
+</app>
+<app loc="797.09">
+<rdg></rdg>
+</app>
+<app loc="797.10">
+<rdg>sich glîchet (ir gelichet <wit>Z</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="797.11">
+<rdg></rdg>
+</app>
+<app loc="797.12">
+<rdg>moht er gerne <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="797.13">
+<rdg>disiu (Die <wit>L</wit>) m. <wit>*G</wit> · im <note>om.</note> <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="797.14">
+<rdg><note>Die Verse 797.14-15 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="797.15">
+<rdg></rdg>
+</app>
+<app loc="797.16">
+<rdg>b. unde kurteis, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="797.17">
+<rdg></rdg>
+</app>
+<app loc="797.18">
+<rdg></rdg>
+</app>
+<app loc="797.19">
+<rdg></rdg>
+</app>
+<app loc="797.20">
+<rdg></rdg>
+</app>
+<app loc="797.21">
+<rdg></rdg>
+</app>
+<app loc="797.22">
+<rdg></rdg>
+</app>
+<app loc="797.23">
+<rdg>vil ougen hât. <wit>*T</wit></rdg>
+</app>
+<app loc="797.24">
+<rdg></rdg>
+</app>
+<app loc="797.25">
+<rdg></rdg>
+</app>
+<app loc="797.26">
+<rdg>ir <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="797.27">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="797.28">
+<rdg>ist menschlîch und <wit>*T</wit></rdg>
+</app>
+<app loc="797.29">
+<rdg></rdg>
+</app>
+<app loc="797.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

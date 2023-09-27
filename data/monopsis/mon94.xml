@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 94</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 94.01">als der ben<reg type="Synkope">e</reg>diz wart getân,</l>
+<l n="*D 94.02">dô kom vrou <name type="Person">Herzeloyde</name> sân.</l>
+<l n="*D 94.03">an <name type="Person">Gahmuretes</name> lîp si sprach.</l>
+<l n="*D 94.04">si gerte, als ir diu volge jach.</l>
+<l n="*D 94.05">dô sprach er: "vrouwe, ich hân ein wîp.</l>
+<l n="*D 94.06">diu ist mir lieber danne der lîp.</l>
+<l n="*D 94.07">ob ich der âne w&#x00E6;re,</l>
+<l n="*D 94.08">dennoch wess ich ein m&#x00E6;re,</l>
+<l n="*D 94.09">dâ mit ich iu enbr&#x00E6;ste gar,</l>
+<l n="*D 94.10">n&#x00E6;me iemen mînes rehtes war."</l>
+<l n="*D 94.11"><seg type="Initiale">S</seg>i sprach: "ir sult die m&#x0153;rinne</l>
+<l n="*D 94.12">lân durch mîne minne.</l>
+<l n="*D 94.13">des toufes segen hât bezzer kraft.</l>
+<l n="*D 94.14">nû ânet iuch der heidenschaft</l>
+<l n="*D 94.15">unt minnet mich nâch unser<reg type="Synkope">e</reg>r ê,</l>
+<l n="*D 94.16">wan mir ist nâch iuwer<reg type="Synkope">e</reg>r minne wê.</l>
+<l n="*D 94.17">od<reg type="Synkope">e</reg>r sol mir gein iu schade sîn</l>
+<l n="*D 94.18">der <name type="Person">Franzoyser</name> künegîn,</l>
+<l n="*D 94.19">der boten sprâchen süeziu wort?</l>
+<l n="*D 94.20">si spilten ir m&#x00E6;re unz an den ort."</l>
+<l n="*D 94.21">"jâ, diu ist mîn wâriu vrouwe.</l>
+<l n="*D 94.22">ich brâhte in <name type="Ort">Anschouwe</name></l>
+<l n="*D 94.23">ir rât und mîner zühte site.</l>
+<l n="*D 94.24">mir wont noch hiute ir helfe mite</l>
+<l n="*D 94.25">dâ von, daz mich mîn vrouwe zôch,</l>
+<l n="*D 94.26">die wîbes missewende ie vlôch.</l>
+<l n="*D 94.27">wir wâren kind<reg type="Synkope">e</reg>r beidiu dô</l>
+<l n="*D 94.28">unt doch ze sehen ein and<reg type="Synkope">e</reg>r vrô.</l>
+<l n="*D 94.29"><seg type="Initiale" subtype="Majuskel">D</seg>iu küneginne <name type="Person">Ampflise</name></l>
+<l n="*D 94.30">wont an wîplîchem prîse.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(94.1-7)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="94.01"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit>
+</rdg></app><app loc="94.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="94.05"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app><app loc="94.05"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="94.11"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="94.11"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="94.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="94.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="94.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="94.29"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="94.01">
+<lem>als</lem> <rdg>und als <wit>*m</wit></rdg>
+</app>
+<app loc="94.15">
+<lem>unserer</lem> <rdg>mîner <wit>*m</wit></rdg>
+</app>
+<app loc="94.27">
+<lem>kinder beidiu</lem> <rdg>beidiu kinder <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="94.01">
+<rdg>dô der b. (benediz do <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="94.02">
+<rdg>vrô Herzeloide kom dâ sân. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="94.03">
+<rdg>si sprach <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="94.04">
+<rdg>unde g., <wit>*G</wit> (<wit>T</wit>) und gertes, <wit>*T</wit></rdg>
+</app>
+<app loc="94.05">
+<rdg>ein wîp, <wit>*G</wit></rdg>
+</app>
+<app loc="94.06">
+<rdg>mir ist <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="94.07">
+<rdg></rdg>
+</app>
+<app loc="94.08">
+<rdg>weiz <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="94.09">
+<rdg></rdg>
+</app>
+<app loc="94.10">
+<rdg></rdg>
+</app>
+<app loc="94.11">
+<rdg>Si sprach <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="94.12">
+<rdg></rdg>
+</app>
+<app loc="94.13">
+<rdg>hât gr&#x0153;zer (groze <wit>I</wit>) kr. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="94.14">
+<rdg></rdg>
+</app>
+<app loc="94.15">
+<rdg>unser ê, <wit>*G</wit></rdg>
+</app>
+<app loc="94.16">
+<rdg>wan <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>T</wit> · n. iu wê. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="94.17">
+<rdg></rdg>
+</app>
+<app loc="94.18">
+<rdg>der Franzoiser künigin? <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="94.19">
+<rdg>der (Jr <wit>Z</wit> die <wit>*T</wit> <note>[nur U]</note>) b. sp. s. (sie zu̽ <wit>L</wit>) w. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="94.20">
+<rdg>unde sp. (spielden <wit>G</wit> pflihten <wit>T</wit>) <wit>*G</wit> (<wit>*T</wit>) · unz in daz (den <wit>O</wit> <wit>T</wit>) ort." <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="94.21">
+<rdg>er sprach: "diu ist mîn vr. <wit>*G</wit> <note>(ohne Z)</note> · "seht, diust mîn w. vr. (min warhe <wit>T</wit>). <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="94.22">
+<rdg></rdg>
+</app>
+<app loc="94.23">
+<rdg>rât an m. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="94.24">
+<rdg></rdg>
+</app>
+<app loc="94.25">
+<rdg></rdg>
+</app>
+<app loc="94.26">
+<rdg>ie <note>om.</note> <wit>*G</wit> <note>(ohne L)</note> <wit>T</wit></rdg>
+</app>
+<app loc="94.27">
+<rdg>beidiu kinder <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="94.28">
+<rdg></rdg>
+</app>
+<app loc="94.29">
+<rdg></rdg>
+</app>
+<app loc="94.30">
+<rdg>wonet in wîbes pr. <wit>*G</wit> <note>(nur GI)</note> · gewonte (<subst><del>*</del><add>wonet</add></subst> <wit>V</wit>) an wîplîchem pr. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

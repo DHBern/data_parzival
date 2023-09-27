@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 773</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 773.01"><seg type="Initiale">D</seg>er <name type="Person">heiden</name> was von herzen vrô,</l>
+<l n="*D 773.02">daz sîn<reg type="Synkope">e</reg>s bruoder prîs alsô</l>
+<l n="*D 773.03">stuont, daz sîn hant erstreit</l>
+<l n="*D 773.04">sô manege hôhe werdecheit.</l>
+<l n="*D 773.05">des dankter im sêre.</l>
+<l n="*D 773.06">er hetes selbe ouch êre.</l>
+<l n="*D 773.07"><seg type="Initiale" subtype="Majuskel">I</seg>nnen des hiez tragen <name type="Person">Gawan</name>,</l>
+<l n="*D 773.08">als ez unwizzende w&#x00E6;re getân,</l>
+<l n="*D 773.09">des <name type="Person">heidens</name> zimierde in den rinc.</l>
+<l n="*D 773.10">si prüevetenz dâ vür hôhiu dinc.</l>
+<l n="*D 773.11">rîter und vrouwen</l>
+<l n="*D 773.12">begunden alle schouwen</l>
+<l n="*D 773.13">den wâpenroc, den schilt, daz kursît.</l>
+<l n="*D 773.14">der helm was zenge noch ze wît.</l>
+<l n="*D 773.15"><seg type="Initiale" subtype="Majuskel">S</seg>i prîsten al gemeine</l>
+<l n="*D 773.16">die tiwern edeln steine,</l>
+<l n="*D 773.17">die dran verwieret lâgen.</l>
+<l n="*D 773.18">niemen darf mich vrâgen</l>
+<l n="*D 773.19">von ir arde, wie si w&#x00E6;ren,</l>
+<l n="*D 773.20">die lîhten unt die sw&#x00E6;ren.</l>
+<l n="*D 773.21"><seg type="Initiale" subtype="Majuskel">I</seg>uch hete baz bescheiden des</l>
+<l n="*D 773.22"><name type="Person">Eraclius</name> oder <name type="Person">Ercules</name></l>
+<l n="*D 773.23">unt der <name type="Person">Krieche</name> <name type="Person">Alexander</name></l>
+<l n="*D 773.24">unt dennoch ein ander</l>
+<l n="*D 773.25">unt der wîse <name type="Person">Pictagoras</name>,</l>
+<l n="*D 773.26">der ein astronomierre was</l>
+<l n="*D 773.27">unt sô wîs âne strît,</l>
+<l n="*D 773.28">niem<reg type="Synkope">e</reg>n sît <name type="Person">Adames</name> zît</l>
+<l n="*D 773.29">möhte im glîchen sin getrag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 773.30">der kunde wol von steinen sag<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr6</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="773.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr2</wit> <wit>mk</wit> <wit>V</wit> <wit>Fr6</wit> <wit>U</wit>
+</rdg></app>
+<app loc="773.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="773.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>Fr6</wit>
+</rdg></app>
+<app loc="773.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="773.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="773.01">
+<lem>Der</lem> <rdg>&#x00F7;er <wit>Fr2</wit></rdg>
+</app>
+<app loc="773.09">
+<lem>heidens</lem> <rdg>heiden <wit>Fr2</wit></rdg>
+</app>
+<app loc="773.10">
+<rdg>daz brüeften si dâ vür hôhiu dinc. <wit>*m</wit></rdg>
+</app>
+<app loc="773.16">
+<lem>tiwern edeln</lem> <rdg>edeln tiuren <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="773.20">
+<lem>lîhten</lem> <rdg>liehten (<subst><del>*hten</del><add>lihten</add></subst> <wit>V</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="773.25">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="773.27">
+<lem>unt</lem> <rdg>und ouch <wit>*m</wit></rdg>
+</app>
+<app loc="773.27">
+<lem>strît</lem> <rdg>strite: <wit>Fr2</wit></rdg>
+</app>
+<app loc="773.28">
+<lem>niemen</lem> <rdg>daz nieman <wit>*m</wit></rdg>
+</app>
+<app loc="773.28">
+<lem>zît</lem> <rdg>zite: <wit>Fr2</wit></rdg>
+</app>
+<app loc="773.29">
+<lem>möhte</lem> <rdg>Moht <wit>Fr2</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="773.01">
+<rdg></rdg>
+</app>
+<app loc="773.02">
+<rdg>br. dinc a. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="773.03">
+<rdg></rdg>
+</app>
+<app loc="773.04">
+<rdg></rdg>
+</app>
+<app loc="773.05">
+<rdg></rdg>
+</app>
+<app loc="773.06">
+<rdg></rdg>
+</app>
+<app loc="773.07">
+<rdg></rdg>
+</app>
+<app loc="773.08">
+<rdg></rdg>
+</app>
+<app loc="773.09">
+<rdg></rdg>
+</app>
+<app loc="773.10">
+<rdg>si prüeveten si dâ (pru̽ftenz da <wit>L</wit> [<wit>Z</wit> <wit>Fr18</wit>] prüeveten ez <wit>*T</wit>) vür grôziu d. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="773.11">
+<rdg></rdg>
+</app>
+<app loc="773.12">
+<rdg></rdg>
+</app>
+<app loc="773.13">
+<rdg>den w., den helm, den sch., daz (Wapen roch schilt <wit>L</wit>) k. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="773.14">
+<rdg></rdg>
+</app>
+<app loc="773.15">
+<rdg></rdg>
+</app>
+<app loc="773.16">
+<rdg></rdg>
+</app>
+<app loc="773.17">
+<rdg></rdg>
+</app>
+<app loc="773.18">
+<rdg></rdg>
+</app>
+<app loc="773.19">
+<rdg></rdg>
+</app>
+<app loc="773.20">
+<rdg>die liehten unde die sw. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="773.21">
+<rdg></rdg>
+</app>
+<app loc="773.22">
+<rdg></rdg>
+</app>
+<app loc="773.23">
+<rdg></rdg>
+</app>
+<app loc="773.24">
+<rdg></rdg>
+</app>
+<app loc="773.25">
+<rdg>unt <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="773.26">
+<rdg></rdg>
+</app>
+<app loc="773.27">
+<rdg>unde sus sô (<note>om.</note> <wit>Fr18</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="773.28">
+<rdg></rdg>
+</app>
+<app loc="773.29">
+<rdg>mohte <wit>*G</wit> (<wit>*T</wit>) · sin tragen. <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="773.30">
+<rdg>er (der <wit>*T</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>]) k. baz von sternen (steinen <wit>*T</wit> <wit>I</wit> <wit>Z</wit>) s. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

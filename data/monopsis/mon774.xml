@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 774</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 774.01"><seg type="Initiale">D</seg>ie vrouwen rûnten dâ, swelch wîp</l>
+<l n="*D 774.02">dâ mite zierte sînen lîp,</l>
+<l n="*D 774.03">het er gein ir gewenket,</l>
+<l n="*D 774.04">sô w&#x00E6;re sîn prîs verkrenket.</l>
+<l n="*D 774.05">etslîchiu was im doch sô holt,</l>
+<l n="*D 774.06">si hete sîn dienst wol gedolt,</l>
+<l n="*D 774.07">ich w&#x00E6;ne durch sîn<corr type="Emendation">iu</corr> werdiu mâl.</l>
+<l n="*D 774.08"><name type="Person">Gramoflanz</name>, <name type="Person">Artus</name> unt <name type="Person">Parzival</name></l>
+<l n="*D 774.09">unt der wirt <name type="Person">Gawan</name>,</l>
+<l n="*D 774.10">die viere giengen sunder dan.</l>
+<l n="*D 774.11">den vrouwen wart bescheiden</l>
+<l n="*D 774.12">in ir pflege der rîche <name type="Person">heiden</name>.</l>
+<l n="*D 774.13"><name type="Person">Artus</name> warp eine hôchgezît,</l>
+<l n="*D 774.14">daz diu des morgens âne strît</l>
+<l n="*D 774.15">ûf dem velde ergienge,</l>
+<l n="*D 774.16">daz man dâ mite enpfienge</l>
+<l n="*D 774.17">sînen neven <name type="Person">Feirefiz</name>.</l>
+<l n="*D 774.18">"an den gewerp kêrt iwern vlîz</l>
+<l n="*D 774.19">unt iwer besten witze,</l>
+<l n="*D 774.20">daz er mit uns besitze</l>
+<l n="*D 774.21">ob der tavelrunder."</l>
+<l n="*D 774.22"><seg type="Initiale" subtype="Majuskel">S</seg>i lobten al besunder,</l>
+<l n="*D 774.23">si wurbenz, w&#x00E6;rez im niht leit.</l>
+<l n="*D 774.24">dô lobt in gesellecheit</l>
+<l n="*D 774.25"><name type="Person">Feirefiz</name>, der rîche.</l>
+<l n="*D 774.26">daz volc vuor al gelîche,</l>
+<l n="*D 774.27">dô man geschancte, an ir gemach.</l>
+<l n="*D 774.28">maneges vreude aldâ geschach.</l>
+<l n="*D 774.29">smorgens, ob ich sô sprechen mac,</l>
+<l n="*D 774.30">dô erschein der süeze m&#x00E6;re tac.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit> <note>(774.14-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr6</wit> <note>(774.1-18)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="774.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <wit>U</wit>
+</rdg></app><app loc="774.01"><rdg><note>Majuskel</note> <wit>Fr6</wit>
+</rdg></app>
+<app loc="774.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="774.22"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="774.03">
+<lem>ir</lem> <rdg>der (mir <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="774.07">
+<lem>werdiu</lem> <rdg>vremdiu (vremden <wit>Fr6</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="774.07">
+<lem>sîniu</lem> <rdg><subst><del>sint</del><add>sine</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="774.09">
+<rdg>und ouch der wirt hêr Gawan, <wit>*m</wit></rdg>
+</app>
+<app loc="774.10">
+<lem>sunder</lem> <rdg>wider <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="774.18">
+<lem>gewerp</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="774.24">
+<lem>lobt</lem> <rdg>gelobt er <wit>Fr2</wit></rdg>
+</app>
+<app loc="774.28">
+<lem>maneges</lem> <rdg>manigiu <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="774.29">
+<lem>sô</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="774.01">
+<rdg>dâ <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="774.02">
+<rdg></rdg>
+</app>
+<app loc="774.03">
+<rdg>het der g. <wit>*G</wit> <note>(ohne IZ)</note></rdg>
+</app>
+<app loc="774.04">
+<rdg>sô w. in ir brîs (wer ir pris <wit>I</wit> were ez in ir prise <wit>L</wit>) v. <wit>*G</wit> <note>(ohne ZFr18)</note></rdg>
+</app>
+<app loc="774.05">
+<rdg></rdg>
+</app>
+<app loc="774.06">
+<rdg></rdg>
+</app>
+<app loc="774.07">
+<rdg>s. vrömdiu (sinen fromden <wit>I</wit>) mâl. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="774.08">
+<rdg></rdg>
+</app>
+<app loc="774.09">
+<rdg></rdg>
+</app>
+<app loc="774.10">
+<rdg></rdg>
+</app>
+<app loc="774.11">
+<rdg></rdg>
+</app>
+<app loc="774.12">
+<rdg></rdg>
+</app>
+<app loc="774.13">
+<rdg></rdg>
+</app>
+<app loc="774.14">
+<rdg></rdg>
+</app>
+<app loc="774.15">
+<rdg></rdg>
+</app>
+<app loc="774.16">
+<rdg></rdg>
+</app>
+<app loc="774.17">
+<rdg></rdg>
+</app>
+<app loc="774.18">
+<rdg>"an den g. leget iuren vl. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="774.19">
+<rdg></rdg>
+</app>
+<app loc="774.20">
+<rdg></rdg>
+</app>
+<app loc="774.21">
+<rdg></rdg>
+</app>
+<app loc="774.22">
+<rdg>lobtenz (loptan <wit>I</wit>) <wit>*G</wit> (<wit>*T</wit>) (<wit>V</wit>)</rdg>
+</app>
+<app loc="774.23">
+<rdg></rdg>
+</app>
+<app loc="774.24">
+<rdg>dô lobet im g. <wit>*T</wit></rdg>
+</app>
+<app loc="774.25">
+<rdg></rdg>
+</app>
+<app loc="774.26">
+<rdg></rdg>
+</app>
+<app loc="774.27">
+<rdg>dô man g. (gesante <wit>*T</wit>), an sîn g. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="774.28">
+<rdg>manegiu vr. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="774.29">
+<rdg>sô <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="774.30">
+<rdg>der s. (svzzen <wit>Z</wit>) sumertac (dach <wit>L</wit>). <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 811</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 811.01"><name type="Person"><seg type="Initiale">C</seg>ondwiramurs</name>, diu lieht erkant,</l>
+<l n="*D 811.02">vil nâch nû eb<reg type="Synkope">e</reg>nhiuze vant</l>
+<l n="*D 811.03">an der clâren meide velles blic.</l>
+<l n="*D 811.04">dô slôz sich <corr type="Emendation">in i</corr>r minnen stric</l>
+<l n="*D 811.05"><name type="Person">Feirefiz</name>, der rîche gast.</l>
+<l n="*D 811.06">sîner êrsten vriw<reg type="Synkope">e</reg>ntschaft im gebrast</l>
+<l n="*D 811.07">mit vergezzenlîchem willen.</l>
+<l n="*D 811.08">waz half dô <name type="Person">Secundillen</name></l>
+<l n="*D 811.09">ir minne, ir lant <name type="Ort">Tribalibot</name>?</l>
+<l n="*D 811.10">im gab ein magt sô strenge nôt:</l>
+<l n="*D 811.11"><name type="Person">Clauditte</name> unt <name type="Person">Olimpia</name>,</l>
+<l n="*D 811.12"><name type="Person">Secundille</name> unt wîten anderswâ,</l>
+<l n="*D 811.13">dâ wîb im dienstes lônden</l>
+<l n="*D 811.14">unt sîn<reg type="Synkope">e</reg>s prîs<reg type="Synkope">e</reg>s schônden,</l>
+<l n="*D 811.15"><name type="Person">Gahmuret<reg type="Synkope">e</reg>s</name> sun von <name type="Ort">Zazamanc</name>,</l>
+<l n="*D 811.16">den dûhte ir aller minne kranc.</l>
+<l n="*D 811.17"><seg type="Initiale" subtype="Majuskel">D</seg>ô sach der clâre <name type="Person">Anfortas</name>,</l>
+<l n="*D 811.18">daz sîn geselle in pînen was.</l>
+<l n="*D 811.19">des blankiu mâl gar wurden bleich,</l>
+<l n="*D 811.20">sô daz im hôher muot gesweich.</l>
+<l n="*D 811.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "hêrre, diu swester mîn,</l>
+<l n="*D 811.22">mir ist leit, ob iuch diu lêret pîn,</l>
+<l n="*D 811.23">den noch niemen durch si erleit.</l>
+<l n="*D 811.24">nie rîter in ir dienst gereit.</l>
+<l n="*D 811.25">dô nam ouch niem<reg type="Synkope">e</reg>n lôn dâ zir.</l>
+<l n="*D 811.26">si was mit jâmer grôz bî mir.</l>
+<l n="*D 811.27">daz krenket ouch ir varwe ein teil,</l>
+<l n="*D 811.28">daz man si sach sô selten geil.</l>
+<l n="*D 811.29">iwer bruoder ist ir swester sun.</l>
+<l n="*D 811.30">der mag iu dâ wol helfe tuon."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <note>(811.5-30)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="811.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="811.05"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="811.17"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>U</wit>
+</rdg></app><app loc="811.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="811.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="811.04">
+<lem>in ir</lem> <rdg>mir <wit>D</wit></rdg>
+</app>
+<app loc="811.05">
+<lem>rîche</lem> <rdg>werde <wit>*m</wit></rdg>
+</app>
+<app loc="811.09">
+<lem>minne</lem> <rdg>minne und <wit>*m</wit></rdg>
+</app>
+<app loc="811.10">
+<lem>sô</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note> <wit>Z</wit></rdg>
+</app>
+<app loc="811.25">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="811.27">
+<lem>varwe</lem> <rdg>vröude <wit>*m</wit></rdg>
+</app>
+<app loc="811.30">
+<lem>iu</lem> <rdg>ouch (<subst><del>*</del><add>v́ch</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="811.01">
+<rdg></rdg>
+</app>
+<app loc="811.02">
+<rdg></rdg>
+</app>
+<app loc="811.03">
+<rdg></rdg>
+</app>
+<app loc="811.04">
+<rdg>sich der m. <wit>*T</wit></rdg>
+</app>
+<app loc="811.05">
+<rdg>Feirafiz, der werde (dem werden <wit>L</wit>) g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="811.06">
+<rdg></rdg>
+</app>
+<app loc="811.07">
+<rdg></rdg>
+</app>
+<app loc="811.08">
+<rdg>waz h. (half in <wit>I</wit>) nû S. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="811.09">
+<rdg>ir lîp, ir l. T.? <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="811.10">
+<rdg>im vuoget ein <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="811.11">
+<rdg></rdg>
+</app>
+<app loc="811.12">
+<rdg></rdg>
+</app>
+<app loc="811.13">
+<rdg>diu wîp <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="811.14">
+<rdg></rdg>
+</app>
+<app loc="811.15">
+<rdg></rdg>
+</app>
+<app loc="811.16">
+<rdg></rdg>
+</app>
+<app loc="811.17">
+<rdg>nû s. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="811.18">
+<rdg></rdg>
+</app>
+<app loc="811.19">
+<rdg>daz blankiu mâl w. bl., <wit>*T</wit></rdg>
+</app>
+<app loc="811.20">
+<rdg></rdg>
+</app>
+<app loc="811.21">
+<rdg></rdg>
+</app>
+<app loc="811.22">
+<rdg>mir leidet, <wit>*G</wit> <note>(nur GL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="811.23">
+<rdg></rdg>
+</app>
+<app loc="811.24">
+<rdg>d. gestreit. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="811.25">
+<rdg></rdg>
+</app>
+<app loc="811.26">
+<rdg>was in j. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="811.27">
+<rdg></rdg>
+</app>
+<app loc="811.28">
+<rdg></rdg>
+</app>
+<app loc="811.29">
+<rdg></rdg>
+</app>
+<app loc="811.30">
+<rdg> </rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

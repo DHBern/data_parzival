@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 287</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 287.01">zem fasân inz dornach.</l>
+<l n="*D 287.02">swem sîn ze suochen w&#x00E6;re gâch,</l>
+<l n="*D 287.03">der vünden bî den schellen;</l>
+<l n="*D 287.04">die kunden lûte hellen.</l>
+<l n="*D 287.05"><seg type="Initiale">S</seg>us vuor der unbescheiden helt</l>
+<l n="*D 287.06">zuo dem, der minne was verselt.</l>
+<l n="*D 287.07">wed<reg type="Synkope">e</reg>r ern sluoc dô noch enstach,</l>
+<l n="*D 287.08">ê er widersagen hin zim sprach.</l>
+<l n="*D 287.09">unversunnen hielt dâ <name type="Person">Parzival</name>.</l>
+<l n="*D 287.10">daz vuogten im diu bluotes mâl</l>
+<l n="*D 287.11">unt ouch diu strenge minne,</l>
+<l n="*D 287.12">diu mir dicke nimt sinne</l>
+<l n="*D 287.13">unt mir daz herze unsanfte regt.</l>
+<l n="*D 287.14">ach, nôt ein wîp an mich legt!</l>
+<l n="*D 287.15">wil si mich alsus twingen</l>
+<l n="*D 287.16">unt selten hilfe bringen,</l>
+<l n="*D 287.17">ich sol sis underziehen</l>
+<l n="*D 287.18">unt von ir trôste vliehen.</l>
+<l n="*D 287.19"><seg type="Initiale" subtype="Majuskel">N</seg>û h&#x0153;ret ouch von jenen beiden,</l>
+<l n="*D 287.20">umb ir kom<reg type="Synkope">e</reg>n unt umb ir scheiden.</l>
+<l n="*D 287.21"><name type="Person">Segramors</name> sprach alsô:</l>
+<l n="*D 287.22">"ir gebâret, hêrre, als ir sît vrô,</l>
+<l n="*D 287.23">daz hie ein künec mit vorh<corr type="Emendation">t</corr>e ligt.</l>
+<l n="*D 287.24">swi<reg type="Synkope">e</reg> unhôhe i<corr type="Emendation">u</corr> daz wigt,</l>
+<l n="*D 287.25">ir müezet im drumbe wandel geb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 287.26">od<reg type="Synkope">e</reg>r ich verliuse mîn leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 287.27">ir sît ûf strît ze nâhe geriten.</l>
+<l n="*D 287.28">doch wil ich iuch durch zuht biten:</l>
+<l n="*D 287.29">ergebt iuch in mîne gewalt</l>
+<l n="*D 287.30">od<reg type="Synkope">e</reg>r ir sît schiere von mir bezalt,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="287.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="287.05"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="287.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="287.19"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="287.21"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="287.08">
+<lem>widersagen</lem> <rdg>widersage <wit>*m</wit></rdg>
+</app>
+<app loc="287.12">
+<lem>sinne</lem> <rdg>die sinne <wit>*m</wit></rdg>
+</app>
+<app loc="287.15">
+<lem>si mich</lem> <rdg>mich diu (mich <subst><del>*</del><add>die</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="287.17">
+<rdg>ich muoz sis (sie dez <wit>L</wit>) underziehen (wider ziehen <wit>O</wit>) <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="287.17">
+<rdg>ich sols ir (sol sie ir <wit>U</wit> sol irs <wit>V</wit>) underziehen <wit>*T</wit></rdg>
+</app>
+<app loc="287.19">
+<lem>jenen</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="287.22">
+<rdg>"ir gebâret reht (herre <wit>O</wit> <wit>Z</wit> <subst><del>*</del><add>herre</add></subst> <wit>V</wit>), als (sam <wit>Z</wit>) ir sît unvrô (vrô <wit>*T</wit> [<wit>Z</wit>]), <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="287.23">
+<lem>vorhte</lem> <rdg>vorche <note>nachträglich korrigiert zu:</note> vorchte <wit>D</wit> volke <wit>*m</wit></rdg>
+</app>
+<app loc="287.24">
+<lem>iu</lem> <rdg>ivch <wit>D</wit></rdg>
+</app>
+<app loc="287.25">
+<lem>im</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="287.28">
+<rdg>nû wil ich iuch durch zuht des (<note>om.</note> <wit>L</wit>) biten, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="287.28">
+<rdg>ich wil durch zuht iuch des biten (debiten <wit>T</wit>): <wit>*T</wit></rdg>
+</app>
+<app loc="287.28">
+<lem>biten</lem> <rdg>des biten <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="287.01">
+<rdg>zen fasânen (nach fasan <wit>I</wit>) <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="287.02">
+<rdg>sw. ze (nach in <wit>I</wit>) <wit>*G</wit> <note>(ohne OLZ)</note> dem sîn ze <wit>*T</wit></rdg>
+</app>
+<app loc="287.03">
+<rdg>der vünde in (Der wunden <wit>U</wit>) von den sch.; <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="287.04">
+<rdg></rdg>
+</app>
+<app loc="287.05">
+<rdg>Sus kom der <wit>*T</wit></rdg>
+</app>
+<app loc="287.06">
+<rdg>der mit der (<note>om.</note> <wit>V</wit>) m. <wit>*T</wit></rdg>
+</app>
+<app loc="287.07">
+<rdg>dô <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.08">
+<rdg></rdg>
+</app>
+<app loc="287.09">
+<rdg>dâ (<subst><del>*</del><add>do</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="287.10">
+<rdg></rdg>
+</app>
+<app loc="287.11">
+<rdg></rdg>
+</app>
+<app loc="287.12">
+<rdg>dicke nimet (nimt dicke <wit>Z</wit>) die s. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="287.13">
+<rdg></rdg>
+</app>
+<app loc="287.14">
+<rdg></rdg>
+</app>
+<app loc="287.15">
+<rdg></rdg>
+</app>
+<app loc="287.16">
+<rdg></rdg>
+</app>
+<app loc="287.17">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.18">
+<rdg></rdg>
+</app>
+<app loc="287.19">
+<rdg>h. (Horet nv <wit>O</wit> Hort tu̽ch <wit>L</wit> H&#x0153;ret ouch <wit>*T</wit> [<wit>I</wit>]) von j. (ginen <wit>V</wit>) b., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="287.20">
+<rdg>unde ir sch. <wit>*T</wit></rdg>
+</app>
+<app loc="287.21">
+<rdg>Segremors, der sp. a.: <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="287.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.23">
+<rdg>mit volke liget. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.24">
+<rdg></rdg>
+</app>
+<app loc="287.25">
+<rdg>wandel drumbe <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.26">
+<rdg></rdg>
+</app>
+<app loc="287.27">
+<rdg>sît durch st. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.28">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="287.29">
+<rdg>ir gebet iu. in m. g., <wit>*G</wit> <note>(ohne IL)</note></rdg>
+</app>
+<app loc="287.30">
+<rdg>mir gevalt, <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

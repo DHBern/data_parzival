@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 92</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 92.01">si hab<reg type="Synkope">e</reg>nt ir schildes breite</l>
+<l n="*D 92.02">nâch jâmers geleite</l>
+<l n="*D 92.03">zer erden gekêret.</l>
+<l n="*D 92.04">grôz trûren si daz lêret.</l>
+<l n="*D 92.05">alsus tuont si r<corr type="Emendation">î</corr>terschaft.</l>
+<l n="*D 92.06">si sint verladen mit jâmers kraft,</l>
+<l n="*D 92.07">sît <name type="Person">Galoes</name>, mîner muomen sun,</l>
+<l n="*D 92.08">nâch minnen dienest niht solde tuon."</l>
+<l n="*D 92.09"><seg type="Initiale">D</seg>ô er vernam des bruod<reg type="Synkope">e</reg>r tôt,</l>
+<l n="*D 92.10">daz was sîn and<reg type="Synkope">e</reg>r herzenôt.</l>
+<l n="*D 92.11">mit jâmer sprach <corr type="Emendation">er</corr> disiu wort:</l>
+<l n="*D 92.12">"wie hât nû mînes ankers ort</l>
+<l n="*D 92.13">in riwe ergriffen land<reg type="Synkope">e</reg>s habe!"</l>
+<l n="*D 92.14">der wâpen tet er sich doch abe.</l>
+<l n="*D 92.15">sîn riwe im hertes kumb<reg type="Synkope">e</reg>rs jach.</l>
+<l n="*D 92.16">der helt mit wâren triwen sprach:</l>
+<l n="*D 92.17">"von <name type="Ort">Anschouwe</name> <name type="Person">Galoes</name>,</l>
+<l n="*D 92.18">vürbaz darf niem<reg type="Synkope">e</reg>n vrâgen des,</l>
+<l n="*D 92.19">ez enwart nie manlîcher zuht</l>
+<l n="*D 92.20">geborn. der wâren milte vruht</l>
+<l n="*D 92.21">ûz dîme herzen blüete.</l>
+<l n="*D 92.22">nû erbarmet mich dîn güete."</l>
+<l n="*D 92.23"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach ze <name type="Person">Kaylete</name>:</l>
+<l n="*D 92.24">"wie gehabt sich <name type="Person">Schoette</name>,</l>
+<l n="*D 92.25">mîn muot<reg type="Synkope">e</reg>r vreuden arme?"</l>
+<l n="*D 92.26">"sô daz ez got erbarme!</l>
+<l n="*D 92.27">dô ir erstarp <name type="Person">Gandin</name></l>
+<l n="*D 92.28">unt <name type="Person">Galoes</name>, der bruoder dîn,</l>
+<l n="*D 92.29">unt dô si dîn bî ir niht sach,</l>
+<l n="*D 92.30">der tôt ouch ir daz herze brach."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="92.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="92.09"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+<app loc="92.10"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="92.15"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="92.15"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="92.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="92.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="92.05">
+<lem>rîterschaft</lem> <rdg>reterschaft <wit>D</wit></rdg>
+</app>
+<app loc="92.06">
+<lem>verladen</lem> <rdg>beladen <wit>*m</wit></rdg>
+</app>
+<app loc="92.08">
+<rdg>nach dienste niht solte minne tv&#x0366;n <wit>T</wit></rdg>
+</app>
+<app loc="92.08">
+<lem>dienest niht solde</lem> <rdg>dienst niht sol (niht sol dinst <wit>L</wit> niht dinst sol <wit>Fr21</wit>) <wit>*G</wit> <note>(nur G)</note> niht dienst solte (<note>om.</note> <wit>U</wit>) <wit>*T</wit> ·</rdg>
+</app>
+<app loc="92.11">
+<lem>er</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="92.14">
+<lem>doch</lem> <rdg>dô <wit>*m</wit></rdg>
+</app>
+<app loc="92.20">
+<lem>wâren milte</lem> <rdg>minne <wit>*m</wit></rdg>
+</app>
+<app loc="92.29">
+<rdg>und dô si den bî dir niht sach, <wit>*m</wit></rdg>
+</app>
+<app loc="92.29">
+<rdg>unde si dîn (vnde sit ich <wit>I</wit> Vnde do si dich <wit>O</wit> <wit>Fr21</wit>) bî ir niht sach, <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="92.29">
+<rdg>und dô si den bî ir niht (<subst><del>*</del><add>dich niht bi ir</add></subst> <wit>V</wit> den niht bi ir <wit>T</wit>) sach, <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="92.01">
+<rdg></rdg>
+</app>
+<app loc="92.02">
+<rdg></rdg>
+</app>
+<app loc="92.03">
+<rdg>gein der e. (zerde <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="92.04">
+<rdg></rdg>
+</app>
+<app loc="92.05">
+<rdg>alsô (Asvs <wit>O</wit>) t. si rîterschaft <wit>*G</wit> <note>(nur GI)</note> · a. t. si ritterschaft <wit>*T</wit></rdg>
+</app>
+<app loc="92.06">
+<rdg>unt sint v. <wit>*G</wit> <note>(ohne Z)</note> (<wit>T</wit>) und sint beladen <wit>*T</wit></rdg>
+</app>
+<app loc="92.07">
+<rdg></rdg>
+</app>
+<app loc="92.08">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="92.09">
+<rdg>er gevriesch (grefriesch <wit>Fr21</wit>) des <wit>*G</wit> er ervriesch (erfu&#x0366;r <wit>V</wit> vriesc <wit>T</wit>) des <wit>*T</wit></rdg>
+</app>
+<app loc="92.10">
+<rdg></rdg>
+</app>
+<app loc="92.11">
+<rdg></rdg>
+</app>
+<app loc="92.12">
+<rdg>hât sus m. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="92.13">
+<rdg>e. leides (in leides <wit>V</wit>) h. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="92.14">
+<rdg>diu w. <wit>*T</wit> <note>(nur U)</note> · sich dô (doch sich <wit>V</wit>) abe. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="92.15">
+<rdg>Grôz r. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="92.16">
+<rdg>der hêrre ûz grôzen (<subst><del>ian</del><add>waren</add></subst> <wit>Z</wit>) tr. sp.: <wit>*G</wit> <note>(nur GI)</note> · der helt ûz w. triuwen sp.: <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="92.17">
+<rdg></rdg>
+</app>
+<app loc="92.18">
+<rdg></rdg>
+</app>
+<app loc="92.19">
+<rdg></rdg>
+</app>
+<app loc="92.20">
+<rdg>der (<note>om.</note> <wit>I</wit> de <wit>O</wit>) rehten (rehter <wit>I</wit>) m. <wit>*G</wit> <note>(nur GI)</note> der w. minnen (<subst><del>mil*</del><add>milte</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="92.21">
+<rdg></rdg>
+</app>
+<app loc="92.22">
+<rdg></rdg>
+</app>
+<app loc="92.23">
+<rdg></rdg>
+</app>
+<app loc="92.24">
+<rdg>Tuschet (ieskutte <wit>I</wit>), <wit>*G</wit> Tschweuwete, <wit>*T</wit></rdg>
+</app>
+<app loc="92.25">
+<rdg></rdg>
+</app>
+<app loc="92.26">
+<rdg>daz sich (<subst><del>*</del><add>es</add></subst> <wit>V</wit>) got <wit>*T</wit></rdg>
+</app>
+<app loc="92.27">
+<rdg></rdg>
+</app>
+<app loc="92.28">
+<rdg></rdg>
+</app>
+<app loc="92.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="92.30">
+<rdg>der tôt ir (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) ou. ir (<note>om.</note> <wit>I</wit> daz <wit>*T</wit>) h. br." <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 14</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 14.01">der bâruc in vür sünde</l>
+<l n="*D 14.02">gît wandels urkünde.</l>
+<l n="*D 14.03"><seg type="Initiale">Z</seg>wêne bruoder von <name type="Ort">Babilon</name>,</l>
+<l n="*D 14.04"><name type="Person">Pompeius</name> und <name type="Person">Ipomidon</name>,</l>
+<l n="*D 14.05">den nam der bâruc <name type="Ort">Ninnive</name>.</l>
+<l n="*D 14.06">daz was al ir vorder<reg type="Synkope">e</reg>n ê.</l>
+<l n="*D 14.07">si tâten wer mit krefte schîn.</l>
+<l n="*D 14.08">dar kom der junge <name type="Person">Anschevin</name>.</l>
+<l n="*D 14.09">dem wart der bâruc vil holt.</l>
+<l n="*D 14.10">jâ nam nâch dienste al dâ den solt</l>
+<l n="*D 14.11"><name type="Person">Gahmuret</name>, der werde man.</l>
+<l n="*D 14.12">nû erloubet im, daz er müeze hân</l>
+<l n="*D 14.13">ander wâpen, denne im <name type="Person">Gandin</name></l>
+<l n="*D 14.14">dâ vor gap, der vater sîn.</l>
+<l n="*D 14.15">der hêrre pflac mit gernden siten</l>
+<l n="*D 14.16">ûf sîne covertiure gesniten</l>
+<l n="*D 14.17">enker lieht hermîn.</l>
+<l n="*D 14.18">dâ nâch muose ouch daz ander sîn,</l>
+<l n="*D 14.19">ûf sîme schilte und an der wât.</l>
+<l n="*D 14.20">noch grüener denne ein <name type="Sonstiges">smarât</name></l>
+<l n="*D 14.21">was geprüevet sîn gereite gar</l>
+<l n="*D 14.22">und nâch dem achmardî var.</l>
+<l n="*D 14.23">daz ist ein sîdîn lachen.</l>
+<l n="*D 14.24">dâr zuo hiez er im machen</l>
+<l n="*D 14.25">wâpenroc und kursît</l>
+<l n="*D 14.26">- ez ist bezzer denne der samît -,</l>
+<l n="*D 14.27">hermîn anker drûf gen&#x00E6;t,</l>
+<l n="*D 14.28">guldîniu seil dran gedr&#x00E6;t.</l>
+<l n="*D 14.29">sîne ankere heten niht bekort</l>
+<l n="*D 14.30">ganzes landes noch landes ort.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(14.1-24)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="14.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="14.03"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="14.03"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="14.11"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="14.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="14.03">
+<lem>bruoder</lem> <rdg>gebruoder <wit>*m</wit></rdg>
+</app>
+<app loc="14.06">
+<lem>al ir</lem> <rdg>aller <wit>*m</wit></rdg>
+</app>
+<app loc="14.07">
+<lem>si</lem> <rdg>die <wit>*m</wit></rdg>
+</app>
+<app loc="14.07">
+<lem>krefte</lem> <rdg>kreften <wit>*m</wit></rdg>
+</app>
+<app loc="14.08">
+<lem>junge</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="14.10">
+<rdg>der nam nâch dienste aldâ den solt, <wit>*m</wit></rdg>
+</app>
+<app loc="14.11">
+<rdg>Gahmuret. der werde man <wit>*m</wit></rdg>
+</app>
+<app loc="14.12">
+<rdg>ime erloubt, daz er mües hân <wit>*m</wit></rdg>
+</app>
+<app loc="14.13">
+<lem>im</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="14.16">
+<lem>covertiure</lem> <rdg>âventiure <wit>*m</wit></rdg>
+</app>
+<app loc="14.19">
+<lem>ûf sîme</lem> <rdg>ûfme <wit>*m</wit></rdg>
+</app>
+<app loc="14.22">
+<lem>var</lem> <rdg>gevar <wit>*m</wit></rdg>
+</app>
+<app loc="14.24">
+<lem>zuo</lem> <rdg>ûz <wit>*m</wit></rdg>
+</app>
+<app loc="14.25">
+<lem>wâpenroc</lem> <rdg>wâpenröcke <wit>*m</wit></rdg>
+</app>
+<app loc="14.26">
+<lem>der</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="14.29">
+<rdg>sîn anker hete niht bekort <wit>*m</wit> (<wit>U</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="14.01">
+<rdg>vür ir s. <wit>*T</wit></rdg>
+</app>
+<app loc="14.02">
+<rdg></rdg>
+</app>
+<app loc="14.03">
+<rdg></rdg>
+</app>
+<app loc="14.04">
+<rdg>Ponpeirus <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="14.05">
+<rdg></rdg>
+</app>
+<app loc="14.06">
+<rdg></rdg>
+</app>
+<app loc="14.07">
+<rdg>kreften <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="14.08">
+<rdg></rdg>
+</app>
+<app loc="14.09">
+<rdg>ime w. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="14.10">
+<rdg>er nam n. d. al (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>) dâ den s., <wit>*G</wit></rdg>
+</app>
+<app loc="14.11">
+<rdg></rdg>
+</app>
+<app loc="14.12">
+<rdg>nû <note>om.</note> <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="14.13">
+<rdg></rdg>
+</app>
+<app loc="14.14">
+<rdg></rdg>
+</app>
+<app loc="14.15">
+<rdg></rdg>
+</app>
+<app loc="14.16">
+<rdg></rdg>
+</app>
+<app loc="14.17">
+<rdg></rdg>
+</app>
+<app loc="14.18">
+<rdg></rdg>
+</app>
+<app loc="14.19">
+<rdg>ûf dem (den <wit>O</wit>) sch. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="14.20">
+<rdg></rdg>
+</app>
+<app loc="14.21">
+<rdg>sîn (sine <wit>O</wit>) g. gar, <wit>*G</wit></rdg>
+</app>
+<app loc="14.22">
+<rdg>n. (und nâch <wit>*T</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit>]) dem a. gevar <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="14.23">
+<rdg>daz was ein s. l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="14.24">
+<rdg>dâr ûz (Dar vber <wit>O</wit> Dar vff <wit>L</wit>) h. <wit>*G</wit> <wit>*T</wit> · im <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="14.25">
+<rdg></rdg>
+</app>
+<app loc="14.26">
+<rdg>- deist <wit>*G</wit> (<wit>*T</wit>) · der <note>om.</note> <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="14.27">
+<rdg>dr. g. <wit>*T</wit></rdg>
+</app>
+<app loc="14.28">
+<rdg>g. s. drûf g. <wit>*G</wit> <note>(nur GIO)</note> · und sîdîniu s. dâr an g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="14.29">
+<rdg></rdg>
+</app>
+<app loc="14.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

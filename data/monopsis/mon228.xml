@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 228</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 228.01"><seg type="Initiale"><corr type="Emendation">E</corr></seg>in wazzer iesch der junge man.</l>
+<l n="*D 228.02">er twuoc den râm von im sân</l>
+<l n="*D 228.03">undern ougen unt an handen.</l>
+<l n="*D 228.04">alt unt junge wânden,</l>
+<l n="*D 228.05">daz von im and<reg type="Synkope">e</reg>r tag erschin.</l>
+<l n="*D 228.06">sus saz der minneclîche win</l>
+<l n="*D 228.07">gar vor allem tadel vrî.</l>
+<l n="*D 228.08">mit pfelle von <name type="Ort">Arabi</name></l>
+<l n="*D 228.09">man truog im einen mantel dar.</l>
+<l n="*D 228.10">den legt an sich der wol gevar</l>
+<l n="*D 228.11">mit offener snüere.</l>
+<l n="*D 228.12">ez was im ein lob<reg type="Synkope">e</reg>s gevüere.</l>
+<l n="*D 228.13"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der kamer&#x00E6;re kluoc:</l>
+<l n="*D 228.14">"<name type="Person">Repanse de schoye</name> in truoc,</l>
+<l n="*D 228.15">mîn vrouwe, diu künegîn.</l>
+<l n="*D 228.16">ab ir sol er iu gelihen sîn,</l>
+<l n="*D 228.17">wan iu ist niht kleider noch gesniten.</l>
+<l n="*D 228.18"><seg type="Initiale" subtype="Majuskel">J</seg>â mohte ich sis mit êren biten,</l>
+<l n="*D 228.19">wande ir sît ein werder man,</l>
+<l n="*D 228.20">ob ichz geprüevet rehte hân."</l>
+<l n="*D 228.21">"<seg type="Initiale" subtype="Majuskel">G</seg>ot lôn iu, hêrre, daz irs jeht.</l>
+<l n="*D 228.22">ob ir mich ze rehte speht,</l>
+<l n="*D 228.23">sô hât mîn lîp gelücke erholt.</l>
+<l n="*D 228.24">diu gotes kraft gît sölhen solt."</l>
+<l n="*D 228.25"><seg type="Initiale" subtype="Majuskel">M</seg>an schancte im unt pflac sîn sô,</l>
+<l n="*D 228.26">die trûrigen wâren mit im al vrô.</l>
+<l n="*D 228.27">man bôt im wirde unt êre,</l>
+<l n="*D 228.28">wan dâ was râtes mêre,</l>
+<l n="*D 228.29">denne er ze <name type="Ort">Pelrapeire</name> vant,</l>
+<l n="*D 228.30">die dô von kumb<reg type="Synkope">e</reg>r schiet sîn hant.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(228.1, 3-6 und 25-28)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(228.1-16 und 25-26)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr54</wit> <note>(228.1-13)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 228.23-24)</note> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="228.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>Fr69</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr54</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="228.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="228.13"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="228.18"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="228.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="228.25"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit> <wit>I</wit> <wit>O</wit> <wit>Fr21</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="228.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="228.01">
+<lem>Ein</lem> <rdg>&#x00F7;in <wit>D</wit></rdg>
+</app>
+<app loc="228.02">
+<lem>twuoc</lem> <rdg>truoc <wit>*m</wit></rdg>
+</app>
+<app loc="228.03">
+<lem>an</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="228.05">
+<rdg>daz von ime ander (ime <subst><del>ersch</del><add>erschin</add></subst> ander <wit>mk</wit>) tac schine. <wit>*m</wit></rdg>
+</app>
+<app loc="228.07">
+<lem>tadel</lem> <rdg>zadel <wit>*m</wit></rdg>
+</app>
+<app loc="228.09">
+<rdg>truoc man einen mantel dar. <wit>*m</wit></rdg>
+</app>
+<app loc="228.09">
+<rdg>man brâht im einen mandel (man braht im ein mande <wit>I</wit> Des bro:::inen mantil <wit>Fr54</wit>) dar. <wit>*G</wit> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="228.09">
+<rdg>brâhte man im - einen mantel - dar. <wit>*T</wit></rdg>
+</app>
+<app loc="228.15">
+<lem>diu</lem> <rdg>de <wit>D</wit></rdg>
+</app>
+<app loc="228.17">
+<rdg>iu sint (ist <wit>*T</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit>]) niht kleider noch (niht kleider nach <wit>Z</wit> <subst><del>nc</del><add>noch</add></subst> nit cleider <wit>U</wit> noch cleider niht <wit>V</wit>) gesniten. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="228.17">
+<lem>noch</lem> <rdg>sô <wit>*m</wit></rdg>
+</app>
+<app loc="228.18">
+<rdg>ouch möhtet ir ez (mohtet ir iz <wit>I</wit> moht ir sis <wit>O</wit> [<wit>L</wit>] mo&#x0364;ht ir sis <wit>Z</wit>) vil gerne (mit eren <wit>O</wit> <wit>L</wit> <wit>Z</wit>) biten, <wit>*G</wit></rdg>
+</app>
+<app loc="228.18">
+<rdg>ouch moht ich (<subst><del>*</del><add>Ja mohtent ir</add></subst> <wit>V</wit>) sis mit êren biten; <wit>*T</wit></rdg>
+</app>
+<app loc="228.18">
+<lem>mohte ich</lem> <rdg>möht ir (moht er sis <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="228.19">
+<rdg>wanne ir sît ein werder man. <wit>*m</wit></rdg>
+</app>
+<app loc="228.20">
+<lem>ob</lem> <rdg>ouch <wit>*m</wit></rdg>
+</app>
+<app loc="228.21">
+<rdg>"got lôn (lons <wit>Fr21)</wit> iu, hêrre (<note>om.</note> <wit>Fr21</wit>), sît ir mirs (sit irs <wit>L</wit> <wit>Fr21</wit> sint irs <wit>Z</wit>) jehet (<subst><del>iehs</del><add>ieht</add></subst> <wit>Z</wit>). <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="228.21">
+<rdg>"Iuwer gnâde, hêrre, daz irz jeht, <wit>*T</wit></rdg>
+</app>
+<app loc="228.26">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="228.30">
+<lem>die dô</lem> <rdg>dô die <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="228.01">
+<rdg></rdg>
+</app>
+<app loc="228.02">
+<rdg></rdg>
+</app>
+<app loc="228.03">
+<rdg>unde an den (unde von <wit>Fr54</wit> vnd von den <wit>U</wit> unde abe den <wit>*T</wit>) h. <wit>*G</wit> <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="228.04">
+<rdg></rdg>
+</app>
+<app loc="228.05">
+<rdg>daz der a. tac von im schine (erschin <wit>Fr54</wit>). <wit>*T</wit> (<wit>Fr54</wit>) · im ein a. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="228.06">
+<rdg>dô saz <wit>*G</wit> <note>(ohne LFr54)</note></rdg>
+</app>
+<app loc="228.07">
+<rdg>gar vor a. zâdel (wandel <wit>V</wit>) vrî. <wit>*T</wit></rdg>
+</app>
+<app loc="228.08">
+<rdg>mit <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="228.09">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="228.10">
+<rdg></rdg>
+</app>
+<app loc="228.11">
+<rdg></rdg>
+</app>
+<app loc="228.12">
+<rdg>daz was (was im <wit>*T</wit> [<wit>O</wit>] <wit>Z</wit> [<wit>Fr21</wit>]) ein (<note>om.</note> <wit>L</wit> <wit>U</wit> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="228.13">
+<rdg></rdg>
+</app>
+<app loc="228.14">
+<rdg>"Urrepanse de schoye in (vrrepanschoye in <wit>G</wit> disen mandes selbe <wit>I</wit>) tr., <wit>*G</wit></rdg>
+</app>
+<app loc="228.15">
+<rdg></rdg>
+</app>
+<app loc="228.16">
+<rdg></rdg>
+</app>
+<app loc="228.17">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="228.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="228.19">
+<rdg>ir dunket mich ein w. man, <wit>*T</wit> · sît ouch ein (an <wit>I</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="228.20">
+<rdg>ob ichz r. brüeven (geprüeven rehte <wit>*T</wit>) kan." <wit>*G</wit> <note>(ohne OZFr21)</note> (<wit>*T</wit>) (<wit>L</wit>)</rdg>
+</app>
+<app loc="228.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="228.22">
+<rdg>r. sp." <wit>*T</wit></rdg>
+</app>
+<app loc="228.23">
+<rdg><note>Die Verse 228.23-24 fehlen</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="228.24">
+<rdg></rdg>
+</app>
+<app loc="228.25">
+<rdg></rdg>
+</app>
+<app loc="228.26">
+<rdg>al <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="228.27">
+<rdg>si buten im <wit>*T</wit></rdg>
+</app>
+<app loc="228.28">
+<rdg></rdg>
+</app>
+<app loc="228.29">
+<rdg></rdg>
+</app>
+<app loc="228.30">
+<rdg>dô <note>om.</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

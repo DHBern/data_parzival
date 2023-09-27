@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 776</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>09.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 776.01"><seg type="Initiale">E</seg>z ist selten worden naht,</l>
+<l n="*D 776.02">wan deiz der sunnen ist geslaht,</l>
+<l n="*D 776.03">sine br&#x00E6;hte ie den tac dâr nâch.</l>
+<l n="*D 776.04">al daz selbe ouch dâ geschach;</l>
+<l n="*D 776.05">er schein in süeze, lûter, clâr.</l>
+<l n="*D 776.06">dâ streich manec ritter wol sîn hâr,</l>
+<l n="*D 776.07">dâr ûf blüemîniu schapel.</l>
+<l n="*D 776.08">manec ungevelschet vrouwen vel</l>
+<l n="*D 776.09">man dâ bî rôten münden sach,</l>
+<l n="*D 776.10">ob <name type="Person">Kyot</name> die wârheit sprach.</l>
+<l n="*D 776.11"><seg type="Initiale" subtype="Majuskel">R</seg>itter und vrouwen truogen gewant,</l>
+<l n="*D 776.12">niht gesniten in eime lant;</l>
+<l n="*D 776.13">wîbe gebende, nider, hôch,</l>
+<l n="*D 776.14">als ez nâch ir lantwîse zôch.</l>
+<l n="*D 776.15">dâ was ein wît gesamentiu diet,</l>
+<l n="*D 776.16">durch daz ir site sich underschiet:</l>
+<l n="*D 776.17"><seg type="Initiale" subtype="Majuskel">S</seg>welch vrouwe was sunder amîs,</l>
+<l n="*D 776.18">diu getorste niht decheinen g<reg type="Synkope">e</reg>wîs</l>
+<l n="*D 776.19">über tavelrunde kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 776.20">het si dienst ûf ir lôn genom<reg type="Synkope">e</reg>n</l>
+<l n="*D 776.21">unt gap si lôn<reg type="Synkope">e</reg>s sicherheit,</l>
+<l n="*D 776.22">an tavelrunde rinc si reit.</l>
+<l n="*D 776.23">die andern muosenz lâzen;</l>
+<l n="*D 776.24">in ir herbergen si sâzen.</l>
+<l n="*D 776.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô <name type="Person">Artus</name> messe hete vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 776.26">man sach <name type="Person">Gramoflanzen</name> kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 776.27">unt den herzogen von <name type="Ort">Gowerzin</name></l>
+<l n="*D 776.28">unt <name type="Person">Floranden</name>, den gesellen sîn.</l>
+<l n="*D 776.29">die drî gerten sunder</l>
+<l n="*D 776.30">pfliht über tavelrunder.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="776.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>V</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="776.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="776.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="776.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="776.25"><rdg>
+<note>Initiale</note> <wit>V</wit> <wit>I</wit> <wit>U</wit> 
+</rdg></app><app loc="776.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="776.02">
+<lem>deiz</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+<app loc="776.03">
+<lem>br&#x00E6;hte</lem> <rdg>brâht <wit>*m</wit> <note>(nur m)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="776.07">
+<lem>blüemîniu</lem> <rdg>ein blüemîniu <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="776.08">
+<lem>vrouwen</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="776.09">
+<lem>rôten münden</lem> <rdg>rôtem (roten <wit>V</wit>) munde <wit>*m</wit></rdg>
+</app>
+<app loc="776.13">
+<lem>nider</lem> <rdg>nider und <wit>*m</wit></rdg>
+</app>
+<app loc="776.16">
+<lem>sich</lem> <rdg>si <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="776.17">
+<lem>was</lem> <rdg>dâ was <wit>*m</wit></rdg>
+</app>
+<app loc="776.18">
+<lem>decheinen gewîs</lem> <rdg>dekein wîs <wit>*m</wit></rdg>
+</app>
+<app loc="776.27">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="776.29">
+<lem>sunder</lem> <rdg>besunder (besunden der <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="776.01">
+<rdg>worden selten <wit>*T</wit></rdg>
+</app>
+<app loc="776.02">
+<rdg>wan ez der <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="776.03">
+<rdg></rdg>
+</app>
+<app loc="776.04">
+<rdg>al daz s. al dâ g.; <wit>*T</wit></rdg>
+</app>
+<app loc="776.05">
+<rdg></rdg>
+</app>
+<app loc="776.06">
+<rdg></rdg>
+</app>
+<app loc="776.07">
+<rdg>dâr ûf bluomen (von blu&#x0366;men <wit>I</wit> ein bluomen <wit>*T</wit>) sch. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="776.08">
+<rdg></rdg>
+</app>
+<app loc="776.09">
+<rdg>bî rôtem (roten <wit>I</wit>) munde <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="776.10">
+<rdg></rdg>
+</app>
+<app loc="776.11">
+<rdg></rdg>
+</app>
+<app loc="776.12">
+<rdg></rdg>
+</app>
+<app loc="776.13">
+<rdg>vrouwen g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="776.14">
+<rdg></rdg>
+</app>
+<app loc="776.15">
+<rdg>ez was <wit>*G</wit> daz was <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="776.16">
+<rdg></rdg>
+</app>
+<app loc="776.17">
+<rdg></rdg>
+</app>
+<app loc="776.18">
+<rdg>n. deheine wîs <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="776.19">
+<rdg></rdg>
+</app>
+<app loc="776.20">
+<rdg>d. nâch ir (<note>om.</note> <wit>L</wit>) lône <wit>*G</wit></rdg>
+</app>
+<app loc="776.21">
+<rdg>gap (gap si <wit>*T</wit> [<wit>Z</wit>]) ir l. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="776.22">
+<rdg>rinc <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="776.23">
+<rdg></rdg>
+</app>
+<app loc="776.24">
+<rdg></rdg>
+</app>
+<app loc="776.25">
+<rdg>hete messe <wit>*T</wit></rdg>
+</app>
+<app loc="776.26">
+<rdg></rdg>
+</app>
+<app loc="776.27">
+<rdg></rdg>
+</app>
+<app loc="776.28">
+<rdg></rdg>
+</app>
+<app loc="776.29">
+<rdg>die zwêne g. s. <wit>*G</wit> · die drîe riten s. <wit>*T</wit></rdg>
+</app>
+<app loc="776.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

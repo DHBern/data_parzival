@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 119</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>26.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 119.01">si wolt ir schal verk<corr type="Emendation">r</corr>enken.</l>
+<l n="*D 119.02">ir bûliute unt ir enken,</l>
+<l n="*D 119.03">die hiez si vaste gâhen,</l>
+<l n="*D 119.04">vogele würgen und vâhen.</l>
+<l n="*D 119.05"><corr type="Emendation">die</corr> vogele wâren baz geriten;</l>
+<l n="*D 119.06">etslîches sterben wart vermiten.</l>
+<l n="*D 119.07">der beleip dâ lebendic ein teil,</l>
+<l n="*D 119.08">die sît mit sange wurden geil.</l>
+<l n="*D 119.09"><seg type="Initiale"><corr type="Emendation">D</corr></seg>er knappe sprach zer künegîn:</l>
+<l n="*D 119.10">"waz wîzet man den vogelîn?"</l>
+<l n="*D 119.11">er gert in vrides sân zestunt.</l>
+<l n="*D 119.12">sîn muot<reg type="Synkope">e</reg>r kust in an den munt.</l>
+<l n="*D 119.13"><seg type="Initiale" subtype="Majuskel">D</seg>iu sprach: "wes wende ich sîn gebot,</l>
+<l n="*D 119.14">der doch ist der h&#x0153;hste got?</l>
+<l n="*D 119.15">sulen vogele durch mich vreude lân?"</l>
+<l n="*D 119.16">der knappe sprach zer muot<reg type="Synkope">e</reg>r sân:</l>
+<l n="*D 119.17">"owê muot<reg type="Synkope">e</reg>r, wa<corr type="Emendation">z</corr> ist got?"</l>
+<l n="*D 119.18">"sun, ich sage dirz âne spot:</l>
+<l n="*D 119.19">er ist noch lieht<reg type="Synkope">e</reg>r denne der tac,</l>
+<l n="*D 119.20">der antlützes sich bewac</l>
+<l n="*D 119.21">nâch menschen antlitze.</l>
+<l n="*D 119.22">su<corr type="Emendation">n</corr>, merke eine witze</l>
+<l n="*D 119.23">unt vlêhe in umb dîne nôt.</l>
+<l n="*D 119.24">sîn triwe der werlde ie helfe bôt.</l>
+<l n="*D 119.25"><seg type="Initiale" subtype="Majuskel">S</seg>ô heizet einer der hellewirt:</l>
+<l n="*D 119.26">der ist swarz, untriwe in niht verbirt.</l>
+<l n="*D 119.27">von dem kêre dîne gedanke</l>
+<l n="*D 119.28">unt ouch von zwîvels wanke."</l>
+<l n="*D 119.29"><seg type="Initiale" subtype="Majuskel">S</seg>în muot<reg type="Synkope">e</reg>r underschiet im gar</l>
+<l n="*D 119.30">daz vinst<reg type="Synkope">e</reg>r unt daz lieht gevar.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="119.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="119.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="119.09"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+<wit>T</wit>
+</rdg></app>
+<app loc="119.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="119.13"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="119.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="119.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="119.21"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="119.25"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="119.29"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="119.01">
+<lem>verkrenken</lem> <rdg>verchenchen <wit>D</wit></rdg>
+</app>
+<app loc="119.02">
+<rdg>ir bûliute und ir enken <wit>*m</wit></rdg>
+</app>
+<app loc="119.03">
+<lem>die</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="119.05">
+<lem>die</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="119.06">
+<lem>etslîches</lem> <rdg>etlîchen <wit>*m</wit></rdg>
+</app>
+<app loc="119.08">
+<lem>sange wurden</lem> <rdg>sangen wâren (<note>om.</note> <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="119.09">
+<lem>Der</lem> <rdg>&#x00F7;er <wit>D</wit></rdg>
+</app>
+<app loc="119.11">
+<rdg>er gerte vrides sô zestunt. <wit>*m</wit></rdg>
+</app>
+<app loc="119.12">
+<rdg>sîn muoter kuste in an den munt <wit>*m</wit></rdg>
+</app>
+<app loc="119.13">
+<lem>Diu</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="119.17">
+<lem>waz</lem> <rdg>was <wit>D</wit></rdg>
+</app>
+<app loc="119.19">
+<lem>der</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="119.21">
+<lem>menschen</lem> <rdg>mannes <wit>*m</wit></rdg>
+</app>
+<app loc="119.22">
+<lem>sun</lem> <rdg>sv <wit>D</wit></rdg>
+</app>
+<app loc="119.23">
+<lem>in</lem> <rdg>ime <wit>*m</wit></rdg>
+</app>
+<app loc="119.24">
+<lem>werlde</lem> <rdg>werde (werdie <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="119.26">
+<rdg>der ist swarz und untriuwe in niht verbirt. <wit>*m</wit></rdg>
+</app>
+<app loc="119.29">
+<rdg>alsus underschiet (vnderscheid <wit>mk</wit>) si im gar <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="119.01">
+<rdg></rdg>
+</app>
+<app loc="119.02">
+<rdg>ir e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="119.03">
+<rdg>h. (Die hies <wit>V</wit>) si balde g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="119.04">
+<rdg>v. werfen und v. <wit>*T</wit></rdg>
+</app>
+<app loc="119.05">
+<rdg></rdg>
+</app>
+<app loc="119.06">
+<rdg>etslîcher <wit>*T</wit> <note>(ohne V)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="119.07">
+<rdg>ir b. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="119.08">
+<rdg></rdg>
+</app>
+<app loc="119.09">
+<rdg></rdg>
+</app>
+<app loc="119.10">
+<rdg></rdg>
+</app>
+<app loc="119.11">
+<rdg>vr. dô z. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="119.12">
+<rdg>diu m. <wit>*G</wit> <note>(ohne OZ)</note> · in kuste <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="119.13">
+<rdg>si sp.: <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="119.14">
+<rdg></rdg>
+</app>
+<app loc="119.15">
+<rdg>soln die v. (vo&#x0364;gellin <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="119.16">
+<rdg></rdg>
+</app>
+<app loc="119.17">
+<rdg></rdg>
+</app>
+<app loc="119.18">
+<rdg></rdg>
+</app>
+<app loc="119.19">
+<rdg></rdg>
+</app>
+<app loc="119.20">
+<rdg></rdg>
+</app>
+<app loc="119.21">
+<rdg>n. (Du̽rch <wit>L</wit>) mannes a. <wit>*T</wit> <wit>O</wit> (<wit>L</wit>) <wit>Z</wit></rdg>
+</app>
+<app loc="119.22">
+<rdg></rdg>
+</app>
+<app loc="119.23">
+<rdg>im (<subst><del>im</del><add>in</add></subst> <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="119.24">
+<rdg></rdg>
+</app>
+<app loc="119.25">
+<rdg></rdg>
+</app>
+<app loc="119.26">
+<rdg></rdg>
+</app>
+<app loc="119.27">
+<rdg></rdg>
+</app>
+<app loc="119.28">
+<rdg></rdg>
+</app>
+<app loc="119.29">
+<rdg></rdg>
+</app>
+<app loc="119.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

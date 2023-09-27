@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 367</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 367.01"><seg type="Initiale">S</seg>us bin ich ûf der strâzen</l>
+<l n="*D 367.02">od<reg type="Synkope">e</reg>r ich muoz den lîp dâ lâzen."</l>
+<l n="*D 367.03">daz was <name type="Person">Lyppauten</name> ein herzeleit.</l>
+<l n="*D 367.04">er sprach: "hêrre, durch iwer werdecheit</l>
+<l n="*D 367.05">unt durch iwerre zühte hulde</l>
+<l n="*D 367.06">sô vernemt mîn unschulde.</l>
+<l n="*D 367.07"><seg type="Initiale" subtype="Majuskel">I</seg>ch hân zwô tohter, die mir sint</l>
+<l n="*D 367.08">liep, wan si sint mîniu kint.</l>
+<l n="*D 367.09">swaz mir got hât an den gegeb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 367.10">dâ wil ich bî mit vreuden leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 367.11">ôwol mich, daz ich ie gewan</l>
+<l n="*D 367.12">kumber, den ich von in hân!</l>
+<l n="*D 367.13">den treit iedoch diu eine</l>
+<l n="*D 367.14">mit mir al gemeine.</l>
+<l n="*D 367.15">ungelîch ist diu gesellecheit.</l>
+<l n="*D 367.16">mîn hêrre, ir tuot mit minnen leit</l>
+<l n="*D 367.17">unt mir mit unminne,</l>
+<l n="*D 367.18">als ich michs versinne,</l>
+<l n="*D 367.19">mîn hêrre mir gewalt wil tuon,</l>
+<l n="*D 367.20">durch daz ich hân decheinen sun.</l>
+<l n="*D 367.21">mir sulen ouch tohter lieber sîn.</l>
+<l n="*D 367.22">waz denne, ob ichs nû lîde pîn?</l>
+<l n="*D 367.23">den wil ich mir ze s&#x00E6;lden zeln.</l>
+<l n="*D 367.24">swer sol mit sîner tohter weln,</l>
+<l n="*D 367.25">swie ir verboten sî daz swert,</l>
+<l n="*D 367.26">ir wer ist anders als wert:</l>
+<l n="*D 367.27">si erwirbet im kiuscheclîche</l>
+<l n="*D 367.28">einen sun vil ellens rîche.</l>
+<l n="*D 367.29">des selben ich gedingen hân."</l>
+<l n="*D 367.30">"nû gewers iuch got", sprach <name type="Person">Gawan</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr4</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 367.9-10)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="367.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr4</wit>
+</rdg></app>
+<app loc="367.03"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app>
+<app loc="367.07"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="367.07"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="367.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="367.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="367.09">
+<rdg>waz mir got an in hât geben (gegen <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="367.09">
+<rdg>Swaz mir got hat an den gegeben <wit>V</wit></rdg>
+</app>
+<app loc="367.10">
+<rdg>Da wil ich bi mit vro&#x0364;iden leben <wit>V</wit></rdg>
+</app>
+<app loc="367.10">
+<lem>bî</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="367.11">
+<lem>ôwol</lem> <rdg>ouch wol <wit>*m</wit></rdg>
+</app>
+<app loc="367.16">
+<rdg>ir, hêrre, ir tuot mit minne leit (let <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="367.18">
+<lem>als ich michs</lem> <rdg>alsich mich <note>nachträglich korrigiert zu:</note> alsichs mich <wit>Fr4</wit> als ichs mich <wit>*m</wit></rdg>
+</app>
+<app loc="367.19">
+<lem>mir gewalt wil</lem> <rdg>wil mir gewalt <wit>Fr4</wit></rdg>
+</app>
+<app loc="367.20">
+<rdg>wan ich ne han nicheinin sun <wit>Fr4</wit></rdg>
+</app>
+<app loc="367.22">
+<lem>ichs</lem> <rdg>ich <wit>*m</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="367.24">
+<lem>sîner tohter</lem> <rdg>sînen tohteren <wit>*m</wit></rdg>
+</app>
+<app loc="367.27">
+<lem>im</lem> <rdg>ir <wit>Fr4</wit></rdg>
+</app>
+<app loc="367.28">
+<lem>vil ellens</lem> <rdg>ellins vil <wit>Fr4</wit></rdg>
+</app>
+<app loc="367.29">
+<lem>gedingen</lem> <rdg>gedinge <wit>Fr4</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="367.01">
+<rdg><note>Versfolge 367.2-1</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> · der st." <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="367.02">
+<rdg>dâ l., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="367.03">
+<rdg></rdg>
+</app>
+<app loc="367.04">
+<rdg></rdg>
+</app>
+<app loc="367.05">
+<rdg></rdg>
+</app>
+<app loc="367.06">
+<rdg>sô <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="367.07">
+<rdg></rdg>
+</app>
+<app loc="367.08">
+<rdg></rdg>
+</app>
+<app loc="367.09">
+<rdg><note>Die Verse 367.9-10 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur T)</note> · an in (dem <wit>L</wit>) g., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="367.10">
+<rdg></rdg>
+</app>
+<app loc="367.11">
+<rdg>wol m., <wit>*G</wit> <note>(nur GIO)</note></rdg>
+</app>
+<app loc="367.12">
+<rdg></rdg>
+</app>
+<app loc="367.13">
+<rdg></rdg>
+</app>
+<app loc="367.14">
+<rdg></rdg>
+</app>
+<app loc="367.15">
+<rdg></rdg>
+</app>
+<app loc="367.16">
+<rdg>ir herze ir t. mit minne (mime <wit>T</wit>) l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="367.17">
+<rdg></rdg>
+</app>
+<app loc="367.18">
+<rdg>mich <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="367.19">
+<rdg>mîn herze mir <wit>*T</wit></rdg>
+</app>
+<app loc="367.20">
+<rdg></rdg>
+</app>
+<app loc="367.21">
+<rdg>s. doch (<note>om.</note> <wit>I</wit>) t. <wit>*G</wit> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="367.22">
+<rdg>waz dâr umbe (Waz <subst><del>*</del><add>danne</add></subst> <wit>V</wit>), <wit>*G</wit> <wit>*T</wit> · ichs (<subst><del>*</del><add>ich ez nv</add></subst> <wit>V</wit>) l. <wit>*T</wit></rdg>
+</app>
+<app loc="367.23">
+<rdg></rdg>
+</app>
+<app loc="367.24">
+<rdg></rdg>
+</app>
+<app loc="367.25">
+<rdg></rdg>
+</app>
+<app loc="367.26">
+<rdg></rdg>
+</app>
+<app loc="367.27">
+<rdg></rdg>
+</app>
+<app loc="367.28">
+<rdg>vil <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="367.29">
+<rdg></rdg>
+</app>
+<app loc="367.30">
+<rdg>"nû wers (gewer sin <wit>Z</wit>) iu. <wit>*G</wit> <note>(ohne IL)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

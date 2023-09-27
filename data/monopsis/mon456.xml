@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 456</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.12.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 456.01"><seg type="Initiale">D</seg>iu slâ in dâ niht halden liez.</l>
+<l n="*D 456.02"><name type="Ort">Fontane lasalvatsche</name> hiez</l>
+<l n="*D 456.03">ein wesen, dar sîn reise gienc.</l>
+<l n="*D 456.04">er vant den wirt, der in enpfienc.</l>
+<l n="*D 456.05">der einsidel zim sprach:</l>
+<l n="*D 456.06">"ouwê, hêrre, daz iu geschach</l>
+<l n="*D 456.07">in dirre heileclîchen zît!</l>
+<l n="*D 456.08">hât iuch angestlîcher strît</l>
+<l n="*D 456.09">in diz harnasch getriben</l>
+<l n="*D 456.10">ode sît ir âne strît beliben?</l>
+<l n="*D 456.11">sô stüende iu baz ein ander wât,</l>
+<l n="*D 456.12">lieze iuch hôchverte rât.</l>
+<l n="*D 456.13">nû ruochet erbeizen, hêrre,</l>
+<l n="*D 456.14">- ich w&#x00E6;ne, iu daz iht werre -</l>
+<l n="*D 456.15">unt erwarmet bî einem viure.</l>
+<l n="*D 456.16">hât iuch âventiure</l>
+<l n="*D 456.17">ûz gesant durch minnen solt?</l>
+<l n="*D 456.18">sît ir rehter minne holt,</l>
+<l n="*D 456.19">sô minnet, als nû diu minne gêt,</l>
+<l n="*D 456.20">als disses tages minne stêt.</l>
+<l n="*D 456.21">dient her nâch umbe wîbe gruoz.</l>
+<l n="*D 456.22">ruocht erbeizen, ob ichs bitten muoz."</l>
+<l n="*D 456.23"><name type="Person">Parzival</name>, der wîgant,</l>
+<l n="*D 456.24">erbeizte nider al zehant.</l>
+<l n="*D 456.25">mit grôzer zuht er vor im stuont.</l>
+<l n="*D 456.26">er tet im von den liuten kunt,</l>
+<l n="*D 456.27">die in dar wîsten,</l>
+<l n="*D 456.28">wie die sîn râten prîsten.</l>
+<l n="*D 456.29">dô sprach er: "hêrre, nû gebt mir rât.</l>
+<l n="*D 456.30">ich bin ein man, der sünde hât."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="456.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="456.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="456.29"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="456.06">
+<lem>iu</lem> <rdg>iu sus <wit>*m</wit></rdg>
+</app>
+<app loc="456.12">
+<lem>lieze</lem> <rdg>lâze <wit>*m</wit></rdg>
+</app>
+<app loc="456.19">
+<lem>nû</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="456.21">
+<lem>dient her</lem> <rdg><subst><del>die*</del><add>dient her</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="456.21">
+<lem>wîbe</lem> <rdg>wîbes <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="456.27">
+<rdg>die in al dar (aller lu̽tten <wit>mk</wit>) heten gewisen, <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="456.01">
+<rdg></rdg>
+</app>
+<app loc="456.02">
+<rdg></rdg>
+</app>
+<app loc="456.03">
+<rdg></rdg>
+</app>
+<app loc="456.04">
+<rdg></rdg>
+</app>
+<app loc="456.05">
+<rdg></rdg>
+</app>
+<app loc="456.06">
+<rdg>"wê (Awe <wit>O</wit>), h. (<note>om.</note> <wit>O</wit>), <wit>*G</wit> <note>(nur GI)</note> · daz iu (ev ie <wit>I</wit>) sus g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="456.07">
+<rdg>in d. heiligen zît! <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="456.08">
+<rdg></rdg>
+</app>
+<app loc="456.09">
+<rdg></rdg>
+</app>
+<app loc="456.10">
+<rdg></rdg>
+</app>
+<app loc="456.11">
+<rdg></rdg>
+</app>
+<app loc="456.12">
+<rdg></rdg>
+</app>
+<app loc="456.13">
+<rdg></rdg>
+</app>
+<app loc="456.14">
+<rdg></rdg>
+</app>
+<app loc="456.15">
+<rdg></rdg>
+</app>
+<app loc="456.16">
+<rdg></rdg>
+</app>
+<app loc="456.17">
+<rdg></rdg>
+</app>
+<app loc="456.18">
+<rdg></rdg>
+</app>
+<app loc="456.19">
+<rdg>diu minne nû <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="456.20">
+<rdg></rdg>
+</app>
+<app loc="456.21">
+<rdg></rdg>
+</app>
+<app loc="456.22">
+<rdg></rdg>
+</app>
+<app loc="456.23">
+<rdg></rdg>
+</app>
+<app loc="456.24">
+<rdg></rdg>
+</app>
+<app loc="456.25">
+<rdg></rdg>
+</app>
+<app loc="456.26">
+<rdg></rdg>
+</app>
+<app loc="456.27">
+<rdg></rdg>
+</app>
+<app loc="456.28">
+<rdg>wie die sînen rât pr. <wit>*T</wit> (<wit>I</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="456.29">
+<rdg>nû <note>om.</note> <wit>*G</wit> <note>(nur GIL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="456.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

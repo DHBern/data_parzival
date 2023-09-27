@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 497</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 497.01"><seg type="Initiale">D</seg>az was ê von im dîn sage;</l>
+<l n="*D 497.02">ez ist immer mîn<reg type="Synkope">e</reg>s herzen klage.</l>
+<l n="*D 497.03">mîn bruoder ist guotes rîche;</l>
+<l n="*D 497.04">verholne rîterlîche</l>
+<l n="*D 497.05">er mich dicke von im sande.</l>
+<l n="*D 497.06">sô ich von <name type="Ort">Munsalv&#x00E6;sche</name> wande,</l>
+<l n="*D 497.07">sîn insigel nam ich dâ</l>
+<l n="*D 497.08">unt vuortez ze <name type="Ort">Karchobra</name>,</l>
+<l n="*D 497.09">dâ sich sewet der <name type="Ort">Plimiz&#x0153;l</name>,</l>
+<l n="*D 497.10">in dem bistuom ze <name type="Ort">Barbig&#x0153;l</name>.</l>
+<l n="*D 497.11">der burcgrâve mich dâ beriet</l>
+<l n="*D 497.12">ûffez insigel, ê ich von im schiet,</l>
+<l n="*D 497.13">knappen unt anderre koste</l>
+<l n="*D 497.14">gein der wilden tjoste</l>
+<l n="*D 497.15">unt ûf ander rîterlîche vart;</l>
+<l n="*D 497.16">des wart vil wênec von im gespart.</l>
+<l n="*D 497.17">ich m<corr type="Emendation">uo</corr>se al eine kom<reg type="Synkope">e</reg>n dar:</l>
+<l n="*D 497.18">an der widerreise liez ich gar</l>
+<l n="*D 497.19">bî im, swaz ich gesindes pflac.</l>
+<l n="*D 497.20">ich reit, dâ <name type="Ort">Munsalv&#x00E6;sche</name> lac.</l>
+<l n="*D 497.21">nû h&#x0153;re, lieber neve mîn:</l>
+<l n="*D 497.22">dô mich der werde vater dîn</l>
+<l n="*D 497.23">ze <name type="Ort">Sibilje</name> alrêste sach,</l>
+<l n="*D 497.24">balde er mîn ze bruoder jach</l>
+<l n="*D 497.25"><name type="Person">Herzeloyden</name>, sînem wîbe;</l>
+<l n="*D 497.26">doch wart von sîme lîbe</l>
+<l n="*D 497.27">mîn antlütze nie mêr geseh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 497.28">man muose ouch mir vür wâr dâ jeh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 497.29">daz nie <seg type="singuläre_Lesart">sch&#x0153;ner</seg> mannes bilde wart;</l>
+<l n="*D 497.30">dannoch was ich âne bart.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 497.20-23)</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit> 
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="497.01"><rdg>
+ <note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="497.03"><rdg>
+<note>Initiale</note> <wit>O</wit> 
+</rdg></app><app loc="497.03"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="497.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="497.21"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="497.01">
+<rdg>daz was ê von im dîn sage <wit>*m</wit></rdg>
+</app>
+<app loc="497.02">
+<lem>ez</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="497.12">
+<rdg>ûf sîn (<subst><del>Vf s*</del><add>Vffenz</add></subst> <wit>V</wit> Vf <wit>O</wit> daz <wit>I</wit>) insigel (ingesigel <wit>V</wit>), ê ich dannen (<subst><del>d*</del><add>von im</add></subst> <wit>V</wit> von im <wit>O</wit>) schiet, <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="497.12">
+<lem>ê</lem> <rdg>als <wit>*m</wit></rdg>
+</app>
+<app loc="497.15">
+<lem>ander</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="497.17">
+<lem>muose</lem> <rdg>mv&#x0364;se <wit>D</wit></rdg>
+</app>
+<app loc="497.19">
+<rdg>bî im, waz ich gesindes pflac, <wit>*m</wit></rdg>
+</app>
+<app loc="497.20">
+<lem>ich</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="497.28">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="497.29">
+<rdg>daz nie mannes bilde sch&#x0153;ner wart; <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="497.01">
+<rdg>Ez was <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="497.02">
+<rdg></rdg>
+</app>
+<app loc="497.03">
+<rdg></rdg>
+</app>
+<app loc="497.04">
+<rdg></rdg>
+</app>
+<app loc="497.05">
+<rdg></rdg>
+</app>
+<app loc="497.06">
+<rdg></rdg>
+</app>
+<app loc="497.07">
+<rdg>ich nam sîn ingesigel (insigel <wit>O</wit>) aldâ (da <wit>V</wit> <wit>O</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="497.08">
+<rdg>unde vuor gegen (<subst><del>f*</del><add>fv&#x0366;rte ez zv&#x0366;</add></subst> <wit>V</wit> fv&#x0366;r ze <wit>O</wit>) Kachopra, <wit>*T</wit></rdg>
+</app>
+<app loc="497.09">
+<rdg></rdg>
+</app>
+<app loc="497.10">
+<rdg></rdg>
+</app>
+<app loc="497.11">
+<rdg></rdg>
+</app>
+<app loc="497.12">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="497.13">
+<rdg></rdg>
+</app>
+<app loc="497.14">
+<rdg></rdg>
+</app>
+<app loc="497.15">
+<rdg>unde ûf r. v.; <wit>*G</wit> <note>(nur GZ)</note> · unde ûf a. manege (<subst><del>*</del><add>ritterliche</add></subst> <wit>V</wit>) v.; <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="497.16">
+<rdg>w. dâ (<subst><del>*</del><add>vil</add></subst> <wit>V</wit>) wênic <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="497.17">
+<rdg></rdg>
+</app>
+<app loc="497.18">
+<rdg>ûf der w. (wider riese <wit>G</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="497.19">
+<rdg>g. pf., <wit>*T</wit></rdg>
+</app>
+<app loc="497.20">
+<rdg>unde r., swâ (<subst><del>*</del><add>do</add></subst> <wit>V</wit>) Munsalvasche lac.</rdg>
+</app>
+<app loc="497.21">
+<rdg>h&#x0153;ret, <wit>*T</wit></rdg>
+</app>
+<app loc="497.22">
+<rdg>der w. Anschevin (<subst><del>*i*</del><add>vatter din</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="497.23">
+<rdg>alrêrst gesach, <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) <note>(ohne O)</note></rdg>
+</app>
+<app loc="497.24">
+<rdg></rdg>
+</app>
+<app loc="497.25">
+<rdg>von H., <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="497.26">
+<rdg>ouch (<subst><del>*</del><add>Doch</add></subst> <wit>V</wit>) w. <wit>*T</wit></rdg>
+</app>
+<app loc="497.27">
+<rdg></rdg>
+</app>
+<app loc="497.28">
+<rdg>ou. (o&#x036E;ch mir <wit>V</wit>) vür wâr des (<subst><del>d*</del><add>do</add></subst> <wit>V</wit>) j., <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="497.29">
+<rdg></rdg>
+</app>
+<app loc="497.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

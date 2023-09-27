@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 322</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 322.01"><seg type="Initiale">H</seg>êr <name type="Person">Gawan</name> sol sich niht verschem<reg type="Synkope">e</reg>n,</l>
+<l n="*D 322.02">ob er geselleschaft wil nem<reg type="Synkope">e</reg>n</l>
+<l n="*D 322.03">ob der tavelrund<reg type="Synkope">e</reg>r,</l>
+<l n="*D 322.04">diu dort stêt besund<reg type="Synkope">e</reg>r.</l>
+<l n="*D 322.05">der reht w&#x00E6;re gebrochen sân,</l>
+<l n="*D 322.06">s&#x00E6;ze drob ein triwelôser man.</l>
+<l n="*D 322.07"><seg type="Initiale" subtype="Majuskel">I</seg>ne bin her niht durch schelten kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 322.08">geloubet, sît irz habt vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 322.09">ich vord<reg type="Synkope">e</reg>r kampf vür schelten,</l>
+<l n="*D 322.10">der niht wan tôt sol gelten</l>
+<l n="*D 322.11">od<reg type="Synkope">e</reg>r leb<reg type="Synkope">e</reg>n mit êren,</l>
+<l n="*D 322.12">swenz wil diu s&#x00E6;lde lêren."</l>
+<l n="*D 322.13"><seg type="Initiale" subtype="Majuskel">D</seg>er künec swîgete unt was unvrô,</l>
+<l n="*D 322.14">doch antwurte er der rede alsô:</l>
+<l n="*D 322.15">"hêrre, er ist mîner swester sun.</l>
+<l n="*D 322.16">w&#x00E6;re <name type="Person">Gawan</name> tôt, ich wolde tuon</l>
+<l n="*D 322.17">den kampf, ê sîn gebeine</l>
+<l n="*D 322.18">l&#x00E6;ge triwelôs unreine.</l>
+<l n="*D 322.19">wil gelücke, iu sol <name type="Person">Gawans</name> hant</l>
+<l n="*D 322.20">mit kampfe tuon daz wol bekant,</l>
+<l n="*D 322.21">daz sîn lîp mit triwen vert</l>
+<l n="*D 322.22">unt sichs valsches hât erwert.</l>
+<l n="*D 322.23">hab iu and<reg type="Synkope">e</reg>rs iem<reg type="Synkope">e</reg>n leit</l>
+<l n="*D 322.24">getân, sône machet niht sô breit</l>
+<l n="*D 322.25">sîn laster âne schulde;</l>
+<l n="*D 322.26">wan erwirbet er iwer hulde,</l>
+<l n="*D 322.27">sô daz sîn lîp unschuldec ist,</l>
+<l n="*D 322.28">ir habt in dirre kurzen vrist</l>
+<l n="*D 322.29">gesagt, daz iweren prîs</l>
+<l n="*D 322.30">krenket, sint die liute wîs."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="322.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="322.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="322.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="322.09"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Fr22</wit>
+</rdg></app>
+<app loc="322.13"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="322.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="322.15"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="322.11">
+<lem>oder</lem> <rdg>oder aber <wit>*m</wit></rdg>
+</app>
+<app loc="322.14">
+<lem>er</lem> <rdg>er ime <wit>*m</wit></rdg>
+</app>
+<app loc="322.17">
+<lem>sîn</lem> <rdg>mîn <wit>*m</wit></rdg>
+</app>
+<app loc="322.22">
+<lem>sichs</lem> <rdg>sich <wit>*m</wit></rdg>
+</app>
+<app loc="322.29">
+<lem>gesagt</lem> <rdg>von (Vo <wit>mk</wit>) ime gesaget <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="322.01">
+<rdg>sich des (<note>om.</note> <wit>U</wit> <wit>V</wit>) n. beschemen, <wit>*T</wit></rdg>
+</app>
+<app loc="322.02">
+<rdg>gesellicheit <wit>*G</wit> <note>(ohne Fr22)</note></rdg>
+</app>
+<app loc="322.03">
+<rdg></rdg>
+</app>
+<app loc="322.04">
+<rdg></rdg>
+</app>
+<app loc="322.05">
+<rdg>ir r. (<note>om.</note> <wit>L</wit> <wit>Fr22</wit>) <wit>*G</wit> <wit>*T</wit> · w. zerbrochen sân, <wit>*T</wit></rdg>
+</app>
+<app loc="322.06">
+<rdg></rdg>
+</app>
+<app loc="322.07">
+<rdg></rdg>
+</app>
+<app loc="322.08">
+<rdg></rdg>
+</app>
+<app loc="322.09">
+<rdg></rdg>
+</app>
+<app loc="322.10">
+<rdg></rdg>
+</app>
+<app loc="322.11">
+<rdg>o. l. nâch (<subst><del>*</del><add>aber leben mit</add></subst> <wit>V</wit>) ê., <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="322.12">
+<rdg>sw. diu s. wil l. (<subst><del>*</del><add>leren</add></subst> <wit>V</wit> chern <wit>I</wit>)." <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="322.13">
+<rdg>unde wart u., <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="322.14">
+<rdg></rdg>
+</app>
+<app loc="322.15">
+<rdg></rdg>
+</app>
+<app loc="322.16">
+<rdg></rdg>
+</app>
+<app loc="322.17">
+<rdg></rdg>
+</app>
+<app loc="322.18">
+<rdg>l. triuwelôs unde u. <wit>*T</wit></rdg>
+</app>
+<app loc="322.19">
+<rdg></rdg>
+</app>
+<app loc="322.20">
+<rdg>mit kampfe (<subst><del>*</del><add>Mit canpfe</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="322.21">
+<rdg></rdg>
+</app>
+<app loc="322.22">
+<rdg></rdg>
+</app>
+<app loc="322.23">
+<rdg>hât iu <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="322.24">
+<rdg></rdg>
+</app>
+<app loc="322.25">
+<rdg></rdg>
+</app>
+<app loc="322.26">
+<rdg>wan gewinnt er (Wan er gewýnnet <wit>L</wit> Wender giwinnit <wit>Fr22</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="322.27">
+<rdg></rdg>
+</app>
+<app loc="322.28">
+<rdg>habet an d. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="322.29">
+<rdg>von im gesaget, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="322.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

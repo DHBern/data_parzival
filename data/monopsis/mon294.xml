@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 294</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.07.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 294.01"><seg type="Initiale">D</seg>az ir den künec gelastert hât,</l>
+<l n="*D 294.02">welt ir mir volgen, sô ist mîn rât,</l>
+<l n="*D 294.03">unt dunket mich iwer bestez heil:</l>
+<l n="*D 294.04">nemt iuch selben an ein bracken seil</l>
+<l n="*D 294.05">unt lât iuch vür in ziehen.</l>
+<l n="*D 294.06">ir enmegt mir niht enpfliehen,</l>
+<l n="*D 294.07">ich bringe iuch doch betwungen dar,</l>
+<l n="*D 294.08">sô nimt man iwer unsanfte war."</l>
+<l n="*D 294.09"><seg type="Initiale" subtype="Majuskel">D</seg>en <name type="Person">Waleis</name> twanc der minnen kraft</l>
+<l n="*D 294.10">swîgens. <name type="Person">Keie</name> sînen schaft</l>
+<l n="*D 294.11">ûf zôch unt vrumt im einen swanc</l>
+<l n="*D 294.12">anz houbt, daz der helm erklanc.</l>
+<l n="*D 294.13">dô sprach er: "dû muost wachen.</l>
+<l n="*D 294.14">âne lînlachen</l>
+<l n="*D 294.15">wirt dir dîn slâfen hie benant.</l>
+<l n="*D 294.16">ez zilt al anders hie mîn hant:</l>
+<l n="*D 294.17">ûf den snê dû wirst geleit.</l>
+<l n="*D 294.18">der den sac von der mül treit,</l>
+<l n="*D 294.19">wolte man in sô bliwen,</l>
+<l n="*D 294.20">in m<corr type="Emendation">ö</corr>hte lazheit riwen."</l>
+<l n="*D 294.21"><seg type="Initiale" subtype="Majuskel">V</seg>rou minne, hie seht ir zuo.</l>
+<l n="*D 294.22">ich w&#x00E6;ne, manz iu ze laster tuo,</l>
+<l n="*D 294.23">wan ein gebûr spr&#x00E6;che sân:</l>
+<l n="*D 294.24">"mîme hêrren sî diz getân."</l>
+<l n="*D 294.25">er klaget ouch, m<corr type="Emendation">ö</corr>ht er sprechen.</l>
+<l n="*D 294.26">vrou minne, lât sich rechen</l>
+<l n="*D 294.27">den werden <name type="Person">Waleise</name>,</l>
+<l n="*D 294.28">wan liez in iwer vreise</l>
+<l n="*D 294.29">unt iwer strenge, unsüezer last,</l>
+<l n="*D 294.30">ich w&#x00E6;ne, sich werte dirre gast.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="294.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="294.03"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="294.09"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>O</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="294.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="294.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="294.21"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>L</wit>
+</rdg></app><app loc="294.21"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="294.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="294.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="294.08">
+<lem>unsanfte</lem> <rdg>sanfte <wit>*m</wit></rdg>
+</app>
+<app loc="294.13">
+<lem>dô sprach er</lem> <rdg>er sprach <wit>*m</wit></rdg>
+</app>
+<app loc="294.16">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="294.18">
+<lem>von</lem> <rdg>zuo <wit>*m</wit></rdg>
+</app>
+<app loc="294.19">
+<lem>sô</lem> <rdg>alsô <wit>*m</wit></rdg>
+</app>
+<app loc="294.20">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="294.23">
+<rdg>wanne ein gebûre, der spr&#x00E6;che sân: <wit>*m</wit></rdg>
+</app>
+<app loc="294.25">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="294.25">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="294.28">
+<lem>vreise</lem> <rdg>reise (reiszen <wit>L</wit>) <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="294.01">
+<rdg></rdg>
+</app>
+<app loc="294.02">
+<rdg>w. ir (irz <wit>*T</wit> <note>[ohne V]</note>) im (<subst><del>*</del><add>im</add></subst> <wit>V</wit>) wandelen (bu&#x0364;zen <wit>I</wit>), <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="294.03">
+<rdg>und dûhte m. <wit>*T</wit> <note>(nur T)</note> · iuwer b. (beste <wit>G</wit>) h., <wit>*G</wit></rdg>
+</app>
+<app loc="294.04">
+<rdg>ir (So <wit>O</wit> [<wit>L</wit>]) nemet iu. (lat evch nemen <wit>I</wit>) an <wit>*G</wit> n. iu. an <wit>*T</wit> <note>(ohne V)</note> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="294.05">
+<rdg></rdg>
+</app>
+<app loc="294.06">
+<rdg></rdg>
+</app>
+<app loc="294.07">
+<rdg>d. gevangen dar, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="294.08">
+<rdg></rdg>
+</app>
+<app loc="294.09">
+<rdg>Den W. tw. der m. kraft. <wit>*T</wit></rdg>
+</app>
+<app loc="294.10">
+<rdg>swîgende Key s. sch. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="294.11">
+<rdg>ûf z. unde vr. im e. sw., <wit>*T</wit></rdg>
+</app>
+<app loc="294.12">
+<rdg>daz im der h. ûf dem houbete e. <wit>*T</wit> · ûf daz (<note>om.</note> <wit>Z</wit>) houbet, <wit>*G</wit></rdg>
+</app>
+<app loc="294.13">
+<rdg></rdg>
+</app>
+<app loc="294.14">
+<rdg></rdg>
+</app>
+<app loc="294.15">
+<rdg>dîn slâf alhie (hie <wit>Z</wit>) <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="294.16">
+<rdg>hie <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="294.17">
+<rdg>wirst dû <wit>*T</wit></rdg>
+</app>
+<app loc="294.18">
+<rdg>sac ze der <wit>*T</wit></rdg>
+</app>
+<app loc="294.19">
+<rdg>in alsus (sus <wit>L</wit>) bliuwen, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="294.20">
+<rdg></rdg>
+</app>
+<app loc="294.21">
+<rdg>ir selbe zuo. <wit>*T</wit></rdg>
+</app>
+<app loc="294.22">
+<rdg>man iuz ze <wit>*G</wit> <note>(ohne IL)</note></rdg>
+</app>
+<app loc="294.23">
+<rdg></rdg>
+</app>
+<app loc="294.24">
+<rdg>sî daz (<subst><del>d*</del><add>diz</add></subst> <wit>V</wit>) g." <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="294.25">
+<rdg>Ir klagetet (Jr claget <wit>U</wit> Er <subst><del>clage*</del><add>clagete</add></subst> <wit>V</wit>) ou., m. ir (<subst><del>*</del><add>er</add></subst> <wit>V</wit>) sp. <wit>*T</wit></rdg>
+</app>
+<app loc="294.26">
+<rdg></rdg>
+</app>
+<app loc="294.27">
+<rdg></rdg>
+</app>
+<app loc="294.28">
+<rdg></rdg>
+</app>
+<app loc="294.29">
+<rdg></rdg>
+</app>
+<app loc="294.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

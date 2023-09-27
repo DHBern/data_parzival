@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 186</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>19.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 186.01">er was in ungelîche var.</l>
+<l n="*D 186.02">dô er den râm von im sô gar</l>
+<l n="*D 186.03">getwuoc mit einem brunnen,</l>
+<l n="*D 186.04">dô het er der sunnen</l>
+<l n="*D 186.05">verdecket vil nâch ir liehten glast.</l>
+<l n="*D 186.06">des dûht er si ein werd<reg type="Synkope">e</reg>r gast.</l>
+<l n="*D 186.07"><seg type="Initiale" subtype="Majuskel">M</seg>an bôt im einen mantel sân,</l>
+<l n="*D 186.08">gelîch alsô der roc getân,</l>
+<l n="*D 186.09">der ê des an dem helde lac.</l>
+<l n="*D 186.10">des zobel gap wilden niwen smac.</l>
+<l n="*D 186.11"><seg type="Initiale" subtype="Majuskel">S</seg>i sprâchen: "welt ir schouwen</l>
+<l n="*D 186.12">die künegîn, unser vrouwen?"</l>
+<l n="*D 186.13">dô jach der helt st&#x00E6;te,</l>
+<l n="*D 186.14">daz er daz gerne t&#x00E6;te.</l>
+<l n="*D 186.15"><seg type="Initiale" subtype="Majuskel">S</seg>i giengen gein einem palas,</l>
+<l n="*D 186.16">dâ hôch hin ûf gegrêdet was.</l>
+<l n="*D 186.17">ein minneclîch antlützes schîn,</l>
+<l n="*D 186.18">dar zuo der ougen süeze sîn,</l>
+<l n="*D 186.19">von der küneginne gienc</l>
+<l n="*D 186.20">ein liehter glast, ê si in enpfienc.</l>
+<l n="*D 186.21">von <name type="Ort">Katelangen</name> <name type="Person">Kyot</name></l>
+<l n="*D 186.22">und der werde <name type="Person">Manpfilyot</name>,</l>
+<l n="*D 186.23">herzogen beide wâren die,</l>
+<l n="*D 186.23-1"></l>
+<l n="*D 186.23-2"></l>
+<l n="*D 186.24">ir bruoder kint si brâhten hie,</l>
+<l n="*D 186.25">des landes küneginne.</l>
+<l n="*D 186.26">durch die gotes minne</l>
+<l n="*D 186.27">heten si ûf gegeb<reg type="Synkope">e</reg>n ir swert.</l>
+<l n="*D 186.28">dâ giengen die vürsten wert,</l>
+<l n="*D 186.29"><seg type="Initiale">G</seg>râ und wol gevar.</l>
+<l n="*D 186.30">mit grôzer zuht si brâhten dar</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(186.9-16 und 21-23)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <note>(mit 186.23¹-23²)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(mit 186.23¹-23²)</note> <wit>U</wit> <note>(mit 186.23¹-23²)</note> <wit>V</wit> <note>(ohne 186.23¹-23²)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="186.07"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="186.07"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="186.11"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="186.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="186.13"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="186.15"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="186.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="186.17"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>O</wit>
+</rdg></app>
+<app loc="186.19"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="186.21"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit>
+</rdg></app><app loc="186.21"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="186.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="186.01">
+<lem>er was in</lem> <rdg>ez was <wit>*m</wit></rdg>
+</app>
+<app loc="186.05">
+<lem>verdecket vil</lem> <rdg>verkrenket <wit>*m</wit></rdg>
+</app>
+<app loc="186.07">
+<lem>im einen</lem> <rdg>dem helde <wit>*m</wit></rdg>
+</app>
+<app loc="186.09">
+<rdg>der ê an sînem (Der gansinem <wit>mk</wit>) lîbe lac. <wit>*m</wit></rdg>
+</app>
+<app loc="186.15">
+<lem>gein einem</lem> <rdg>gegen dem (vf den <wit>Fr69</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="186.16">
+<lem>hin</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="186.20">
+<lem>ein</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="186.01">
+<rdg>ungelîch gevar. <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="186.02">
+<rdg>sô <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="186.03">
+<rdg></rdg>
+</app>
+<app loc="186.04">
+<rdg>dô het er der (het den <wit>I</wit>) liehten s. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="186.05">
+<rdg>verkrenket n. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="186.06">
+<rdg></rdg>
+</app>
+<app loc="186.07">
+<rdg>man brâht im <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="186.08">
+<rdg>glîch alsam (als im <wit>U</wit>) der <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="186.09">
+<rdg>der ê des obe dem hemede lac (Der e <subst><del>*de lag</del><add>an sinem libe lag</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="186.10">
+<rdg>der z. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="186.11">
+<rdg>Die rîter sp.: <wit>*T</wit></rdg>
+</app>
+<app loc="186.12">
+<rdg></rdg>
+</app>
+<app loc="186.13">
+<rdg>Dô sprach der h. st., <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="186.14">
+<rdg></rdg>
+</app>
+<app loc="186.15">
+<rdg>gein (hin ze <wit>I</wit>) dem p., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="186.16">
+<rdg>der h. hin (Do <subst><del>*</del><add>hohe vf</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="186.17">
+<rdg></rdg>
+</app>
+<app loc="186.18">
+<rdg></rdg>
+</app>
+<app loc="186.19">
+<rdg></rdg>
+</app>
+<app loc="186.20">
+<rdg>ein (Ein lichter <wit>L</wit>) gl., dô sin e. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="186.21">
+<rdg></rdg>
+</app>
+<app loc="186.22">
+<rdg>unde sîn bruoder (Vnd der sin bru̽der werde <wit>L</wit>) Manfilot <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="186.23">
+<rdg> - die w. (Daz ware <wit>L</wit>) zwêne h. (<subst><del>*</del><add>Herzogen beide worent die</add></subst> <wit>V</wit>), <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="186.23-1">
+<rdg>an werder vuore niht betrogen (betragen <wit>U</wit>) -, <wit>*T</wit> <note>(ohne V)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="186.23-2">
+<rdg>die kômen rehte, ich sagiu wie: <wit>*T</wit> <note>(ohne V)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="186.24">
+<rdg></rdg>
+</app>
+<app loc="186.25">
+<rdg></rdg>
+</app>
+<app loc="186.26">
+<rdg></rdg>
+</app>
+<app loc="186.27">
+<rdg></rdg>
+</app>
+<app loc="186.28">
+<rdg></rdg>
+</app>
+<app loc="186.29">
+<rdg></rdg>
+</app>
+<app loc="186.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

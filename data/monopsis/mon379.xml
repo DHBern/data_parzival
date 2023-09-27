@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 379</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 379.01"><seg type="Initiale">D</seg>az wâren <name type="Person">Scherules<reg type="Synkope">e</reg>s</name> man;</l>
+<l n="*D 379.02">von den wart ez dâ guot getân.</l>
+<l n="*D 379.03"><seg type="Initiale" subtype="Majuskel">W</seg>az mag ich nû sprechen mêr,</l>
+<l n="*D 379.04">wan <name type="Person">Poydiconjunz</name> was hêr.</l>
+<l n="*D 379.05">der reit dar zuo mit solher kraft,</l>
+<l n="*D 379.06">w&#x00E6;re <name type="Ort">Swarzwalt</name> ieslîch st<corr type="Emendation">û</corr>de ein schaft,</l>
+<l n="*D 379.07">man d<corr type="Emendation">ö</corr>rfte dâ niht mêr waldes seh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 379.08">swer sîne schar wolde speh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 379.09">der reit mit sehs vanen zuo,</l>
+<l n="*D 379.10">vor den man strît<reg type="Synkope">e</reg>s begunde vruo.</l>
+<l n="*D 379.11"><seg type="Initiale" subtype="Majuskel">P</seg>ûsûn&#x00E6;r<reg type="Synkope">e</reg>r gâben dôzes klac</l>
+<l n="*D 379.12">alsô der don<corr type="Emendation">e</corr>r, der ie pflac</l>
+<l n="*D 379.13">vil angestlîcher vorhte.</l>
+<l n="*D 379.14">manec tambûr<reg type="Synkope">e</reg>r dâ wor<corr type="Emendation">h</corr>te</l>
+<l n="*D 379.15">mit der busûn<reg type="Synkope">&#x00E6;</reg>r<reg type="Synkope">e</reg>r galm.</l>
+<l n="*D 379.16">wart ind<reg type="Synkope">e</reg>r kein stupfen halm</l>
+<l n="*D 379.17">getreit, des enm<corr type="Emendation">ö</corr>ht ich niht.</l>
+<l n="*D 379.18"><name type="Person">Erffurter</name> wîngarte giht</l>
+<l n="*D 379.19">von treten noch der selben nôt.</l>
+<l n="*D 379.20">maneg orses vuoz die slâge bôt.</l>
+<l n="*D 379.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô kom der herzoge <name type="Person">Astor</name></l>
+<l n="*D 379.22">mit strîte an die von <name type="Ort">Jamor</name>.</l>
+<l n="*D 379.23">dâ wurden tjoste gewetzet,</l>
+<l n="*D 379.24">manec werder man entsetzet</l>
+<l n="*D 379.25">hinderz ors ûfen acker.</l>
+<l n="*D 379.26">si wâren ir strît<reg type="Synkope">e</reg>s wacker.</l>
+<l n="*D 379.27">vil werd<reg type="Synkope">e</reg>r krîe man dâ rief.</l>
+<l n="*D 379.28">manec vole âne sînen meister lief,</l>
+<l n="*D 379.29">des hêrre dort ze vuoze stuont.</l>
+<l n="*D 379.30">ich w&#x00E6;ne, dem was gevelle kunt.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="379.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="379.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app><app loc="379.03"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="379.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="379.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="379.21"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app><app loc="379.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="379.02">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="379.03">
+<rdg>waz (&#x00F7;az <wit>O</wit>) welt ir (waz magih <wit>G</wit>), daz ich spreche (da von sprchen <wit>G</wit> daz si sprechen <wit>O</wit> daz si spreche <wit>Fr21</wit>) mêr, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="379.03">
+<lem>Waz</lem> <rdg>Daz <wit>*m</wit></rdg>
+</app>
+<app loc="379.06">
+<lem>stûde</lem> <rdg>stv&#x0366;nde <wit>D</wit></rdg>
+</app>
+<app loc="379.07">
+<rdg>dan dorft man nih mer waldes sehen <wit>I</wit></rdg>
+</app>
+<app loc="379.07">
+<lem>dörfte</lem> <rdg>dorfte <wit>D</wit></rdg>
+</app>
+<app loc="379.12">
+<lem>doner</lem> <rdg>donrr <wit>D</wit></rdg>
+</app>
+<app loc="379.14">
+<lem>tambûrer</lem> <rdg>tambûre <wit>*m</wit></rdg>
+</app>
+<app loc="379.14">
+<lem>worhte</lem> <rdg>worte <wit>D</wit></rdg>
+</app>
+<app loc="379.16">
+<lem>inder</lem> <rdg>inder dâ <wit>*m</wit></rdg>
+</app>
+<app loc="379.17">
+<lem>getreit</lem> <rdg>getretet <wit>*m</wit></rdg>
+</app>
+<app loc="379.17">
+<lem>enmöht</lem> <rdg>enmoht <wit>D</wit></rdg>
+</app>
+<app loc="379.18">
+<rdg>er vürhtet der wîngarten niht <wit>*m</wit></rdg>
+</app>
+<app loc="379.20">
+<rdg>vil orse vüeze die (<note>om.</note> <wit>G</wit>) slâ dâ bôt. <wit>*G</wit></rdg>
+</app>
+<app loc="379.20">
+<rdg>vil orse (<subst><del>*</del><add>Manig orses</add></subst> <wit>V</wit>) vuoz diu slâ dâ (<note>om.</note> <wit>V</wit>) bôt. <wit>*T</wit> (<wit>O</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="379.27">
+<lem>werder</lem> <rdg>vrömder <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="379.01">
+<rdg></rdg>
+</app>
+<app loc="379.02">
+<rdg></rdg>
+</app>
+<app loc="379.03">
+<rdg>&#x2193;<wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="379.04">
+<rdg>was mit wer (waz <subst><del>*</del><add>do her</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="379.05">
+<rdg>der r. mit sölher hers kr. (<subst><del>D*</del><add>Der</add></subst> reit <subst><del>darzv&#x0366;</del><add>da zv&#x0366;</add></subst> mit <subst><del>h*</del><add>solher craft</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="379.06">
+<rdg></rdg>
+</app>
+<app loc="379.07">
+<rdg>dâ nimer w. &#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="379.08">
+<rdg></rdg>
+</app>
+<app loc="379.09">
+<rdg></rdg>
+</app>
+<app loc="379.10">
+<rdg>vor dem man <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="379.11">
+<rdg>busûn&#x00E6;re (<subst><del>Bvsvma*</del><add>Bvsvmare</add></subst> <wit>L</wit> Busvnen <wit>Z</wit>) g. gedôzes (<note>om.</note> <wit>Fr21</wit>) kl. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="379.12">
+<rdg>ie dâ pf. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="379.13">
+<rdg> </rdg>
+</app>
+<app loc="379.14">
+<rdg>manic tambûr w. (do worhte <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="379.15">
+<rdg>mit den busûn&#x00E6;ren g. (galin <wit>Z</wit>). <wit>*G</wit> · mit der busîne (<subst><del>bvsvn*</del><add>bvsvnen</add></subst> <wit>V</wit>) g. <wit>*T</wit></rdg>
+</app>
+<app loc="379.16">
+<rdg>i. dâ dehein (ein <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="379.17">
+<rdg>getretet (Getrette <wit>Z</wit>), <wit>*G</wit> (<wit>*T</wit>) · des enmag (ein mag <wit>T</wit> <subst><del>*</del><add>enmo&#x0364;hte</add></subst> <wit>V</wit>) ich n. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="379.18">
+<rdg>Enpfirter w. g. (Er vo&#x0364;rtet der <subst><del>*</del><add>wingarten iht</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="379.19">
+<rdg></rdg>
+</app>
+<app loc="379.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="379.21">
+<rdg>nû kom (chon <wit>I</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="379.22">
+<rdg>von Amor (Lamor <wit>L</wit>). <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="379.23">
+<rdg>dâ w. diu ors g., <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="379.24">
+<rdg>manic w. man gesetzet (geseizet <wit>Fr21</wit> <subst><del>*</del><add>entsetzet</add></subst> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="379.25">
+<rdg></rdg>
+</app>
+<app loc="379.26">
+<rdg></rdg>
+</app>
+<app loc="379.27">
+<rdg>vil vrömder (vromde <wit>I</wit>) kr. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="379.28">
+<rdg></rdg>
+</app>
+<app loc="379.29">
+<rdg>ze vüezen st. <wit>*G</wit> <note>(ohne Fr21)</note></rdg>
+</app>
+<app loc="379.30">
+<rdg>w., im (in <wit>L</wit> <subst><del>*</del><add>den</add></subst> <wit>V</wit>) was (w&#x00E6;r <wit>O</wit> <wit>Fr21</wit>) <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

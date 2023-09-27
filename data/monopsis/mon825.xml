@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 825</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 825.01"><seg type="Initiale">Z</seg><name type="Ort">Antwerp</name> wart er ûz gezog<reg type="Synkope">e</reg>n.</l>
+<l n="*D 825.02">si was an im vil unbetrog<reg type="Synkope">e</reg>n.</l>
+<l n="*D 825.03">er kunde wol gebâren.</l>
+<l n="*D 825.04">man muose in vür den clâren</l>
+<l n="*D 825.05">unt vür den manlîchen</l>
+<l n="*D 825.06">hab<reg type="Synkope">e</reg>n in al den rîchen,</l>
+<l n="*D 825.07">swâ man sîn künde ie gewan.</l>
+<l n="*D 825.08">höfsch, mit zühten wîs ein man,</l>
+<l n="*D 825.09">mit triwen milte ân ander stôz</l>
+<l n="*D 825.10">was sîn lîp, missewende blôz.</l>
+<l n="*D 825.11"><seg type="Initiale" subtype="Majuskel">D</seg>es landes vrouwe in schône enpfienc.</l>
+<l n="*D 825.12">nû h&#x0153;ret, wie sîn rede ergienc.</l>
+<l n="*D 825.13">rîch unt arme ez hôrten,</l>
+<l n="*D 825.14">die dâ stuonden an allen orten.</l>
+<l n="*D 825.15"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "vrouwe herzogîn,</l>
+<l n="*D 825.16">sol ich hie landes hêrre sîn,</l>
+<l n="*D 825.17">dâr umbe lâz ich als vil.</l>
+<l n="*D 825.18">nû h&#x0153;ret, wes ich iuch bitten wil:</l>
+<l n="*D 825.19">gevrâget nimmer, wer ich sî,</l>
+<l n="*D 825.20">sô mag ich iu belîb<reg type="Synkope">e</reg>n bî.</l>
+<l n="*D 825.21">bin ich ziuwer<reg type="Synkope">e</reg>r vrâge erkorn,</l>
+<l n="*D 825.22">sô habt ir minne an mir verlorn.</l>
+<l n="*D 825.23">ob ir niht sît gewarnet des,</l>
+<l n="*D 825.24">sô warnet mich got, er weiz wol wes."</l>
+<l n="*D 825.25"><seg type="Initiale" subtype="Majuskel">S</seg>i sazte wîbes sicherheit,</l>
+<l n="*D 825.26">diu sît durch liebe wenken leit,</l>
+<l n="*D 825.27">si wolde ze sîme gebote stên</l>
+<l n="*D 825.28">unt nimmer übergên,</l>
+<l n="*D 825.29">swaz er si leisten hieze,</l>
+<l n="*D 825.30">ob si got bî sinne lieze.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="825.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="825.03"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="825.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="825.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="825.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="825.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="825.06">
+<lem>al den</lem> <rdg>allen <wit>*m</wit></rdg>
+</app>
+<app loc="825.09">
+<lem>ander stôz</lem> <rdg>âderstôz <wit>*m</wit></rdg>
+</app>
+<app loc="825.15">
+<rdg>er sprach: "mîn vrowe herzogîn, <wit>*m</wit></rdg>
+</app>
+<app loc="825.18">
+<lem>h&#x0153;ret</lem> <rdg>merket <wit>*m</wit></rdg>
+</app>
+<app loc="825.21">
+<lem>ziuwerer</lem> <rdg>ane iuwer <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="825.01">
+<rdg>Zuo âventiure er w. g. <wit>*T</wit> · er wart <wit>*G</wit> <note>(ohne I)</note></rdg>
+</app>
+<app loc="825.02">
+<rdg></rdg>
+</app>
+<app loc="825.03">
+<rdg></rdg>
+</app>
+<app loc="825.04">
+<rdg>muoz <wit>*T</wit></rdg>
+</app>
+<app loc="825.05">
+<rdg></rdg>
+</app>
+<app loc="825.06">
+<rdg>h. in allen r., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="825.07">
+<rdg></rdg>
+</app>
+<app loc="825.08">
+<rdg>hövesch, mit z., ein wîse man (wiser man <wit>L</wit>), <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="825.09">
+<rdg>getriu, m., ân âderstôz (ân vnderstoz <wit>I</wit> [<wit>L</wit>] an lîbe grôz <wit>*T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="825.10">
+<rdg>was er und m. bl. <wit>*T</wit></rdg>
+</app>
+<app loc="825.11">
+<rdg>in wol e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="825.12">
+<rdg></rdg>
+</app>
+<app loc="825.13">
+<rdg>daz si (daze <wit>G</wit> Daz <wit>L</wit> daz ez <wit>*T</wit> <wit>I</wit>) rîche unde a. h., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="825.14">
+<rdg>die dâ st. in a. o. <wit>*G</wit> <note>(ohne Z)</note> · alsus mit sch&#x0153;nen worten. <wit>*T</wit></rdg>
+</app>
+<app loc="825.15">
+<rdg></rdg>
+</app>
+<app loc="825.16">
+<rdg>ich sol hie <wit>*G</wit> <note>(nur GI)</note> sol ich diz <wit>*T</wit></rdg>
+</app>
+<app loc="825.17">
+<rdg></rdg>
+</app>
+<app loc="825.18">
+<rdg>wes ich b. (bieten <wit>*T</wit>) wil: <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="825.19">
+<rdg></rdg>
+</app>
+<app loc="825.20">
+<rdg></rdg>
+</app>
+<app loc="825.21">
+<rdg>vr. erborn, <wit>*G</wit> vrâgen e., <wit>*T</wit></rdg>
+</app>
+<app loc="825.22">
+<rdg></rdg>
+</app>
+<app loc="825.23">
+<rdg>sît (<subst><del>Si*</del><add>Sint</add></subst> <wit>U</wit>) ir n. (mich <wit>I</wit>) vor g. des, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="825.24">
+<rdg>sô wert (warn <wit>I</wit> warnt <wit>L</wit>) m. got, ich w. wol wes." <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="825.25">
+<rdg></rdg>
+</app>
+<app loc="825.26">
+<rdg></rdg>
+</app>
+<app loc="825.27">
+<rdg></rdg>
+</app>
+<app loc="825.28">
+<rdg>und daz niemer ü., <wit>*T</wit></rdg>
+</app>
+<app loc="825.29">
+<rdg></rdg>
+</app>
+<app loc="825.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

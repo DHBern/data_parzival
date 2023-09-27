@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 320</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 320.01"><seg type="Initiale">S</seg>în muot stuont hôch, doch jâmers vol.</l>
+<l n="*D 320.02">die bêde schanze ich nennen sol:</l>
+<l n="*D 320.03">hôchvart riet sîn manheit,</l>
+<l n="*D 320.04">jâmer lêrt in herzen leit.</l>
+<l n="*D 320.05"><seg type="Initiale" subtype="Majuskel">E</seg>r reit ûzen z<corr type="Emendation">uo</corr>me ringe.</l>
+<l n="*D 320.06">ob man in dâ iht dringe?</l>
+<l n="*D 320.07">vil knappen spranc dar nâher sân;</l>
+<l n="*D 320.08">dô enpfiengen si den werden man.</l>
+<l n="*D 320.09">sîn schilt unt er wâren unbekant;</l>
+<l n="*D 320.10">den helm er niht von im bant.</l>
+<l n="*D 320.11"><seg type="Initiale" subtype="Majuskel">D</seg>er vreuden ellende</l>
+<l n="*D 320.12">truoc daz swert in sîner hende,</l>
+<l n="*D 320.13">bedecket mit der scheiden.</l>
+<l n="*D 320.14">dô vrâgter nâch in beiden:</l>
+<l n="*D 320.15">"wâ ist <name type="Person">Artus</name> unt <name type="Person">Gawan</name>?"</l>
+<l n="*D 320.16">junchêrren zeigten im die sân.</l>
+<l n="*D 320.17"><seg type="Initiale" subtype="Majuskel">S</seg>us gieng er durch den rinc wît.</l>
+<l n="*D 320.18">tiwer was sîn kursît,</l>
+<l n="*D 320.19">mit liehtem pfelle wol gevar.</l>
+<l n="*D 320.20">vür den wirt des ringes schar</l>
+<l n="*D 320.21">stuont er unt sprach alsus:</l>
+<l n="*D 320.22">"got halde den künec <name type="Person">Artus</name>,</l>
+<l n="*D 320.23">dar zuo vrowen unt man.</l>
+<l n="*D 320.24">swaz ich der hie gesehen hân,</l>
+<l n="*D 320.25">den biut ich dienstlîchen gruoz.</l>
+<l n="*D 320.26">wan einem tuot mîn dienst buoz,</l>
+<l n="*D 320.27">im enwirt dienst nimer schîn.</l>
+<l n="*D 320.28">ich wil bî sîme hazze sîn.</l>
+<l n="*D 320.29">swaz hazzes er geleisten mac,</l>
+<l n="*D 320.30">mîn haz im biutet hazzes slac.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <note>(320.12-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="320.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="320.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="320.09"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="320.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="320.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="320.17"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>Z</wit>
+</rdg></app><app loc="320.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="320.01">
+<lem>stuont</lem> <rdg>was <wit>*m</wit></rdg>
+</app>
+<app loc="320.05">
+<lem>ûzen</lem> <rdg>ûz <wit>*m</wit></rdg>
+</app>
+<app loc="320.05">
+<lem>zuome</lem> <rdg>zo&#x036E;me <wit>D</wit></rdg>
+</app>
+<app loc="320.21">
+<lem>stuont er</lem> <rdg>er stuont <wit>*m</wit></rdg>
+</app>
+<app loc="320.27">
+<rdg>dem wirt mîn dienest nimer schîn. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="320.01">
+<rdg></rdg>
+</app>
+<app loc="320.02">
+<rdg></rdg>
+</app>
+<app loc="320.03">
+<rdg></rdg>
+</app>
+<app loc="320.04">
+<rdg></rdg>
+</app>
+<app loc="320.05">
+<rdg></rdg>
+</app>
+<app loc="320.06">
+<rdg></rdg>
+</app>
+<app loc="320.07">
+<rdg>vil junchêrren sp. <wit>*T</wit></rdg>
+</app>
+<app loc="320.08">
+<rdg></rdg>
+</app>
+<app loc="320.09">
+<rdg></rdg>
+</app>
+<app loc="320.10">
+<rdg></rdg>
+</app>
+<app loc="320.11">
+<rdg>der vröuden e., <wit>*T</wit></rdg>
+</app>
+<app loc="320.12">
+<rdg>daz sw. tr. er (<note>om.</note> <wit>U</wit>) an der (in siner <wit>V</wit>) h., <wit>*T</wit></rdg>
+</app>
+<app loc="320.13">
+<rdg>verdecket mit (in <wit>I</wit>) der sch. <wit>*G</wit></rdg>
+</app>
+<app loc="320.14">
+<rdg></rdg>
+</app>
+<app loc="320.15">
+<rdg></rdg>
+</app>
+<app loc="320.16">
+<rdg>Vil j. <wit>*T</wit></rdg>
+</app>
+<app loc="320.17">
+<rdg>er vür (<subst><del>*</del><add>durch</add></subst> <wit>V</wit>) den r. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="320.18">
+<rdg></rdg>
+</app>
+<app loc="320.19">
+<rdg></rdg>
+</app>
+<app loc="320.20">
+<rdg>w. (<subst><del>*</del><add>wirt</add></subst> <wit>T</wit> kv́nig <wit>V</wit>) in des r. <wit>*T</wit></rdg>
+</app>
+<app loc="320.21">
+<rdg></rdg>
+</app>
+<app loc="320.22">
+<rdg>k. A. <wit>*T</wit></rdg>
+</app>
+<app loc="320.23">
+<rdg>unde dar <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr22</wit>)</rdg>
+</app>
+<app loc="320.24">
+<rdg>hie ersehen hân, <wit>*G</wit> <note>(ohne ILZ)</note></rdg>
+</app>
+<app loc="320.25">
+<rdg>dem b. (Den bieden <wit>U</wit>) <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="320.26">
+<rdg>wan e. tuon ich dienstes (einem dem tv&#x0366;n ich dienst <wit>V</wit>) b., <wit>*T</wit></rdg>
+</app>
+<app loc="320.27">
+<rdg>dem wirt mîn d. nimmer (meiner <wit>V</wit>) sch. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="320.28">
+<rdg></rdg>
+</app>
+<app loc="320.29">
+<rdg></rdg>
+</app>
+<app loc="320.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

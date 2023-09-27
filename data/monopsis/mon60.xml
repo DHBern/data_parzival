@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 60</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 60.01">der wolde, als in sîn hêrre bat,</l>
+<l n="*D 60.02">herberge n<corr type="Emendation">e</corr>men in der stat.</l>
+<l n="*D 60.03">dô was im snellîchen gâch.</l>
+<l n="*D 60.04">man zôch im soum&#x00E6;re nâch.</l>
+<l n="*D 60.05">sîn ouge nind<reg type="Synkope">e</reg>r hûs dâ sach,</l>
+<l n="*D 60.06">schilde w<corr type="Emendation">&#x00E6;</corr>ren sîn and<reg type="Synkope">e</reg>r dach</l>
+<l n="*D 60.07">unt die wende gar behangen</l>
+<l n="*D 60.08">mit spern al umbevangen.</l>
+<l n="*D 60.09"><seg type="Initiale" subtype="Majuskel">D</seg>iu künegîn von <name type="Ort">Waleis</name></l>
+<l n="*D 60.10">gesprochen hete ze <name type="Ort">Kanvoleis</name></l>
+<l n="*D 60.11">einen turnei alsô gezilt,</l>
+<l n="*D 60.12">des manegen zagen noch bevilt,</l>
+<l n="*D 60.13">swâ er dem gelîche werb<reg type="Synkope">e</reg>n siht,</l>
+<l n="*D 60.14">von sîner hant es niht geschiht.</l>
+<l n="*D 60.15">si was ein mag<reg type="Synkope">e</reg>t unt niht ein wîp</l>
+<l n="*D 60.16">unt bôt zwei lant unt ir lîp,</l>
+<l n="*D 60.17">swer dâ den prîs bezalte.</l>
+<l n="*D 60.18">diz m&#x00E6;re manegen valte</l>
+<l n="*D 60.19">hinderz ors ûf den sâmen.</l>
+<l n="*D 60.20">die solch gevelle nâmen,</l>
+<l n="*D 60.21">ir schanze wart gein vlust gesag<reg type="Synkope">e</reg>t.</l>
+<l n="*D 60.22">des pflâgen helde unverzag<reg type="Synkope">e</reg>t.</l>
+<l n="*D 60.23">si tâten rîters ellen schîn.</l>
+<l n="*D 60.24">mit hurteclîcher rabbîn</l>
+<l n="*D 60.25">wart dâ manec ors ersprenget</l>
+<l n="*D 60.26">unt swerte vil erklenget.</l>
+<l n="*D 60.27"><seg type="Initiale"><corr type="Emendation">E</corr></seg>in schifbrücke ûf einem plân</l>
+<l n="*D 60.28">gieng über einen wazzers trân,</l>
+<l n="*D 60.29">mit einem tor beslozzen.</l>
+<l n="*D 60.30">ein knappe unverdrozzen</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(60.1-27)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit> <note>(ohne 60.4 und 13-14, mit 60.6¹)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="60.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="60.03"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+<app loc="60.09"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>U</wit>
+</rdg></app><app loc="60.09"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="60.12"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="60.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="60.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="60.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit><wit>Z</wit> <wit>U</wit>
+</rdg></app><app loc="60.27"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="60.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="60.02">
+<lem>nemen</lem> <rdg>ni&#x0364;men <wit>D</wit></rdg>
+</app>
+<app loc="60.02">
+<lem>in</lem> <rdg><seg type="singuläre_Lesart">an</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="60.06">
+<lem>w&#x00E6;ren</lem> <rdg>wâren <wit>D</wit></rdg>
+</app>
+<app loc="60.07">
+<rdg>unde die (<note>om.</note> <wit>L</wit>) wende alsam behangen (wende al umb hangen <wit>I</wit> <subst><del>hende</del><add>bende</add></subst> alsam behangen <wit>O</wit> <subst><del>*</del><add>wende alsam behangen</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="60.15">
+<rdg>si was ein maget, niht ein wîp <wit>*m</wit></rdg>
+</app>
+<app loc="60.20">
+<lem>solch</lem> <rdg>solichiu <wit>*m</wit></rdg>
+</app>
+<app loc="60.27">
+<lem>Ein</lem> <rdg>&#x00F7;in <wit>D</wit></rdg>
+</app>
+<app loc="60.27">
+<lem>einem</lem> <rdg>einen <wit>*m</wit></rdg>
+</app>
+<app loc="60.28">
+<lem>einen</lem> <rdg>eines <wit>*m</wit></rdg>
+</app>
+<app loc="60.30">
+<lem>ein</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="60.01">
+<rdg>der (er <wit>I</wit> [<wit>O</wit>] <wit>Z</wit>) solt, als <wit>*G</wit> er solt tuon (<note>om.</note> <wit>V</wit> <wit>T</wit>), als <wit>*T</wit></rdg>
+</app>
+<app loc="60.02">
+<rdg></rdg>
+</app>
+<app loc="60.03">
+<rdg></rdg>
+</app>
+<app loc="60.04">
+<rdg></rdg>
+</app>
+<app loc="60.05">
+<rdg></rdg>
+</app>
+<app loc="60.06">
+<rdg>schilte, die w. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="60.07">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="60.08">
+<rdg>mit sp. gar u. (bevangen <wit>T</wit>). <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) · al <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="60.09">
+<rdg></rdg>
+</app>
+<app loc="60.10">
+<rdg>g. h. vor (<subst><del>*</del><add>vor</add></subst> <wit>V</wit>) Kanvoleiz <wit>*G</wit> <note>(nur GIL)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="60.11">
+<rdg></rdg>
+</app>
+<app loc="60.12">
+<rdg></rdg>
+</app>
+<app loc="60.13">
+<rdg>wenner die (<subst><del>*</del><add>Swa er dem</add></subst> <wit>V</wit>) glîch w. s., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="60.14">
+<rdg></rdg>
+</app>
+<app loc="60.15">
+<rdg>m., n. ein wîp. <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="60.16">
+<rdg>si bôt <wit>*G</wit> <note>(ohne Z)</note> diu bôt <wit>*T</wit> (<wit>O</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="60.17">
+<rdg>der dâ <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="60.18">
+<rdg></rdg>
+</app>
+<app loc="60.19">
+<rdg></rdg>
+</app>
+<app loc="60.20">
+<rdg>solichiu (<subst><del>*</del><add>solich</add></subst> <wit>V</wit> sollich <wit>T</wit>) <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="60.21">
+<rdg>der sch. (ganze <wit>U</wit>) w. ze vl. (zefluse <wit>Fr21</wit> <subst><del>*</del><add>zer fluht</add></subst> <wit>V</wit>) g. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="60.22">
+<rdg></rdg>
+</app>
+<app loc="60.23">
+<rdg></rdg>
+</app>
+<app loc="60.24">
+<rdg></rdg>
+</app>
+<app loc="60.25">
+<rdg></rdg>
+</app>
+<app loc="60.26">
+<rdg></rdg>
+</app>
+<app loc="60.27">
+<rdg>an (vber <wit>I</wit>) einen pl. <wit>*G</wit> (<wit>V</wit>) an eime (zeinem <wit>T</wit>) pl. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="60.28">
+<rdg>eines <wit>*T</wit> <note>(ohne V)</note> (<wit>I</wit>) <wit>L</wit></rdg>
+</app>
+<app loc="60.29">
+<rdg></rdg>
+</app>
+<app loc="60.30">
+<rdg>der kn. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

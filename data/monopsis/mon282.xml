@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 282</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 282.01"><seg type="Initiale">D</seg>ie naht bî <name type="Person">Parzivale</name> er stuont,</l>
+<l n="*D 282.02">dâ in bêden was der walt unkunt</l>
+<l n="*D 282.03">unt dâ si bêde sêre vrôs.</l>
+<l n="*D 282.04">dô <name type="Person">Parzival</name> den tac erkôs,</l>
+<l n="*D 282.05">im was versnît sîn pfades ban.</l>
+<l n="*D 282.06">vil ungevertes reit er dan</l>
+<l n="*D 282.07">über ronen unt üb<reg type="Synkope">e</reg>r manegen stein.</l>
+<l n="*D 282.08">der tac ie lanc h&#x0153;her schein.</l>
+<l n="*D 282.09">ouch begunde liuhten sich der walt,</l>
+<l n="*D 282.10">wan daz ein rone was gevalt</l>
+<l n="*D 282.11">ûf einem plân, zuo dem er sleich</l>
+<l n="*D 282.12">- <name type="Person">Artus<reg type="Synkope">e</reg>s</name> valke al mite streich -,</l>
+<l n="*D 282.13">dâ wol tûsent gense lâgen.</l>
+<l n="*D 282.14">dâ wart ein michel gâgen.</l>
+<l n="*D 282.15">mit hurte vloug er und<reg type="Synkope">e</reg>r sie,</l>
+<l n="*D 282.16">der valke, unt sluog ir eine hie,</l>
+<l n="*D 282.17">daz si im harte kûme enbrast</l>
+<l n="*D 282.18">und<reg type="Synkope">e</reg>r des gevallen ronen ast.</l>
+<l n="*D 282.19">an ir hôhem vluge wart ir wê.</l>
+<l n="*D 282.20">ûz ir wunden ûfen snê</l>
+<l n="*D 282.21">vielen drî bluot<reg type="Synkope">e</reg>s zeher rôt,</l>
+<l n="*D 282.22">die <name type="Person">Parzivalen</name> vuogten nôt.</l>
+<l n="*D 282.23">von sînen triwen daz geschach.</l>
+<l n="*D 282.24">dô er die bluot<reg type="Synkope">e</reg>s zeher sach</l>
+<l n="*D 282.25">ûf dem snêwe - der was al wîz -,</l>
+<l n="*D 282.26">dô dâht er: "wer hât sînen vlîz</l>
+<l n="*D 282.27">gewendet an dise varwe clâr?</l>
+<l n="*D 282.28"><name type="Person">Condwiramurs</name>, sich mac vür wâr</l>
+<l n="*D 282.29">disiu varwe dir gelîchen.</l>
+<l n="*D 282.30">mich wil got s&#x00E6;lden rîchen,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr30</wit> <note>(282.1-11 und 13-30; Verweiszeichen nach 282.11; ggf. nachgetragener Vers fehlt wegen Beschnitts)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="282.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="282.07"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>Fr30</wit>
+</rdg></app>
+<app loc="282.26"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="282.05">
+<lem>sîn</lem> <rdg>sînes <wit>*m</wit></rdg>
+</app>
+<app loc="282.07">
+<lem>ronen</lem> <rdg>rone (<subst><del>ron*</del><add>ronen</add></subst> <wit>U</wit>) <wit>*m</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="282.08">
+<lem>lanc</lem> <rdg>mitten <wit>*m</wit></rdg>
+</app>
+<app loc="282.09">
+<rdg>ouch gebunde liuhten sich der walt. <wit>*m</wit></rdg>
+</app>
+<app loc="282.10">
+<rdg>daz was (<subst><del>*</del><add>Da waz</add></subst> <wit>V</wit>) ein rone dâ (<subst><del>d*z</del><add>da</add></subst> <wit>V</wit>) gevalt <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="282.17">
+<rdg>So harte daz si im chv&#x0366;me enbrast <wit>O</wit></rdg>
+</app>
+<app loc="282.30">
+<lem>mich wil</lem> <rdg>wil mich <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="282.01">
+<rdg></rdg>
+</app>
+<app loc="282.02">
+<rdg></rdg>
+</app>
+<app loc="282.03">
+<rdg></rdg>
+</app>
+<app loc="282.04">
+<rdg></rdg>
+</app>
+<app loc="282.05">
+<rdg>sînes (des <wit>O</wit> [<wit>L</wit>]) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="282.06">
+<rdg></rdg>
+</app>
+<app loc="282.07">
+<rdg>unde manigen st. <wit>*G</wit> <note>(nur GI)</note> unde über st. <wit>*T</wit> <note>(nur T)</note> (<wit>Fr30</wit>)</rdg>
+</app>
+<app loc="282.08">
+<rdg>lanc (<subst><del>*</del><add>lang</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>Fr30</wit></rdg>
+</app>
+<app loc="282.09">
+<rdg>b. erliuhten s. <wit>*T</wit></rdg>
+</app>
+<app loc="282.10">
+<rdg></rdg>
+</app>
+<app loc="282.11">
+<rdg>ûf einen <wit>*G</wit> <wit>*T</wit> · pl., dâ zuo er sl. <wit>*T</wit></rdg>
+</app>
+<app loc="282.12">
+<rdg>- A. v. mit (mit im <wit>I</wit> <wit>O</wit> <wit>L</wit> al mit <wit>Z</wit> <subst><del>*</del><add>mit imme</add></subst> <wit>V</wit>) st. -, <wit>*G</wit></rdg>
+</app>
+<app loc="282.13">
+<rdg></rdg>
+</app>
+<app loc="282.14">
+<rdg>m. bâgen (gragen <wit>O</wit>). <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="282.15">
+<rdg></rdg>
+</app>
+<app loc="282.16">
+<rdg>der v. sl. ir e. hie, <wit>*T</wit></rdg>
+</app>
+<app loc="282.17">
+<rdg>sô daz &#x2193;<wit>*G</wit> <note>(ohne Z)</note> alsô daz <wit>*T</wit> · harte <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>Fr30</wit></rdg>
+</app>
+<app loc="282.18">
+<rdg></rdg>
+</app>
+<app loc="282.19">
+<rdg>w. ir sô wê, <wit>*T</wit></rdg>
+</app>
+<app loc="282.20">
+<rdg>daz ûz <wit>*T</wit></rdg>
+</app>
+<app loc="282.21">
+<rdg></rdg>
+</app>
+<app loc="282.22">
+<rdg></rdg>
+</app>
+<app loc="282.23">
+<rdg></rdg>
+</app>
+<app loc="282.24">
+<rdg></rdg>
+</app>
+<app loc="282.25">
+<rdg></rdg>
+</app>
+<app loc="282.26">
+<rdg></rdg>
+</app>
+<app loc="282.27">
+<rdg></rdg>
+</app>
+<app loc="282.28">
+<rdg>C., jâ (io <wit>I</wit> <wit>L</wit>) mac vür wâr <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="282.29">
+<rdg>dir wol glîchen. <wit>*T</wit></rdg>
+</app>
+<app loc="282.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

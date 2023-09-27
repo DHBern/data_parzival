@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 395</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 395.01"><name type="Person"><seg type="Initiale"><corr type="Emendation">L</corr></seg>yppaut</name>, sîn wîp, sîniu kint.</l>
+<l n="*D 395.02">ûf giengen die dâ komen sint.</l>
+<l n="*D 395.03">der wirt gein sîme hêrr<reg type="Synkope">e</reg>n spranc.</l>
+<l n="*D 395.04">ûf dem palase was grôz gedranc,</l>
+<l n="*D 395.05">dâ er den vîent unt die vriw<reg type="Synkope">e</reg>nde enpfienc.</l>
+<l n="*D 395.06"><name type="Person">Melyanz</name> bî <name type="Person">Gawane</name> gienc.</l>
+<l n="*D 395.07">"kundez iu niht versmâhen,</l>
+<l n="*D 395.08">mit kusse iuch wolde enpfâhen</l>
+<l n="*D 395.09">iwer altiu vriwendîn,</l>
+<l n="*D 395.10">ich meine mîn wîp, die herzogîn."</l>
+<l n="*D 395.11"><name type="Person">Melyanz</name> antwurte dem wirte sân:</l>
+<l n="*D 395.12">"ich wil gern ir kus mit gruoze hân,</l>
+<l n="*D 395.13">zwei<reg type="Synkope">e</reg>r vrouwen, die ich hie sihe,</l>
+<l n="*D 395.14">der dritten ich niht suone gihe."</l>
+<l n="*D 395.15">des weinten die eltern dô.</l>
+<l n="*D 395.16"><name type="Person">Obilot</name> was vil vrô.</l>
+<l n="*D 395.17"><seg type="Initiale" subtype="Majuskel">D</seg>er künec mit kusse enpfangen wart</l>
+<l n="*D 395.18">unt zwêne and<reg type="Synkope">e</reg>r künege âne bart,</l>
+<l n="*D 395.19">als tet der herzoge <name type="Person">Marangliez</name>.</l>
+<l n="*D 395.20"><name type="Person">Gawan<reg type="Synkope">e</reg>n</name> man kusses ouch niht erliez</l>
+<l n="*D 395.21">unt daz er n&#x00E6;me sîne vrouwen dar.</l>
+<l n="*D 395.22">er dructe daz kint wol gevar</l>
+<l n="*D 395.23">als eine tocken an sîne brust.</l>
+<l n="*D 395.24">des twang in vriwentlîch gelust.</l>
+<l n="*D 395.25">hin ze <name type="Person">Melyanze</name> er sprach:</l>
+<l n="*D 395.26">"iwer hant mir sicherheite jach.</l>
+<l n="*D 395.27">der sît nû ledec unt gebt si her.</l>
+<l n="*D 395.28">aller mîner vreuden wer</l>
+<l n="*D 395.29">sitzet an dem arme mîn.</l>
+<l n="*D 395.30">ir gevangen sult ir sîn."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="395.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit>
+</rdg></app>
+<app loc="395.03"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="395.06"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="395.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="395.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="395.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="395.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="395.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="395.25"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="395.01">
+<lem>Lyppaut</lem> <rdg>&#x00F7;yppaot <note>nachträglich korrigiert zu:</note> Lyppaot <wit>D</wit></rdg>
+</app>
+<app loc="395.01">
+<lem>wîp</lem> <rdg>wîp und <wit>*m</wit></rdg>
+</app>
+<app loc="395.05">
+<rdg>dâ er die (daz er <wit>I</wit> Da er <wit>L</wit>) vînde unde (vnde die <wit>G</wit>) vriunde enpfienc. <wit>*G</wit></rdg>
+</app>
+<app loc="395.05">
+<rdg>dâ er vîent unde vriunt enpfienc. <wit>*T</wit></rdg>
+</app>
+<app loc="395.05">
+<lem>die vriwende</lem> <rdg>den vriunt <wit>*m</wit></rdg>
+</app>
+<app loc="395.08">
+<rdg>mit kusse iuch wolte enpfâhen, <wit>*m</wit></rdg>
+</app>
+<app loc="395.09">
+<rdg>hêrre, iuwer altiu vriundîn, <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="395.12">
+<lem>gruoze</lem> <rdg>grüezen <wit>*m</wit></rdg>
+</app>
+<app loc="395.16">
+<lem>vil</lem> <rdg>vaste <wit>*m</wit></rdg>
+</app>
+<app loc="395.20">
+<rdg>Gawan man kusses (man chussens <wit>I</wit> [<wit>V</wit>] kvsses man <wit>L</wit>) ê (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>) niht erliez (enliez <wit>I</wit>) <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="395.20">
+<rdg>Gawanen küssens man niht erliez. <wit>*T</wit></rdg>
+</app>
+<app loc="395.30">
+<rdg>Jr svlt ir gevangen sin <wit>Z</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="395.01">
+<rdg>Der wirt, sîn wîp unde (<note>om.</note> <wit>*T</wit> <note>[nur T]</note>) s. k. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="395.02">
+<rdg>vür g. (Gein den <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="395.03">
+<rdg>Libaut g. <wit>*G</wit> Lybaut ûf (<note>om.</note> <wit>V</wit>) gegen <wit>*T</wit></rdg>
+</app>
+<app loc="395.04">
+<rdg>ûf dem p. (den palas <wit>*T</wit> <note>[nur T]</note>) wart (was so <wit>I</wit>) gr. g., <wit>*G</wit> (<wit>*T</wit>) <note>(nur T)</note></rdg>
+</app>
+<app loc="395.05">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="395.06">
+<rdg>Gawan bî Melianze g. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="395.07">
+<rdg>"Kunder iu <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="395.08">
+<rdg>mit k. iu solte nâhen <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="395.09">
+<rdg></rdg>
+</app>
+<app loc="395.10">
+<rdg>wîp, diu h." <wit>*T</wit></rdg>
+</app>
+<app loc="395.11">
+<rdg></rdg>
+</app>
+<app loc="395.12">
+<rdg>gern <note>om.</note> <wit>*G</wit> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="395.13">
+<rdg>vr., der ich <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="395.14">
+<rdg></rdg>
+</app>
+<app loc="395.15">
+<rdg>elteren (elter <wit>O</wit>) bêde dô. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="395.16">
+<rdg>O. was vaste vrô (fro&#x036E; <wit>G</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="395.17">
+<rdg></rdg>
+</app>
+<app loc="395.18">
+<rdg>âne b. <wit>*T</wit></rdg>
+</app>
+<app loc="395.19">
+<rdg>unde der h. M. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="395.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="395.21">
+<rdg>unde er n. (nant im auch <wit>I</wit> n&#x00E6;me ovch <wit>O</wit> [<wit>L</wit> <wit>Z</wit>]) <wit>*G</wit> <note>(ohne Z)</note> er nam ouch <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="395.22">
+<rdg></rdg>
+</app>
+<app loc="395.23">
+<rdg>als ein tockelîn an s. br. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="395.24">
+<rdg></rdg>
+</app>
+<app loc="395.25">
+<rdg>G. ze Melianze sp.: <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="395.26">
+<rdg>sicherheit verjach. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="395.27">
+<rdg></rdg>
+</app>
+<app loc="395.28">
+<rdg></rdg>
+</app>
+<app loc="395.29">
+<rdg></rdg>
+</app>
+<app loc="395.30">
+<rdg>der g. &#x2193;<wit>*G</wit> (<wit>*T</wit>) · s. ir nû sîn." <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

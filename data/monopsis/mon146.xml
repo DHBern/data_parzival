@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 146</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 146.01">stuont ein kopf vil wol ergrab<reg type="Synkope">e</reg>n,</l>
+<l n="*D 146.02">ob tavelrunde ûf erhab<reg type="Synkope">e</reg>n.</l>
+<l n="*D 146.03">blanc was sîn vel, rôt was sîn hâr.</l>
+<l n="*D 146.04">der sprach zem knappen sund<reg type="Synkope">e</reg>r vâr:</l>
+<l n="*D 146.05">"geêrt sî dîn süezer lîp.</l>
+<l n="*D 146.06">dich brâht zer werlde ein reine wîp.</l>
+<l n="*D 146.07">ôwol der muot<reg type="Synkope">e</reg>r, diu dich gebar!</l>
+<l n="*D 146.08">ine gesach nie lîp sô wol gevar.</l>
+<l n="*D 146.09">dû bist der wâren minne blic,</l>
+<l n="*D 146.10">ir schumpfentiw<reg type="Synkope">e</reg>r unt ir sic.</l>
+<l n="*D 146.11">vil wîbes vreude an dir gesigt,</l>
+<l n="*D 146.12">dar nâch dir jâm<reg type="Synkope">e</reg>r sw&#x00E6;rer wigt.</l>
+<l n="*D 146.13"><seg type="Initiale" subtype="Majuskel">L</seg>ieber vriunt, wil dû dâ hin în,</l>
+<l n="*D 146.14">sô sage mir durch den dienest mîn</l>
+<l n="*D 146.15">dem künege unt al den sînen,</l>
+<l n="*D 146.16">ine sule niht vlühtic schînen.</l>
+<l n="*D 146.17">ich wil hie gerne beiten,</l>
+<l n="*D 146.18">swer zer tjost sich sol bereiten.</l>
+<l n="*D 146.19"><seg type="Initiale">I</seg>r neheiner habz vür wunder.</l>
+<l n="*D 146.20">ich reit vür tavelrunder,</l>
+<l n="*D 146.21">mîn<reg type="Synkope">e</reg>s landes ich mich underwant.</l>
+<l n="*D 146.22">disen kopf mîn ungevüegiu hant</l>
+<l n="*D 146.23">ûf zucte, daz der wîn vergôz</l>
+<l n="*D 146.24">vroun <name type="Person">Ginovern</name> in ir schôz.</l>
+<l n="*D 146.25">underwinden mich daz lêrte.</l>
+<l n="*D 146.26">ob ich schoube umbe kêrte,</l>
+<l n="*D 146.27">sô würde ruozec mir mîn vel.</l>
+<l n="*D 146.28">daz meit ich", sprach der degen snel.</l>
+<l n="*D 146.29">"<seg type="Initiale" subtype="Majuskel">I</seg>ne hânz ouch niht durch roup getân,</l>
+<l n="*D 146.30">des hât mîn krône mich erlân.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="146.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="146.13"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="146.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="146.19"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="146.29"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="146.29"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="146.02">
+<lem>ob</lem> <rdg>ob der <wit>*m</wit></rdg>
+</app>
+<app loc="146.11">
+<lem>gesigt</lem> <rdg>liget <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="146.12">
+<rdg>nâch dir ir jâmer sw&#x00E6;re wiget. <wit>*m</wit></rdg>
+</app>
+<app loc="146.13">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="146.15">
+<rdg>künic Artuse und den sînen, <wit>*m</wit></rdg>
+</app>
+<app loc="146.17">
+<lem>wil</lem> <rdg>wil sîn <wit>*m</wit></rdg>
+</app>
+<app loc="146.18">
+<rdg>wer sich dar zer just wil bereiten. <wit>*m</wit></rdg>
+</app>
+<app loc="146.29">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit> <wit>L</wit> <wit>T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="146.01">
+<rdg></rdg>
+</app>
+<app loc="146.02">
+<rdg>ûf (ob <wit>V</wit> <wit>T</wit>) der tavelrunder ûf e. <wit>*T</wit></rdg>
+</app>
+<app loc="146.03">
+<rdg>bl. was sîn vel und rôt (<subst><del>*</del><add>rot waz</add></subst> <wit>V</wit>) sîn hâr (rot <wit>Z</wit>). <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="146.04">
+<rdg>er sp. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="146.05">
+<rdg></rdg>
+</app>
+<app loc="146.06">
+<rdg></rdg>
+</app>
+<app loc="146.07">
+<rdg></rdg>
+</app>
+<app loc="146.08">
+<rdg></rdg>
+</app>
+<app loc="146.09">
+<rdg></rdg>
+</app>
+<app loc="146.10">
+<rdg>ir âventiure und ir sic. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="146.11">
+<rdg></rdg>
+</app>
+<app loc="146.12">
+<rdg>n. der j. (kvmber <wit>L</wit>) sw&#x00E6;re <wit>*G</wit> n. dir (<subst><del>d*</del><add>der</add></subst> <wit>V</wit> ir <wit>T</wit>) j. sw&#x00E6;re <wit>*T</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="146.13">
+<rdg>dâ <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="146.14">
+<rdg>mir <note>om.</note> <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="146.15">
+<rdg>Artuse und den s. (snein <wit>U</wit>), <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="146.16">
+<rdg>ich ensol (ichn welle <wit>T</wit>) n. <wit>*T</wit></rdg>
+</app>
+<app loc="146.17">
+<rdg>ich sol ir (wil <subst><del>i*</del><add>hie</add></subst> <wit>V</wit>) g. b., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="146.18">
+<rdg>sich (<note>om.</note> <wit>Z</wit>) wil (sol <wit>Z</wit>) b. <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="146.19">
+<rdg>ir dekeiner hât ez vür (<note>om.</note> <wit>V</wit>) w. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="146.20">
+<rdg>vür die t. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="146.21">
+<rdg></rdg>
+</app>
+<app loc="146.22">
+<rdg></rdg>
+</app>
+<app loc="146.23">
+<rdg>ûf zôch (<subst><del>V*</del><add>Vf zvhte</add></subst> <wit>V</wit>), <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="146.24">
+<rdg></rdg>
+</app>
+<app loc="146.25">
+<rdg></rdg>
+</app>
+<app loc="146.26">
+<rdg></rdg>
+</app>
+<app loc="146.27">
+<rdg></rdg>
+</app>
+<app loc="146.28">
+<rdg></rdg>
+</app>
+<app loc="146.29">
+<rdg></rdg>
+</app>
+<app loc="146.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

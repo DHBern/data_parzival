@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 71</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 71.901">brâhte mit ir minne.</l>
+<l n="*D 71.902">diu werde küneginne</l>
+<l n="*D 71.903">hete al dar nâch im gesant,</l>
+<l n="*D 71.904">ob er noch wid<reg type="Synkope">e</reg>r inz lant</l>
+<l n="*D 71.905">w&#x00E6;re kom<reg type="Synkope">e</reg>n von der heidenschaft.</l>
+<l n="*D 71.906">des twanc si grôzer liebe kraft.</l>
+<l n="*D 71.07"><seg type="Initiale"><corr type="Emendation">E</corr></seg>in wâpenroc was harte wît.</l>
+<l n="*D 71.08">ich w&#x00E6;ne, keinen sô guoten sît</l>
+<l n="*D 71.09">iemen ze strîte vuorte.</l>
+<l n="*D 71.10">des lenge den teppech ruorte.</l>
+<l n="*D 71.11">ob ich in geprüeven künne,</l>
+<l n="*D 71.12">er schein, als ob hie brünne</l>
+<l n="*D 71.13">bî der naht ein queckez viwer.</l>
+<l n="*D 71.14">verblichen varwe was im tiwer.</l>
+<l n="*D 71.15">sîn glast die blicke niht vermeit.</l>
+<l n="*D 71.16">ein b&#x0153;sez ouge sich dran versneit.</l>
+<l n="*D 71.17">mit golde er gebildet was,</l>
+<l n="*D 71.18">da<corr type="Emendation">z</corr> zer muntâne an <name type="Ort">Koukasas</name></l>
+<l n="*D 71.19">ab einem velse zarten</l>
+<l n="*D 71.20"><seg type="Initiale" subtype="Majuskel">G</seg>rîfen klâ, diez dâ bewarten</l>
+<l n="*D 71.21">unt ez noch hiute al dâ bewarent.</l>
+<l n="*D 71.22">von <name type="Ort">Arabi</name> liute varent,</l>
+<l n="*D 71.23">die erwerbent ez mit listen dâ</l>
+<l n="*D 71.24">- sô tiwerz ist nind<reg type="Synkope">e</reg>r and<reg type="Synkope">e</reg>rswâ -</l>
+<l n="*D 71.25">unt bringent ez wid<reg type="Synkope">e</reg>r z<name type="Ort">Arabi</name>,</l>
+<l n="*D 71.26">dâ man di<corr type="Emendation">u</corr> grüenen achmardî</l>
+<l n="*D 71.27">würket unt die pfellel rîch.</l>
+<l n="*D 71.28">and<reg type="Synkope">e</reg>r<reg type="Synkope">e</reg>r w&#x00E6;te ist er vil ungelîch.</l>
+<l n="*D 71.29">den schilt nam er ze halse sân.</l>
+<l n="*D 71.30">hie stuont ein ors vil wolgetân,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 71.15-16)</note> <wit>I</wit> <note>(ohne 71.15-16)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="71.901"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="71.07"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="71.07"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="71.14"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="71.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="71.20"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="71.29"><rdg>
+<note>Überschrift:</note> Hie nimt er schilt vnd sper in die hant <wit>Z</wit>
+</rdg></app><app loc="71.29"><rdg><note>Initiale</note> <wit>L</wit><wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="71.07">
+<lem>Ein</lem> <rdg>&#x00F7;in <wit>D</wit> sîn <wit>*m</wit></rdg>
+</app>
+<app loc="71.11">
+<rdg>obe ich ez (den <wit>*T</wit>) gebrüeven (rehte bru&#x0364;ven <wit>I</wit>) kunde (künne <wit>*T</wit> [<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>]), <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) <note>(ohne T)</note></rdg>
+</app>
+<app loc="71.11">
+<lem>geprüeven</lem> <rdg>brüefen <wit>*m</wit></rdg>
+</app>
+<app loc="71.15">
+<rdg>Sin <subst><del>gast</del><add>glast</add></subst> (glast <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) di bliche (pliehe <wit>Fr21</wit>) niht vermeit <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="71.16">
+<rdg>Ein bosez avge sich dran versneit <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="71.18">
+<rdg>zer montâne (daz zemuntange <wit>I</wit> Daz zeder montanie <wit>O</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>]) in (<note>om.</note> <wit>O</wit>) Kausakas <wit>*G</wit></rdg>
+</app>
+<app loc="71.18">
+<rdg>dâ zuo (Da er zu&#x0366; <wit>U</wit> <subst><del>*</del><add>daz der</add></subst> <wit>V</wit> daz ze <wit>T</wit>) montâne in Caucosas <wit>*T</wit></rdg>
+</app>
+<app loc="71.18">
+<lem>daz</lem> <rdg>da <wit>D</wit></rdg>
+</app>
+<app loc="71.19">
+<rdg>abe einem velse zarten. <wit>*G</wit></rdg>
+</app>
+<app loc="71.24">
+<lem>tiwerz ist</lem> <rdg>tiure ez ist <wit>*m</wit></rdg>
+</app>
+<app loc="71.26">
+<lem>diu</lem> <rdg>die <wit>D</wit></rdg>
+</app>
+<app loc="71.28">
+<rdg>anderer were ist er ungelîch. <wit>*m</wit></rdg>
+</app>
+<app loc="71.28">
+<rdg>ander wât ist der (er <wit>O</wit> <wit>L</wit>) vil (<note>om.</note> <wit>O</wit> <wit>Fr21</wit>) ungelîch (anderr wat vngelich so man seit <wit>I</wit>). <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="71.28">
+<rdg>ander (anderre <wit>T</wit>) w&#x00E6;te ist er (ez <wit>T</wit>) ungelîch. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="71.901">
+<rdg>br. in ir (mit ir werden <wit>T</wit>) m. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="71.902">
+<rdg>diu vil w. (div schone <wit>T</wit>) k. <wit>*T</wit></rdg>
+</app>
+<app loc="71.903">
+<rdg>nâch im (darumb <wit>I</wit>) dar <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="71.904">
+<rdg>noch <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="71.905">
+<rdg></rdg>
+</app>
+<app loc="71.906">
+<rdg>ganzer l. kr. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="71.07">
+<rdg>sîn w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="71.08">
+<rdg>ich w. (<note>om.</note> <wit>Z</wit>) niht, daz sô g. sît <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="71.09">
+<rdg></rdg>
+</app>
+<app loc="71.10">
+<rdg>sîn l. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="71.11">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="71.12">
+<rdg>als ob er br. (er hie brvnne <wit>O</wit> <subst><del>*</del><add>brunne</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="71.13">
+<rdg>als (Vnd alz <wit>L</wit>) bî <wit>*T</wit> <note>(nur U)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="71.14">
+<rdg></rdg>
+</app>
+<app loc="71.15">
+<rdg><note>Die Verse 71.15-16 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="71.16">
+<rdg>ein krankez (swachez <wit>T</wit>) ou. <wit>*T</wit></rdg>
+</app>
+<app loc="71.17">
+<rdg>mit g. er wol gebildet <wit>*T</wit> <note>(ohne T)</note> · was <wit>*G</wit></rdg>
+</app>
+<app loc="71.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="71.19">
+<rdg>&#x2193;<wit>*G</wit> · von (Vs <wit>V</wit>) e. v. ez z. (velse zarten <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit> <subst><del>*</del><add>velse zarten</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="71.20">
+<rdg>g. klâ ez dâ b. <wit>*G</wit> <note>(nur G)</note> · g. klâwen (cla <wit>I</wit> [<wit>Z</wit>]), die ez (diez da <wit>T</wit>) b. <wit>*T</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="71.21">
+<rdg>al dâ <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="71.22">
+<rdg></rdg>
+</app>
+<app loc="71.23">
+<rdg></rdg>
+</app>
+<app loc="71.24">
+<rdg>- sô tiure ist ez nirgent (<subst><del>*</del><add>niendern</add></subst> <wit>V</wit> niender <wit>T</wit>) a. - <wit>*T</wit></rdg>
+</app>
+<app loc="71.25">
+<rdg>unde vüerent ez (fvrtens <wit>Z</wit> bringenz <wit>T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="71.26">
+<rdg></rdg>
+</app>
+<app loc="71.27">
+<rdg>die <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="71.28">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="71.29">
+<rdg></rdg>
+</app>
+<app loc="71.30">
+<rdg>dâ st. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

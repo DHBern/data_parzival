@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 29</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 29.01">ir ougen dem herzen sân,</l>
+<l n="*D 29.02">daz er w&#x00E6;re wolgetân.</l>
+<l n="*D 29.03">si kunde ouch liehte varwe spehen,</l>
+<l n="*D 29.04">wan si hete gesehen</l>
+<l n="*D 29.05">manegen liehten <name type="Person">heiden</name>.</l>
+<l n="*D 29.06">al dâ wart under in beiden</l>
+<l n="*D 29.07">ein vil getriulîch ger.</l>
+<l n="*D 29.08">si sach dar unt er sach her.</l>
+<l n="*D 29.09">dar nâch hiez si schenk<corr type="Emendation">en</corr> sân.</l>
+<l n="*D 29.10">torste si, daz w&#x00E6;re verlân.</l>
+<l n="*D 29.11">ez müete si, deiz niht beleip,</l>
+<l n="*D 29.12">wand ez die ritter ie vertreip,</l>
+<l n="*D 29.13">die gerne sprâchen wid<reg type="Synkope">e</reg>r wîp.</l>
+<l n="*D 29.14">doch was ir liep sîn selbes lîp.</l>
+<l n="*D 29.15">ouch het er ir den muot gegeb<reg type="Synkope">e</reg>n:</l>
+<l n="*D 29.16">sîn leb<reg type="Synkope">e</reg>n was der vrouwen leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 29.17"><seg type="Initiale" subtype="Majuskel">D</seg>ô stuont er ûf unt sprach:</l>
+<l n="*D 29.18">"vrouwe, ich tuon iu ungemach.</l>
+<l n="*D 29.19">ich kan ze lange sitzen,</l>
+<l n="*D 29.20">daz entuon ich niht mit witzen.</l>
+<l n="*D 29.21">mir ist vil dienestlîchen leit,</l>
+<l n="*D 29.22">daz iwer kumber ist sô breit.</l>
+<l n="*D 29.23">vrouwe, gebietet über mich.</l>
+<l n="*D 29.24">swâr ir welt, dâr ist mîn gerich.</l>
+<l n="*D 29.25">ich dien iu allez, daz ich sol."</l>
+<l n="*D 29.26">si sprach: "hêrre, des trûwe ich wol."</l>
+<l n="*D 29.27"><seg type="Initiale"><corr type="Emendation">D</corr></seg>er burcgrâve, sîn wir<corr type="Emendation">t</corr>,</l>
+<l n="*D 29.28">nû vil wênic des enbirt,</l>
+<l n="*D 29.29">ern kürze im sîne stunde.</l>
+<l n="*D 29.30">ze vrâgen er begunde,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(29.1)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="29.01"><rdg>
+<note>Initiale</note> <wit>Fr29</wit>
+</rdg></app>
+<app loc="29.17"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="29.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="29.21"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="29.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="29.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="29.01">
+<lem>ougen</lem> <rdg>ouge <wit>*m</wit></rdg>
+</app>
+<app loc="29.04">
+<lem>hete</lem> <rdg>hette ouch ê <wit>*m</wit></rdg>
+</app>
+<app loc="29.07">
+<lem>getriulîch</lem> <rdg>ungetriulîchiu <wit>*m</wit></rdg>
+</app>
+<app loc="29.09">
+<lem>schenken</lem> <rdg>schench <wit>D</wit></rdg>
+</app>
+<app loc="29.10">
+<lem>torste</lem> <rdg>getorste <wit>*m</wit></rdg>
+</app>
+<app loc="29.13">
+<rdg>die sprâchen wider diu wîp. <wit>*m</wit></rdg>
+</app>
+<app loc="29.14">
+<lem>liep</lem> <rdg>lîp <wit>*m</wit></rdg>
+</app>
+<app loc="29.17">
+<lem>Dô stuont er</lem> <rdg>Gahmuret stuont <wit>*m</wit> Er stvnt <wit>L</wit></rdg>
+</app>
+<app loc="29.26">
+<rdg>"hêrre (Sie sprach herre <wit>Z</wit>) ich getriwes (des getrawe ich <wit>O</wit> [<wit>L</wit> <wit>Z</wit>]) iu harte (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>) wol." <wit>*G</wit></rdg>
+</app>
+<app loc="29.26">
+<lem>des</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="29.27">
+<lem>Der</lem> <rdg>&#x00F7;er <wit>D</wit></rdg>
+</app>
+<app loc="29.27">
+<lem>wirt</lem> <rdg>wir: <note>nachträglich korrigiert zu:</note> wirt <wit>D</wit></rdg>
+</app>
+<app loc="29.28">
+<lem>enbirt</lem> <rdg>verbirt <wit>*m</wit></rdg>
+</app>
+<app loc="29.29">
+<lem>ern kürze</lem> <rdg>er enkurzte <wit>*m</wit></rdg>
+</app>
+<app loc="29.30">
+<rdg>ze vrâgen er begunde: <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="29.01">
+<rdg>ouge <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="29.02">
+<rdg></rdg>
+</app>
+<app loc="29.03">
+<rdg>v. sp. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="29.04">
+<rdg>si het ouch dâ vor (vor ê <wit>U</wit> [<wit>V</wit>]) g. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="29.05">
+<rdg>vil manigen <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="29.06">
+<rdg>w. von in <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="29.07">
+<rdg>ein vil getriwiu ger. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="29.08">
+<rdg>er s. dar (hin <wit>*T</wit>), si (vnd sie <wit>Z</wit>) s. her. <wit>*G</wit> (<wit>U</wit> <wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="29.09">
+<rdg></rdg>
+</app>
+<app loc="29.10">
+<rdg>getorste si, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="29.11">
+<rdg>si muote, daz ez (er <wit>L</wit> <wit>Z</wit>) n. b., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="29.12">
+<rdg></rdg>
+</app>
+<app loc="29.13">
+<rdg>die g. sp. w. diu wîp. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="29.14">
+<rdg>d. was ir lîp sîn s. lîp. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="29.15">
+<rdg></rdg>
+</app>
+<app loc="29.16">
+<rdg></rdg>
+</app>
+<app loc="29.17">
+<rdg></rdg>
+</app>
+<app loc="29.18">
+<rdg></rdg>
+</app>
+<app loc="29.19">
+<rdg></rdg>
+</app>
+<app loc="29.20">
+<rdg>n. von w. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="29.21">
+<rdg></rdg>
+</app>
+<app loc="29.22">
+<rdg></rdg>
+</app>
+<app loc="29.23">
+<rdg>gebiet, vr., ü. m. <wit>*T</wit></rdg>
+</app>
+<app loc="29.24">
+<rdg></rdg>
+</app>
+<app loc="29.25">
+<rdg>ich d. iu gerne, swaz ich sol." <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="29.26">
+<rdg>&#x2193;<wit>*G</wit> · "Hêrre, des getriuwe ich wol (<subst><del>*</del><add>v́ch wol</add></subst> <wit>V</wit>)." <wit>*T</wit></rdg>
+</app>
+<app loc="29.27">
+<rdg></rdg>
+</app>
+<app loc="29.28">
+<rdg>des verbirt, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="29.29">
+<rdg>er enkürze im die st. <wit>*G</wit> · er kurztim (<subst><del>kúrtze*</del><add>kúrtzete</add></subst> im ie <wit>V</wit>) die st. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="29.30">
+<rdg>vr. er b., <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 224</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 224.01"><seg type="Initiale">S</seg>wer ruochet h&#x0153;ren, war nû kumt,</l>
+<l n="*D 224.02">den âventiure hât ûz gevrumt,</l>
+<l n="*D 224.03">der mac grôziu wunder</l>
+<l n="*D 224.04">merken al besunder.</l>
+<l n="*D 224.05">lât rîten <name type="Person">Gahmuretes</name> kint.</l>
+<l n="*D 224.06">swâ nû getriwe liute sint,</l>
+<l n="*D 224.07">die wünschen im heiles, wan ez muoz sîn,</l>
+<l n="*D 224.08">daz er nû lîdet hôhen pîn,</l>
+<l n="*D 224.09">etswenne ouch vreude unt êre.</l>
+<l n="*D 224.10">ein dinc in müete sêre,</l>
+<l n="*D 224.11">daz er von ir gescheiden was,</l>
+<l n="*D 224.12">daz munt von wîbe nie gelas</l>
+<l n="*D 224.13">nâch sus gesagtem m&#x00E6;re,</l>
+<l n="*D 224.14">diu sch&#x0153;ner unt bezzer w&#x00E6;re.</l>
+<l n="*D 224.15">gedanke nâch der künegîn</l>
+<l n="*D 224.16">begunden krenken im den sin.</l>
+<l n="*D 224.17">des m<corr type="Emendation">üe</corr>ser gar verloren hân,</l>
+<l n="*D 224.18">w&#x00E6;rez niht ein herzehafter man.</l>
+<l n="*D 224.19"><seg type="Initiale" subtype="Majuskel">M</seg>it gewalt den zoum daz ros</l>
+<l n="*D 224.20">truog über ronen unt durch daz mos,</l>
+<l n="*D 224.21">wandez enwîste niemens hant.</l>
+<l n="*D 224.22">uns tuot diu âventiure bekant,</l>
+<l n="*D 224.23">daz er bî dem tage reit,</l>
+<l n="*D 224.24">ein vogel hetes arbeit,</l>
+<l n="*D 224.25">solt erz allez hân e<corr type="Emendation">r</corr>vlogen.</l>
+<l n="*D 224.26">mich enhab diu âventiure betrogen,</l>
+<l n="*D 224.27">sîn reise unnâch was sô grôz</l>
+<l n="*D 224.28">des tages, dô er <name type="Person">Ithern</name> schôz,</l>
+<l n="*D 224.29">unt sît, dô er von <name type="Ort">Graharz</name></l>
+<l n="*D 224.30">kom in daz lant ze <name type="Ort">Brobarz</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(224.8-10, 18-21 und 24-26)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr23</wit> <note>(224.29-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="224.01"><rdg>
+<note>Illustration mit Überschrift:</note> Wie parcifal ze mvnsalvasce kam do der gral vnd der siche anfortes was <wit>mk</wit>
+</rdg></app><app loc="224.01"><rdg><note>Überschrift:</note> Aventiwer wie Parzifal chom vngefraget zv&#x0366; dem gral Vnd o&#x036E;ch vngefraget danne rait daz was Anfortas seinem wirt lait <wit>I</wit> Hie schiet parcifal von siner frowen kundewiramvrs <wit>Z</wit>
+</rdg></app><app loc="224.01"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="224.01"><rdg><note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit> <wit>V</wit>
+</rdg></app>
+<app loc="224.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="224.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="224.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="224.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="224.08">
+<rdg>er muoz nû lîden (daz er von frowen lidet <wit>I</wit> Daz er lidet <wit>Z</wit>) hôhen (<note>om.</note> <wit>I</wit>) pîn, <wit>*G</wit> <note>(ohne OLFr21)</note></rdg>
+</app>
+<app loc="224.13">
+<rdg>noch sus gesaget (gesagetten <wit>mk</wit>) m&#x00E6;re, <wit>*m</wit></rdg>
+</app>
+<app loc="224.17">
+<lem>des</lem> <rdg>den <wit>*m</wit></rdg>
+</app>
+<app loc="224.17">
+<lem>müeser</lem> <rdg>mv&#x0366;ser <wit>D</wit></rdg>
+</app>
+<app loc="224.18">
+<lem>herzehafter</lem> <rdg>geherzer (geherzet <wit>Fr69</wit> <subst><del>*</del><add>geherzet</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="224.20">
+<lem>daz</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="224.22">
+<lem>uns</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="224.25">
+<lem>ervlogen</lem> <rdg>enflogen <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="224.01">
+<rdg></rdg>
+</app>
+<app loc="224.02">
+<rdg></rdg>
+</app>
+<app loc="224.03">
+<rdg>grôz <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="224.04">
+<rdg></rdg>
+</app>
+<app loc="224.05">
+<rdg></rdg>
+</app>
+<app loc="224.06">
+<rdg></rdg>
+</app>
+<app loc="224.07">
+<rdg>wan <note>om.</note> <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="224.08">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="224.09">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(nur GIO)</note> <wit>*T</wit> <note>(nur T)</note> <wit>Fr69</wit></rdg>
+</app>
+<app loc="224.10">
+<rdg></rdg>
+</app>
+<app loc="224.11">
+<rdg></rdg>
+</app>
+<app loc="224.12">
+<rdg></rdg>
+</app>
+<app loc="224.13">
+<rdg>noch sus gesagte (sagte <wit>O</wit> [<wit>Fr21</wit>] <subst><del>gesagete*</del><add>gesageten</add></subst> <wit>V</wit>) m., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="224.14">
+<rdg></rdg>
+</app>
+<app loc="224.15">
+<rdg></rdg>
+</app>
+<app loc="224.16">
+<rdg>begunde <wit>*T</wit> <note>(ohne V)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="224.17">
+<rdg>den m. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="224.18">
+<rdg>w&#x00E6;r er n. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="224.19">
+<rdg></rdg>
+</app>
+<app loc="224.20">
+<rdg>unde über mos, <wit>*G</wit> (<wit>U</wit>) unde d. (<subst><del>*</del><add>durch</add></subst> <wit>V</wit>) mos, <wit>*T</wit></rdg>
+</app>
+<app loc="224.21">
+<rdg>ez enwîsete (<subst><del>*</del><add>Wande es enwisete</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="224.22">
+<rdg></rdg>
+</app>
+<app loc="224.23">
+<rdg></rdg>
+</app>
+<app loc="224.24">
+<rdg></rdg>
+</app>
+<app loc="224.25">
+<rdg>erz (er es <wit>L</wit>) halbez (<note>om.</note> <wit>O</wit> allez <wit>L</wit>) hân <wit>*G</wit> <note>(ohne ZFr21)</note></rdg>
+</app>
+<app loc="224.26">
+<rdg>mirn h. (Mir hat <wit>U</wit> Vnsz enhabe <wit>L</wit>) diu â. gelogen, <wit>*T</wit> (<wit>L</wit>) · uns (<subst><del>Vnsn</del><add>Vns</add></subst> <wit>O</wit>) habe <wit>*G</wit></rdg>
+</app>
+<app loc="224.27">
+<rdg>was unnâch <wit>*T</wit></rdg>
+</app>
+<app loc="224.28">
+<rdg></rdg>
+</app>
+<app loc="224.29">
+<rdg>oder sît, <wit>*T</wit></rdg>
+</app>
+<app loc="224.30">
+<rdg>Briubarz <wit>*G</wit> Breharz <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

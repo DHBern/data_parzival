@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 736</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>07.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 736.01"><seg type="Initiale">S</seg>în gir stuont nâch minne</l>
+<l n="*D 736.02">unt nâch prîs<reg type="Synkope">e</reg>s gewinne.</l>
+<l n="*D 736.03">daz gâben ouch allez meistec wîp,</l>
+<l n="*D 736.04">dâ mite der <name type="Person">heiden</name> sînen lîp</l>
+<l n="*D 736.05">kostelîche zimierte.</l>
+<l n="*D 736.06">diu minne condwierte</l>
+<l n="*D 736.07">in sîn manlîch herze hôhen muot,</l>
+<l n="*D 736.08">als si noch dem minnegernden tuot.</l>
+<l n="*D 736.09"><seg type="Initiale" subtype="Majuskel">E</seg>r truoc ouch durch prîs<reg type="Synkope">e</reg>s lôn</l>
+<l n="*D 736.10">ûf dem helme ein ecidemôn.</l>
+<l n="*D 736.11">swelhe würme sint eiterhaft,</l>
+<l n="*D 736.12">von des selb<reg type="Synkope">e</reg>n tierlînes kraft</l>
+<l n="*D 736.13">hânt si lebens decheine vrist,</l>
+<l n="*D 736.14">swenn ez von in ersmecket ist.</l>
+<l n="*D 736.15"><name type="Ort">Thopedissimonte</name></l>
+<l n="*D 736.16">unt <name type="Ort">Assigarzionte</name>,</l>
+<l n="*D 736.17"><name type="Ort">Thasme</name> und <name type="Ort">Arabi</name></l>
+<l n="*D 736.18">sint vor solhem pfelle vrî,</l>
+<l n="*D 736.19">als sîn ors truoc covertiure.</l>
+<l n="*D 736.20">der ungetoufte gehiure</l>
+<l n="*D 736.21">ranc nâch wîbe lône,</l>
+<l n="*D 736.22">des zimiert er sich sus schône.</l>
+<l n="*D 736.23">sîn hôhez herze in des betwanc,</l>
+<l n="*D 736.24">daz er nâch werder minne ranc.</l>
+<l n="*D 736.25"><seg type="Initiale" subtype="Majuskel">D</seg>er selbe werlîche knabe</l>
+<l n="*D 736.26">het in einer wilden habe</l>
+<l n="*D 736.27">zem fôreht g<reg type="Synkope">e</reg>enkert ûf dem mer.</l>
+<l n="*D 736.28">er hete vünf unt zweinzec her,</l>
+<l n="*D 736.29">der neheinez sandern rede vernam,</l>
+<l n="*D 736.30">als sîner rîcheit wol gezam.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 736.15-16 und 23-24)</note> <wit>I</wit> <note>(ohne 736.15-16 und 23-24)</note> <wit>L</wit> <note>(ohne 735.16-16 und 23-24, mit 736.7¹ und 8¹)</note> <wit>Z</wit> <note>(ohne 736.15-16 und 23-24)</note> <wit>Fr18</wit> <note>(736.1-2)</note> <wit>Fr24</wit> <note>(ohne 736.15-16 und 23-24)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit> <note>(ohne 736.15-16 und 23-24)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="736.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app>
+<app loc="736.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="736.25"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>I</wit>
+</rdg></app><app loc="736.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="736.02">
+<lem>nâch</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="736.03">
+<rdg>ez gâben ouch meistic alliu (alles <wit>V</wit>) wîp, <wit>*m</wit></rdg>
+</app>
+<app loc="736.06">
+<lem>diu</lem> <rdg>des <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="736.10">
+<lem>helme</lem> <rdg>houbte (hobtter <wit>mk</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="736.11">
+<lem>sint</lem> <rdg>sîn <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="736.22">
+<lem>sus</lem> <rdg>sô <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="736.27">
+<lem>zem</lem> <rdg>zuo einem <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="736.01">
+<rdg></rdg>
+</app>
+<app loc="736.02">
+<rdg></rdg>
+</app>
+<app loc="736.03">
+<rdg>ou. almeistec (almeiste <wit>L</wit> <wit>Fr24</wit>) wîp, <wit>*G</wit> im ou. almeistec wîp, <wit>*T</wit></rdg>
+</app>
+<app loc="736.04">
+<rdg></rdg>
+</app>
+<app loc="736.05">
+<rdg>kostlîche zierete. <wit>*T</wit></rdg>
+</app>
+<app loc="736.06">
+<rdg></rdg>
+</app>
+<app loc="736.07">
+<rdg></rdg>
+</app>
+<app loc="736.08">
+<rdg></rdg>
+</app>
+<app loc="736.09">
+<rdg></rdg>
+</app>
+<app loc="736.10">
+<rdg></rdg>
+</app>
+<app loc="736.11">
+<rdg></rdg>
+</app>
+<app loc="736.12">
+<rdg></rdg>
+</app>
+<app loc="736.13">
+<rdg>l. kleinen (dehainen <wit>I</wit>) list, <wit>*G</wit> <note>(ohne Z)</note> l. kleinen vr., <wit>*T</wit></rdg>
+</app>
+<app loc="736.14">
+<rdg></rdg>
+</app>
+<app loc="736.15">
+<rdg><note>Die Verse 736.15-16 fehlen</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="736.16">
+<rdg></rdg>
+</app>
+<app loc="736.17">
+<rdg></rdg>
+</app>
+<app loc="736.18">
+<rdg>s. von s. pf. vrî, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="736.19">
+<rdg></rdg>
+</app>
+<app loc="736.20">
+<rdg></rdg>
+</app>
+<app loc="736.21">
+<rdg>wîbes <wit>*G</wit> <wit>*T</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="736.22">
+<rdg>sus <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="736.23">
+<rdg><note>Die Verse 736.23-24 fehlen</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="736.24">
+<rdg></rdg>
+</app>
+<app loc="736.25">
+<rdg></rdg>
+</app>
+<app loc="736.26">
+<rdg></rdg>
+</app>
+<app loc="736.27">
+<rdg>zuo der vurt geankert <wit>*T</wit></rdg>
+</app>
+<app loc="736.28">
+<rdg></rdg>
+</app>
+<app loc="736.29">
+<rdg>der dekeiner des andern <wit>*T</wit></rdg>
+</app>
+<app loc="736.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 425</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 425.01"><seg type="Initiale">E</seg>r ist manheit unt ellens hêr.</l>
+<l n="*D 425.02">der helt gebôt mir dennoch mêr,</l>
+<l n="*D 425.03">daz ich ân arge liste</l>
+<l n="*D 425.04">inre jâr<reg type="Synkope">e</reg>s vriste,</l>
+<l n="*D 425.05">ob ichs <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> erwürbe niht,</l>
+<l n="*D 425.06">daz ich ir k<corr type="Emendation">&#x0153;</corr>me, der man giht</l>
+<l n="*D 425.07">der krône ze <name type="Ort">Pelrapeire</name>.</l>
+<l n="*D 425.08">ir vater hiez <name type="Person">Tampenteire</name>.</l>
+<l n="*D 425.09">swenne si mîn ouge an s&#x00E6;he,</l>
+<l n="*D 425.10">daz ich sicherheit ir j&#x00E6;he.</l>
+<l n="*D 425.11"><seg type="Initiale" subtype="Majuskel">E</seg>r enbôt ir, ob si d&#x00E6;hte an in,</l>
+<l n="*D 425.12">daz w&#x00E6;re an vreuden sîn gewin,</l>
+<l n="*D 425.13">unt er w&#x00E6;rez, der si lôste ê</l>
+<l n="*D 425.14">von dem künege <name type="Person">Clamide</name>."</l>
+<l n="*D 425.15"><seg type="Initiale" subtype="Majuskel">D</seg>ô si die rede erhôrten sus,</l>
+<l n="*D 425.16">dô sprach aber <name type="Person">Liddamus</name>:</l>
+<l n="*D 425.17">"mit dirre hêrr<reg type="Synkope">e</reg>n urloube ich nuo</l>
+<l n="*D 425.18">spriche. ouch râten si dar zuo.</l>
+<l n="*D 425.19">swes iuch dort twanc der eine man,</l>
+<l n="*D 425.20">des sî hie pfant hêr <name type="Person">Gawan</name>.</l>
+<l n="*D 425.21">der vederslagt ûf iweren k<corr type="Emendation">lo</corr>b<reg type="Synkope">e</reg>n.</l>
+<l n="*D 425.22">bit<reg type="Synkope">e</reg>t in iu vor uns allen lob<reg type="Synkope">e</reg>n,</l>
+<l n="*D 425.23">daz er iu den <name type="Sonstiges">Grâl</name> gewinne.</l>
+<l n="*D 425.24">lât in mit guoter minne</l>
+<l n="*D 425.25">von iu hinnen rîten</l>
+<l n="*D 425.26">unt nâch dem <name type="Sonstiges">Grâle</name> strîten.</l>
+<l n="*D 425.27">die scham wir alle m<corr type="Emendation">üe</corr>sen klag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 425.28">würd<reg type="Synkope">e</reg>r in iwerem hûs erslag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 425.29">nû vergebt im sîne schulde</l>
+<l n="*D 425.30">durch iwerre swester hulde.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr1</wit> <wit>Fr5</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="425.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr5</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="425.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="425.11"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="425.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="425.15"><rdg>
+<note>Initiale</note> <wit>Fr1</wit> <wit>mk</wit> <wit>I</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="425.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app><app loc="425.15"><rdg><note>Capitulumzeichen</note> <wit>Fr5</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="425.01">
+<lem>Er</lem> <rdg>Ez <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.03">
+<lem>arge</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="425.04">
+<lem>inre</lem> <rdg>Minir <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.05">
+<lem>ichs</lem> <rdg>ich <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.06">
+<lem>ich</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.06">
+<lem>k&#x0153;me</lem> <rdg>chome <wit>D</wit> (<wit>Fr5</wit>)</rdg>
+</app>
+<app loc="425.07">
+<lem>ze</lem> <rdg><subst><del>*i</del><add>bi</add></subst> <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.09">
+<rdg>wenne mîn ouge si an ges&#x00E6;he, <wit>*m</wit></rdg>
+</app>
+<app loc="425.10">
+<lem>sicherheit ir</lem> <rdg>ir sichirheit <wit>Fr5</wit> (<wit>*m</wit> <wit>I</wit>)</rdg>
+</app>
+<app loc="425.10">
+<lem>j&#x00E6;he</lem> <rdg>verj&#x00E6;he <wit>*m</wit></rdg>
+</app>
+<app loc="425.11">
+<lem>ob</lem> <rdg>daz (<subst><del>*</del><add>daz</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="425.11">
+<lem>d&#x00E6;hte</lem> <rdg>gid&#x00E6;hte <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.12">
+<lem>w&#x00E6;re</lem> <rdg>wrde <wit>Fr1</wit></rdg>
+</app>
+<app loc="425.13">
+<rdg>vnt er hete si erlo&#x0364;set e <wit>Fr1</wit></rdg>
+</app>
+<app loc="425.13">
+<lem>w&#x00E6;rez</lem> <rdg>w&#x00E6;re <wit>*m</wit> (<wit>I</wit> <wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="425.15">
+<lem>erhôrten</lem> <rdg>gehorten <wit>Fr1</wit> <wit>U</wit> <wit>V</wit></rdg>
+</app>
+<app loc="425.16">
+<lem>aber</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.17">
+<rdg>Mit dierre vrlop ir sprich nv <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.18">
+<lem>spriche</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.18">
+<lem>râten</lem> <rdg>râten ime <wit>*m</wit></rdg>
+</app>
+<app loc="425.18">
+<lem>dar</lem> <rdg>dir <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.19">
+<lem>der eine</lem> <rdg>jener (<subst><del>*</del><add>ienre</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="425.21">
+<lem>iweren</lem> <rdg>iwerm <wit>Fr1</wit></rdg>
+</app>
+<app loc="425.21">
+<lem>kloben</lem> <rdg>cholbn <wit>D</wit></rdg>
+</app>
+<app loc="425.22">
+<lem>iu</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.23">
+<lem>gewinne</lem> <rdg>giwunne <wit>Fr5</wit></rdg>
+</app>
+<app loc="425.24">
+<lem>lât</lem> <rdg>und lât (<subst><del>*ant</del><add>vnde lant</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="425.25">
+<lem>iu</lem> <rdg>vns <wit>Fr1</wit></rdg>
+</app>
+<app loc="425.27">
+<rdg>daz laster mohte wir niht verchlagn <wit>Fr1</wit></rdg>
+</app>
+<app loc="425.27">
+<lem>wir alle müesen</lem> <rdg>wir alle mv&#x0366;sen <wit>D</wit> wir mv&#x0366;esin alle <wit>Fr5</wit> müesen wir alle <wit>*m</wit></rdg>
+</app>
+<app loc="425.28">
+<lem>in iwerem</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+<app loc="425.29">
+<lem>nû</lem> <rdg>vnt (<subst><del>*</del><add>Nv</add></subst> <wit>V</wit>) <wit>Fr1</wit> (<wit>*m</wit> <wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="425.01">
+<rdg></rdg>
+</app>
+<app loc="425.02">
+<rdg></rdg>
+</app>
+<app loc="425.03">
+<rdg>daz ich âne valsche (<note>om.</note> <wit>U</wit>) l. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="425.04">
+<rdg></rdg>
+</app>
+<app loc="425.05">
+<rdg>obe ich e. des Gr. (ich des grals er wirbe <wit>O</wit>) n., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="425.06">
+<rdg>der man dâ (dar man <wit>L</wit>) g. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="425.07">
+<rdg></rdg>
+</app>
+<app loc="425.08">
+<rdg></rdg>
+</app>
+<app loc="425.09">
+<rdg></rdg>
+</app>
+<app loc="425.10">
+<rdg></rdg>
+</app>
+<app loc="425.11">
+<rdg></rdg>
+</app>
+<app loc="425.12">
+<rdg></rdg>
+</app>
+<app loc="425.13">
+<rdg></rdg>
+</app>
+<app loc="425.14">
+<rdg></rdg>
+</app>
+<app loc="425.15">
+<rdg>r. hôrten sus, <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="425.16">
+<rdg></rdg>
+</app>
+<app loc="425.17">
+<rdg></rdg>
+</app>
+<app loc="425.18">
+<rdg></rdg>
+</app>
+<app loc="425.19">
+<rdg></rdg>
+</app>
+<app loc="425.20">
+<rdg></rdg>
+</app>
+<app loc="425.21">
+<rdg>ûf iuwerm (<subst><del>*</del><add>uwerem</add></subst> <wit>V</wit>) kl. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="425.22">
+<rdg>bitet (Bietet <wit>U</wit>) <krux></krux> iu vor <krux>in</krux> (vns vor vns <wit>U</wit> in v́ch vor vns <wit>V</wit>) a. l., <wit>*T</wit></rdg>
+</app>
+<app loc="425.23">
+<rdg></rdg>
+</app>
+<app loc="425.24">
+<rdg></rdg>
+</app>
+<app loc="425.25">
+<rdg></rdg>
+</app>
+<app loc="425.26">
+<rdg></rdg>
+</app>
+<app loc="425.27">
+<rdg>m. tragen (<subst><del>*</del><add>clagen</add></subst> <wit>V</wit>), <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="425.28">
+<rdg></rdg>
+</app>
+<app loc="425.29">
+<rdg></rdg>
+</app>
+<app loc="425.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

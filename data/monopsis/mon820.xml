@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 820</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 820.01">iedoch ist iemer al mîn haz</l>
+<l n="*D 820.02">gein wîben volleclîche laz.</l>
+<l n="*D 820.03">hôch manlîch vreude kumt von in,</l>
+<l n="*D 820.04">swie klein dâ w&#x00E6;re mîn gewin."</l>
+<l n="*D 820.05"><name type="Person">Anfortasen</name> bat dô sêre</l>
+<l n="*D 820.06">durch sîner swester êre</l>
+<l n="*D 820.07"><name type="Person">Feirefiz</name> der danverte.</l>
+<l n="*D 820.08">mit versagen er sich werte.</l>
+<l n="*D 820.09"><name type="Person">Feirefiz</name> <name type="Person">Anschevin</name></l>
+<l n="*D 820.10">warp, daz <name type="Person">Loherangrin</name></l>
+<l n="*D 820.11">mit im dannen solde varn.</l>
+<l n="*D 820.12">sîn muoter kunde daz wol bewarn.</l>
+<l n="*D 820.13">ouch sprach der künec <name type="Person">Parzival</name>:</l>
+<l n="*D 820.14">"mîn sun ist g<reg type="Synkope">e</reg>ordent ûf den <name type="Sonstiges">Grâl</name>;</l>
+<l n="*D 820.15">dar muoz er dienstlîch herze trag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 820.16">l&#x00E6;t in got rehten sin bejag<reg type="Synkope">e</reg>n."</l>
+<l n="*D 820.17"><seg type="Initiale" subtype="Majuskel">V</seg>reude und kurzwîle pflac</l>
+<l n="*D 820.18"><name type="Person">Feirefiz</name> al dâ den einleften tac.</l>
+<l n="*D 820.19">ame zwelften schiet er dan.</l>
+<l n="*D 820.20">gein sîme her der rîche man</l>
+<l n="*D 820.21">sîn wîp wolde vüeren.</l>
+<l n="*D 820.22">des begunde ein trûren rüeren</l>
+<l n="*D 820.23"><name type="Person">Parzivaln</name> durch triwe.</l>
+<l n="*D 820.24">diu reise in lêrte riwe.</l>
+<l n="*D 820.25"><seg type="Initiale" subtype="Majuskel">M</seg>it den sînen er sich beriet,</l>
+<l n="*D 820.26">daz er von rittern grôze diet</l>
+<l n="*D 820.27">mit im sande vür den walt.</l>
+<l n="*D 820.28"><name type="Person">Anfortas</name>, der süeze deg<reg type="Synkope">e</reg>n balt,</l>
+<l n="*D 820.29">mit im durch condwier<reg type="Synkope">e</reg>n reit.</l>
+<l n="*D 820.30">manec magt dâ weinen niht vermeit.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <note>(mit 820.16¹-16⁵⁴)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit> <note>(ohne 820.2 und 16)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="820.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="820.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="820.17"><rdg>
+<note>Initiale</note> <wit>V</wit> <wit>U</wit>
+</rdg></app><app loc="820.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="820.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="820.05">
+<lem>dô</lem> <rdg>eht (<subst><del>*</del><add>er</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="820.09">
+<rdg>dô daz niht mohte (mo&#x0364;hte <wit>V</wit>) sîn, <wit>*m</wit></rdg>
+</app>
+<app loc="820.10">
+<lem>warp</lem> <rdg>dô bat er <wit>*m</wit></rdg>
+</app>
+<app loc="820.16">
+<rdg><milestone unit="Chretien"/> <note>nach 820.16: Einschub 820.16¹-16⁴⁸ entspr. 'Troisième Continuation', Ep. 30, V. 42478-42526 und sechs eigene Schlussverse 820.16⁴⁹-16⁵⁴</note> <wit>V</wit></rdg>
+</app>
+<app loc="820.19">
+<rdg>Amme drisigesten tage schiet er dan <wit>V</wit></rdg>
+</app>
+<app loc="820.19">
+<lem>schiet</lem> <rdg>kêrte <wit>*m</wit></rdg>
+</app>
+<app loc="820.22">
+<lem>ein</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="820.24">
+<lem>reise</lem> <rdg>rede <wit>*m</wit></rdg>
+</app>
+<app loc="820.27">
+<lem>im</lem> <rdg>in <wit>*m</wit> <note>(nur m)</note> <wit>Z</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="820.01">
+<rdg>Doch ist <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="820.02">
+<rdg></rdg>
+</app>
+<app loc="820.03">
+<rdg>h. m. vröude lît an in, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="820.04">
+<rdg></rdg>
+</app>
+<app loc="820.05">
+<rdg></rdg>
+</app>
+<app loc="820.06">
+<rdg></rdg>
+</app>
+<app loc="820.07">
+<rdg></rdg>
+</app>
+<app loc="820.08">
+<rdg>s. des w. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="820.09">
+<rdg></rdg>
+</app>
+<app loc="820.10">
+<rdg>w. dô, daz (daz do <wit>L</wit>) L. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="820.11">
+<rdg></rdg>
+</app>
+<app loc="820.12">
+<rdg></rdg>
+</app>
+<app loc="820.13">
+<rdg>dô sp. <wit>*T</wit></rdg>
+</app>
+<app loc="820.14">
+<rdg></rdg>
+</app>
+<app loc="820.15">
+<rdg></rdg>
+</app>
+<app loc="820.16">
+<rdg>&#x2193;<wit>V</wit> <milestone unit="Chretien"/></rdg>
+</app>
+<app loc="820.17">
+<rdg>minne unde k. pf. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="820.18">
+<rdg>Feirafiz unze (<note>om.</note> <wit>L</wit> mit <wit>U</wit>) an (<note>om.</note> <wit>L</wit>) den <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="820.19">
+<rdg></rdg>
+</app>
+<app loc="820.20">
+<rdg></rdg>
+</app>
+<app loc="820.21">
+<rdg>wolt er (er mit imme <wit>V</wit>) v. (vneren <wit>U</wit>) <wit>*T</wit> (<wit>V</wit> <wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="820.22">
+<rdg>des b. in triuwe r. <wit>*T</wit></rdg>
+</app>
+<app loc="820.23">
+<rdg></rdg>
+</app>
+<app loc="820.24">
+<rdg>disiu (<subst><del>D*</del><add>Dise</add></subst> <wit>V</wit>) rede in l. (lêrte in <wit>*T</wit> [<wit>L</wit>]) r. <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="820.25">
+<rdg></rdg>
+</app>
+<app loc="820.26">
+<rdg></rdg>
+</app>
+<app loc="820.27">
+<rdg></rdg>
+</app>
+<app loc="820.28">
+<rdg>A., der clâre (<note>om.</note> <wit>L</wit>) d. b., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="820.29">
+<rdg>mit im (in <wit>Z</wit>) d. geleite r. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="820.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

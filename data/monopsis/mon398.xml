@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 398</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>18.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 398.01"><seg type="Initiale" subtype="Großinitiale">S</seg>wer was ze <name type="Ort">Bearosche</name> kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 398.02">doch hete <name type="Person">Gawan</name> dâ genom<reg type="Synkope">e</reg>n</l>
+<l n="*D 398.03">den prîs ze bêd<reg type="Synkope">e</reg>r sît al ein,</l>
+<l n="*D 398.04">wan daz dâr vor ein ritter schein,</l>
+<l n="*D 398.05">bî rôten wâpen unerkant,</l>
+<l n="*D 398.06">des prîs man in die h&#x0153;he bant.</l>
+<l n="*D 398.07"><name type="Person">Gawan</name> hete êre und heil,</l>
+<l n="*D 398.08">ieweders volleclîchen teil.</l>
+<l n="*D 398.09">nû nâhet ouch sînes kampfes zît.</l>
+<l n="*D 398.10">der walt was lanc und wît,</l>
+<l n="*D 398.11">dâ durch er muose strîchen,</l>
+<l n="*D 398.12">wolder kampfes niht entwîchen.</l>
+<l n="*D 398.13">âne schulde er was dar zuo erkorn.</l>
+<l n="*D 398.14">nû was ouch <name type="Sonstiges">Ingliart</name> verlorn,</l>
+<l n="*D 398.15">sîn ors mit kurzen ôren.</l>
+<l n="*D 398.16">in <name type="Ort">Thabronit</name> von môren</l>
+<l n="*D 398.17">wart nie bezzer ors ersprenget.</l>
+<l n="*D 398.18">nû wart der walt gemenget,</l>
+<l n="*D 398.19">hie ein schache, dort ein velt,</l>
+<l n="*D 398.20">etslîch<reg type="Synkope">e</reg>z sô breit, daz ein gezelt</l>
+<l n="*D 398.21"><seg type="Initiale" subtype="Majuskel">V</seg>il kûme drûffe stüende.</l>
+<l n="*D 398.22">mit seh<reg type="Synkope">e</reg>n gewan er künde</l>
+<l n="*D 398.23">erbûwens landes, daz hiez <name type="Ort">Ascalun</name>.</l>
+<l n="*D 398.24">dâ vrâget<reg type="Synkope">e</reg>r gegen <name type="Ort">Schanpfanzun</name>,</l>
+<l n="*D 398.25">swaz im dâ volkes wid<reg type="Synkope">e</reg>rvuor.</l>
+<l n="*D 398.26">hôch gebirge unt manec muor,</l>
+<l n="*D 398.27">des het er vil durchstrichen dar.</l>
+<l n="*D 398.28">dô nam er einer bürge war.</l>
+<l n="*D 398.29">âvoy, diu gap vil werden glast!</l>
+<l n="*D 398.30">dâ kêrte gegen des landes gast.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="398.01"><rdg>
+<note>Überschrift:</note> Aventiwer wie Gawan vor bearotsch Melyanz gesiget an vnd hinz Schachtelmarvail chom <wit>I</wit> Hie schiet gawan von bearotsch vnd wil zv sinem kampfe varn waz auentevre im wider fvr vf dem wege wer daz welle wizzen der lese fvrbaz <wit>Z</wit>
+</rdg></app><app loc="398.01"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="398.01"><rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>V</wit>
+</rdg></app>
+<app loc="398.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="398.07"><rdg>
+<note>Illustration mit Überschrift:</note> Gawanes not die er uff schauffan zu̽n leit Vnd wie er dannen der gral su̽chen reit <wit>mk</wit>
+</rdg></app>
+<app loc="398.08"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="398.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="398.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="398.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="398.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="398.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="398.25"><rdg>
+<note>Überschrift:</note> Hie kvmet Gawan zv&#x0366; schamphanzvn do er kempfen solte <wit>V</wit>
+</rdg></app><app loc="398.25"><rdg><note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="398.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="398.02">
+<lem>doch</lem> <rdg>dô <wit>*m</wit></rdg>
+</app>
+<app loc="398.13">
+<rdg>dar zuo er âne schulde was erkorn. <wit>*m</wit></rdg>
+</app>
+<app loc="398.21">
+<lem>Vil</lem> <rdg><subst><del>*</del><add>Vil</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="398.25">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="398.01">
+<rdg></rdg>
+</app>
+<app loc="398.02">
+<rdg></rdg>
+</app>
+<app loc="398.03">
+<rdg></rdg>
+</app>
+<app loc="398.04">
+<rdg>daz vor im (daz <subst><del>*</del><add>der vor</add></subst> <wit>V</wit>) ein <wit>*T</wit></rdg>
+</app>
+<app loc="398.05">
+<rdg>rôtem <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="398.06">
+<rdg></rdg>
+</app>
+<app loc="398.07">
+<rdg></rdg>
+</app>
+<app loc="398.08">
+<rdg></rdg>
+</app>
+<app loc="398.09">
+<rdg></rdg>
+</app>
+<app loc="398.10">
+<rdg></rdg>
+</app>
+<app loc="398.11">
+<rdg></rdg>
+</app>
+<app loc="398.12">
+<rdg></rdg>
+</app>
+<app loc="398.13">
+<rdg></rdg>
+</app>
+<app loc="398.14">
+<rdg></rdg>
+</app>
+<app loc="398.15">
+<rdg>mit den k. <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="398.16">
+<rdg></rdg>
+</app>
+<app loc="398.17">
+<rdg></rdg>
+</app>
+<app loc="398.18">
+<rdg></rdg>
+</app>
+<app loc="398.19">
+<rdg>hie ein slâ, <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="398.20">
+<rdg></rdg>
+</app>
+<app loc="398.21">
+<rdg></rdg>
+</app>
+<app loc="398.22">
+<rdg>er k.: <wit>*T</wit></rdg>
+</app>
+<app loc="398.23">
+<rdg>ein erbûwen (gebuwen <wit>V</wit>) lant h. A. <wit>*T</wit></rdg>
+</app>
+<app loc="398.24">
+<rdg></rdg>
+</app>
+<app loc="398.25">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="398.26">
+<rdg>g., manic <wit>*G</wit> <note>(nur G)</note> (<wit>*T</wit>) <note>(nur T)</note></rdg>
+</app>
+<app loc="398.27">
+<rdg></rdg>
+</app>
+<app loc="398.28">
+<rdg></rdg>
+</app>
+<app loc="398.29">
+<rdg></rdg>
+</app>
+<app loc="398.30">
+<rdg>dâ engêne k. (do kert er gein <wit>I</wit> [<wit>O</wit>]) des l. g. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

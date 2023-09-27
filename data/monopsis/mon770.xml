@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 770</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 770.01"><seg type="Initiale">D</seg>er künec <name type="Person">Papiris</name> von <name type="Ort">Trogodjente</name></l>
+<l n="*D 770.02">unt der grâve <name type="Person">Behantins</name> von <name type="Ort">Kalomidente</name>,</l>
+<l n="*D 770.03">der herzoge <name type="Person">Farjelastis</name> von <name type="Ort">Affricke</name></l>
+<l n="*D 770.04">unt der künec <name type="Person">Liddamus</name> von <name type="Ort">Agrippe</name>,</l>
+<l n="*D 770.05">der künec <name type="Person">Tridanz</name> von <name type="Ort">Tinodonte</name></l>
+<l n="*D 770.06">unt der künec <name type="Person">Amaspartins</name> von <name type="Ort">Schipelpjonte</name>,</l>
+<l n="*D 770.07">der herzoge <name type="Person">Lippidins</name> von <name type="Ort">Agremuntin</name></l>
+<l n="*D 770.08">unt der künec <name type="Person">Milon</name> von <name type="Ort">Nomadjentesin</name>,</l>
+<l n="*D 770.09">von <name type="Ort">Assigarzionte</name> der grâve <name type="Person">Gabarins</name></l>
+<l n="*D 770.10">unt von <name type="Ort">Rivigitas</name> der künec <name type="Person">Translapins</name>,</l>
+<l n="*D 770.11">von <name type="Ort">Hiberborticon</name> der grâve <name type="Person">Filones</name></l>
+<l n="*D 770.12">unt von <name type="Ort">Centriun</name> der künec <name type="Person">Killicrates</name>,</l>
+<l n="*D 770.13">der grâve <name type="Person">Lysander</name> von <name type="Ort">Ipopotiticon</name></l>
+<l n="*D 770.14">unt der herzoge <name type="Person">Tiride</name> von <name type="Ort">Elixodjon</name>,</l>
+<l n="*D 770.15">von <name type="Ort">Orastegentesin</name> der künec <name type="Person">Thoaris</name></l>
+<l n="*D 770.16">unt von <name type="Ort">Satarchionte</name> der herzoge <name type="Person">Alamis</name>,</l>
+<l n="*D 770.17">der künec <name type="Person">Amincas</name> von <name type="Ort">Sotofeititon</name></l>
+<l n="*D 770.18">unt der herzoge von <name type="Ort">Duscontemedon</name>,</l>
+<l n="*D 770.19">von <name type="Ort">Arabie</name> der künec <name type="Person">Zaroaster</name></l>
+<l n="*D 770.20">unt der grâve <name type="Person">Possizonius</name> von <name type="Ort">Thiler</name>,</l>
+<l n="*D 770.21">der he<corr type="Emendation">r</corr>zoge <name type="Person">Sennes</name> von <name type="Ort">Narjoclin</name></l>
+<l n="*D 770.22">unt der grâve <name type="Person">Edisson</name> von <name type="Ort">Lanzesardin</name>,</l>
+<l n="*D 770.23">von <name type="Ort">Janfuse</name> der grâve <name type="Person">Fristines</name></l>
+<l n="*D 770.24">unt von <name type="Ort">Atropfagente</name> der herzoge <name type="Person">Meiones</name>,</l>
+<l n="*D 770.25">von <name type="Ort">Nourjente</name> der herzoge <name type="Person">Archeinor</name></l>
+<l n="*D 770.26">unt von <name type="Ort">Panfatis</name> der grâve <name type="Person">Astor</name>,</l>
+<l n="*D 770.27">von <name type="Ort">Azagouc</name> und von <name type="Ort">Zazamanc</name></l>
+<l n="*D 770.28">unt von <name type="Ort">Gampfassasche</name> der künec <name type="Person">Jetakranc</name>,</l>
+<l n="*D 770.29"><seg type="Initiale" subtype="Majuskel">D</seg>er grâve <name type="Person">Jurans</name> von <name type="Ort">Blemunzin</name></l>
+<l n="*D 770.30"><seg type="Initiale" subtype="Majuskel">U</seg>nt der herzoge <name type="Person">Affinamus</name> von <name type="Ort">Amantasin</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit> <note>(770.14-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 770.12)</note> <wit>V</wit> <wit>Fr6</wit> <note>(770.3-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 770.5-30)</note> <wit>I</wit> <note>(ohne 770.5-30)</note> <wit>L</wit> <note>(ohne 770.5-30)</note> <wit>Z</wit> <note>(ohne 770.5-30)</note> <wit>Fr18</wit> <note>(ohne 770.5-30)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="770.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Fr18</wit>
+</rdg></app>
+<app loc="770.29"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="770.30"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="770.06">
+<lem>Amaspartins</lem> <rdg>Arimaspis <wit>*m</wit></rdg>
+</app>
+<app loc="770.15">
+<rdg>:::si::: kvnec ::: <wit>Fr2</wit></rdg>
+</app>
+<app loc="770.17">
+<lem>der</lem> <rdg>Vnd der <wit>Fr2</wit></rdg>
+</app>
+<app loc="770.18">
+<lem>herzoge</lem> <rdg>herzoge Carub (von tarub <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="770.21">
+<lem>herzoge</lem> <rdg>hezoge <wit>D</wit></rdg>
+</app>
+<app loc="770.24">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="770.26">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="770.27">
+<lem>von</lem> <rdg>die (vnde die <wit>V</wit>) von <wit>*m</wit></rdg>
+</app>
+<app loc="770.28">
+<lem>unt von</lem> <rdg>von (Vo <wit>mk</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="770.01">
+<rdg></rdg>
+</app>
+<app loc="770.02">
+<rdg>Behantins <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="770.03">
+<rdg>und der <wit>*T</wit> · von Alfre (valske <wit>I</wit> Alfriche <wit>L</wit> Alfke <wit>Z</wit> alkê <wit>Fr18</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="770.04">
+<rdg></rdg>
+</app>
+<app loc="770.05">
+<rdg><note>Die Verse 770.5-30 fehlen</note> <wit>*G</wit> · und der <wit>*T</wit></rdg>
+</app>
+<app loc="770.06">
+<rdg>Amasparims <wit>*T</wit></rdg>
+</app>
+<app loc="770.07">
+<rdg>und der <wit>*T</wit></rdg>
+</app>
+<app loc="770.08">
+<rdg></rdg>
+</app>
+<app loc="770.09">
+<rdg></rdg>
+</app>
+<app loc="770.10">
+<rdg>und von Bruigitas der k. Transiapins, <wit>*T</wit></rdg>
+</app>
+<app loc="770.11">
+<rdg>Niberborticon <wit>*T</wit></rdg>
+</app>
+<app loc="770.12">
+<rdg>und von Entrion der k. Kyllicrates <wit>*T</wit></rdg>
+</app>
+<app loc="770.13">
+<rdg>und der <wit>*T</wit></rdg>
+</app>
+<app loc="770.14">
+<rdg>von Elyrodion <wit>*T</wit></rdg>
+</app>
+<app loc="770.15">
+<rdg>und von <wit>*T</wit></rdg>
+</app>
+<app loc="770.16">
+<rdg>h. von A. <wit>*T</wit></rdg>
+</app>
+<app loc="770.17">
+<rdg>und den k. <wit>*T</wit></rdg>
+</app>
+<app loc="770.18">
+<rdg></rdg>
+</app>
+<app loc="770.19">
+<rdg>und der künec von Arabye Zarcaster <wit>*T</wit></rdg>
+</app>
+<app loc="770.20">
+<rdg></rdg>
+</app>
+<app loc="770.21">
+<rdg>und der <wit>*T</wit></rdg>
+</app>
+<app loc="770.22">
+<rdg></rdg>
+</app>
+<app loc="770.23">
+<rdg></rdg>
+</app>
+<app loc="770.24">
+<rdg></rdg>
+</app>
+<app loc="770.25">
+<rdg></rdg>
+</app>
+<app loc="770.26">
+<rdg></rdg>
+</app>
+<app loc="770.27">
+<rdg></rdg>
+</app>
+<app loc="770.28">
+<rdg>und von Kanfassie der k. Iterkrac <wit>*T</wit></rdg>
+</app>
+<app loc="770.29">
+<rdg>und der <wit>*T</wit></rdg>
+</app>
+<app loc="770.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

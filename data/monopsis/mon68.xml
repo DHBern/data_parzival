@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 68</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 68.01">gedenke an die sippe dîn.</l>
+<l n="*D 68.02">durch re<corr type="Emendation">h</corr>te liebe warte mîn."</l>
+<l n="*D 68.03"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der künec von <name type="Ort">Zazamanc</name>:</l>
+<l n="*D 68.04">"dûne darft mir wizzen keinen danc,</l>
+<l n="*D 68.05">swaz dir mîn dienest hie ze êren tuot.</l>
+<l n="*D 68.06">wir sulen hab<reg type="Synkope">e</reg>n einen muot.</l>
+<l n="*D 68.07">stêt dîn strûz noch sund<reg type="Synkope">e</reg>r nest,</l>
+<l n="*D 68.08">dû solt dîn sarapandratest</l>
+<l n="*D 68.09">gein sînem halb<reg type="Synkope">e</reg>n grîfen trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 68.10">mîn anker vaste wirt geslag<reg type="Synkope">e</reg>n</l>
+<l n="*D 68.11">durch lenden in sînes poinders hurt.</l>
+<l n="*D 68.12">er muose selbe suochen vurt</l>
+<l n="*D 68.13">hinderm orse ûfme griez.</l>
+<l n="*D 68.14">der uns zein and<reg type="Synkope">e</reg>r liez,</l>
+<l n="*D 68.15">ich valte in od<reg type="Synkope">e</reg>r er valte mich.</l>
+<l n="*D 68.16">des wer ich an den triwen dich."</l>
+<l n="*D 68.17"><name type="Person">Kaylet</name> ze herbergen reit</l>
+<l n="*D 68.18">mit grôzen vreuden sund<reg type="Synkope">e</reg>r leit.</l>
+<l n="*D 68.19"><seg type="Initiale" subtype="Majuskel">S</seg>ich huob ein krîieren</l>
+<l n="*D 68.20">vor zwein helden fieren.</l>
+<l n="*D 68.21">von <name type="Ort">Poytouwe</name> <name type="Person">Schiolarz</name></l>
+<l n="*D 68.22">unt <name type="Person">Gurnemanz</name> der <name type="Ort">Graharz</name>,</l>
+<l n="*D 68.23">die tjustierten ûf dem plân.</l>
+<l n="*D 68.24">sich huop diu vesperîe sân.</l>
+<l n="*D 68.25">hie riten sehse, dort wol drî.</l>
+<l n="*D 68.26">den vuor vil l<corr type="Emendation">î</corr>hte ein tropel bî.</l>
+<l n="*D 68.27">si begund<reg type="Synkope">e</reg>n rehte rîters tât.</l>
+<l n="*D 68.28">des enwas êt dechein rât.</l>
+<l n="*D 68.29"><seg type="Initiale" subtype="Majuskel">E</seg>z was dennoch wol mitter tac.</l>
+<l n="*D 68.30">der hêrre und<reg type="Synkope">e</reg>r sîme gezelte lac.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="68.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="68.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>L</wit><wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="68.03"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="68.17"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+<app loc="68.19"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="68.25"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="68.29"><rdg>
+<note>Initiale</note> <wit>L</wit><wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="68.29"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="68.02">
+<lem>rehte</lem> <rdg>rete <wit>D</wit></rdg>
+</app>
+<app loc="68.04">
+<rdg>"dû darft mirs sagen kleinen (mirs wizzen dehainen <wit>I</wit> mir sagen dekeinen <wit>L</wit> mirs wissen cleinen <wit>V</wit> [<wit>T</wit>]) danc, <wit>*T</wit></rdg>
+</app>
+<app loc="68.04">
+<lem>darft mir</lem> <rdg>solt mirs <wit>*m</wit></rdg>
+</app>
+<app loc="68.11">
+<rdg>durch lenden in sînes ponders hürt. <wit>*m</wit></rdg>
+</app>
+<app loc="68.12">
+<rdg>er in selber suochen würt <wit>*m</wit></rdg>
+</app>
+<app loc="68.20">
+<lem>vor</lem> <rdg>von <wit>*m</wit></rdg>
+</app>
+<app loc="68.22">
+<lem>der</lem> <rdg>de <wit>*m</wit></rdg>
+</app>
+<app loc="68.26">
+<lem>lîhte</lem> <rdg>liehte <wit>D</wit></rdg>
+</app>
+<app loc="68.28">
+<lem>êt dechein rât</lem> <rdg>dô kein ander rât (dechein rât <wit>T</wit>) <wit>*m</wit> <wit>*T</wit> êt dô dehein ander (eht do dehein <wit>L</wit> da kein <wit>Z</wit>) rât <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="68.30">
+<rdg>der hêrre in sînem zelte lac. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="68.01">
+<rdg></rdg>
+</app>
+<app loc="68.02">
+<rdg></rdg>
+</app>
+<app loc="68.03">
+<rdg></rdg>
+</app>
+<app loc="68.04">
+<rdg>&#x2193;<wit>*T</wit> · dû solt mir (darft mirs <wit>I</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="68.05">
+<rdg>d. zeren (dinst hie eren <wit>L</wit>) t. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="68.06">
+<rdg></rdg>
+</app>
+<app loc="68.07">
+<rdg></rdg>
+</app>
+<app loc="68.08">
+<rdg></rdg>
+</app>
+<app loc="68.09">
+<rdg></rdg>
+</app>
+<app loc="68.10">
+<rdg></rdg>
+</app>
+<app loc="68.11">
+<rdg></rdg>
+</app>
+<app loc="68.12">
+<rdg>muoze (mu&#x0364;ste <wit>V</wit> mvese <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="68.13">
+<rdg>h. o., ûf ein gr. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="68.14">
+<rdg>der uns zesamene lieze, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="68.15">
+<rdg></rdg>
+</app>
+<app loc="68.16">
+<rdg></rdg>
+</app>
+<app loc="68.17">
+<rdg>zuo der h. <wit>*T</wit> <note>(ohne T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="68.18">
+<rdg></rdg>
+</app>
+<app loc="68.19">
+<rdg></rdg>
+</app>
+<app loc="68.20">
+<rdg>von zw. <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="68.21">
+<rdg>von Potytouwe Tschierarz <wit>*G</wit> von Poitowe Deschelarz <wit>*T</wit></rdg>
+</app>
+<app loc="68.22">
+<rdg>unde Gurnomanz von (de <wit>*T</wit>) G., <wit>*G</wit> <note>(ohne OZ)</note> (<wit>*T</wit>) (<wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="68.23">
+<rdg></rdg>
+</app>
+<app loc="68.24">
+<rdg></rdg>
+</app>
+<app loc="68.25">
+<rdg></rdg>
+</app>
+<app loc="68.26">
+<rdg>den (Dem <wit>U</wit>) reit vil <wit>*T</wit></rdg>
+</app>
+<app loc="68.27">
+<rdg>si begiengen r. (begunden rehter <wit>V</wit> [<wit>T</wit>]) <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="68.28">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="68.29">
+<rdg>Diz was <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="68.30">
+<rdg>der h. in s. gezelte (<subst><del>zelte</del><add>gezelte</add></subst> <wit>I</wit>) lac. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

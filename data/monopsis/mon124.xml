@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 124</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>01.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 124.01"><seg type="Initiale" subtype="Majuskel">D</seg>er knappe sprach durch sînen muot</l>
+<l n="*D 124.02">zem vürst<reg type="Synkope">e</reg>n: "war zuo ist diz guot,</l>
+<l n="*D 124.03">daz dich sô wol kan schicken?</l>
+<l n="*D 124.04">ine mag es niht ab gezwicken."</l>
+<l n="*D 124.05">der vürste im zeigete sân sîn swert:</l>
+<l n="*D 124.06">"nû sich, swer an mich strîtes gert,</l>
+<l n="*D 124.07">des selb<reg type="Synkope">e</reg>n wer ich mich mit sleg<reg type="Synkope">e</reg>n.</l>
+<l n="*D 124.08">vür die sîne muoz ich an mich leg<reg type="Synkope">e</reg>n</l>
+<l n="*D 124.09">unt vür den schuz unt vü<corr type="Emendation">r</corr> den stich</l>
+<l n="*D 124.10">muoz ich alsus wâpen mich."</l>
+<l n="*D 124.11"><seg type="Initiale" subtype="Majuskel">A</seg>ber sprach der knappe snel:</l>
+<l n="*D 124.12">"ob die hirze trüegen sus ir vel,</l>
+<l n="*D 124.13">sône verwunt ir niht mîn gabylôt,</l>
+<l n="*D 124.14">der vellet man<reg type="Synkope">e</reg>ger von mir tôt."</l>
+<l n="*D 124.15"><seg type="Initiale">D</seg>ie ritter zurnd<reg type="Synkope">e</reg>n, daz er hielt</l>
+<l n="*D 124.16">bî dem knappen, der vil tumpheite wielt.</l>
+<l n="*D 124.17">der vürste sprach: "got hüete dîn.</l>
+<l n="*D 124.18">owî, wan w&#x00E6;re dîn sch&#x0153;ne mîn!</l>
+<l n="*D 124.19">dir hete got den wunsch gegeb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 124.20">ob dû mit witzen soldest leben.</l>
+<l n="*D 124.21">diu gotes kraft dir virre leit."</l>
+<l n="*D 124.22">die sîne unt ouch er selbe reit</l>
+<l n="*D 124.23">unt g<corr type="Emendation">â</corr>hten harte balde</l>
+<l n="*D 124.24">zeinem velde in dem walde.</l>
+<l n="*D 124.25">dâ vant der gevüege</l>
+<l n="*D 124.26">vrou <name type="Person">Herzeloyden</name> pf<corr type="Emendation">l</corr>üege.</l>
+<l n="*D 124.27">ir volke leid<reg type="Synkope">e</reg>r nie geschach,</l>
+<l n="*D 124.28">die er balde eren sach.</l>
+<l n="*D 124.29">si begunden s&#x00E6;n, dar nâch egen,</l>
+<l n="*D 124.30">ob starken ohsen weg<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="124.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="124.01"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="124.05"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="124.05"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="124.11"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="124.15"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="124.03">
+<rdg>daz dû ez sus kanst zesamen (Daz sich so wol kan <wit>L</wit>) geschicken (<note>om.</note> <wit>U</wit>)? <wit>*T</wit> <note>(ohne T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="124.04">
+<lem>ab</lem> <rdg>her abe <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="124.05">
+<lem>zeigete</lem> <rdg>zougete <wit>*m</wit></rdg>
+</app>
+<app loc="124.09">
+<lem>vür</lem> <rdg>fv̂f <wit>D</wit></rdg>
+</app>
+<app loc="124.14">
+<rdg>der (ir <wit>I</wit>) lît vil maniger vor (von <wit>I</wit>) mir tôt." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="124.14">
+<lem>von</lem> <rdg>vor <wit>*m</wit></rdg>
+</app>
+<app loc="124.16">
+<lem>knappen</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="124.18">
+<lem>owî</lem> <rdg>owê <wit>*m</wit></rdg>
+</app>
+<app loc="124.18">
+<lem>dîn</lem> <rdg>diu <wit>*m</wit></rdg>
+</app>
+<app loc="124.23">
+<lem>gâhten</lem> <rdg>g&#x00E6;hten <wit>D</wit></rdg>
+</app>
+<app loc="124.26">
+<lem>pflüege</lem> <rdg>phv&#x0364;ge <wit>D</wit></rdg>
+</app>
+<app loc="124.28">
+<lem>die er</lem> <rdg>daz er dâ <wit>*m</wit> daz er vil <wit>I</wit></rdg>
+</app>
+<app loc="124.30">
+<rdg>ir garte ob starken ohsen wegen. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="124.01">
+<rdg></rdg>
+</app>
+<app loc="124.02">
+<rdg>"jâ, hêrre, war zuo ist diz (daz <wit>I</wit>) g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="124.03">
+<rdg>&#x2193;<wit>*T</wit> · d. sus (sich so <wit>L</wit>) wol <wit>*G</wit> <note>(ohne OL)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="124.04">
+<rdg>ez <wit>*T</wit></rdg>
+</app>
+<app loc="124.05">
+<rdg>zeigete im sân ([sam <wit>V</wit> sa <wit>T</wit>] <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>O</wit>) <wit>*G</wit> (<wit>*T</wit>) · Der furst im san zeigt sin swert <wit>Z</wit></rdg>
+</app>
+<app loc="124.06">
+<rdg>nû <note>om.</note> <wit>*T</wit> <note>(ohne T)</note> · strîtes an mich <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="124.07">
+<rdg></rdg>
+</app>
+<app loc="124.08">
+<rdg>mich an <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="124.09">
+<rdg>vür den sch. (slac <wit>*T</wit>) und vür den st. <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(ohne T)</note></rdg>
+</app>
+<app loc="124.10">
+<rdg></rdg>
+</app>
+<app loc="124.11">
+<rdg></rdg>
+</app>
+<app loc="124.12">
+<rdg>sus trüegen (tragen <wit>I</wit> trv&#x0366;gen <wit>O</wit>) <wit>*T</wit> <note>(ohne T)</note> (<wit>I</wit> <wit>O</wit>) · Tru̽gen die hirtze sus ir vel <wit>L</wit></rdg>
+</app>
+<app loc="124.13">
+<rdg></rdg>
+</app>
+<app loc="124.14">
+<rdg>&#x2193;<wit>*G</wit> · m. (manegen <wit>U</wit> <subst><del>manigen</del><add>maniger</add></subst> <wit>V</wit>) vor mir <wit>*T</wit></rdg>
+</app>
+<app loc="124.15">
+<rdg></rdg>
+</app>
+<app loc="124.16">
+<rdg>knappen <note>om.</note> <wit>*T</wit> <note>(ohne T)</note> <wit>I</wit></rdg>
+</app>
+<app loc="124.17">
+<rdg></rdg>
+</app>
+<app loc="124.18">
+<rdg>owê (Awe <wit>O</wit> Owý <wit>L</wit>), <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="124.19">
+<rdg></rdg>
+</app>
+<app loc="124.20">
+<rdg></rdg>
+</app>
+<app loc="124.21">
+<rdg></rdg>
+</app>
+<app loc="124.22">
+<rdg>unt <note>om.</note> <wit>*T</wit> <note>(ohne T)</note> · <subst><del>D*</del><add>Er vnde die sine dannan reit</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="124.23">
+<rdg>unde g. (Gahent <wit>I</wit>) dannen (alle <wit>O</wit> <note>om.</note> <wit>*T</wit>) b. <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>) <note>(nur U)</note></rdg>
+</app>
+<app loc="124.24">
+<rdg></rdg>
+</app>
+<app loc="124.25">
+<rdg>dâ sach (ersach <wit>I</wit>) der g. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="124.26">
+<rdg></rdg>
+</app>
+<app loc="124.27">
+<rdg></rdg>
+</app>
+<app loc="124.28">
+<rdg>er vil b. <wit>*G</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="124.29">
+<rdg>s&#x00E6;n und dar (san <subst><del>da*</del><add>dar</add></subst> <wit>L</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="124.30">
+<rdg>ir gart obe st. (starc <wit>I</wit>) o. w. <wit>*G</wit> · ir garten ob den (den starken <wit>T</wit>) o. w. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

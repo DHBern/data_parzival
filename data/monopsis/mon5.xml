@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 5</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 5.01">swer ie dâ pflac der lande,</l>
+<l n="*D 5.02">der gebôt wol âne schande</l>
+<l n="*D 5.03">- daz ist ein wârheit sunder wân -,</l>
+<l n="*D 5.04">daz der aldeste bruoder solde hân</l>
+<l n="*D 5.05">sînes vater ganzen erbeteil.</l>
+<l n="*D 5.06">daz was der jungern unheil,</l>
+<l n="*D 5.07">daz in der tôt die pflihte brach,</l>
+<l n="*D 5.08">als in vater leben verjach.</l>
+<l n="*D 5.09">dâ vor was ez gemeine.</l>
+<l n="*D 5.10">sus hât ez der alter eine.</l>
+<l n="*D 5.11">daz schuof iedoch ein wîse man,</l>
+<l n="*D 5.12">daz alter guot solde hân.</l>
+<l n="*D 5.13">jugent hât vil werdecheit,</l>
+<l n="*D 5.14">daz alter siuften unde leit.</l>
+<l n="*D 5.15">ez enwart nie niht als unvruot</l>
+<l n="*D 5.16">sô alter und armuot.</l>
+<l n="*D 5.17">künige, grâven, herzogen</l>
+<l n="*D 5.18">- daz sag ich iu vür ungelogen -,</l>
+<l n="*D 5.19">daz die dâ huobe enterbet sint</l>
+<l n="*D 5.20">unz an daz elter kint,</l>
+<l n="*D 5.21">daz ist ein vremdiu zeche.</l>
+<l n="*D 5.22">der kiusche und der vreche</l>
+<l n="*D 5.23"><name type="Person">Gahmuret</name>, der wîgant,</l>
+<l n="*D 5.24">verlôs sus bürge und lant,</l>
+<l n="*D 5.25">dâ sîn vater schône</l>
+<l n="*D 5.26">truoc sceptrum und die krône</l>
+<l n="*D 5.27">mit grôzer küneclîcher kraft,</l>
+<l n="*D 5.28">unz er lac tôt an rîterschaft.</l>
+<l n="*D 5.29"><seg type="Initiale">D</seg>ô klagete man in sêre.</l>
+<l n="*D 5.30">die ganzen triwe und êre</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 5.19-26)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit><wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="5.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="5.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="5.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="5.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="5.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="5.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="5.21"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="5.23"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app><app loc="5.23"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="5.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>Z</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="5.06">
+<lem>jungern </lem> <rdg>jungen <wit>*m</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="5.06">
+<lem>unheil</lem> <rdg>michel heil <wit>*m</wit></rdg>
+</app>
+<app loc="5.08">
+<lem>in</lem> <rdg>in ir <wit>*m</wit></rdg>
+</app>
+<app loc="5.14">
+<lem>daz</lem> <rdg>dô <wit>*m</wit></rdg>
+</app>
+<app loc="5.15">
+<lem>als</lem> <rdg>so <wit>O</wit> <wit>L</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="5.17">
+<rdg>künige, grâven und herzogen <wit>*m</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="5.19">
+<rdg><note>Die Verse 5.19-26 fehlen; ergänzt nach W</note> <wit>*m</wit></rdg>
+</app>
+<app loc="5.19">
+<lem>dâ huobe</lem> <rdg>jungen <wit>*m</wit></rdg>
+</app>
+<app loc="5.20">
+<lem>elter</lem> <rdg>eltest <wit>*m</wit></rdg>
+</app>
+<app loc="5.21">
+<lem>ist</lem> <rdg>was <wit>*m</wit></rdg>
+</app>
+<app loc="5.23">
+<lem>Gahmuret</lem> <rdg>Gagmuret <wit>D</wit></rdg>
+</app>
+<app loc="5.26">
+<lem>die</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="5.01">
+<rdg>der ie dâ (Der E <wit>L</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="5.02">
+<rdg></rdg>
+</app>
+<app loc="5.03">
+<rdg>- diz ist <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="5.04">
+<rdg>der elter (elten <wit>L</wit>) br. <wit>*G</wit> <wit>V</wit></rdg>
+</app>
+<app loc="5.05">
+<rdg></rdg>
+</app>
+<app loc="5.06">
+<rdg>daz was des j. (der iungen <wit>V</wit>) u., <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="5.07">
+<rdg>daz im (<subst><del>in</del><add>im</add></subst> <wit>V</wit>) der <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="5.08">
+<rdg>der (Als <wit>Z</wit>) in ir vater <wit>*G</wit> (<wit>U</wit>) daz im irs (Dez in ir <wit>V</wit>) vater <wit>*T</wit></rdg>
+</app>
+<app loc="5.09">
+<rdg></rdg>
+</app>
+<app loc="5.10">
+<rdg></rdg>
+</app>
+<app loc="5.11">
+<rdg>ez sch. (Es geschu&#x0366;f <wit>V</wit>) <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="5.12">
+<rdg>daz daz a. <wit>*T</wit></rdg>
+</app>
+<app loc="5.13">
+<rdg></rdg>
+</app>
+<app loc="5.14">
+<rdg></rdg>
+</app>
+<app loc="5.15">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="5.16">
+<rdg>als alter (So alter ist <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="5.17">
+<rdg></rdg>
+</app>
+<app loc="5.18">
+<rdg></rdg>
+</app>
+<app loc="5.19">
+<rdg>die der h. <wit>*T</wit></rdg>
+</app>
+<app loc="5.20">
+<rdg>daz elteste k. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="5.21">
+<rdg>diz (Dizze <wit>O</wit>) ist <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="5.22">
+<rdg></rdg>
+</app>
+<app loc="5.23">
+<rdg></rdg>
+</app>
+<app loc="5.24">
+<rdg></rdg>
+</app>
+<app loc="5.25">
+<rdg></rdg>
+</app>
+<app loc="5.26">
+<rdg></rdg>
+</app>
+<app loc="5.27">
+<rdg></rdg>
+</app>
+<app loc="5.28">
+<rdg></rdg>
+</app>
+<app loc="5.29">
+<rdg></rdg>
+</app>
+<app loc="5.30">
+<rdg>die grôzen tr. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

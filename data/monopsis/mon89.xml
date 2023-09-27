@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 89</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 89.01"><seg type="Initiale" subtype="Majuskel">D</seg>az lobte ir der werde man.</l>
+<l n="*D 89.02">si nam urloup, dô vuor si sân.</l>
+<l n="*D 89.03">si huop <name type="Person">Kaylet</name>, der degen wert,</l>
+<l n="*D 89.04">sund<reg type="Synkope">e</reg>r schamel ûf ir pfert</l>
+<l n="*D 89.05">und gienc von ir hin wid<reg type="Synkope">e</reg>r în,</l>
+<l n="*D 89.06">al dâ er sach die vrouwen sîn.</l>
+<l n="*D 89.07"><seg type="Initiale">E</seg>r sprach ze <name type="Person">Hardize</name>:</l>
+<l n="*D 89.08">"iwer swester <name type="Person">Alize</name></l>
+<l n="*D 89.09">mir minne bôt. die nam ich dâ.</l>
+<l n="*D 89.10">diu ist bestat<reg type="Synkope">e</reg>t and<reg type="Synkope">e</reg>rswâ</l>
+<l n="*D 89.11">unt werdeclîcher denne ze mir.</l>
+<l n="*D 89.12">durch iwer zuht lât zorn<reg type="Synkope">e</reg>s gir.</l>
+<l n="*D 89.13">si hât der vürste <name type="Person">Lambekin</name>.</l>
+<l n="*D 89.14">al sul si niht gekr&#x0153;net sîn,</l>
+<l n="*D 89.15">si hât doch werdecheit bekant.</l>
+<l n="*D 89.16"><name type="Ort">Hanouwe</name> unde <name type="Ort">Brabant</name></l>
+<l n="*D 89.17">ir dienet unt manec ritt<reg type="Synkope">e</reg>r guot.</l>
+<l n="*D 89.18">kêrt mir ze grüezen iweren muot.</l>
+<l n="*D 89.19">lât mich in iwern hulden sîn</l>
+<l n="*D 89.20">unt nemt hin wid<reg type="Synkope">e</reg>r dienest mîn."</l>
+<l n="*D 89.21"><seg type="Initiale" subtype="Majuskel">D</seg>er künec von <name type="Ort">Gascon</name> dô sprach,</l>
+<l n="*D 89.22">als im sîn manlîch ellen jach:</l>
+<l n="*D 89.23">"iwer rede was ie süeze.</l>
+<l n="*D 89.24">swer iuch dâr umbe grüeze,</l>
+<l n="*D 89.25">dem ir vil lasters hât getân,</l>
+<l n="*D 89.26">der woltz doch durch vorhte lân.</l>
+<l n="*D 89.27">mich vienc iwer muomen sun.</l>
+<l n="*D 89.28">der kan an niemen missetuon."</l>
+<l n="*D 89.29">"<seg type="Initiale" subtype="Majuskel">I</seg>r werdet wol ledic von <name type="Person">Gahmurete</name>.</l>
+<l n="*D 89.30">daz sol sîn mîn êrstiu bete.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(ohne 89.11-12)</note> <wit>V</wit> <wit>T</wit> <note>(ohne 89.29-30)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="89.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="89.01"><rdg><note>Majuskel</note> <wit>D</wit>
+ <wit>T</wit>
+</rdg></app>
+<app loc="89.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="89.07"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app>
+<app loc="89.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="89.13"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="89.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="89.21"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="89.21"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="89.29"><rdg>
+ <note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="89.02">
+<lem>sân</lem> <rdg><subst><del>*an</del><add>san</add></subst> <wit>D</wit> dan <wit>*m</wit></rdg>
+</app>
+<app loc="89.06">
+<lem>vrouwen</lem> <rdg>vröude <wit>*m</wit></rdg>
+</app>
+<app loc="89.10">
+<lem>diu ist</lem> <rdg>diust nû <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="89.11">
+<rdg>Vnde werdeklicher danne zu&#x0366; mir <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="89.12">
+<rdg>durch uwer zuht lant zornes gir <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="89.14">
+<rdg>ensul si (Vnde sol <wit>O</wit> Svln <wit>L</wit> Also sv&#x0364;l sie <wit>Z</wit> Vnde sol si <wit>Fr21</wit> <subst><del>*</del><add>Alse sv́</add></subst> <wit>V</wit> alde sol si <wit>T</wit>) niht (svs <wit>T</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="89.18">
+<lem>grüezen</lem> <rdg>gruoze <wit>*m</wit></rdg>
+</app>
+<app loc="89.20">
+<rdg>(Vnde <wit>O</wit> [<wit>L</wit> <wit>Z</wit>] <wit>Fr21</wit> [<wit>V</wit>]) nemet (nem <wit>Fr21</wit>) hin wider den dienst mîn." <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="89.20">
+<rdg>und nemet in (da <wit>T</wit>) wider, den dienst mîn." <wit>*T</wit></rdg>
+</app>
+<app loc="89.20">
+<lem>dienest</lem> <rdg>den dienst <wit>*m</wit></rdg>
+</app>
+<app loc="89.26">
+<lem>lân</lem> <rdg>gelân <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="89.01">
+<rdg></rdg>
+</app>
+<app loc="89.02">
+<rdg>si nam u. und v. von (vnd fu̽r <wit>L</wit> [<wit>V</wit>] vnde sciet <wit>T</wit>) dan. <wit>*G</wit> (<wit>V</wit> <wit>T</wit>) · si nam u., dô v. si dan. <wit>*T</wit> (<wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="89.03">
+<rdg>si h. der d. w. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="89.04">
+<rdg>schame (<subst><del>sch*</del><add>schemel</add></subst> <wit>V</wit> schamen <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="89.05">
+<rdg>unde kêrte <wit>*G</wit> (<wit>*T</wit>) · von ir w. (w. von ir <wit>Z</wit>) în, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="89.06">
+<rdg>dâ (al dâ <wit>*T</wit> [<wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>]) er vant die vröude (frivnde <wit>G</wit> vrowe <wit>L</wit>) sîn. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="89.07">
+<rdg></rdg>
+</app>
+<app loc="89.08">
+<rdg></rdg>
+</app>
+<app loc="89.09">
+<rdg></rdg>
+</app>
+<app loc="89.10">
+<rdg>diu ist b. a., <wit>*G</wit> <note>(nur GI)</note> · dû bist nû (die ist nv <wit>V</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>] div ist bestat <wit>T</wit>) b. a. <wit>*T</wit></rdg>
+</app>
+<app loc="89.11">
+<rdg><note>Die Verse 89.11-12 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur U)</note> · unt <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="89.12">
+<rdg></rdg>
+</app>
+<app loc="89.13">
+<rdg></rdg>
+</app>
+<app loc="89.14">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="89.15">
+<rdg></rdg>
+</app>
+<app loc="89.16">
+<rdg></rdg>
+</app>
+<app loc="89.17">
+<rdg></rdg>
+</app>
+<app loc="89.18">
+<rdg>ze gruoze (gv&#x0366;te <wit>T</wit>) i. <wit>*G</wit> <note>(nur GIL)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="89.19">
+<rdg>h. sîn, <wit>*G</wit></rdg>
+</app>
+<app loc="89.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="89.21">
+<rdg>dô <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="89.22">
+<rdg></rdg>
+</app>
+<app loc="89.23">
+<rdg>"iuwer ellen (<subst><del>*</del><add>rede</add></subst> <wit>V</wit>) was <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="89.24">
+<rdg>der iu. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="89.25">
+<rdg>ir grôz (<note>om.</note> <wit>*T</wit> <wit>I</wit>) laster (ir laide <wit>I</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="89.26">
+<rdg>woltez iedoch d. <wit>*G</wit> <note>(ohne IL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="89.27">
+<rdg></rdg>
+</app>
+<app loc="89.28">
+<rdg></rdg>
+</app>
+<app loc="89.29">
+<rdg>an G. <wit>*T</wit></rdg>
+</app>
+<app loc="89.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

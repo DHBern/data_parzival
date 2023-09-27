@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 819</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 819.01"><seg type="Initiale">S</seg>ô diu vrâge wirt gein im getân,</l>
+<l n="*D 819.02">sô mügen sis niht langer hân.</l>
+<l n="*D 819.03">durch daz der süeze <name type="Person">Anfortas</name></l>
+<l n="*D 819.04">sô lange in sûren pînen was</l>
+<l n="*D 819.05">unt in diu vrâge lange meit,</l>
+<l n="*D 819.06">in ist immer mêr nû vrâgen leit.</l>
+<l n="*D 819.07">al des <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> pflihtgesellen</l>
+<l n="*D 819.08">von in vrâgens niht en<corr type="Emendation">w</corr>ellen.</l>
+<l n="*D 819.09"><seg type="Initiale" subtype="Majuskel">D</seg>er getoufte <name type="Person">Feirefiz</name></l>
+<l n="*D 819.10">an sînen swâger leite vlîz</l>
+<l n="*D 819.11">mit bete dan ze varne</l>
+<l n="*D 819.12">unt niemer niht ze sparne</l>
+<l n="*D 819.13">vor im al sîner rîchen habe.</l>
+<l n="*D 819.14">dô leite in mit zühten abe</l>
+<l n="*D 819.15"><name type="Person">Anfortas</name> von dem gewerbe:</l>
+<l n="*D 819.16">"ine wil niht, daz verderbe</l>
+<l n="*D 819.17">gein gote mîn dienstlîcher muot.</l>
+<l n="*D 819.18">des <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> krône ist als guot.</l>
+<l n="*D 819.19">die hât mir hôchvart verlorn.</l>
+<l n="*D 819.20">nû hân ich diemuot mir erkorn.</l>
+<l n="*D 819.21">rîchheit unt wîbe minne</l>
+<l n="*D 819.22">sich verret von mîme sinne.</l>
+<l n="*D 819.23"><seg type="Initiale" subtype="Majuskel">I</seg>r vüeret hinnen ein edel wîp.</l>
+<l n="*D 819.24">diu gît ze dienste iu kiuschen lîp</l>
+<l n="*D 819.25">mit guoten wîplîchen siten.</l>
+<l n="*D 819.26">mîn orden wirt hie niht vermiten.</l>
+<l n="*D 819.27">ich wil vil tjoste rîten,</l>
+<l n="*D 819.28">ins <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> dienste strîten.</l>
+<l n="*D 819.29"><seg type="Initiale">D</seg>urch wîp gestrîte ich niemer mêr.</l>
+<l n="*D 819.30">ein wîp gab mir herzesêr.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="819.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="819.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="819.09"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>U</wit>
+</rdg></app><app loc="819.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="819.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="819.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="819.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="819.02">
+<lem>sis</lem> <rdg>si sîn <wit>*m</wit></rdg>
+</app>
+<app loc="819.06">
+<lem>mêr</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="819.08">
+<lem>in</lem> <rdg>ime des <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="819.08">
+<lem>enwellen</lem> <rdg>envellen <wit>D</wit></rdg>
+</app>
+<app loc="819.19">
+<lem>die hât</lem> <rdg>und het (<subst><del>D*</del><add>Die hatte</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="819.20">
+<lem>nû hân ich</lem> <rdg>ich han nû <wit>*m</wit></rdg>
+</app>
+<app loc="819.21">
+<rdg><note>Versfolge 819.22-21</note> <wit>*m</wit></rdg>
+</app>
+<app loc="819.21">
+<lem>wîbe</lem> <rdg>wîbes <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="819.26">
+<rdg>mîn dienst wirt hie niht (hie niht wirt <wit>*T</wit> <wit>L</wit>) vermiten (Hie wirt min dienst niht vermiten <wit>Z</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="819.01">
+<rdg>W. diu (<note>om.</note> <wit>L</wit>) vr. dâ von in (von in <wit>I</wit> gein im <wit>L</wit> <wit>Z</wit> gein im dâ <wit>*T</wit>) g., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="819.02">
+<rdg>mügen sin (mugenz siz <wit>I</wit>) n. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="819.03">
+<rdg></rdg>
+</app>
+<app loc="819.04">
+<rdg>in sûrem (svren <wit>G</wit>) pîne <wit>*G</wit> <note>(ohne Z)</note> in sûrer pînen <wit>*T</wit></rdg>
+</app>
+<app loc="819.05">
+<rdg></rdg>
+</app>
+<app loc="819.06">
+<rdg>vrâge <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="819.07">
+<rdg>al die Gr. pf. <wit>*G</wit></rdg>
+</app>
+<app loc="819.08">
+<rdg>gein in (im <wit>*T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="819.09">
+<rdg></rdg>
+</app>
+<app loc="819.10">
+<rdg></rdg>
+</app>
+<app loc="819.11">
+<rdg></rdg>
+</app>
+<app loc="819.12">
+<rdg></rdg>
+</app>
+<app loc="819.13">
+<rdg>s. rîcheit h. <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="819.14">
+<rdg>dô wîste in <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="819.15">
+<rdg></rdg>
+</app>
+<app loc="819.16">
+<rdg></rdg>
+</app>
+<app loc="819.17">
+<rdg></rdg>
+</app>
+<app loc="819.18">
+<rdg>ist sô g. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="819.19">
+<rdg>diu hât <wit>*G</wit></rdg>
+</app>
+<app loc="819.20">
+<rdg>nû hân ich den muot e. <wit>*T</wit> · mir <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="819.21">
+<rdg></rdg>
+</app>
+<app loc="819.22">
+<rdg></rdg>
+</app>
+<app loc="819.23">
+<rdg></rdg>
+</app>
+<app loc="819.24">
+<rdg></rdg>
+</app>
+<app loc="819.25">
+<rdg>mit rehten w. s. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="819.26">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="819.27">
+<rdg>ich sol vil <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="819.28">
+<rdg></rdg>
+</app>
+<app loc="819.29">
+<rdg></rdg>
+</app>
+<app loc="819.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

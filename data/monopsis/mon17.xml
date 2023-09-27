@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 17</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 17.01"></l>
+<l n="*D 17.02"></l>
+<l n="*D 17.03">si t&#x00E6;ten sînen boten kunt,</l>
+<l n="*D 17.04">ez w&#x00E6;re <name type="Ort">Patelamunt</name>.</l>
+<l n="*D 17.05">daz wart <seg type="singuläre_Lesart">im</seg> inneclîchen enboten.</l>
+<l n="*D 17.06">si manten in bî ir goten,</l>
+<l n="*D 17.07">daz er in hülfe. des w&#x00E6;re in nôt.</l>
+<l n="*D 17.08">si rungen niht wan umben tôt.</l>
+<l n="*D 17.09"><seg type="Initiale" subtype="Majuskel">D</seg>ô der junge <name type="Person">Anschevin</name></l>
+<l n="*D 17.10">vernam ir kumberlîchen pîn,</l>
+<l n="*D 17.11">er bôt sîn dienest umbe guot,</l>
+<l n="*D 17.12">als noch vil dicke ein rîter tuot,</l>
+<l n="*D 17.13">oder daz si im sageten, umbe waz</l>
+<l n="*D 17.14">er solte doln der vîende haz.</l>
+<l n="*D 17.15"><seg type="Initiale">D</seg>ô sprach ûz einem munde</l>
+<l n="*D 17.16">der sieche unde der gesunde,</l>
+<l n="*D 17.17">daz im w&#x00E6;re al gemeine</l>
+<l n="*D 17.18">ir golt unde ir gesteine.</l>
+<l n="*D 17.19">des solt er alles hêrre wesen</l>
+<l n="*D 17.20">unde er m<corr type="Emendation">ö</corr>hte wol bî in genesen.</l>
+<l n="*D 17.21">doch bedorft er wênec soldes.</l>
+<l n="*D 17.22">von <name type="Ort">Arabie</name> des goldes</l>
+<l n="*D 17.23">het er manegen knollen brâht.</l>
+<l n="*D 17.24">liute vinster sô diu naht</l>
+<l n="*D 17.25">wâren alle die von <name type="Ort">Zazamanc</name>.</l>
+<l n="*D 17.26">bî den dûht in diu wîle lanc.</l>
+<l n="*D 17.27">doch hiez er herberge nemen.</l>
+<l n="*D 17.28">des moht ouch si vil wol gezemen,</l>
+<l n="*D 17.29">daz si im die besten gâben.</l>
+<l n="*D 17.30">die vrouwen dennoch lâgen</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(ohne 17.1-2)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 17.1-2)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(17.1-26)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="17.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="17.03"><rdg>
+<note>Initiale</note> <wit>Fr29</wit>
+</rdg></app>
+<app loc="17.09"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="17.09"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="17.15"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="17.20"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="17.01">
+<rdg><note>Die Verse 17.1-2 fehlen</note> <wit>*m</wit></rdg>
+</app>
+<app loc="17.03">
+<lem>t&#x00E6;ten sînen</lem> <rdg>tâten sînem <wit>*m</wit></rdg>
+</app>
+<app loc="17.04">
+<lem>ez</lem> <rdg><subst><del>*ez</del><add>ez</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="17.05">
+<lem>im inneclîchen</lem> <rdg>in minneclîchen <wit>*m</wit></rdg>
+</app>
+<app loc="17.06">
+<lem>manten</lem> <rdg>nâmen <wit>*m</wit></rdg>
+</app>
+<app loc="17.07">
+<lem>des</lem> <rdg>es <wit>*m</wit></rdg>
+</app>
+<app loc="17.12">
+<rdg>als ouch noch (noch dicke <wit>L</wit>) ein rîter tuot, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="17.12">
+<rdg>als noch dicke maneger (ein ritter <wit>U</wit> <wit>V</wit>) tuot, <wit>*T</wit></rdg>
+</app>
+<app loc="17.13">
+<lem>im</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="17.14">
+<lem>doln</lem> <rdg>dulden <wit>*m</wit></rdg>
+</app>
+<app loc="17.20">
+<rdg>und mehte wol vor in genesen. <wit>*m</wit></rdg>
+</app>
+<app loc="17.20">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="17.25">
+<lem>wâren</lem> <rdg>varn <wit>*m</wit></rdg>
+</app>
+<app loc="17.27">
+<lem>doch</lem> <rdg>dô <wit>*m</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="17.29">
+<rdg>daz sîn die besten pflâgen. <wit>*m</wit></rdg>
+</app>
+<app loc="17.29">
+<rdg>Daz sie sin schone phlagen <wit>L</wit></rdg>
+</app>
+<app loc="17.30">
+<lem>dennoch</lem> <rdg>lange dennoch <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="17.01">
+<rdg>wan ir kunde nie gewan <wit>*G</wit> · wand er (Wan der <wit>U</wit>) ir kunde nie gewan - <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="17.02">
+<rdg>weder er noch dehein sîn schefman. <wit>*G</wit> · er (<note>om.</note> <wit>L</wit>), noch dehein sîn schifman. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="17.03">
+<rdg>tâten <wit>*T</wit> · sînem <wit>*G</wit> <note>(nur GL)</note> <wit>U</wit></rdg>
+</app>
+<app loc="17.04">
+<rdg>si hieze (hiez <wit>O</wit>) P. <wit>*G</wit> · si heize (hiezen <wit>U</wit> hiesse <wit>V</wit>) P. <wit>*T</wit></rdg>
+</app>
+<app loc="17.05">
+<rdg>- daz w. im minneclîche e. - <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="17.06">
+<rdg>unde m. <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="17.07">
+<rdg>h. es w. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="17.08">
+<rdg></rdg>
+</app>
+<app loc="17.09">
+<rdg>Als der <wit>*T</wit></rdg>
+</app>
+<app loc="17.10">
+<rdg></rdg>
+</app>
+<app loc="17.11">
+<rdg></rdg>
+</app>
+<app loc="17.12">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="17.13">
+<rdg></rdg>
+</app>
+<app loc="17.14">
+<rdg>dulten <wit>*G</wit> <note>(ohne LZ)</note> <wit>U</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="17.15">
+<rdg></rdg>
+</app>
+<app loc="17.16">
+<rdg></rdg>
+</app>
+<app loc="17.17">
+<rdg></rdg>
+</app>
+<app loc="17.18">
+<rdg></rdg>
+</app>
+<app loc="17.19">
+<rdg>h. w., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="17.20">
+<rdg>unde <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="17.21">
+<rdg>d. (Dorch <wit>L</wit>) bedorfter lützel s. <wit>*G</wit> · ouch b. er lützel s. <wit>*T</wit> (<wit>O</wit> <wit>Fr29</wit>)</rdg>
+</app>
+<app loc="17.22">
+<rdg></rdg>
+</app>
+<app loc="17.23">
+<rdg></rdg>
+</app>
+<app loc="17.24">
+<rdg></rdg>
+</app>
+<app loc="17.25">
+<rdg></rdg>
+</app>
+<app loc="17.26">
+<rdg></rdg>
+</app>
+<app loc="17.27">
+<rdg></rdg>
+</app>
+<app loc="17.28">
+<rdg></rdg>
+</app>
+<app loc="17.29">
+<rdg></rdg>
+</app>
+<app loc="17.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

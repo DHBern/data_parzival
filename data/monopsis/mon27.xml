@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 27</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 27.01">verrâtens ich doch wênic kan,</l>
+<l n="*D 27.02">swie mich des zîhen sîne man.</l>
+<l n="*D 27.03">er was mir lieber danne in.</l>
+<l n="*D 27.04">âne geziuge ich des niht bin,</l>
+<l n="*D 27.05">mit den ichz sol bew&#x00E6;ren noch.</l>
+<l n="*D 27.06">die rehten wârheit wizzen doch</l>
+<l n="*D 27.07">mîne gote unt ouch die sîne.</l>
+<l n="*D 27.08">er gap mir manege pîne.</l>
+<l n="*D 27.09"><seg type="Initiale" subtype="Majuskel">N</seg>û hât mîn scham<reg type="Synkope">e</reg>ndiu wîpheit</l>
+<l n="*D 27.10">sîn lôn erlenget - mîn leit.</l>
+<l n="*D 27.11">dem helde erwarp mîn magetuom</l>
+<l n="*D 27.12">an rîterschefte manegen ruom.</l>
+<l n="*D 27.13">dô versuocht ich in, ob er kunde sîn</l>
+<l n="*D 27.14">ein vriunt. daz wart vil balde schîn.</l>
+<l n="*D 27.15">er gap durch mich sîn harnas</l>
+<l n="*D 27.16">enwec, daz als ein palas</l>
+<l n="*D 27.17">dort stêt. daz ist ein hôch gezelt.</l>
+<l n="*D 27.18">daz brâhten <name type="Person">Schotten</name> ûf ditze velt.</l>
+<l n="*D 27.19">dô daz der helt âne wart,</l>
+<l n="*D 27.20">sîn lîp dô wênic wart gespart.</l>
+<l n="*D 27.21">des lebens in dâ nâch verdrôz,</l>
+<l n="*D 27.22">manege âventiure suochter blôz.</l>
+<l n="*D 27.23">dô ditz alsô was,</l>
+<l n="*D 27.24">ein vürste, <name type="Person">Prothizilas</name></l>
+<l n="*D 27.25">er hiez, mîn messenîe,</l>
+<l n="*D 27.26">vor zageheit der vrîe,</l>
+<l n="*D 27.27">ûz durch âventiure reit,</l>
+<l n="*D 27.28">dâ grôz schade in niht vermeit.</l>
+<l n="*D 27.29">zem fôrest in <name type="Ort">Azagouc</name></l>
+<l n="*D 27.30">ein tjost im sterben niht erlouc,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="27.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr29</wit>
+</rdg></app>
+<app loc="27.09"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app><app loc="27.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="27.23"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="27.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="27.25"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="27.03">
+<lem>lieber</lem> <rdg>lieber vil <wit>*m</wit></rdg>
+</app>
+<app loc="27.04">
+<lem>geziuge</lem> <rdg>ziuge <wit>*m</wit></rdg>
+</app>
+<app loc="27.10">
+<rdg>sîn lôn erlenget, mir mîn leit. <wit>*m</wit></rdg>
+</app>
+<app loc="27.13">
+<lem>in</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="27.18">
+<lem>ditze</lem> <rdg>daz <wit>*m</wit> <wit>O</wit> <wit>U</wit></rdg>
+</app>
+<app loc="27.19">
+<lem>daz</lem> <rdg>des <wit>*m</wit></rdg>
+</app>
+<app loc="27.23">
+<lem>alsô</lem> <rdg>alsô komen <wit>*m</wit></rdg>
+</app>
+<app loc="27.24">
+<rdg>ein vürste, hiez Protizilas, <wit>*m</wit></rdg>
+</app>
+<app loc="27.25">
+<rdg>Der was mîn massenîe, <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="27.01">
+<rdg>d. lützel kan, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="27.02">
+<rdg>m. es (sin <wit>O</wit> <wit>L</wit> <wit>Fr29</wit> <wit>U</wit> <note>om.</note> <wit>V</wit>) z. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="27.03">
+<rdg></rdg>
+</app>
+<app loc="27.04">
+<rdg></rdg>
+</app>
+<app loc="27.05">
+<rdg>b. doch. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="27.06">
+<rdg>die mîne (miner <wit>V</wit>) wârheit <wit>*T</wit></rdg>
+</app>
+<app loc="27.07">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="27.08">
+<rdg></rdg>
+</app>
+<app loc="27.09">
+<rdg></rdg>
+</app>
+<app loc="27.10">
+<rdg>sîn lôn e. (gelenget <wit>O</wit>) und (<subst><del>*</del><add>erlenget vnd</add></subst> <wit>V</wit>) mîn l. <wit>*G</wit> · sînen lôn und mîn l. <wit>*T</wit></rdg>
+</app>
+<app loc="27.11">
+<rdg></rdg>
+</app>
+<app loc="27.12">
+<rdg>an rîterschaft vil manigen r. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="27.13">
+<rdg>ich (E ich <wit>L</wit>) versuocht in (<note>om.</note> <wit>*T</wit> <wit>L</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="27.14">
+<rdg></rdg>
+</app>
+<app loc="27.15">
+<rdg></rdg>
+</app>
+<app loc="27.16">
+<rdg></rdg>
+</app>
+<app loc="27.17">
+<rdg></rdg>
+</app>
+<app loc="27.18">
+<rdg></rdg>
+</app>
+<app loc="27.19">
+<rdg>dô des der <wit>*T</wit></rdg>
+</app>
+<app loc="27.20">
+<rdg>sîn manheit (lip doch <wit>Z</wit>) was vil ungespart (<subst><del>vgespart</del><add>vngespart</add></subst> <wit>G</wit>). <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="27.21">
+<rdg></rdg>
+</app>
+<app loc="27.22">
+<rdg></rdg>
+</app>
+<app loc="27.23">
+<rdg>Dar nâch, dô diz alsus was, <wit>*T</wit> · alsvs <wit>O</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="27.24">
+<rdg>Ein v., hiez Protizalas <wit>*T</wit></rdg>
+</app>
+<app loc="27.25">
+<rdg>in mîner m., <wit>*T</wit> · er (Der <wit>Z</wit>) <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="27.26">
+<rdg></rdg>
+</app>
+<app loc="27.27">
+<rdg>ouch d. <wit>*T</wit> · â. r. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="27.28">
+<rdg>ein grôzer sch. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="27.29">
+<rdg></rdg>
+</app>
+<app loc="27.30">
+<rdg>in (im <wit>Z</wit>) sterbens (sterben <wit>O</wit> <wit>L</wit> <wit>Z</wit>) <wit>*G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

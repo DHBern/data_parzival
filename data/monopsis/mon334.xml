@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 334</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>09.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 334.01"><seg type="Initiale">D</seg>ô vuor der messenîe vil</l>
+<l n="*D 334.02">gein dem arbeitlîchem zil,</l>
+<l n="*D 334.03">ein âventiure ze schouwen,</l>
+<l n="*D 334.04">dâ vier hundert juncvrouwen</l>
+<l n="*D 334.05">unt vier küneginne</l>
+<l n="*D 334.06">gevangen wâren inne,</l>
+<l n="*D 334.07">ze <name type="Ort">Schastel Marveile</name>.</l>
+<l n="*D 334.08">swaz in dâ wart ze teile,</l>
+<l n="*D 334.09">daz hab<reg type="Synkope">e</reg>n âne mînen haz;</l>
+<l n="*D 334.10">ich bin doch vrouwen lôn<reg type="Synkope">e</reg>s laz.</l>
+<l n="*D 334.11"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der <name type="Person">Krieche</name> <name type="Person">Clias</name>:</l>
+<l n="*D 334.12">"ich bin der dâ versûmet was."</l>
+<l n="*D 334.13">vor in allen er des jach.</l>
+<l n="*D 334.14">"der <name type="Person">Turkote</name> mich dâ stach</l>
+<l n="*D 334.15">hinder<corr type="Emendation">z</corr> ors, ich muoz mich scham<reg type="Synkope">e</reg>n.</l>
+<l n="*D 334.16">doch sagt er mir vier vrouwen nam<reg type="Synkope">e</reg>n,</l>
+<l n="*D 334.17">die dâ krôneb&#x00E6;re sint.</l>
+<l n="*D 334.18">zwô sint alt, zwô sint noch kint.</l>
+<l n="*D 334.19">der heizet einiu <name type="Person">Itonie</name>,</l>
+<l n="*D 334.20">diu and<reg type="Synkope">e</reg>r heizet <name type="Person">Cundrie</name>,</l>
+<l n="*D 334.21">diu dritte <name type="Person">Arnive</name>,</l>
+<l n="*D 334.22">diu vierde <name type="Person">Sangive</name>."</l>
+<l n="*D 334.23">daz wolt ieslîcher dâ beseh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 334.24">ez enmoht ir reise niht vol speh<reg type="Synkope">e</reg>n:</l>
+<l n="*D 334.25">si muosten schaden dâ bejag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 334.26">den sol ouch ich ze mâzen klag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 334.27"><seg type="Initiale" subtype="Majuskel">W</seg>an swer durch wîp hât arbeit,</l>
+<l n="*D 334.28">daz gît im vreude, etswenne ouch leit</l>
+<l n="*D 334.29">an dem orte vürbaz wigt.</l>
+<l n="*D 334.30">sus dicke minne ir lôn<reg type="Synkope">e</reg>s pfligt.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="334.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>L</wit> <wit>Fr21</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="334.05"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="334.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="334.11"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="334.13"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="334.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="334.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="334.27"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="334.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="334.15">
+<lem>hinderz</lem> <rdg>hinders <wit>D</wit></rdg>
+</app>
+<app loc="334.21">
+<rdg>diu dritte heizet Sangive, <wit>*m</wit></rdg>
+</app>
+<app loc="334.22">
+<lem>Sangive</lem> <rdg>Arnive <wit>*m</wit></rdg>
+</app>
+<app loc="334.23">
+<rdg>daz (Die <wit>L</wit>) wolt ieslîcher sehen. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="334.23">
+<rdg>daz wolt ir ieglîcher sehen (<subst><del>D*</del><add>Daz wolte etlicher do besehen</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="334.28">
+<rdg>ez gît vröude, etswenne ouch (<note>om.</note> <wit>I</wit> <wit>L</wit>) leit. <wit>*G</wit></rdg>
+</app>
+<app loc="334.28">
+<rdg>ez gît vröude unde etswenne leit (<subst><del>*</del><add>Daz git im fro&#x0364;ide etzwenne o&#x036E;ch leit</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="334.28">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="334.29">
+<lem>vürbaz</lem> <rdg>vürbaz mêre <wit>*m</wit></rdg>
+</app>
+<app loc="334.30">
+<lem>dicke minne</lem> <rdg>minne dicke <wit>*m</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="334.01">
+<rdg>ouch begunde (chom <wit>I</wit>) der <wit>*G</wit> Ouch (Svst <wit>O</wit> [<wit>Fr21</wit>]) kêrte der <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="334.02">
+<rdg></rdg>
+</app>
+<app loc="334.03">
+<rdg></rdg>
+</app>
+<app loc="334.04">
+<rdg></rdg>
+</app>
+<app loc="334.05">
+<rdg></rdg>
+</app>
+<app loc="334.06">
+<rdg></rdg>
+</app>
+<app loc="334.07">
+<rdg>ûf Tschastel M. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="334.08">
+<rdg>waz in würde (<subst><del>*</del><add>do wart</add></subst> <wit>V</wit>) ze t., <wit>*T</wit></rdg>
+</app>
+<app loc="334.09">
+<rdg></rdg>
+</app>
+<app loc="334.10">
+<rdg>bin durch vr. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="334.11">
+<rdg>ouch (<subst><del>*h</del><add>Do</add></subst> <wit>V</wit>) sp. <wit>*G</wit> <note>(ohne IZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="334.12">
+<rdg></rdg>
+</app>
+<app loc="334.13">
+<rdg></rdg>
+</app>
+<app loc="334.14">
+<rdg>"ein (<subst><del>*</del><add>Der</add></subst> <wit>V</wit>) Turkoite <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="334.15">
+<rdg></rdg>
+</app>
+<app loc="334.16">
+<rdg>er seite mir <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="334.17">
+<rdg></rdg>
+</app>
+<app loc="334.18">
+<rdg>noch (<subst><del>*</del><add>noch</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="334.19">
+<rdg></rdg>
+</app>
+<app loc="334.20">
+<rdg>heizet <note>om.</note> <wit>*T</wit> <wit>G</wit></rdg>
+</app>
+<app loc="334.21">
+<rdg>diu dr. heizt Arnive, <wit>*G</wit> · diu dr. heizet Seyve <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="334.22">
+<rdg>unde diu v. (viere <wit>V</wit>) Arnyve (Seyve <wit>U</wit> [<wit>V</wit>])." <wit>*T</wit></rdg>
+</app>
+<app loc="334.23">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="334.24">
+<rdg>ir r. moht ez (mohtes <wit>T</wit> mo&#x0364;ht ez <wit>V</wit>) n. vol (wol <wit>I</wit> <wit>L</wit> <wit>Z</wit>) sp.: <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="334.25">
+<rdg></rdg>
+</app>
+<app loc="334.26">
+<rdg>ze mâze kl. <wit>*T</wit></rdg>
+</app>
+<app loc="334.27">
+<rdg>Wan <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="334.28">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="334.29">
+<rdg>o. ez v. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="334.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

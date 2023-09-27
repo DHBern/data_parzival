@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 227</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>07.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 227.01">unt hiez mich zuo ziu rîten în."</l>
+<l n="*D 227.02">"hêrre, ir sult willekomen sîn,</l>
+<l n="*D 227.03">sît ez der visch&#x00E6;re verjach,</l>
+<l n="*D 227.04">man biutet iu êre unt gemach</l>
+<l n="*D 227.05">durch in, der iuch sande wid<reg type="Synkope">e</reg>r",</l>
+<l n="*D 227.06">sprach der knappe unt lie die brücke nid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 227.07"><seg type="Initiale" subtype="Majuskel">I</seg>n die burc der küene reit</l>
+<l n="*D 227.08">ûf einen hof wît unt breit.</l>
+<l n="*D 227.09">durch schimpf er niht zertret was.</l>
+<l n="*D 227.10">dâ stuont al kurz grüene gras.</l>
+<l n="*D 227.11">dâ was bûhurdieren vermiten,</l>
+<l n="*D 227.12">mit banieren selten überriten</l>
+<l n="*D 227.13">alsô der anger z<name type="Ort">Abenberc</name>.</l>
+<l n="*D 227.14">selten vr&#x0153;lîchiu werc</l>
+<l n="*D 227.15">was dâ gevrümt ze langer stunt:</l>
+<l n="*D 227.16">in was wol herzen jâmer kunt.</l>
+<l n="*D 227.17"><seg type="Initiale" subtype="Majuskel">W</seg>ênec er des gein in engalt.</l>
+<l n="*D 227.18">in enpfiengen ritt<reg type="Synkope">e</reg>r jung unt alt.</l>
+<l n="*D 227.19">vil kleiner junchêrrelîn</l>
+<l n="*D 227.20">sprungen gein dem zoume sîn.</l>
+<l n="*D 227.21">ieslîchez vürz and<reg type="Synkope">e</reg>r greif,</l>
+<l n="*D 227.22">si habten sînen stegreif.</l>
+<l n="*D 227.23"><seg type="Initiale" subtype="Majuskel">S</seg>us muoser von dem orse stên.</l>
+<l n="*D 227.24">in bâten ritt<reg type="Synkope">e</reg>r vürbaz gên;</l>
+<l n="*D 227.25">di<reg type="Synkope">e</reg> vuorten in an sîn gemach.</l>
+<l n="*D 227.26">harte schiere daz geschach,</l>
+<l n="*D 227.27">daz er mit zuht entwâpent wart.</l>
+<l n="*D 227.28">dô si den jungen âne bart</l>
+<l n="*D 227.29">gesâhen alsus minneclîch,</l>
+<l n="*D 227.30">si jâhen, er w&#x00E6;re s&#x00E6;lden rîch.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(227.3-5, 21-24 und 29-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr54</wit> <note>(227.18-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="227.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="227.05"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="227.07"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>
+</rdg></app><app loc="227.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="227.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="227.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="227.23"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="227.01">
+<lem>ziu</lem> <rdg>iu (in <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="227.03">
+<lem>ez</lem> <rdg>es <wit>*m</wit></rdg>
+</app>
+<app loc="227.13">
+<rdg>sô (Als <wit>O</wit> <wit>Fr21</wit> <wit>V</wit> Alz <wit>L</wit> Aso <wit>Z</wit>) der anger dâ (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>V</wit>) ze Babenberc (ambenberch <wit>O</wit> Abenberch <wit>L</wit> <wit>Z</wit> [<wit>Fr21</wit>]). <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="227.16">
+<lem>herzen jâmer</lem> <rdg>herzejâmer (heisse iamer <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="227.22">
+<rdg>zuo (An <wit>Fr69</wit>) zoum und an stegreif. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="227.01">
+<rdg>zuo iu r. <wit>*G</wit></rdg>
+</app>
+<app loc="227.02">
+<rdg>"Sô s. ir (<subst><del>*</del><add>herre ir sollent</add></subst> <wit>V</wit>) willekome sîn, <wit>*T</wit></rdg>
+</app>
+<app loc="227.03">
+<rdg>sît es (des <wit>O</wit>) der <wit>*G</wit> <note>(ohne I)</note></rdg>
+</app>
+<app loc="227.04">
+<rdg></rdg>
+</app>
+<app loc="227.05">
+<rdg></rdg>
+</app>
+<app loc="227.06">
+<rdg></rdg>
+</app>
+<app loc="227.07">
+<rdg></rdg>
+</app>
+<app loc="227.08">
+<rdg></rdg>
+</app>
+<app loc="227.09">
+<rdg><note>Versfolge 227.10-9</note> <wit>*T</wit> · mit schimpfer n. <wit>*G</wit> <note>(ohne L)</note> d. sch. ez n. <wit>*T</wit></rdg>
+</app>
+<app loc="227.10">
+<rdg>k. (<subst><del>kr*</del><add>kru&#x0366;t</add></subst> <wit>U</wit>) kleine (cleine vnd <wit>U</wit> <subst><del>*</del><add>gru&#x0364;ne</add></subst> <wit>V</wit>) gr. <wit>*T</wit></rdg>
+</app>
+<app loc="227.11">
+<rdg>dâ was bûhurt gar v., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="227.12">
+<rdg></rdg>
+</app>
+<app loc="227.13">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="227.14">
+<rdg></rdg>
+</app>
+<app loc="227.15">
+<rdg>vrumten si (<subst><del>*</del><add>Waz do gevrumt</add></subst> <wit>V</wit>) ze l. st.: <wit>*T</wit> · ze maniger st.: <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="227.16">
+<rdg>in was (was wol <wit>U</wit> [<wit>V</wit>]) herzeriuwe k. <wit>*T</wit></rdg>
+</app>
+<app loc="227.17">
+<rdg>des (Dez <wit>V</wit>) er doch wênic gegen in e. <wit>*T</wit></rdg>
+</app>
+<app loc="227.18">
+<rdg></rdg>
+</app>
+<app loc="227.19">
+<rdg>unde clâre (cleine <wit>U</wit> [<wit>V</wit>]) j., <wit>*T</wit></rdg>
+</app>
+<app loc="227.20">
+<rdg>die sp. <wit>*T</wit></rdg>
+</app>
+<app loc="227.21">
+<rdg></rdg>
+</app>
+<app loc="227.22">
+<rdg>unde (Sie <wit>L</wit>) habeten im den st. (<subst><del>*</del><add>An zv&#x0366;m vnde an stegereif</add></subst> <wit>V</wit>). <wit>*T</wit> (<wit>L</wit> <wit>Fr54</wit>)</rdg>
+</app>
+<app loc="227.23">
+<rdg></rdg>
+</app>
+<app loc="227.24">
+<rdg>b. die rîter <wit>*T</wit></rdg>
+</app>
+<app loc="227.25">
+<rdg>si v. <wit>*G</wit> <note>(ohne Fr54)</note> unde v. <wit>*T</wit></rdg>
+</app>
+<app loc="227.26">
+<rdg>dar nâch vil sch. daz g., <wit>*T</wit> (<wit>Fr54</wit>)</rdg>
+</app>
+<app loc="227.27">
+<rdg></rdg>
+</app>
+<app loc="227.28">
+<rdg></rdg>
+</app>
+<app loc="227.29">
+<rdg></rdg>
+</app>
+<app loc="227.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

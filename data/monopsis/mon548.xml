@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 548</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 548.01"><seg type="Initiale">D</seg>er schifman hôrte, daz er ranc</l>
+<l n="*D 548.02">mit sorge unt daz in minne twanc.</l>
+<l n="*D 548.03">dô sprach er: "hêrre, ez ist hie reht,</l>
+<l n="*D 548.04">ûfem plâne unt in dem fôreht</l>
+<l n="*D 548.05">unt aldâ <name type="Person">Clinschor</name> hêrre ist.</l>
+<l n="*D 548.06">zagheit noch manlîch list</l>
+<l n="*D 548.07">gevüegentz anders niht wan sô:</l>
+<l n="*D 548.08">hiute riwec, morgen vrô.</l>
+<l n="*D 548.09">ez ist iu lîhte unbekant,</l>
+<l n="*D 548.10">gar âventiure ist al ditze lant;</l>
+<l n="*D 548.11">sus vert ez naht unt ouch den tac.</l>
+<l n="*D 548.12">bî manheit s&#x00E6;lde helfen mac.</l>
+<l n="*D 548.13"><seg type="Initiale" subtype="Majuskel">D</seg>iu sunne kan sô nider stên;</l>
+<l n="*D 548.14">hêrre, ir sult ze schiffe gên."</l>
+<l n="*D 548.15">des bat in der schifman.</l>
+<l n="*D 548.16"><name type="Person">Lischoysen</name> vuorte <name type="Person">Gawan</name></l>
+<l n="*D 548.17">mit im dannen ûf den wâc.</l>
+<l n="*D 548.18">gedulteclîch ân allen bâc</l>
+<l n="*D 548.19">man den helt des volgen sach.</l>
+<l n="*D 548.20">der verje zôch daz ors hin nâch.</l>
+<l n="*D 548.21"><seg type="Initiale" subtype="Majuskel">S</seg>us vuoren si über an den stat.</l>
+<l n="*D 548.22">der verje <name type="Person">Gawanen</name> bat:</l>
+<l n="*D 548.23">"sît selbe wirt in mîme hûs."</l>
+<l n="*D 548.24">daz stuont alsô, daz <name type="Person">Artus</name></l>
+<l n="*D 548.25">ze <name type="Ort">Nantes</name>, dâ er dicke saz,</l>
+<l n="*D 548.26">niht m<corr type="Emendation">ö</corr>hte hân gebûwet baz.</l>
+<l n="*D 548.27">dâ vuort er <name type="Person">Lischoysen</name> în.</l>
+<l n="*D 548.28">der wirt unt daz gesinde sîn</l>
+<l n="*D 548.29">sich des underwunden.</l>
+<l n="*D 548.30">an den selben stunden</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="548.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="548.09"><rdg>
+<note>Initiale</note> <wit>O</wit> 
+</rdg></app>
+<app loc="548.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="548.13"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="548.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="548.28"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="548.07">
+<lem>gevüegentz</lem> <rdg>vüegenz <wit>*m</wit></rdg>
+</app>
+<app loc="548.11">
+<rdg>sus wert ez naht und tac. <wit>*m</wit></rdg>
+</app>
+<app loc="548.26">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit> dörft <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="548.01">
+<rdg></rdg>
+</app>
+<app loc="548.02">
+<rdg></rdg>
+</app>
+<app loc="548.03">
+<rdg></rdg>
+</app>
+<app loc="548.04">
+<rdg></rdg>
+</app>
+<app loc="548.05">
+<rdg>unde dâ <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="548.06">
+<rdg></rdg>
+</app>
+<app loc="548.07">
+<rdg>vüegentz (vu&#x0366;gt ez <wit>I</wit> Fu̽gtenz <wit>L</wit>) a. <wit>*G</wit> vüegent (Wegntz <wit>O</wit>) a. <wit>*T</wit></rdg>
+</app>
+<app loc="548.08">
+<rdg>h. trûren, morne vrô. <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="548.09">
+<rdg></rdg>
+</app>
+<app loc="548.10">
+<rdg>al <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="548.11">
+<rdg>sus (sv <wit>T</wit>) wert ez <wit>*G</wit> <wit>*T</wit> · n. unde tac. <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="548.12">
+<rdg></rdg>
+</app>
+<app loc="548.13">
+<rdg></rdg>
+</app>
+<app loc="548.14">
+<rdg></rdg>
+</app>
+<app loc="548.15">
+<rdg></rdg>
+</app>
+<app loc="548.16">
+<rdg></rdg>
+</app>
+<app loc="548.17">
+<rdg>dannen mit im ûf den wâc. <wit>*T</wit></rdg>
+</app>
+<app loc="548.18">
+<rdg></rdg>
+</app>
+<app loc="548.19">
+<rdg></rdg>
+</app>
+<app loc="548.20">
+<rdg>der v. vuortez ors hin n. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="548.21">
+<rdg></rdg>
+</app>
+<app loc="548.22">
+<rdg></rdg>
+</app>
+<app loc="548.23">
+<rdg></rdg>
+</app>
+<app loc="548.24">
+<rdg></rdg>
+</app>
+<app loc="548.25">
+<rdg></rdg>
+</app>
+<app loc="548.26">
+<rdg>n. dörfte hân <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="548.27">
+<rdg></rdg>
+</app>
+<app loc="548.28">
+<rdg></rdg>
+</app>
+<app loc="548.29">
+<rdg></rdg>
+</app>
+<app loc="548.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

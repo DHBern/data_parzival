@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 161</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 161.01"><name type="Person"><seg type="Initiale"><corr type="Emendation">I</corr></seg>ther</name>, der lob<reg type="Synkope">e</reg>s rîche,</l>
+<l n="*D 161.02">wart bestatet küneclîche.</l>
+<l n="*D 161.03">des tôt schoup siufzen in diu wîp.</l>
+<l n="*D 161.04">sîn harnasch im verlôs den lîp.</l>
+<l n="*D 161.05">dâr umbe was sîn endes wer</l>
+<l n="*D 161.06">des tumben <name type="Person">Parzivales</name> ger.</l>
+<l n="*D 161.07">sît dô er sich baz versan,</l>
+<l n="*D 161.08">ungern het erz dô getân.</l>
+<l n="*D 161.09"><seg type="Initiale" subtype="Majuskel">D</seg>az ors einer site pflac:</l>
+<l n="*D 161.10">grôz arbeit ez ringe wac.</l>
+<l n="*D 161.11">ez w&#x00E6;re kalt od<reg type="Synkope">e</reg>r heiz,</l>
+<l n="*D 161.12">ez enliez durch reise keinen sweiz,</l>
+<l n="*D 161.13">ez tr&#x00E6;te stein od<reg type="Synkope">e</reg>r ronen.</l>
+<l n="*D 161.14">er dorft im keines gürtens wonen</l>
+<l n="*D 161.15">doch eines loches nâher baz,</l>
+<l n="*D 161.16">sô er zwêne tage drûffe saz.</l>
+<l n="*D 161.17"><seg type="Initiale" subtype="Majuskel">G</seg>ewâpent reit ez der tumbe man</l>
+<l n="*D 161.18">den tac sô verre, ez hete lân</l>
+<l n="*D 161.19">ein blôz wîser, solt erz hân geriten</l>
+<l n="*D 161.20">zwêne tage, ez w&#x00E6;re vermiten.</l>
+<l n="*D 161.21"><seg type="Initiale" subtype="Majuskel">E</seg>r liez êt schûften, selten drab<reg type="Synkope">e</reg>n,</l>
+<l n="*D 161.22">er kunde im lützel ûf gehab<reg type="Synkope">e</reg>n.</l>
+<l n="*D 161.23">hin gein âbende er ersach</l>
+<l n="*D 161.24">eines turnes gupfen unt des dach.</l>
+<l n="*D 161.25">den tumben dûhte sêre,</l>
+<l n="*D 161.26">wie der turne wüehse mêre;</l>
+<l n="*D 161.27">der stuont dâ vil ûf eime hûs.</l>
+<l n="*D 161.28">dô wând<reg type="Synkope">e</reg>r, si s&#x00E6;te <name type="Person">Artus</name>.</l>
+<l n="*D 161.29">des jach er im vür heilicheit</l>
+<l n="*D 161.30">unt daz sîn s&#x00E6;lde w&#x00E6;re breit.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="161.01"><rdg>
+<note>Illustration mit Überschrift:</note> Wie parcifal ze Gurnemanze kam vnd in der zuht vnd wicze lerte <wit>mk</wit>
+</rdg></app><app loc="161.01"><rdg><note>Großinitiale</note> <wit>T</wit>
+</rdg></app><app loc="161.01"><rdg><note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit>
+</rdg></app>
+<app loc="161.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="161.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="161.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="161.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="161.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="161.23"><rdg>
+<note>Initiale</note> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="161.23"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="161.10">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="161.12">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="161.13">
+<lem>ez</lem> <rdg>er (Es <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="161.14">
+<lem>er</lem> <rdg>man <wit>*m</wit></rdg>
+</app>
+<app loc="161.14">
+<lem>gürtens</lem> <rdg>gurtes <wit>*m</wit></rdg>
+</app>
+<app loc="161.16">
+<lem>er</lem> <rdg>man <wit>*m</wit></rdg>
+</app>
+<app loc="161.18">
+<lem>lân</lem> <rdg>gelân <wit>*m</wit></rdg>
+</app>
+<app loc="161.21">
+<lem>êt</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+<app loc="161.23">
+<rdg>hin gegen (<subst><del>gegegen</del><add>gegeen</add></subst> <wit>mk</wit>) dem âbende er gesach <wit>*m</wit></rdg>
+</app>
+<app loc="161.27">
+<lem>stuont</lem> <rdg>lac <wit>*m</wit></rdg>
+</app>
+<app loc="161.30">
+<lem>breit</lem> <rdg>bereit <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="161.01">
+<rdg></rdg>
+</app>
+<app loc="161.02">
+<rdg></rdg>
+</app>
+<app loc="161.03">
+<rdg>sîn tôt sch. (rot schv&#x0364;f <wit>O</wit> tôt mahte <wit>*T</wit>) s. in (<note>om.</note> <wit>*T</wit> <wit>O</wit>) diu wîp. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="161.04">
+<rdg>verlôs im <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="161.05">
+<rdg></rdg>
+</app>
+<app loc="161.06">
+<rdg></rdg>
+</app>
+<app loc="161.07">
+<rdg></rdg>
+</app>
+<app loc="161.08">
+<rdg></rdg>
+</app>
+<app loc="161.09">
+<rdg></rdg>
+</app>
+<app loc="161.10">
+<rdg>ez (er <wit>T</wit>) ze (<note>om.</note> <wit>U</wit> <wit>V</wit>) r. <wit>*T</wit></rdg>
+</app>
+<app loc="161.11">
+<rdg></rdg>
+</app>
+<app loc="161.12">
+<rdg></rdg>
+</app>
+<app loc="161.13">
+<rdg></rdg>
+</app>
+<app loc="161.14">
+<rdg>man (ez <wit>I</wit>) d. (dorst <wit>Z</wit>) im (niemmer <wit>I</wit>) <wit>*G</wit> <note>(ohne L)</note> man dorftez <wit>*T</wit></rdg>
+</app>
+<app loc="161.15">
+<rdg>deheines l. n. baz, <wit>*T</wit></rdg>
+</app>
+<app loc="161.16">
+<rdg>swer (der <wit>G</wit> <subst><del>*</del><add>So man</add></subst> <wit>V</wit>) zw. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="161.17">
+<rdg>der junge man <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="161.18">
+<rdg>h. verlân (<subst><del>*</del><add>gelan</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="161.19">
+<rdg></rdg>
+</app>
+<app loc="161.20">
+<rdg></rdg>
+</app>
+<app loc="161.21">
+<rdg>ez wolte (er wolte <wit>I</wit> Er liez <wit>Z</wit>) sch. (<subst><del>*</del><add>schúpfen</add></subst> <wit>V</wit>) oder (vnd selten <wit>Z</wit>) dr., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="161.22">
+<rdg>k. im (<note>om.</note> <wit>Z</wit>) wênic ûf <wit>*G</wit> <note>(ohne L)</note> kundim (kvndin <wit>T</wit>) zügel ûf (<subst><del>*</del><add>lútzel vf</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="161.23">
+<rdg>hin (<note>om.</note> <wit>O</wit> <wit>L</wit>) g. dem âbent er dô sach (do gesach <wit>L</wit> doc sach <wit>Z</wit>) <wit>*G</wit> <note>(ohne I)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="161.24">
+<rdg>güpfel (knop <wit>U</wit> [<wit>V</wit>]) <wit>*T</wit></rdg>
+</app>
+<app loc="161.25">
+<rdg></rdg>
+</app>
+<app loc="161.26">
+<rdg>w. ie (wu&#x0366;nsche <wit>U</wit>) m.; <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="161.27">
+<rdg></rdg>
+</app>
+<app loc="161.28">
+<rdg></rdg>
+</app>
+<app loc="161.29">
+<rdg></rdg>
+</app>
+<app loc="161.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

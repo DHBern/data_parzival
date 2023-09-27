@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 534</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 534.01"><seg type="Initiale">S</seg>wie <seg type="singuläre_Lesart">gern ich in n&#x00E6;me</seg> dan,</l>
+<l n="*D 534.02"><seg type="singuläre_Lesart">doch mac</seg> mîn hêr <name type="Person">Gawan</name></l>
+<l n="*D 534.03">der minne des niht entwenken,</l>
+<l n="*D 534.04">sine welle <seg type="singuläre_Lesart">in</seg> vreude krenken.</l>
+<l n="*D 534.05">waz hilfet denne mîn underslac,</l>
+<l n="*D 534.06">swaz ich dâ von gesprechen mac?</l>
+<l n="*D 534.07">wert man sol sich niht minne wern,</l>
+<l n="*D 534.08">wan den muoz minne helfen nern.</l>
+<l n="*D 534.09"><name type="Person">Gawan</name> durch minne arbeit enpfienc;</l>
+<l n="*D 534.10">sîn vrouwe reit, ze vuoz er gienc.</l>
+<l n="*D 534.11"><name type="Person">Orgeluse</name> unt der degen balt,</l>
+<l n="*D 534.12">die kôm<reg type="Synkope">e</reg>n in einen grôzen walt.</l>
+<l n="*D 534.13">dennoch muoser gêns wonen.</l>
+<l n="*D 534.14">er zôch daz pfert zuo zeime ronen.</l>
+<l n="*D 534.15">sîn<reg type="Synkope">e</reg>n schilt, der ê drûfe lac,</l>
+<l n="*D 534.16">des er durch schildes ambet pflac,</l>
+<l n="*D 534.17">nam er ze halse; ûfz pfert er saz.</l>
+<l n="*D 534.18"><seg type="singuläre_Lesart">ez</seg> truog in kûme vürbaz</l>
+<l n="*D 534.19">anderhalb<reg type="Synkope">e</reg>n ûz in<seg type="singuläre_Lesart"></seg> erbouwen lant.</l>
+<l n="*D 534.20">eine burc <seg type="singuläre_Lesart">er mit den ougen</seg> vant;</l>
+<l n="*D 534.21">sîn herze unt di<corr type="Emendation">u</corr> ougen jâhen,</l>
+<l n="*D 534.22">daz si erkanten noch gesâhen</l>
+<l n="*D 534.23">dekeine burc nie der gelîch.</l>
+<l n="*D 534.24">si was alumbe rîterlîch.</l>
+<l n="*D 534.25">türne und palas</l>
+<l n="*D 534.26">manegez ûf der bürge was.</l>
+<l n="*D 534.27">dar zuo muoser schouwen</l>
+<l n="*D 534.28">in den ve<corr type="Emendation">n</corr>stern manege vrouwen;</l>
+<l n="*D 534.29">der was vier hundert oder mêr,</l>
+<l n="*D 534.30">viere under in von arde hêr.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="534.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit>
+</rdg></app><app loc="534.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="534.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="534.04"><rdg>
+<note>Überschrift:</note> Wie Gawan mit lischosen vaht <wit>V</wit>
+</rdg></app>
+<app loc="534.09"><rdg>
+<note>Illustration mit Überschrift:</note> Also gawan mit liscosie vaht an des wassers staden <wit>mk</wit>
+</rdg></app><app loc="534.09"><rdg><note>Initiale</note> <wit>mk</wit> <wit>I</wit>
+</rdg></app>
+<app loc="534.11"><rdg>
+<note>Überschrift:</note> <del>Wie Gawan mit lischosen vaht</del> <wit>V</wit>
+</rdg></app><app loc="534.11"><rdg><note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="534.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="534.04">
+<lem>in</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+<app loc="534.16">
+<lem>schildes</lem> <rdg>ritters <wit>*m</wit></rdg>
+</app>
+<app loc="534.21">
+<lem>diu</lem> <rdg>di <wit>D</wit></rdg>
+</app>
+<app loc="534.22">
+<lem>noch</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="534.23">
+<lem>burc</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="534.25">
+<rdg>beide türne und palas <wit>*m</wit></rdg>
+</app>
+<app loc="534.28">
+<lem>venstern</lem> <rdg>vestern <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="534.01">
+<rdg>in (<note>om.</note> <wit>I</wit>) nû n. <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="534.02">
+<rdg>Sône (Sonen <wit>V</wit>) mac <wit>*T</wit></rdg>
+</app>
+<app loc="534.03">
+<rdg>des <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="534.04">
+<rdg>w. im vröude <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="534.05">
+<rdg></rdg>
+</app>
+<app loc="534.06">
+<rdg></rdg>
+</app>
+<app loc="534.07">
+<rdg></rdg>
+</app>
+<app loc="534.08">
+<rdg>wan in m. m. (minnen <wit>U</wit> [<wit>V</wit>]) helfe (<subst><del>s*</del><add>helfe</add></subst> <wit>T</wit>) n. (mern <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="534.09">
+<rdg>m. nôt e.; <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="534.10">
+<rdg></rdg>
+</app>
+<app loc="534.11">
+<rdg></rdg>
+</app>
+<app loc="534.12">
+<rdg>die <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="534.13">
+<rdg></rdg>
+</app>
+<app loc="534.14">
+<rdg>er vuorte daz <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="534.15">
+<rdg></rdg>
+</app>
+<app loc="534.16">
+<rdg></rdg>
+</app>
+<app loc="534.17">
+<rdg>den (<subst><del>*</del><add>Den</add></subst> <wit>V</wit>) nam <wit>*T</wit></rdg>
+</app>
+<app loc="534.18">
+<rdg>trüege <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="534.19">
+<rdg>in ein (<subst><del>*</del><add>ein</add></subst> <wit>V</wit>) erbûwen <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="534.20">
+<rdg></rdg>
+</app>
+<app loc="534.21">
+<rdg>unde sîniu (<subst><del>*</del><add>sine</add></subst> <wit>V</wit>) ou. <wit>*T</wit></rdg>
+</app>
+<app loc="534.22">
+<rdg></rdg>
+</app>
+<app loc="534.23">
+<rdg>nie <note>om.</note> <wit>*T</wit> <note>(nur TU)</note> <wit>I</wit></rdg>
+</app>
+<app loc="534.24">
+<rdg>si was a. rîchelîch. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="534.25">
+<rdg></rdg>
+</app>
+<app loc="534.26">
+<rdg></rdg>
+</app>
+<app loc="534.27">
+<rdg></rdg>
+</app>
+<app loc="534.28">
+<rdg>in den v. (indem venster <wit>I</wit>) m. sch&#x0153;ne vr.; <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="534.29">
+<rdg>der wâren v. h. unde (<note>om.</note> <wit>U</wit> <wit>V</wit>) o. (<note>om.</note> <wit>O</wit>) mêr, <wit>*T</wit></rdg>
+</app>
+<app loc="534.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

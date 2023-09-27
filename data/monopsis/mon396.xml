@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 396</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 396.01"><name type="Person"><seg type="Initiale">M</seg>elyanz</name> durch daz dar nâher gienc.</l>
+<l n="*D 396.02">diu magt <name type="Person">Gawan<reg type="Synkope">e</reg>n</name> zuo zir gevienc.</l>
+<l n="*D 396.03"><name type="Person">Obilote</name> doch sicherheit geschach,</l>
+<l n="*D 396.04">dâ ez manec werd<reg type="Synkope">e</reg>r ritt<reg type="Synkope">e</reg>r sach.</l>
+<l n="*D 396.05">"<seg type="Initiale" subtype="Majuskel">H</seg>êr künec, nû habt ir missetân,</l>
+<l n="*D 396.06">sol mîn ritt<reg type="Synkope">e</reg>r sîn ein koufman,</l>
+<l n="*D 396.07">des mich mîn swest<reg type="Synkope">e</reg>r vil an streit,</l>
+<l n="*D 396.08">daz ir im gâbet sicherheit",</l>
+<l n="*D 396.09">sus sprach diu magt <name type="Person">Obilot</name>.</l>
+<l n="*D 396.10"><name type="Person">Melyanze</name> si dâ nâch gebôt,</l>
+<l n="*D 396.11">daz er sicherheit verj&#x00E6;he,</l>
+<l n="*D 396.12">diu in ir hant gesch&#x00E6;he,</l>
+<l n="*D 396.13">ir swester <name type="Person">Obien</name>.</l>
+<l n="*D 396.14">"zeiner âmîen</l>
+<l n="*D 396.15">sult ir si hân durch ritters prîs.</l>
+<l n="*D 396.16">zeinem hêrr<reg type="Synkope">e</reg>n unt zeinem âmîs</l>
+<l n="*D 396.17">sol si iuch immer gerne hân.</l>
+<l n="*D 396.18">ine wils iuch enwederhalp erlân."</l>
+<l n="*D 396.19"><seg type="Initiale" subtype="Majuskel">G</seg>ot ûz ir jungen munde sprach.</l>
+<l n="*D 396.20">ir bete bêdenthalp geschach.</l>
+<l n="*D 396.21">dâ meisterte vrou minne</l>
+<l n="*D 396.22">mit ir krefteclîchem sinne</l>
+<l n="*D 396.23">unt herzenlîchiu triwe</l>
+<l n="*D 396.24">der zwei<reg type="Synkope">e</reg>r liebe al niwe.</l>
+<l n="*D 396.25"><name type="Person">Obien</name> hant vürn mantel sleif,</l>
+<l n="*D 396.26">dâ si <name type="Person">Melyanzes</name> arm begreif.</l>
+<l n="*D 396.27">al weinende kust ir rôter munt,</l>
+<l n="*D 396.28">dâ der was von der tjoste wunt.</l>
+<l n="*D 396.29">manec zaher im den arm begôz,</l>
+<l n="*D 396.30">der von ir liehten ougen vlôz.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="396.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="396.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="396.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="396.19"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="396.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="396.25"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="396.02">
+<lem>zir</lem> <rdg>ir <wit>*m</wit></rdg>
+</app>
+<app loc="396.04">
+<rdg>daz ez manic ritter wert sach. <wit>*m</wit></rdg>
+</app>
+<app loc="396.11">
+<lem>er</lem> <rdg>er der <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="396.18">
+<rdg>ich wil es iuch (wil evchs <wit>I</wit>) dewederhalp erlân (<subst><del>alre</del><add>erlan</add></subst> <wit>G</wit>)." <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="396.18">
+<rdg>ine wils iuch wederhalp erlân." <wit>*T</wit> (<wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="396.18">
+<lem>erlân</lem> <rdg>lân <wit>*m</wit></rdg>
+</app>
+<app loc="396.19">
+<rdg>got ûzer süezem munde sprach. <wit>*m</wit></rdg>
+</app>
+<app loc="396.24">
+<lem>liebe</lem> <rdg>minne <wit>*m</wit></rdg>
+</app>
+<app loc="396.26">
+<lem>arm</lem> <rdg>hant <wit>*m</wit></rdg>
+</app>
+<app loc="396.27">
+<lem>kust</lem> <rdg>in kuste <wit>*m</wit></rdg>
+</app>
+<app loc="396.28">
+<rdg>dâ der wart von juste wunt. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="396.01">
+<rdg></rdg>
+</app>
+<app loc="396.02">
+<rdg>diu maget G. vaste umbevienc. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="396.03">
+<rdg>O. dâ s. g., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="396.04">
+<rdg>daz ez manic <wit>*G</wit> <note>(ohne G)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="396.05">
+<rdg></rdg>
+</app>
+<app loc="396.06">
+<rdg></rdg>
+</app>
+<app loc="396.07">
+<rdg></rdg>
+</app>
+<app loc="396.08">
+<rdg></rdg>
+</app>
+<app loc="396.09">
+<rdg>sus (<note>om.</note> <wit>*T</wit> <note>[nur T]</note>) sp. diu junge O. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="396.10">
+<rdg></rdg>
+</app>
+<app loc="396.11">
+<rdg></rdg>
+</app>
+<app loc="396.12">
+<rdg></rdg>
+</app>
+<app loc="396.13">
+<rdg></rdg>
+</app>
+<app loc="396.14">
+<rdg></rdg>
+</app>
+<app loc="396.15">
+<rdg>si nemen d. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="396.16">
+<rdg>unt <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="396.17">
+<rdg></rdg>
+</app>
+<app loc="396.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="396.19">
+<rdg>got ûz der jungen (ivgen <wit>G</wit>) m. sp. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="396.20">
+<rdg></rdg>
+</app>
+<app loc="396.21">
+<rdg></rdg>
+</app>
+<app loc="396.22">
+<rdg>mit vriuntlîchem s. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="396.23">
+<rdg>unde herzeliebiu triuwe <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="396.24">
+<rdg>der zw. liep al niuwe. <wit>*T</wit></rdg>
+</app>
+<app loc="396.25">
+<rdg></rdg>
+</app>
+<app loc="396.26">
+<rdg>Melianzes arm (hant <wit>I</wit>) si begreif <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="396.27">
+<rdg>unde dructe in an ir rôten m., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="396.28">
+<rdg>al dâ er was zer tj. (von der tioste <wit>I</wit> zetyost <wit>O</wit>) w. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="396.29">
+<rdg>z. ir den <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="396.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

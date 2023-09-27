@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 523</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>01.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 523.01"><name type="Person"><seg type="Initiale">G</seg>awan</name> daz klagete sêre.</l>
+<l n="*D 523.02">diu vrouwe es lachete mêre,</l>
+<l n="*D 523.03">denn inder schimpfes in gezam.</l>
+<l n="*D 523.04">sît<seg type="singuläre_Lesart"></seg> man im daz ors genam,</l>
+<l n="*D 523.05">ir süezer munt hin zim dô sprach:</l>
+<l n="*D 523.06">"vür einen rîter ich iuch sach.</l>
+<l n="*D 523.07">dar nâch in kurzen stunden</l>
+<l n="*D 523.08">wurdet ir arzet vür die wunden.</l>
+<l n="*D 523.09">nû müezet ir ein garzûn wes<reg type="Synkope">e</reg>n.</l>
+<l n="*D 523.10">sol iemen sîner kunst genes<reg type="Synkope">e</reg>n,</l>
+<l n="*D 523.11">sô tr&#x0153;stet iuch iwerre sinne.</l>
+<l n="*D 523.12">gert ir noch mîner minne?"</l>
+<l n="*D 523.13">"jâ, vrouwe", sprach hêr <name type="Person">Gawan</name>,</l>
+<l n="*D 523.14">"m<corr type="Emendation">ö</corr>hte ich iwer minne hân,</l>
+<l n="*D 523.15">diu w&#x00E6;re mir lieber dann iht.</l>
+<l n="*D 523.16">ez <seg type="singuläre_Lesart">en</seg>wont ûf erde nihtes niht</l>
+<l n="*D 523.17">under krône unt alle, die krône tragent</l>
+<l n="*D 523.18">unt die vreudehaften prîs <seg type="singuläre_Lesart">bejagent</seg>,</l>
+<l n="*D 523.19">der gein <seg type="singuläre_Lesart">iu</seg> teilte ir gewin,</l>
+<l n="*D 523.20">sô r&#x00E6;t mir mîn<reg type="Synkope">e</reg>s herzen sin,</l>
+<l n="*D 523.21">daz ichz in lâzen solte.</l>
+<l n="*D 523.22">iwer minne ich haben wolte.</l>
+<l n="*D 523.23">mag ich der niht erwerben,</l>
+<l n="*D 523.24">sô muoz ein sûwer<reg type="Synkope">e</reg>z sterben</l>
+<l n="*D 523.25">sich schiere an mir erzeigen.</l>
+<l n="*D 523.26">ir wüestet iwer eigen.</l>
+<l n="*D 523.27">ob ich vrîheit ie gewan,</l>
+<l n="*D 523.28">ir sult mich doch vür eigen hân;</l>
+<l n="*D 523.29">daz <seg type="singuläre_Lesart">dunket</seg> mich iwer ledec reht.</l>
+<l n="*D 523.30">nû nennet mich rîter oder kneht,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 523.3-4)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="523.01"><rdg>
+<note>Überschrift:</note> Hie ist her gawan vmb sin orss komen daz hat im ein wunder ritter genomen vnd stet her gawan bi der frowen zv fvzzen <wit>Z</wit>
+</rdg></app><app loc="523.01"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="523.01"><rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="523.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="523.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="523.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="523.01">
+<rdg>Gawan klagte sêre, <wit>*m</wit></rdg>
+</app>
+<app loc="523.02">
+<rdg>diu vrouwe lachete mêre. <wit>*m</wit></rdg>
+</app>
+<app loc="523.03">
+<rdg><note>Die Verse 523.3-4 fehlen</note> <wit>*m</wit></rdg>
+</app>
+<app loc="523.03">
+<lem>denn inder</lem> <rdg>den ninder <wit>D</wit></rdg>
+</app>
+<app loc="523.14">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="523.14">
+<lem>ich</lem> <rdg>ich noch <wit>*m</wit></rdg>
+</app>
+<app loc="523.21">
+<lem>ichz</lem> <rdg>ich <wit>*m</wit></rdg>
+</app>
+<app loc="523.24">
+<rdg>sô muoz ich schier sterben. <wit>*m</wit></rdg>
+</app>
+<app loc="523.25">
+<rdg>daz muoz sich balde erzeigen (beczougen <wit>mk</wit>). <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="523.01">
+<rdg></rdg>
+</app>
+<app loc="523.02">
+<rdg></rdg>
+</app>
+<app loc="523.03">
+<rdg>sch. im (<subst><del>im</del><add>in</add></subst> <wit>V</wit>) g. <wit>*T</wit> <note>(nur T)</note> <wit>Z</wit></rdg>
+</app>
+<app loc="523.04">
+<rdg>sît daz man im <wit>*G</wit> <note>(nur GLZ)</note> <wit>*T</wit> <note>(ohne O)</note> · daz ors dâ (<note>om.</note> <wit>I</wit> <wit>Z</wit>) nam, <wit>*T</wit> <note>(ohne O)</note> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="523.05">
+<rdg></rdg>
+</app>
+<app loc="523.06">
+<rdg>iu. ê s. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="523.07">
+<rdg></rdg>
+</app>
+<app loc="523.08">
+<rdg></rdg>
+</app>
+<app loc="523.09">
+<rdg></rdg>
+</app>
+<app loc="523.10">
+<rdg></rdg>
+</app>
+<app loc="523.11">
+<rdg></rdg>
+</app>
+<app loc="523.12">
+<rdg></rdg>
+</app>
+<app loc="523.13">
+<rdg></rdg>
+</app>
+<app loc="523.14">
+<rdg></rdg>
+</app>
+<app loc="523.15">
+<rdg></rdg>
+</app>
+<app loc="523.16">
+<rdg>ûf der e. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="523.17">
+<rdg></rdg>
+</app>
+<app loc="523.18">
+<rdg></rdg>
+</app>
+<app loc="523.19">
+<rdg></rdg>
+</app>
+<app loc="523.20">
+<rdg></rdg>
+</app>
+<app loc="523.21">
+<rdg>daz i. in l. solte <wit>*T</wit></rdg>
+</app>
+<app loc="523.22">
+<rdg>unde iwer m. h. w. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="523.23">
+<rdg></rdg>
+</app>
+<app loc="523.24">
+<rdg></rdg>
+</app>
+<app loc="523.25">
+<rdg></rdg>
+</app>
+<app loc="523.26">
+<rdg></rdg>
+</app>
+<app loc="523.27">
+<rdg></rdg>
+</app>
+<app loc="523.28">
+<rdg></rdg>
+</app>
+<app loc="523.29">
+<rdg></rdg>
+</app>
+<app loc="523.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

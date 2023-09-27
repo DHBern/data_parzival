@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 742</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 742.01"><seg type="Initiale">D</seg>er <name type="Person">heiden</name> truog êt starkiu lit.</l>
+<l n="*D 742.02">swenner schrîte <name type="Ort">Thabronit</name></l>
+<l n="*D 742.03">- dâ diu küneginne <name type="Person">Secundille</name> was</l>
+<l n="*D 742.04">vor der montâne ze <name type="Ort">Koukesas</name> -,</l>
+<l n="*D 742.05">sô gewan er niwen hôhen muot</l>
+<l n="*D 742.06">gein dem, der ie was behuot</l>
+<l n="*D 742.07">vor solhem strît<reg type="Synkope">e</reg>s überlast.</l>
+<l n="*D 742.08">er was schumpfentiure ein gast,</l>
+<l n="*D 742.09">daz er si nie gedolte,</l>
+<l n="*D 742.10">doch si maneger zim erholte.</l>
+<l n="*D 742.11"><seg type="Initiale" subtype="Majuskel">M</seg>it kunst si die arme erswungen,</l>
+<l n="*D 742.12">viwers blicke ûz helmen sprungen,</l>
+<l n="*D 742.13">von ir swerten gienc der sûre wint.</l>
+<l n="*D 742.14">got ner dâ <name type="Person">Gahmuret<reg type="Synkope">e</reg>s</name> kint!</l>
+<l n="*D 742.15">der wunsch wirt in beiden,</l>
+<l n="*D 742.16">dem getouften unt dem <name type="Person">heiden</name>;</l>
+<l n="*D 742.17"><seg type="Initiale" subtype="Majuskel">D</seg>ie nante ich ê vür einen.</l>
+<l n="*D 742.18">sus begunden siz ouch meinen,</l>
+<l n="*D 742.19">w&#x00E6;ren si ein ander baz bekant,</l>
+<l n="*D 742.20">sine sazten niht sô hôhiu pfant.</l>
+<l n="*D 742.21"><seg type="Initiale" subtype="Majuskel">I</seg>r strît galt niht mêre</l>
+<l n="*D 742.22">wan vreude, s&#x00E6;lde und êre.</l>
+<l n="*D 742.23">swer dâ den prîs gewinnet,</l>
+<l n="*D 742.24">ob der triwe minnet,</l>
+<l n="*D 742.25">werltlîche vreude er hât verlorn</l>
+<l n="*D 742.26">unt immer herzen riwe erkorn.</l>
+<l n="*D 742.27"><seg type="Initiale" subtype="Majuskel">W</seg>es sûmestû dich, <name type="Person">Parzival</name>,</l>
+<l n="*D 742.28">daz dû an die kiuschen lieht gemâl</l>
+<l n="*D 742.29">niht denkest - ich meine dîn wîp -,</l>
+<l n="*D 742.30">wiltû behalten hie den lîp?</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit> <note>(742.1-17 und 25-30)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="742.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>V</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit>
+</rdg></app>
+<app loc="742.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="742.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="742.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="742.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="742.27"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>U</wit>
+</rdg></app><app loc="742.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="742.03">
+<lem>diu</lem> <rdg>de <wit>D</wit></rdg>
+</app>
+<app loc="742.05">
+<lem>sô</lem> <rdg>dô <wit>*m</wit> <note>(nur m)</note> (<wit>Fr24</wit>)</rdg>
+</app>
+<app loc="742.06">
+<lem>der ie</lem> <rdg>der ê (er ie <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="742.10">
+<rdg>doch si maniges zimierde (mazineges mire <wit>I</wit> manger von im <wit>L</wit> maniges amîe <wit>Fr24</wit>) holte (erholte <wit>Fr24</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="742.10">
+<rdg>doch sich maneger zuo im dâ (<note>om.</note> <wit>Z</wit>) erholte. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="742.10">
+<lem>erholte</lem> <rdg>holt <wit>*m</wit></rdg>
+</app>
+<app loc="742.18">
+<lem>siz ouch meinen</lem> <rdg>siz noch meinen (<subst><del>*ch*einen</del><add>sv́z o&#x036E;ch meinen</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="742.19">
+<lem>bekant</lem> <rdg>erkant <wit>*m</wit></rdg>
+</app>
+<app loc="742.25">
+<lem>werltlîche</lem> <rdg>welch (Wech <wit>mk</wit> Wertlich <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="742.29">
+<rdg>iht gedenkest, an dîn wîp, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="742.29">
+<lem>niht denkest</lem> <rdg>niht gedenkest <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="742.01">
+<rdg>êt <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="742.02">
+<rdg>sw. sch. Tabrunit, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="742.03">
+<rdg>daz der künigîn <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="742.04">
+<rdg>von der m. (Vor dem montane in <wit>Z</wit>) Kausakas, <wit>*G</wit> · von der m. in K., <wit>*T</wit></rdg>
+</app>
+<app loc="742.05">
+<rdg>er niht wan h. <wit>*T</wit></rdg>
+</app>
+<app loc="742.06">
+<rdg></rdg>
+</app>
+<app loc="742.07">
+<rdg>vor solhes st. (von solhem strite <wit>I</wit>) ü. <wit>*G</wit> · von soliches st. ü. (vberkraft <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="742.08">
+<rdg></rdg>
+</app>
+<app loc="742.09">
+<rdg>si (die <wit>L</wit>) <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="742.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="742.11">
+<rdg>a. swungen (<subst><del>twu̽gen</del><add>twungen</add></subst> <wit>L</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="742.12">
+<rdg>ûz den (<note>om.</note> <wit>Z</wit>) h. drungen, <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="742.13">
+<rdg></rdg>
+</app>
+<app loc="742.14">
+<rdg>got genere dâ <wit>*T</wit></rdg>
+</app>
+<app loc="742.15">
+<rdg>daz wunschen w. <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="742.16">
+<rdg></rdg>
+</app>
+<app loc="742.17">
+<rdg>ich ie vür <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="742.18">
+<rdg>ou. vereinen, <wit>*T</wit></rdg>
+</app>
+<app loc="742.19">
+<rdg>w. si (Warensz <wit>L</wit>) ê ein a. (ein ander <wit>I</wit> [<wit>L</wit>] ein ander e <wit>Z</wit>) bekant, <wit>*G</wit></rdg>
+</app>
+<app loc="742.20">
+<rdg></rdg>
+</app>
+<app loc="742.21">
+<rdg></rdg>
+</app>
+<app loc="742.22">
+<rdg></rdg>
+</app>
+<app loc="742.23">
+<rdg></rdg>
+</app>
+<app loc="742.24">
+<rdg>oder der <wit>*T</wit></rdg>
+</app>
+<app loc="742.25">
+<rdg></rdg>
+</app>
+<app loc="742.26">
+<rdg></rdg>
+</app>
+<app loc="742.27">
+<rdg></rdg>
+</app>
+<app loc="742.28">
+<rdg></rdg>
+</app>
+<app loc="742.29">
+<rdg>&#x2193;<wit>*G</wit> · iht gedenkest - <wit>*T</wit></rdg>
+</app>
+<app loc="742.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

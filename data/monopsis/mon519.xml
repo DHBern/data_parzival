@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 519</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 519.01"><seg type="Initiale">D</seg>och engezwîvelte nie sîn wille.</l>
+<l n="*D 519.02">diu küneginne <name type="Person">Secundille</name>,</l>
+<l n="*D 519.03">die <name type="Person">Feirefiz</name> mit rîters hant</l>
+<l n="*D 519.04">erwarp, ir lîp unt ir lant,</l>
+<l n="*D 519.05">diu hete in ir rîche</l>
+<l n="*D 519.06">hart unlougenlîche</l>
+<l n="*D 519.07">von alter dar der liute vil</l>
+<l n="*D 519.08">mit verkêrtem antlützes zil;</l>
+<l n="*D 519.09">si truogen vremdiu, wilden mâl.</l>
+<l n="*D 519.10">dô sagete man ir umbe den <name type="Sonstiges">Grâl</name>,</l>
+<l n="*D 519.11">daz ûf erde niht sô rîches was</l>
+<l n="*D 519.12">unt des pfl&#x00E6;ge ein künec, hiez <name type="Person">Anfortas</name>.</l>
+<l n="*D 519.13">daz dûhte si wunderlîch genuoc,</l>
+<l n="*D 519.14">wan vil wazzer in ir lant truoc</l>
+<l n="*D 519.15">vür den griez edel gesteine.</l>
+<l n="*D 519.16">grôz, niht ze kleine,</l>
+<l n="*D 519.17">hete si gebirge guldîn.</l>
+<l n="*D 519.18">dô dâhte diu edele künegîn:</l>
+<l n="*D 519.19">"wie gewinne ich künde diss<reg type="Synkope">e</reg>s man,</l>
+<l n="*D 519.20">dem der <name type="Sonstiges">Grâl</name> ist undertân?"</l>
+<l n="*D 519.21"><seg type="Initiale" subtype="Majuskel">S</seg>i sant ir klein&#x0153;de dar,</l>
+<l n="*D 519.22">zwei mensch wunderlîch gevar,</l>
+<l n="*D 519.23"><name type="Person">Cundrien</name> unt ir bruoder clâr.</l>
+<l n="*D 519.24">si sante im mêr dennoch vür wâr,</l>
+<l n="*D 519.25">daz niem<reg type="Synkope">e</reg>n m<corr type="Emendation">ö</corr>hte vergelten;</l>
+<l n="*D 519.26">man vündz veile selten.</l>
+<l n="*D 519.27"><seg type="Initiale" subtype="Majuskel">D</seg>ô sande der süeze <name type="Person">Anfortas</name>,</l>
+<l n="*D 519.28">wander êt ie vil milte was,</l>
+<l n="*D 519.29"><name type="Person">Orgelusen</name> de <name type="Ort">Logrois</name></l>
+<l n="*D 519.30">disen knappen kurtois.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="519.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app><app loc="519.01"><rdg> <note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="519.13"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="519.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="519.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="519.27"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="519.08">
+<lem>antlützes</lem> <rdg>antlitze (<subst><del>antl*</del><add>antlitze</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="519.12">
+<lem>unt des</lem> <rdg>des (Der <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="519.25">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="519.01">
+<rdg>enzwîvelte <wit>*T</wit> <note>(nur TO)</note></rdg>
+</app>
+<app loc="519.02">
+<rdg></rdg>
+</app>
+<app loc="519.03">
+<rdg></rdg>
+</app>
+<app loc="519.04">
+<rdg></rdg>
+</app>
+<app loc="519.05">
+<rdg></rdg>
+</app>
+<app loc="519.06">
+<rdg></rdg>
+</app>
+<app loc="519.07">
+<rdg></rdg>
+</app>
+<app loc="519.08">
+<rdg></rdg>
+</app>
+<app loc="519.09">
+<rdg></rdg>
+</app>
+<app loc="519.10">
+<rdg></rdg>
+</app>
+<app loc="519.11">
+<rdg></rdg>
+</app>
+<app loc="519.12">
+<rdg>unde es (sin <wit>I</wit>) pf. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="519.13">
+<rdg></rdg>
+</app>
+<app loc="519.14">
+<rdg></rdg>
+</app>
+<app loc="519.15">
+<rdg>e. steine. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="519.16">
+<rdg></rdg>
+</app>
+<app loc="519.17">
+<rdg></rdg>
+</app>
+<app loc="519.18">
+<rdg></rdg>
+</app>
+<app loc="519.19">
+<rdg></rdg>
+</app>
+<app loc="519.20">
+<rdg></rdg>
+</app>
+<app loc="519.21">
+<rdg></rdg>
+</app>
+<app loc="519.22">
+<rdg></rdg>
+</app>
+<app loc="519.23">
+<rdg></rdg>
+</app>
+<app loc="519.24">
+<rdg></rdg>
+</app>
+<app loc="519.25">
+<rdg></rdg>
+</app>
+<app loc="519.26">
+<rdg></rdg>
+</app>
+<app loc="519.27">
+<rdg></rdg>
+</app>
+<app loc="519.28">
+<rdg></rdg>
+</app>
+<app loc="519.29">
+<rdg><note>Versfolge 519.30-29</note> <wit>*T</wit> <note>(nur TU)</note></rdg>
+</app>
+<app loc="519.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

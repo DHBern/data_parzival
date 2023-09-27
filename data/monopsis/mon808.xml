@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 808</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 808.01"><seg type="Initiale">N</seg>û diz was êt âne strît,</l>
+<l n="*D 808.02">daz hôrte oder spr&#x00E6;che ze keiner zît</l>
+<l n="*D 808.03">iemen von sch&#x0153;n<reg type="Synkope">e</reg>rem wîbe.</l>
+<l n="*D 808.04">si truoc ouch an ir lîbe</l>
+<l n="*D 808.05">pfellel, den ein künstec hant</l>
+<l n="*D 808.06">worhte, als in <name type="Person">Sarant</name></l>
+<l n="*D 808.07">mit grôzem liste erdâht ê</l>
+<l n="*D 808.08">in der stat ze <name type="Ort">Thasme</name>.</l>
+<l n="*D 808.09"><name type="Person">Feirefiz</name> <name type="Person">Anschevin</name></l>
+<l n="*D 808.10">si brâhte, diu gap liehten schîn,</l>
+<l n="*D 808.11">mitten durch den palas.</l>
+<l n="*D 808.12">driu grôziu viwer gemachet was,</l>
+<l n="*D 808.13">lign âlôe des viwers smac.</l>
+<l n="*D 808.14">vierzec teppeche unt gesitze mêr dâ lac</l>
+<l n="*D 808.15">denne zeiner zît, dô <name type="Person">Parzival</name></l>
+<l n="*D 808.16">ouch dâ vür sach trag<reg type="Synkope">e</reg>n den <name type="Sonstiges">Grâl</name>.</l>
+<l n="*D 808.17"><seg type="Initiale" subtype="Majuskel">E</seg>in gesiz vor ûz gehêrt was,</l>
+<l n="*D 808.18">dâ <name type="Person">Feirefiz</name> unt <name type="Person">Anfortas</name></l>
+<l n="*D 808.19">bî dem wirte solde sitzen.</l>
+<l n="*D 808.20"><seg type="Initiale" subtype="Majuskel">D</seg>ô warp mit zühte witzen,</l>
+<l n="*D 808.21">swer dâ dienen wolde,</l>
+<l n="*D 808.22">sô der <name type="Sonstiges">Grâl</name> komen solde.</l>
+<l n="*D 808.23">ir habt gehôrt ê des genuoc,</l>
+<l n="*D 808.24">wie man in vür <name type="Person">Anfortasen</name> truoc.</l>
+<l n="*D 808.25">dem siht man nû gelîche tuon</l>
+<l n="*D 808.26">vür des werden <name type="Person">Gahmuret<reg type="Synkope">e</reg>s</name> sun</l>
+<l n="*D 808.27">unt ouch vür <name type="Person">Tampenteires</name> kint.</l>
+<l n="*D 808.28"><seg type="Initiale" subtype="Majuskel">J</seg>uncvrouwen nû niht langer sint.</l>
+<l n="*D 808.29">ordenlîche si kômen überal,</l>
+<l n="*D 808.30">vünf unt zweinzec an der zal.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="808.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="808.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="808.20"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="808.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="808.28"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="808.01">
+<lem>diz</lem> <rdg>daz (das es <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="808.10">
+<lem>diu</lem> <rdg>si <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="808.20">
+<lem>zühte</lem> <rdg>zühtigen (zúhten <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="808.23">
+<lem>habt</lem> <rdg>habt her <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="808.01">
+<rdg>êt <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="808.02">
+<rdg>zuo der zît <wit>*T</wit></rdg>
+</app>
+<app loc="808.03">
+<rdg></rdg>
+</app>
+<app loc="808.04">
+<rdg>si het ou. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="808.05">
+<rdg>einen pf., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="808.06">
+<rdg></rdg>
+</app>
+<app loc="808.07">
+<rdg>mit grôzen listen <wit>*G</wit></rdg>
+</app>
+<app loc="808.08">
+<rdg></rdg>
+</app>
+<app loc="808.09">
+<rdg></rdg>
+</app>
+<app loc="808.10">
+<rdg></rdg>
+</app>
+<app loc="808.11">
+<rdg></rdg>
+</app>
+<app loc="808.12">
+<rdg></rdg>
+</app>
+<app loc="808.13">
+<rdg></rdg>
+</app>
+<app loc="808.14">
+<rdg>unde (oder <wit>Z</wit>) mê dâ lac (me gesitzes man da phlac <wit>I</wit>) <wit>*G</wit> und mê g. dâ lac <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="808.15">
+<rdg>zeinen (zu̽ eine <wit>L</wit>) zîten, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="808.16">
+<rdg>dâ (<note>om.</note> <wit>I</wit>) vür tragen sach <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="808.17">
+<rdg>dâ vor ûz <wit>*T</wit></rdg>
+</app>
+<app loc="808.18">
+<rdg></rdg>
+</app>
+<app loc="808.19">
+<rdg>solden <wit>*G</wit> (<wit>*T</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="808.20">
+<rdg>zühten <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="808.21">
+<rdg></rdg>
+</app>
+<app loc="808.22">
+<rdg></rdg>
+</app>
+<app loc="808.23">
+<rdg>ê <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="808.24">
+<rdg></rdg>
+</app>
+<app loc="808.25">
+<rdg></rdg>
+</app>
+<app loc="808.26">
+<rdg></rdg>
+</app>
+<app loc="808.27">
+<rdg></rdg>
+</app>
+<app loc="808.28">
+<rdg></rdg>
+</app>
+<app loc="808.29">
+<rdg>ordenlîch die k. ü., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="808.30">
+<rdg>vünfe und zwênzic kâmen an der zal <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

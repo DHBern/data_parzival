@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 427</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 427.01">stuont ninder decheiniu alsô rôt.</l>
+<l n="*D 427.02">swem si güetlîche ir küssen bôt,</l>
+<l n="*D 427.03">des muose swenden sich der walt</l>
+<l n="*D 427.04">mit man<reg type="Synkope">e</reg>ger tjost ungezalt.</l>
+<l n="*D 427.05"><seg type="Initiale" subtype="Majuskel">M</seg>it lobe wir solden grüezen</l>
+<l n="*D 427.06">die kiuschen unt die süezen</l>
+<l n="*D 427.07"><seg type="singuläre_Lesart">vroun</seg> <name type="Person">Antikonien</name>,</l>
+<l n="*D 427.08">vor valscheit die vrîen,</l>
+<l n="*D 427.09">wan si lebte in solhen siten,</l>
+<l n="*D 427.10">daz ninder was underriten</l>
+<l n="*D 427.11">ir prîs mit valschen worten.</l>
+<l n="*D 427.12">alle, die ir prîs gehôrten,</l>
+<l n="*D 427.13">ieslîch munt ir wunschte dô,</l>
+<l n="*D 427.14">daz ir prîs bestüende alsô</l>
+<l n="*D 427.15">bewart vor valscher trüeben jehe.</l>
+<l n="*D 427.16">lûter, virrec als ein valkensehe</l>
+<l n="*D 427.17">was balsemm&#x00E6;zec st&#x00E6;te an ir.</l>
+<l n="*D 427.18">daz riet ir werdeclîchiu gir.</l>
+<l n="*D 427.19"><seg type="Initiale" subtype="Majuskel">D</seg>iu süeze, s&#x00E6;lden rîche</l>
+<l n="*D 427.20">sprach gezogenlîche:</l>
+<l n="*D 427.21">"bruoder, hie bringe ich den deg<reg type="Synkope">e</reg>n,</l>
+<l n="*D 427.22">des dû mich selbe hieze pfleg<reg type="Synkope">e</reg>n.</l>
+<l n="*D 427.23">nû lâz in mîn geniezen.</l>
+<l n="*D 427.24">des ensol dich niht verdriezen.</l>
+<l n="*D 427.25">denke an brüederlîche triwe</l>
+<l n="*D 427.26">unt tuo daz âne riwe.</l>
+<l n="*D 427.27">dir stêt manlîchiu triwe baz,</l>
+<l n="*D 427.28">denne daz dû dolst der werlde haz</l>
+<l n="*D 427.29">und mînen, künde ich hazzen.</l>
+<l n="*D 427.30">den lêre mich gein dir mâzen."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr1</wit> <note>(ohne 427.12-15)</note> <wit>Fr5</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="427.01"><rdg>
+<note>Initiale</note> <wit>Fr5</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="427.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="427.11"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="427.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="427.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="427.19"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="427.19"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="427.01">
+<rdg>DA stu&#x0366;nt an niendir dikein als rot <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.02">
+<lem>ir</lem> <rdg>ein <wit>Fr1</wit></rdg>
+</app>
+<app loc="427.04">
+<lem>mit</lem> <rdg>von <wit>Fr1</wit></rdg>
+</app>
+<app loc="427.05">
+<lem>solden</lem> <rdg>sullen <wit>*m</wit></rdg>
+</app>
+<app loc="427.07">
+<rdg>di kvnegin Antẏconîen <wit>Fr1</wit></rdg>
+</app>
+<app loc="427.07">
+<rdg>Anthychonyen <wit>Fr5</wit> (<wit>I</wit> <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="427.07">
+<rdg>maget Anticonien, <wit>*m</wit></rdg>
+</app>
+<app loc="427.07">
+<rdg>die schonen Antikonien <wit>L</wit></rdg>
+</app>
+<app loc="427.08">
+<lem>valscheit</lem> <rdg>valschen <wit>*m</wit></rdg>
+</app>
+<app loc="427.09">
+<lem>solhen</lem> <rdg>so reinen <wit>Fr1</wit> solichem <wit>*m</wit></rdg>
+</app>
+<app loc="427.11">
+<rdg>ir pris mit <subst><del>valscer</del><add>valscen</add></subst> <del>:::ben iehe</del> <wit>Fr1</wit></rdg>
+</app>
+<app loc="427.12">
+<rdg><note>Die Verse 427.12-15 fehlen, wurden offensichtlich über der Spalte nachgetragen, sind jedoch bis auf den Schluss dem Schnitt zum Opfer gefallen:</note> also bewart vor valscer trv&#x0364;be <wit>Fr1</wit></rdg>
+</app>
+<app loc="427.14">
+<lem>bestüende</lem> <rdg>gistu&#x0366;ende <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.15">
+<lem>vor</lem> <rdg>von <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.15">
+<lem>trüeben jehe</lem> <rdg>tru&#x0366;ebe iehin <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.16">
+<lem>virrec</lem> <rdg>vertic (fu̽reig <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="427.16">
+<lem>ein valkensehe</lem> <rdg>eins valchin sehin <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.22">
+<lem>hieze</lem> <rdg>b&#x00E6;te <wit>Fr1</wit></rdg>
+</app>
+<app loc="427.24">
+<lem>des</lem> <rdg>daz (<subst><del>*</del><add>Dez</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="427.25">
+<lem>denke an</lem> <rdg>gedenche in <wit>Fr1</wit> Gedenche an <wit>L</wit></rdg>
+</app>
+<app loc="427.28">
+<rdg>denne daz (<note>om.</note> <wit>L</wit> <subst><del>*</del><add>Den daz</add></subst> <wit>V</wit>) dû dultes (dolest <wit>G</wit>) der werden (<subst><del>werde</del><add>werlde</add></subst> <wit>G</wit> werlde <wit>O</wit> [<wit>Fr21</wit>] lu̽te <wit>L</wit> werde <wit>U</wit> <subst><del>*</del><add>welte</add></subst> <wit>V</wit>) haz <wit>*T</wit> (<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="427.28">
+<lem>denne</lem> <rdg>wenne (<note>om.</note> <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="427.28">
+<lem>dolst</lem> <rdg>dultest <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.30">
+<lem>den</lem> <rdg>Der <wit>Fr5</wit></rdg>
+</app>
+<app loc="427.30">
+<lem>mâzen</lem> <rdg>lazzen <wit>Fr1</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="427.01">
+<rdg>st. niender (nider <wit>U</wit> niergent <wit>V</wit>) einiu (deheine <wit>V</wit>) alse rôt. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="427.02">
+<rdg></rdg>
+</app>
+<app loc="427.03">
+<rdg></rdg>
+</app>
+<app loc="427.04">
+<rdg></rdg>
+</app>
+<app loc="427.05">
+<rdg></rdg>
+</app>
+<app loc="427.06">
+<rdg></rdg>
+</app>
+<app loc="427.07">
+<rdg>die maget A., &#x2193;<wit>*G</wit> · die reinen (reine <wit>T</wit>) Antickonien, <wit>*T</wit></rdg>
+</app>
+<app loc="427.08">
+<rdg></rdg>
+</app>
+<app loc="427.09">
+<rdg></rdg>
+</app>
+<app loc="427.10">
+<rdg></rdg>
+</app>
+<app loc="427.11">
+<rdg></rdg>
+</app>
+<app loc="427.12">
+<rdg></rdg>
+</app>
+<app loc="427.13">
+<rdg></rdg>
+</app>
+<app loc="427.14">
+<rdg></rdg>
+</app>
+<app loc="427.15">
+<rdg></rdg>
+</app>
+<app loc="427.16">
+<rdg>L., wiric als eines valken sehe <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="427.17">
+<rdg>was balsemm&#x00E6;zic stat an ir. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="427.18">
+<rdg></rdg>
+</app>
+<app loc="427.19">
+<rdg></rdg>
+</app>
+<app loc="427.20">
+<rdg></rdg>
+</app>
+<app loc="427.21">
+<rdg></rdg>
+</app>
+<app loc="427.22">
+<rdg></rdg>
+</app>
+<app loc="427.23">
+<rdg></rdg>
+</app>
+<app loc="427.24">
+<rdg></rdg>
+</app>
+<app loc="427.25">
+<rdg></rdg>
+</app>
+<app loc="427.26">
+<rdg></rdg>
+</app>
+<app loc="427.27">
+<rdg></rdg>
+</app>
+<app loc="427.28">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="427.29">
+<rdg>unt den m., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="427.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

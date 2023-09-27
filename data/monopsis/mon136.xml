@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 136</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>01.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 136.01">ich ensol niht mê erwarmen</l>
+<l n="*D 136.02">an iwere<corr type="Emendation">n</corr> blanken armen,</l>
+<l n="*D 136.03">dâ ich etswenne durch minne lac</l>
+<l n="*D 136.04">manegen wünneclîchen tac.</l>
+<l n="*D 136.05">ich sol velwen iweren rôten munt</l>
+<l n="*D 136.06">unt iwern ougen machen r&#x0153;te kunt.</l>
+<l n="*D 136.07">ich sol iu vröude entêren</l>
+<l n="*D 136.08">unt iwer herze siuften lêren."</l>
+<l n="*D 136.09"><seg type="Initiale">D</seg>iu vürstîn an den vürsten sach.</l>
+<l n="*D 136.10">ir munt dô j&#x00E6;merlîchen sprach:</l>
+<l n="*D 136.11">"nû êret an mir ritters prîs.</l>
+<l n="*D 136.12">ir sît getriwe unt wîs</l>
+<l n="*D 136.13">unt ouch wol sô gewaldic mîn,</l>
+<l n="*D 136.14">ir muget mir geb<reg type="Synkope">e</reg>n hôhen pîn.</l>
+<l n="*D 136.15">ir sult ê mîn gerihte nem<reg type="Synkope">e</reg>n.</l>
+<l n="*D 136.16">durch elliu wîp lât iuch gezem<reg type="Synkope">e</reg>n.</l>
+<l n="*D 136.17">ir mugt mir dannoch vüegen nôt.</l>
+<l n="*D 136.18">l&#x00E6;ge ich von andern handen tôt,</l>
+<l n="*D 136.19">daz iu niht prîs geneicte,</l>
+<l n="*D 136.20">swie schiere ich denne veicte,</l>
+<l n="*D 136.21">daz w&#x00E6;re mir ein süeziu zît,</l>
+<l n="*D 136.22">sît iwer hazzen an mir lît."</l>
+<l n="*D 136.23"><seg type="Initiale" subtype="Majuskel">A</seg>ber sprach der vürste mêre:</l>
+<l n="*D 136.24">"vrouwe, ir w&#x00E6;ret mir gar ze hêre,</l>
+<l n="*D 136.25">des sol ich an iu mâzen.</l>
+<l n="*D 136.26">geselleschaft wirt lâzen</l>
+<l n="*D 136.27">mit trinken unt mit ezzen,</l>
+<l n="*D 136.28">bî ligens wirt vergezzen.</l>
+<l n="*D 136.29">ir enpfâhet mêr dehein gewant,</l>
+<l n="*D 136.30">wan als ich iuch sitzent vant.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <note>(ohne 136.6)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="136.09"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+<app loc="136.23"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="136.23"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="136.02">
+<lem>iweren</lem> <rdg>iwerem <wit>D</wit></rdg>
+</app>
+<app loc="136.16">
+<rdg>des lâzet iuch durch alliu wîp gezemen (<subst><del>*</del><add>dvrch</add></subst> alliv wip lât îv gezemen. <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="136.24">
+<lem>w&#x00E6;ret mir gar</lem> <rdg>wâret mir <wit>*m</wit></rdg>
+</app>
+<app loc="136.30">
+<lem>wan</lem> <rdg>niuwen <wit>*m</wit> (<wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="136.30">
+<lem>sitzent</lem> <rdg>sitzen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="136.01">
+<rdg></rdg>
+</app>
+<app loc="136.02">
+<rdg></rdg>
+</app>
+<app loc="136.03">
+<rdg></rdg>
+</app>
+<app loc="136.04">
+<rdg>vil manigen <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="136.05">
+<rdg></rdg>
+</app>
+<app loc="136.06">
+<rdg>unt <note>om.</note> <wit>*G</wit> <note>(nur GZ)</note></rdg>
+</app>
+<app loc="136.07">
+<rdg>iuch <wit>*G</wit></rdg>
+</app>
+<app loc="136.08">
+<rdg>unt <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="136.09">
+<rdg></rdg>
+</app>
+<app loc="136.10">
+<rdg>der m. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="136.11">
+<rdg></rdg>
+</app>
+<app loc="136.12">
+<rdg></rdg>
+</app>
+<app loc="136.13">
+<rdg>unt doch wol sô (o&#x036E;ch so <wit>I</wit> doch so <wit>O</wit>) <wit>*G</wit> <note>(ohne L)</note> (<wit>T</wit>) · und ou. sô <wit>*T</wit></rdg>
+</app>
+<app loc="136.14">
+<rdg></rdg>
+</app>
+<app loc="136.15">
+<rdg></rdg>
+</app>
+<app loc="136.16">
+<rdg>&#x2193;<wit>*T</wit> · lâts iu. (lat sin evch <wit>I</wit> lat ivchs <wit>O</wit>) <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="136.17">
+<rdg></rdg>
+</app>
+<app loc="136.18">
+<rdg></rdg>
+</app>
+<app loc="136.19">
+<rdg></rdg>
+</app>
+<app loc="136.20">
+<rdg></rdg>
+</app>
+<app loc="136.21">
+<rdg></rdg>
+</app>
+<app loc="136.22">
+<rdg></rdg>
+</app>
+<app loc="136.23">
+<rdg></rdg>
+</app>
+<app loc="136.24">
+<rdg>ir wârt (sit <wit>G</wit>) mir gar ze <wit>*G</wit> <note>(ohne Z)</note> ir wâret mir zuo <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="136.25">
+<rdg>daz sol <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="136.26">
+<rdg></rdg>
+</app>
+<app loc="136.27">
+<rdg></rdg>
+</app>
+<app loc="136.28">
+<rdg></rdg>
+</app>
+<app loc="136.29">
+<rdg>ir e. niemêr kein g., <wit>*T</wit> · ir enpfahet ni me von miner hant <wit>T</wit></rdg>
+</app>
+<app loc="136.30">
+<rdg>sitzen <wit>*G</wit> <note>(ohne LZ)</note> <wit>*T</wit> <note>(ohne V)</note> · keine wât wan als ich iv vant <wit>T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

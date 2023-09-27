@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 464</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>18.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 464.01"><name type="Person"><seg type="Initiale"><corr type="Emendation">P</corr></seg>arzival</name> hin zim dô sprach:</l>
+<l n="*D 464.02">"hêrre, ich w&#x00E6;ne, daz ie geschach.</l>
+<l n="*D 464.03">von wem was der man erborn,</l>
+<l n="*D 464.04">von dem sîn ane hât verlorn</l>
+<l n="*D 464.05">den mag<reg type="Synkope">e</reg>tuom, als ir mir sagt?</l>
+<l n="*D 464.06">daz moht ir gerne hân verdagt."</l>
+<l n="*D 464.07"><seg type="Initiale" subtype="Majuskel">D</seg>er wirt sprach aber wider zim:</l>
+<l n="*D 464.08">"von dem zwîvel ich iuch nim.</l>
+<l n="*D 464.09">sagich niht wâr die wârheit,</l>
+<l n="*D 464.10">sô lât iu sîn mîn triegen leit.</l>
+<l n="*D 464.11">diu erde <name type="Person">Adames</name> muot<reg type="Synkope">e</reg>r was.</l>
+<l n="*D 464.12">von erden vruht <name type="Person">Adam</name> genas.</l>
+<l n="*D 464.13">dannoch was diu erde ein magt.</l>
+<l n="*D 464.14">noch hân ich iu niht gesagt,</l>
+<l n="*D 464.15">wer ir den mag<reg type="Synkope">e</reg>tuom benam.</l>
+<l n="*D 464.16"><name type="Person">Kain<reg type="Synkope">e</reg>s</name> vater was <name type="Person">Adam</name>.</l>
+<l n="*D 464.17">er sluoc <name type="Person">Abeln</name> umbe krankez guot.</l>
+<l n="*D 464.18">dô ûf die reinen erden daz bluot</l>
+<l n="*D 464.19">viel, ir mag<reg type="Synkope">e</reg>tuom was vervaren.</l>
+<l n="*D 464.20">den nam ir <name type="Person">Adames</name> baren.</l>
+<l n="*D 464.21">dô huop sich êrst der menschen nît.</l>
+<l n="*D 464.22">alsô wert er imm<reg type="Synkope">e</reg>r sît.</l>
+<l n="*D 464.23">in der werlt doch niht sô reines ist</l>
+<l n="*D 464.24">sô diu magt âne valschen list.</l>
+<l n="*D 464.25">nû prüevet, wie reine die meide sint.</l>
+<l n="*D 464.26">got was selbe der meide kint.</l>
+<l n="*D 464.27">von meiden sint zwei mensche kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 464.28"><seg type="Initiale" subtype="Majuskel">G</seg>ot selbe antlütze hât genomen</l>
+<l n="*D 464.29">nâch der êrsten meide vruht.</l>
+<l n="*D 464.30">daz was sîner hôhen art ein zuht.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <note>(464.17-30)</note> <wit>Fr22</wit> <note>(464.23-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="464.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="464.07"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="464.11"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app><app loc="464.11"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="464.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="464.28"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="464.02">
+<lem>ie</lem> <rdg>nie (<subst><del>*</del><add>nie</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="464.07">
+<lem>sprach aber wider</lem> <rdg>sprach aber (do aber sprach <wit>I</wit>) <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="464.09">
+<lem>sagich</lem> <rdg>sage &#x2020;&#x2020; iu <wit>*m</wit></rdg>
+</app>
+<app loc="464.10">
+<lem>triegen</lem> <rdg>kriegen <wit>*m</wit></rdg>
+</app>
+<app loc="464.13">
+<lem>ein</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="464.23">
+<rdg>in der werlt noch niht sô reines (nih rainers <wit>I</wit>) ist <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="464.23">
+<rdg>in der werlte doch sô reines niht ist (so <subst><del>rein*</del><add>reines niht enist</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="464.01">
+<rdg>hin <note>om.</note> <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="464.02">
+<rdg></rdg>
+</app>
+<app loc="464.03">
+<rdg>man geborn, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="464.04">
+<rdg></rdg>
+</app>
+<app loc="464.05">
+<rdg></rdg>
+</app>
+<app loc="464.06">
+<rdg></rdg>
+</app>
+<app loc="464.07">
+<rdg></rdg>
+</app>
+<app loc="464.08">
+<rdg></rdg>
+</app>
+<app loc="464.09">
+<rdg>s. iu n. die w., <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="464.10">
+<rdg></rdg>
+</app>
+<app loc="464.11">
+<rdg></rdg>
+</app>
+<app loc="464.12">
+<rdg></rdg>
+</app>
+<app loc="464.13">
+<rdg></rdg>
+</app>
+<app loc="464.14">
+<rdg>n. gar gesaget, <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="464.15">
+<rdg></rdg>
+</app>
+<app loc="464.16">
+<rdg></rdg>
+</app>
+<app loc="464.17">
+<rdg>der sl. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="464.18">
+<rdg></rdg>
+</app>
+<app loc="464.19">
+<rdg></rdg>
+</app>
+<app loc="464.20">
+<rdg></rdg>
+</app>
+<app loc="464.21">
+<rdg>ê. des m. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="464.22">
+<rdg></rdg>
+</app>
+<app loc="464.23">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="464.24">
+<rdg></rdg>
+</app>
+<app loc="464.25">
+<rdg></rdg>
+</app>
+<app loc="464.26">
+<rdg>selbe was <wit>*T</wit></rdg>
+</app>
+<app loc="464.27">
+<rdg></rdg>
+</app>
+<app loc="464.28">
+<rdg></rdg>
+</app>
+<app loc="464.29">
+<rdg></rdg>
+</app>
+<app loc="464.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 542</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 542.01"><name type="Person"><seg type="Initiale">L</seg>ischoys Gwelljus</name>,</l>
+<l n="*D 542.02">der junge süeze, warp alsus:</l>
+<l n="*D 542.03">vrechheit unt ellenthaftiu tât,</l>
+<l n="*D 542.04">daz was sîn<reg type="Synkope">e</reg>s hôhen herzen rât.</l>
+<l n="*D 542.05">er vrumte manegen snellen swanc.</l>
+<l n="*D 542.06">dicke er von <name type="Person">Gawane</name> spranc</l>
+<l n="*D 542.07">unt aber wider sêre ûf in.</l>
+<l n="*D 542.08"><name type="Person">Gawan</name> truoc st&#x00E6;t<reg type="Synkope">e</reg>lîchen sin.</l>
+<l n="*D 542.09"><seg type="Initiale" subtype="Majuskel">E</seg>r dâhte: "ergrîfe ich dich zuo mir,</l>
+<l n="*D 542.10">ich sols vil gar gelônen dir."</l>
+<l n="*D 542.11">man sach dâ viwers blicke</l>
+<l n="*D 542.12">unt diu swert ûf werfen dicke</l>
+<l n="*D 542.13">ûz ellenthaften henden.</l>
+<l n="*D 542.14">si begunden ein ander wenden</l>
+<l n="*D 542.15">neb<reg type="Synkope">e</reg>n, vür unt hinder sich.</l>
+<l n="*D 542.16">ân nôt was ir gerich;</l>
+<l n="*D 542.17">si m<corr type="Emendation">ö</corr>hten<corr type="Emendation">z</corr> âne strîten lân.</l>
+<l n="*D 542.18"><seg type="Initiale" subtype="Majuskel">D</seg>ô begreif in mîn hêr <name type="Person">Gawan</name>:</l>
+<l n="*D 542.19">er warf in under sich mit kraft.</l>
+<l n="*D 542.20">mit halsen solch geselleschaft</l>
+<l n="*D 542.21">müeze mich vermîden;</l>
+<l n="*D 542.22">ine möhte ir niht erlîden.</l>
+<l n="*D 542.23"><name type="Person">Gawan</name> bat sicherheite;</l>
+<l n="*D 542.24">der was als unbereite</l>
+<l n="*D 542.25"><name type="Person">Lischoys</name>, der dâ unden lac,</l>
+<l n="*D 542.26">als dô er von êrste strît<reg type="Synkope">e</reg>s pflac.</l>
+<l n="*D 542.27"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach: "dû sûmest dich ân nôt;</l>
+<l n="*D 542.28">vür sicherheit gip ich den tôt.</l>
+<l n="*D 542.29">lâz enden dîne werden hant,</l>
+<l n="*D 542.30">swaz mir ie prîs<reg type="Synkope">e</reg>s wart bekant.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="542.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app>
+<app loc="542.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="542.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="542.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="542.18"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="542.27"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="542.10">
+<lem>gar</lem> <rdg>wol <wit>*m</wit></rdg>
+</app>
+<app loc="542.17">
+<lem>möhtenz</lem> <rdg>mohtens <wit>D</wit></rdg>
+</app>
+<app loc="542.18">
+<rdg>dô ergreif (er gr <wit>mk</wit>) in hêr Gawan: <wit>*m</wit></rdg>
+</app>
+<app loc="542.21">
+<lem>müeze</lem> <rdg>müeste <wit>*m</wit></rdg>
+</app>
+<app loc="542.23">
+<rdg>Gawan bat aber dô sicherheit; <wit>*m</wit></rdg>
+</app>
+<app loc="542.24">
+<lem>unbereite</lem> <rdg>ungereit <wit>*m</wit></rdg>
+</app>
+<app loc="542.29">
+<lem>lâz</lem> <rdg>daz lâz <wit>*m</wit></rdg>
+</app>
+<app loc="542.30">
+<lem>bekant</lem> <rdg>erkant (<subst><del>*</del><add>bekant</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>I</wit> <wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="542.01">
+<rdg></rdg>
+</app>
+<app loc="542.02">
+<rdg></rdg>
+</app>
+<app loc="542.03">
+<rdg></rdg>
+</app>
+<app loc="542.04">
+<rdg>daz <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="542.05">
+<rdg></rdg>
+</app>
+<app loc="542.06">
+<rdg></rdg>
+</app>
+<app loc="542.07">
+<rdg></rdg>
+</app>
+<app loc="542.08">
+<rdg></rdg>
+</app>
+<app loc="542.09">
+<rdg></rdg>
+</app>
+<app loc="542.10">
+<rdg>vil wol g. (vil gar vergelten <wit>L</wit> vil wol lonen <wit>V</wit>) <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="542.11">
+<rdg>viures bl., <wit>*G</wit></rdg>
+</app>
+<app loc="542.12">
+<rdg>diu (Vnd <wit>L</wit> [<wit>O</wit>]) sw. <wit>*G</wit> <note>(ohne Z)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="542.13">
+<rdg></rdg>
+</app>
+<app loc="542.14">
+<rdg></rdg>
+</app>
+<app loc="542.15">
+<rdg></rdg>
+</app>
+<app loc="542.16">
+<rdg></rdg>
+</app>
+<app loc="542.17">
+<rdg></rdg>
+</app>
+<app loc="542.18">
+<rdg>hêr G. <wit>*T</wit></rdg>
+</app>
+<app loc="542.19">
+<rdg>unde w. <wit>*T</wit></rdg>
+</app>
+<app loc="542.20">
+<rdg></rdg>
+</app>
+<app loc="542.21">
+<rdg></rdg>
+</app>
+<app loc="542.22">
+<rdg></rdg>
+</app>
+<app loc="542.23">
+<rdg>G. bat (bat sich <wit>Z</wit>) sicherheit; <wit>*G</wit> · G. iesch (bat aber do <wit>V</wit>) sicherheit; <wit>*T</wit></rdg>
+</app>
+<app loc="542.24">
+<rdg>der was aber als unbereit <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="542.25">
+<rdg>der dort u. <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="542.26">
+<rdg>sam dô <wit>*T</wit></rdg>
+</app>
+<app loc="542.27">
+<rdg></rdg>
+</app>
+<app loc="542.28">
+<rdg></rdg>
+</app>
+<app loc="542.29">
+<rdg></rdg>
+</app>
+<app loc="542.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

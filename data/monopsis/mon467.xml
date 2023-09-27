@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 467</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 467.01"><seg type="Initiale">S</seg>wâ werc verwürkent sînen gruoz,</l>
+<l n="*D 467.02">daz gotheit sich schamen muoz,</l>
+<l n="*D 467.03">wem lât den menschlîchiu zuht?</l>
+<l n="*D 467.04">wa<corr type="Emendation">r</corr> hât diu arme sêle vluht?</l>
+<l n="*D 467.05">welt ir nû gote vüegen leit,</l>
+<l n="*D 467.06">der ze bêden sîten ist bereit,</l>
+<l n="*D 467.07">zer minne unt gein dem zorne,</l>
+<l n="*D 467.08">sô sît ir der verlorne.</l>
+<l n="*D 467.09">nû kêrt iwer gemüete,</l>
+<l n="*D 467.10">daz er iu danke güete."</l>
+<l n="*D 467.11"><name type="Person">Parzival</name> sprach zim dô:</l>
+<l n="*D 467.12">"hêrre, ich bin des imm<reg type="Synkope">e</reg>r vrô,</l>
+<l n="*D 467.13">daz ir mich von dem bescheiden hât,</l>
+<l n="*D 467.14">d<corr type="Emendation">er</corr> niht<reg type="Synkope">e</reg>s ungelônt lât,</l>
+<l n="*D 467.15">der missewende noch der tugent.</l>
+<l n="*D 467.16">ich hân mit sorgen mîne jugent</l>
+<l n="*D 467.17">alsus brâht an disen tac,</l>
+<l n="*D 467.18">daz ich durch triwe kumbers pflac."</l>
+<l n="*D 467.19">der wirt sprach aber wid<reg type="Synkope">e</reg>r zim:</l>
+<l n="*D 467.20">"nimts iuch niht h&#x00E6;le, gern ich vernim,</l>
+<l n="*D 467.21">waz ir kumbers und sünden hât.</l>
+<l n="*D 467.22">ob ir mich diu prüeven lât,</l>
+<l n="*D 467.23">dar zuo gib ich iu lîhte rât,</l>
+<l n="*D 467.24">des ir selbe niht enhât."</l>
+<l n="*D 467.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach aber <name type="Person">Parzival</name>:</l>
+<l n="*D 467.26">"mîn h&#x0153;hstiu nôt ist umben <name type="Sonstiges">Grâl</name>,</l>
+<l n="*D 467.27">dâ nâch umb mîn selbes wîp.</l>
+<l n="*D 467.28">ûf erde nie sch&#x0153;ner lîp</l>
+<l n="*D 467.29">gesouc an deheiner muoter brust.</l>
+<l n="*D 467.30">nâch den beiden sent sich mîn gelust."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <note>(467.19-30)</note> <wit>Fr22</wit> <note>(467.1)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="467.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="467.11"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+<app loc="467.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="467.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="467.25"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="467.01">
+<rdg>sîn werc verwürket sînen gruoz, <wit>*m</wit></rdg>
+</app>
+<app loc="467.04">
+<lem>war</lem> <rdg>warte <wit>D</wit></rdg>
+</app>
+<app loc="467.14">
+<lem>der</lem> <rdg>daz <wit>D</wit> (<wit>G</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="467.19">
+<lem>wider</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="467.20">
+<lem>nimts</lem> <rdg>nemt es <wit>*m</wit></rdg>
+</app>
+<app loc="467.21">
+<lem>sünden</lem> <rdg>sünde (gesinde <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="467.22">
+<lem>prüeven</lem> <rdg>wizzen (wisen <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="467.23">
+<lem>lîhte</lem> <rdg>vil liehten <wit>*m</wit></rdg>
+</app>
+<app loc="467.28">
+<lem>sch&#x0153;ner</lem> <rdg>sô sch&#x0153;ner <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="467.29">
+<lem>gesouc</lem> <rdg>gelac <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="467.01">
+<rdg></rdg>
+</app>
+<app loc="467.02">
+<rdg>daz diu g. <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="467.03">
+<rdg>wan (Wem <wit>V</wit> <wit>O</wit> Wen <wit>Z</wit>) lât diu m. z.? <wit>*T</wit> (<wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="467.04">
+<rdg></rdg>
+</app>
+<app loc="467.05">
+<rdg>nû <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="467.06">
+<rdg></rdg>
+</app>
+<app loc="467.07">
+<rdg>unde zem (zv&#x0366; <wit>V</wit>) z., <wit>*T</wit></rdg>
+</app>
+<app loc="467.08">
+<rdg></rdg>
+</app>
+<app loc="467.09">
+<rdg></rdg>
+</app>
+<app loc="467.10">
+<rdg>daz er iu danne g." <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="467.11">
+<rdg></rdg>
+</app>
+<app loc="467.12">
+<rdg></rdg>
+</app>
+<app loc="467.13">
+<rdg></rdg>
+</app>
+<app loc="467.14">
+<rdg></rdg>
+</app>
+<app loc="467.15">
+<rdg></rdg>
+</app>
+<app loc="467.16">
+<rdg></rdg>
+</app>
+<app loc="467.17">
+<rdg></rdg>
+</app>
+<app loc="467.18">
+<rdg>daz ich d. triuwe jâmers pf." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="467.19">
+<rdg>der w. sp. a. zim: <wit>*G</wit> <note>(ohne OLZ)</note> · Der w. sp. w. zim: <wit>*T</wit></rdg>
+</app>
+<app loc="467.20">
+<rdg>"nemets iu. (<subst><del>m:</del><add>nems</add></subst> evch <wit>I</wit> Nimt ivchs <wit>Fr18</wit>) <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="467.21">
+<rdg></rdg>
+</app>
+<app loc="467.22">
+<rdg>m. (iuch <wit>Fr18</wit>) die pr. <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="467.23">
+<rdg></rdg>
+</app>
+<app loc="467.24">
+<rdg></rdg>
+</app>
+<app loc="467.25">
+<rdg></rdg>
+</app>
+<app loc="467.26">
+<rdg></rdg>
+</app>
+<app loc="467.27">
+<rdg></rdg>
+</app>
+<app loc="467.28">
+<rdg></rdg>
+</app>
+<app loc="467.29">
+<rdg>g. nie m. br. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="467.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

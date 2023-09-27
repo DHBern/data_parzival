@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 63</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 63.01">vil schilde sach er schînen.</l>
+<l n="*D 63.02">die hellen pusînen</l>
+<l n="*D 63.03">mit krache vor im gâben dôz.</l>
+<l n="*D 63.04">von würfen unt mit slegen grôz</l>
+<l n="*D 63.05">zwêne tambûre gâben schal.</l>
+<l n="*D 63.06">der galm üb<reg type="Synkope">e</reg>r al die stat erhal.</l>
+<l n="*D 63.07">der dôn iedoch gemischet wart</l>
+<l n="*D 63.08">mit floitieren an der vart.</l>
+<l n="*D 63.09">eine reisenote si bliesen.</l>
+<l n="*D 63.10">nû sulen wir niht verliesen,</l>
+<l n="*D 63.11">wie ir hêrre kom<reg type="Synkope">e</reg>n sî.</l>
+<l n="*D 63.12">dem riten videl&#x00E6;re bî.</l>
+<l n="*D 63.13"><seg type="Initiale" subtype="Majuskel">D</seg>ô leite der degen wert</l>
+<l n="*D 63.14">ein bein vür sich ûfez pfert,</l>
+<l n="*D 63.15">zwêne stivâle über blôziu bein.</l>
+<l n="*D 63.16">sî<corr type="Emendation">n</corr> munt als ein <name type="Sonstiges">rubîn</name> schein</l>
+<l n="*D 63.17">von der r&#x0153;te, als ob er brünne.</l>
+<l n="*D 63.18">der was dicke unt niht ze dünne.</l>
+<l n="*D 63.19">sîn lîp was allenthalben clâr.</l>
+<l n="*D 63.20">lieht reideloht was im sîn hâr,</l>
+<l n="*D 63.21">swâ man daz vor dem huote sach.</l>
+<l n="*D 63.22">der was ein tiwer houbetdach.</l>
+<l n="*D 63.23">grüene samît was der mandel sîn.</l>
+<l n="*D 63.24">ein zobel dâ vor gap swarzen schîn</l>
+<l n="*D 63.25">ob einem hemde, daz was blanc.</l>
+<l n="*D 63.26">von schouwen wart dâ grôz gedranc.</l>
+<l n="*D 63.27"><seg type="Initiale">V</seg>il dicke al dâ gevrâget wart,</l>
+<l n="*D 63.28">wer w&#x00E6;re der ritt<reg type="Synkope">e</reg>r âne bart,</l>
+<l n="*D 63.29">der vuorte alsölhe rîcheit.</l>
+<l n="*D 63.30">vil schiere wart daz m&#x00E6;re breit.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="63.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="63.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="63.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="63.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="63.13"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="63.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="63.15"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="63.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="63.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>
+</rdg></app><app loc="63.27"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="63.30"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="63.30"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="63.03">
+<lem>krache</lem> <rdg>krachen <wit>*m</wit></rdg>
+</app>
+<app loc="63.04">
+<rdg>von slegen und mit würfen (Mit wu&#x0366;rfen vnd <add>von</add> slegen <wit>O</wit> Mit wu̽rffen vnd mit slegen <wit>L</wit> [<wit>Z</wit>]) grôz <wit>*G</wit> (<wit>V</wit>) · von slegen und würfen (von wurfen vnde slegen <wit>T</wit>) grôz <wit>*T</wit></rdg>
+</app>
+<app loc="63.16">
+<lem>sîn</lem> <rdg>si <wit>D</wit></rdg>
+</app>
+<app loc="63.17">
+<lem>der</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="63.18">
+<rdg>der was dicke, niht ze dünne. <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="63.18">
+<rdg>er (Ez <wit>L</wit>) was dicke, niht ze dünne. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="63.18">
+<rdg>er was dicke und niht (was ze dicke noch <wit>T</wit>) zuo dünne. <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="63.20">
+<lem>sîn</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="63.21">
+<lem>man daz</lem> <rdg>manz <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="63.01">
+<rdg></rdg>
+</app>
+<app loc="63.02">
+<rdg></rdg>
+</app>
+<app loc="63.03">
+<rdg>vor im mit kr. g. dôz. <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="63.04">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="63.05">
+<rdg>g. sch., <wit>*G</wit></rdg>
+</app>
+<app loc="63.06">
+<rdg>daz der g. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="63.07">
+<rdg></rdg>
+</app>
+<app loc="63.08">
+<rdg>mit floitierene ûf die v. <wit>*G</wit> <note>(nur GI)</note> mit floitierne (volitieren <wit>L</wit>) ûf der v. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="63.09">
+<rdg></rdg>
+</app>
+<app loc="63.10">
+<rdg></rdg>
+</app>
+<app loc="63.11">
+<rdg></rdg>
+</app>
+<app loc="63.12">
+<rdg></rdg>
+</app>
+<app loc="63.13">
+<rdg></rdg>
+</app>
+<app loc="63.14">
+<rdg>sîn (<subst><del>*in</del><add>Ein</add></subst> <wit>V</wit>) b. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="63.15">
+<rdg>blôzez <wit>*G</wit> <note>(nur GO)</note> blôz <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="63.16">
+<rdg></rdg>
+</app>
+<app loc="63.17">
+<rdg>vor r., <wit>*G</wit> <note>(ohne Z)</note> von r., <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="63.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="63.19">
+<rdg>a. klâr, <wit>*G</wit></rdg>
+</app>
+<app loc="63.20">
+<rdg>l. r. (was <wit>O</wit> <wit>Z</wit> [<wit>V</wit>]) sîn hâr, <wit>*G</wit> · l. r. (lieht vnde crv̂z <wit>T</wit>) was im daz hâr, <wit>*T</wit></rdg>
+</app>
+<app loc="63.21">
+<rdg>swâ manz (Waz man <wit>L</wit>) vor <wit>*G</wit> sô man ez (swa mans <wit>T</wit>) vor <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="63.22">
+<rdg>daz (<subst><del>D*r</del><add>Der</add></subst> <wit>V</wit>) was <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="63.23">
+<rdg></rdg>
+</app>
+<app loc="63.24">
+<rdg>gap liehten sch. <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="63.25">
+<rdg></rdg>
+</app>
+<app loc="63.26">
+<rdg>dâ wart von sch. gr. g. <wit>*G</wit> <note>(nur GI)</note> · was <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="63.27">
+<rdg>al <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="63.28">
+<rdg>der junge âne b., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="63.29">
+<rdg>der dâ vüeret sô grôze (der vu&#x0366;rte selhe <wit>T</wit>) r. <wit>*T</wit> · solhe <wit>*G</wit> <note>(nur GIZ)</note></rdg>
+</app>
+<app loc="63.30">
+<rdg>vil <note>om.</note> <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

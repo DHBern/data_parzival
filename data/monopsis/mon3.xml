@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 3</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 3.01">sô daz si niht geriwe</l>
+<l n="*D 3.02">ir kiusche und ir triwe.</l>
+<l n="*D 3.03"><seg type="Initiale" subtype="Majuskel">V</seg>or gote ich guoten wîben bite,</l>
+<l n="*D 3.04">daz in rehtiu mâze volge mite.</l>
+<l n="*D 3.05">scham ist ein slôz ob allen siten.</l>
+<l n="*D 3.06">ich endarf in niht mêr heiles biten.</l>
+<l n="*D 3.07">diu valsche erwirbet valschen prîs.</l>
+<l n="*D 3.08">wie st&#x00E6;te ist ein dünnez îs,</l>
+<l n="*D 3.09">daz ougestheize sunnen hât?</l>
+<l n="*D 3.10">ir lop vil balde alsus zergât.</l>
+<l n="*D 3.11">manec wîbes sch&#x0153;ne an lobe ist breit.</l>
+<l n="*D 3.12">ist dâ daz herze conterfeit,</l>
+<l n="*D 3.13">die lob ich, als ich solde</l>
+<l n="*D 3.14">daz safer im golde.</l>
+<l n="*D 3.15">ich enhân daz niht vür lîhti<corr type="Emendation">u d</corr>in<corr type="Emendation">c</corr>,</l>
+<l n="*D 3.16">swer in den kranken messinc</l>
+<l n="*D 3.17">verwürket edeln <name type="Sonstiges">rubîn</name></l>
+<l n="*D 3.18">und al die âventiure sîn.</l>
+<l n="*D 3.19">dem glîche ich rehte wîbes muot.</l>
+<l n="*D 3.20">diu ir wîpheit rehte tuot,</l>
+<l n="*D 3.21">dâne sol ich varwe prüeven <corr type="Emendation">n</corr>iht</l>
+<l n="*D 3.22">noch herzen dach, daz man sih<corr type="Emendation">t</corr>.</l>
+<l n="*D 3.23">ist si inrehalp des brust bew<corr type="Emendation">art</corr>,</l>
+<l n="*D 3.24">sô ist werder prîs dâ niht v<corr type="Emendation">e</corr>rsch<corr type="Emendation">art</corr>.</l>
+<l n="*D 3.25"><seg type="Initiale" subtype="Großinitiale">S</seg>olt ich wîp un<corr type="Emendation">de man</corr></l>
+<l n="*D 3.26">zerehte prüeven, als ich <corr type="Emendation">kan</corr>,</l>
+<l n="*D 3.27">dâ vüere e<corr type="Emendation">i</corr>n l<corr type="Emendation">an</corr>g<corr type="Emendation">ez m&#x00E6;re mite</corr>.</l>
+<l n="*D 3.28">nû h<corr type="Emendation">&#x0153;r</corr>et d<corr type="Emendation">ir</corr>re âventiure site.</l>
+<l n="*D 3.29">diu lât iuch wizzen beide</l>
+<l n="*D 3.30">von li<corr type="Emendation">e</corr>be und von lei<corr type="Emendation">de</corr>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(3.1-24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="3.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="3.03"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="3.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="3.07"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="3.07"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="3.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="3.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="3.25"><rdg>
+<note>Großinitiale</note> <wit>D</wit>
+</rdg></app><app loc="3.25"><rdg><note>Initiale</note> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="3.25"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="3.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="3.01">
+<lem>geriwe</lem> <rdg>geriwe <note>nachträglich korrigiert zu:</note> gerîwe <wit>D</wit></rdg>
+</app>
+<app loc="3.02">
+<lem>triwe</lem> <rdg>triwe <note>nachträglich korrigiert zu:</note> trîwe <wit>D</wit></rdg>
+</app>
+<app loc="3.04">
+<rdg>die in rehter mâze volgent mite. <wit>*m</wit></rdg>
+</app>
+<app loc="3.06">
+<lem>niht mêr</lem> <rdg>nimer <wit>*m</wit></rdg>
+</app>
+<app loc="3.10">
+<rdg>ir lop vil balde alsus zergât, <wit>*m</wit></rdg>
+</app>
+<app loc="3.11">
+<lem>manec</lem> <rdg>wenne <wit>*m</wit></rdg>
+</app>
+<app loc="3.14">
+<lem>im</lem> <rdg>in <wit>*m</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="3.15">
+<rdg>ouch hân ich niht vür ringiu dinc (Jch han daz niht fvr wehe dinc <wit>Z</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="3.15">
+<rdg>Ouch enhab ichz vür ein geringez dinc (<subst><del>*</del><add>Jch enhan daz nv́t fúr lihte ding</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="3.15">
+<lem>lîhtiu dinc</lem> <rdg>lihti::in: <note>nachträglich korrigiert zu:</note> lihtiv dinc <wit>D</wit> lîhter dinc <wit>*m</wit></rdg>
+</app>
+<app loc="3.16">
+<lem>messinc</lem> <rdg>messinc <note>nachträglich korrigiert zu:</note> me&#x0366;ssinc <wit>D</wit></rdg>
+</app>
+<app loc="3.17">
+<lem>verwürket</lem> <rdg>verwurchet <note>nachträglich korrigiert zu:</note> verwürchet <wit>D</wit></rdg>
+</app>
+<app loc="3.17">
+<lem>edeln</lem> <rdg>edel <wit>*m</wit></rdg>
+</app>
+<app loc="3.19">
+<lem>dem</lem> <rdg><seg type="singuläre_Lesart">den</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="3.19">
+<lem>rehte</lem> <rdg><seg type="singuläre_Lesart">rehten</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="3.21">
+<lem>dâne</lem> <rdg>denne <wit>*m</wit></rdg>
+</app>
+<app loc="3.21">
+<lem>niht</lem> <rdg>:iht <note>nachträglich korrigiert zu:</note> niht <wit>D</wit></rdg>
+</app>
+<app loc="3.22">
+<lem>herzen</lem> <rdg>ir herzen <wit>*m</wit></rdg>
+</app>
+<app loc="3.22">
+<lem>daz man</lem> <rdg>dô man dâ <wit>*m</wit></rdg>
+</app>
+<app loc="3.22">
+<lem>siht</lem> <rdg>sih: <note>nachträglich korrigiert zu:</note> siht <wit>D</wit></rdg>
+</app>
+<app loc="3.23">
+<lem>des brust</lem> <rdg>der brüste <wit>*m</wit></rdg>
+</app>
+<app loc="3.23">
+<lem>bewart</lem> <rdg>bew::: <note>nachträglich korrigiert zu:</note> bewart <wit>D</wit></rdg>
+</app>
+<app loc="3.24">
+<lem>werder</lem> <rdg>worden <wit>*m</wit></rdg>
+</app>
+<app loc="3.24">
+<lem>verschart</lem> <rdg>v:rsch::: <note>nachträglich korrigiert zu:</note> versch::: <wit>D</wit></rdg>
+</app>
+<app loc="3.25">
+<rdg><note>Die Verse 3.25-4.8 fehlen</note> <wit>*m</wit></rdg>
+</app>
+<app loc="3.25">
+<lem>unde man</lem> <rdg>un::: <wit>D</wit></rdg>
+</app>
+<app loc="3.26">
+<lem>kan</lem> <rdg>::: <wit>D</wit></rdg>
+</app>
+<app loc="3.27">
+<rdg>da fv̂re e:n l::g::: <wit>D</wit></rdg>
+</app>
+<app loc="3.28">
+<lem>h&#x0153;ret dirre</lem> <rdg>h::et d::re <wit>D</wit></rdg>
+</app>
+<app loc="3.29">
+<lem>beide</lem> <rdg>beide <note>nachträglich korrigiert zu:</note> heide <wit>D</wit></rdg>
+</app>
+<app loc="3.30">
+<lem>liebe</lem> <rdg>libe <wit>D</wit></rdg>
+</app>
+<app loc="3.30">
+<lem>leide</lem> <rdg>lei:: <note>nachträglich korrigiert zu:</note> leide <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="3.01">
+<rdg>si iht g. <wit>*G</wit> sis (siz <wit>T</wit>) iht geriuwe, <wit>*T</wit></rdg>
+</app>
+<app loc="3.02">
+<rdg></rdg>
+</app>
+<app loc="3.03">
+<rdg></rdg>
+</app>
+<app loc="3.04">
+<rdg>sô daz ir (Daz ir <wit>U</wit> Daz in <wit>V</wit>) rehte m. <wit>*T</wit></rdg>
+</app>
+<app loc="3.05">
+<rdg></rdg>
+</app>
+<app loc="3.06">
+<rdg></rdg>
+</app>
+<app loc="3.07">
+<rdg>Der (<subst><del>D*</del><add>Dv́</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.07">
+<rdg>wirbet (werbent <wit>Z</wit>) <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="3.08">
+<rdg></rdg>
+</app>
+<app loc="3.09">
+<rdg></rdg>
+</app>
+<app loc="3.10">
+<rdg>sîn (Jr <wit>U</wit>) lop b. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.11">
+<rdg>maneges <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="3.11">
+<rdg>lop an sch&#x0153;ne (schone vil lobez <wit>L</wit>) <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="3.12">
+<rdg>ist aber daz <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.13">
+<rdg>daz lob <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="3.14">
+<rdg>der s. (Glas sapfir <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="3.15">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="3.17">
+<rdg>edele <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.18">
+<rdg>alle (aller <wit>O</wit>) die natûre <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="3.19">
+<rdg>rehten <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.20">
+<rdg></rdg>
+</app>
+<app loc="3.21">
+<rdg></rdg>
+</app>
+<app loc="3.22">
+<rdg>ir h. (<subst><del>*</del><add>ir herze</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="3.22">
+<rdg>man dâ s. <wit>*G</wit> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="3.23">
+<rdg>innerhalp dâr (der <wit>G</wit>) b., <wit>*G</wit> <note>(nur G)</note> innertalp der br. b., <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="3.24">
+<rdg></rdg>
+</app>
+<app loc="3.25">
+<rdg>ich nû wîp <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.26">
+<rdg></rdg>
+</app>
+<app loc="3.27">
+<rdg>l. ende m. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="3.28">
+<rdg></rdg>
+</app>
+<app loc="3.29">
+<rdg></rdg>
+</app>
+<app loc="3.30">
+<rdg>und ouch von <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

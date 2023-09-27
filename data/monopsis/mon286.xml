@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 286</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 286.01"><name type="Person"><seg type="Initiale">A</seg>rtus</name> ze <name type="Person">Segramorse</name> sprach:</l>
+<l n="*D 286.02">"dîn sicherheit mir des verjach,</l>
+<l n="*D 286.03">dû soldest nâch mînem willen varn</l>
+<l n="*D 286.04">unt dîne unbescheidenheit bewarn.</l>
+<l n="*D 286.05">wirt hie ein tjost von dir getân,</l>
+<l n="*D 286.06">dar nâch wil manec and<reg type="Synkope">e</reg>r man,</l>
+<l n="*D 286.07">daz ich in lâze rîten</l>
+<l n="*D 286.08">unt ouch nâch prîse strîten.</l>
+<l n="*D 286.09">dâ mite krenket sich mîn wer.</l>
+<l n="*D 286.10">wir nâhen <name type="Person">Anfortas<reg type="Synkope">e</reg>s</name> her,</l>
+<l n="*D 286.11">daz von <name type="Ort">Munsalv&#x00E6;sche</name> vert</l>
+<l n="*D 286.12">untz fôrest mit strîte wert.</l>
+<l n="*D 286.13">sît wir niht wizzen, wâ diu stêt,</l>
+<l n="*D 286.14">zarbeite ez uns lîhte ergêt."</l>
+<l n="*D 286.15"><name type="Person">Gynover</name> bat <name type="Person">Artusen</name> sô,</l>
+<l n="*D 286.16">dês <name type="Person">Segramors</name> wart al vrô.</l>
+<l n="*D 286.17">dô si im die âventiure erwarp,</l>
+<l n="*D 286.18">wan daz er niht vor liebe starp,</l>
+<l n="*D 286.19">daz and<reg type="Synkope">e</reg>r was dâ gar geschehen.</l>
+<l n="*D 286.20">ungern het er dô verjehen</l>
+<l n="*D 286.21">sîn<reg type="Synkope">e</reg>s kumenden prîs<reg type="Synkope">e</reg>s pflihte</l>
+<l n="*D 286.22">iemen an der geschihte.</l>
+<l n="*D 286.23"><seg type="Initiale" subtype="Majuskel">D</seg>er junge stolze âne bart,</l>
+<l n="*D 286.24">sîn ors unt er gewâpent wart.</l>
+<l n="*D 286.25">ûz vuor <name type="Person">Segramors</name> roys</l>
+<l n="*D 286.26">kalopierende ult<reg type="Synkope">e</reg>r juven poys:</l>
+<l n="*D 286.27">sîn ors über hôhe stûden spranc.</l>
+<l n="*D 286.28">manec guldîn schelle dran erklanc</l>
+<l n="*D 286.29">ûf der decke unt an dem man.</l>
+<l n="*D 286.30">man m<corr type="Emendation">ö</corr>hten wol geworfen hân</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="286.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="286.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="286.15"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="286.17"><rdg>
+<note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="286.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="286.25"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app><app loc="286.25"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="286.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="286.06">
+<rdg>sô (dar nâch <wit>*T</wit> [<wit>I</wit> <wit>O</wit> <wit>L</wit>]) w&#x00E6;net manic ander (manc <wit>I</wit> [<wit>L</wit>] manich werder <wit>O</wit>) man, <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="286.13">
+<rdg>welt ir (Sit wir <wit>Z</wit>) niht (<note>om.</note> <wit>I</wit>) wizzen, wâ daz (waz da <wit>Z</wit>) stêt, <wit>*G</wit></rdg>
+</app>
+<app loc="286.13">
+<rdg>welt ir nû (<subst><del>*</del><add>Sit wir mit</add></subst> <wit>V</wit>) wizzen, wâ (<subst><del>wi</del><add>wâ</add></subst> <wit>T</wit>) diu stêt, <wit>*T</wit></rdg>
+</app>
+<app loc="286.22">
+<lem>an der</lem> <rdg>ander <wit>D</wit></rdg>
+</app>
+<app loc="286.25">
+<rdg>ûz (Ez <wit>O</wit> [<wit>L</wit>]) kom Segremors de (der <wit>O</wit> <note>om.</note> <wit>Z</wit>) Roys (toys <wit>O</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="286.25">
+<rdg>Ûz kom geriten Segremors de Rois (der Rois <wit>U</wit> <subst><del>*</del><add>rois</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="286.26">
+<rdg>kalopierende ulter Jovanpois (ionopors <wit>mk</wit>). <wit>*m</wit></rdg>
+</app>
+<app loc="286.26">
+<rdg>galopiert (Galopiernde <wit>O</wit> <wit>L</wit> <wit>Z</wit>) ulter lo von Poys (vterlo von poys <wit>I</wit> vber vlterlovonpoys <wit>O</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="286.26">
+<rdg>galopiert (gelaopiert <wit>T</wit>) ulter la von Pois (vlter <subst><del>*</del><add>iovanpoys</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="286.28">
+<lem>schelle</lem> <rdg>schellen <wit>*m</wit></rdg>
+</app>
+<app loc="286.29">
+<lem>an dem</lem> <rdg>an der <wit>*m</wit></rdg>
+</app>
+<app loc="286.30">
+<lem>möhten</lem> <rdg>mohten <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="286.01">
+<rdg></rdg>
+</app>
+<app loc="286.02">
+<rdg></rdg>
+</app>
+<app loc="286.03">
+<rdg></rdg>
+</app>
+<app loc="286.04">
+<rdg></rdg>
+</app>
+<app loc="286.05">
+<rdg></rdg>
+</app>
+<app loc="286.06">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="286.07">
+<rdg></rdg>
+</app>
+<app loc="286.08">
+<rdg></rdg>
+</app>
+<app loc="286.09">
+<rdg></rdg>
+</app>
+<app loc="286.10">
+<rdg></rdg>
+</app>
+<app loc="286.11">
+<rdg></rdg>
+</app>
+<app loc="286.12">
+<rdg>unde diz fôreht <wit>*T</wit> <note>(ohne V)</note> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="286.13">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="286.14">
+<rdg>ze arbeiten ez uns (ez liht vns <wit>O</wit> ez vns <subst><del>*</del><add>lihte</add></subst> <wit>V</wit>) e." <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="286.15">
+<rdg>Schinover sprach ze Artuse (<subst><del>*</del><add>bat artusen</add></subst> <wit>V</wit>) sô, <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="286.16">
+<rdg></rdg>
+</app>
+<app loc="286.17">
+<rdg></rdg>
+</app>
+<app loc="286.18">
+<rdg>n. von l. <wit>*T</wit> <wit>O</wit></rdg>
+</app>
+<app loc="286.19">
+<rdg>was im gar (gar was <wit>I</wit>) <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="286.20">
+<rdg></rdg>
+</app>
+<app loc="286.21">
+<rdg>s. niuwen komens pf. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="286.22">
+<rdg></rdg>
+</app>
+<app loc="286.23">
+<rdg>der j. süeze âne b., <wit>*T</wit></rdg>
+</app>
+<app loc="286.24">
+<rdg></rdg>
+</app>
+<app loc="286.25">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="286.26">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="286.27">
+<rdg></rdg>
+</app>
+<app loc="286.28">
+<rdg>g. schellen (schelle gvldin <wit>O</wit>) <wit>*G</wit> <note>(ohne ILZ)</note></rdg>
+</app>
+<app loc="286.29">
+<rdg>unde ûf der (dem <wit>O</wit>) man. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="286.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 791</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 791.01"><name type="Sonstiges"><seg type="Initiale"><corr type="Emendation">K</corr></seg>arfunkel</name> unt <name type="Sonstiges">silenîtes</name>,</l>
+<l n="*D 791.02"><name type="Sonstiges">balax</name> unt <name type="Sonstiges">gagatrômes</name>,</l>
+<l n="*D 791.03"><name type="Sonstiges">ônix</name> unt <name type="Sonstiges">calcidôn</name>,</l>
+<l n="*D 791.04"><name type="Sonstiges">coralîs</name> unt <name type="Sonstiges">bestîôn</name>,</l>
+<l n="*D 791.05"><name type="Sonstiges">unjô</name> unt <name type="Sonstiges">optallîes</name>,</l>
+<l n="*D 791.06"><name type="Sonstiges">cerâuns</name> unt <name type="Sonstiges">epistîtes</name>,</l>
+<l n="*D 791.07"><name type="Sonstiges">jerachîtes</name> unt <name type="Sonstiges">eljotrôpîa</name>,</l>
+<l n="*D 791.08"><name type="Sonstiges">panthers</name> unt <name type="Sonstiges">antrodrâgmâ</name>,</l>
+<l n="*D 791.09"><name type="Sonstiges">prasem</name> unde <name type="Sonstiges">saddâ</name>,</l>
+<l n="*D 791.10"><name type="Sonstiges">êmathîtes</name> unt <name type="Sonstiges">djonisîâ</name>,</l>
+<l n="*D 791.11"><name type="Sonstiges">achates</name> unt <name type="Sonstiges">celidôn</name>,</l>
+<l n="*D 791.12"><name type="Sonstiges">sardonîs</name> unt <name type="Sonstiges">calcofôn</name>,</l>
+<l n="*D 791.13"><name type="Sonstiges">cornîol</name> unt <name type="Sonstiges">jaspis</name>,</l>
+<l n="*D 791.14"><name type="Sonstiges">ethîtes</name> unt <name type="Sonstiges">îrîs</name>,</l>
+<l n="*D 791.15"><name type="Sonstiges">gagâtes</name> unt <name type="Sonstiges">ligûrjus</name>,</l>
+<l n="*D 791.16"><name type="Sonstiges">abestô</name> unt <name type="Sonstiges">cegôlitus</name>,</l>
+<l n="*D 791.17"><name type="Sonstiges">galactîdâ</name> unt <name type="Sonstiges">jacinctus</name>,</l>
+<l n="*D 791.18"><name type="Sonstiges">orîtes</name> unt <name type="Sonstiges">enîdrus</name>,</l>
+<l n="*D 791.19"><name type="Sonstiges">absist</name> unt <name type="Sonstiges">alabandâ</name>,</l>
+<l n="*D 791.20"><name type="Sonstiges">crisolecter</name> unt <name type="Sonstiges">hîennîa</name>,</l>
+<l n="*D 791.21"><name type="Sonstiges">smareit</name> unt <name type="Sonstiges">magnes</name>,</l>
+<l n="*D 791.22"><name type="Sonstiges">saphîr</name> unt <name type="Sonstiges">pirrîtes</name>.</l>
+<l n="*D 791.23"><seg type="Initiale" subtype="Majuskel">O</seg>uch stuont her unt dâ</l>
+<l n="*D 791.24"><name type="Sonstiges">turkoyse</name> unt <name type="Sonstiges">lipparêa</name>,</l>
+<l n="*D 791.25"><name type="Sonstiges">crisolte</name>, <name type="Sonstiges">rubîne</name>,</l>
+<l n="*D 791.26"><name type="Sonstiges">paleise</name> unt <name type="Sonstiges">sardîne</name>,</l>
+<l n="*D 791.27"><name type="Sonstiges">adamas</name> unt <name type="Sonstiges">crisoprassîs</name>,</l>
+<l n="*D 791.28"><name type="Sonstiges">melochîtes</name> unt <name type="Sonstiges">dîadochîs</name>,</l>
+<l n="*D 791.29"><name type="Sonstiges">pêanîtes</name> unt <name type="Sonstiges">medus</name>,</l>
+<l n="*D 791.30"><name type="Sonstiges">berillus</name> unt <name type="Sonstiges">topazîus</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 791.16-17)</note> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 791.8)</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="791.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="791.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="791.01">
+<lem>Karfunkel</lem> <rdg>&#x00F7;arfvnkel <note>nachträglich korrigiert zu:</note> Karfvnkel <wit>D</wit></rdg>
+</app>
+<app loc="791.02">
+<lem>balax</lem> <rdg>celidônius <wit>*m</wit></rdg>
+</app>
+<app loc="791.16">
+<rdg><note>Die Verse 791.16-17 fehlen</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="791.01">
+<rdg></rdg>
+</app>
+<app loc="791.02">
+<rdg>gelidômus unde (<note>om.</note> <wit>G</wit>) g., <wit>*G</wit></rdg>
+</app>
+<app loc="791.03">
+<rdg>ônichel unde galcidôn, <wit>*G</wit> <note>(ohne L)</note> ônich unt c., <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="791.04">
+<rdg>gozalîs (<subst><del>Corall*s</del><add>Corallv̽s</add></subst> <wit>L</wit>) unde b., <wit>*G</wit></rdg>
+</app>
+<app loc="791.05">
+<rdg></rdg>
+</app>
+<app loc="791.06">
+<rdg></rdg>
+</app>
+<app loc="791.07">
+<rdg></rdg>
+</app>
+<app loc="791.08">
+<rdg></rdg>
+</app>
+<app loc="791.09">
+<rdg></rdg>
+</app>
+<app loc="791.10">
+<rdg>amachîtes und djonisîâ, <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="791.11">
+<rdg></rdg>
+</app>
+<app loc="791.12">
+<rdg>s. und gazcofôn <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="791.13">
+<rdg></rdg>
+</app>
+<app loc="791.14">
+<rdg></rdg>
+</app>
+<app loc="791.15">
+<rdg></rdg>
+</app>
+<app loc="791.16">
+<rdg></rdg>
+</app>
+<app loc="791.17">
+<rdg></rdg>
+</app>
+<app loc="791.18">
+<rdg>arates und e., <wit>*T</wit></rdg>
+</app>
+<app loc="791.19">
+<rdg></rdg>
+</app>
+<app loc="791.20">
+<rdg>crisoliter (<subst><del>Ori*aleteter</del><add>Orisaleteter</add></subst> <wit>L</wit>) unde h., <wit>*G</wit></rdg>
+</app>
+<app loc="791.21">
+<rdg></rdg>
+</app>
+<app loc="791.22">
+<rdg></rdg>
+</app>
+<app loc="791.23">
+<rdg></rdg>
+</app>
+<app loc="791.24">
+<rdg></rdg>
+</app>
+<app loc="791.25">
+<rdg>crisolt unde r., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="791.26">
+<rdg></rdg>
+</app>
+<app loc="791.27">
+<rdg></rdg>
+</app>
+<app loc="791.28">
+<rdg></rdg>
+</app>
+<app loc="791.29">
+<rdg></rdg>
+</app>
+<app loc="791.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

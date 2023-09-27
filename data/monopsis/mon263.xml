@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 263</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 263.01"><seg type="Initiale">P</seg>rîs<reg type="Synkope">e</reg>s si bêde gerten.</l>
+<l n="*D 263.02">die blicke von den swerten</l>
+<l n="*D 263.03">unt viwer, daz von helmen spranc,</l>
+<l n="*D 263.04">unt manec ellenthafter swanc,</l>
+<l n="*D 263.05">die begunden verre glesten,</l>
+<l n="*D 263.06">wan dâ wâren strît<reg type="Synkope">e</reg>s die besten</l>
+<l n="*D 263.07">mit hurte an ein and<reg type="Synkope">e</reg>r kumen,</l>
+<l n="*D 263.08">ez gê ze schaden od<reg type="Synkope">e</reg>r ze vrumen</l>
+<l n="*D 263.09"><seg type="Initiale" subtype="Majuskel">D</seg>en küenen helden m&#x00E6;ren.</l>
+<l n="*D 263.10">swi<reg type="Synkope">e</reg> willic dors in w&#x00E6;ren,</l>
+<l n="*D 263.11">dâ si bêde ûf sâzen,</l>
+<l n="*D 263.12">der sporn si niht vergâzen</l>
+<l n="*D 263.13">noch ir swerte lieht gemâl.</l>
+<l n="*D 263.14">prîs gediende <name type="Person">Parzival</name>,</l>
+<l n="*D 263.15">daz er sich alsus weren kan</l>
+<l n="*D 263.16">wol hundert trachen unt ein<reg type="Synkope">e</reg>s man.</l>
+<l n="*D 263.17"><seg type="Initiale" subtype="Majuskel">E</seg>in trache wart versêret,</l>
+<l n="*D 263.18">sîne wunden gemêret,</l>
+<l n="*D 263.19">der ûf <name type="Person">Orilus<reg type="Synkope">e</reg>s</name> helme lac,</l>
+<l n="*D 263.20">sô durchliuhtec, daz der tac</l>
+<l n="*D 263.21">volleclîche durch in schein,</l>
+<l n="*D 263.22">wart drab geslagen manec edel stein.</l>
+<l n="*D 263.23">daz ergienc zorse unt niht ze vuoz.</l>
+<l n="*D 263.24">vroun <name type="Person">Jeschuten</name> wart der gruoz</l>
+<l n="*D 263.25">mit swertes schimpfe al dâ bejagt,</l>
+<l n="*D 263.26">mit heldes handen unverzagt.</l>
+<l n="*D 263.27"><seg type="Initiale" subtype="Majuskel">M</seg>it hurte si dicke zein and<reg type="Synkope">e</reg>r vlugen,</l>
+<l n="*D 263.28">daz die ringe vor den knien zerstuben,</l>
+<l n="*D 263.29">swie si w&#x00E6;ren îserîn.</l>
+<l n="*D 263.30">ruochet irs, si tâten strîtes schîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 263.4)</note> <wit>Fr69</wit> <note>(263.5-7, 12-15 und 17-19)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="263.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit>
+</rdg></app>
+<app loc="263.09"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="263.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="263.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="263.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app><app loc="263.17"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="263.27"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="263.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="263.03">
+<rdg>unde daz viur (daz fiwer daz <wit>I</wit> fivr daz <wit>O</wit> <wit>Fr21</wit> fvir <wit>L</wit>) ûz (vz den <wit>I</wit> von den <wit>O</wit> <wit>L</wit> [<wit>Fr21</wit>]) helmen spranc (sprach <wit>G</wit>), <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="263.10">
+<lem>in</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="263.14">
+<rdg>prîs gedienet in hie Parcifal, <wit>*m</wit></rdg>
+</app>
+<app loc="263.21">
+<rdg>volleclîch durchschein (durch schin <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="263.22">
+<lem>edel</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="263.23">
+<rdg>daz ergienc &#x2020;daz ros&#x2020;, niht ze vuoz. <wit>*m</wit></rdg>
+</app>
+<app loc="263.23">
+<lem>ergienc</lem> <rdg>er gienc <wit>D</wit></rdg>
+</app>
+<app loc="263.27">
+<lem>vlugen</lem> <rdg>sluogen <wit>*m</wit> (<wit>Fr21</wit>)</rdg>
+</app>
+<app loc="263.30">
+<lem>strîtes</lem> <rdg>strîten (<note>om.</note> <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="263.01">
+<rdg></rdg>
+</app>
+<app loc="263.02">
+<rdg></rdg>
+</app>
+<app loc="263.03">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="263.04">
+<rdg></rdg>
+</app>
+<app loc="263.05">
+<rdg>v. gl. <wit>*T</wit></rdg>
+</app>
+<app loc="263.06">
+<rdg>wan (<subst><del>*</del><add>Wan</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="263.07">
+<rdg></rdg>
+</app>
+<app loc="263.08">
+<rdg></rdg>
+</app>
+<app loc="263.09">
+<rdg></rdg>
+</app>
+<app loc="263.10">
+<rdg>sw. gewillic diu ors in w., <wit>*T</wit></rdg>
+</app>
+<app loc="263.11">
+<rdg></rdg>
+</app>
+<app loc="263.12">
+<rdg></rdg>
+</app>
+<app loc="263.13">
+<rdg>unt (<subst><del>*</del><add>Noch</add></subst> <wit>V</wit>) ir (der <wit>I</wit> [<wit>L</wit>]) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="263.14">
+<rdg>brîs begie (gedient <wit>O</wit> [<wit>L</wit>] <wit>Z</wit> <wit>Fr21</wit>) hie P., <wit>*G</wit></rdg>
+</app>
+<app loc="263.15">
+<rdg></rdg>
+</app>
+<app loc="263.16">
+<rdg>h. (<subst><del>vvundert</del><add>hundert</add></subst> <wit>T</wit> <subst><del>*</del><add>Wol hvndert</add></subst> <wit>V</wit>) tr. <wit>*T</wit></rdg>
+</app>
+<app loc="263.17">
+<rdg></rdg>
+</app>
+<app loc="263.18">
+<rdg></rdg>
+</app>
+<app loc="263.19">
+<rdg></rdg>
+</app>
+<app loc="263.20">
+<rdg></rdg>
+</app>
+<app loc="263.21">
+<rdg></rdg>
+</app>
+<app loc="263.22">
+<rdg>drabe wart <wit>*G</wit> <note>(ohne Z)</note> dâ w. dr. <wit>*T</wit></rdg>
+</app>
+<app loc="263.23">
+<rdg>ditze e. <wit>*G</wit> ez e. (Do er ginc <wit>U</wit>) <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="263.24">
+<rdg></rdg>
+</app>
+<app loc="263.25">
+<rdg></rdg>
+</app>
+<app loc="263.26">
+<rdg></rdg>
+</app>
+<app loc="263.27">
+<rdg>mit h. si sich an ein a. schuoben (sv́ <subst><del>*</del><add>dicke zeinander flugen</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="263.28">
+<rdg></rdg>
+</app>
+<app loc="263.29">
+<rdg>sw. (Owe wie <wit>O</wit>) si wâren î. <wit>*G</wit></rdg>
+</app>
+<app loc="263.30">
+<rdg>geruochet irs (irz <wit>T</wit>), si t. strîten (strites <wit>U</wit> <wit>V</wit> <wit>I</wit>) sch. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

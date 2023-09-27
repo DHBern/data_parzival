@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 209</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>03.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 209.01">ir harnasch er behalden bat.</l>
+<l n="*D 209.02">inz her si kêrten vür die stat.</l>
+<l n="*D 209.03">swie si w&#x00E6;ren von trünken rôt,</l>
+<l n="*D 209.04">die ûzeren sprâchen: "hungers nôt</l>
+<l n="*D 209.05">habt gedolt ir armen."</l>
+<l n="*D 209.06">"lât iuch uns niht erbarmen",</l>
+<l n="*D 209.07">sprach diu gevangene ritterschaft.</l>
+<l n="*D 209.08">"dort inne ist spîse al sölhiu kraft,</l>
+<l n="*D 209.09">wolt ir hie ligen noch ein jâr,</l>
+<l n="*D 209.10">si behielten iuch mit in vür wâr.</l>
+<l n="*D 209.11"><seg type="Initiale">D</seg>iu küneginne hât den sch&#x0153;nsten man,</l>
+<l n="*D 209.12">der schildes ambet ie gewan.</l>
+<l n="*D 209.13">er mac wol sîn von hôher art.</l>
+<l n="*D 209.14">aller ritt<reg type="Synkope">e</reg>r êre ist zim bewart."</l>
+<l n="*D 209.15">dô diz erhôrte <name type="Person">Clamide</name>,</l>
+<l n="*D 209.16">alrêst tet im sîn arbeit wê.</l>
+<l n="*D 209.17">boten sander wid<reg type="Synkope">e</reg>r în</l>
+<l n="*D 209.18">unt enbôt, swer bî der künegîn</l>
+<l n="*D 209.19">dâ gelegen w&#x00E6;re,</l>
+<l n="*D 209.20">"ist er kampfes b&#x00E6;re,</l>
+<l n="*D 209.21">sô daz si in dâ vür hât erkant,</l>
+<l n="*D 209.22">daz er ir lîp unt ir lant</l>
+<l n="*D 209.23">mir mit kampfe türre wern,</l>
+<l n="*D 209.24">sô sî ein vride von bêden hern."</l>
+<l n="*D 209.25"><name type="Person">Parzival</name> des wart al vrô,</l>
+<l n="*D 209.26">daz im diu botschaft alsô</l>
+<l n="*D 209.27">gein sîn eines kampfe was gesagt.</l>
+<l n="*D 209.28">dô sprach der junge unverzagt:</l>
+<l n="*D 209.29">"<seg type="Initiale" subtype="Majuskel">D</seg>a vür sî mîn triwe pfant,</l>
+<l n="*D 209.30">des inren hers dechein hant</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(209.13-15, 20-22 und 25-27)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="209.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="209.06"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="209.11"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="209.11"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="209.15"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="209.25"><rdg>
+<note>Initiale</note> <wit>Fr69</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="209.29"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="209.05">
+<rdg>habt ir gedult, ir armen." <wit>*m</wit></rdg>
+</app>
+<app loc="209.06">
+<lem>iuch uns</lem> <rdg>uns iuch <wit>*m</wit></rdg>
+</app>
+<app loc="209.11">
+<lem>Diu</lem> <rdg>Dev <wit>D</wit></rdg>
+</app>
+<app loc="209.11">
+<lem>sch&#x0153;nsten</lem> <rdg><seg type="singuläre_Lesart">h&#x0153;hesten</seg> <wit>*m</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="209.15">
+<lem>diz</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="209.20">
+<lem>kampfes b&#x00E6;re</lem> <rdg>kampfb&#x00E6;re <wit>*m</wit></rdg>
+</app>
+<app loc="209.23">
+<lem>türre</lem> <rdg>getürre <wit>*m</wit></rdg>
+</app>
+<app loc="209.30">
+<lem>des</lem> <rdg>daz des <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="209.01">
+<rdg></rdg>
+</app>
+<app loc="209.02">
+<rdg></rdg>
+</app>
+<app loc="209.03">
+<rdg>von trünken w&#x00E6;ren <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="209.04">
+<rdg></rdg>
+</app>
+<app loc="209.05">
+<rdg>habet ir g., ir a." <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="209.06">
+<rdg></rdg>
+</app>
+<app loc="209.07">
+<rdg></rdg>
+</app>
+<app loc="209.08">
+<rdg>al <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="209.09">
+<rdg>welt (wel <wit>G</wit>) ir belîben n. (ir noch ligen hie <wit>O</wit> [<wit>L</wit>]) ein jâr, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="209.10">
+<rdg>si b. iu. vür wâr (<subst><del>*</del><add>mit in fúr war</add></subst> <wit>V</wit>). <wit>*T</wit> (<wit>I</wit>) · behaltent <wit>*G</wit> <note>(ohne G)</note></rdg>
+</app>
+<app loc="209.11">
+<rdg></rdg>
+</app>
+<app loc="209.12">
+<rdg>der rîters namen ie g. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="209.13">
+<rdg>h. art, <wit>*G</wit></rdg>
+</app>
+<app loc="209.14">
+<rdg>jâ ist rîters êre an im (Aller ritter ere ist an im [in <wit>Z</wit>] <wit>L</wit> [<wit>Z</wit>]) b." <wit>*G</wit></rdg>
+</app>
+<app loc="209.15">
+<rdg></rdg>
+</app>
+<app loc="209.16">
+<rdg></rdg>
+</app>
+<app loc="209.17">
+<rdg>sîne b. santer hin în <wit>*T</wit></rdg>
+</app>
+<app loc="209.18">
+<rdg></rdg>
+</app>
+<app loc="209.19">
+<rdg></rdg>
+</app>
+<app loc="209.20">
+<rdg>"ist er (der <wit>L</wit>) kampfb&#x00E6;re, <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="209.21">
+<rdg>sô <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="209.22">
+<rdg>daz er die stat (ir stat <wit>O</wit> lip <wit>L</wit>) unde ir l. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="209.23">
+<rdg>mir (<subst><del>M*</del><add>Mir</add></subst> <wit>V</wit>) <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> · k. getürre w., <wit>*T</wit> (<wit>I</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="209.24">
+<rdg></rdg>
+</app>
+<app loc="209.25">
+<rdg></rdg>
+</app>
+<app loc="209.26">
+<rdg></rdg>
+</app>
+<app loc="209.27">
+<rdg>k. wart geseit. <wit>*G</wit> (<wit>*T</wit> <wit>Fr69</wit>)</rdg>
+</app>
+<app loc="209.28">
+<rdg></rdg>
+</app>
+<app loc="209.29">
+<rdg></rdg>
+</app>
+<app loc="209.30">
+<rdg>daz des <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

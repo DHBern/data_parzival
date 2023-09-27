@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 73</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 73.01">der anker kom doch vor an in.</l>
+<l n="*D 73.02">dô stach in hinderz ors dort hin</l>
+<l n="*D 73.03">der werde künec von <name type="Ort">Zazamanc</name></l>
+<l n="*D 73.04">unt viengen. dâ was grôz gedranc,</l>
+<l n="*D 73.05">hôhe vurche sleht getennet,</l>
+<l n="*D 73.06">mit swerten vil gekemmet.</l>
+<l n="*D 73.07"><seg type="Initiale">D</seg>â wart verswendet der walt</l>
+<l n="*D 73.08">unt manec ritt<reg type="Synkope">e</reg>r ab gevalt.</l>
+<l n="*D 73.09">si wunden sich, sus h&#x0153;re ich sag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 73.10">hindenort, dâ hielden zag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 73.11">der strît was wol sô nâhen,</l>
+<l n="*D 73.12">daz gar die vrouwen sâhen,</l>
+<l n="*D 73.13">wer dâ bî prîse solde sîn.</l>
+<l n="*D 73.14">der minnen gernde <name type="Person">Riwalin</name>,</l>
+<l n="*D 73.15">von des sper snîte ein niwe leis.</l>
+<l n="*D 73.16">daz was der künec von <name type="Ort">Lohneis</name>.</l>
+<l n="*D 73.17">sîne hurte gâben kraches schal.</l>
+<l n="*D 73.18"><name type="Person">Morholt</name> in einen rîter stal.</l>
+<l n="*D 73.19">ûzem satel er in vür sich huop.</l>
+<l n="*D 73.20">daz was ein ungevüeger uop.</l>
+<l n="*D 73.21">der hiez <name type="Person">Killirjacac</name>.</l>
+<l n="*D 73.22">von dem hete der künec <name type="Person">Lac</name></l>
+<l n="*D 73.23">dâ vor enpfangen solhen solt,</l>
+<l n="*D 73.24">den er vallende an der erd<reg type="Synkope">e</reg>n holt.</l>
+<l n="*D 73.25">er het ez dâ vil guot getân.</l>
+<l n="*D 73.26">dô luste disen starken man,</l>
+<l n="*D 73.27">daz er in twünge sund<reg type="Synkope">e</reg>r swert.</l>
+<l n="*D 73.28">alsus vieng er den degen wert.</l>
+<l n="*D 73.29">hind<reg type="Synkope">e</reg>r<corr type="Emendation">z</corr> ors stach <name type="Person">Kayletes</name> hant</l>
+<l n="*D 73.30">den herzog<reg type="Synkope">e</reg>n von <name type="Ort">Brabant</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(73.15-30)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="73.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="73.05"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="73.07"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="73.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="73.11"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+<app loc="73.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="73.23"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="73.29"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="73.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="73.05">
+<rdg>hôhe vurch (fu̽r <wit>L</wit>) sleht getemmet (Hohe <subst><del>*</del><add>fúrche sleht getenget</add></subst> <wit>V</wit> hohe wege nider getembet <wit>T</wit>), <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="73.06">
+<lem>gekemmet</lem> <rdg>geklemmet (<subst><del>gechlenbet</del><add>gechenbet</add></subst> <wit>G</wit> bechlenget <wit>I</wit> gechemphet <wit>O</wit> <subst><del>*</del><add>geclenget</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(ohne ZFr21)</note></rdg>
+</app>
+<app loc="73.09">
+<lem>h&#x0153;re</lem> <rdg>hôrt <wit>*m</wit></rdg>
+</app>
+<app loc="73.10">
+<lem>hindenort</lem> <rdg>hin an den ort <wit>*m</wit></rdg>
+</app>
+<app loc="73.15">
+<lem>sper</lem> <rdg>spern <wit>*m</wit></rdg>
+</app>
+<app loc="73.21">
+<rdg>daz was der werde Kiliriacac. <wit>*m</wit></rdg>
+</app>
+<app loc="73.24">
+<rdg>den er (der <wit>L</wit> <wit>Z</wit>) vallende an (vf <wit>I</wit>) der erde holt, <wit>*G</wit></rdg>
+</app>
+<app loc="73.24">
+<lem>er</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="73.28">
+<lem>vieng er</lem> <rdg>viengen si <wit>*m</wit></rdg>
+</app>
+<app loc="73.29">
+<lem>hinderz</lem> <rdg>hindrs <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="73.01">
+<rdg></rdg>
+</app>
+<app loc="73.02">
+<rdg></rdg>
+</app>
+<app loc="73.03">
+<rdg></rdg>
+</app>
+<app loc="73.04">
+<rdg>dâ wart gr. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="73.05">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="73.06">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="73.07">
+<rdg></rdg>
+</app>
+<app loc="73.08">
+<rdg></rdg>
+</app>
+<app loc="73.09">
+<rdg>hôrt ich s., <wit>*G</wit> hôrt ich sagen. <wit>*T</wit></rdg>
+</app>
+<app loc="73.10">
+<rdg>hin an den ort, dort h. z. <wit>*G</wit> · hinden (<note>om.</note> <wit>T</wit> an dem orte h. (helte <wit>U</wit> hielten die <wit>T</wit>) z. <wit>*T</wit></rdg>
+</app>
+<app loc="73.11">
+<rdg></rdg>
+</app>
+<app loc="73.12">
+<rdg></rdg>
+</app>
+<app loc="73.13">
+<rdg>dâ mit pr. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="73.14">
+<rdg></rdg>
+</app>
+<app loc="73.15">
+<rdg>speren (spers <wit>U</wit> <subst><del>sper*</del><add>spern</add></subst> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="73.16">
+<rdg></rdg>
+</app>
+<app loc="73.17">
+<rdg>g. krachenden (crachens <wit>T</wit>) sch. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="73.18">
+<rdg></rdg>
+</app>
+<app loc="73.19">
+<rdg>er in h. (er in fv&#x0366;r sich hv&#x0366;p <wit>Fr21</wit>). <wit>*G</wit> <note>(nur GI)</note> huob er in <wit>*T</wit></rdg>
+</app>
+<app loc="73.20">
+<rdg>vür sich und vuort in (vu&#x0366;rtin mit im <wit>T</wit>) hin. <wit>*T</wit></rdg>
+</app>
+<app loc="73.21">
+<rdg></rdg>
+</app>
+<app loc="73.22">
+<rdg></rdg>
+</app>
+<app loc="73.23">
+<rdg></rdg>
+</app>
+<app loc="73.24">
+<rdg>&#x2193;<wit>*G</wit> · sam der vallen an der (zer <wit>T</wit>) e. h., <wit>*T</wit></rdg>
+</app>
+<app loc="73.25">
+<rdg>und (Er <wit>Z</wit>) hetz ouch (<note>om.</note> <wit>G</wit>) dâ vil g. (da gu&#x0364;t <wit>I</wit> [<wit>T</wit>] dâ vor vil wol <wit>*T</wit>) g. <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="73.26">
+<rdg></rdg>
+</app>
+<app loc="73.27">
+<rdg></rdg>
+</app>
+<app loc="73.28">
+<rdg></rdg>
+</app>
+<app loc="73.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

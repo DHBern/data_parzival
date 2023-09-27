@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 817</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 817.01">"<seg type="Initiale">S</seg>wâ von ich sol die magt hân",</l>
+<l n="*D 817.02">sprach der <name type="Person">heiden</name>, "daz wirt gar getân,</l>
+<l n="*D 817.03">mit triwen an mir erzeiget."</l>
+<l n="*D 817.04"><seg type="Initiale" subtype="Majuskel">D</seg>er toufnapf wart geneiget</l>
+<l n="*D 817.05">ein wênec gein dem <name type="Sonstiges">Grâle</name>.</l>
+<l n="*D 817.06">vol wazzers an dem mâle</l>
+<l n="*D 817.07">wart er, ze warm noch ze kalt.</l>
+<l n="*D 817.08">dâ stuon<corr type="Emendation">t</corr> ein grâwer priester alt,</l>
+<l n="*D 817.09">der ûz heidenschaft manec kindelîn</l>
+<l n="*D 817.10">ouch gestôzen hete drîn.</l>
+<l n="*D 817.11"><seg type="Initiale" subtype="Majuskel">D</seg>er sprach: "ir sult gelouben,</l>
+<l n="*D 817.12">iwer<reg type="Synkope">e</reg>r sêle den tiuvel rouben,</l>
+<l n="*D 817.13">an den h&#x0153;hsten got al eine,</l>
+<l n="*D 817.14">des drîvalt ist gemeine</l>
+<l n="*D 817.15">unt al gelîche g<reg type="Synkope">e</reg>urbort.</l>
+<l n="*D 817.16">got ist mensch unt sîn<reg type="Synkope">e</reg>s vater wort.</l>
+<l n="*D 817.17">sît er ist vater und kint,</l>
+<l n="*D 817.18">die al gelîche geêret sint,</l>
+<l n="*D 817.19">ebenhêre sîme geiste.</l>
+<l n="*D 817.20">mit der drîer volleiste</l>
+<l n="*D 817.21">wert iu diz wazzer heidenschaft</l>
+<l n="*D 817.22">mit der trinitâte kraft.</l>
+<l n="*D 817.23"><seg type="Initiale" subtype="Majuskel">I</seg>me wazzer er ze toufe gienc,</l>
+<l n="*D 817.24">von dem <name type="Person">Adam</name> antlütze enpfienc.</l>
+<l n="*D 817.25">von wazzer boume sint gesaft.</l>
+<l n="*D 817.26">wazzer viuhtet al die geschaft,</l>
+<l n="*D 817.27">der man vür crêatûre giht.</l>
+<l n="*D 817.28">mit dem wazzer man gesiht.</l>
+<l n="*D 817.29">wazzer gît maneger sêle schîn,</l>
+<l n="*D 817.30">daz die engele niht liehter dorften sîn."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="817.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="817.04"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="817.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="817.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="817.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="817.02">
+<lem>gar</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="817.03">
+<lem>mit</lem> <rdg>und mit <wit>*m</wit></rdg>
+</app>
+<app loc="817.08">
+<lem>stuont</lem> <rdg>stv&#x0366;n <wit>D</wit></rdg>
+</app>
+<app loc="817.12">
+<rdg>iuwer sêle dem tiuvel rouben (ru̽wen <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="817.26">
+<lem>die geschaft</lem> <rdg>geschaft (<subst><del>*</del><add>Die</add></subst> geschaft <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="817.27">
+<rdg><subst><del>*r*g*ht</del><add>Der man zv&#x0366; Creature giht</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="817.27">
+<lem>vür</lem> <rdg>zuor <wit>*m</wit></rdg>
+</app>
+<app loc="817.30">
+<lem>liehter dorften</lem> <rdg>wîzer mogen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="817.01">
+<rdg>"Swâ (Da <wit>L</wit>) mit ich mac die maget hân", <wit>*G</wit></rdg>
+</app>
+<app loc="817.02">
+<rdg>gar <note>om.</note> <wit>*G</wit> <note>(ohne I)</note></rdg>
+</app>
+<app loc="817.03">
+<rdg>unde mit tr. (triuwen an mir <wit>*T</wit> [<wit>Z</wit>]) e." <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="817.04">
+<rdg></rdg>
+</app>
+<app loc="817.05">
+<rdg>ein lützel geinme Gr., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="817.06">
+<rdg></rdg>
+</app>
+<app loc="817.07">
+<rdg>weder (wart si, <wit>*T</wit>) ze w. (heisz <wit>L</wit> <subst><del>wart</del><add>warm</add></subst> <wit>Z</wit>) n. ze k. <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="817.08">
+<rdg></rdg>
+</app>
+<app loc="817.09">
+<rdg></rdg>
+</app>
+<app loc="817.10">
+<rdg></rdg>
+</app>
+<app loc="817.11">
+<rdg></rdg>
+</app>
+<app loc="817.12">
+<rdg>iwer s. dem (den <wit>Z</wit>) tievel r., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="817.13">
+<rdg></rdg>
+</app>
+<app loc="817.14">
+<rdg></rdg>
+</app>
+<app loc="817.15">
+<rdg></rdg>
+</app>
+<app loc="817.16">
+<rdg></rdg>
+</app>
+<app loc="817.17">
+<rdg></rdg>
+</app>
+<app loc="817.18">
+<rdg>die <note>om.</note> <wit>*T</wit> · g. gehêrt (geerbet <wit>L</wit>) s., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="817.19">
+<rdg></rdg>
+</app>
+<app loc="817.20">
+<rdg></rdg>
+</app>
+<app loc="817.21">
+<rdg></rdg>
+</app>
+<app loc="817.22">
+<rdg></rdg>
+</app>
+<app loc="817.23">
+<rdg>in (in daz <wit>I</wit>) w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="817.24">
+<rdg>nâch dem <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="817.25">
+<rdg></rdg>
+</app>
+<app loc="817.26">
+<rdg>w. viuhte al die kraft, <wit>*T</wit></rdg>
+</app>
+<app loc="817.27">
+<rdg></rdg>
+</app>
+<app loc="817.28">
+<rdg></rdg>
+</app>
+<app loc="817.29">
+<rdg>manegen sêlen <wit>*T</wit></rdg>
+</app>
+<app loc="817.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 460</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 460.01"><name type="Person"><seg type="Initiale">P</seg>arzival</name> zem wirte sîn</l>
+<l n="*D 460.02">sprach: "hêrre, dirre kefsen schîn</l>
+<l n="*D 460.03">erkenne ich, wand ich drûffe swuor</l>
+<l n="*D 460.04">zeinen zîten, dô ich hie vür si vuor.</l>
+<l n="*D 460.05">ein gemâlt sper dâr bî ich vant.</l>
+<l n="*D 460.06">hêrre, daz nam al hie mîn hant.</l>
+<l n="*D 460.07">dâ mit ich prîs bejagte,</l>
+<l n="*D 460.08">als man mir sider sagte.</l>
+<l n="*D 460.09">ich verdâhte mich an mîn selb<reg type="Synkope">e</reg>s wîp,</l>
+<l n="*D 460.10">sô daz von witzen kom mîn lîp.</l>
+<l n="*D 460.11">zwô rîche tjoste dâr mit ich reit.</l>
+<l n="*D 460.12">unwizzende ich die bêde streit.</l>
+<l n="*D 460.13">dannoch het ich êre.</l>
+<l n="*D 460.14">nû hân ich sorgen mêre,</l>
+<l n="*D 460.15">denne ir an manne ie wart geseh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 460.16">durch iwer zuht sult ir des jeh<reg type="Synkope">e</reg>n:</l>
+<l n="*D 460.17">wie lanc ist von der zîte her,</l>
+<l n="*D 460.18">hêrre, daz ich hie nam daz sper?"</l>
+<l n="*D 460.19"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach aber der guote man:</l>
+<l n="*D 460.20">"des vergaz mîn vriunt <name type="Person">Taurian</name></l>
+<l n="*D 460.21">hie. er kom mirs sît in klage.</l>
+<l n="*D 460.22"><seg type="Initiale" subtype="Majuskel">V</seg>ünft<reg type="Synkope">e</reg>halp jâr unt drî tage</l>
+<l n="*D 460.23">ist, daz irz im nâmet hie.</l>
+<l n="*D 460.24">welt irz h&#x0153;ren, ich prüeve iu wie."</l>
+<l n="*D 460.25">ame salter las er im über al</l>
+<l n="*D 460.26">diu jâr und gar der wochen zal,</l>
+<l n="*D 460.27">die dâ zwischen wâren hin.</l>
+<l n="*D 460.28">"alrêrst ich innen worden bin,</l>
+<l n="*D 460.29">wie lange ich var wîslôs</l>
+<l n="*D 460.30">unt daz vreuden helfe mich verkôs",</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 460.22-23)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="460.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="460.19"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="460.22"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="460.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="460.02">
+<lem>dirre</lem> <rdg>disen <wit>*m</wit></rdg>
+</app>
+<app loc="460.04">
+<rdg>zuo einer zîte, dô ich hie vür vuor (fure <wit>mk</wit>). <wit>*m</wit></rdg>
+</app>
+<app loc="460.04">
+<rdg>zeiner zîten ich hie vür vuor. <wit>*T</wit></rdg>
+</app>
+<app loc="460.06">
+<lem>al hie mîn</lem> <rdg>ich an die <wit>*m</wit></rdg>
+</app>
+<app loc="460.15">
+<rdg>dan ir an mir ie wart ersehen. <wit>*m</wit></rdg>
+</app>
+<app loc="460.16">
+<lem>des jehen</lem> <rdg>verjehen (<subst><del>*iehen</del><add>veriehen</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="460.18">
+<lem>hêrre</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="460.18">
+<lem>sper</lem> <rdg>selbe sper <wit>*m</wit></rdg>
+</app>
+<app loc="460.21">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="460.24">
+<lem>prüeve iu wie</lem> <rdg>brüefez iu wie (hie <wit>mk</wit> nie <wit>L</wit>) <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="460.29">
+<lem>var</lem> <rdg>vuor <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="460.30">
+<lem>helfe mich</lem> <rdg>mich helfe <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="460.01">
+<rdg></rdg>
+</app>
+<app loc="460.02">
+<rdg></rdg>
+</app>
+<app loc="460.03">
+<rdg></rdg>
+</app>
+<app loc="460.04">
+<rdg>ze einen z., dâ ich hie <krux></krux> (da vur <wit>I</wit> hie ver <wit>L</wit> fvr sie <wit>Z</wit>) v. <wit>*G</wit> <note>(ohne O)</note> · &#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="460.05">
+<rdg>ein g. sp. ich bî ir (<subst><del>*</del><add>dar bi</add></subst> <wit>V</wit>) v. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="460.06">
+<rdg></rdg>
+</app>
+<app loc="460.07">
+<rdg></rdg>
+</app>
+<app loc="460.08">
+<rdg></rdg>
+</app>
+<app loc="460.09">
+<rdg></rdg>
+</app>
+<app loc="460.10">
+<rdg>w. schiet mîn <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="460.11">
+<rdg></rdg>
+</app>
+<app loc="460.12">
+<rdg></rdg>
+</app>
+<app loc="460.13">
+<rdg></rdg>
+</app>
+<app loc="460.14">
+<rdg></rdg>
+</app>
+<app loc="460.15">
+<rdg></rdg>
+</app>
+<app loc="460.16">
+<rdg></rdg>
+</app>
+<app loc="460.17">
+<rdg></rdg>
+</app>
+<app loc="460.18">
+<rdg>hêrre <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="460.19">
+<rdg></rdg>
+</app>
+<app loc="460.20">
+<rdg></rdg>
+</app>
+<app loc="460.21">
+<rdg></rdg>
+</app>
+<app loc="460.22">
+<rdg><note>Die Verse 460.22-23 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="460.23">
+<rdg><note>Versfolge 460.24-23</note> <wit>V</wit> · Went irs ho&#x0364;ren ich sag v́ch wie <wit>V</wit></rdg>
+</app>
+<app loc="460.24">
+<rdg>w. irz h., ichz iu sage (Jst daz <subst><del>ir*</del><add>irz im</add></subst> nanent hie <wit>V</wit>)." <wit>*T</wit></rdg>
+</app>
+<app loc="460.25">
+<rdg>im gar <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="460.26">
+<rdg>unde ouch (<note>om.</note> <wit>I</wit> <subst><del>ia</del><add>gar</add></subst> <wit>Z</wit>) der <wit>*G</wit> <note>(ohne OL)</note> unde durch der <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="460.27">
+<rdg></rdg>
+</app>
+<app loc="460.28">
+<rdg></rdg>
+</app>
+<app loc="460.29">
+<rdg></rdg>
+</app>
+<app loc="460.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

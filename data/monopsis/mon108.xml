@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 108</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>22.09.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 108.01">versigelt ûfez kriuze obeme grabe.</l>
+<l n="*D 108.02">sus sagent die buochstabe:</l>
+<l n="*D 108.03">"durch disen helm ein tjoste sluoc</l>
+<l n="*D 108.04">den werd<reg type="Synkope">e</reg>n, der ellen truoc.</l>
+<l n="*D 108.05"><name type="Person">Gahmuret</name> was er genant,</l>
+<l n="*D 108.06">gewaldec künec üb<reg type="Synkope">e</reg>r driu lant.</l>
+<l n="*D 108.07">ieglîchez im der krône jach,</l>
+<l n="*D 108.08">dâ giengen rîche vürsten nâch.</l>
+<l n="*D 108.09">er was von <name type="Ort">Anschouwe</name> erborn</l>
+<l n="*D 108.10">und hât vor <name type="Ort">Baldac</name> verlorn</l>
+<l n="*D 108.11">den lîp durch den bâruc.</l>
+<l n="*D 108.12">sîn prîs gap sô hôhen ruc,</l>
+<l n="*D 108.13">niem<reg type="Synkope">e</reg>n reichet an sîn zil,</l>
+<l n="*D 108.14">swâ man noch ritt<reg type="Synkope">e</reg>r prüeven wil.</l>
+<l n="*D 108.15">er ist von muot<reg type="Synkope">e</reg>r ungeborn,</l>
+<l n="*D 108.16">zuo de<corr type="Emendation">m</corr> sîn ellen habe gesworn,</l>
+<l n="*D 108.17">ich meine, der schildes ambet hât.</l>
+<l n="*D 108.18">helfe unt menlîchen rât</l>
+<l n="*D 108.19">gap er mit st&#x00E6;te vriunden sîn.</l>
+<l n="*D 108.20">er leit durch wîp vil scherpfen pîn.</l>
+<l n="*D 108.21">er truoc den touf unt <name type="Person">Kristen</name> ê.</l>
+<l n="*D 108.22">sîn tôt tet <name type="Person">Sarrazînen</name> wê,</l>
+<l n="*D 108.23">sund<reg type="Synkope">e</reg>r liegen, daz ist wâr.</l>
+<l n="*D 108.24">sîner zît versunnenlîchiu jâr</l>
+<l n="*D 108.25">sîn ellen sô nâch prîse warp,</l>
+<l n="*D 108.26">mit ritterlîchem prîse er starp.</l>
+<l n="*D 108.27">er hete der valscheit an gesigt.</l>
+<l n="*D 108.28">nû wünschet im heiles, der hie ligt."</l>
+<l n="*D 108.29">diz was alsô der knappe jach.</l>
+<l n="*D 108.30"><name type="Person">Waleise</name> man vil weinen sach.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="108.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="108.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>G</wit>
+</rdg></app><app loc="108.03"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="108.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="108.29"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="108.01">
+<rdg>versigelt vf crvce vnd vf grap <wit>T</wit></rdg>
+</app>
+<app loc="108.01">
+<lem>versigelt</lem> <rdg>besigelt <wit>*T</wit></rdg>
+</app>
+<app loc="108.01">
+<lem>obeme</lem> <rdg>ûf (<subst><del>vb</del><add>ob</add></subst> <wit>I</wit>) dem <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="108.04">
+<lem>werden</lem> <rdg>werden degen <wit>*m</wit> werden helt <wit>L</wit></rdg>
+</app>
+<app loc="108.06">
+<lem>driu</lem> <rdg>alliu <wit>*m</wit></rdg>
+</app>
+<app loc="108.07">
+<lem>ieglîchez</lem> <rdg>iegelîcher <wit>*m</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="108.08">
+<rdg>dâ rîche vürsten giengen nâch. <wit>*m</wit></rdg>
+</app>
+<app loc="108.09">
+<lem>erborn</lem> <rdg>geborn <wit>*m</wit></rdg>
+</app>
+<app loc="108.13">
+<lem>niemen</lem> <rdg>daz niemen <wit>*m</wit> <wit>G</wit></rdg>
+</app>
+<app loc="108.16">
+<lem>dem</lem> <rdg>den <wit>D</wit></rdg>
+</app>
+<app loc="108.19">
+<lem>st&#x00E6;te</lem> <rdg>strîte <wit>*m</wit></rdg>
+</app>
+<app loc="108.23">
+<lem>daz</lem> <rdg><subst><del>da*</del><add>daz</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="108.26">
+<lem>prîse</lem> <rdg>ende <wit>*m</wit></rdg>
+</app>
+<app loc="108.28">
+<lem>wünschet</lem> <rdg>wünsch <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="108.01">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="108.02">
+<rdg>sus sageten die b.: <wit>*G</wit> <note>(nur GZ)</note> <wit>*T</wit> · svs saget vns der bv&#x0366;chstap <wit>T</wit></rdg>
+</app>
+<app loc="108.03">
+<rdg></rdg>
+</app>
+<app loc="108.04">
+<rdg></rdg>
+</app>
+<app loc="108.05">
+<rdg>er was <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="108.06">
+<rdg>künec (<subst><del>*</del><add>kv́nig</add></subst> <wit>V</wit>) <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="108.07">
+<rdg></rdg>
+</app>
+<app loc="108.08">
+<rdg></rdg>
+</app>
+<app loc="108.09">
+<rdg>geboren <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="108.10">
+<rdg></rdg>
+</app>
+<app loc="108.11">
+<rdg></rdg>
+</app>
+<app loc="108.12">
+<rdg></rdg>
+</app>
+<app loc="108.13">
+<rdg></rdg>
+</app>
+<app loc="108.14">
+<rdg>man nû rîter <wit>*G</wit> <note>(ohne IZ)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="108.15">
+<rdg></rdg>
+</app>
+<app loc="108.16">
+<rdg></rdg>
+</app>
+<app loc="108.17">
+<rdg></rdg>
+</app>
+<app loc="108.18">
+<rdg>h. und manlîch rât <wit>*G</wit> <note>(nur GI)</note> · triuwe und manlîchen rât (helfe vnd manliche tât <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="108.19">
+<rdg>st. den vr. (steten vriunden <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="108.20">
+<rdg></rdg>
+</app>
+<app loc="108.21">
+<rdg></rdg>
+</app>
+<app loc="108.22">
+<rdg></rdg>
+</app>
+<app loc="108.23">
+<rdg>âne l., daz ist (ist ez <wit>I</wit> diz ist <wit>*T</wit> <wit>O</wit> [<wit>Z</wit>]) wâr. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="108.24">
+<rdg></rdg>
+</app>
+<app loc="108.25">
+<rdg></rdg>
+</app>
+<app loc="108.26">
+<rdg></rdg>
+</app>
+<app loc="108.27">
+<rdg>der <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="108.28">
+<rdg></rdg>
+</app>
+<app loc="108.29">
+<rdg></rdg>
+</app>
+<app loc="108.30">
+<rdg>vil W. man dâ (wal&#x00E6;is man da vil <wit>I</wit> Waleise vil man <wit>O</wit>) w. s. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 19</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 19.01">aht ors mit zindâle</l>
+<l n="*D 19.02">verdecket al ze mâle.</l>
+<l n="*D 19.03">daz niunde sînen satel truoc.</l>
+<l n="*D 19.04">ein schilt, des <corr type="Emendation">ich</corr> ê gewuoc,</l>
+<l n="*D 19.05">den vuorte ein knappe vil gemeit</l>
+<l n="*D 19.06">dar bî. nâch den selben reit</l>
+<l n="*D 19.07">pusûn<reg type="Synkope">e</reg>r, der man noch bedarf.</l>
+<l n="*D 19.08">ein tambûr<reg type="Synkope">e</reg>r sluog unt warf</l>
+<l n="*D 19.09">hôhe sîne tambûr.</l>
+<l n="*D 19.10">den hêrren nam vil untûr,</l>
+<l n="*D 19.11">dâne riten floitierre bî</l>
+<l n="*D 19.12">unt guoter videl&#x00E6;re drî.</l>
+<l n="*D 19.13">den was allen niht ze gâch.</l>
+<l n="*D 19.14">selbe reit er hinden nâch</l>
+<l n="*D 19.15">unt sîn marn&#x00E6;re,</l>
+<l n="*D 19.16">der wîse unt der m&#x00E6;re.</l>
+<l n="*D 19.17"><seg type="Initiale">S</seg>waz dâ was volkes inne,</l>
+<l n="*D 19.18">môre unt m&#x0153;rinne</l>
+<l n="*D 19.19">was beidiu wîp unt man.</l>
+<l n="*D 19.20">der hêrre schouwen began</l>
+<l n="*D 19.21">manegen schilt zerbrochen,</l>
+<l n="*D 19.22">mit spern gar durchstochen.</l>
+<l n="*D 19.23">der was dâ vil gehangen vür</l>
+<l n="*D 19.24">an die wende unt an die tür.</l>
+<l n="*D 19.25">si heten jâmer unt guft.</l>
+<l n="*D 19.26">in diu venster gein dem luft</l>
+<l n="*D 19.27">was gebettet manege<corr type="Emendation">m</corr> wunden man,</l>
+<l n="*D 19.28">swenn er den arzât gewan,</l>
+<l n="*D 19.29">daz er doch mohte niht genesen.</l>
+<l n="*D 19.30">der was bî vîenden gewesen.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(19.1-12 und 15-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="19.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr29</wit>
+</rdg></app>
+<app loc="19.17"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="19.22"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="19.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="19.02">
+<lem>al</lem> <rdg>alliu <wit>*m</wit></rdg>
+</app>
+<app loc="19.04">
+<lem>ich</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="19.05">
+<rdg>den vuorte (fru&#x0366;rte <wit>mk</wit>) ein knappe vil gemeit (viel meit <wit>mk</wit>). <wit>*m</wit></rdg>
+</app>
+<app loc="19.06">
+<rdg>dô noch bî dem selben reit <wit>*m</wit></rdg>
+</app>
+<app loc="19.07">
+<lem>noch</lem> <rdg>ouch <wit>*m</wit></rdg>
+</app>
+<app loc="19.09">
+<rdg>vil hôhe sîne tambûre. <wit>*m</wit></rdg>
+</app>
+<app loc="19.11">
+<lem>dâne</lem> <rdg>denne <wit>*m</wit> <subst><del>D*</del><add>Do</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="19.16">
+<lem>m&#x00E6;re</lem> <rdg>hêre <wit>*m</wit></rdg>
+</app>
+<app loc="19.22">
+<lem>durchstochen</lem> <rdg>zerstochen <wit>*m</wit></rdg>
+</app>
+<app loc="19.23">
+<lem>vür</lem> <rdg>vor <wit>*m</wit></rdg>
+</app>
+<app loc="19.24">
+<lem>die tür</lem> <rdg>diu tor <wit>*m</wit></rdg>
+</app>
+<app loc="19.26">
+<lem>gein dem</lem> <rdg>durch den <wit>*m</wit></rdg>
+</app>
+<app loc="19.27">
+<rdg>was gebettet menigem wunden man. <wit>*m</wit></rdg>
+</app>
+<app loc="19.27">
+<lem>manegem</lem> <rdg>manegen <wit>D</wit></rdg>
+</app>
+<app loc="19.28">
+<lem>swenn</lem> <rdg>swinde <wit>*m</wit></rdg>
+</app>
+<app loc="19.29">
+<lem>mohte niht</lem> <rdg>niht moht <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="19.30">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="19.01">
+<rdg>aht ors von z. <wit>*G</wit> <note>(nur G)</note> (<wit>U</wit>)</rdg>
+</app>
+<app loc="19.02">
+<rdg></rdg>
+</app>
+<app loc="19.03">
+<rdg></rdg>
+</app>
+<app loc="19.04">
+<rdg></rdg>
+</app>
+<app loc="19.05">
+<rdg>vuorte (<subst><del>rv&#x0366;rt</del><add>fv&#x0366;rt</add></subst> <wit>O</wit>) ein knappe (<note>om.</note> <wit>O</wit>) vil (<note>om.</note> <wit>L</wit>) gemeit. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="19.06">
+<rdg>dâ hinden nâch (Dar nach bi <wit>Z</wit>) dem s. r. <wit>*G</wit> <note>(nur G)</note> · dâ bî. n. dem s. r. <wit>*T</wit></rdg>
+</app>
+<app loc="19.07">
+<rdg>man ouch b. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="19.08">
+<rdg></rdg>
+</app>
+<app loc="19.09">
+<rdg>vil h. sînen (sine <wit>Z</wit>) t. (<subst><del>*</del><add>Vnde slv&#x0366;g meisterlich sine tambur</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="19.10">
+<rdg></rdg>
+</app>
+<app loc="19.11">
+<rdg></rdg>
+</app>
+<app loc="19.12">
+<rdg>unde walscher v. drî. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="19.13">
+<rdg></rdg>
+</app>
+<app loc="19.14">
+<rdg></rdg>
+</app>
+<app loc="19.15">
+<rdg></rdg>
+</app>
+<app loc="19.16">
+<rdg></rdg>
+</app>
+<app loc="19.17">
+<rdg></rdg>
+</app>
+<app loc="19.18">
+<rdg></rdg>
+</app>
+<app loc="19.19">
+<rdg></rdg>
+</app>
+<app loc="19.20">
+<rdg></rdg>
+</app>
+<app loc="19.21">
+<rdg></rdg>
+</app>
+<app loc="19.22">
+<rdg></rdg>
+</app>
+<app loc="19.23">
+<rdg></rdg>
+</app>
+<app loc="19.24">
+<rdg>an die vensteren unt an (An die wende vor <wit>U</wit> [<wit>V</wit>]) die tür. <wit>*T</wit></rdg>
+</app>
+<app loc="19.25">
+<rdg></rdg>
+</app>
+<app loc="19.26">
+<rdg></rdg>
+</app>
+<app loc="19.27">
+<rdg></rdg>
+</app>
+<app loc="19.28">
+<rdg></rdg>
+</app>
+<app loc="19.29">
+<rdg></rdg>
+</app>
+<app loc="19.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

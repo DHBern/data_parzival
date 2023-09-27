@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 129</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 129.01">des wirt gevelschet manec lîp.</l>
+<l n="*D 129.02">doch solten nû getriwiu wîp</l>
+<l n="*D 129.03">heiles wünschen disem knab<reg type="Synkope">e</reg>n,</l>
+<l n="*D 129.04">der sich hie von ir hât erhab<reg type="Synkope">e</reg>n.</l>
+<l n="*D 129.05"><seg type="Initiale">D</seg>ô reit der knabe wolgetân</l>
+<l n="*D 129.06">g<corr type="Emendation">e</corr>in dem fôrest in <name type="Ort">Brizljan</name>.</l>
+<l n="*D 129.07">er kom an einen bach gerit<reg type="Synkope">e</reg>n,</l>
+<l n="*D 129.08">d<corr type="Emendation">e</corr>n hete ein han wol überschrit<reg type="Synkope">e</reg>n.</l>
+<l n="*D 129.09">swie dâ stuonden bluom<reg type="Synkope">e</reg>n unt gras,</l>
+<l n="*D 129.10">durch daz sîn vluz sô tunkel was,</l>
+<l n="*D 129.11">der knappe den vurt dâr an vermeit.</l>
+<l n="*D 129.12">den tag er gar dâr neb<reg type="Synkope">e</reg>n reit,</l>
+<l n="*D 129.13">als ez sînen witzen tohte.</l>
+<l n="*D 129.14">er beleip die naht, swie er mohte,</l>
+<l n="*D 129.15">unz im der liehte tag erschein.</l>
+<l n="*D 129.16">der knappe sich dan al ein</l>
+<l n="*D 129.17">huop zeime vurte lûter wolgetân.</l>
+<l n="*D 129.18">dâ was and<reg type="Synkope">e</reg>rhalp der plân</l>
+<l n="*D 129.19">mit eime gezelt gehêret,</l>
+<l n="*D 129.20">grôz rîcheit dran gekêret</l>
+<l n="*D 129.21">von drîer varwe samît.</l>
+<l n="*D 129.22">ez was hôch und wît.</l>
+<l n="*D 129.23">ûf den n&#x00E6;ten lâgen borten guot.</l>
+<l n="*D 129.24">dâ hienc ein liderîn huot,</l>
+<l n="*D 129.25">den man drüber ziehen solte,</l>
+<l n="*D 129.26">immer swenne ez regenen wolte.</l>
+<l n="*D 129.27"><seg type="Initiale" subtype="Majuskel">D</seg>er herzoge <name type="Person">Orilus</name> de <name type="Ort">Lalander</name>,</l>
+<l n="*D 129.28">des wîp dort unde vander</l>
+<l n="*D 129.29">ligende minneclîche.</l>
+<l n="*D 129.30">diu herzoginne rîche,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="129.01"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="129.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+<app loc="129.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="129.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="129.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="129.17"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="129.21"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit>
+</rdg></app>
+<app loc="129.27"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app><app loc="129.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="129.05">
+<lem>reit</lem> <rdg>kêrte <wit>*m</wit></rdg>
+</app>
+<app loc="129.06">
+<lem>gein</lem> <rdg>gin <wit>D</wit></rdg>
+</app>
+<app loc="129.08">
+<lem>den</lem> <rdg>din <wit>D</wit></rdg>
+</app>
+<app loc="129.10">
+<lem>durch daz sîn vluz</lem> <rdg>durch daz sîn vliez (<subst><del>vlies</del><add>vliez</add></subst> <wit>T</wit>) <wit>*m</wit> (<wit>T</wit>) durch daz der vliez (flu&#x0364;z <wit>I</wit> [<wit>O</wit> <wit>L</wit>]) <wit>*G</wit> <note>(ohne Z)</note> durch sîn vliez (<subst><del>D*h</del><add>Doch</add></subst> sin flus <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="129.11">
+<lem>den vurt</lem> <rdg>vürte <wit>*m</wit></rdg>
+</app>
+<app loc="129.14">
+<lem>die naht</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="129.16">
+<lem>der knappe</lem> <rdg>dô huop er <wit>*m</wit></rdg>
+</app>
+<app loc="129.17">
+<lem>huop</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="129.18">
+<lem>dâ</lem> <rdg>daz <wit>*m</wit> <wit>T</wit></rdg>
+</app>
+<app loc="129.27">
+<lem>Der herzoge</lem> <rdg>duc <wit>*m</wit></rdg>
+</app>
+<app loc="129.29">
+<rdg>ligende wünneclîche, <wit>*m</wit></rdg>
+</app>
+<app loc="129.30">
+<lem>diu</lem> <rdg>die <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="129.01">
+<rdg></rdg>
+</app>
+<app loc="129.02">
+<rdg></rdg>
+</app>
+<app loc="129.03">
+<rdg></rdg>
+</app>
+<app loc="129.04">
+<rdg>hie hât von ir <wit>*G</wit> <note>(ohne L)</note> von ir hie (<note>om.</note> <wit>T</wit> <wit>Z</wit> nu <wit>I</wit>) hât <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="129.05">
+<rdg>dô kêrt der <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="129.06">
+<rdg>g. dem fôreise ze (gein <wit>O</wit> <note>om.</note> <wit>L</wit>) B. <wit>*G</wit> <note>(ohne IZ)</note></rdg>
+</app>
+<app loc="129.07">
+<rdg></rdg>
+</app>
+<app loc="129.08">
+<rdg>in hete <wit>*G</wit> <note>(ohne IZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="129.09">
+<rdg></rdg>
+</app>
+<app loc="129.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="129.11">
+<rdg></rdg>
+</app>
+<app loc="129.12">
+<rdg>gar <note>om.</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="129.13">
+<rdg>ez <note>om.</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="129.14">
+<rdg></rdg>
+</app>
+<app loc="129.15">
+<rdg>des morgens, dô der tac e., <wit>*G</wit> (<wit>T</wit>) · sît (Vnz <wit>V</wit>) im der mitten tac (morgen <wit>V</wit>) e., <wit>*T</wit></rdg>
+</app>
+<app loc="129.16">
+<rdg>der knapp huop s. (<note>om.</note> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="129.17">
+<rdg>z. v. w. <wit>*G</wit> · zuo einer (einem <wit>T</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>) v. l. und w. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="129.18">
+<rdg></rdg>
+</app>
+<app loc="129.19">
+<rdg></rdg>
+</app>
+<app loc="129.20">
+<rdg></rdg>
+</app>
+<app loc="129.21">
+<rdg>von dr. hande (hande varwe <wit>O</wit>) s. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="129.22">
+<rdg></rdg>
+</app>
+<app loc="129.23">
+<rdg></rdg>
+</app>
+<app loc="129.24">
+<rdg></rdg>
+</app>
+<app loc="129.25">
+<rdg></rdg>
+</app>
+<app loc="129.26">
+<rdg>i. (<note>om.</note> <wit>L</wit>) sôz <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="129.27">
+<rdg>duc (&#x00F7;vrch <wit>O</wit> DOrch <wit>L</wit> Herzoge <wit>V</wit>) Orillus de (der <wit>I</wit> <subst><del>der</del><add>de</add></subst> <wit>O</wit>) L., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="129.28">
+<rdg></rdg>
+</app>
+<app loc="129.29">
+<rdg>l. (ligen <wit>*T</wit> <wit>I</wit> [<wit>O</wit> <wit>L</wit>]) wünniclîche, <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="129.30">
+<rdg>die h. r., <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

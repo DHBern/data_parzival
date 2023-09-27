@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 181</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 181.01">sint, sô si armbrustes span</l>
+<l n="*D 181.02">mit senewen swanke trîbet dan.</l>
+<l n="*D 181.03">dâr umbe gie ein brückenslac,</l>
+<l n="*D 181.04">dâ manec hurt ûffe lac.</l>
+<l n="*D 181.05">ez vlôz aldâ reht inz mer.</l>
+<l n="*D 181.06"><name type="Ort">Pelrapeire</name> stuont wol ze wer.</l>
+<l n="*D 181.07"><seg type="Initiale" subtype="Majuskel">S</seg>eht, wie kint ûf schocken varn,</l>
+<l n="*D 181.08">die man schockes niht wil sparn:</l>
+<l n="*D 181.09">sus vuor diu brücke âne seil.</l>
+<l n="*D 181.10">diu was vor jugende niht sô geil.</l>
+<l n="*D 181.11"><seg type="Initiale" subtype="Majuskel">D</seg>ort anderthalb<reg type="Synkope">e</reg>n stuonden</l>
+<l n="*D 181.12">mit helmen ûf gebunden</l>
+<l n="*D 181.13">sehzec ritt<reg type="Synkope">e</reg>r od<reg type="Synkope">e</reg>r mêr.</l>
+<l n="*D 181.14">die riefen alle: "kêrâ kêr!"</l>
+<l n="*D 181.15">mit ûf geworfen swerten</l>
+<l n="*D 181.16">die kranken strîtes gerten.</l>
+<l n="*D 181.17"><seg type="Initiale">D</seg>urch daz si in dicke sâhen ê,</l>
+<l n="*D 181.18">si wânden, ez w&#x00E6;re <name type="Person">Clamide</name>,</l>
+<l n="*D 181.19">wand<reg type="Synkope">e</reg>r sô küneclîchen reit</l>
+<l n="*D 181.20">gein der brücke ûf dem velde breit.</l>
+<l n="*D 181.21">dô si disen jungen man</l>
+<l n="*D 181.22">sus mit schalle riefen an,</l>
+<l n="*D 181.23">swie vil erz ors mit sporen versneit,</l>
+<l n="*D 181.24">durch vorhte ez doch die brücken meit.</l>
+<l n="*D 181.25">den rehtiu zagheit ie vlôch,</l>
+<l n="*D 181.26">der erbeizte nid<reg type="Synkope">e</reg>r unde zôch</l>
+<l n="*D 181.27">sîn ors ûf der brücken swanc.</l>
+<l n="*D 181.28">eines zagen muot w&#x00E6;re al ze kranc,</l>
+<l n="*D 181.29">solt er gein sölhem strîte varn.</l>
+<l n="*D 181.30">dar zuo muoser ein dinc bewarn,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(181.17 und 19-25)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="181.11"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="181.11"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="181.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="181.17"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit>
+</rdg></app>
+<app loc="181.21"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="181.25"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="181.02">
+<lem>swanke</lem> <rdg>swanze <wit>*m</wit></rdg>
+</app>
+<app loc="181.06">
+<lem>wol</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="181.10">
+<lem>diu</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="181.17">
+<rdg><note>Versfolge 181.18-17</note> <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="181.17">
+<rdg>den si vil dicke sâhen ê, <wit>*m</wit></rdg>
+</app>
+<app loc="181.25">
+<lem>vlôch</lem> <rdg>geflôch <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="181.01">
+<rdg>sô si des a. (des des armbrvstes <wit>O</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="181.02">
+<rdg></rdg>
+</app>
+<app loc="181.03">
+<rdg>dâr über gienc <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="181.04">
+<rdg></rdg>
+</app>
+<app loc="181.05">
+<rdg>daz vl. <wit>*T</wit></rdg>
+</app>
+<app loc="181.06">
+<rdg>P. was wol <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="181.07">
+<rdg>nû seht, <wit>*G</wit></rdg>
+</app>
+<app loc="181.08">
+<rdg>schockens <wit>*T</wit> <note>(ohne V)</note> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="181.09">
+<rdg></rdg>
+</app>
+<app loc="181.10">
+<rdg>sine (dun <wit>I</wit>) was <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="181.11">
+<rdg></rdg>
+</app>
+<app loc="181.12">
+<rdg></rdg>
+</app>
+<app loc="181.13">
+<rdg>wol sehzic <wit>*T</wit></rdg>
+</app>
+<app loc="181.14">
+<rdg>si r. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="181.15">
+<rdg></rdg>
+</app>
+<app loc="181.16">
+<rdg></rdg>
+</app>
+<app loc="181.17">
+<rdg>d. daz si (<subst><del>*</del><add>Den sv́ vil</add></subst> <wit>V</wit>) d. s. ê, <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="181.18">
+<rdg></rdg>
+</app>
+<app loc="181.19">
+<rdg>wan er sô (<note>om.</note> <wit>I</wit> <wit>O</wit>) künsticlîche r. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="181.20">
+<rdg></rdg>
+</app>
+<app loc="181.21">
+<rdg></rdg>
+</app>
+<app loc="181.22">
+<rdg>alsus mit <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="181.23">
+<rdg>vil (sere <wit>O</wit> [<wit>Z</wit>]) <note>om.</note> <wit>*G</wit> <note>(ohne IL)</note></rdg>
+</app>
+<app loc="181.24">
+<rdg></rdg>
+</app>
+<app loc="181.25">
+<rdg>Der rehte (Den rehtev <wit>O</wit>) zageheit <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="181.26">
+<rdg></rdg>
+</app>
+<app loc="181.27">
+<rdg>ors über der <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="181.28">
+<rdg></rdg>
+</app>
+<app loc="181.29">
+<rdg></rdg>
+</app>
+<app loc="181.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

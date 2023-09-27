@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 430</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 430.01"><seg type="Initiale">S</seg>i wâren im durch sippe holt</l>
+<l n="*D 430.02">unt dienden im ûf sînen solt.</l>
+<l n="*D 430.03">werdecheit gab er ze lône</l>
+<l n="*D 430.04">unt pflag ir anders schône.</l>
+<l n="*D 430.05"><name type="Person">Gawan</name> sprach <seg type="singuläre_Lesart">zen</seg> kindelîn:</l>
+<l n="*D 430.06">"wol iu, süezen mâge mîn,</l>
+<l n="*D 430.07">mich dunket des, ir wolt mich klag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 430.08">ob ich <seg type="singuläre_Lesart">w&#x00E6;re alhie</seg> erslag<reg type="Synkope">e</reg>n."</l>
+<l n="*D 430.09"><seg type="Initiale" subtype="Majuskel">M</seg>an moht in klage trûwen wol;</l>
+<l n="*D 430.10">si wâren <seg type="singuläre_Lesart">halt</seg> sus in jâmers dol.</l>
+<l n="*D 430.11">er sprach: "mir was umbe iuch vil leit.</l>
+<l n="*D 430.12">wâ wârt ir, dô man mit mir streit?"</l>
+<l n="*D 430.13">si sagtenz im, ir keiner louc:</l>
+<l n="*D 430.14">"ein mûzersprinzelîn enpflouc</l>
+<l n="*D 430.15">uns, dô ir bî der künegîn</l>
+<l n="*D 430.16">sâzet. dâ liefe wir elliu hin."</l>
+<l n="*D 430.17"><seg type="Initiale" subtype="Majuskel">D</seg>ie dâ stuonden unde sâzen,</l>
+<l n="*D 430.18"><seg type="singuläre_Lesart">die</seg> merkens<seg type="singuläre_Lesart"></seg> niht vergâzen,</l>
+<l n="*D 430.19"><seg type="singuläre_Lesart">die</seg> prüeveten, daz hêr <name type="Person">Gawan</name></l>
+<l n="*D 430.20">w&#x00E6;re ein <seg type="singuläre_Lesart">manlîch, höfsch</seg> man.</l>
+<l n="*D 430.21">urloubes er dô gerte,</l>
+<l n="*D 430.22">des in der künec <seg type="singuläre_Lesart">gewerte</seg></l>
+<l n="*D 430.23">unt daz volc al gemeine,</l>
+<l n="*D 430.24">wan der lantgrâve <seg type="singuläre_Lesart">al</seg> eine.</l>
+<l n="*D 430.25">die zwêne nam diu künegîn</l>
+<l n="*D 430.26">unt <name type="Person">Gawans</name> junchêrrelîn.</l>
+<l n="*D 430.27">si vuorte si, dâ ir pflâgen</l>
+<l n="*D 430.28">juncvrouwen âne bâgen.</l>
+<l n="*D 430.29">dô nam ir wol mit zühten war</l>
+<l n="*D 430.30">manec juncvrouwe wol gevar.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(430.1-27)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="430.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="430.05"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="430.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="430.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="430.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="430.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="430.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="430.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="430.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="430.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="430.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="430.09">
+<lem>trûwen</lem> <rdg>getriuwen <wit>*m</wit></rdg>
+</app>
+<app loc="430.10">
+<rdg>si wâren doch (<note>om.</note> <wit>Z</wit> alt <wit>U</wit> <subst><del>*</del><add>ioch</add></subst> <wit>V</wit>) sus in jâmers dol (<subst><del>vol</del><add>dol</add></subst> <wit>G</wit>). <wit>*G</wit> <note>(ohne OFr21)</note> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="430.10">
+<rdg>si wâren halt sus (su̽s halt in <wit>L</wit>) jâmers vol. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="430.10">
+<lem>halt</lem> <rdg>joch <wit>*m</wit></rdg>
+</app>
+<app loc="430.16">
+<lem>hin</lem> <rdg>hie hin <wit>*m</wit></rdg>
+</app>
+<app loc="430.20">
+<rdg>w&#x00E6;re ein (ein hofflich vnd <wit>mk</wit>) manlich hoves man. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="430.01">
+<rdg>im umbe s. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="430.02">
+<rdg></rdg>
+</app>
+<app loc="430.03">
+<rdg>er in (im <wit>Z</wit>) ze <wit>*T</wit> <note>(ohne V)</note> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="430.04">
+<rdg></rdg>
+</app>
+<app loc="430.05">
+<rdg></rdg>
+</app>
+<app loc="430.06">
+<rdg>"ô (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>) wol iu, lieben (liebe <wit>I</wit> sv&#x0366;ze <wit>O</wit> [<wit>L</wit>] <wit>Fr21</wit>) m. mîn, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="430.07">
+<rdg></rdg>
+</app>
+<app loc="430.08">
+<rdg></rdg>
+</app>
+<app loc="430.09">
+<rdg>kl. getrûwen (<subst><del>trowen</del><add>trvwen</add></subst> <wit>O</wit>) wol; <wit>*G</wit> <note>(nur GILZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="430.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="430.11">
+<rdg></rdg>
+</app>
+<app loc="430.12">
+<rdg></rdg>
+</app>
+<app loc="430.13">
+<rdg></rdg>
+</app>
+<app loc="430.14">
+<rdg></rdg>
+</app>
+<app loc="430.15">
+<rdg>uns, dô ir wâret (wart ir <wit>U</wit>) bî der k." <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="430.16">
+<rdg>"Wol ir süezen mâge mîn!" <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="430.17">
+<rdg></rdg>
+</app>
+<app loc="430.18">
+<rdg></rdg>
+</app>
+<app loc="430.19">
+<rdg></rdg>
+</app>
+<app loc="430.20">
+<rdg>w. ein harte hövescher man. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="430.21">
+<rdg></rdg>
+</app>
+<app loc="430.22">
+<rdg></rdg>
+</app>
+<app loc="430.23">
+<rdg></rdg>
+</app>
+<app loc="430.24">
+<rdg></rdg>
+</app>
+<app loc="430.25">
+<rdg></rdg>
+</app>
+<app loc="430.26">
+<rdg></rdg>
+</app>
+<app loc="430.27">
+<rdg></rdg>
+</app>
+<app loc="430.28">
+<rdg></rdg>
+</app>
+<app loc="430.29">
+<rdg></rdg>
+</app>
+<app loc="430.30">
+<rdg>manic vrouwe (ivncfrowen <wit>Z</wit>) wol g. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

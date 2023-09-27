@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 261</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 261.01"><seg type="Initiale">E</seg>inen helm worhte <name type="Person">Trebuchet</name>.</l>
+<l n="*D 261.02">sîn schilt was ze <name type="Ort">Dolet</name></l>
+<l n="*D 261.03">in <name type="Person">Kaylet<reg type="Synkope">e</reg>s</name> lande</l>
+<l n="*D 261.04">geworht dem wîgande;</l>
+<l n="*D 261.05">rant unt buckel heten kraft.</l>
+<l n="*D 261.06">z<name type="Ort">Alexandrie</name> in heidenschaft</l>
+<l n="*D 261.07">was geworht ein pfellel guot,</l>
+<l n="*D 261.08">des der vürste hôchgemuot</l>
+<l n="*D 261.09">truoc kursît und wâpenroc.</l>
+<l n="*D 261.10">sîn decke was ze <name type="Ort">Tenabroc</name></l>
+<l n="*D 261.11">geworht ûz ringen herte.</l>
+<l n="*D 261.12">sîn stolzheit in lêrte:</l>
+<l n="*D 261.13">der îserînen decke dach</l>
+<l n="*D 261.14">was ein pfellel, des man jach,</l>
+<l n="*D 261.15">daz der tiwer w&#x00E6;re.</l>
+<l n="*D 261.16">rîch unt doch niht sw&#x00E6;re</l>
+<l n="*D 261.17"><seg type="Initiale" subtype="Majuskel">S</seg>îne hosen, halsberc, hersnier,</l>
+<l n="*D 261.18">unt in îserîniu schillier</l>
+<l n="*D 261.19">was gewâpent dirre küene man,</l>
+<l n="*D 261.20">geworht ze <name type="Ort">Bealzenan</name>,</l>
+<l n="*D 261.21">in der houbtstat z<name type="Ort">Anschouwe</name>.</l>
+<l n="*D 261.22">disiu blôziu vrouwe</l>
+<l n="*D 261.23">vuort im ungelîchiu kleit,</l>
+<l n="*D 261.24">diu dâ sô trûric nâch im reit.</l>
+<l n="*D 261.25">dâne hete sis niht bezzer state.</l>
+<l n="*D 261.26">ze <name type="Ort">Sessun</name> was geslagen sîn blate.</l>
+<l n="*D 261.27">sîn ors von <name type="Ort">Brumbane</name></l>
+<l n="*D 261.28">zer wilden muntâne,</l>
+<l n="*D 261.29">mit einer tjost der künec <name type="Person">L&#x00E6;helin</name></l>
+<l n="*D 261.30">bejagetez dâ, der bruod<reg type="Synkope">e</reg>r sîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(261.5-13)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="261.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="261.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="261.13"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+<app loc="261.17"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="261.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="261.20"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="261.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="261.27"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="261.01">
+<rdg>sînen helm, den worhte (worchten <wit>mk</wit>) Trebuchet. <wit>*m</wit></rdg>
+</app>
+<app loc="261.12">
+<lem>in</lem> <rdg>in daz <wit>*m</wit></rdg>
+</app>
+<app loc="261.19">
+<rdg>was gewâpent dirre guote (der chv&#x0366;ne <wit>O</wit> [<wit>L</wit>]) man, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="261.19">
+<rdg>dar în was gewâpent dirre (dirre <subst><del>*</del><add>kv&#x0364;ne</add></subst> <wit>V</wit>) man, <wit>*T</wit></rdg>
+</app>
+<app loc="261.20">
+<lem>ze</lem> <rdg>in <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="261.28">
+<rdg>de Salvasche an muntane, <wit>*m</wit></rdg>
+</app>
+<app loc="261.29">
+<lem>der künec</lem> <rdg>rois <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="261.01">
+<rdg>sînen (Sin <wit>Z</wit>) h. w. T. <wit>*G</wit> (<wit>V</wit>) · Sîn (Sinen <wit>U</wit>) h., den w. Trebuket. <wit>*T</wit></rdg>
+</app>
+<app loc="261.02">
+<rdg>sîn sch., der was (wart <wit>L</wit>) ze D. <wit>*G</wit> <note>(ohne IL)</note></rdg>
+</app>
+<app loc="261.03">
+<rdg></rdg>
+</app>
+<app loc="261.04">
+<rdg></rdg>
+</app>
+<app loc="261.05">
+<rdg></rdg>
+</app>
+<app loc="261.06">
+<rdg></rdg>
+</app>
+<app loc="261.07">
+<rdg></rdg>
+</app>
+<app loc="261.08">
+<rdg></rdg>
+</app>
+<app loc="261.09">
+<rdg></rdg>
+</app>
+<app loc="261.10">
+<rdg></rdg>
+</app>
+<app loc="261.11">
+<rdg></rdg>
+</app>
+<app loc="261.12">
+<rdg>sîn st. ez in (stolzheit in <wit>U</wit> stoltzheit in <subst><del>*</del><add>daz</add></subst> <wit>V</wit>) l.: <wit>*T</wit></rdg>
+</app>
+<app loc="261.13">
+<rdg></rdg>
+</app>
+<app loc="261.14">
+<rdg></rdg>
+</app>
+<app loc="261.15">
+<rdg>tiure w., <wit>*T</wit></rdg>
+</app>
+<app loc="261.16">
+<rdg>n. sw&#x00E6;re. <wit>*T</wit></rdg>
+</app>
+<app loc="261.17">
+<rdg>Hosen (<subst><del>*</del><add>Sin hosen</add></subst> <wit>V</wit>), h., hersenier <wit>*T</wit></rdg>
+</app>
+<app loc="261.18">
+<rdg>unde (<subst><del>*</del><add>Vnde in sin</add></subst> <wit>V</wit>) îserniu (sineu <wit>I</wit>) schellier, <wit>*T</wit> (<wit>G</wit> <wit>I</wit>)</rdg>
+</app>
+<app loc="261.19">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="261.20">
+<rdg></rdg>
+</app>
+<app loc="261.21">
+<rdg>in der stat ze Anschouwe. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="261.22">
+<rdg></rdg>
+</app>
+<app loc="261.23">
+<rdg>truoc im <wit>*G</wit></rdg>
+</app>
+<app loc="261.24">
+<rdg></rdg>
+</app>
+<app loc="261.25">
+<rdg></rdg>
+</app>
+<app loc="261.26">
+<rdg></rdg>
+</app>
+<app loc="261.27">
+<rdg></rdg>
+</app>
+<app loc="261.28">
+<rdg>des Salvatsche ah muntanie, <wit>*G</wit> · Lesalvasche a montanie, <wit>*T</wit></rdg>
+</app>
+<app loc="261.29">
+<rdg>mit e. tjoste roys (<note>om.</note> <wit>G</wit>) Lehelin <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="261.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

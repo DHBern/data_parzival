@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 205</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>03.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 205.01">wir geb<reg type="Synkope">e</reg>n in noch strî<corr type="Emendation">t</corr><reg type="Synkope">e</reg>s vil</l>
+<l n="*D 205.02">unt bringenz ûz ir vreuden zil.</l>
+<l n="*D 205.03"><seg type="Initiale">M</seg>an unt mâge sult ir manen</l>
+<l n="*D 205.04">unt suochet die stat mit zwein vanen.</l>
+<l n="*D 205.05">wir mugen an der lîten</l>
+<l n="*D 205.06">wol ze orse zuo zin rîten.</l>
+<l n="*D 205.07">die porten suochen wir ze vuoz.</l>
+<l n="*D 205.08">deiswâr, wir tuon in schimpfes buoz."</l>
+<l n="*D 205.09">den rât gap <name type="Person">Galogandres</name>,</l>
+<l n="*D 205.10">der herzog von <name type="Ort">Gippones</name>.</l>
+<l n="*D 205.11">der brâht die burg&#x00E6;re in nôt.</l>
+<l n="*D 205.12">er holt ouch an ir letze den tôt.</l>
+<l n="*D 205.13">als tet der grâve <name type="Person">Narant</name>,</l>
+<l n="*D 205.14">ein vürste ûz <name type="Ort">Ukerlant</name>,</l>
+<l n="*D 205.15">unt manec wert armer man,</l>
+<l n="*D 205.16">den man tôten truoc her dan.</l>
+<l n="*D 205.17"><seg type="Initiale" subtype="Majuskel">N</seg>û h&#x0153;ret ein and<reg type="Synkope">e</reg>r m&#x00E6;re,</l>
+<l n="*D 205.18">wie die burg&#x00E6;re</l>
+<l n="*D 205.19">ir letze tâten goume.</l>
+<l n="*D 205.20">si nâmen lange boume</l>
+<l n="*D 205.21">unt stiezen starke stecken drîn</l>
+<l n="*D 205.22">- daz gap den suoch&#x00E6;ren pîn -,</l>
+<l n="*D 205.23">mit seilen si die hiengen.</l>
+<l n="*D 205.24">die ronen in redern giengen.</l>
+<l n="*D 205.25">daz was geprüevet allez, ê</l>
+<l n="*D 205.26">si suochte sturmes <name type="Person">Clamide</name>,</l>
+<l n="*D 205.27">nâch <name type="Person">Kingruns</name> schumpfentiwer.</l>
+<l n="*D 205.28">ouch kom in <name type="Person">heidensch</name> wilde viwer</l>
+<l n="*D 205.29">mit der spîse in daz lant.</l>
+<l n="*D 205.30">daz ûzer antwerc wart verbrant.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(205.1-3, 8-11, 21-23 und 26-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <note>(ohne 205.24)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="205.03"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="205.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="205.09"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="205.13"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="205.17"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="205.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="205.01">
+<lem>strîtes</lem> <rdg>stris <wit>D</wit></rdg>
+</app>
+<app loc="205.06">
+<lem>zin</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="205.08">
+<lem>deiswâr</lem> <rdg>vür wâr <wit>*m</wit></rdg>
+</app>
+<app loc="205.15">
+<rdg>unde manic wert armman (<subst><del>arman</del><add>armman</add></subst> <wit>G</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="205.15">
+<rdg>unde anders manec werder man, <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="205.15">
+<lem>armer man</lem> <rdg>armman <wit>*m</wit></rdg>
+</app>
+<app loc="205.16">
+<rdg>den man truoc tôten her (von <wit>O</wit>) dan. <wit>*G</wit> <note>(ohne LFr21)</note></rdg>
+</app>
+<app loc="205.16">
+<rdg>die (<subst><del>D*</del><add>Den</add></subst> <wit>V</wit>) man tôt truoc dâr von (<subst><del>*</del><add>her dan</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="205.16">
+<lem>her</lem> <rdg>hin <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="205.01">
+<rdg></rdg>
+</app>
+<app loc="205.02">
+<rdg></rdg>
+</app>
+<app loc="205.03">
+<rdg>ir sult m. unde man (man vnd mage <wit>U</wit> [<wit>V</wit>]) manen. <wit>*T</wit></rdg>
+</app>
+<app loc="205.04">
+<rdg>unt <note>om.</note> <wit>*T</wit> · suochen <wit>*G</wit> <note>(nur GI)</note> · zw. v.! <wit>*T</wit></rdg>
+</app>
+<app loc="205.05">
+<rdg>an einer (<note>om.</note> <wit>I</wit>) l. (syten <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="205.06">
+<rdg>wol ze orsen (ze orsen wol <wit>I</wit>) <wit>*G</wit> <note>(nur GI)</note> · zuo in (mit in <wit>Fr21</wit>) r. <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="205.07">
+<rdg>die porte (porten <wit>*T</wit> <wit>I</wit> <wit>O</wit> <wit>Z</wit>) suoche (su&#x0366;chet <wit>U</wit>) man ze v. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="205.08">
+<rdg>des (Zwar <wit>Z</wit>) wir <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="205.09">
+<rdg></rdg>
+</app>
+<app loc="205.10">
+<rdg>der herzoge Tschinpones. <wit>*G</wit> <note>(nur GI)</note> · der herzoge von Schampones. <wit>*T</wit></rdg>
+</app>
+<app loc="205.11">
+<rdg>in nôt <wit>*G</wit></rdg>
+</app>
+<app loc="205.12">
+<rdg>unde h. (lac <wit>I</wit> <note>om.</note> <wit>O</wit> nam <wit>Fr21</wit>) ou. an <wit>*G</wit> der dolte (Er hulte <wit>U</wit> [<wit>V</wit>]) an <wit>*T</wit></rdg>
+</app>
+<app loc="205.13">
+<rdg>sam (&#x00F7;am <wit>O</wit>) tet der (<note>om.</note> <wit>L</wit> o&#x036E;ch der <wit>Fr21</wit>) <wit>*G</wit> als tet ouch der <wit>*T</wit></rdg>
+</app>
+<app loc="205.14">
+<rdg>e. v. von Uckerlant, <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="205.15">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="205.16">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="205.17">
+<rdg></rdg>
+</app>
+<app loc="205.18">
+<rdg></rdg>
+</app>
+<app loc="205.19">
+<rdg></rdg>
+</app>
+<app loc="205.20">
+<rdg></rdg>
+</app>
+<app loc="205.21">
+<rdg>unde spizten starke (<subst><del>*</del><add>stiessent scharpfe</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="205.22">
+<rdg></rdg>
+</app>
+<app loc="205.23">
+<rdg>mit s. si si (<note>om.</note> <wit>O</wit> <wit>Fr21</wit>) h. <wit>*G</wit> · in seil si die h. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="205.24">
+<rdg></rdg>
+</app>
+<app loc="205.25">
+<rdg>a. ê, <wit>*T</wit></rdg>
+</app>
+<app loc="205.26">
+<rdg>si (Sit <wit>O</wit> <wit>Fr21</wit>) ze sturme suohte Cl., <wit>*G</wit> · ê si suochte st. Clamide. <wit>*T</wit></rdg>
+</app>
+<app loc="205.27">
+<rdg>n. Kyngrunes schumpfentiur <wit>*T</wit></rdg>
+</app>
+<app loc="205.28">
+<rdg>ou. was in <wit>*G</wit> kom (<subst><del>*</del><add>O&#x036E;ch kam</add></subst> <wit>V</wit>) in <wit>*T</wit></rdg>
+</app>
+<app loc="205.29">
+<rdg>mit der sp. brâht in daz l. <wit>*G</wit> · mit ir (<subst><del>*</del><add>der</add></subst> <wit>V</wit>) sp. <wit>*T</wit></rdg>
+</app>
+<app loc="205.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

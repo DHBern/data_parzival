@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 21</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>22.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 21.01">unt iesch vil grôziu botenbrôt.</l>
+<l n="*D 21.02"><seg type="singuläre_Lesart">er sprach</seg>: "vrouwe, unser nôt</l>
+<l n="*D 21.03">ist mit vreuden zergangen.</l>
+<l n="*D 21.04">den wir hie haben enpfangen,</l>
+<l n="*D 21.05">daz ist ein rîter sô getân,</l>
+<l n="*D 21.06">daz wir ze vlêhen immer hân</l>
+<l n="*D 21.07">unsern goten, die in uns brâhten,</l>
+<l n="*D 21.08">daz si des ie gedâhten."</l>
+<l n="*D 21.09">"<seg type="Initiale" subtype="Majuskel">N</seg>û sage mir ûf die triwe dîn,</l>
+<l n="*D 21.10">wer der ritter muge sîn."</l>
+<l n="*D 21.11">"vrouwe, er ist ein degen fier,</l>
+<l n="*D 21.12">des bâruckes soldier,</l>
+<l n="*D 21.13">ein <name type="Person">Anschevin</name> von hôher art.</l>
+<l n="*D 21.14">âvoy, wie wênic wirt gespart</l>
+<l n="*D 21.15">sîn lîp, swâ man in l&#x00E6;zet an!</l>
+<l n="*D 21.16">wie reht er dar unt dan</l>
+<l n="*D 21.17">entwîchet unt kêret!</l>
+<l n="*D 21.18">die vîende er schaden lêret.</l>
+<l n="*D 21.19"><seg type="Initiale">I</seg>ch sach in strîten schône,</l>
+<l n="*D 21.20">dâ <corr type="Emendation">d</corr>ie <name type="Person">Babylone</name></l>
+<l n="*D 21.21"><name type="Ort">Alexandrie</name> l&#x0153;sen solten</l>
+<l n="*D 21.22">unde dô si dannen wolten</l>
+<l n="*D 21.23">den bâruc trîben mit gewalt.</l>
+<l n="*D 21.24">waz ir dâ nider wart gevalt</l>
+<l n="*D 21.25">an der schumpfentiure!</l>
+<l n="*D 21.26">dâ begienc der gehiure</l>
+<l n="*D 21.27">mit sîme lîbe sölhe tât,</l>
+<l n="*D 21.28">si heten vliehens decheinen rât.</l>
+<l n="*D 21.29">dar zuo hôrt ich in nennen.</l>
+<l n="*D 21.30">man solte wol erkennen,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit> <note>(21.1-4 und 30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <wit>Fr55</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="21.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr29</wit>
+</rdg></app>
+<app loc="21.06"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="21.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="21.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="21.19"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="21.25"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="21.29"><rdg>
+<note>Initiale</note> <wit>Fr55</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="21.02">
+<lem>er sprach</lem> <rdg>do sprach er <wit>Fr14</wit></rdg>
+</app>
+<app loc="21.03">
+<lem>vreuden</lem> <rdg>ungenâden <wit>*m</wit></rdg>
+</app>
+<app loc="21.05">
+<lem>sô getân</lem> <rdg>wolgetân <wit>*m</wit></rdg>
+</app>
+<app loc="21.08">
+<lem>des</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="21.11">
+<lem>er</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+<app loc="21.14">
+<lem>âvoy</lem> <rdg>â <wit>*m</wit></rdg>
+</app>
+<app loc="21.20">
+<lem>die</lem> <rdg>bi <wit>D</wit></rdg>
+</app>
+<app loc="21.24">
+<lem>ir</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="21.26">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>L</wit> <wit>Fr55</wit></rdg>
+</app>
+<app loc="21.28">
+<lem>vliehens</lem> <rdg>slîchens <wit>*m</wit></rdg>
+</app>
+<app loc="21.29">
+<lem>in</lem> <rdg>ouch in <wit>*m</wit></rdg>
+</app>
+<app loc="21.30">
+<lem>solte</lem> <rdg>solt in <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="21.01">
+<rdg>er ie. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="21.02">
+<rdg>"vr. nû ist u. nôt <wit>*G</wit> <note>(ohne Z)</note> · er sp.: "nû (vrowe nv <wit>V</wit>) ist u. nôt <wit>*T</wit></rdg>
+</app>
+<app loc="21.03">
+<rdg>mit vr. (gar <wit>*T</wit> <wit>L</wit>) zergangen <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) (<wit>L</wit>)</rdg>
+</app>
+<app loc="21.04">
+<rdg></rdg>
+</app>
+<app loc="21.05">
+<rdg></rdg>
+</app>
+<app loc="21.06">
+<rdg>ze dankene imer <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="21.07">
+<rdg>dies gedâhten, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="21.08">
+<rdg>daz sin uns her brâhten." <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="21.09">
+<rdg></rdg>
+</app>
+<app loc="21.10">
+<rdg></rdg>
+</app>
+<app loc="21.11">
+<rdg>"vr., ez ist <wit>*G</wit> <note>(nur GOL)</note> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="21.12">
+<rdg></rdg>
+</app>
+<app loc="21.13">
+<rdg></rdg>
+</app>
+<app loc="21.14">
+<rdg>wie lützel w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="21.15">
+<rdg></rdg>
+</app>
+<app loc="21.16">
+<rdg></rdg>
+</app>
+<app loc="21.17">
+<rdg></rdg>
+</app>
+<app loc="21.18">
+<rdg></rdg>
+</app>
+<app loc="21.19">
+<rdg></rdg>
+</app>
+<app loc="21.20">
+<rdg>al dâ <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="21.21">
+<rdg></rdg>
+</app>
+<app loc="21.22">
+<rdg></rdg>
+</app>
+<app loc="21.23">
+<rdg></rdg>
+</app>
+<app loc="21.24">
+<rdg></rdg>
+</app>
+<app loc="21.25">
+<rdg></rdg>
+</app>
+<app loc="21.26">
+<rdg></rdg>
+</app>
+<app loc="21.27">
+<rdg></rdg>
+</app>
+<app loc="21.28">
+<rdg></rdg>
+</app>
+<app loc="21.29">
+<rdg></rdg>
+</app>
+<app loc="21.30">
+<rdg>man moht (solte <wit>L</wit> [<wit>Fr29</wit>] mo&#x0364;ht <wit>V</wit>) in wol bekennen (erkennen <wit>*T</wit> [<wit>O</wit>] <wit>L</wit> <wit>Z</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

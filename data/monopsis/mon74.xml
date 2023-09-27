@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 74</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 74.01">der vürste hiez <name type="Person">Lambekin</name>.</l>
+<l n="*D 74.02">waz t&#x00E6;ten die sîn?</l>
+<l n="*D 74.03">die beschutten in mit swerten.</l>
+<l n="*D 74.04">die helde strîtes gerten.</l>
+<l n="*D 74.05"><seg type="Initiale">D</seg>ô stach der künec von <name type="Ort">Arragun</name></l>
+<l n="*D 74.06">den alten <name type="Person">Utepandragun</name></l>
+<l n="*D 74.07">hind<reg type="Synkope">e</reg>r<corr type="Emendation">z</corr> ors ûf die plâne,</l>
+<l n="*D 74.08">den künec von <name type="Ort">Bertane</name>.</l>
+<l n="*D 74.09">ez stuont dâ bluomen vil umb in.</l>
+<l n="*D 74.10">wê, wie gevüege ich doch bin,</l>
+<l n="*D 74.11">daz ich den werden <name type="Person">Berteneis</name></l>
+<l n="*D 74.12">sô schône lege vür <name type="Ort">Kanvoleis</name>,</l>
+<l n="*D 74.13">dâ nie getrat vilânes vuoz</l>
+<l n="*D 74.14">- ob ichz iu rehte sagen muoz -</l>
+<l n="*D 74.15">noch lîhte nimmer dâ geschiht.</l>
+<l n="*D 74.16">ern dorfte sîn besezzen niht</l>
+<l n="*D 74.17">ûf dem orse, aldâ er saz.</l>
+<l n="*D 74.18">niht langer man sîn dô vergaz;</l>
+<l n="*D 74.19">in beschutten, die ob im dâ striten.</l>
+<l n="*D 74.20">dâ wart grôz hurt niht vermiten.</l>
+<l n="*D 74.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô kom der künec von <name type="Ort">Punturteis</name>.</l>
+<l n="*D 74.22">der wart al hie vor <name type="Ort">Kanvoleis</name></l>
+<l n="*D 74.23">gevellet ûf sînes ors<reg type="Synkope">e</reg>s slâ,</l>
+<l n="*D 74.24">daz er d<reg type="Synkope">â</reg>r hinder lag aldâ.</l>
+<l n="*D 74.25">daz tet der stolze <name type="Person">Gahmuret</name>.</l>
+<l n="*D 74.26">wettâ, hêrre, wettâ wet!</l>
+<l n="*D 74.27">mit strîte vunden si geweten.</l>
+<l n="*D 74.28">sîner muomen sun <name type="Person">Kayleten</name>,</l>
+<l n="*D 74.29">den viengen <name type="Person">Punturteise</name>.</l>
+<l n="*D 74.30">dâ wart vil rûch diu reise.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(74.1-7)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit> <note>(74.1-16)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="74.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="74.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>T</wit>
+</rdg></app>
+<app loc="74.21"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app><app loc="74.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="74.02">
+<lem>t&#x00E6;ten</lem> <rdg>dô t&#x00E6;ten <wit>*m</wit></rdg>
+</app>
+<app loc="74.03">
+<lem>die</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="74.07">
+<lem>hinderz</lem> <rdg>hindrs <wit>D</wit></rdg>
+</app>
+<app loc="74.09">
+<rdg>dô stuont dâ (<note>om.</note> <wit>Z</wit> <wit>T</wit>) bluomen vil (<subst><del>bl*</del><add>blv&#x0366;men vil</add></subst> <wit>T</wit>) umbe in. <wit>*G</wit> (<wit>V</wit> <wit>T</wit>) · dô stuonden dâ vil bluomen umb in. <wit>*T</wit></rdg>
+</app>
+<app loc="74.14">
+<lem>ichz</lem> <rdg>ich daz <wit>*m</wit></rdg>
+</app>
+<app loc="74.17">
+<lem>aldâ er saz</lem> <rdg>(al <wit>Z</wit>) dâ er saz (er ê da shaz <wit>I</wit> ê sas <wit>O</wit> [<wit>L</wit> <wit>Z</wit>] do er <subst><del>*</del><add>e sas</add></subst> <wit>V</wit>) <wit>*G</wit> dâ er ûffe saz <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="74.20">
+<lem>hurt</lem> <rdg>hurten <wit>*m</wit></rdg>
+</app>
+<app loc="74.30">
+<lem>rûch</lem> <rdg>rîch <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="74.01">
+<rdg>v., der h. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="74.02">
+<rdg>tâten dô (do taten <wit>I</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit>] <wit>Fr21</wit>) die <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="74.03">
+<rdg>si b. <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="74.04">
+<rdg></rdg>
+</app>
+<app loc="74.05">
+<rdg></rdg>
+</app>
+<app loc="74.06">
+<rdg>den a. Utpandragun, <wit>*T</wit></rdg>
+</app>
+<app loc="74.07">
+<rdg><note>Versfolge 74.8-7</note> <wit>*T</wit> <note>(ohne T)</note> · die (den <wit>U</wit>) plânie. <wit>*T</wit></rdg>
+</app>
+<app loc="74.08">
+<rdg>von Britanie, <wit>*T</wit></rdg>
+</app>
+<app loc="74.09">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="74.10">
+<rdg>wê <note>om.</note> <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="74.11">
+<rdg></rdg>
+</app>
+<app loc="74.12">
+<rdg></rdg>
+</app>
+<app loc="74.13">
+<rdg></rdg>
+</app>
+<app loc="74.14">
+<rdg>- ob ich der wârheit jehen m. - <wit>*T</wit></rdg>
+</app>
+<app loc="74.15">
+<rdg></rdg>
+</app>
+<app loc="74.16">
+<rdg>sîn gesezzen n. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="74.17">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="74.18">
+<rdg></rdg>
+</app>
+<app loc="74.19">
+<rdg>die umbe in dâ riten (die ob im striten <wit>O</wit> die ob in da stritten <wit>L</wit>). <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="74.20">
+<rdg>hurten <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="74.21">
+<rdg></rdg>
+</app>
+<app loc="74.22">
+<rdg>der w. al dâ vor K. <wit>*G</wit> <note>(nur G)</note> (<wit>V</wit>) ·dô w. al dâ vor K. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="74.23">
+<rdg></rdg>
+</app>
+<app loc="74.24">
+<rdg></rdg>
+</app>
+<app loc="74.25">
+<rdg></rdg>
+</app>
+<app loc="74.26">
+<rdg></rdg>
+</app>
+<app loc="74.27">
+<rdg>mit st. wurden si g. (wetten <wit>V</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="74.28">
+<rdg>sun Kaileten <wit>*G</wit></rdg>
+</app>
+<app loc="74.29">
+<rdg>den <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="74.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

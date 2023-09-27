@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 254</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>07.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 254.01">dâr nâch der künec heizet <name type="Person">Lac</name>.</l>
+<l n="*D 254.02">daz swert gestêt ganz einen slac,</l>
+<l n="*D 254.03">am andern ez zervellet gar.</l>
+<l n="*D 254.04">wil dûz denne wid<reg type="Synkope">e</reg>r bringen dar,</l>
+<l n="*D 254.05">ez wirt ganz von des wazzers trân.</l>
+<l n="*D 254.06">dû muost des urspringes hân</l>
+<l n="*D 254.07">underem velse, ê in beschîne der tac.</l>
+<l n="*D 254.08">der selbe heizet <name type="Person">Lac</name>.</l>
+<l n="*D 254.09"><seg type="Initiale" subtype="Majuskel">S</seg>int diu stücke niht verrêrt,</l>
+<l n="*D 254.10">der si rehte zein and<reg type="Synkope">e</reg>r kêrt,</l>
+<l n="*D 254.11">sô si der brunne machet naz,</l>
+<l n="*D 254.12">ganz und sterker baz</l>
+<l n="*D 254.13">wirt im valz und ecke sîn</l>
+<l n="*D 254.14">und vliesent niht diu mâl ir schîn.</l>
+<l n="*D 254.15">daz swert bedarf wol segens wort.</l>
+<l n="*D 254.16">ich vürhte, diu hâstû lâzen dort.</l>
+<l n="*D 254.17"><seg type="Initiale" subtype="Majuskel">H</seg>âts aber dîn muot gelernet,</l>
+<l n="*D 254.18">sô wehset und <corr type="Emendation">k</corr>ernet</l>
+<l n="*D 254.19">imm<reg type="Synkope">e</reg>r s&#x00E6;lden kraft bî dir.</l>
+<l n="*D 254.20">lieber neve, geloube mir,</l>
+<l n="*D 254.21">sô muoz gar dienen dîner hant,</l>
+<l n="*D 254.22">swaz dîn lîp dâ wunders vant.</l>
+<l n="*D 254.23">ouch mahtû tragen schône</l>
+<l n="*D 254.24">immer s&#x00E6;lden krône</l>
+<l n="*D 254.25">hôhe ob den werden.</l>
+<l n="*D 254.26">den wunsch ûf der erden</l>
+<l n="*D 254.27">hâstû volleclîche.</l>
+<l n="*D 254.28">niem<reg type="Synkope">e</reg>n ist sô rîche,</l>
+<l n="*D 254.29">der gein dir koste mege hân,</l>
+<l n="*D 254.30">hâstû vrâge ir reht getân."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(254.11-18)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>Fr26</wit> <note>(254.5-13 und 27-30)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="254.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="254.09"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr21</wit>
+</rdg></app><app loc="254.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="254.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="254.27"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="254.04">
+<lem>wider</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="254.07">
+<lem>beschîne</lem> <rdg>bescheine <wit>*m</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="254.08">
+<lem>selbe</lem> <rdg>selbe brunne <wit>*m</wit></rdg>
+</app>
+<app loc="254.10">
+<lem>rehte</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="254.16">
+<lem>diu hâstû</lem> <rdg>dû hâst diu <wit>*m</wit></rdg>
+</app>
+<app loc="254.17">
+<lem>Hâts</lem> <rdg>hât es <wit>*m</wit></rdg>
+</app>
+<app loc="254.17">
+<lem>muot</lem> <rdg>munt <wit>*m</wit></rdg>
+</app>
+<app loc="254.18">
+<lem>kernet</lem> <rdg>gernet <wit>D</wit></rdg>
+</app>
+<app loc="254.24">
+<lem>s&#x00E6;lden</lem> <rdg>der s&#x00E6;lden (selben <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="254.01">
+<rdg></rdg>
+</app>
+<app loc="254.02">
+<rdg>daz sw. bestêt g. <wit>*G</wit> daz sw. stât (bestu&#x0366;nt <wit>U</wit> gestat <wit>V</wit>) g. <wit>*T</wit> · e. tac (<subst><del>*</del><add>slag</add></subst> <wit>V</wit> <subst><del>tac</del><add>slac</add></subst> <wit>O</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="254.03">
+<rdg></rdg>
+</app>
+<app loc="254.04">
+<rdg>wider <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="254.05">
+<rdg>von dem w. <wit>*G</wit> <note>(nur GZ)</note> (<wit>Fr26</wit>)</rdg>
+</app>
+<app loc="254.06">
+<rdg></rdg>
+</app>
+<app loc="254.07">
+<rdg>von (<subst><del>*</del><add>Vnder</add></subst> <wit>V</wit>) dem (dirme <wit>Fr26</wit>) v., <wit>*T</wit> · ê ez b. (beschein <wit>O</wit>) <wit>*G</wit> <note>(ohne IZ)</note></rdg>
+</app>
+<app loc="254.08">
+<rdg>der s. brunne h. Lac. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="254.09">
+<rdg></rdg>
+</app>
+<app loc="254.10">
+<rdg></rdg>
+</app>
+<app loc="254.11">
+<rdg></rdg>
+</app>
+<app loc="254.12">
+<rdg>g. unde vester baz <wit>*T</wit></rdg>
+</app>
+<app loc="254.13">
+<rdg>werdent (dint <wit>Fr26</wit>) im <wit>*T</wit></rdg>
+</app>
+<app loc="254.14">
+<rdg>diu mâl niht (auch nih <wit>I</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="254.15">
+<rdg></rdg>
+</app>
+<app loc="254.16">
+<rdg>diu habestû (dv habst <wit>O</wit> <wit>Fr21</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="254.17">
+<rdg>hât si aver (auer si <wit>I</wit> [<wit>U</wit>] sie <wit>L</wit>) dîn munt (<subst><del>m*</del><add>munt</add></subst> <wit>V</wit>) g., <wit>*G</wit> <note>(ohne ZFr21)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="254.18">
+<rdg></rdg>
+</app>
+<app loc="254.19">
+<rdg>kr. an dir <wit>*G</wit></rdg>
+</app>
+<app loc="254.20">
+<rdg></rdg>
+</app>
+<app loc="254.21">
+<rdg></rdg>
+</app>
+<app loc="254.22">
+<rdg></rdg>
+</app>
+<app loc="254.23">
+<rdg>sô m. tr. (jemmer <wit>L</wit>) sch. <wit>*G</wit> dû maht ou. tr. sch. <wit>*T</wit></rdg>
+</app>
+<app loc="254.24">
+<rdg>imer (<del>in zwein</del> imer <wit>G</wit> Tragen <wit>L</wit>) der s. kr. <wit>*G</wit> <note>(ohne IO)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="254.25">
+<rdg></rdg>
+</app>
+<app loc="254.26">
+<rdg></rdg>
+</app>
+<app loc="254.27">
+<rdg>h. gewalt<reg type="Synkope">i</reg>clîche <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="254.28">
+<rdg></rdg>
+</app>
+<app loc="254.29">
+<rdg></rdg>
+</app>
+<app loc="254.30">
+<rdg>hâst dû der vr. <wit>*T</wit> <note>(ohne Fr26)</note> (<wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

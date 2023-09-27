@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 553</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 553.01"><seg type="Initiale">G</seg>rôz müede im zôch diu ougen zuo;</l>
+<l n="*D 553.02">sus slief er unze des morgens vruo.</l>
+<l n="*D 553.03">dô erwachete der wîgant.</l>
+<l n="*D 553.04">einhalp der kemenâten want</l>
+<l n="*D 553.05">vil venster hete, dâ vor <seg type="singuläre_Lesart"></seg>glas.</l>
+<l n="*D 553.06">der venster einez offen <seg type="singuläre_Lesart">was</seg></l>
+<l n="*D 553.07">gegen dem boumgarten.</l>
+<l n="*D 553.08">dar în gie er durch warten,</l>
+<l n="*D 553.09">durch luft und durch <seg type="singuläre_Lesart">der</seg> vogel sanc.</l>
+<l n="*D 553.10">sîn sitzen wart dâ niht ze lanc.</l>
+<l n="*D 553.11"><seg type="Initiale" subtype="Majuskel">E</seg>r kôs eine burc, die er des âbents sach,</l>
+<l n="*D 553.12">dô im diu âventiur geschach,</l>
+<l n="*D 553.13">vil vrouwen ûf dem palas,</l>
+<l n="*D 553.14">manegiu under in vil sch&#x0153;ne was.</l>
+<l n="*D 553.15">ez dûht in ein wunder grôz,</l>
+<l n="*D 553.16">daz die vrouwen niht verdrôz</l>
+<l n="*D 553.17">ir wachens, daz si sliefen niht.</l>
+<l n="*D 553.18">dennoch der tac was niht <seg type="singuläre_Lesart">ze</seg> lieht.</l>
+<l n="*D 553.19">er dâhte: "ich wil in zêren</l>
+<l n="*D 553.20">mich an slâfen kêren."</l>
+<l n="*D 553.21"><seg type="Initiale" subtype="Majuskel">W</seg>ider an sîn bette er gienc.</l>
+<l n="*D 553.22">der meide mantel übervienc</l>
+<l n="*D 553.23">in - daz was sîn decke.</l>
+<l n="*D 553.24">ob man in dâ iht wecke?</l>
+<l n="*D 553.25">nein, daz w&#x00E6;re dem wirte leit.</l>
+<l n="*D 553.26">diu magt durch gesellecheit,</l>
+<l n="*D 553.27">al dâ si vor ir muoter lac,</l>
+<l n="*D 553.28">si brach ir slâf, des si pflac,</l>
+<l n="*D 553.29">unt gienc hin <seg type="singuläre_Lesart">ûf</seg> zir gaste;</l>
+<l n="*D 553.30">der slief dennoch <seg type="singuläre_Lesart">al</seg> vaste.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(mit 553.2¹-2¹²)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <note>(553.28-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit> <note>(mit 553.2¹-2¹²)</note> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="553.01"><rdg>
+<note>Überschrift:</note> Hie hat her gawan Lishois gwellius gevangen Vnd hat in ge geben einem ferien Vnd hat in der ferie die naht behalten vnd tvt im gvtlich vnd wol dar nach so lese man wie ez im fvrbaz ge <wit>Z</wit>
+</rdg></app><app loc="553.01"><rdg><note>Großinitiale</note> <wit>D</wit>
+</rdg></app><app loc="553.01"><rdg><note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="553.02-1"><rdg>
+<note>Illustration mit Überschrift:</note> Aufentu̽rr von schachttel marfeilie <wit>mk</wit>
+</rdg></app><app loc="553.02-1"><rdg><note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="553.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="553.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="553.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="553.02">
+<rdg><note>nach 553.2:</note> Der (Wer <wit>V</wit>) nû welle, der verneme, / ob im sîn muot des (<note>om.</note> <wit>mk</wit>) gesteme. / hie slîchet ein âventiur her / - des bin ich Gawanes wer -, / die brüefet man zuo solicher (sollicher art <wit>mk</wit>) nôt, / der (Die <wit>mk</wit>) niht glîchet wan der tôt. / si pfliget angestlîcher sit, / doch vert dâ prîs und êre mit, / wem aldâ gelinget; / dar nâch (<note>om.</note> <wit>V</wit>) si vröude bringet. / nû mîn (mim <wit>mk</wit>) hêr Gawan gepflac / guoter ruowe unz an den tac. <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="553.09">
+<rdg>durch luft und durch den vogel gesanc. <wit>*m</wit></rdg>
+</app>
+<app loc="553.20">
+<rdg>von hinnen kêren." <wit>*m</wit></rdg>
+</app>
+<app loc="553.28">
+<rdg>&#x2020;brâht&#x2020; (Brach <wit>L</wit>) ir slâf, des si ê (<note>om.</note> <wit>L</wit>) pflac, <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="553.29">
+<rdg>und gienc (lief <wit>V</wit>) hin zuo dem gaste; <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="553.01">
+<rdg></rdg>
+</app>
+<app loc="553.02">
+<rdg>dô sl. <wit>*T</wit></rdg>
+</app>
+<app loc="553.03">
+<rdg>entwachete <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="553.04">
+<rdg></rdg>
+</app>
+<app loc="553.05">
+<rdg>vil v. dâ vor heten (venster heten da vor <wit>I</wit>) gl. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="553.06">
+<rdg></rdg>
+</app>
+<app loc="553.07">
+<rdg></rdg>
+</app>
+<app loc="553.08">
+<rdg></rdg>
+</app>
+<app loc="553.09">
+<rdg></rdg>
+</app>
+<app loc="553.10">
+<rdg>sîn s. w. dô n. l. <wit>*G</wit> <note>(nur GL)</note> · dâ was sîn s. harte unlanc. <wit>*T</wit></rdg>
+</app>
+<app loc="553.11">
+<rdg></rdg>
+</app>
+<app loc="553.12">
+<rdg></rdg>
+</app>
+<app loc="553.13">
+<rdg></rdg>
+</app>
+<app loc="553.14">
+<rdg></rdg>
+</app>
+<app loc="553.15">
+<rdg>daz d. <wit>*T</wit></rdg>
+</app>
+<app loc="553.16">
+<rdg></rdg>
+</app>
+<app loc="553.17">
+<rdg></rdg>
+</app>
+<app loc="553.18">
+<rdg>was n. (niht was <wit>O</wit>) sô l. <wit>*T</wit></rdg>
+</app>
+<app loc="553.19">
+<rdg></rdg>
+</app>
+<app loc="553.20">
+<rdg></rdg>
+</app>
+<app loc="553.21">
+<rdg></rdg>
+</app>
+<app loc="553.22">
+<rdg>der megede m. umbevienc (<subst><del>*</del><add>vmbevieng</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="553.23">
+<rdg></rdg>
+</app>
+<app loc="553.24">
+<rdg></rdg>
+</app>
+<app loc="553.25">
+<rdg></rdg>
+</app>
+<app loc="553.26">
+<rdg></rdg>
+</app>
+<app loc="553.27">
+<rdg></rdg>
+</app>
+<app loc="553.28">
+<rdg>des si dâ (e <wit>V</wit> <wit>Z</wit>) pf., <wit>*T</wit> <note>(ohne O)</note> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="553.29">
+<rdg>hin (<note>om.</note> <wit>Fr23</wit>) zuo ir g.; <wit>*G</wit></rdg>
+</app>
+<app loc="553.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

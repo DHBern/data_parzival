@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 38</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 38.01"><seg type="Initiale"><corr type="Emendation">E</corr></seg>r reit ûf in unt trat in nider.</l>
+<l n="*D 38.02">des erholte <corr type="Emendation">er</corr> sich dicke wider.</l>
+<l n="*D 38.03">er tet werlîchen willen schîn.</l>
+<l n="*D 38.04">doch steckete in dem arme sîn</l>
+<l n="*D 38.05">diu <name type="Person">Gahmuret<reg type="Synkope">e</reg>s</name> lanze.</l>
+<l n="*D 38.06">der iesch fîanze.</l>
+<l n="*D 38.07">sînen meister het er vunden.</l>
+<l n="*D 38.08">"wer hât mich überwunden?",</l>
+<l n="*D 38.09">alsô sprach der küene man.</l>
+<l n="*D 38.10">der sigehafte jach dô sân:</l>
+<l n="*D 38.11">"ich bin <name type="Person">Gahmuret</name> <name type="Person">Anschevin</name>."</l>
+<l n="*D 38.12">er sprach: "mîn sicherheit sî dîn."</l>
+<l n="*D 38.13"><seg type="Initiale" subtype="Majuskel">D</seg>ie enpfieng er unt sanden în.</l>
+<l n="*D 38.14">des muos er vil geprîset sîn</l>
+<l n="*D 38.15">von den vrouwen, die daz sâhen.</l>
+<l n="*D 38.16">dort her begunde gâhen</l>
+<l n="*D 38.17">von <name type="Ort">Normandie</name> <name type="Person">Gaschier</name>,</l>
+<l n="*D 38.18">der ellens rîche degen fier,</l>
+<l n="*D 38.19">der starke tjostiure.</l>
+<l n="*D 38.20">hie h<corr type="Emendation">iel</corr>t ouch der gehiure</l>
+<l n="*D 38.21"><name type="Person">Gahmuret</name> zer anderen tjost bereit.</l>
+<l n="*D 38.22">sîme sper was daz îser breit</l>
+<l n="*D 38.23">unt der schaft veste.</l>
+<l n="*D 38.24">al dâ werten die geste</l>
+<l n="*D 38.25">ein and<reg type="Synkope">e</reg>r. ungelîch ez wac.</l>
+<l n="*D 38.26"><name type="Person">Gaschier</name> dar nider lac</l>
+<l n="*D 38.27">mit orse mitalle</l>
+<l n="*D 38.28">vo<corr type="Emendation">n</corr> der tjost valle</l>
+<l n="*D 38.29">unt wart betwungen sicherheit,</l>
+<l n="*D 38.30">ez w&#x00E6;re im liep od<reg type="Synkope">e</reg>r leit.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(ohne 38.8)</note> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="38.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="38.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="38.13"><rdg>
+<note>Initiale</note> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="38.13"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="38.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="38.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="38.01">
+<lem>Er</lem> <rdg>&#x00F7;R <wit>D</wit></rdg>
+</app>
+<app loc="38.02">
+<lem>erholte er</lem> <rdg>erholte <wit>D</wit> er holt er <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="38.06">
+<lem>iesch</lem> <rdg>iesch die <wit>*m</wit></rdg>
+</app>
+<app loc="38.07">
+<lem>het er</lem> <rdg>hetter <wit>*m</wit></rdg>
+</app>
+<app loc="38.15">
+<lem>den</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="38.18">
+<lem>degen</lem> <rdg>der degen <wit>*m</wit></rdg>
+</app>
+<app loc="38.20">
+<lem>hielt</lem> <rdg>heilet <wit>D</wit></rdg>
+</app>
+<app loc="38.22">
+<lem>was daz</lem> <rdg>daz was daz <wit>*m</wit></rdg>
+</app>
+<app loc="38.28">
+<lem>von</lem> <rdg>vol <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="38.01">
+<rdg></rdg>
+</app>
+<app loc="38.02">
+<rdg>&#x2193;<wit>*G</wit> · dô erholter <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="38.03">
+<rdg></rdg>
+</app>
+<app loc="38.04">
+<rdg>dô <wit>*G</wit> <note>(ohne Z)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="38.05">
+<rdg></rdg>
+</app>
+<app loc="38.06">
+<rdg>er ie. die (Des iesch er <wit>O</wit> [<wit>L</wit>] <wit>Fr21</wit>) f. <wit>*G</wit> · der ie. die (do iesch er <wit>T</wit>) f. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="38.07">
+<rdg>heter (<note>om.</note> <wit>O</wit>) v. <wit>*G</wit></rdg>
+</app>
+<app loc="38.08">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="38.09">
+<rdg>sp. (So sprach <wit>O</wit> <wit>Fr21</wit> svs sprach <wit>T</wit>) der sigelôse man. <wit>*G</wit> <note>(ohne Z)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="38.10">
+<rdg>der s. sp. dô sân: <wit>*G</wit> (<wit>T</wit>) der s. sp. aber sân: <wit>*T</wit></rdg>
+</app>
+<app loc="38.11">
+<rdg></rdg>
+</app>
+<app loc="38.12">
+<rdg></rdg>
+</app>
+<app loc="38.13">
+<rdg>die nam er <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="38.14">
+<rdg>dâ solt er sîn gevangen sîn (<subst><del>d*</del><add>des mv&#x0364;ste er wol geprv&#x0364;fet sin</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="38.15">
+<rdg></rdg>
+</app>
+<app loc="38.16">
+<rdg></rdg>
+</app>
+<app loc="38.17">
+<rdg></rdg>
+</app>
+<app loc="38.18">
+<rdg>ein e. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="38.19">
+<rdg>starken <wit>*T</wit> (<wit>L</wit>) <wit>Z</wit></rdg>
+</app>
+<app loc="38.20">
+<rdg></rdg>
+</app>
+<app loc="38.21">
+<rdg>zer (zv andern <wit>Z</wit>) tj. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="38.22">
+<rdg>îsen <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="38.23">
+<rdg></rdg>
+</app>
+<app loc="38.24">
+<rdg>hie w. (sich <wit>*T</wit>) die g. <wit>*G</wit> <note>(ohne Z)</note> (<wit>T</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="38.25">
+<rdg>ungelîchez doch wac <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="38.26">
+<rdg>nidere gelac <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="38.27">
+<rdg>mit dem (<note>om.</note> <wit>T</wit>) ors betalle <wit>*T</wit></rdg>
+</app>
+<app loc="38.28">
+<rdg></rdg>
+</app>
+<app loc="38.29">
+<rdg>wart er b. s., <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="38.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

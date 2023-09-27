@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 113</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 113.01">die küneginne des geluste,</l>
+<l n="*D 113.02">daz si in vil dicke kuste.</l>
+<l n="*D 113.02-1"></l>
+<l n="*D 113.03">si sprach hin zim in allen vlîz:</l>
+<l n="*D 113.04">"bon fiz, scher fiz, bêâfiz."</l>
+<l n="*D 113.05"><seg type="Initiale">D</seg>iu künegîn nam dô sund<reg type="Synkope">e</reg>r twâl</l>
+<l n="*D 113.06">diu rôten velwelohten mâl;</l>
+<l n="*D 113.07">ich meine ir tütelînes gränselîn,</l>
+<l n="*D 113.08">daz schoup si im in sîn vlänselîn.</l>
+<l n="*D 113.09">selbe was sîn amme,</l>
+<l n="*D 113.10">diu in truoc in ir wamme.</l>
+<l n="*D 113.11">an ir brüste si in zôch,</l>
+<l n="*D 113.12">di<corr type="Emendation">u</corr> wîbes missewende vlôch.</l>
+<l n="*D 113.13">si dûhte, si hete <name type="Person">Gahmureten</name></l>
+<l n="*D 113.14">wid<reg type="Synkope">e</reg>r an ir arm erbeten.</l>
+<l n="*D 113.15"></l>
+<l n="*D 113.16"></l>
+<l n="*D 113.17"><seg type="Initiale" subtype="Majuskel">V</seg>rou <name type="Person">Herzeloyde</name> sprach mit sinne:</l>
+<l n="*D 113.18">"diu h&#x0153;hste küneginne</l>
+<l n="*D 113.19"><name type="Person">Jesus</name> ir brüste bôt,</l>
+<l n="*D 113.20">der sît durch uns vil scharpfen tôt</l>
+<l n="*D 113.21">ame kriuze menschlîche enpfienc</l>
+<l n="*D 113.22">unt sîne triwe an uns begienc.</l>
+<l n="*D 113.23">swes <corr type="Emendation">lîp</corr> <corr type="Emendation">sîn</corr> zürnen ringet,</l>
+<l n="*D 113.24">des sêle unsamfte dinget,</l>
+<l n="*D 113.25">swie kiusche er sî unt w&#x00E6;re.</l>
+<l n="*D 113.26">des weiz ich wâriu m&#x00E6;re."</l>
+<l n="*D 113.27"><seg type="Initiale" subtype="Majuskel">S</seg>ich begôz des landes vrouwe</l>
+<l n="*D 113.28">mit ir herzen jâmers touwe.</l>
+<l n="*D 113.29">ir ougen regenden ûf den knab<reg type="Synkope">e</reg>n.</l>
+<l n="*D 113.30">si kunde wîbes triwe hab<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(ohne 113.15-16)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <note>(ohne 113.7-8)</note> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(ohne 113.3 und 11-12, mit 113.2¹)</note> <wit>V</wit> <note>(ohne 113.3, mit 113.2¹)</note> <wit>T</wit> <note>(ohne 113.2¹)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="113.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="113.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="113.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="113.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="113.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+<app loc="113.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="113.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="113.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="113.27"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="113.03">
+<rdg>diu künigîn (mu&#x0364;ter <wit>I</wit>) sprach in allen (allem <wit>I</wit> <wit>Z</wit> allē <wit>L</wit>) vlîz: (wis <wit>O</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="113.03">
+<rdg>Sin mv&#x0366;ter sprach in allen vliz <wit>T</wit></rdg>
+</app>
+<app loc="113.04">
+<rdg>und sprach: "bonfiz, befiz (<subst><del>*</del><add>Sv́ iach dicke bonfis beafis schierfis</add></subst> <wit>V</wit> Bônfiz Beafiz Befiz <wit>T</wit>)." <wit>*T</wit></rdg>
+</app>
+<app loc="113.05">
+<rdg>dô nam si ouch dicke sunder twâle <wit>*m</wit></rdg>
+</app>
+<app loc="113.06">
+<rdg>iriu rôten (rotiv <wit>O</wit> [<wit>L</wit> <wit>Z</wit>]) velwelohten (valwohten <wit>I</wit> velbelohtiv <wit>O</wit>) mâl (har mal <wit>Z</wit>); <wit>*G</wit></rdg>
+</app>
+<app loc="113.06">
+<rdg>ir rôten valwen (valweten <wit>U</wit> [<wit>T</wit>]) mâl <wit>*T</wit></rdg>
+</app>
+<app loc="113.07">
+<rdg>ich (Jn <wit>mk</wit>) meine ir tüttels gränselîn, <wit>*m</wit></rdg>
+</app>
+<app loc="113.07">
+<rdg>ich meine ir (irs <wit>Z</wit>) tütelînes (<subst><del>ro&#x0364;ten</del><add>roten</add></subst> <wit>I</wit> tvttels <wit>Z</wit>) gränsel (<subst><del>was</del><add>Grans</add></subst> <wit>I</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="113.07">
+<rdg>- ich meine ir tuten (titen <wit>U</wit> titel <wit>V</wit> <wit>T</wit>) gränsel - <wit>*T</wit> <note>(Versteile nachträglich weitgehend radiert T)</note></rdg>
+</app>
+<app loc="113.08">
+<rdg>si (Die <wit>L</wit> Daz <wit>Z</wit>) schoup sim (imz <wit>I</wit>) in sîn vlänsel (sinen vlans <wit>I</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="113.08">
+<rdg>und slouf ez im (<subst><del>*</del><add>Die scho&#x036E;p sv́ im</add></subst> <wit>V</wit> die stiez sim <wit>T</wit>) in sîn (sinen <wit>U</wit>) vlänsel. <wit>*T</wit></rdg>
+</app>
+<app loc="113.09">
+<lem>selbe was</lem> <rdg>si was selber <wit>*m</wit></rdg>
+</app>
+<app loc="113.11">
+<rdg><subst><del>S*</del><add>An ir brúste sú in zoch</add></subst> <wit>V</wit> · an ir brvsten si in zoch <wit>T</wit></rdg>
+</app>
+<app loc="113.12">
+<rdg>Die (div <wit>T</wit>) wibes messewende floch <wit>V</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="113.12">
+<lem>diu</lem> <rdg>die <wit>D</wit> <wit>G</wit></rdg>
+</app>
+<app loc="113.15">
+<rdg>si kêrte sich niht an lôsheit. <wit>*m</wit></rdg>
+</app>
+<app loc="113.16">
+<rdg>ir was diu diemuot bereit. <wit>*m</wit></rdg>
+</app>
+<app loc="113.23">
+<lem>lîp sîn</lem> <rdg>sin lip <wit>D</wit></rdg>
+</app>
+<app loc="113.23">
+<lem>sîn zürnen ringet</lem> <rdg>sînen zorn erringet <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="113.01">
+<rdg>sîne muoter des g., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="113.02">
+<rdg>daz sin ofte kuste <wit>*T</wit></rdg>
+</app>
+<app loc="113.02-1">
+<rdg>- er was rôserôt und snêwîz - <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="113.03">
+<rdg>&#x2193;<wit>*G</wit> · <note>Vers 113.3 fehlt</note> &#x2193;<wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="113.04">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="113.05">
+<rdg></rdg>
+</app>
+<app loc="113.06">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="113.07">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="113.08">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="113.09">
+<rdg>selbe was si sîn a., <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="113.10">
+<rdg></rdg>
+</app>
+<app loc="113.11">
+<rdg><note>Die Verse 113.11-12 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="113.12">
+<rdg></rdg>
+</app>
+<app loc="113.13">
+<rdg>si wânde haben G. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="113.14">
+<rdg></rdg>
+</app>
+<app loc="113.15">
+<rdg>si kêrte sich niht an lôsheit. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="113.16">
+<rdg>diemuot (Die diemut <wit>Z</wit> Der mu&#x0366;nt <wit>U</wit>) was ir (ir vil [wol <wit>T</wit>] <wit>*T</wit> <note>[ohne V]</note>) bereit. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="113.17">
+<rdg>Vrou <note>om.</note> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="113.18">
+<rdg></rdg>
+</app>
+<app loc="113.19">
+<rdg></rdg>
+</app>
+<app loc="113.20">
+<rdg>uns den (<note>om.</note> <wit>T</wit>) sch. tôt <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="113.21">
+<rdg></rdg>
+</app>
+<app loc="113.22">
+<rdg></rdg>
+</app>
+<app loc="113.23">
+<rdg>sînen (in <wit>L</wit>) zorn r. (erringet <wit>G</wit>), <wit>*G</wit> <note>(ohne OZ)</note> sînen zorn erringet, <wit>*T</wit></rdg>
+</app>
+<app loc="113.24">
+<rdg>diu s. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="113.25">
+<rdg></rdg>
+</app>
+<app loc="113.26">
+<rdg></rdg>
+</app>
+<app loc="113.27">
+<rdg></rdg>
+</app>
+<app loc="113.28">
+<rdg>mit ir (irm <wit>U</wit> irs <wit>V</wit>) h. (hertzen iamers <wit>V</wit>) t. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="113.29">
+<rdg>ir ou. truogen regen (<subst><del>regen*</del><add>regentent</add></subst> <wit>V</wit> <subst><del>regentten</del><add>regeneten</add></subst> <wit>T</wit>) ûf den kn. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="113.30">
+<rdg>si k. wol w. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

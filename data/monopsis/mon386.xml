@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 386</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 386.01"><name type="Person"><seg type="Initiale"><corr type="Emendation">L</corr></seg>yppaut</name>, der vürste, des landes wirt,</l>
+<l n="*D 386.02">sîn manlîch ellen niht verbirt;</l>
+<l n="*D 386.03">gein dem streit der künec von <name type="Ort">Gors</name>.</l>
+<l n="*D 386.04">dâ muosen beidiu liute unt ors</l>
+<l n="*D 386.05">von geschütze lîden pîne,</l>
+<l n="*D 386.06">dâ die <name type="Person">Kahetine</name></l>
+<l n="*D 386.07">unt die sarjande von <name type="Ort">Semblidac</name>,</l>
+<l n="*D 386.08">ieslîcher sîner künste pflac.</l>
+<l n="*D 386.09">turkople kunden wenken;</l>
+<l n="*D 386.10">die burg&#x00E6;re muosen denken,</l>
+<l n="*D 386.11">waz vîende von ir letzen schiet.</l>
+<l n="*D 386.12">si heten sarjande ad piet.</l>
+<l n="*D 386.13">ir zingel wâren sô behuot,</l>
+<l n="*D 386.14">als dâ man noch daz beste tuot.</l>
+<l n="*D 386.15">swelch wert man dâ den lîp verlôs,</l>
+<l n="*D 386.16"><name type="Person">Obien</name> zorn unsanfte er kôs,</l>
+<l n="*D 386.17">wande ir tumbiu lôsheit</l>
+<l n="*D 386.18">vil liute brâht in arbeit.</l>
+<l n="*D 386.19">wes engalt der vürste <name type="Person">Lyppaut</name>?</l>
+<l n="*D 386.20">sîn hêrre, der alte künec <name type="Person">Schaut</name>,</l>
+<l n="*D 386.21">hetes in erlâzen gar.</l>
+<l n="*D 386.22">dô begunde müeden ouch di<corr type="Emendation">u</corr> schar.</l>
+<l n="*D 386.23">dennoch streit vaste <name type="Person">Melyacanz</name>.</l>
+<l n="*D 386.24">ob sîn schilt w&#x00E6;re ganz?</l>
+<l n="*D 386.25">des enwas niht hende breit belib<reg type="Synkope">e</reg>n.</l>
+<l n="*D 386.26">dô het in verre hin dan getrib<reg type="Synkope">e</reg>n</l>
+<l n="*D 386.27">der herzoge <name type="Person">Kardefablet</name>.</l>
+<l n="*D 386.28">der turnei al stille stêt</l>
+<l n="*D 386.29">ûf einem blüemînem plân.</l>
+<l n="*D 386.30">dô kom ouch mîn hêr <name type="Person">Gawan</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 386.13-14)</note> <wit>I</wit> <note>(ohne 386.13-14)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 386.13-14)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="386.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="386.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="386.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="386.01">
+<rdg>Der vürste Lippout, des landes wirt, <wit>*m</wit></rdg>
+</app>
+<app loc="386.01">
+<lem>Lyppaut</lem> <rdg>&#x00F7;yppaot <wit>D</wit></rdg>
+</app>
+<app loc="386.05">
+<lem>geschütze</lem> <rdg>geschützen <wit>*m</wit></rdg>
+</app>
+<app loc="386.13">
+<rdg>Jr cingel warn so behv&#x0366;t <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="386.14">
+<rdg>Als da man (Als man da <wit>L</wit>) noch daz beste tv&#x0366;t <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="386.16">
+<lem>unsanfte er</lem> <rdg>er unsanfte <wit>*m</wit></rdg>
+</app>
+<app loc="386.19">
+<rdg>es engalt (ezn clagt <wit>I</wit> Des engalt <wit>O</wit> Wes engalt <wit>Z</wit>) ir vater Libaut. <wit>*G</wit></rdg>
+</app>
+<app loc="386.19">
+<rdg>des (<subst><del>*</del><add>Wez</add></subst> <wit>V</wit>) engalt ouch (<note>om.</note> <wit>V</wit>) ir vater (sin vater <wit>T</wit> <subst><del>*</del><add>der fúrste</add></subst> <wit>V</wit>) Lybaut. <wit>*T</wit></rdg>
+</app>
+<app loc="386.22">
+<lem>begunde</lem> <rdg>begunden <wit>*m</wit></rdg>
+</app>
+<app loc="386.22">
+<lem>diu</lem> <rdg>di <wit>D</wit> die <wit>*m</wit></rdg>
+</app>
+<app loc="386.26">
+<rdg>dô hete in verre vertriben <wit>*m</wit></rdg>
+</app>
+<app loc="386.30">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="386.01">
+<rdg>Libaut (Lybavt der kvnic <wit>Z</wit>), des l. w., <wit>*G</wit> <note>(ohne OL)</note></rdg>
+</app>
+<app loc="386.02">
+<rdg>sîn (Des <wit>O</wit> [<wit>L</wit>] <wit>Z</wit>) manheit e. (ellens <wit>I</wit>) n. v.; <wit>*G</wit></rdg>
+</app>
+<app loc="386.03">
+<rdg>mit dem (<note>om.</note> <wit>O</wit> <wit>L</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="386.04">
+<rdg></rdg>
+</app>
+<app loc="386.05">
+<rdg>von geschôze (geschoszen <wit>L</wit>) l. p., <wit>*G</wit> · von schozze (schossen <wit>V</wit>) l. p., <wit>*T</wit></rdg>
+</app>
+<app loc="386.06">
+<rdg></rdg>
+</app>
+<app loc="386.07">
+<rdg></rdg>
+</app>
+<app loc="386.08">
+<rdg></rdg>
+</app>
+<app loc="386.09">
+<rdg></rdg>
+</app>
+<app loc="386.10">
+<rdg></rdg>
+</app>
+<app loc="386.11">
+<rdg></rdg>
+</app>
+<app loc="386.12">
+<rdg>an p. (anphiet <wit>G</wit>). <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="386.13">
+<rdg><note>Die Verse 386.13-14 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="386.14">
+<rdg></rdg>
+</app>
+<app loc="386.15">
+<rdg></rdg>
+</app>
+<app loc="386.16">
+<rdg></rdg>
+</app>
+<app loc="386.17">
+<rdg></rdg>
+</app>
+<app loc="386.18">
+<rdg></rdg>
+</app>
+<app loc="386.19">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="386.20">
+<rdg>sîn h., der künic Tschaut, <wit>*G</wit> <note>(ohne LZ)</note> · der (<subst><del>*</del><add>Sin herre</add></subst> der <wit>V</wit>) alte k. Tschaut <wit>*T</wit></rdg>
+</app>
+<app loc="386.21">
+<rdg></rdg>
+</app>
+<app loc="386.22">
+<rdg>dô begunden m. al die (alle <wit>I</wit> ovch die <wit>O</wit> [<wit>L</wit> <wit>Z</wit>]) sch. <wit>*G</wit></rdg>
+</app>
+<app loc="386.23">
+<rdg>v. Meliahganz, <wit>*G</wit></rdg>
+</app>
+<app loc="386.24">
+<rdg></rdg>
+</app>
+<app loc="386.25">
+<rdg>sîn (Esn <wit>O</wit> [<wit>L</wit> <wit>Z</wit>]) was n. <wit>*G</wit></rdg>
+</app>
+<app loc="386.26">
+<rdg>verre (<subst><del>*</del><add>verre</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="386.27">
+<rdg></rdg>
+</app>
+<app loc="386.28">
+<rdg></rdg>
+</app>
+<app loc="386.29">
+<rdg></rdg>
+</app>
+<app loc="386.30">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

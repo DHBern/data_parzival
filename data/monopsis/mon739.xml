@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 739</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 739.01">unt gein der tjost geschicket</l>
+<l n="*D 739.02">unt dors mit sporn gezwicket.</l>
+<l n="*D 739.03"><seg type="Initiale">H</seg>ie wart diu tjost alsô geriten,</l>
+<l n="*D 739.04">bêdiu kollier versniten</l>
+<l n="*D 739.05">von starken spern, diu sich niht bugen.</l>
+<l n="*D 739.06">die sprîzen von der tjoste vlugen.</l>
+<l n="*D 739.07">ez het der <name type="Person">heiden</name> gar vür haz,</l>
+<l n="*D 739.08">daz dirre man vor im gesaz,</l>
+<l n="*D 739.09">wan des nieman vor im gepflac,</l>
+<l n="*D 739.10">gein dem er strît<reg type="Synkope">e</reg>s sich bewac.</l>
+<l n="*D 739.11"><seg type="Initiale" subtype="Majuskel">O</seg>b si iht swerte vuorten,</l>
+<l n="*D 739.12">dâ si zein ander ruorten?</l>
+<l n="*D 739.13">diu wâren dâ scharpf unt al bereit.</l>
+<l n="*D 739.14">ir kunst unt ir manheit</l>
+<l n="*D 739.15">wart dâ erzeiget schiere.</l>
+<l n="*D 739.16">ecidemôn, dem tiere,</l>
+<l n="*D 739.17">wart etslîch wunde geslagen,</l>
+<l n="*D 739.18">ez mohte der helm dâr under klagen.</l>
+<l n="*D 739.19">diu ors vor müede wurden heiz,</l>
+<l n="*D 739.20">si versuochten manegen niuwen kreiz.</l>
+<l n="*D 739.21"><seg type="Initiale" subtype="Majuskel">S</seg>i bêde ab orsen sprungen;</l>
+<l n="*D 739.22">alrêst diu swert erklungen.</l>
+<l n="*D 739.23">der <name type="Person">heiden</name> tet dem getouftem wê.</l>
+<l n="*D 739.24">des krîe was <name type="Ort">Thasme</name></l>
+<l n="*D 739.25">unt swenn er schrîte <name type="Ort">Thabronit</name>,</l>
+<l n="*D 739.26">sô trat er vürbaz einen trit.</l>
+<l n="*D 739.27">werlîch was der getoufte</l>
+<l n="*D 739.28">ûf manegem dr&#x00E6;tem loufte,</l>
+<l n="*D 739.29">den si zein ander tâten.</l>
+<l n="*D 739.30">ir strît was sô gerâten,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr69</wit> <note>(739.22-24 und 30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="739.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="739.03"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr24</wit>
+</rdg></app>
+<app loc="739.07"><rdg>
+<note>Initiale</note> <wit>U</wit>
+</rdg></app>
+<app loc="739.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="739.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="739.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="739.30"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>Z</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="739.02">
+<rdg>und daz ors mit zorn gezwicket. <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="739.03">
+<lem>diu</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="739.05">
+<lem>von</lem> <rdg>mit <wit>*m</wit></rdg>
+</app>
+<app loc="739.13">
+<rdg>diu wâren scharpf, vast und breit (so scharpf <subst><del>vn*ereit</del><add>vnde albereit</add></subst> <wit>V</wit>). <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="739.01">
+<rdg></rdg>
+</app>
+<app loc="739.02">
+<rdg></rdg>
+</app>
+<app loc="739.03">
+<rdg></rdg>
+</app>
+<app loc="739.04">
+<rdg></rdg>
+</app>
+<app loc="739.05">
+<rdg>mit st. sp., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="739.06">
+<rdg></rdg>
+</app>
+<app loc="739.07">
+<rdg></rdg>
+</app>
+<app loc="739.08">
+<rdg></rdg>
+</app>
+<app loc="739.09">
+<rdg></rdg>
+</app>
+<app loc="739.10">
+<rdg></rdg>
+</app>
+<app loc="739.11">
+<rdg>ob (oder <wit>U</wit>) si diu swert iht v., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="739.12">
+<rdg>daz si <wit>*G</wit> <note>(nur GLZ)</note></rdg>
+</app>
+<app loc="739.13">
+<rdg>und alle breit (vnd breit <wit>L</wit> vnd albreit <wit>Z</wit>). <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="739.14">
+<rdg></rdg>
+</app>
+<app loc="739.15">
+<rdg></rdg>
+</app>
+<app loc="739.16">
+<rdg></rdg>
+</app>
+<app loc="739.17">
+<rdg>wunde dâ g. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="739.18">
+<rdg></rdg>
+</app>
+<app loc="739.19">
+<rdg>ors von m. <wit>*G</wit> <note>(nur GIZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="739.20">
+<rdg>si liezen (svchten <wit>L</wit> [<wit>Fr24</wit>]) manigen niwen sweiz (leiz <wit>L</wit>). <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="739.21">
+<rdg></rdg>
+</app>
+<app loc="739.22">
+<rdg></rdg>
+</app>
+<app loc="739.23">
+<rdg></rdg>
+</app>
+<app loc="739.24">
+<rdg></rdg>
+</app>
+<app loc="739.25">
+<rdg></rdg>
+</app>
+<app loc="739.26">
+<rdg>er vür sich e. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="739.27">
+<rdg>der (der der <wit>I</wit>) g., <wit>*G</wit></rdg>
+</app>
+<app loc="739.28">
+<rdg>ûf manigen trit er (<note>om.</note> <wit>L</wit>) l. (mangem trit vrlaufte <wit>I</wit>), <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="739.29">
+<rdg></rdg>
+</app>
+<app loc="739.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

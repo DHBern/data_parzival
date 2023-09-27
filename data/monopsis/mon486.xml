@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 486</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 486.01"><seg type="Initiale">D</seg>ie zwêne gesellen niht verdrôz,</l>
+<l n="*D 486.02">si giengen, dâ der brunne vlôz;</l>
+<l n="*D 486.03">si wuoschen würze unt ir krût.</l>
+<l n="*D 486.04">ir munt wart selten lachens lût.</l>
+<l n="*D 486.05">i<reg type="Synkope">e</reg>weder sîne hende</l>
+<l n="*D 486.06">twuoc. an einem gebende</l>
+<l n="*D 486.07">truoc <name type="Person">Parzival</name> îwîn loup</l>
+<l n="*D 486.08">vür<corr type="Emendation">z</corr> ors. ûf ir ramschoup</l>
+<l n="*D 486.09">giengen si wider zuo de<corr type="Emendation">n k</corr>oln.</l>
+<l n="*D 486.10">man dorfte in niht mêr spîse holn;</l>
+<l n="*D 486.11">dâne was gesoten noch gebrâten</l>
+<l n="*D 486.12">unt ir küchen unberâten.</l>
+<l n="*D 486.13"><name type="Person">Parzival</name> mit sinne</l>
+<l n="*D 486.14">durch die getriuwe minne,</l>
+<l n="*D 486.15">die er gein sînem wirte truoc,</l>
+<l n="*D 486.16">in dûhte, er hete baz genuoc,</l>
+<l n="*D 486.17">denne dô sîn pflac <name type="Person">Gurnemanz</name></l>
+<l n="*D 486.18">unt dô sô maneger vrouwen varwe glanz</l>
+<l n="*D 486.19">ze <name type="Ort">Munsalv&#x00E6;sche</name> vür in gienc,</l>
+<l n="*D 486.20">dâ er wirtschaft vome <name type="Sonstiges">Grâle</name> enpfienc.</l>
+<l n="*D 486.21">der wirt mit triwen wîse</l>
+<l n="*D 486.22">sprach: "neve, disiu spîse</l>
+<l n="*D 486.23">sol dir niht versmâhen.</l>
+<l n="*D 486.24">dûne vündest in allen gâhen</l>
+<l n="*D 486.25">deheinen wirt, der dir günde baz</l>
+<l n="*D 486.26">guoter wirtschaft âne haz."</l>
+<l n="*D 486.27"><name type="Person">Parzival</name> sprach: "hêrre,</l>
+<l n="*D 486.28">der gotes gruoz mir verre,</l>
+<l n="*D 486.29">ob mich ie baz gez&#x00E6;me,</l>
+<l n="*D 486.30">swes ich von wirte n&#x00E6;me."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="486.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="486.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="486.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="486.08">
+<lem>vürz</lem> <rdg>fvrs <wit>D</wit></rdg>
+</app>
+<app loc="486.08">
+<lem>ûf</lem> <rdg>vür <wit>*m</wit></rdg>
+</app>
+<app loc="486.09">
+<lem>den koln</lem> <rdg>den (<note>om.</note> <wit>Z</wit>) ir choln <wit>D</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="486.11">
+<rdg>dân was gesoten und (<subst><del>*</del><add>noch</add></subst> <wit>V</wit>) gebrâten. <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="486.12">
+<rdg>unt ir küchen was unberâten (vnbratten <wit>mk</wit>). <wit>*m</wit></rdg>
+</app>
+<app loc="486.13">
+<rdg><note>Versfolge 486.14-13</note> <wit>*m</wit></rdg>
+</app>
+<app loc="486.13">
+<rdg>die Parcifal mit sinne <wit>*m</wit></rdg>
+</app>
+<app loc="486.15">
+<rdg>zuo sînem wirte truoc, <wit>*m</wit></rdg>
+</app>
+<app loc="486.16">
+<lem>in dûhte</lem> <rdg>dûht in <wit>*m</wit></rdg>
+</app>
+<app loc="486.17">
+<lem>denne</lem> <rdg>wan <wit>*m</wit></rdg>
+</app>
+<app loc="486.24">
+<lem>vündest</lem> <rdg>vindest <wit>*m</wit></rdg>
+</app>
+<app loc="486.30">
+<lem>von</lem> <rdg>vom <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="486.01">
+<rdg></rdg>
+</app>
+<app loc="486.02">
+<rdg></rdg>
+</app>
+<app loc="486.03">
+<rdg></rdg>
+</app>
+<app loc="486.04">
+<rdg>sîn (<subst><del>*</del><add>Jr</add></subst> <wit>V</wit>) m. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="486.05">
+<rdg></rdg>
+</app>
+<app loc="486.06">
+<rdg></rdg>
+</app>
+<app loc="486.07">
+<rdg>tr. P. wînloup <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="486.08">
+<rdg></rdg>
+</app>
+<app loc="486.09">
+<rdg></rdg>
+</app>
+<app loc="486.10">
+<rdg></rdg>
+</app>
+<app loc="486.11">
+<rdg></rdg>
+</app>
+<app loc="486.12">
+<rdg></rdg>
+</app>
+<app loc="486.13">
+<rdg>Parcifal sprach mit s. <wit>*T</wit></rdg>
+</app>
+<app loc="486.14">
+<rdg>die <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="486.15">
+<rdg></rdg>
+</app>
+<app loc="486.16">
+<rdg></rdg>
+</app>
+<app loc="486.17">
+<rdg>danne sô sîn <wit>*T</wit> · pf. Gurnomanz, <wit>*G</wit></rdg>
+</app>
+<app loc="486.18">
+<rdg>unde dô (so <wit>V</wit>) manec vrouwe (maniger frowen <wit>Z</wit>) gl. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>) · unt <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="486.19">
+<rdg></rdg>
+</app>
+<app loc="486.20">
+<rdg></rdg>
+</app>
+<app loc="486.21">
+<rdg></rdg>
+</app>
+<app loc="486.22">
+<rdg></rdg>
+</app>
+<app loc="486.23">
+<rdg></rdg>
+</app>
+<app loc="486.24">
+<rdg>vindest <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="486.25">
+<rdg></rdg>
+</app>
+<app loc="486.26">
+<rdg></rdg>
+</app>
+<app loc="486.27">
+<rdg></rdg>
+</app>
+<app loc="486.28">
+<rdg>der <note>om.</note> <wit>*T</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="486.29">
+<rdg></rdg>
+</app>
+<app loc="486.30">
+<rdg>swaz (swa <wit>I</wit>) <wit>*G</wit> <note>(ohne OL)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

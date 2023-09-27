@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 363</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 363.01"><seg type="Initiale">D</seg>az spilwîp zem vürsten sprach</l>
+<l n="*D 363.02">al daz sîn tohter dar verjach.</l>
+<l n="*D 363.03">swer ie urliuges pflac,</l>
+<l n="*D 363.04">dem was vil nôt, ob er bejac</l>
+<l n="*D 363.05">m<corr type="Emendation">ö</corr>hte an rîcher koste hân.</l>
+<l n="*D 363.06"><name type="Person">Lyppauten</name>, den getriwen man,</l>
+<l n="*D 363.07">überlesten soldiere,</l>
+<l n="*D 363.08">daz er gedâhte schiere:</l>
+<l n="*D 363.09">"ich sol daz guot gewinnen</l>
+<l n="*D 363.10">mit zorne od<reg type="Synkope">e</reg>r aber mit minnen."</l>
+<l n="*D 363.11">die nâchreise er niht vermeit.</l>
+<l n="*D 363.12"><name type="Person">Scherules</name> im widerreit.</l>
+<l n="*D 363.13">er vrâgte, war im w&#x00E6;re sô gâch.</l>
+<l n="*D 363.14">"ich rîte dem trüg<reg type="Synkope">e</reg>n&#x00E6;re nâch.</l>
+<l n="*D 363.15">von dem sagt man mir m&#x00E6;re,</l>
+<l n="*D 363.16">ez sî ein valsch&#x00E6;re."</l>
+<l n="*D 363.17"><seg type="Initiale" subtype="Majuskel">U</seg>nschuldec was hêr <name type="Person">Gawan</name>;</l>
+<l n="*D 363.18">ez enhete niht wan diu ors getân</l>
+<l n="*D 363.19">unt and<reg type="Synkope">e</reg>r, daz er vuorte.</l>
+<l n="*D 363.20"><name type="Person">Scherules<reg type="Synkope">e</reg>n</name> lachen ruorte.</l>
+<l n="*D 363.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "hêrre, ir sît betrogen.</l>
+<l n="*D 363.22">swerz iu sagete, er hât gelogen,</l>
+<l n="*D 363.23">ez w&#x00E6;re magt, man od<reg type="Synkope">e</reg>r wîp.</l>
+<l n="*D 363.24">unschuldec ist mîn<reg type="Synkope">e</reg>s gastes lîp.</l>
+<l n="*D 363.25">ir sult in anders prîsen,</l>
+<l n="*D 363.26">er engewan nie münzîsen.</l>
+<l n="*D 363.27">welt ir der rehten m&#x00E6;re losen,</l>
+<l n="*D 363.28">sîn lîp getruoc nie wehselpfosen.</l>
+<l n="*D 363.29">seht sîne geb&#x00E6;re unt h&#x0153;ret sîniu wort.</l>
+<l n="*D 363.30">in mîme hûs liez ich in dort.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr4</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 363.1-2)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="363.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr4</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="363.02"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="363.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit>
+</rdg></app>
+<app loc="363.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="363.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="363.17"><rdg>
+<note>Initiale</note> <wit>Fr4</wit> <wit>I</wit>
+</rdg></app><app loc="363.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="363.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="363.25"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="363.01">
+<rdg>Daz spilwip zv&#x0366;me fv́rsten sprach <wit>V</wit></rdg>
+</app>
+<app loc="363.02">
+<rdg>Alles dez sin tohter do veriach <wit>V</wit></rdg>
+</app>
+<app loc="363.03">
+<rdg>Der ie urliuges gepflac, <wit>*m</wit></rdg>
+</app>
+<app loc="363.04">
+<lem>bejac</lem> <rdg>beiage <wit>Fr4</wit></rdg>
+</app>
+<app loc="363.05">
+<rdg>an richer coste mochte han <wit>Fr4</wit></rdg>
+</app>
+<app loc="363.05">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="363.09">
+<lem>daz</lem> <rdg>diz <wit>*m</wit></rdg>
+</app>
+<app loc="363.10">
+<rdg>mit zorne oder (ab im im mit zorn oder <wit>I</wit> Mit zorn aber <wit>Z</wit> Mit zorne oder <subst><del>*</del><add>aber</add></subst> <wit>V</wit>) mit minnen <wit>Fr4</wit> (<wit>*m</wit> <wit>*G</wit>) <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="363.13">
+<lem>vrâgte</lem> <rdg>vrâgete in <wit>*m</wit></rdg>
+</app>
+<app loc="363.14">
+<lem>dem</lem> <rdg>einem <wit>*m</wit></rdg>
+</app>
+<app loc="363.16">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="363.17">
+<lem>hêr</lem> <rdg>er <wit>Fr4</wit></rdg>
+</app>
+<app loc="363.18">
+<lem>enhete</lem> <rdg>en hetin <wit>Fr4</wit> (<wit>*m</wit>)</rdg>
+</app>
+<app loc="363.19">
+<lem>ander</lem> <rdg>anders <wit>Fr4</wit></rdg>
+</app>
+<app loc="363.21">
+<lem>Dô sprach er</lem> <rdg>er sprach <wit>*m</wit></rdg>
+</app>
+<app loc="363.22">
+<lem>swerz</lem> <rdg>wer daz <wit>*m</wit></rdg>
+</app>
+<app loc="363.22">
+<lem>er</lem> <rdg>der <wit>Fr4</wit></rdg>
+</app>
+<app loc="363.23">
+<lem>w&#x00E6;re</lem> <rdg>sî <wit>*m</wit></rdg>
+</app>
+<app loc="363.29">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="363.29">
+<lem>geb&#x00E6;re</lem> <rdg>geberde <wit>Fr4</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="363.01">
+<rdg><note>Die Verse 363.1-2 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="363.02">
+<rdg>al (als <wit>I</wit> [<wit>Z</wit>]) des sîn <wit>*G</wit></rdg>
+</app>
+<app loc="363.03">
+<rdg>Der (<subst><del>*</del><add>Swer</add></subst> <wit>V</wit>) ie u. gepflac, <wit>*T</wit></rdg>
+</app>
+<app loc="363.04">
+<rdg></rdg>
+</app>
+<app loc="363.05">
+<rdg>an r. k. m. hân. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="363.06">
+<rdg></rdg>
+</app>
+<app loc="363.07">
+<rdg></rdg>
+</app>
+<app loc="363.08">
+<rdg></rdg>
+</app>
+<app loc="363.09">
+<rdg>"ich sol diz g. g. (Wie er dizze gewinne <wit>O</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="363.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="363.11">
+<rdg></rdg>
+</app>
+<app loc="363.12">
+<rdg>im widerreit <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="363.13">
+<rdg>unde (er <wit>I</wit>) vr. in (<note>om.</note> <wit>G</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="363.14">
+<rdg>"ich r. (reit <wit>O</wit>) einem trieg&#x00E6;re (valsch&#x00E6;re <wit>O</wit> [<wit>L</wit>]) n. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="363.15">
+<rdg></rdg>
+</app>
+<app loc="363.16">
+<rdg>er sî ein trieg&#x00E6;re." <wit>*G</wit> <note>(ohne I)</note> · er sî ein v." <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="363.17">
+<rdg> </rdg>
+</app>
+<app loc="363.18">
+<rdg>ez heten niwan <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="363.19">
+<rdg></rdg>
+</app>
+<app loc="363.20">
+<rdg>Tscherules ein l. r. (ru&#x0366;te <wit>T</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="363.21">
+<rdg>er sp.: <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="363.22">
+<rdg>iu saget, der hât (hatz <wit>O</wit>) <wit>*G</wit> <note>(nur GLZ)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="363.23">
+<rdg>ez sî maget, man (man magt <wit>I</wit> <wit>Z</wit> man <wit>L</wit>) o. wîp. <wit>*G</wit> (<wit>V</wit>) · ez sî maget o. wîp. <wit>*T</wit></rdg>
+</app>
+<app loc="363.24">
+<rdg></rdg>
+</app>
+<app loc="363.25">
+<rdg></rdg>
+</app>
+<app loc="363.26">
+<rdg></rdg>
+</app>
+<app loc="363.27">
+<rdg></rdg>
+</app>
+<app loc="363.28">
+<rdg></rdg>
+</app>
+<app loc="363.29">
+<rdg>unt <note>om.</note> <wit>*G</wit> <note>(ohne O)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="363.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

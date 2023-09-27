@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 783</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 783.01"><name type="Person"><seg type="Initiale">P</seg>arzivaln</name> ir m&#x00E6;r<reg type="Synkope">e</reg>s niht verdrôz.</l>
+<l n="*D 783.02">durch liebe ûz sînen ougen vlôz</l>
+<l n="*D 783.03">wazzer, sherzen ursprinc.</l>
+<l n="*D 783.04">dô sprach er: "vrouwe, solhiu dinc,</l>
+<l n="*D 783.05">als ir hie habt genennet,</l>
+<l n="*D 783.06">bin ich vor gote erkennet,</l>
+<l n="*D 783.07">sô daz mîn sündehafter lîp,</l>
+<l n="*D 783.08">unt hân ich kint, dar zuo mîn wîp,</l>
+<l n="*D 783.09">daz diu des pflihte suln hân,</l>
+<l n="*D 783.10">sô hât got wol zuo mir getân.</l>
+<l n="*D 783.11"><seg type="Initiale" subtype="Majuskel">S</seg>war an ir mich ergetzen megt,</l>
+<l n="*D 783.12">dâ mite ir iwer triwe regt.</l>
+<l n="*D 783.13">iedoch het ich niht missetân,</l>
+<l n="*D 783.14">ir het mich zorn<reg type="Synkope">e</reg>s etswenne erlân.</l>
+<l n="*D 783.15">dône was ez êt dennoch niht mîn heil.</l>
+<l n="*D 783.16">nû gebt ir mir sô hôhen teil,</l>
+<l n="*D 783.17">dâ von mîn trûren ende hât.</l>
+<l n="*D 783.18">die wârheit sagt mir iwer wât.</l>
+<l n="*D 783.19"><seg type="Initiale" subtype="Majuskel">D</seg>ô ich ze <name type="Ort">Munsalv&#x00E6;sche</name> was</l>
+<l n="*D 783.20">bî dem trûrigem <name type="Person">Anfortas</name>,</l>
+<l n="*D 783.21">swaz ich dâ schilde hangen vant,</l>
+<l n="*D 783.22">die wâren gemâl als iwer gewant:</l>
+<l n="*D 783.23">vil turteltûben tragt ir hie.</l>
+<l n="*D 783.24">vrouwe, nû sagt, wenne oder wie</l>
+<l n="*D 783.25">ich sule gein mînen vreuden varn,</l>
+<l n="*D 783.26">unt lât mich daz niht lange sparn."</l>
+<l n="*D 783.27"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach si: "lieber hêrre mîn,</l>
+<l n="*D 783.28">ein man sol dîn geselle sîn.</l>
+<l n="*D 783.29">den wel! geleites wart an mich.</l>
+<l n="*D 783.30">durch helfe niht lange sûme dich!"</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr6</wit> <note>(783.19-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="783.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="783.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="783.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="783.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="783.27"><rdg>
+<note>Initiale</note> <wit>U</wit>
+</rdg></app><app loc="783.27"><rdg><note>Majuskel</note> <wit>D</wit> <wit>Fr6</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="783.08">
+<rdg>het kint und dâr zuo wîp, <wit>*m</wit></rdg>
+</app>
+<app loc="783.09">
+<rdg>diu des Grâles pfliht sollent hân, <wit>*m</wit></rdg>
+</app>
+<app loc="783.10">
+<lem>zuo</lem> <rdg>an <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="783.15">
+<lem>ez êt</lem> <rdg>ouch (eht <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="783.18">
+<lem>mir</lem> <rdg>nû <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="783.25">
+<lem>sule</lem> <rdg>sol <wit>*m</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="783.26">
+<lem>lange</lem> <rdg>langer <wit>*m</wit></rdg>
+</app>
+<app loc="783.28">
+<lem>geselle</lem> <rdg>geverte <wit>*m</wit></rdg>
+</app>
+<app loc="783.29">
+<lem>den wel</lem> <rdg>die wîle (<subst><del>*</del><add>welent</add></subst> <wit>V</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="783.01">
+<rdg>m&#x00E6;re <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="783.02">
+<rdg>vor l. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="783.03">
+<rdg>w., herzen (her zu&#x0366; dem <wit>U</wit>) u. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="783.04">
+<rdg></rdg>
+</app>
+<app loc="783.05">
+<rdg> </rdg>
+</app>
+<app loc="783.06">
+<rdg></rdg>
+</app>
+<app loc="783.07">
+<rdg></rdg>
+</app>
+<app loc="783.08">
+<rdg>hân (und hân <wit>*T</wit>) ich k. unde (<note>om.</note> <wit>L</wit> <wit>Z</wit>) dar zuo wîp (mîn wîp <wit>*T</wit> [<wit>Z</wit>]), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="783.09">
+<rdg>sülen diu (die <wit>G</wit> sie <wit>L</wit>) des (<note>om.</note> <wit>I</wit>) mit mir pf. hân, <wit>*G</wit></rdg>
+</app>
+<app loc="783.10">
+<rdg></rdg>
+</app>
+<app loc="783.11">
+<rdg>swâ mit ir <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="783.12">
+<rdg>dâr an ir <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="783.13">
+<rdg></rdg>
+</app>
+<app loc="783.14">
+<rdg></rdg>
+</app>
+<app loc="783.15">
+<rdg>nûne was (was ez <wit>I</wit> [<wit>Z</wit>]) dannoch <wit>*G</wit> dô enwas dannoch <wit>*T</wit></rdg>
+</app>
+<app loc="783.16">
+<rdg>hôhe <wit>*T</wit></rdg>
+</app>
+<app loc="783.17">
+<rdg></rdg>
+</app>
+<app loc="783.18">
+<rdg></rdg>
+</app>
+<app loc="783.19">
+<rdg></rdg>
+</app>
+<app loc="783.20">
+<rdg>tr. künege A., <wit>*T</wit></rdg>
+</app>
+<app loc="783.21">
+<rdg>sw. schilt ich dô dâ (<note>om.</note> <wit>*T</wit>) h. (hangende <wit>Z</wit>) v., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="783.22">
+<rdg></rdg>
+</app>
+<app loc="783.23">
+<rdg></rdg>
+</app>
+<app loc="783.24">
+<rdg>nû saget mir (Sagt <wit>L</wit>), w. ode wie <wit>*G</wit></rdg>
+</app>
+<app loc="783.25">
+<rdg>sol ich g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="783.26">
+<rdg>n. lenger (langer nih <wit>I</wit>) sp." <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="783.27">
+<rdg></rdg>
+</app>
+<app loc="783.28">
+<rdg>dîn geleite sîn. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="783.29">
+<rdg>gote unde g. w. (Der wo&#x0364;lle geleits warten <wit>Z</wit>) <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="783.30">
+<rdg>dûne darft n. langer (mere <wit>G</wit>) sûmen d.!" <wit>*G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

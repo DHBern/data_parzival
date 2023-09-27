@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 767</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 767.01"><name type="Person"><seg type="Initiale">F</seg>eirefiz</name> z<name type="Person">Artuse</name> sprach:</l>
+<l n="*D 767.02">"al mîn ungelücke brach,</l>
+<l n="*D 767.03">dô diu gotinne <name type="Person">Juno</name></l>
+<l n="*D 767.04">mîn segelweter vuogte sô</l>
+<l n="*D 767.05">in disiu westerrîche.</l>
+<l n="*D 767.06">dû gebârest vil gelîche</l>
+<l n="*D 767.07">einem man, des werdecheit</l>
+<l n="*D 767.08">ist mit m&#x00E6;ren harte breit.</l>
+<l n="*D 767.09"><seg type="Initiale" subtype="Majuskel">B</seg>istû <name type="Person">Artus</name> genant,</l>
+<l n="*D 767.10">sô ist dîn name verre erkant."</l>
+<l n="*D 767.11"><name type="Person">Artus</name> sprach: "er êrte sich,</l>
+<l n="*D 767.12">der mich geprîset wider dich</l>
+<l n="*D 767.13">unt ouch gein andern liuten hât.</l>
+<l n="*D 767.14">sîn selbes zuht gab im den rât,</l>
+<l n="*D 767.15">mêre denne ichz gedient hân.</l>
+<l n="*D 767.16">er hâtz durch höfscheit getân.</l>
+<l n="*D 767.17"><seg type="Initiale" subtype="Majuskel">I</seg>ch bin <name type="Person">Artus</name> genennet</l>
+<l n="*D 767.18">unt hete gern erkennet,</l>
+<l n="*D 767.19">wie dû sîst kom<reg type="Synkope">e</reg>n in ditze lant.</l>
+<l n="*D 767.20">hât dich vriwendîn ûz gesant?</l>
+<l n="*D 767.21">diu muoz sîn vil gehiure,</l>
+<l n="*D 767.22">ob dû durch âventiure</l>
+<l n="*D 767.23">alsus verre bist gestrichen.</l>
+<l n="*D 767.24">ist si ir lôn<reg type="Synkope">e</reg>s ungeswichen,</l>
+<l n="*D 767.25">daz h&#x0153;het wîbe dienst noch baz.</l>
+<l n="*D 767.26">ein ieslîch wîp enpfienge haz</l>
+<l n="*D 767.27">von ir dienstbiet&#x00E6;re,</l>
+<l n="*D 767.28">ob dir ungelônet w&#x00E6;re."</l>
+<l n="*D 767.29">"<seg type="Initiale">E</seg>z wirt al anders vernom<reg type="Synkope">e</reg>n",</l>
+<l n="*D 767.30">sprach der <name type="Person">heiden</name>, "nû h&#x0153;re ouch mîn kom<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="767.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="767.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="767.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="767.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="767.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="767.30"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> 
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="767.13">
+<lem>gein andern liuten</lem> <rdg>wider ander liute <wit>*m</wit></rdg>
+</app>
+<app loc="767.15">
+<lem>ichz</lem> <rdg>ich <wit>*m</wit></rdg>
+</app>
+<app loc="767.29">
+<rdg><note>Versfolge 767.30-29</note> <wit>*m</wit></rdg>
+</app>
+<app loc="767.29">
+<rdg>sît dûz noch habest unvernomen. <wit>*m</wit></rdg>
+</app>
+<app loc="767.29">
+<rdg>"ez (So <wit>L</wit>) w&#x00E6;re (wart <wit>I</wit> wirt <wit>Z</wit>) al anders vernomen (daz reht vnvernomen <wit>L</wit>)", <wit>*G</wit></rdg>
+</app>
+<app loc="767.29">
+<rdg>"Ez wirt allez anders vernomen", <wit>*T</wit></rdg>
+</app>
+<app loc="767.30">
+<rdg>Der heiden sprach: "nû h&#x0153;re mîn komen, <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="767.01">
+<rdg></rdg>
+</app>
+<app loc="767.02">
+<rdg></rdg>
+</app>
+<app loc="767.03">
+<rdg></rdg>
+</app>
+<app loc="767.04">
+<rdg></rdg>
+</app>
+<app loc="767.05">
+<rdg></rdg>
+</app>
+<app loc="767.06">
+<rdg></rdg>
+</app>
+<app loc="767.07">
+<rdg></rdg>
+</app>
+<app loc="767.08">
+<rdg></rdg>
+</app>
+<app loc="767.09">
+<rdg></rdg>
+</app>
+<app loc="767.10">
+<rdg></rdg>
+</app>
+<app loc="767.11">
+<rdg></rdg>
+</app>
+<app loc="767.12">
+<rdg>swer m. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="767.13">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="767.14">
+<rdg></rdg>
+</app>
+<app loc="767.15">
+<rdg>ich <wit>*T</wit></rdg>
+</app>
+<app loc="767.16">
+<rdg></rdg>
+</app>
+<app loc="767.17">
+<rdg></rdg>
+</app>
+<app loc="767.18">
+<rdg>unde hiete ouch g. e., <wit>*G</wit> <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="767.19">
+<rdg>dû komen sîst (kvmest <wit>L</wit> komen bist <wit>*T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="767.20">
+<rdg></rdg>
+</app>
+<app loc="767.21">
+<rdg>muoste <wit>*T</wit></rdg>
+</app>
+<app loc="767.22">
+<rdg>oder dû <wit>*T</wit></rdg>
+</app>
+<app loc="767.23">
+<rdg>als (So <wit>L</wit>) v. <wit>*G</wit> alsô v. <wit>*T</wit></rdg>
+</app>
+<app loc="767.24">
+<rdg></rdg>
+</app>
+<app loc="767.25">
+<rdg></rdg>
+</app>
+<app loc="767.26">
+<rdg>ein <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="767.27">
+<rdg>von ir dienstes gebiet&#x00E6;re (bietere <wit>Z</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="767.28">
+<rdg></rdg>
+</app>
+<app loc="767.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="767.30">
+<rdg>h&#x0153;ret <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

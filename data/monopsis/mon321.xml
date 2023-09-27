@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 321</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 321.01"><seg type="Initiale">I</seg>ch sol doch nennen, wer der sî.</l>
+<l n="*D 321.02">ach, ich arman, unt owî,</l>
+<l n="*D 321.03">daz er mîn herze ie sus versneit!</l>
+<l n="*D 321.04">mîn jâm<reg type="Synkope">e</reg>r ist von im ze breit.</l>
+<l n="*D 321.05">daz ist hie hêr <name type="Person">Gawan</name>,</l>
+<l n="*D 321.06">der dicke prîs hât getân</l>
+<l n="*D 321.07">unt hôhe werdecheit bezalt.</l>
+<l n="*D 321.08">unprîs sîn het aldâ gewalt,</l>
+<l n="*D 321.09">dô in sîn gir dar zuo vertruoc:</l>
+<l n="*D 321.10">ime gruoze er mînen hêrren sluoc.</l>
+<l n="*D 321.11">ein kus, den <name type="Person">Judas</name> teilte,</l>
+<l n="*D 321.12">im solhen willen veilte.</l>
+<l n="*D 321.13"><seg type="Initiale" subtype="Majuskel">E</seg>z tuot manec tûsent herzen wê,</l>
+<l n="*D 321.14">daz strenge mortlîche rê</l>
+<l n="*D 321.15">an mîme hêrr<reg type="Synkope">e</reg>n ist getân.</l>
+<l n="*D 321.16">lougent des hêr <name type="Person">Gawan</name>,</l>
+<l n="*D 321.17">des antwurte ûf kampfes slac</l>
+<l n="*D 321.18">von hiute über den vierzegisten tac</l>
+<l n="*D 321.19">vor dem künege von <name type="Ort">Ascalun</name></l>
+<l n="*D 321.20">in der hôhen stat ze <name type="Ort">Schanpfanzun</name>.</l>
+<l n="*D 321.21">ich lade in kampflîche dar,</l>
+<l n="*D 321.22">gein mir ze kom<reg type="Synkope">e</reg>n in kampfes var.</l>
+<l n="*D 321.23">kan sîn lîp des niht verzagen,</l>
+<l n="*D 321.24">ern welle dâ schildes ambet tragen,</l>
+<l n="*D 321.25">sô man ich in dennoch mêre</l>
+<l n="*D 321.26">bî des helmes êre</l>
+<l n="*D 321.27">unt durch ritt<reg type="Synkope">e</reg>r ordenlîchez leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 321.28">dem sint zwô rîche urbor gegeb<reg type="Synkope">e</reg>n:</l>
+<l n="*D 321.29">rehtiu scham unt werdiu triwe</l>
+<l n="*D 321.30">gebent prîs alt unt niwe.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <note>(321.1-14 und 30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="321.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>V</wit>
+</rdg></app>
+<app loc="321.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="321.07"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="321.09"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Fr22</wit>
+</rdg></app>
+<app loc="321.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="321.13"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="321.17"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="321.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="321.23"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="321.27"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="321.01">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="321.03">
+<lem>ie sus</lem> <rdg><seg type="singuläre_Lesart">alsus</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="321.04">
+<rdg>mîn riuwe (tru̽we <wit>L</wit> [<wit>Fr22</wit>] iamer <wit>Z</wit> ru&#x0366;we <wit>U</wit>) ist von im alze breit (azebreit <wit>G</wit> worden breit <wit>I</wit> zu̽ arbeit <wit>L</wit> [<wit>Fr22</wit>]). <wit>*G</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="321.04">
+<rdg>mîn riuwe von im ist (<subst><del>*</del><add>iamer ist von im</add></subst> <wit>V</wit>) alze breit. <wit>*T</wit></rdg>
+</app>
+<app loc="321.04">
+<lem>ze</lem> <rdg>sô <wit>*m</wit></rdg>
+</app>
+<app loc="321.05">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="321.08">
+<lem>aldâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="321.10">
+<lem>mînen</lem> <rdg>mir den <wit>*m</wit></rdg>
+</app>
+<app loc="321.14">
+<rdg>daz strenge mortlîche rê, <wit>*m</wit></rdg>
+</app>
+<app loc="321.15">
+<lem>an</lem> <rdg>daz an (<subst><del>*</del><add>Daz an</add></subst> <wit>V</wit>) <wit>*m</wit> <wit>G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="321.20">
+<lem>hôhen stat</lem> <rdg>houbetstat <wit>*m</wit></rdg>
+</app>
+<app loc="321.22">
+<lem>in kampfes var</lem> <rdg>kampfvar (campfer <wit>mk</wit>) <wit>*m</wit> kampfes (schampfes <wit>O</wit>) var <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="321.01">
+<rdg>wer er sî. <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="321.02">
+<rdg></rdg>
+</app>
+<app loc="321.03">
+<rdg></rdg>
+</app>
+<app loc="321.04">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="321.05">
+<rdg>daz (ez <wit>G</wit>) ist mîn hêr G., <wit>*G</wit> <note>(ohne Z)</note> (<wit>V</wit>) · Daz ist hie mîn hêr G., <wit>*T</wit></rdg>
+</app>
+<app loc="321.06">
+<rdg></rdg>
+</app>
+<app loc="321.07">
+<rdg></rdg>
+</app>
+<app loc="321.08">
+<rdg></rdg>
+</app>
+<app loc="321.09">
+<rdg>zuo getruoc: <wit>*T</wit></rdg>
+</app>
+<app loc="321.10">
+<rdg>in gr. (in <subst><del>min</del><add>grv&#x0366;ze</add></subst> <wit>T</wit>) <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="321.11">
+<rdg></rdg>
+</app>
+<app loc="321.12">
+<rdg>im (In dem <wit>V</wit>) selben (<subst><del>*</del><add>solhen</add></subst> <wit>V</wit> selben den <wit>I</wit>) w. v. <wit>*T</wit> (<wit>I</wit> <wit>L</wit> <wit>Fr22</wit>)</rdg>
+</app>
+<app loc="321.13">
+<rdg></rdg>
+</app>
+<app loc="321.14">
+<rdg></rdg>
+</app>
+<app loc="321.15">
+<rdg></rdg>
+</app>
+<app loc="321.16">
+<rdg></rdg>
+</app>
+<app loc="321.17">
+<rdg>sô a. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="321.18">
+<rdg></rdg>
+</app>
+<app loc="321.19">
+<rdg></rdg>
+</app>
+<app loc="321.20">
+<rdg>in der houbetstat ze Tschanfenzun. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="321.21">
+<rdg></rdg>
+</app>
+<app loc="321.22">
+<rdg>Ze komene gegen mînes k. (<subst><del>kamp*</del><add>kampfes</add></subst> <wit>T</wit>) var. <wit>*T</wit> · &#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="321.23">
+<rdg></rdg>
+</app>
+<app loc="321.24">
+<rdg></rdg>
+</app>
+<app loc="321.25">
+<rdg></rdg>
+</app>
+<app loc="321.26">
+<rdg>bî des schiltes êre <wit>*T</wit></rdg>
+</app>
+<app loc="321.27">
+<rdg>unt d. rîters o. l. <wit>*G</wit> <note>(ohne Z)</note> · unde d. rîterlîches ordens l. <wit>*T</wit></rdg>
+</app>
+<app loc="321.28">
+<rdg></rdg>
+</app>
+<app loc="321.29">
+<rdg>unde rehtiu tr. <wit>*G</wit> <note>(ohne LZ)</note> unde wâriu tr. <wit>*T</wit> (<wit>I</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="321.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

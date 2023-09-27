@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 360</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 360.01"><name type="Person"><seg type="Initiale">P</seg>oydiconjunz<reg type="Synkope">e</reg>s</name> zorn was ganz</l>
+<l n="*D 360.02">ûf sînen neven <name type="Person">Meljanz</name>.</l>
+<l n="*D 360.03">doch brâht der werde, junge man</l>
+<l n="*D 360.04">vil tjoste durch sînen schilt her dan.</l>
+<l n="*D 360.05">daz endorfte sîn niwer prîs niht klag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 360.06"><seg type="Initiale" subtype="Majuskel">N</seg>û h&#x0153;ret von <name type="Person">Obien</name> sag<reg type="Synkope">e</reg>n:</l>
+<l n="*D 360.07">diu bôt ir hazzes genuoc</l>
+<l n="*D 360.08"><name type="Person">Gawane</name>, dern âne schulde truoc.</l>
+<l n="*D 360.09">si wolde im werben schande:</l>
+<l n="*D 360.10">einen garzûn si sande</l>
+<l n="*D 360.11">hin ze <name type="Person">Gawane</name>, dâ der saz.</l>
+<l n="*D 360.12">si sprach: "nû vrâge in vürbaz,</l>
+<l n="*D 360.13">ob diu ors veile sîn</l>
+<l n="*D 360.14">unt ob in sînen soumschrîn</l>
+<l n="*D 360.15">lige ind<reg type="Synkope">e</reg>r werdez krâmg<reg type="Synkope">e</reg>want.</l>
+<l n="*D 360.16">wir vrouwen koufenz al zehant."</l>
+<l n="*D 360.17"><seg type="Initiale" subtype="Majuskel">D</seg>er garzûn kom gegangen.</l>
+<l n="*D 360.18">mit zorn er wart enpfangen.</l>
+<l n="*D 360.19"><name type="Person">Gawans</name> ougen blicke</l>
+<l n="*D 360.20">in lêrten herzen schricke.</l>
+<l n="*D 360.21">der garzûn sô verzagete,</l>
+<l n="*D 360.22">daz ern vrâgete noch ensagete</l>
+<l n="*D 360.23">al daz in sîn vrouwe werb<reg type="Synkope">e</reg>n hiez.</l>
+<l n="*D 360.24"><name type="Person">Gawan</name> die rede ouch niht liez,</l>
+<l n="*D 360.25">er sprach: "vart hin, ir ribalt!</l>
+<l n="*D 360.26">mûlslege al ungezalt</l>
+<l n="*D 360.27">sult ir hie vil enpfâhen,</l>
+<l n="*D 360.28">welt ir mir vürbaz nâhen."</l>
+<l n="*D 360.29">der garzûn dannen lief od<reg type="Synkope">e</reg>r gie.</l>
+<l n="*D 360.30">nû h&#x0153;ret, wie ez <name type="Person">Obie</name> an vie:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="360.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="360.06"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="360.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="360.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="360.13"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit>
+</rdg></app>
+<app loc="360.17"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="360.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="360.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="360.01">
+<rdg>Poidiconiunz was ganz <wit>*m</wit></rdg>
+</app>
+<app loc="360.02">
+<lem>ûf</lem> <rdg>wider (<subst><del>*</del><add>Wider</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="360.05">
+<rdg>daz (des <wit>I</wit>) endarf sîn niwer brîs niht klagen. <wit>*G</wit></rdg>
+</app>
+<app loc="360.05">
+<rdg>daz ez darf niuwer prîs klagen (Daz endorfte <subst><del>si*</del><add>sin nvwer</add></subst> pris niht clagen <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="360.13">
+<lem>ob</lem> <rdg>ob ime (<subst><del>O*</del><add>Ob im</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="360.16">
+<lem>al</lem> <rdg>alle <wit>*m</wit></rdg>
+</app>
+<app loc="360.22">
+<lem>noch</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="360.23">
+<lem>werben</lem> <rdg>sagen <wit>*m</wit></rdg>
+</app>
+<app loc="360.24">
+<lem>ouch</lem> <rdg>gar ouch <wit>*m</wit></rdg>
+</app>
+<app loc="360.27">
+<rdg>sult (Svllen <wit>V</wit>) ir von mir (von mir vil <wit>I</wit> vil von mir <wit>O</wit> <wit>L</wit> <wit>Z</wit>) enpfâhen (<subst><del>*</del><add>hie vil enphahen</add></subst> <wit>V</wit>), <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="360.01">
+<rdg>Poydekuniunzes z. wart g. <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="360.02">
+<rdg></rdg>
+</app>
+<app loc="360.03">
+<rdg>d. (ouch <wit>*T</wit>) br. der j., w. (iunge werder <wit>I</wit> ivnge <wit>O</wit>) man <wit>*G</wit> <note>(ohne LZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="360.04">
+<rdg>manige tjost <wit>*G</wit> (<wit>*T</wit>) · her dan, <wit>*T</wit></rdg>
+</app>
+<app loc="360.05">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="360.06">
+<rdg>h. (horen <wit>L</wit>) ouch von <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="360.07">
+<rdg></rdg>
+</app>
+<app loc="360.08">
+<rdg></rdg>
+</app>
+<app loc="360.09">
+<rdg></rdg>
+</app>
+<app loc="360.10">
+<rdg></rdg>
+</app>
+<app loc="360.11">
+<rdg>dâ er (er da <wit>I</wit>) saz. <wit>*G</wit> <note>(ohne OL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="360.12">
+<rdg>"sage (Sagt <wit>O</wit>) im unde vr. (fragt <wit>O</wit> fragte <wit>L</wit>) in v., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="360.13">
+<rdg></rdg>
+</app>
+<app loc="360.14">
+<rdg>oder obe in <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="360.15">
+<rdg></rdg>
+</app>
+<app loc="360.16">
+<rdg></rdg>
+</app>
+<app loc="360.17">
+<rdg></rdg>
+</app>
+<app loc="360.18">
+<rdg>mit hazze er <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="360.19">
+<rdg></rdg>
+</app>
+<app loc="360.20">
+<rdg>l. in h. schric. <wit>*T</wit></rdg>
+</app>
+<app loc="360.21">
+<rdg></rdg>
+</app>
+<app loc="360.22">
+<rdg>n. ensagte, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="360.23">
+<rdg>al <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="360.24">
+<rdg>G. die r. doch (doch die rede <wit>O</wit> der rede doch <wit>L</wit> <wit>Z</wit>) n. enliez, <wit>*G</wit> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="360.25">
+<rdg></rdg>
+</app>
+<app loc="360.26">
+<rdg></rdg>
+</app>
+<app loc="360.27">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="360.28">
+<rdg></rdg>
+</app>
+<app loc="360.29">
+<rdg>der g. dan l. (lief dannan <wit>V</wit>) unde (dan vil drate <wit>I</wit>) gienc. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="360.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

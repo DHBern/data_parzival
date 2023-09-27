@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 252</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 252.01">unt den wirt vreuden l&#x00E6;re?</l>
+<l n="*D 252.02">lâ h&#x0153;ren liebiu m&#x00E6;re,</l>
+<l n="*D 252.03">ob wendec ist sîn vreise!</l>
+<l n="*D 252.04">wol dich der s&#x00E6;lden reise!</l>
+<l n="*D 252.05">wan swaz die lüfte hânt beslagen,</l>
+<l n="*D 252.06">dâr ob muostû h&#x0153;he tragen.</l>
+<l n="*D 252.07">dir dient zam unt wilt,</l>
+<l n="*D 252.08">ze rîcheit ist dir wunsch gezilt."</l>
+<l n="*D 252.09"><name type="Person">Parzival</name>, der wîgant,</l>
+<l n="*D 252.10">sprach: "wâ von habt ir mich erkant?"</l>
+<l n="*D 252.11"><seg type="Initiale" subtype="Majuskel">S</seg>i sprach: "dâ bin ichz, diu magt,</l>
+<l n="*D 252.12">diu dir ê kumber geklagt</l>
+<l n="*D 252.13">unt diu dir sagete dînen nam<reg type="Synkope">e</reg>n.</l>
+<l n="*D 252.14">dûne darft dich niht der sippe scham<reg type="Synkope">e</reg>n,</l>
+<l n="*D 252.15">daz dîn muoter ist mîn muome.</l>
+<l n="*D 252.16">wîplîcher kiusche ein bluome</l>
+<l n="*D 252.17">ist si, geliutert âne tou.</l>
+<l n="*D 252.18">got lône dir, daz dich dô sô rou</l>
+<l n="*D 252.19">mîn vriwent, der mir zer tjost lac tôt.</l>
+<l n="*D 252.20">ich hân in alhie. nû prüeve nôt,</l>
+<l n="*D 252.21">die mir got hât an im gegeb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 252.22">daz er niht langer solde leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 252.23">er pflac manlîcher güete.</l>
+<l n="*D 252.24">sîn sterb<reg type="Synkope">e</reg>n mich dô müete.</l>
+<l n="*D 252.25">ouch hân ich sît von tage ze tage</l>
+<l n="*D 252.26">vürbaz erkenne<corr type="Emendation">t</corr> niwe klage."</l>
+<l n="*D 252.27">"<seg type="Initiale" subtype="Majuskel">O</seg>wê, war kom dîn rôter munt?</l>
+<l n="*D 252.28">bistûz, <name type="Person">Sigune</name>, diu mir kunt</l>
+<l n="*D 252.29">tet, wer ich was, ân allen vâr?</l>
+<l n="*D 252.30">dîn reideleht, lanc, brûnez hâr,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(252.1-8)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>Fr26</wit> <note>(252.1-4 und 25-30)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="252.09"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit> 
+</rdg></app>
+<app loc="252.11"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="252.13"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="252.27"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit> <wit>U</wit> 
+</rdg></app><app loc="252.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="252.08">
+<lem>ze rîcheit ist dir</lem> <rdg>ze rehten ist der (dir der <wit>Fr69</wit>) <wit>*m</wit> gein rîcheit (rihtu&#x0364;m <wit>I</wit> riche <wit>O</wit>) ist dir <wit>*G</wit> <note>(ohne Z)</note> ze reichene (Gein raichen <wit>L</wit> [<wit>Fr21</wit>]) ist dir (<subst><del>Ze*r</del><add>Ze reisen ist dir der</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="252.11">
+<rdg>Si verjach es im (veriach im <wit>U</wit> iach im <wit>O</wit> <wit>Z</wit>): "daz bin ich (daz bin <wit>T</wit> da bin ichz <wit>O</wit> ia bin ichz <wit>Z</wit>), diu maget, <wit>*T</wit> (<wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="252.12">
+<lem>ê kumber</lem> <rdg>kumber het <wit>*m</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="252.14">
+<lem>schamen</lem> <rdg><subst><del>s*mn</del><add>scamn</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="252.18">
+<lem>dô</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="252.20">
+<lem>alhie</lem> <rdg>hie (<note>om.</note> <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="252.21">
+<lem>got hât</lem> <rdg>hât got <wit>*m</wit></rdg>
+</app>
+<app loc="252.26">
+<lem>erkennet</lem> <rdg>erchenne <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="252.01">
+<rdg></rdg>
+</app>
+<app loc="252.02">
+<rdg></rdg>
+</app>
+<app loc="252.03">
+<rdg>wendic sî sîn (din <wit>I</wit> <wit>Fr21</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="252.04">
+<rdg></rdg>
+</app>
+<app loc="252.05">
+<rdg></rdg>
+</app>
+<app loc="252.06">
+<rdg>m. krône (hohen pris <wit>V</wit>) tr. <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(ohne U)</note></rdg>
+</app>
+<app loc="252.07">
+<rdg></rdg>
+</app>
+<app loc="252.08">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="252.09">
+<rdg></rdg>
+</app>
+<app loc="252.10">
+<rdg>m. bekant?" <wit>*T</wit> (<wit>G</wit>)</rdg>
+</app>
+<app loc="252.11">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="252.12">
+<rdg>k. hât geklaget <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="252.13">
+<rdg>unde dir (<subst><del>V*</del><add>Vnde die</add></subst> dir <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="252.14">
+<rdg></rdg>
+</app>
+<app loc="252.15">
+<rdg></rdg>
+</app>
+<app loc="252.16">
+<rdg></rdg>
+</app>
+<app loc="252.17">
+<rdg></rdg>
+</app>
+<app loc="252.18">
+<rdg>dich sô (ich dich so <wit>L</wit>) <wit>*G</wit> <note>(ohne OZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="252.19">
+<rdg></rdg>
+</app>
+<app loc="252.20">
+<rdg>ich hân in (den han ich <wit>G</wit> Jch han <wit>O</wit> <wit>Z</wit>) hie (al hie <wit>I</wit> [<wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>]). <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="252.21">
+<rdg>hât got <wit>*T</wit> <note>(ohne V)</note> (<wit>I</wit> <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="252.22">
+<rdg></rdg>
+</app>
+<app loc="252.23">
+<rdg> </rdg>
+</app>
+<app loc="252.24">
+<rdg></rdg>
+</app>
+<app loc="252.25">
+<rdg>sît <note>om.</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="252.26">
+<rdg></rdg>
+</app>
+<app loc="252.27">
+<rdg></rdg>
+</app>
+<app loc="252.28">
+<rdg></rdg>
+</app>
+<app loc="252.29">
+<rdg></rdg>
+</app>
+<app loc="252.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

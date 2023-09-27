@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 499</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.09.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 499.01"><seg type="Initiale">M</seg>it golde ein wazzer, rinnet.</l>
+<l n="*D 499.02">dâ wart <name type="Person">Ither</name> geminnet.</l>
+<l n="*D 499.03">dise basen er dâ vant;</l>
+<l n="*D 499.04">diu was vrouwe überz lant.</l>
+<l n="*D 499.05"><name type="Person">Gandin</name> von <name type="Ort">Anschouwe</name></l>
+<l n="*D 499.06">hiez si dâ wes<reg type="Synkope">e</reg>n vrouwe.</l>
+<l n="*D 499.07">si heizet <name type="Person">Lammire</name>;</l>
+<l n="*D 499.08">sô istz lant genennet <name type="Ort">Stire</name>.</l>
+<l n="*D 499.09">swer schildes amb<reg type="Synkope">e</reg>t üeben wil,</l>
+<l n="*D 499.10">der muoz durchstrîchen <seg type="singuläre_Lesart">lande</seg> vil.</l>
+<l n="*D 499.11"><seg type="Initiale" subtype="Majuskel">N</seg>û riwet mich <seg type="singuläre_Lesart">mîn</seg> knappe rôt,</l>
+<l n="*D 499.12">durch den si mir grôz êre bôt.</l>
+<l n="*D 499.13">von <name type="Person">Ithern</name> dû bist erborn;</l>
+<l n="*D 499.14">dîn hant die sippe hât verkorn.</l>
+<l n="*D 499.15">got hât ir <corr type="Emendation">niht</corr> vergezzen doch,</l>
+<l n="*D 499.16">er kan si wol geprüeven noch.</l>
+<l n="*D 499.17">wil dû gein got mit triwen leb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 499.18">sô soltû im wandel drumbe geb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 499.19">mit riwe ich dir daz künde:</l>
+<l n="*D 499.20">dû treist zwô grôze sünde.</l>
+<l n="*D 499.21"><name type="Person">Ithern</name> <seg type="singuläre_Lesart">dû</seg> hâst erslagen;</l>
+<l n="*D 499.22">dû solt ouch dîne muoter klagen.</l>
+<l n="*D 499.23">ir grôziu triwe daz geriet,</l>
+<l n="*D 499.24">dîn vart si vome leb<reg type="Synkope">e</reg>n schiet,</l>
+<l n="*D 499.25"><seg type="singuläre_Lesart">die</seg> dû jungest von ir t&#x00E6;te.</l>
+<l n="*D 499.26">nû volge mîner r&#x00E6;te:</l>
+<l n="*D 499.27">nim buoze vür missewende</l>
+<l n="*D 499.28">und sorge <seg type="singuläre_Lesart">êt</seg> umb dîn ende,</l>
+<l n="*D 499.29">daz dir dîn arbeit hie erhol,</l>
+<l n="*D 499.30">daz dort diu sêle <seg type="singuläre_Lesart">ruowe</seg> dol."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(499.3-4 und 7-30)</note> <wit>V</wit> <wit>O</wit> <note>(ohne 499.5-6)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="499.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="499.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app><app loc="499.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="499.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="499.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="499.01">
+<rdg>Mit golde ein wasser rinnet <wit>V</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="499.02">
+<rdg>Do wart <subst><del>ytern</del><add>yter</add></subst> (Jther <wit>O</wit>) geminnet <wit>V</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="499.03">
+<lem>dise</lem> <rdg>dîn <wit>*m</wit></rdg>
+</app>
+<app loc="499.05">
+<rdg><note>Die Verse 499.5-6 sind am Rand nachgetragen und später radiert:</note> :ndin von anschowe / :sv́ do wesen vrowe <wit>V</wit></rdg>
+</app>
+<app loc="499.14">
+<rdg>din hant hat die sippe verchorn <wit>I</wit></rdg>
+</app>
+<app loc="499.14">
+<lem>verkorn</lem> <rdg>verlorn <wit>*m</wit> <wit>O</wit></rdg>
+</app>
+<app loc="499.15">
+<lem>niht</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="499.18">
+<lem>drumbe</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="499.01">
+<rdg><note>Die Verse 499.1-2 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="499.02">
+<rdg></rdg>
+</app>
+<app loc="499.03">
+<rdg>dîne b. <wit>*G</wit> sîne (<subst><del>Dine</del><add>Sine</add></subst> <wit>V</wit>) b. <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="499.04">
+<rdg>was ouch (v&#x0366;ch waz <wit>V</wit>) vr. <wit>*T</wit></rdg>
+</app>
+<app loc="499.05">
+<rdg><note>Die Verse 499.5-6 fehlen</note> &#x2193;<wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="499.06">
+<rdg></rdg>
+</app>
+<app loc="499.07">
+<rdg>diu hiez Lamyre; <wit>*T</wit></rdg>
+</app>
+<app loc="499.08">
+<rdg></rdg>
+</app>
+<app loc="499.09">
+<rdg></rdg>
+</app>
+<app loc="499.10">
+<rdg>d. landes (<subst><del>*</del><add>lande</add></subst> <wit>V</wit>) vil. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="499.11">
+<rdg>mîn rîter (<subst><del>d*</del><add>min ritter</add></subst> <wit>V</wit>) rôt, <wit>*T</wit></rdg>
+</app>
+<app loc="499.12">
+<rdg>mir vil (so grosze <wit>L</wit>) êre (ern <wit>I</wit>) bôt (erbot <wit>L</wit>). <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="499.13">
+<rdg>b. geborn; <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="499.14">
+<rdg>hât erkorn. &#x2193;<wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="499.15">
+<rdg>hât dîn n. <wit>*T</wit></rdg>
+</app>
+<app loc="499.16">
+<rdg></rdg>
+</app>
+<app loc="499.17">
+<rdg></rdg>
+</app>
+<app loc="499.18">
+<rdg>dû solt im dr. w. g. <wit>*T</wit></rdg>
+</app>
+<app loc="499.19">
+<rdg>mit triuwen ich <wit>*G</wit> <note>(ohne Z)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="499.20">
+<rdg></rdg>
+</app>
+<app loc="499.21">
+<rdg></rdg>
+</app>
+<app loc="499.22">
+<rdg></rdg>
+</app>
+<app loc="499.23">
+<rdg></rdg>
+</app>
+<app loc="499.24">
+<rdg>von dem lîbe sch., <wit>*T</wit></rdg>
+</app>
+<app loc="499.25">
+<rdg></rdg>
+</app>
+<app loc="499.26">
+<rdg></rdg>
+</app>
+<app loc="499.27">
+<rdg></rdg>
+</app>
+<app loc="499.28">
+<rdg></rdg>
+</app>
+<app loc="499.29">
+<rdg>dir (<subst><del>*</del><add>dir</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="499.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

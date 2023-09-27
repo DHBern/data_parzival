@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 559</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 559.01"><seg type="Initiale">I</seg>u sînen prîs hie lâzen hât,</l>
+<l n="*D 559.02">der manege rîterlîche tât</l>
+<l n="*D 559.03">gevrümt hât, der süeze?</l>
+<l n="*D 559.04">von rehte ich in alsus grüeze.</l>
+<l n="*D 559.05">mit ellen ist sîn rîterschaft.</l>
+<l n="*D 559.06">sô manege tugent diu gotes kraft</l>
+<l n="*D 559.07">in mannes herze nie gestiez,</l>
+<l n="*D 559.08">ân <name type="Person">Ithern</name> von <name type="Ort">Gaheviez</name>.</l>
+<l n="*D 559.09">der <name type="Person">Ithern</name> vor <name type="Ort">Nantes</name> sluoc,</l>
+<l n="*D 559.10">mîn schif in gestern übertruoc.</l>
+<l n="*D 559.11">er hât mir vünf ors gegeb<reg type="Synkope">e</reg>n</l>
+<l n="*D 559.12">- got in mit s&#x00E6;lden lâze leb<reg type="Synkope">e</reg>n -,</l>
+<l n="*D 559.13">di<corr type="Emendation">u</corr> herzogen und künege riten.</l>
+<l n="*D 559.14">swaz er hât ab in erstriten,</l>
+<l n="*D 559.15">daz wirt ze <name type="Ort">Pelrapeire</name> gesagt;</l>
+<l n="*D 559.16">ir sicherheit hât er bejagt.</l>
+<l n="*D 559.17">sîn schilt treit maneger tjoste mâl.</l>
+<l n="*D 559.18">er reit hie vorschen umben <name type="Sonstiges">Grâl</name>."</l>
+<l n="*D 559.19"><name type="Person">Gawan</name> sprach: "war ist er kom<reg type="Synkope">e</reg>n?</l>
+<l n="*D 559.20">saget mir, wirt, hât er vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 559.21">dô er sô nâhe was hie bî,</l>
+<l n="*D 559.22">waz disiu âventiure sî?"</l>
+<l n="*D 559.23">"<seg type="Initiale" subtype="Majuskel">H</seg>êrre, ern hâts niht ervarn.</l>
+<l n="*D 559.24">ich kunde mich des wol bewarn,</l>
+<l n="*D 559.25">daz ich es im zuo gewüege:</l>
+<l n="*D 559.26">unvuoge ich danne trüege.</l>
+<l n="*D 559.27">het ir selbe vrâgens niht erdâht,</l>
+<l n="*D 559.28">nimmer w&#x00E6;ret irs innen brâht</l>
+<l n="*D 559.29">von mir, waz hie m&#x00E6;res ist,</l>
+<l n="*D 559.30">mit vorhten scharpf ein strenger list.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <note>(559.1-4)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit> <wit>Fr25</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="559.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>Z</wit> <wit>Fr23</wit>
+</rdg></app>
+<app loc="559.17"><rdg>
+<note>Initiale</note> <wit>V</wit> <wit>Fr25</wit>
+</rdg></app>
+<app loc="559.19"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+<app loc="559.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="559.01">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>Fr23</wit></rdg>
+</app>
+<app loc="559.02">
+<lem>tât</lem> <rdg>getât <wit>*m</wit></rdg>
+</app>
+<app loc="559.13">
+<lem>diu</lem> <rdg>di <wit>D</wit></rdg>
+</app>
+<app loc="559.14">
+<rdg>swaz er hât abe den (ab den hat <wit>I</wit> hat ab in <wit>L</wit> hât an in <wit>*T</wit> <note>[ohne Fr25]</note>) gestriten (erstriten <wit>*T</wit> <wit>I</wit> <wit>L</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="559.15">
+<lem>wirt</lem> <rdg>wart <wit>*m</wit> <wit>Fr25</wit></rdg>
+</app>
+<app loc="559.18">
+<lem>vorschen</lem> <rdg>vorschende <wit>*m</wit></rdg>
+</app>
+<app loc="559.22">
+<lem>waz</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="559.26">
+<lem>unvuoge</lem> <rdg>ungevüege <wit>*m</wit></rdg>
+</app>
+<app loc="559.28">
+<lem>nimmer</lem> <rdg>niemer (Niemen <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="559.01">
+<rdg>Nû s. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="559.02">
+<rdg></rdg>
+</app>
+<app loc="559.03">
+<rdg></rdg>
+</app>
+<app loc="559.04">
+<rdg>in sus gr. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="559.05">
+<rdg></rdg>
+</app>
+<app loc="559.06">
+<rdg></rdg>
+</app>
+<app loc="559.07">
+<rdg></rdg>
+</app>
+<app loc="559.08">
+<rdg></rdg>
+</app>
+<app loc="559.09">
+<rdg></rdg>
+</app>
+<app loc="559.10">
+<rdg></rdg>
+</app>
+<app loc="559.11">
+<rdg></rdg>
+</app>
+<app loc="559.12">
+<rdg></rdg>
+</app>
+<app loc="559.13">
+<rdg>diu k. unde h. r. (chunge herzogen vnd riter <wit>I</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="559.14">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="559.15">
+<rdg></rdg>
+</app>
+<app loc="559.16">
+<rdg>er hât <wit>*G</wit> <note>(ohne Z)</note> (<wit>Fr25</wit>)</rdg>
+</app>
+<app loc="559.17">
+<rdg></rdg>
+</app>
+<app loc="559.18">
+<rdg>hie vorschende <wit>*G</wit> <note>(nur GI)</note> <wit>V</wit> <wit>Fr25</wit> ie v. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="559.19">
+<rdg>ist der k.? <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="559.20">
+<rdg>s., hêrre w., <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="559.21">
+<rdg></rdg>
+</app>
+<app loc="559.22">
+<rdg>waz dirre â. sî?" <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="559.23">
+<rdg>hât ir n. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="559.24">
+<rdg></rdg>
+</app>
+<app loc="559.25">
+<rdg>ichz im <wit>*T</wit></rdg>
+</app>
+<app loc="559.26">
+<rdg>ungevüege ich (<note>om.</note> <wit>I</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="559.27">
+<rdg>het ir vr. n. gedâht, <wit>*T</wit></rdg>
+</app>
+<app loc="559.28">
+<rdg>niener (Niemer <wit>V</wit> [<wit>Fr25</wit>]) w. <wit>*T</wit></rdg>
+</app>
+<app loc="559.29">
+<rdg></rdg>
+</app>
+<app loc="559.30">
+<rdg>mit v. starker, st. (stark ein <wit>V</wit> starchen strengen <wit>L</wit>) l. <wit>*T</wit> <note>(ohne Fr25)</note> (<wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

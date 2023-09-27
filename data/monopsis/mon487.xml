@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 487</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 487.01"><seg type="Initiale">S</seg>waz dâ was spîse vür getragen,</l>
+<l n="*D 487.02">beliben si dâ nâch ungetwagen,</l>
+<l n="*D 487.03">daz enschadet in an den ougen niht,</l>
+<l n="*D 487.04">als man vischigen handen giht.</l>
+<l n="*D 487.05">ich wil vür mich geheizen,</l>
+<l n="*D 487.06">man m<corr type="Emendation">ö</corr>hte mit mir beizen,</l>
+<l n="*D 487.07">w&#x00E6;re ich vür vederspil erkant,</l>
+<l n="*D 487.08">ich swünge al gernde von der hant;</l>
+<l n="*D 487.09">bî sölhen kröpfelînen</l>
+<l n="*D 487.10">t&#x00E6;te ich vliegen schînen.</l>
+<l n="*D 487.11">wes spotte ich der getriwen diet?</l>
+<l n="*D 487.12">mîn alt unvuoge mir daz riet.</l>
+<l n="*D 487.13">ir hât doch wol geh&#x0153;ret,</l>
+<l n="*D 487.14">waz in rîcheit hât gest&#x0153;ret,</l>
+<l n="*D 487.15">warumbe si wâren vreuden arm,</l>
+<l n="*D 487.16">dicke kalt unt selten warm.</l>
+<l n="*D 487.17">si dolten herzen riwe</l>
+<l n="*D 487.18">niht wan durch rehte triwe</l>
+<l n="*D 487.19">ân alle missewende.</l>
+<l n="*D 487.20">von der h&#x0153;h<reg type="Synkope">e</reg>sten hende</l>
+<l n="*D 487.21">enpfiengens umb ir kumber solt;</l>
+<l n="*D 487.22">got was und wart in bêden holt.</l>
+<l n="*D 487.23">si stuonden ûf unt giengen dan,</l>
+<l n="*D 487.24"><name type="Person">Parzival</name> unt der guote man,</l>
+<l n="*D 487.25">zem orse gein dem stalle.</l>
+<l n="*D 487.26">mit kranker vreuden schalle</l>
+<l n="*D 487.27">der wirt zem orse sprach: "mir ist leit</l>
+<l n="*D 487.28">dîn hungerb&#x00E6;riu arbeit</l>
+<l n="*D 487.29">durch den satel, der ûf dir ligt,</l>
+<l n="*D 487.30">der <name type="Person">Anfortas<reg type="Synkope">e</reg>s</name> wâpen pfligt."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="487.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="487.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="487.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="487.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="487.23"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app><app loc="487.23"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="487.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="487.02">
+<lem>ungetwagen</lem> <rdg>unbetwagen <wit>*m</wit></rdg>
+</app>
+<app loc="487.06">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="487.07">
+<lem>vür</lem> <rdg>von <wit>*m</wit></rdg>
+</app>
+<app loc="487.14">
+<rdg>was rîcheit het zerst&#x0153;ret, <wit>*m</wit></rdg>
+</app>
+<app loc="487.28">
+<rdg>dîn hungerigiu arbeit <wit>*m</wit> (<wit>I</wit> <wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="487.01">
+<rdg></rdg>
+</app>
+<app loc="487.02">
+<rdg></rdg>
+</app>
+<app loc="487.03">
+<rdg></rdg>
+</app>
+<app loc="487.04">
+<rdg>als man vische (von vishen <wit>I</wit>) an den h. (vischigen ougen <wit>L</wit>) g. (siht <wit>I</wit>). <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="487.05">
+<rdg></rdg>
+</app>
+<app loc="487.06">
+<rdg></rdg>
+</app>
+<app loc="487.07">
+<rdg></rdg>
+</app>
+<app loc="487.08">
+<rdg>al gerne von der h.; <wit>*G</wit> <note>(ohne Z)</note> algernde vür die h.; <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="487.09">
+<rdg></rdg>
+</app>
+<app loc="487.10">
+<rdg></rdg>
+</app>
+<app loc="487.11">
+<rdg>der guoten d.? <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="487.12">
+<rdg>mîn altiu (alter <wit>G</wit> <note>om.</note> <wit>O</wit>) ungevüege (vnfv&#x0366;ge <wit>O</wit>) <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="487.13">
+<rdg></rdg>
+</app>
+<app loc="487.14">
+<rdg>hât zerst&#x0153;ret, <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="487.15">
+<rdg></rdg>
+</app>
+<app loc="487.16">
+<rdg></rdg>
+</app>
+<app loc="487.17">
+<rdg></rdg>
+</app>
+<app loc="487.18">
+<rdg></rdg>
+</app>
+<app loc="487.19">
+<rdg></rdg>
+</app>
+<app loc="487.20">
+<rdg></rdg>
+</app>
+<app loc="487.21">
+<rdg></rdg>
+</app>
+<app loc="487.22">
+<rdg></rdg>
+</app>
+<app loc="487.23">
+<rdg></rdg>
+</app>
+<app loc="487.24">
+<rdg></rdg>
+</app>
+<app loc="487.25">
+<rdg></rdg>
+</app>
+<app loc="487.26">
+<rdg></rdg>
+</app>
+<app loc="487.27">
+<rdg>sprach zem orse: <wit>*T</wit></rdg>
+</app>
+<app loc="487.28">
+<rdg></rdg>
+</app>
+<app loc="487.29">
+<rdg></rdg>
+</app>
+<app loc="487.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

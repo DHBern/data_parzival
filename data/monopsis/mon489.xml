@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 489</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 489.01"><seg type="Initiale">D</seg>och wil ich râtes niht verzagen:</l>
+<l n="*D 489.02">dûne solt ouch niht ze sêre klagen.</l>
+<l n="*D 489.03">dû solt in rehten mâzen</l>
+<l n="*D 489.04">klagen unt klagen lâzen.</l>
+<l n="*D 489.05">diu menscheit hât wilden art:</l>
+<l n="*D 489.06">eteswâ wil jugent an witze vart;</l>
+<l n="*D 489.07">wil dennez alter tumpheit üeben</l>
+<l n="*D 489.08">unt lûter site trüeben,</l>
+<l n="*D 489.09">dâ von wirt daz wîze sal</l>
+<l n="*D 489.10">unt diu grüene tugent val,</l>
+<l n="*D 489.11">dâ von beklîben m<corr type="Emendation">ö</corr>hte,</l>
+<l n="*D 489.12">daz der werdecheit t<corr type="Emendation">ö</corr>hte.</l>
+<l n="*D 489.13">m<corr type="Emendation">ö</corr>ht ich dirz wol begrüenen</l>
+<l n="*D 489.14">unt dîn herze alsô erküenen,</l>
+<l n="*D 489.15">daz dû den prîs bejagtes</l>
+<l n="*D 489.16">unt an got niht verzagtes,</l>
+<l n="*D 489.17">sô gestüende noch dîn linge</l>
+<l n="*D 489.18">an sô werdeclîchem dinge,</l>
+<l n="*D 489.19">daz wol ergetzet hieze.</l>
+<l n="*D 489.20">got selbe dich niht lieze;</l>
+<l n="*D 489.21">ich bin von gote dîn râtes wer.</l>
+<l n="*D 489.22">nû sag mir: s&#x00E6;he dû daz sper</l>
+<l n="*D 489.23">ze <name type="Ort">Munsalv&#x00E6;sche</name> ûf dem hûs?</l>
+<l n="*D 489.24">dô der sterne <name type="Sonstiges">Saturnus</name></l>
+<l n="*D 489.25">wider an sîn zil gestuont,</l>
+<l n="*D 489.26">daz wart uns bî der wunden kunt</l>
+<l n="*D 489.27">unt bî dem sumerlîchem snê.</l>
+<l n="*D 489.28">im getet der vrost nie sô wê,</l>
+<l n="*D 489.29">dem süezen &#x0153;heim dîn,</l>
+<l n="*D 489.30">daz sper müese in die wunden sîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="489.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="489.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="489.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="489.03">
+<lem>rehten</lem> <rdg>rehter <wit>*m</wit></rdg>
+</app>
+<app loc="489.04">
+<rdg>klagen unde klage lâzen. <wit>*m</wit></rdg>
+</app>
+<app loc="489.05">
+<lem>wilden</lem> <rdg>vil wilder (<subst><del>*</del><add>vil wilden</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="489.07">
+<lem>dennez</lem> <rdg>dan (dan ins <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="489.11">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="489.12">
+<lem>töhte</lem> <rdg>tohte <wit>D</wit></rdg>
+</app>
+<app loc="489.13">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="489.30">
+<lem>müese</lem> <rdg>muos <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="489.01">
+<rdg></rdg>
+</app>
+<app loc="489.02">
+<rdg>s. in (<subst><del>i*</del><add>o&#x036E;ch</add></subst> <wit>V</wit>) n. <wit>*T</wit></rdg>
+</app>
+<app loc="489.03">
+<rdg>rehter <wit>*T</wit> <wit>I</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="489.04">
+<rdg>kl. unde klage l. <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="489.05">
+<rdg></rdg>
+</app>
+<app loc="489.06">
+<rdg>w. vart <wit>*T</wit></rdg>
+</app>
+<app loc="489.07">
+<rdg><note>Versfolge 489.8-7</note> <wit>*T</wit> <wit>O</wit> <wit>L</wit> · t. üe., <wit>*T</wit></rdg>
+</app>
+<app loc="489.08">
+<rdg>s. tr.; <wit>*T</wit></rdg>
+</app>
+<app loc="489.09">
+<rdg></rdg>
+</app>
+<app loc="489.10">
+<rdg></rdg>
+</app>
+<app loc="489.11">
+<rdg></rdg>
+</app>
+<app loc="489.12">
+<rdg></rdg>
+</app>
+<app loc="489.13">
+<rdg>dir wol ergrüenen (dirs wol begrvnen <wit>L</wit>) <wit>*G</wit> <note>(ohne OZ)</note> d. wol grüenen <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="489.14">
+<rdg>a. erküelen, <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="489.15">
+<rdg></rdg>
+</app>
+<app loc="489.16">
+<rdg></rdg>
+</app>
+<app loc="489.17">
+<rdg>noch <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="489.18">
+<rdg></rdg>
+</app>
+<app loc="489.19">
+<rdg>ergetzen <wit>*T</wit> <note>(nur T)</note> <wit>I</wit></rdg>
+</app>
+<app loc="489.20">
+<rdg></rdg>
+</app>
+<app loc="489.21">
+<rdg>ich bin vor g. dînes (din <wit>V</wit>) r. wer. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="489.22">
+<rdg></rdg>
+</app>
+<app loc="489.23">
+<rdg></rdg>
+</app>
+<app loc="489.24">
+<rdg></rdg>
+</app>
+<app loc="489.25">
+<rdg></rdg>
+</app>
+<app loc="489.26">
+<rdg>dô wart <wit>*T</wit></rdg>
+</app>
+<app loc="489.27">
+<rdg></rdg>
+</app>
+<app loc="489.28">
+<rdg>im tet der <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="489.29">
+<rdg></rdg>
+</app>
+<app loc="489.30">
+<rdg>muoste (mu̽sz <wit>L</wit>) <wit>*G</wit> (<wit>*T</wit>) <note>(nur T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 373</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 373.01">"<seg type="Initiale">T</seg>ohter, swes dîn wille gert,</l>
+<l n="*D 373.02">hân ichz, des bistû gewert.</l>
+<l n="*D 373.03">ôwol der vruht, diu an dir lac!</l>
+<l n="*D 373.04">dîn geburt was der s&#x00E6;lden tac."</l>
+<l n="*D 373.05">"<seg type="Initiale" subtype="Majuskel">V</seg>ater, sô wil ich dirz sagen,</l>
+<l n="*D 373.06">heinlîche mînen kumber klagen.</l>
+<l n="*D 373.07">nâch dînen gnâden dar zuo sprich."</l>
+<l n="*D 373.08">er bat si heb<reg type="Synkope">e</reg>n vür sich.</l>
+<l n="*D 373.09"><seg type="Initiale" subtype="Majuskel">S</seg>i sprach: "war k&#x0153;me denne mîn gespil?"</l>
+<l n="*D 373.10">dô hielt der ritt<reg type="Synkope">e</reg>r bî im vil,</l>
+<l n="*D 373.11">die striten, wer si solde nemen,</l>
+<l n="*D 373.12">des moht ieslîchen wol gezemen,</l>
+<l n="*D 373.13">iedoch bôt man si einem dar.</l>
+<l n="*D 373.14"><name type="Person">Clauditte</name> was ouch wol gevar.</l>
+<l n="*D 373.15"><seg type="Initiale" subtype="Majuskel">A</seg>l rîtende sprach ir vater zir:</l>
+<l n="*D 373.16">"<name type="Person">Obilot</name>, nû sage mir</l>
+<l n="*D 373.17">ein teil von dîner n&#x0153;te."</l>
+<l n="*D 373.18">"dâ hân ich klein&#x0153;te</l>
+<l n="*D 373.19">dem vremden ritter gelobt.</l>
+<l n="*D 373.20">ich w&#x00E6;ne, mîn sin hât getobt.</l>
+<l n="*D 373.21">hân ich im niht ze geb<reg type="Synkope">e</reg>ne,</l>
+<l n="*D 373.22">wa<corr type="Emendation">z</corr> toug ich denne ze leb<reg type="Synkope">e</reg>ne,</l>
+<l n="*D 373.23">sît er mir dienst hât geboten?</l>
+<l n="*D 373.24">sô muoz ich schemelîche roten,</l>
+<l n="*D 373.25">ob ich im niht ze geb<reg type="Synkope">e</reg>n hân.</l>
+<l n="*D 373.26">nie meide wart sô liep ein man."</l>
+<l n="*D 373.27"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "tohter, wart an mich,</l>
+<l n="*D 373.28">ich sol des wol bereiten dich.</l>
+<l n="*D 373.29">sît dû dienstes von im gerst,</l>
+<l n="*D 373.30">ich gib dir, daz dû in gewerst,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 373.29-30)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="373.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="373.01"><rdg> <note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="373.05"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit>
+</rdg></app><app loc="373.05"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="373.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="373.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="373.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="373.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="373.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="373.23"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="373.27"><rdg>
+<note>Initiale</note> <wit>Fr24</wit>
+</rdg></app><app loc="373.27"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="373.03">
+<lem>ôwol</lem> <rdg>ouch wol <wit>*m</wit></rdg>
+</app>
+<app loc="373.22">
+<lem>waz</lem> <rdg>was <wit>D</wit></rdg>
+</app>
+<app loc="373.29">
+<rdg>Sit dv dienstes von im gerst <wit>V</wit></rdg>
+</app>
+<app loc="373.29">
+<lem>dienstes</lem> <rdg>diens <wit>D</wit></rdg>
+</app>
+<app loc="373.30">
+<rdg>Jch gibe dir daz dv in <subst><del>*</del><add>wol gewerst</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="373.30">
+<lem>in</lem> <rdg>in wol <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="373.01">
+<rdg></rdg>
+</app>
+<app loc="373.02">
+<rdg></rdg>
+</app>
+<app loc="373.03">
+<rdg>wol (<subst><del>*</del><add>O wol</add></subst> <wit>V</wit>) der vr., <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="373.04">
+<rdg></rdg>
+</app>
+<app loc="373.05">
+<rdg>"V., sol ich d. danne sagen <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="373.06">
+<rdg>unde heimlîche <wit>*T</wit></rdg>
+</app>
+<app loc="373.07">
+<rdg></rdg>
+</app>
+<app loc="373.08">
+<rdg></rdg>
+</app>
+<app loc="373.09">
+<rdg></rdg>
+</app>
+<app loc="373.10">
+<rdg>dô h. dâ bî im (nu̽ <wit>L</wit>) rîter vil, <wit>*G</wit> (<wit>V</wit>) · Dô h. bî im rîter vil, <wit>*T</wit></rdg>
+</app>
+<app loc="373.11">
+<rdg></rdg>
+</app>
+<app loc="373.12">
+<rdg></rdg>
+</app>
+<app loc="373.13">
+<rdg></rdg>
+</app>
+<app loc="373.14">
+<rdg>ouch <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="373.15">
+<rdg>alrîtende sp. der vürste zir: <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="373.16">
+<rdg></rdg>
+</app>
+<app loc="373.17">
+<rdg></rdg>
+</app>
+<app loc="373.18">
+<rdg>"Ich hân kl. <wit>*T</wit></rdg>
+</app>
+<app loc="373.19">
+<rdg></rdg>
+</app>
+<app loc="373.20">
+<rdg>ich w., mîn zuht sî vertobet (min sin hab getobt <wit>Z</wit>). <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="373.21">
+<rdg>unde hân <wit>*T</wit></rdg>
+</app>
+<app loc="373.22">
+<rdg>touc mir (<subst><del>i*</del><add>ich</add></subst> <wit>V</wit>) danne <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="373.23">
+<rdg></rdg>
+</app>
+<app loc="373.24">
+<rdg>nû m. <wit>*G</wit></rdg>
+</app>
+<app loc="373.25">
+<rdg></rdg>
+</app>
+<app loc="373.26">
+<rdg></rdg>
+</app>
+<app loc="373.27">
+<rdg></rdg>
+</app>
+<app loc="373.28">
+<rdg>b. d., <wit>*T</wit></rdg>
+</app>
+<app loc="373.29">
+<rdg><note>Die Verse 373.29-30 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur T)</note> · d. (dienst <wit>I</wit>) an in g., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="373.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

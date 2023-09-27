@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 106</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>19.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 106.01">dâ si zein and<reg type="Synkope">e</reg>r gâhten.</l>
+<l n="*D 106.02">die poynd<reg type="Synkope">e</reg>r sich dâ <corr type="Emendation">vlâ</corr>hten,</l>
+<l n="*D 106.03">sich wurren die banier.</l>
+<l n="*D 106.04">dâ viel manec degen fier.</l>
+<l n="*D 106.05">al dâ worhte mîn<reg type="Synkope">e</reg>s hêrren hant,</l>
+<l n="*D 106.06">dâ von ir aller prîs verswant.</l>
+<l n="*D 106.07"><seg type="Initiale" subtype="Majuskel">D</seg>ô kom gevarn <name type="Person">Ipomidon</name>.</l>
+<l n="*D 106.08">mit tôde er mîme hêrren lôn</l>
+<l n="*D 106.09">gap, daz er in nider stach,</l>
+<l n="*D 106.10">daz manec tûsent ritt<reg type="Synkope">e</reg>r sach</l>
+<l n="*D 106.11">von <name type="Ort">Alexandrie</name>.</l>
+<l n="*D 106.12">mîn hêrre valsches vrîe</l>
+<l n="*D 106.13">gein dem künege kêrte,</l>
+<l n="*D 106.14">des tjost in sterben lêrte.</l>
+<l n="*D 106.15">sînen helm versneit des spers ort,</l>
+<l n="*D 106.16">durch sîn houbt wart gebort,</l>
+<l n="*D 106.17">daz man den trunzûn drinne vant.</l>
+<l n="*D 106.18">iedoch gesaz der wîgant.</l>
+<l n="*D 106.19">al töuwende er ûz dem strîte reit</l>
+<l n="*D 106.20">ûf eine plân, diu was breit.</l>
+<l n="*D 106.21">üb<reg type="Synkope">e</reg>r in kom sîn kappelân.</l>
+<l n="*D 106.22">er sprach mit kurzen wort<corr type="Emendation">en</corr> sân</l>
+<l n="*D 106.23">sîne bîhte und sande her</l>
+<l n="*D 106.24">diz hemde unt daz selbe sper,</l>
+<l n="*D 106.25">daz in von uns gescheiden hât.</l>
+<l n="*D 106.26">er starp ân alle missetât.</l>
+<l n="*D 106.27">junchêrren unt die kappelâne sîn</l>
+<l n="*D 106.28">bevalch er der künegîn.</l>
+<l n="*D 106.29"><seg type="Initiale"><corr type="Emendation">E</corr></seg>r wart geleit ze <name type="Ort">Baldac</name>.</l>
+<l n="*D 106.30">diu koste den bâruc ringe wac.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(ohne 106.10)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="106.07"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="106.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="106.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="106.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="106.22"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="106.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="106.02">
+<lem>vlâhten</lem> <rdg>w&#x00E6;hten <wit>D</wit></rdg>
+</app>
+<app loc="106.04">
+<lem>fier</lem> <rdg>schier <wit>*m</wit></rdg>
+</app>
+<app loc="106.05">
+<lem>worhte</lem> <rdg><subst><del>worte</del><add>worhte</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="106.10">
+<rdg>daz manic tûsent ritter sach. <wit>*m</wit></rdg>
+</app>
+<app loc="106.11">
+<rdg>daz geschach vor Alexandrie. <wit>*m</wit></rdg>
+</app>
+<app loc="106.20">
+<lem>plân</lem> <rdg><subst><del>plane</del><add>plan</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="106.22">
+<lem>worten</lem> <rdg>wort <wit>D</wit></rdg>
+</app>
+<app loc="106.27">
+<lem>kappelâne</lem> <rdg>knappen <wit>*m</wit></rdg>
+</app>
+<app loc="106.29">
+<lem>Er</lem> <rdg>&#x00F7;R <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="106.01">
+<rdg></rdg>
+</app>
+<app loc="106.02">
+<rdg>die p. si (<subst><del>*</del><add>sich</add></subst> <wit>V</wit>) dâ vl., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="106.03">
+<rdg></rdg>
+</app>
+<app loc="106.04">
+<rdg>v. vil (vie vil <wit>G</wit> vi&#x0364;l <wit>O</wit> [<wit>Z</wit> <wit>Fr21</wit>] vielen <wit>L</wit>) manic (<note>om.</note> <wit>L</wit>) <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="106.05">
+<rdg>dô worht (<subst><del>war*</del><add>warb</add></subst> <wit>I</wit> vochte <wit>U</wit>) al dâ (ouch <wit>L</wit> al <wit>Fr21</wit> <add>da</add> <wit>T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="106.06">
+<rdg></rdg>
+</app>
+<app loc="106.07">
+<rdg>sus kom <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="106.08">
+<rdg>mit dem t. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="106.09">
+<rdg></rdg>
+</app>
+<app loc="106.10">
+<rdg></rdg>
+</app>
+<app loc="106.11">
+<rdg>vor A. <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="106.12">
+<rdg></rdg>
+</app>
+<app loc="106.13">
+<rdg></rdg>
+</app>
+<app loc="106.14">
+<rdg></rdg>
+</app>
+<app loc="106.15">
+<rdg></rdg>
+</app>
+<app loc="106.16">
+<rdg></rdg>
+</app>
+<app loc="106.17">
+<rdg></rdg>
+</app>
+<app loc="106.18">
+<rdg></rdg>
+</app>
+<app loc="106.19">
+<rdg>al dâ er (Altobende er <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="106.20">
+<rdg></rdg>
+</app>
+<app loc="106.21">
+<rdg>dô kom über in sîn k. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="106.22">
+<rdg></rdg>
+</app>
+<app loc="106.23">
+<rdg></rdg>
+</app>
+<app loc="106.24">
+<rdg></rdg>
+</app>
+<app loc="106.25">
+<rdg>daz uns von im g. (gesvndert <wit>T</wit>) hât (Daz in von vns gescheinden hat <wit>Z</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="106.26">
+<rdg></rdg>
+</app>
+<app loc="106.27">
+<rdg>die (den <wit>O</wit> <note>om.</note> <wit>Z</wit> <wit>Fr21</wit>) knappen sîn <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="106.28">
+<rdg></rdg>
+</app>
+<app loc="106.29">
+<rdg></rdg>
+</app>
+<app loc="106.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

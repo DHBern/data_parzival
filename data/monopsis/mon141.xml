@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 141</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 141.01">sol dîn houbet krône tragen.</l>
+<l n="*D 141.02">dirre vürste wart durch dich erslagen,</l>
+<l n="*D 141.03">wand er dîn lant ie werte.</l>
+<l n="*D 141.04">sîne triwe er nie verscherte.</l>
+<l n="*D 141.05"><seg type="Initiale" subtype="Majuskel">J</seg>unc, vl&#x00E6;tic, süezer man,</l>
+<l n="*D 141.06">die gebruoder hânt dir vil getân:</l>
+<l n="*D 141.07">zwei lant nam dir <name type="Person">L&#x00E6;helin</name>.</l>
+<l n="*D 141.08">disen ritt<reg type="Synkope">e</reg>r unt den v<corr type="Emendation">e</corr>ter<corr type="Emendation">n</corr> dîn</l>
+<l n="*D 141.09">ze tjustieren sluoc <name type="Person">Orilus</name>.</l>
+<l n="*D 141.10">der liez ouch mich in jâmer sus.</l>
+<l n="*D 141.11"><seg type="Initiale">D</seg>ir diende ân alle schande</l>
+<l n="*D 141.12">dirre vürste von dîme lande.</l>
+<l n="*D 141.13">dô zôch mi<corr type="Emendation">ch</corr> dîn muoter.</l>
+<l n="*D 141.14">lieber neve guoter,</l>
+<l n="*D 141.15">nû <corr type="Emendation">h&#x0153;re</corr>, waz disiu m&#x00E6;re sîn.</l>
+<l n="*D 141.16">ein bracken seil gap im de<corr type="Emendation">n</corr> pîn.</l>
+<l n="*D 141.17">in unser zweier dienste den tôt</l>
+<l n="*D 141.18">hât er bejagt unt jâmers nôt</l>
+<l n="*D 141.19">mir nâch sîner minne.</l>
+<l n="*D 141.20">ich hete kranke sinne,</l>
+<l n="*D 141.21">daz ich im niht minne gap.</l>
+<l n="*D 141.22">des hât der sorgen urhap</l>
+<l n="*D 141.23">mir vreude verschrôten.</l>
+<l n="*D 141.24">nû minne ich in alsô tôten."</l>
+<l n="*D 141.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach er: "niftel, mir ist leit</l>
+<l n="*D 141.26">dîn kumber unt mîn laster breit.</l>
+<l n="*D 141.27">swenne ich daz mac gerechen,</l>
+<l n="*D 141.28">daz wil ich gerne zechen."</l>
+<l n="*D 141.29"><seg type="Initiale" subtype="Majuskel">D</seg>ô was im gein dem strîte gâch.</l>
+<l n="*D 141.30">si wîste in unrehte nâch.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="141.05"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="141.05"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="141.06"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="141.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="141.11"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit>
+</rdg></app>
+<app loc="141.13"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="141.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="141.20"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="141.25"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="141.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app><app loc="141.25"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="141.29"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="141.02">
+<lem>durch</lem> <rdg><subst><del>dvch</del><add>dvrch</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="141.04">
+<rdg>sîne triuwe er mêr verzerte. <wit>*m</wit></rdg>
+</app>
+<app loc="141.05">
+<lem>Junc</lem> <rdg><subst><del>Jvch</del><add>Jvnch</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="141.08">
+<lem>vetern dîn</lem> <rdg>vater din <wit>D</wit> vetern sîn <wit>*m</wit></rdg>
+</app>
+<app loc="141.11">
+<lem>Dir</lem> <rdg>mir (Mit <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="141.13">
+<lem>mich</lem> <rdg>min <wit>D</wit></rdg>
+</app>
+<app loc="141.14">
+<lem>lieber</lem> <rdg>vil lieber <wit>*m</wit></rdg>
+</app>
+<app loc="141.15">
+<lem>h&#x0153;re</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="141.16">
+<lem>den</lem> <rdg>dem <wit>D</wit></rdg>
+</app>
+<app loc="141.18">
+<lem>jâmers nôt</lem> <rdg>jâmernôt <wit>*m</wit></rdg>
+</app>
+<app loc="141.23">
+<lem>verschrôten</lem> <rdg>erschrôten <wit>*m</wit></rdg>
+</app>
+<app loc="141.28">
+<lem>zechen</lem> <rdg>rechen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="141.01">
+<rdg></rdg>
+</app>
+<app loc="141.02">
+<rdg></rdg>
+</app>
+<app loc="141.03">
+<rdg>daz er <wit>*G</wit> <note>(nur GI)</note> wan der <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="141.04">
+<rdg>nie (<subst><del>*</del><add>nie</add></subst> <wit>V</wit>) verzerte. <wit>*G</wit> (<wit>V</wit>) <wit>T</wit> ie verzerte. <wit>*T</wit></rdg>
+</app>
+<app loc="141.05">
+<rdg></rdg>
+</app>
+<app loc="141.06">
+<rdg>mîn bruoder hât (<subst><del>*brv&#x0366;der</del><add>Die gebrv&#x0366;der</add></subst> hant <wit>V</wit> Die brv&#x0366;der hant <wit>T</wit>) <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="141.07">
+<rdg></rdg>
+</app>
+<app loc="141.08">
+<rdg>disen vürsten (<subst><del>*</del><add>ritter</add></subst> <wit>V</wit>) und <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="141.09">
+<rdg>zer (Zu̽ <wit>L</wit>) tjoste sl. (slu&#x0364;c si <wit>I</wit> er schlu̽ch <wit>L</wit>) Orillus. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="141.10">
+<rdg>er l. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="141.11">
+<rdg>mir (&#x00F7;ir <wit>O</wit> mit <wit>T</wit>) d. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="141.12">
+<rdg></rdg>
+</app>
+<app loc="141.13">
+<rdg></rdg>
+</app>
+<app loc="141.14">
+<rdg></rdg>
+</app>
+<app loc="141.15">
+<rdg></rdg>
+</app>
+<app loc="141.16">
+<rdg></rdg>
+</app>
+<app loc="141.17">
+<rdg>in dem d. er (Jn <subst><del>*</del><add>vnser zweier dieneste</add></subst> <wit>V</wit>) den tôt <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="141.18">
+<rdg>er (<subst><del>*</del><add>er</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <note>(nur U)</note> <wit>Z</wit> · und imer (immer <add>ist</add> <wit>O</wit>) nôt <wit>*G</wit> <note>(ohne IL)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="141.19">
+<rdg></rdg>
+</app>
+<app loc="141.20">
+<rdg></rdg>
+</app>
+<app loc="141.21">
+<rdg></rdg>
+</app>
+<app loc="141.22">
+<rdg></rdg>
+</app>
+<app loc="141.23">
+<rdg>mir die vr. v. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="141.24">
+<rdg>alsô (<subst><del>*</del><add>also</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="141.25">
+<rdg></rdg>
+</app>
+<app loc="141.26">
+<rdg>mîn leit (herzeleit <wit>V</wit>). <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="141.27">
+<rdg></rdg>
+</app>
+<app loc="141.28">
+<rdg></rdg>
+</app>
+<app loc="141.29">
+<rdg>im g. (in gêin <wit>O</wit> im nach dem <wit>Z</wit> im ze <wit>T</wit>) st. <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="141.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

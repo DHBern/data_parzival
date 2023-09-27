@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 357</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 357.01"><seg type="Initiale">H</seg>ie ein tjost, diu and<reg type="Synkope">e</reg>r dort.</l>
+<l n="*D 357.02">daz her begunde ouch trecken vort</l>
+<l n="*D 357.03">her gein der stat durch hôhen muot.</l>
+<l n="*D 357.04">ir vesp<reg type="Synkope">e</reg>rîe wart vil guot.</l>
+<l n="*D 357.05">ze bêder sîte rotte ungezalt,</l>
+<l n="*D 357.06">garzûne, krîe manecvalt,</l>
+<l n="*D 357.07">bêde <name type="Person">Schottesch</name> unt <name type="Person">Walsch</name></l>
+<l n="*D 357.08">wart dâ gerüefet sund<reg type="Synkope">e</reg>r valsch.</l>
+<l n="*D 357.09">der ritt<reg type="Synkope">e</reg>r tât was âne vride,</l>
+<l n="*D 357.10">die helde erswungen dâ die lide.</l>
+<l n="*D 357.11">ez wâren doch allez meistec kint,</l>
+<l n="*D 357.12">die ûzem her dar kom<reg type="Synkope">e</reg>n sint.</l>
+<l n="*D 357.13">die begunden dâ vil werde tât,</l>
+<l n="*D 357.14">die burg&#x00E6;re pfanten si ûf der sât.</l>
+<l n="*D 357.15">der nie gediende an wîbe</l>
+<l n="*D 357.16">kleinôt, der m<corr type="Emendation">ö</corr>hte an sîme lîbe</l>
+<l n="*D 357.17">niemer bezzer wât getrag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 357.18">von <name type="Person">Melyanze</name> hôrt ich sag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 357.19">sîn zimierde w&#x00E6;re guot.</l>
+<l n="*D 357.20">er hete ouch selbe hôhen muot</l>
+<l n="*D 357.21">unt reit ein sch&#x0153;ne kastelân,</l>
+<l n="*D 357.22">daz <name type="Person">Meljacanz</name> dort gewan,</l>
+<l n="*D 357.23">dô er <name type="Person">Keien</name> sô hôhe d<reg type="Synkope">a</reg>r hind<reg type="Synkope">e</reg>r stach,</l>
+<l n="*D 357.24">daz mann am aste hangen sach.</l>
+<l n="*D 357.25">dô ez <name type="Person">Melyacanz</name> dort erstreit,</l>
+<l n="*D 357.26"><name type="Person">Melyanz</name> von <name type="Ort">Liz</name> ez hie wol reit.</l>
+<l n="*D 357.27">sîn tât was vor ûz sô bekant,</l>
+<l n="*D 357.28">alle sîne tjoste in ir ougen vant</l>
+<l n="*D 357.29"><name type="Person">Obie</name> dort ûf dem palas,</l>
+<l n="*D 357.30">dar si durch warten kom<reg type="Synkope">e</reg>n was.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 357.21-24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 357.19-20)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="357.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="357.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="357.09"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="357.10"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>L</wit>
+</rdg></app>
+<app loc="357.15"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="357.15"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="357.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="357.01">
+<lem>Hie</lem> <rdg>hie wart <wit>*m</wit></rdg>
+</app>
+<app loc="357.11">
+<rdg>ez wâren doch allez daz mêrteil kint, <wit>*m</wit></rdg>
+</app>
+<app loc="357.13">
+<lem>begunden</lem> <rdg>begiengen <wit>*m</wit></rdg>
+</app>
+<app loc="357.14">
+<lem>sât</lem> <rdg>stat <wit>*m</wit></rdg>
+</app>
+<app loc="357.16">
+<rdg>klein&#x0153;de, der endorfte (deern bedorft <wit>I</wit> der dort <wit>O</wit> dort dorft <wit>L</wit>) an lîbe <wit>*G</wit></rdg>
+</app>
+<app loc="357.16">
+<rdg>kleinôt, der endorft an lîbe <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="357.16">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="357.16">
+<lem>sîme</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="357.19">
+<rdg>Sin zimierde were gu&#x0366;t <wit>V</wit></rdg>
+</app>
+<app loc="357.20">
+<rdg>Er hette o&#x036E;ch selbe hohen mu&#x0366;t <wit>V</wit></rdg>
+</app>
+<app loc="357.23">
+<lem>hinder</lem> <rdg>nider <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="357.26">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="357.28">
+<lem>alle</lem> <rdg>daz alle <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="357.01">
+<rdg>Hie ist (wart <wit>V</wit> <note>om.</note> <wit>I</wit> <wit>O</wit>) ein tj., ein (die <wit>V</wit>) anderiu d. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="357.02">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="357.03">
+<rdg></rdg>
+</app>
+<app loc="357.04">
+<rdg></rdg>
+</app>
+<app loc="357.05">
+<rdg>roten <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="357.06">
+<rdg></rdg>
+</app>
+<app loc="357.07">
+<rdg></rdg>
+</app>
+<app loc="357.08">
+<rdg></rdg>
+</app>
+<app loc="357.09">
+<rdg><note>Versfolge 357.10-9</note> <wit>*G</wit> <note>(nur GIL)</note> <wit>*T</wit> · âne vride. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="357.10">
+<rdg>die l., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="357.11">
+<rdg>wol tâtenz ouch (dâ <wit>*T</wit>) diu selben k., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="357.12">
+<rdg></rdg>
+</app>
+<app loc="357.13">
+<rdg>die begiengen werdiclîche (werdchlie <wit>G</wit> do vil werde <wit>V</wit>) tât (getat <wit>I</wit> <wit>O</wit>), <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="357.14">
+<rdg>ûf der stat (dem <subst><del>stade</del><add>sat</add></subst> <wit>I</wit>). <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="357.15">
+<rdg>Der ie g. w. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="357.16">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="357.17">
+<rdg>n. b. wât getragen <wit>*T</wit></rdg>
+</app>
+<app loc="357.18">
+<rdg>von Melianze h&#x0153;re ich s., <wit>*G</wit> <note>(ohne Z)</note> · danne Melyanz, h&#x0153;re ich sagen. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="357.19">
+<rdg><note>Die Verse 357.19-20 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="357.20">
+<rdg>h. muot. <wit>*G</wit></rdg>
+</app>
+<app loc="357.21">
+<rdg>er r. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="357.22">
+<rdg></rdg>
+</app>
+<app loc="357.23">
+<rdg>sô verre dar h. (drab <wit>I</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="357.24">
+<rdg>man in (<note>om.</note> <wit>T</wit>) an einem a. <wit>*T</wit></rdg>
+</app>
+<app loc="357.25">
+<rdg></rdg>
+</app>
+<app loc="357.26">
+<rdg></rdg>
+</app>
+<app loc="357.27">
+<rdg>sîn tât was vor ûz erkant. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="357.28">
+<rdg></rdg>
+</app>
+<app loc="357.29">
+<rdg></rdg>
+</app>
+<app loc="357.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

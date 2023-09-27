@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 794</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 794.01"><corr type="Emendation">S</corr>i vunden volkes ungezalt,</l>
+<l n="*D 794.02">manegen wünneclîchen rîter alt,</l>
+<l n="*D 794.03">edeliu kint, vil scharjante.</l>
+<l n="*D 794.04">die trûrigen mahinante</l>
+<l n="*D 794.05">dirre künfte vrô wol mohten sîn.</l>
+<l n="*D 794.06"><name type="Person">Feirefiz</name> <name type="Person">Anschevin</name></l>
+<l n="*D 794.07">unt <name type="Person">Parzival</name>, si bêde,</l>
+<l n="*D 794.08">vor dem palase an der grêde</l>
+<l n="*D 794.09">si wurden wol enpfangen.</l>
+<l n="*D 794.10">in den palas wart gegangen.</l>
+<l n="*D 794.11"><seg type="Initiale" subtype="Majuskel">D</seg>â lac nâch ir gewonheit</l>
+<l n="*D 794.12">hundert sinwelle teppech breit,</l>
+<l n="*D 794.13">ûf ieslîchem ein pflûmît</l>
+<l n="*D 794.14">unt ein kulter lanc von samît.</l>
+<l n="*D 794.15"><seg type="Initiale" subtype="Majuskel">V</seg>uoren die zwêne mit witzen,</l>
+<l n="*D 794.16">si mohten etswâ dâ sitzen,</l>
+<l n="*D 794.17">unz manz harnasch von in enpfienc.</l>
+<l n="*D 794.18">ein kamer&#x00E6;re dar nâher gienc.</l>
+<l n="*D 794.19">der brâht in kleider rîche,</l>
+<l n="*D 794.20">den beiden al gelîche.</l>
+<l n="*D 794.21"><seg type="Initiale" subtype="Majuskel">S</seg>i sâzen, swaz dâ rîter was.</l>
+<l n="*D 794.22">man truoc von golde - ez was niht glas -</l>
+<l n="*D 794.23">vür si manegen tiwern schâl.</l>
+<l n="*D 794.24"><name type="Person">Feirefiz</name> unt <name type="Person">Parzival</name></l>
+<l n="*D 794.25">trunken und giengen dan</l>
+<l n="*D 794.26">z<name type="Person">Anfortase</name>, dem trûrigem man.</l>
+<l n="*D 794.27"><seg type="Initiale" subtype="Majuskel">I</seg>r habt ê vernomen, daz</l>
+<l n="*D 794.28">der lente unt daz er selten saz</l>
+<l n="*D 794.29">unt wie sîn bette gehêrt was.</l>
+<l n="*D 794.30">dise zwêne enpfienc dô <name type="Person">Anfortas</name></l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 794.10)</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="794.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="794.05"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="794.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="794.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="794.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="794.21"><rdg>
+<note>Initiale</note> <wit>U</wit>
+</rdg></app><app loc="794.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="794.27"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="794.01">
+<lem>Si</lem> <rdg>&#x00F7;i <wit>D</wit></rdg>
+</app>
+<app loc="794.05">
+<rdg>diser geste vrô mohten (Die ir geste fro wol mo&#x0364;htent <wit>V</wit>) sîn. <wit>*m</wit></rdg>
+</app>
+<app loc="794.05">
+<rdg>Dirre künfte (Dirre iungelinc chunfte <wit>I</wit> Dirre kanipft <wit>L</wit> Dirre ku&#x0366;nste <wit>U</wit>) wol vrô mohte (mac <wit>I</wit> mohten <wit>*T</wit> [<wit>L</wit> <wit>Z</wit>]) sîn <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="794.08">
+<lem>an</lem> <rdg>vor <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="794.09">
+<lem>si</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="794.16">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="794.17">
+<lem>manz</lem> <rdg><subst><del>mans</del><add>manz</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="794.27">
+<lem>ê</lem> <rdg>wol ê <wit>*m</wit></rdg>
+</app>
+<app loc="794.28">
+<rdg>der lente und selten saz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="794.01">
+<rdg>dâ vunden (von <wit>Z</wit>) si v. (volc <wit>I</wit>) u., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="794.02">
+<rdg>manigen junclîchen (<note>om.</note> <wit>I</wit>) r. alt, <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="794.03">
+<rdg></rdg>
+</app>
+<app loc="794.04">
+<rdg>die truogen (trvrige <wit>L</wit>) mahinande. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="794.05">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="794.06">
+<rdg></rdg>
+</app>
+<app loc="794.07">
+<rdg></rdg>
+</app>
+<app loc="794.08">
+<rdg>an der heide <wit>*T</wit></rdg>
+</app>
+<app loc="794.09">
+<rdg></rdg>
+</app>
+<app loc="794.10">
+<rdg>ûf den <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="794.11">
+<rdg></rdg>
+</app>
+<app loc="794.12">
+<rdg>sinwel hundert <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="794.13">
+<rdg></rdg>
+</app>
+<app loc="794.14">
+<rdg>lac und ein k. (Vnde ein culter <subst><del>*</del><add>lag</add></subst> <wit>V</wit>) von s. <wit>*T</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="794.15">
+<rdg></rdg>
+</app>
+<app loc="794.16">
+<rdg>si m. wol gesitzen (etswa wol sitzen <wit>L</wit>), <wit>*G</wit> <note>(ohne Z)</note> · dâ <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="794.17">
+<rdg></rdg>
+</app>
+<app loc="794.18">
+<rdg></rdg>
+</app>
+<app loc="794.19">
+<rdg></rdg>
+</app>
+<app loc="794.20">
+<rdg>den zwein algelîche (allen gelîche <wit>*T</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="794.21">
+<rdg>Si (Do <wit>L)</wit> s. ouch, <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="794.22">
+<rdg></rdg>
+</app>
+<app loc="794.23">
+<rdg></rdg>
+</app>
+<app loc="794.24">
+<rdg></rdg>
+</app>
+<app loc="794.25">
+<rdg></rdg>
+</app>
+<app loc="794.26">
+<rdg></rdg>
+</app>
+<app loc="794.27">
+<rdg>ir h. wol (auch <wit>I</wit> ouch wol <wit>L</wit> <wit>Z</wit> doch wol <wit>*T</wit>) gehôrt daz, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="794.28">
+<rdg>daz er (<subst><del>Der</del><add>Daz er</add></subst> <wit>V</wit>) l. unde niht (selten <wit>*T</wit> [<wit>V</wit>]) ensaz <wit>*G</wit> (<wit>*T</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="794.29">
+<rdg></rdg>
+</app>
+<app loc="794.30">
+<rdg>die zw. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

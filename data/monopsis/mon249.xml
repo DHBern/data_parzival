@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 249</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 249.01"><seg type="Initiale">D</seg>er valscheite wid<reg type="Synkope">e</reg>rsaz</l>
+<l n="*D 249.02">kêrte ûf der huofslege kraz.</l>
+<l n="*D 249.03">sîn scheiden dan, daz riwet mich.</l>
+<l n="*D 249.04">alrêst nû âventiwert ez sich.</l>
+<l n="*D 249.05">dô begunde krenken sich ir spor.</l>
+<l n="*D 249.06">sich schieden, die dâ riten vor.</l>
+<l n="*D 249.07">ir slâ wart smal, diu ê was breit.</l>
+<l n="*D 249.08">er verlôs si gar, daz was im leit.</l>
+<l n="*D 249.09">m&#x00E6;re vriesch dô der junge man,</l>
+<l n="*D 249.10">dâ von er herzenôt gewan.</l>
+<l n="*D 249.11"><seg type="Initiale" subtype="Majuskel">D</seg>ô erhôrte der degen ellens rîch</l>
+<l n="*D 249.12">einer vrouwen stimme j&#x00E6;merlîch.</l>
+<l n="*D 249.13">ez was dennoch von touwe naz.</l>
+<l n="*D 249.14">vor im ûf einer linden saz</l>
+<l n="*D 249.15">ein magt, der vuogte ir triwe nôt.</l>
+<l n="*D 249.16">ein gebalsemt ritt<reg type="Synkope">e</reg>r tôt</l>
+<l n="*D 249.17">lent ir zwischen den arm<reg type="Synkope">e</reg>n.</l>
+<l n="*D 249.18">swenz niht wolt erbarm<reg type="Synkope">e</reg>n,</l>
+<l n="*D 249.19">der si sô sitzen s&#x00E6;he,</l>
+<l n="*D 249.20">untriwen ich im j&#x00E6;he.</l>
+<l n="*D 249.21"><seg type="Initiale" subtype="Majuskel">S</seg>în ors dô gein ir wante,</l>
+<l n="*D 249.22">der wênic si bekante.</l>
+<l n="*D 249.23">si was doch sîner muomen kint.</l>
+<l n="*D 249.24">al irdisch triwe was ein wint,</l>
+<l n="*D 249.25">wan die man an ir lîbe sach.</l>
+<l n="*D 249.26"><name type="Person">Parzival</name> si gruozte und sprach:</l>
+<l n="*D 249.27">"vrouwe, mir ist vil leit</l>
+<l n="*D 249.28">iwer senlîchiu arbeit.</l>
+<l n="*D 249.29">bedurft ir mîn<reg type="Synkope">e</reg>s dienstes iht,</l>
+<l n="*D 249.30">in iwerem dienste man mich siht."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(249.1-2 und 20-27)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr23</wit> <note>(249.15-17)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="249.01"><rdg>
+<note>Großinitiale</note> <wit>D</wit>
+</rdg></app><app loc="249.01"><rdg><note>Initiale</note> <wit>I</wit> <wit>U</wit>
+</rdg></app><app loc="249.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="249.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="249.05"><rdg>
+<note>Überschrift:</note> Aventiwer wie Parzifal bedwanch Orillus sunder twal vnd frowen Iescutten hulde gewan <wit>I</wit>
+</rdg></app><app loc="249.05"><rdg><note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="249.09"><rdg>
+<note>Illustration mit Überschrift:</note> Wie parcifal Sigunen vff einer linden vant <wit>mk</wit>
+</rdg></app><app loc="249.09"><rdg><note>Initiale</note> <wit>mk</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app>
+<app loc="249.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="249.13"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="249.21"><rdg>
+<note>Überschrift:</note> Hie kam parzifal zv&#x0366;m anderen male zv&#x0366; sinre nv́ftelen sigvnen <wit>V</wit>
+</rdg></app><app loc="249.21"><rdg><note>Initiale</note> <wit>V</wit>
+</rdg></app><app loc="249.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="249.27"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="249.01">
+<rdg>sich (&#x00F7;c&#x036E;h <wit>I</wit>) huop der (des <wit>O</wit> [<wit>L</wit>] <wit>Fr21</wit>) velsche (valsche <wit>G</wit> <wit>I</wit> valsches <wit>O</wit> [<wit>L</wit> <wit>Z</wit>] <wit>Fr21</wit>) widersaz <wit>*G</wit></rdg>
+</app>
+<app loc="249.03">
+<lem>sîn scheiden</lem> <rdg>si schieden <wit>*m</wit></rdg>
+</app>
+<app loc="249.09">
+<rdg>Nû vriesch (freisch <wit>mk</wit> vernam <wit>V</wit>) der junge, süeze (<note>om.</note> <wit>V</wit>) man <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="249.10">
+<rdg>m&#x00E6;re, dâ von er nôt gewan (<subst><del>*</del><add>mere do von er not gewan</add></subst> <wit>V</wit>). <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="249.13">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="249.14">
+<rdg><milestone unit="Chretien"/> vnder einer lýnden <wit>L</wit> <note>(auch in R, vgl. 'Conte du Graal', V. 3431:</note> soz .i. chaisne<note>)</note></rdg>
+</app>
+<app loc="249.21">
+<lem>dô gein ir</lem> <rdg>gegen ir dô <wit>*m</wit></rdg>
+</app>
+<app loc="249.27">
+<lem>vil</lem> <rdg>sêre <wit>*m</wit></rdg>
+</app>
+<app loc="249.29">
+<lem>dienstes</lem> <rdg>diens <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="249.01">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="249.02">
+<rdg>vaste (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>) ûf der h. kr. <wit>*G</wit></rdg>
+</app>
+<app loc="249.03">
+<rdg></rdg>
+</app>
+<app loc="249.04">
+<rdg>Nû êrst âventiuret ez (<note>om.</note> <wit>T</wit>) s. <wit>*T</wit></rdg>
+</app>
+<app loc="249.05">
+<rdg></rdg>
+</app>
+<app loc="249.06">
+<rdg></rdg>
+</app>
+<app loc="249.07">
+<rdg></rdg>
+</app>
+<app loc="249.08">
+<rdg>die v. er gar, <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="249.09">
+<rdg>dô <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="249.10">
+<rdg></rdg>
+</app>
+<app loc="249.11">
+<rdg>ez (Da <wit>O</wit> [<wit>L</wit>] <wit>Z</wit> [<wit>Fr21</wit>]) vernam <wit>*G</wit> · der helt e. rîche <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="249.12">
+<rdg></rdg>
+</app>
+<app loc="249.13">
+<rdg></rdg>
+</app>
+<app loc="249.14">
+<rdg>Vor im vnder einer lýnden <wit>L</wit> <milestone unit="Chretien"/></rdg>
+</app>
+<app loc="249.15">
+<rdg></rdg>
+</app>
+<app loc="249.16">
+<rdg></rdg>
+</app>
+<app loc="249.17">
+<rdg>lac an ir a. <wit>*T</wit></rdg>
+</app>
+<app loc="249.18">
+<rdg>den (dem <wit>I</wit> [<wit>O</wit>]) ez (daz <wit>L</wit>) n. <wit>*G</wit> den si (<subst><del>D*</del><add>Swen ez</add></subst> <wit>V</wit>) n. <wit>*T</wit></rdg>
+</app>
+<app loc="249.19">
+<rdg>si alsô sitzen <wit>*T</wit> (<wit>G</wit>)</rdg>
+</app>
+<app loc="249.20">
+<rdg></rdg>
+</app>
+<app loc="249.21">
+<rdg>sîn ôre (ors <wit>V</wit>) er gegen ir w. (wende <wit>U</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="249.22">
+<rdg>si erkande (erkende <wit>U</wit>). <wit>*T</wit> (<wit>Fr69</wit>) <wit>Z</wit></rdg>
+</app>
+<app loc="249.23">
+<rdg></rdg>
+</app>
+<app loc="249.24">
+<rdg></rdg>
+</app>
+<app loc="249.25">
+<rdg>wan dier an (<subst><del>W*</del><add>Wande die man an</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="249.26">
+<rdg>unde sp. <wit>*T</wit></rdg>
+</app>
+<app loc="249.27">
+<rdg>"nû wizzet, vr., <wit>*G</wit> · er sprach (<subst><del>sagete*</del><add>sagete</add></subst> <wit>U</wit> sagete <wit>V</wit>): "vr., <wit>*T</wit> · vil <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="249.28">
+<rdg></rdg>
+</app>
+<app loc="249.29">
+<rdg></rdg>
+</app>
+<app loc="249.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

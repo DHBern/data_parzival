@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 215</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>03.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 215.01">- dâ vert ouch vor dir <name type="Person">Kingrun</name> -,</l>
+<l n="*D 215.02">gein <name type="Person">Artuse</name> dem <name type="Person">Bertun</name>.</l>
+<l n="*D 215.03">dem soltû mînen dienest sagen.</l>
+<l n="*D 215.04">bit in, daz er mir helfe klagen</l>
+<l n="*D 215.05">last<reg type="Synkope">e</reg>r, daz ich vuorte dan.</l>
+<l n="*D 215.06">ein juncvrouwe mich lachte an.</l>
+<l n="*D 215.07">daz man die durch mich zerblou,</l>
+<l n="*D 215.08">sô sêre mich nie dinc gerou.</l>
+<l n="*D 215.09">der selben sage, ez sî mir leit,</l>
+<l n="*D 215.10">unt bring ir dîne sicherheit,</l>
+<l n="*D 215.11">sô daz dû leistes sîn gebot,</l>
+<l n="*D 215.12">oder nim alhie den tôt."</l>
+<l n="*D 215.13">"<seg type="Initiale" subtype="Majuskel">S</seg>ol daz geteilte gelten,</l>
+<l n="*D 215.14">sône wil ichz niht beschelten."</l>
+<l n="*D 215.15">sus sprach der künec von <name type="Ort">Brandigan</name>:</l>
+<l n="*D 215.16">"ich wil die vart von hinnen hân."</l>
+<l n="*D 215.17"><seg type="Initiale" subtype="Majuskel">M</seg>it gelübde dô dannen schiet,</l>
+<l n="*D 215.18">den ê sîn hôchvart verriet.</l>
+<l n="*D 215.19"><name type="Person">Parzival</name>, der wîgant,</l>
+<l n="*D 215.20">gienc, dâ er sîn ors al müede vant.</l>
+<l n="*D 215.21">sîn vuoz dar nâch nie gegreif:</l>
+<l n="*D 215.22">er spranc drûf âne stegreif,</l>
+<l n="*D 215.23">daz alumbe begunden zirben</l>
+<l n="*D 215.24">sîne verhouwene schildes schirben.</l>
+<l n="*D 215.25"><seg type="Initiale">D</seg>es wâren die burg&#x00E6;re gemeit.</l>
+<l n="*D 215.26">daz ûzer her sach herzeleit.</l>
+<l n="*D 215.27">brât unt lide im tâten wê.</l>
+<l n="*D 215.28">man leite den künec <name type="Person">Clamide</name>,</l>
+<l n="*D 215.29">dâ sîne helf&#x00E6;re wâren.</l>
+<l n="*D 215.30">die tôten mit den bâren</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(215.6-8, 16-18 und 21-24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="215.13"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="215.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="215.19"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="215.25"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="215.26"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="215.29"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit> <wit>Fr21</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="215.11">
+<lem>sîn</lem> <rdg>ir <wit>*m</wit></rdg>
+</app>
+<app loc="215.12">
+<lem>alhie</lem> <rdg>alhie von mir <wit>*m</wit></rdg>
+</app>
+<app loc="215.14">
+<rdg>sô enwil ichz niht beschelten", <wit>*m</wit></rdg>
+</app>
+<app loc="215.14">
+<rdg>sône wil ich sîn niht schelten (ich nit beschelten <wit>U</wit> <subst><del>*</del><add>ichz</add></subst> niht beschelten <wit>V</wit> ihs niht schelten <wit>Z</wit>)", <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="215.15">
+<rdg>sprach der künic von Brandigan. <wit>*m</wit></rdg>
+</app>
+<app loc="215.18">
+<rdg>den sîn (sins <wit>mk</wit>) hôchvart ê verriet. <wit>*m</wit></rdg>
+</app>
+<app loc="215.21">
+<lem>nâch</lem> <rdg>nâher <wit>*m</wit></rdg>
+</app>
+<app loc="215.23">
+<rdg>daz umbe in begunden (vmbe gegvnden <wit>O</wit> ez vmbe begu̽nde <wit>L</wit> vmbe gunde <wit>Z</wit> [<wit>Fr21</wit>]) zirben <wit>*G</wit></rdg>
+</app>
+<app loc="215.23">
+<rdg>daz ez (<subst><del>*</del><add>ez</add></subst> <wit>V</wit>) umbe begunde zwirben. <wit>*T</wit></rdg>
+</app>
+<app loc="215.24">
+<rdg>sînes schiltes (Sines verhowen schiltes <wit>L</wit> Sin verhowenz schilde <wit>Z</wit>) schirben. <wit>*G</wit></rdg>
+</app>
+<app loc="215.24">
+<rdg>sîner verhouwenen schiltschirben (<subst><del>Sin*</del><add>Sins</add></subst> verhowene <subst><del>*</del><add>schiltez</add></subst> schirben <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="215.27">
+<rdg><note>Versfolge 215.28-27</note> <wit>*m</wit></rdg>
+</app>
+<app loc="215.27">
+<rdg>dem (<subst><del>D*</del><add>Dem</add></subst> <wit>V</wit>) brât und lide tâten wê, <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="215.28">
+<rdg>man vuorte den künic Clamide, <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="215.01">
+<rdg>ou. dîn (dir <wit>U</wit> <subst><del>*</del><add>uor dir</add></subst> <wit>V</wit>) Kyngrun -, <wit>*T</wit></rdg>
+</app>
+<app loc="215.02">
+<rdg></rdg>
+</app>
+<app loc="215.03">
+<rdg></rdg>
+</app>
+<app loc="215.04">
+<rdg></rdg>
+</app>
+<app loc="215.05">
+<rdg></rdg>
+</app>
+<app loc="215.06">
+<rdg></rdg>
+</app>
+<app loc="215.07">
+<rdg></rdg>
+</app>
+<app loc="215.08">
+<rdg></rdg>
+</app>
+<app loc="215.09">
+<rdg></rdg>
+</app>
+<app loc="215.10">
+<rdg></rdg>
+</app>
+<app loc="215.11">
+<rdg>leistest ir g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="215.12">
+<rdg>o. dû, nim <wit>*G</wit> · a. von mir (von mir alhie <wit>V</wit>) den tôt." <wit>*T</wit></rdg>
+</app>
+<app loc="215.13">
+<rdg></rdg>
+</app>
+<app loc="215.14">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="215.15">
+<rdg>dô sp. <wit>*G</wit> <note>(nur G)</note> sp. <wit>*T</wit> <wit>I</wit> · von Br. <wit>*T</wit></rdg>
+</app>
+<app loc="215.16">
+<rdg>die reise von h. (reise hinne <wit>I</wit> [<wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>]) <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="215.17">
+<rdg>mit urloube (vrlaube er <wit>I</wit> [<wit>O</wit> <wit>V</wit>] gelu̽bede er <wit>L</wit> gelübede <wit>*T</wit>) dannen sch., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="215.18">
+<rdg>den ê sîn hôher muot v. <wit>*G</wit> <note>(nur GI)</note> den  ̂sîn stolzheit v. <wit>*T</wit></rdg>
+</app>
+<app loc="215.19">
+<rdg></rdg>
+</app>
+<app loc="215.20">
+<rdg></rdg>
+</app>
+<app loc="215.21">
+<rdg>dar nâher (<subst><del>darna*</del><add>darnaher</add></subst> <wit>V</wit>) nie <wit>*G</wit> <note>(ohne OFr21)</note></rdg>
+</app>
+<app loc="215.22">
+<rdg></rdg>
+</app>
+<app loc="215.23">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="215.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="215.25">
+<rdg>Des (<subst><del>D*</del><add>Dez</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="215.26">
+<rdg>s. herzeleit <wit>*T</wit></rdg>
+</app>
+<app loc="215.27">
+<rdg><note>Versfolge 215.28-27</note> <wit>*T</wit></rdg>
+</app>
+<app loc="215.28">
+<rdg>an dem künege Clamide. <wit>*T</wit></rdg>
+</app>
+<app loc="215.29">
+<rdg>man vuortin, dâ s. h. w. <wit>*T</wit></rdg>
+</app>
+<app loc="215.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

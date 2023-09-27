@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 47</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 47.01">in küssen unt vâhen zir.</l>
+<l n="*D 47.02">er sprach: "nû ging ouch her ze mir."</l>
+<l n="*D 47.03">der wirt in kuste selbe dô.</l>
+<l n="*D 47.04">si wâren ze sehen ein and<reg type="Synkope">e</reg>r vrô.</l>
+<l n="*D 47.05"><name type="Person"><seg type="Initiale"><corr type="Emendation">G</corr></seg>ahmuret</name> sprach ab<reg type="Synkope">e</reg>r sân:</l>
+<l n="*D 47.06">"owê, junc süezer man!</l>
+<l n="*D 47.07">waz solte her dîn kranker lîp?</l>
+<l n="*D 47.08">sag an, gebôt dir daz ein wîp?"</l>
+<l n="*D 47.08-1"></l>
+<l n="*D 47.08-2"></l>
+<l n="*D 47.09">"die gebietent wênic, hêrre, mir.</l>
+<l n="*D 47.10">mich hât mîn veter <name type="Person">Gaschier</name></l>
+<l n="*D 47.11">her brâht. er weiz wol selbe wie.</l>
+<l n="*D 47.12">ich hân im tûsent rîter hie</l>
+<l n="*D 47.13">unt stên im dienestlîche bî.</l>
+<l n="*D 47.14">ze <name type="Ort">R&#x0153;ms</name> in <name type="Ort">Normandi</name></l>
+<l n="*D 47.15">kom ich zer samnunge.</l>
+<l n="*D 47.16">ich brâht im helde junge.</l>
+<l n="*D 47.17"><seg type="Initiale" subtype="Majuskel">I</seg>ch vuor von <name type="Ort">Schampane</name> durch in.</l>
+<l n="*D 47.18">nû wil kunst unt sin</l>
+<l n="*D 47.19">der schade an in kêren,</l>
+<l n="*D 47.20">ir enwelt iuch selben êren.</l>
+<l n="*D 47.21">gebietet ir, sô lât in mîn</l>
+<l n="*D 47.22">geniezen, <seg type="singuläre_Lesart">semften</seg> sînen pîn."</l>
+<l n="*D 47.23">"<seg type="Initiale" subtype="Majuskel">D</seg>en rât nim dû vil gar zuo dir.</l>
+<l n="*D 47.24">var dû unt <corr type="Emendation">m</corr>î<corr type="Emendation">n</corr> hêr <name type="Person">Gaschier</name></l>
+<l n="*D 47.25">unt bringet mir <name type="Person">Kayleten</name> her."</l>
+<l n="*D 47.26">dô wur<corr type="Emendation">b</corr>en si des heldes ger.</l>
+<l n="*D 47.27">si brâhten in durch sîne bete.</l>
+<l n="*D 47.28">dô wart ouch er von <name type="Person">Gahmurete</name></l>
+<l n="*D 47.29">minneclîche enpfangen</l>
+<l n="*D 47.30">unt dicke umbevangen</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit> <note>(47.1-17)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(mit 47.8¹-8²)</note> <wit>V</wit> <note>(mit 47.8¹-8²)</note> <wit>T</wit> <note>(ohne 47.8¹-8²)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="47.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="47.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="47.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr14</wit> <wit>mk</wit>
+</rdg></app><app loc="47.05"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="47.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="47.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="47.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="47.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="47.03">
+<lem>kuste selbe</lem> <rdg>selber kuste <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="47.05">
+<lem>Gahmuret</lem> <rdg>&#x00F7;ahmvret <wit>D</wit></rdg>
+</app>
+<app loc="47.14">
+<lem>R&#x0153;ms</lem> <rdg>Rumes <wit>*m</wit></rdg>
+</app>
+<app loc="47.16">
+<lem>im</lem> <rdg>dem <wit>Fr14</wit></rdg>
+</app>
+<app loc="47.20">
+<lem>selben</lem> <rdg>selbe <wit>Fr14</wit></rdg>
+</app>
+<app loc="47.21">
+<lem>ir</lem> <rdg>irs <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="47.22">
+<lem>semften sînen</lem> <rdg>senftet sinen <wit>Fr14</wit> senftet mîne <wit>*m</wit></rdg>
+</app>
+<app loc="47.23">
+<lem>vil</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="47.24">
+<lem>mîn</lem> <rdg>nim <wit>D</wit></rdg>
+</app>
+<app loc="47.26">
+<lem>wurben</lem> <rdg>wrden <wit>D</wit></rdg>
+</app>
+<app loc="47.28">
+<lem>ouch er</lem> <rdg>er ouch <wit>*m</wit></rdg>
+</app>
+<app loc="47.29">
+<rdg>unde minniclîche enpfangen <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="47.29">
+<rdg>vil minniclîche (mynneche <wit>L</wit>) enpfangen, <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="47.01">
+<rdg></rdg>
+</app>
+<app loc="47.02">
+<rdg>"nû gêt ir her <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="47.03">
+<rdg>diu wirtîn in s. (Der wunde man in <wit>T</wit>) k. dô. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="47.04">
+<rdg>si w. ein a. zuo s. (sehende <wit>V</wit>) vrô. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="47.05">
+<rdg></rdg>
+</app>
+<app loc="47.06">
+<rdg>junge s. (sv&#x0366;zer ivnger <wit>O</wit> iunge su&#x0366;ze <wit>Fr21</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="47.07">
+<rdg>wolte <wit>*T</wit> <note>(ohne T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="48.08">
+<rdg>dir diz ein <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="47.08-1">
+<rdg>er sprach: "nein ez ist (neines <wit>V</wit>) niht, <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="47.08-2">
+<rdg>waz sô anders mir geschiht. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="47.09">
+<rdg>"die g., h., (herre die gebietent <wit>I</wit> [<wit>L</wit>]) w. mir <wit>*G</wit> · si g., h., w. mir. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="47.10">
+<rdg>mîn hêrre (neve <wit>T</wit>) G. <wit>*T</wit></rdg>
+</app>
+<app loc="47.11">
+<rdg></rdg>
+</app>
+<app loc="47.12">
+<rdg>ich hân im t. ritter hie, <wit>*T</wit></rdg>
+</app>
+<app loc="47.13">
+<rdg>die st. (stent <wit>I</wit>) <wit>*T</wit> <note>(ohne T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="47.14">
+<rdg>ze Roumes in N. <wit>*G</wit> · zer (zu&#x0366; <wit>V</wit> [<wit>T</wit>]) Romischer (Rvmes <subst><del>*</del><add>in</add></subst> <wit>V</wit> Rome in <wit>T</wit>) N. <wit>*T</wit></rdg>
+</app>
+<app loc="47.15">
+<rdg></rdg>
+</app>
+<app loc="47.16">
+<rdg>ich vuorte (<subst><del>*</del><add>brohte</add></subst> <wit>V</wit>) im h. junge <wit>*T</wit> <note>(nur U)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="47.17">
+<rdg>und vuor <wit>*T</wit> <note>(ohne T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="47.18">
+<rdg></rdg>
+</app>
+<app loc="47.19">
+<rdg>ir schaden <wit>*G</wit> den (<subst><del>D*</del><add>Der</add></subst> <wit>V</wit>) schaden <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="47.20">
+<rdg>selber <wit>*T</wit> <note>(ohne T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="47.21">
+<rdg></rdg>
+</app>
+<app loc="47.22">
+<rdg>senftet (senft im <wit>O</wit>) s. pîn." <wit>*G</wit> (<wit>T</wit>)</rdg>
+<rdg>sanfter sîn in (vnde senftern sinen <wit>V</wit>) pîn." <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="47.23">
+<rdg>er sprach: "den rât nim gar ze (ziv <wit>I</wit>) dir. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="47.24">
+<rdg></rdg>
+</app>
+<app loc="47.25">
+<rdg>unde br. (bring <wit>I</wit>) Kaileten her." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="47.26">
+<rdg></rdg>
+</app>
+<app loc="47.27">
+<rdg>in nâch (in so noch <wit>O</wit>) sîner bet. <wit>*G</wit> <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="47.28">
+<rdg>er ouch <wit>*T</wit> <note>(ohne T)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="47.29">
+<rdg><note>Versfolge 47.30-29</note> <wit>*G</wit> <note>(nur GI)</note> · &#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="47.30">
+<rdg>vil (<note>om.</note> <wit>G</wit>) d. u. <wit>*G</wit> <note>(ohne OL)</note> · mit armen u. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

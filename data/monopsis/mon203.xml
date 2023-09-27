@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 203</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>03.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 203.01">zwêne tage unt die dritten naht.</l>
+<l n="*D 203.02">von im dicke wart gedâht</l>
+<l n="*D 203.03">umbevâhens, des sîn muot<reg type="Synkope">e</reg>r riet.</l>
+<l n="*D 203.04"><name type="Person">Gurnemanz</name> im ouch underschiet,</l>
+<l n="*D 203.05">man unt wîp w&#x00E6;ren al ein.</l>
+<l n="*D 203.06">sich vlâhten arm unt bein.</l>
+<l n="*D 203.07">ob ich iu sagen müeze,</l>
+<l n="*D 203.08">er vant daz nâhe süeze.</l>
+<l n="*D 203.09"><seg type="Initiale" subtype="Majuskel">D</seg>er alte unt der niwe site</l>
+<l n="*D 203.10">wonte aldâ in beiden mite.</l>
+<l n="*D 203.11">in was wol unt niht ze wê.</l>
+<l n="*D 203.12">nû h&#x0153;ret ouch, wie <name type="Person">Clamide</name></l>
+<l n="*D 203.13">in krefteclîcher hervart</l>
+<l n="*D 203.14">mit m&#x00E6;ren ungetr&#x0153;stet wart.</l>
+<l n="*D 203.15">sus begunde im ein knappe sagen,</l>
+<l n="*D 203.16">des ors zen sîten was durchslagen:</l>
+<l n="*D 203.17">"vor <name type="Ort">Pelrapeire</name> ûf dem plân</l>
+<l n="*D 203.18">ist werdiu rîterschaft getân,</l>
+<l n="*D 203.19">scharpf genuoc von ritters hant.</l>
+<l n="*D 203.20">betwungen ist der scheneschlant.</l>
+<l n="*D 203.21">des hers meist<reg type="Synkope">e</reg>r <name type="Person">Kingrun</name></l>
+<l n="*D 203.22">vert gein <name type="Person">Artuse</name> dem <name type="Person">Bertune</name>.</l>
+<l n="*D 203.23"></l>
+<l n="*D 203.24"></l>
+<l n="*D 203.25">ir unt iwer bêdiu her</l>
+<l n="*D 203.26">vindet <name type="Ort">Pelrapeire</name> mit wer.</l>
+<l n="*D 203.27">dort inne ist ein ritt<reg type="Synkope">e</reg>r wert,</l>
+<l n="*D 203.28">der anders niht wan strîtes gert.</l>
+<l n="*D 203.29"><seg type="Initiale">I</seg>wer soldiere jehent besunder,</l>
+<l n="*D 203.30">daz von der tavelrunder</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(ohne 203.23-24)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 203.23-24)</note> <wit>Fr69</wit> <note>(203.10-13, 15-20 und 28-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 203.19-20)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="203.05"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="203.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="203.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="203.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="203.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="203.17"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="203.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="203.01">
+<lem>die dritten</lem> <rdg>drîe <wit>*m</wit></rdg>
+</app>
+<app loc="203.04">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="203.06">
+<lem>sich</lem> <rdg>si <wit>*m</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="203.07">
+<lem>iu</lem> <rdg>iuz <wit>*m</wit></rdg>
+</app>
+<app loc="203.11">
+<lem>in</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+<app loc="203.15">
+<rdg>sus begunde in ein knappe sagen <wit>*m</wit></rdg>
+</app>
+<app loc="203.15">
+<lem>sus begunde im</lem> <rdg>diz (daz <wit>I</wit>) begunde im <wit>*G</wit> <note>(ohne Z)</note> Sus begundin (Sos begu&#x0366;nde im <wit>U</wit> <subst><del>*</del><add>Diz begunde im</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="203.16">
+<rdg>- daz ros (Des or <wit>Fr69)</wit> zuon (zu̽ <wit>mk</wit>) sîten was durchslagen -: <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="203.19">
+<rdg>von einen chu&#x0364;nem degen balt <wit>I</wit> · Scharpf genv&#x0366;ch von riters hant (han <wit>Fr21</wit>) <wit>O</wit> (<wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="203.23">
+<rdg><note>Die Verse 203.23-24 fehlen</note> <wit>*m</wit></rdg>
+</app>
+<app loc="203.26">
+<lem>vindet</lem> <rdg>vindent <wit>*m</wit></rdg>
+</app>
+<app loc="203.28">
+<lem>wan</lem> <rdg>danne <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="203.01">
+<rdg>unt drî n. <wit>*G</wit> <note>(nur GI)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="203.02">
+<rdg>w. bedâht <wit>*G</wit> <note>(nur GFr21)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="203.03">
+<rdg>umbevâhen, daz (Vmbe vahens daz im <wit>L</wit> Vmbe vahens daz <wit>Z</wit> [<wit>U</wit>]) sîn <wit>*G</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="203.04">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="203.05">
+<rdg>man unde wîp (wîp unde man <wit>*T</wit>), diu w. (waren <wit>G</wit>) al ein. <wit>*G</wit> <note>(nur GLZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="203.06">
+<rdg></rdg>
+</app>
+<app loc="203.07">
+<rdg>ich ez iu <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="203.08">
+<rdg>er v. daz nâhen (da nahe <wit>L</wit>) s. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="203.09">
+<rdg></rdg>
+</app>
+<app loc="203.10">
+<rdg>w. (Want al <wit>Z</wit>) dâ in b. m. <wit>*G</wit> <note>(nur GI)</note> · wont in dâ al (in al da <wit>U</wit>) b. m. (<subst><del>milte</del><add>mitte</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="203.11">
+<rdg>Sus wart im (waz <subst><del>*</del><add>in</add></subst> <wit>V</wit>) wol <wit>*T</wit> · ze <note>om.</note> <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="203.12">
+<rdg>nû h. mê (<note>om.</note> <wit>Z</wit>), <wit>*G</wit> <note>(ohne IL)</note></rdg>
+</app>
+<app loc="203.13">
+<rdg>an (<subst><del>*</del><add>An</add></subst> <wit>V</wit>) krefticlîcher (creflicher <wit>Fr21</wit>) hôchvart (<subst><del>*</del><add>hervart</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(nur GI)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="203.14">
+<rdg>geuntr&#x0153;stet (Gein im trostet <wit>I</wit> vngestrostet <wit>Fr21</wit> <subst><del>*</del><add>gevntro&#x0364;stet</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(ohne OL)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="203.15">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="203.16">
+<rdg></rdg>
+</app>
+<app loc="203.17">
+<rdg></rdg>
+</app>
+<app loc="203.18">
+<rdg></rdg>
+</app>
+<app loc="203.19">
+<rdg>&#x2193;<wit>*G</wit> · sch. g., dêst mir (gnv̽ch vnd <wit>L</wit>) bekant. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="203.20">
+<rdg>b. ist mit (von <wit>L</wit>) rîters hant <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="203.21">
+<rdg>m. Kyngrun, <wit>*T</wit></rdg>
+</app>
+<app loc="203.22">
+<rdg>der v. <wit>*T</wit></rdg>
+</app>
+<app loc="203.23">
+<rdg>die soldier (Der <wit>O</wit> iuwer soldiere <wit>*T</wit> [<wit>L</wit>]) ligent (lît <wit>O</wit>) noch vor der stat, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="203.24">
+<rdg>dô er dan (er von in <wit>*T</wit> <wit>L</wit>) schiet, als er si bat. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="203.25">
+<rdg>ir tiure (Er vnde ir <wit>O</wit> [<wit>Fr21</wit>] Jr vnd u̽wer <wit>L</wit> [<wit>Z</wit>]), beidiu (beider <wit>I</wit> [<wit>L</wit>]) her <wit>*G</wit></rdg>
+</app>
+<app loc="203.26">
+<rdg>vindent <wit>*G</wit> <note>(nur GOL)</note> · P. ze (<subst><del>*</del><add>mit</add></subst> <wit>V</wit>) wer. <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="203.27">
+<rdg>dâ inne <wit>*T</wit></rdg>
+</app>
+<app loc="203.28">
+<rdg></rdg>
+</app>
+<app loc="203.29">
+<rdg>die (Dise <wit>Z</wit> <subst><del>*</del><add>Vwer</add></subst> <wit>V</wit>) soldier <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="203.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

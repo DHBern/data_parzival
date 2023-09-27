@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 229</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 229.01"><seg type="Initiale">S</seg>în harnasch was von im getragen.</l>
+<l n="*D 229.02">daz begund<reg type="Synkope">e</reg>r sider sêre klagen,</l>
+<l n="*D 229.03">dâ er sich schimpfes niht versan:</l>
+<l n="*D 229.04">ze hove ein redesp&#x00E6;her man</l>
+<l n="*D 229.05">bat kom<reg type="Synkope">e</reg>n ze vrevellîche</l>
+<l n="*D 229.06">den gast ellens rîche</l>
+<l n="*D 229.07">zem wirte, als ob im w&#x00E6;re zorn.</l>
+<l n="*D 229.08">des het er nâch den lîp verlorn</l>
+<l n="*D 229.09">von dem jungen <name type="Person">Parzival</name>.</l>
+<l n="*D 229.10">dô er sîn swert wol gemâl</l>
+<l n="*D 229.11">ninder bî im ligen vant,</l>
+<l n="*D 229.12">zer viuste twang er sus die hant,</l>
+<l n="*D 229.13">daz daz bluot ûzen nagelen schôz</l>
+<l n="*D 229.14">unt im den ermel gar begôz.</l>
+<l n="*D 229.15">"<seg type="Initiale" subtype="Majuskel">N</seg>ein, hêrre", sprach diu ritterschaft,</l>
+<l n="*D 229.16">"ez ist ein man, der schimpfes kraft</l>
+<l n="*D 229.17">hât, swi<reg type="Synkope">e</reg> trûrec wir anders sîn.</l>
+<l n="*D 229.18">tuot iwer zuht gein im schîn.</l>
+<l n="*D 229.19">ir ensultz niht anders hân vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 229.20">wan daz der visch&#x00E6;re sî kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 229.21">dar gêt - ir sît im werder gast -</l>
+<l n="*D 229.22">unt schüttet ab iu zorn<reg type="Synkope">e</reg>s last."</l>
+<l n="*D 229.23"><seg type="Initiale" subtype="Majuskel">Si</seg> giengen ûf einen palas.</l>
+<l n="*D 229.24">hundert krône dâ gehangen was,</l>
+<l n="*D 229.25">vil kerzen drûf gestôzen</l>
+<l n="*D 229.26">ob den hûsgenôzen,</l>
+<l n="*D 229.27">kleine kerzen al umbe an der want.</l>
+<l n="*D 229.28">hundert bette er ligen vant.</l>
+<l n="*D 229.29">daz schuofen, dies dâ pflâgen.</l>
+<l n="*D 229.30">hundert kulter drûffe lâgen,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(229.6-9 und 12-14)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(229.19-30)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr54</wit> <note>(229.4-26)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="229.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="229.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="229.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="229.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="229.15"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="229.21"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="229.23"><rdg>
+<note>Initiale</note> <wit>Fr54</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="229.23"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="229.02">
+<lem>sêre</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="229.04">
+<rdg>zuo hove &#x2020;kam der werde man&#x2020;, <wit>*m</wit></rdg>
+</app>
+<app loc="229.05">
+<rdg>&#x2020;den enpfienc man minneclîche&#x2020;, <wit>*m</wit></rdg>
+</app>
+<app loc="229.06">
+<rdg>den gast ellens rîche (ellentriche <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="229.12">
+<rdg>der vürste (fúst <wit>Fr69</wit>), twanc er sus die hant, <wit>*m</wit></rdg>
+</app>
+<app loc="229.13">
+<rdg>daz ime daz (<note>om.</note> <wit>Fr69</wit>) bluot ûz dem nagel schôz (dem nagelsang <wit>mk</wit> den nageln schoz <wit>Fr69</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="229.13">
+<lem>daz daz</lem> <rdg>daz <subst><del>des</del><add>dez</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="229.21">
+<rdg>Zuo dem (dar <wit>Fr54</wit>) gêt - ir sît im (<note>om.</note> <wit>O</wit>) ein werder (ein lieber <wit>L</wit> lieber <wit>Fr54</wit>) gast (Zo&#x036E; dem gie der werde gast <wit>G</wit>) - <wit>*G</wit></rdg>
+</app>
+<app loc="229.21">
+<lem>werder</lem> <rdg>ein werder <wit>*m</wit> ein lieber <wit>*T</wit></rdg>
+</app>
+<app loc="229.22">
+<rdg>und lât von (ab <wit>*G</wit>) iu den (<note>om.</note> <wit>L</wit> <wit>Z</wit>) zornes last (an dem des wunsches niht gebrast <wit>G</wit>)." <wit>*m</wit> (<wit>*G</wit>) <note>(ohne Fr54)</note></rdg>
+</app>
+<app loc="229.23">
+<rdg>si giengen ûf einen palas, <wit>*m</wit></rdg>
+</app>
+<app loc="229.24">
+<rdg>dâ hundert krône gehangen was <wit>*m</wit></rdg>
+</app>
+<app loc="229.25">
+<lem>vil</lem> <rdg>und vil <wit>*m</wit></rdg>
+</app>
+<app loc="229.27">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="229.29">
+<rdg>ez (<subst><del>*</del><add>Daz</add></subst> <wit>V</wit>) schuofen, die sîn (di des <wit>O</wit> die ez <wit>L</wit> dies <wit>*T</wit> [<wit>Fr21</wit>]) dâ (<note>om.</note> <wit>V</wit>) pflâgen (geriht herliche <wit>G</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="229.29">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="229.01">
+<rdg></rdg>
+</app>
+<app loc="229.02">
+<rdg>daz er iedoch (doch <wit>U</wit> doch sit <wit>V</wit>) begunde kl., <wit>*T</wit> · sêre <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="229.03">
+<rdg></rdg>
+</app>
+<app loc="229.04">
+<rdg>ein wortsp&#x00E6;her man (man sprach <wit>O</wit>) <wit>*G</wit> <note>(nur I)</note></rdg>
+</app>
+<app loc="229.05">
+<rdg>hiez (<subst><del>*</del><add>Bat</add></subst> <wit>V</wit>) k. <wit>*T</wit> (<wit>L</wit> <wit>Fr54</wit>) · ze <note>om.</note> <wit>*G</wit> <note>(ohne ZFr54)</note> <wit>V</wit> · Er bat <wit>O</wit></rdg>
+</app>
+<app loc="229.06">
+<rdg></rdg>
+</app>
+<app loc="229.07">
+<rdg></rdg>
+</app>
+<app loc="229.08">
+<rdg></rdg>
+</app>
+<app loc="229.09">
+<rdg></rdg>
+</app>
+<app loc="229.10">
+<rdg></rdg>
+</app>
+<app loc="229.11">
+<rdg>bî im l. niender (Bi im nider ligen <wit>U</wit> Niergent bi im ligen <wit>V</wit>) v., <wit>*T</wit></rdg>
+</app>
+<app loc="229.12">
+<rdg>zeiner vûst tw. er sîne h., <wit>*T</wit> · er sô die (sine <wit>Fr54</wit>) h., <wit>*G</wit></rdg>
+</app>
+<app loc="229.13">
+<rdg>daz ime daz bl. (Daz blv&#x0366;t <wit>O</wit> [<wit>Z</wit>] <wit>Fr21</wit> Daz im blu̽t <wit>L</wit> Daz <subst><del>*</del><add>imz</add></subst> blv&#x0366;t <wit>V</wit>) <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="229.14">
+<rdg></rdg>
+</app>
+<app loc="229.15">
+<rdg></rdg>
+</app>
+<app loc="229.16">
+<rdg></rdg>
+</app>
+<app loc="229.17">
+<rdg>wir selbe (wir selber <wit>U</wit> <subst><del>wi*</del><add>wir anders</add></subst> <wit>V</wit>) sîn. <wit>*T</wit></rdg>
+</app>
+<app loc="229.18">
+<rdg>z. an (niht gein <wit>Fr54</wit>) im <wit>*G</wit></rdg>
+</app>
+<app loc="229.19">
+<rdg></rdg>
+</app>
+<app loc="229.20">
+<rdg>v. w&#x00E6;re (ist <wit>I</wit>) k. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="229.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="229.22">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="229.23">
+<rdg>Si g. gegen dem (<subst><del>*</del><add>vf einen</add></subst> <wit>V</wit>) p. <wit>*T</wit></rdg>
+</app>
+<app loc="229.24">
+<rdg></rdg>
+</app>
+<app loc="229.25">
+<rdg></rdg>
+</app>
+<app loc="229.26">
+<rdg></rdg>
+</app>
+<app loc="229.27">
+<rdg>vil kleiner (<subst><del>*eine*</del><add>vil kleiner</add></subst> <wit>V</wit>) k. u. <wit>*G</wit> (<wit>V</wit>) · kl. lieht umb <wit>*T</wit></rdg>
+</app>
+<app loc="229.28">
+<rdg>h. bette er (man <wit>L</wit>) dâ l. v. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="229.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="229.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

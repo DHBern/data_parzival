@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 31</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 31.01">unser vanen sint erkant,</l>
+<l n="*D 31.02">daz zwêne vinger ûz der hant</l>
+<l n="*D 31.03">biutet gein dem eide,</l>
+<l n="*D 31.04">irne geschehe nie sô leide,</l>
+<l n="*D 31.05">wan sît daz <name type="Person">Isenhart</name> lac tôt.</l>
+<l n="*D 31.06">mîner vrouwen vrumt er herzen nôt.</l>
+<l n="*D 31.07">sus stêt diu künegîn gemâl,</l>
+<l n="*D 31.08">vrou <name type="Person">Belakane</name>, sunder twâl</l>
+<l n="*D 31.09">in einen blanken samît,</l>
+<l n="*D 31.10">gesniten von swarzer varwe, sît</l>
+<l n="*D 31.11">daz wir diu wâpen kuren an in.</l>
+<l n="*D 31.12">ir triwe an jâmer hât gewin.</l>
+<l n="*D 31.13">die steckent ob den porten hôch.</l>
+<l n="*D 31.14">vor die andern ähte uns suochet noch</l>
+<l n="*D 31.15">des stolzen <name type="Person">Vridebrandes</name> her,</l>
+<l n="*D 31.16">die getouften von über mer.</l>
+<l n="*D 31.17">ieslîcher porte ein vürste pfliget,</l>
+<l n="*D 31.18">der sich strîtes ûz bewiget</l>
+<l n="*D 31.19">mit sîner baniere.</l>
+<l n="*D 31.20"><seg type="Initiale" subtype="Majuskel">W</seg>ir haben <name type="Person">Gaschiere</name></l>
+<l n="*D 31.21">gevangen einen grâven ab.</l>
+<l n="*D 31.22">der biute<corr type="Emendation">t</corr> uns vil grôze hab.</l>
+<l n="*D 31.23">der ist <name type="Person">Kayletes</name> swester sun.</l>
+<l n="*D 31.24">swaz uns der nû mac getuon,</l>
+<l n="*D 31.25">daz muoz ie dirre gelten.</l>
+<l n="*D 31.26">sölch gelücke kumt uns selten.</l>
+<l n="*D 31.27"><seg type="Initiale"><corr type="Emendation">G</corr></seg>rüenes angers lützel, sandes</l>
+<l n="*D 31.28">wol drîzec poind<reg type="Synkope">e</reg>r landes</l>
+<l n="*D 31.29">ist zir gezelten vome grab<reg type="Synkope">e</reg>n.</l>
+<l n="*D 31.30">dâ wirt vil manec tjost erhab<reg type="Synkope">e</reg>n."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(31.1-20)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="31.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr29</wit>
+</rdg></app>
+<app loc="31.20"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="31.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="31.27"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="31.06">
+<rdg>der vrouwen vrumt ir herze nôt (Jr herze ir vru&#x0366;nt vil manige not <wit>U</wit> <subst><del>*</del><add>Miner vro&#x036E;wen frv́mete er not</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="31.11">
+<lem>kuren</lem> <rdg>kennen <wit>*m</wit></rdg>
+</app>
+<app loc="31.22">
+<lem>biutet</lem> <rdg>bivten <wit>D</wit></rdg>
+</app>
+<app loc="31.25">
+<lem>muoz</lem> <rdg>muoz uns <wit>*m</wit></rdg>
+</app>
+<app loc="31.27">
+<lem>Grüenes</lem> <rdg>&#x00F7;rv&#x0364;nes <wit>D</wit></rdg>
+</app>
+<app loc="31.28">
+<lem>poinder</lem> <rdg>poinders <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="31.01">
+<rdg>s. bekant, <wit>*G</wit> <note>(ohne Fr29)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="31.02">
+<rdg></rdg>
+</app>
+<app loc="31.03">
+<rdg>bietent (Bedu̽det <wit>L</wit>) <wit>*G</wit> <note>(nur GO)</note></rdg>
+</app>
+<app loc="31.04">
+<rdg>gesch&#x00E6;he (geschach <wit>O</wit> <wit>L</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="31.05">
+<rdg>daz <note>om.</note> <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="31.06">
+<rdg>m. vr. vuoget (Mier frvmt <wit>O</wit>) er (<subst><del>ez</del><add>er</add></subst> <wit>G</wit>) herzenôt. <wit>*G</wit> <note>(nur G)</note> · &#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="31.07">
+<rdg>sô st. <wit>*G</wit></rdg>
+</app>
+<app loc="31.08">
+<rdg></rdg>
+</app>
+<app loc="31.09">
+<rdg>einem <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="31.10">
+<rdg>nâch sw. v., <wit>*T</wit></rdg>
+</app>
+<app loc="31.11">
+<rdg></rdg>
+</app>
+<app loc="31.12">
+<rdg></rdg>
+</app>
+<app loc="31.13">
+<rdg></rdg>
+</app>
+<app loc="31.14">
+<rdg>suochent <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit> <wit>Z</wit> <wit>Fr29</wit>)</rdg>
+</app>
+<app loc="31.15">
+<rdg>des küenen (kvniges <wit>L</wit>) Fridebrandes her, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="31.16">
+<rdg></rdg>
+</app>
+<app loc="31.17">
+<rdg></rdg>
+</app>
+<app loc="31.18">
+<rdg>der sich st. (strites sich <wit>U</wit>) ouch b. <wit>*T</wit></rdg>
+</app>
+<app loc="31.19">
+<rdg></rdg>
+</app>
+<app loc="31.20">
+<rdg></rdg>
+</app>
+<app loc="31.21">
+<rdg></rdg>
+</app>
+<app loc="31.22">
+<rdg></rdg>
+</app>
+<app loc="31.23">
+<rdg></rdg>
+</app>
+<app loc="31.24">
+<rdg></rdg>
+</app>
+<app loc="31.25">
+<rdg></rdg>
+</app>
+<app loc="31.26">
+<rdg></rdg>
+</app>
+<app loc="31.27">
+<rdg>a. wênic, <wit>*G</wit></rdg>
+</app>
+<app loc="31.28">
+<rdg></rdg>
+</app>
+<app loc="31.29">
+<rdg></rdg>
+</app>
+<app loc="31.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

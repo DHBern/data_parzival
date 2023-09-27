@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 247</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 247.01"><seg type="Initiale">Ê</seg> <name type="Person">Parzival</name>, der wîgant,</l>
+<l n="*D 247.02">sich des orses underwant,</l>
+<l n="*D 247.03">manegez er der gadem erlief,</l>
+<l n="*D 247.04">sô daz er nâch den liuten rief.</l>
+<l n="*D 247.05">niemen er hôrte noch ensach,</l>
+<l n="*D 247.06">ungevüege leit im dran geschach.</l>
+<l n="*D 247.07">daz het im zorn gereizet.</l>
+<l n="*D 247.08">er lief, dâ er was erbeizet</l>
+<l n="*D 247.09">des âbents, dô er kom<reg type="Synkope">e</reg>n was.</l>
+<l n="*D 247.10">dâ was erde und gras</l>
+<l n="*D 247.11">mit treten gerüeret</l>
+<l n="*D 247.12">unz tou gar zervüeret.</l>
+<l n="*D 247.13"><seg type="Initiale" subtype="Majuskel">A</seg>l schrîende lief der junge man</l>
+<l n="*D 247.14">wider ze sîme orse sân.</l>
+<l n="*D 247.15">mit bâgenden worten</l>
+<l n="*D 247.16">saz er drûf. die porten</l>
+<l n="*D 247.17">vand<reg type="Synkope">e</reg>r wît offen stên,</l>
+<l n="*D 247.18">d<reg type="Synkope">a</reg>r durch ûz grôze slâ gên.</l>
+<l n="*D 247.19"><seg type="Initiale" subtype="Majuskel">N</seg>iht langer er dô habete,</l>
+<l n="*D 247.20">vaste ûf die brücke er drabete.</l>
+<l n="*D 247.21">ein verborgen knappe daz seil</l>
+<l n="*D 247.22">zôch, daz der slag<reg type="Synkope">e</reg>brücken teil</l>
+<l n="*D 247.23">hetz ors vil nâch gevellet nid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 247.24"><name type="Person">Parzival</name>, der sach sich wid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 247.25">dô wolt er hân gevrâget baz.</l>
+<l n="*D 247.26">"<seg type="Initiale" subtype="Majuskel">I</seg>r sult varen, d<reg type="Synkope">e</reg>r sunnen haz",</l>
+<l n="*D 247.27">sprach der knappe, "ir sît ein gans.</l>
+<l n="*D 247.28">m<corr type="Emendation">ö</corr>ht ir gerüeret hân den vlans</l>
+<l n="*D 247.29">unt het den wirt gevrâget!</l>
+<l n="*D 247.30">vil prîs<reg type="Synkope">e</reg>s iuch hât betrâget."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(247.3-8, 13-18 und 21-23)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <note>(mit 247.18¹-18²)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 247.19-20)</note> <wit>U</wit> <note>(ohne 247.19-20)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="247.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit>
+</rdg></app><app loc="247.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="247.03"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="247.07"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="247.13"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="247.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="247.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="247.21"><rdg>
+<note>Initiale</note> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="247.21"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="247.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="247.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="247.26"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="247.19">
+<rdg><note>Die Verse 247.19-20 sind am Rand nachgetragen und später radiert:</note> Niht langer*do* / v*e vf die* <wit>V</wit></rdg>
+</app>
+<app loc="247.19">
+<rdg><subst><del>*</del><add>Niht langer er habte</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="247.24">
+<lem>sich</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="247.25">
+<lem>hân gevrâget</lem> <rdg>gevrâget hân <wit>*m</wit></rdg>
+</app>
+<app loc="247.28">
+<rdg>möht ir gerüeret haben den vlans, <wit>*m</wit></rdg>
+</app>
+<app loc="247.28">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="247.29">
+<lem>het</lem> <rdg>hete er <wit>*m</wit></rdg>
+</app>
+<app loc="247.30">
+<lem>iuch hât</lem> <rdg>hât iuch <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="247.01">
+<rdg></rdg>
+</app>
+<app loc="247.02">
+<rdg></rdg>
+</app>
+<app loc="247.03">
+<rdg>vil m. <wit>*T</wit></rdg>
+</app>
+<app loc="247.04">
+<rdg></rdg>
+</app>
+<app loc="247.05">
+<rdg>ern h. n. nochn sach, <wit>*T</wit></rdg>
+</app>
+<app loc="247.06">
+<rdg>unvuoge (Vngevu&#x0366;ge <wit>U</wit> <subst><del>V*</del><add>Vngefu&#x0364;ge</add></subst> <wit>V</wit>) leide im g. (leit im <subst><del>*</del><add>dran geschach</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="247.07">
+<rdg>diz hete <wit>*G</wit></rdg>
+</app>
+<app loc="247.08">
+<rdg></rdg>
+</app>
+<app loc="247.09">
+<rdg></rdg>
+</app>
+<app loc="247.10">
+<rdg></rdg>
+</app>
+<app loc="247.11">
+<rdg></rdg>
+</app>
+<app loc="247.12">
+<rdg>unde der tou z. (Vnd daz dor zu&#x0366; vu&#x0366;ret <wit>U</wit> <subst><del>*</del><add>vnde der to&#x036E; gar zerfu&#x0364;ret</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="247.13">
+<rdg></rdg>
+</app>
+<app loc="247.14">
+<rdg>w. zuo dem (<subst><del>*</del><add>sinem</add></subst> <wit>V</wit>) o. sân. <wit>*T</wit></rdg>
+</app>
+<app loc="247.15">
+<rdg></rdg>
+</app>
+<app loc="247.16">
+<rdg>saz er ûf. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="247.17">
+<rdg></rdg>
+</app>
+<app loc="247.18">
+<rdg>ûz (<subst><del>*</del><add>uz</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="247.19">
+<rdg><note>Die Verse 247.19-20 fehlen</note> &#x2193;<wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="247.20">
+<rdg></rdg>
+</app>
+<app loc="247.21">
+<rdg></rdg>
+</app>
+<app loc="247.22">
+<rdg>zuckte, daz der slagebrücke ein t. <wit>*G</wit> · z.; der sl. t. <wit>*T</wit></rdg>
+</app>
+<app loc="247.23">
+<rdg>vil <note>om.</note> <wit>*T</wit> <wit>Fr69</wit> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+<app loc="247.24">
+<rdg>Parcifal, der s. wider <wit>*T</wit></rdg>
+</app>
+<app loc="247.25">
+<rdg>unde wolte hân g. baz. <wit>*T</wit></rdg>
+</app>
+<app loc="247.26">
+<rdg></rdg>
+</app>
+<app loc="247.27">
+<rdg></rdg>
+</app>
+<app loc="247.28">
+<rdg></rdg>
+</app>
+<app loc="247.29">
+<rdg></rdg>
+</app>
+<app loc="247.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

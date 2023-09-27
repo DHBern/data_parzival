@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 289</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 289.01"><seg type="Initiale">W</seg>eder ern sprach dô sus noch sô,</l>
+<l n="*D 289.02">wan er schiet von den witzen dô.</l>
+<l n="*D 289.03"><name type="Person">Segramors<reg type="Synkope">e</reg>s</name> kastelân</l>
+<l n="*D 289.04">huop sich gein sînem barn sân.</l>
+<l n="*D 289.05">er muose ûf durch ruowen stên,</l>
+<l n="*D 289.06">ob<reg type="Synkope">e</reg>r ind<reg type="Synkope">e</reg>r wolde gên.</l>
+<l n="*D 289.07">sich legent g<reg type="Synkope">e</reg>nuoge durch ruowen nid<reg type="Synkope">e</reg>r,</l>
+<l n="*D 289.08">daz habt ir dicke vreischet sid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 289.09">waz ruowe kôs er in dem snê?</l>
+<l n="*D 289.10">mir t&#x00E6;te ein ligen drinne wê.</l>
+<l n="*D 289.11">der schad<reg type="Synkope">e</reg>hafte erwarb ie spot,</l>
+<l n="*D 289.12">s&#x00E6;lden pfliht&#x00E6;re, dem half got.</l>
+<l n="*D 289.13"><seg type="Initiale" subtype="Majuskel">D</seg>az her lac wol sô nâhen,</l>
+<l n="*D 289.14">daz si <name type="Person">Parzivalen</name> sâhen</l>
+<l n="*D 289.15">haben, als im was geschehen.</l>
+<l n="*D 289.16">der minne, er muose ir siges jehen,</l>
+<l n="*D 289.17">diu <name type="Person">Salomonen</name> ouch betwanc.</l>
+<l n="*D 289.18">dâ nâch was dô niht ze lanc,</l>
+<l n="*D 289.19">ê <name type="Person">Segramors</name> dort zuo zin gienc.</l>
+<l n="*D 289.20">swer in hazzete od<reg type="Synkope">e</reg>r der in wol enpfienc,</l>
+<l n="*D 289.21">den was er al gelîche holt.</l>
+<l n="*D 289.22">sus teilt er bâgens grôzen solt.</l>
+<l n="*D 289.23"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach: "ir habt des vreischet vil,</l>
+<l n="*D 289.24">rîterschaft ist topelspil</l>
+<l n="*D 289.25">unt daz ein man von tjoste viel.</l>
+<l n="*D 289.26">ez sinket halt ein mers kiel.</l>
+<l n="*D 289.27">lât mich nimmer niht gestrîten,</l>
+<l n="*D 289.28">daz er mîn get<corr type="Emendation">ö</corr>rste bîten,</l>
+<l n="*D 289.29">ob er bekande mînen schilt.</l>
+<l n="*D 289.30">des hât mich gar an im bevilt,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <note>(ohne 289.24-25)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="289.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="289.03"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="289.05"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="289.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="289.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="289.13"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="289.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app><app loc="289.13"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="289.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="289.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="289.02">
+<lem>von den witzen</lem> <rdg>aber von herzen <wit>*m</wit></rdg>
+</app>
+<app loc="289.06">
+<lem>inder</lem> <rdg>iemer <wit>*m</wit></rdg>
+</app>
+<app loc="289.16">
+<rdg>der minne er muose siges jehen, <wit>*m</wit></rdg>
+</app>
+<app loc="289.19">
+<rdg>Segremors (Ê Segremors <wit>O</wit> [<wit>Z</wit>]) dar zuo in (ým <wit>L</wit> [<wit>Z</wit>]) gienc. <wit>*G</wit></rdg>
+</app>
+<app loc="289.19">
+<rdg>Unz (Mit <wit>U</wit> <subst><del>D*</del><add>Daz</add></subst> <wit>V</wit>) Segremors (<subst><del>*</del><add>sagremors</add></subst> <wit>V</wit>) dar zuo zin (in <wit>U</wit> <subst><del>zim</del><add>zin</add></subst> <wit>V</wit>) gienc. <wit>*T</wit></rdg>
+</app>
+<app loc="289.19">
+<lem>zin</lem> <rdg>zim <wit>*m</wit></rdg>
+</app>
+<app loc="289.20">
+<rdg>wer in hazzete oder enpfienc, <wit>*m</wit></rdg>
+</app>
+<app loc="289.20">
+<rdg>der in (<note>om.</note> <wit>G</wit>) wol oder übel enpfienc, <wit>*G</wit></rdg>
+</app>
+<app loc="289.20">
+<rdg>der in hazzete oder wol enpfienc, <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="289.21">
+<lem>al</lem> <rdg>als <wit>*m</wit></rdg>
+</app>
+<app loc="289.23">
+<rdg>er sprach: "ir habt des gevreischet (freiches <wit>mk</wit>) vil <wit>*m</wit></rdg>
+</app>
+<app loc="289.24">
+<rdg>- ritterschaft ist topelspil -, <wit>*m</wit></rdg>
+</app>
+<app loc="289.25">
+<lem>unt daz</lem> <rdg>daz (<subst><del>*</del><add>Daz</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="289.26">
+<lem>halt ein</lem> <rdg>joch eines (ein <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="289.27">
+<lem>mich</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="289.28">
+<lem>getörste</lem> <rdg>getorste <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="289.01">
+<rdg>sîn munt sp. weder sus n. sô, <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="289.02">
+<rdg>den <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="289.03">
+<rdg></rdg>
+</app>
+<app loc="289.04">
+<rdg></rdg>
+</app>
+<app loc="289.05">
+<rdg>ruowe (triwe <wit>O</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="289.06">
+<rdg></rdg>
+</app>
+<app loc="289.07">
+<rdg>G. l. s. (Sich legent gnv&#x0366;ge <wit>V</wit>) d. ruowe n., <wit>*T</wit> · ruowe <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="289.08">
+<rdg>des h. ir vil gevreischet (ervaren <wit>V</wit>) s. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="289.09">
+<rdg></rdg>
+</app>
+<app loc="289.10">
+<rdg></rdg>
+</app>
+<app loc="289.11">
+<rdg>der sch. warb ie (schadehafte wirbet <wit>L</wit>) sp., <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="289.12">
+<rdg>s. pfliht&#x00E6;r h. (dem half <wit>V</wit>) ie got. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="289.13">
+<rdg>Diz her <wit>*T</wit> <note>(ohne V)</note> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="289.14">
+<rdg></rdg>
+</app>
+<app loc="289.15">
+<rdg>halten, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="289.16">
+<rdg>der m. muoser (mu&#x0364;st er <wit>I</wit>) s. j., <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="289.17">
+<rdg></rdg>
+</app>
+<app loc="289.18">
+<rdg>was ouch n. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="289.19">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="289.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="289.21">
+<rdg></rdg>
+</app>
+<app loc="289.22">
+<rdg></rdg>
+</app>
+<app loc="289.23">
+<rdg>des (ez <wit>I</wit>) <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="289.24">
+<rdg></rdg>
+</app>
+<app loc="289.25">
+<rdg>man zer tjost <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="289.26">
+<rdg></rdg>
+</app>
+<app loc="289.27">
+<rdg></rdg>
+</app>
+<app loc="289.28">
+<rdg></rdg>
+</app>
+<app loc="289.29">
+<rdg>er erkande (kande <wit>Z</wit>) m. <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="289.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

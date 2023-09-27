@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 235</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 235.01"><seg type="Initiale">S</seg>i nigen. ir zwô dô truogen dar</l>
+<l n="*D 235.02">ûf die taveln wol gevar</l>
+<l n="*D 235.03">daz silber unt leitenz nid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 235.04">dô giengen si mit zühten wid<reg type="Synkope">e</reg>r</l>
+<l n="*D 235.05">zuo den êrsten zwelven sân.</l>
+<l n="*D 235.06">ob ich geprüevet rehte hân,</l>
+<l n="*D 235.07">hie sulen ahzehen vrouwen stên.</l>
+<l n="*D 235.08"><seg type="Initiale" subtype="Majuskel">Â</seg>voy, nû siht man sehse gên</l>
+<l n="*D 235.09">in w&#x00E6;te, die man tiure galt.</l>
+<l n="*D 235.10">daz was halbez plîalt,</l>
+<l n="*D 235.11">daz and<reg type="Synkope">e</reg>r pfelle von <name type="Ort">Ninnive</name>.</l>
+<l n="*D 235.12">dise unt die êrsten sehse ê</l>
+<l n="*D 235.13">truogen zwelf röcke geteilet,</l>
+<l n="*D 235.14">gein tiwer<reg type="Synkope">e</reg>r kost geveilet.</l>
+<l n="*D 235.15"><seg type="Initiale" subtype="Majuskel">N</seg>âch den kom diu künegîn.</l>
+<l n="*D 235.16">ir antlütze gap den schîn,</l>
+<l n="*D 235.17">si wânden alle, ez wolde tagen.</l>
+<l n="*D 235.18">man sach die maget an ir tragen</l>
+<l n="*D 235.19">pfellel von <name type="Ort">Arabi</name>.</l>
+<l n="*D 235.20">ûf einem grüenem achmardî</l>
+<l n="*D 235.21">truoc si den wunsch von pardîs,</l>
+<l n="*D 235.22">bêde wurzeln unt rîs:</l>
+<l n="*D 235.23">daz was ein dinc, daz hiez der <name type="Sonstiges">Grâl</name>,</l>
+<l n="*D 235.24">erden wunsches überwal.</l>
+<l n="*D 235.25"><name type="Person">Repanse de schoye</name> si hiez,</l>
+<l n="*D 235.26">die sich der <name type="Sonstiges">Grâl</name> tragen liez.</l>
+<l n="*D 235.27">der <name type="Sonstiges">Grâl</name> was von sölher art:</l>
+<l n="*D 235.28">wol muose ir kiusche sîn bewart,</l>
+<l n="*D 235.29">diu sîn ze rehte solde pfleg<reg type="Synkope">e</reg>n.</l>
+<l n="*D 235.30">diu muose valsches sich beweg<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 235.2)</note> <wit>Fr69</wit> <note>(235.1-3, 13-15, 18-23 und 28-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(235.1)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 235.6-7)</note> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="235.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="235.08"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="235.15"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit>
+</rdg></app><app loc="235.15"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="235.23"><rdg>
+<note>Überschrift:</note> <subst><del>*</del><add>Hie sizet parzival v́ber tisch zv&#x0366;me grole bi anfortaz</add></subst> <wit>V</wit>
+</rdg></app>
+<app loc="235.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="235.01">
+<rdg>si nigen, ir zwô. dô truogen si dar <wit>*m</wit></rdg>
+</app>
+<app loc="235.01">
+<rdg><note>Verse 235.1 und 235.4 kontrahiert zu:</note> Si nigen si mit zuhten wider <wit>mk</wit></rdg>
+</app>
+<app loc="235.01">
+<rdg>ez nigen zwô (zo&#x036E; <wit>G</wit> ýe zwo <wit>L</wit>) unde (die <wit>L</wit>) truogen dar <wit>*G</wit></rdg>
+</app>
+<app loc="235.01">
+<rdg>si nigen. dô truogen (drungen <wit>U</wit>) zwô dar (<subst><del>*</del><add>ir zwo dar</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="235.03">
+<rdg>diu mezzer und leiten si nider <wit>*m</wit></rdg>
+</app>
+<app loc="235.04">
+<rdg>und giengen dô mit zühten wider <wit>*m</wit></rdg>
+</app>
+<app loc="235.05">
+<lem>sân</lem> <rdg>stân <wit>*m</wit></rdg>
+</app>
+<app loc="235.06">
+<lem>ich</lem> <rdg>ichz <wit>*m</wit></rdg>
+</app>
+<app loc="235.14">
+<lem>tiwerer</lem> <rdg>tiuren <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="235.19">
+<rdg>pfelle guot (<subst><del>*</del><add>gu&#x0366;t</add></subst> <wit>V</wit>) von Arabi <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="235.21">
+<lem>von</lem> <rdg>vom <wit>*m</wit></rdg>
+</app>
+<app loc="235.30">
+<lem>diu</lem> <rdg>si <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="235.01">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="235.02">
+<rdg></rdg>
+</app>
+<app loc="235.03">
+<rdg>daz s. (selbe <wit>U</wit>) unde legetens n. (<subst><del>*</del><add>Die messer vnde leiten si nider</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="235.04">
+<rdg>mit grôzer zuht si g. (gingen sie <wit>U</wit> [<wit>V</wit>]) w. <wit>*T</wit></rdg>
+</app>
+<app loc="235.05">
+<rdg>zw. (<note>om.</note> <wit>G</wit>) stân <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="235.06">
+<rdg><note>Die Verse 235.6-7 fehlen</note> <wit>*T</wit> <note>(nur T)</note> · <note>Versfolge 235.8-6-7</note> <wit>U</wit> <wit>V</wit> · ichz <wit>*G</wit> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="235.07">
+<rdg>Hie soln ebern vreuwen stan <wit>U</wit></rdg>
+</app>
+<app loc="235.08">
+<rdg></rdg>
+</app>
+<app loc="235.09">
+<rdg></rdg>
+</app>
+<app loc="235.10">
+<rdg>ez was <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="235.11">
+<rdg>a. was pf. <wit>*T</wit></rdg>
+</app>
+<app loc="235.12">
+<rdg></rdg>
+</app>
+<app loc="235.13">
+<rdg></rdg>
+</app>
+<app loc="235.14">
+<rdg>g. tiur k. geveilt. <wit>*G</wit> <note>(ohne OL)</note></rdg>
+</app>
+<app loc="235.15">
+<rdg>n. den gie diu künigîn <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="235.16">
+<rdg>der antlitze <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="235.17">
+<rdg></rdg>
+</app>
+<app loc="235.18">
+<rdg></rdg>
+</app>
+<app loc="235.19">
+<rdg></rdg>
+</app>
+<app loc="235.20">
+<rdg></rdg>
+</app>
+<app loc="235.21">
+<rdg></rdg>
+</app>
+<app loc="235.22">
+<rdg>wurz <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="235.23">
+<rdg>daz (<note>om.</note> <wit>G</wit>) heizet (<subst><del>hei*</del><add>heis</add></subst> <wit>V</wit>) der Gr., <wit>*T</wit></rdg>
+</app>
+<app loc="235.24">
+<rdg></rdg>
+</app>
+<app loc="235.25">
+<rdg>Urrepanschoye hiez (sie hiez <wit>L</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="235.26">
+<rdg>die man (sich <wit>Z</wit> <wit>V</wit>) den (<subst><del>*n</del><add>der</add></subst> <wit>V</wit>) Gr. tr. (da tragen <wit>I</wit>) l. <wit>*G</wit> <note>(ohne L)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="235.27">
+<rdg></rdg>
+</app>
+<app loc="235.28">
+<rdg>wol muoser (er mu&#x0364;st <wit>I</wit>) k. sîn bewart. <wit>*G</wit> <note>(ohne OL)</note></rdg>
+</app>
+<app loc="235.29">
+<rdg>diu sîn (<subst><del>D*</del><add>Die sin ze</add></subst> <wit>V</wit>) r. <wit>*T</wit> · solte pf., <wit>*G</wit></rdg>
+</app>
+<app loc="235.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

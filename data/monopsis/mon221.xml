@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 221</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>31.07.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 221.01"><name type="Person">Clamide</name>, der vreuden âne:</l>
+<l n="*D 221.02">"ir sult mich <name type="Person">Gawane</name></l>
+<l n="*D 221.03">bevelhen, vrouwe, bin ichs wert.</l>
+<l n="*D 221.04">sô weiz ich wol, daz ers ouch gert.</l>
+<l n="*D 221.05">leistet er dâr an iwer gebot,</l>
+<l n="*D 221.06">er êret iuch unt den rîter rôt."</l>
+<l n="*D 221.07"><name type="Person">Artus</name> bat sîner swest<reg type="Synkope">e</reg>r sun</l>
+<l n="*D 221.08">gesellecheit dem künege tuon.</l>
+<l n="*D 221.09">daz w&#x00E6;re i<reg type="Synkope">e</reg>doch ergangen.</l>
+<l n="*D 221.10">dô wart wol enpfangen</l>
+<l n="*D 221.11">von der werden massenîe</l>
+<l n="*D 221.12">der betwungene, valsches vrîe.</l>
+<l n="*D 221.13">ze <name type="Person">Clamide</name> sprach <name type="Person">Kingrun</name>:</l>
+<l n="*D 221.14">"owê, daz ie dechein <name type="Person">Bertun</name></l>
+<l n="*D 221.15">dich betwungen sach ze hûs!</l>
+<l n="*D 221.16">noch rîcher denne <name type="Person">Artus</name></l>
+<l n="*D 221.17">w&#x00E6;re dû helfe unt urborn</l>
+<l n="*D 221.18">unt hetes dîne jugent bevorn.</l>
+<l n="*D 221.19">sol <name type="Person">Artus</name> dâ von prîs nû trag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 221.20">daz <name type="Person">Keie</name> durch zorn hât geslag<reg type="Synkope">e</reg>n</l>
+<l n="*D 221.21">ein edele vürstinne,</l>
+<l n="*D 221.22">diu mit herzen sinne</l>
+<l n="*D 221.23">ir mit lachen hât erwelt,</l>
+<l n="*D 221.24">der âne liegen ist gezelt</l>
+<l n="*D 221.25">mit wârheit vür den h&#x0153;h<reg type="Synkope">e</reg>sten prîs?</l>
+<l n="*D 221.26">die <name type="Person">Bertenoyse</name> ir lobes rîs</l>
+<l n="*D 221.27">w&#x00E6;nent nû hôch gestôzen hân.</l>
+<l n="*D 221.28">ân ir arbe<corr type="Emendation">i</corr>t ist getân,</l>
+<l n="*D 221.29">daz tôte her wider wart gesant</l>
+<l n="*D 221.30">der künec von <name type="Ort">Kukumerlant</name></l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(221.5-7 und 9-12)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="221.05"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="221.07"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr21</wit> 
+</rdg></app>
+<app loc="221.13"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app><app loc="221.13"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="221.19"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="221.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="221.10">
+<lem>wart</lem> <rdg>wart er (<add>er</add> <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="221.11">
+<rdg>von (Won <wit>O</wit>) der werden massenîe, <wit>*m</wit> (<wit>*G</wit>)</rdg>
+</app>
+<app loc="221.11">
+<rdg>von al (<note>om.</note> <wit>U</wit> <wit>V</wit>) der massenîe (<subst><del>*</del><add>werden massenie</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="221.14">
+<lem>daz ie</lem> <rdg>daz ie <del>daz îe</del> <wit>D</wit></rdg>
+</app>
+<app loc="221.17">
+<lem>urborn</lem> <rdg>urbor <wit>*m</wit></rdg>
+</app>
+<app loc="221.18">
+<rdg>unde hetest (het <wit>O</wit> <wit>Fr21</wit>) doch (auch <wit>I</wit>) dîne jugende vor. <wit>*G</wit></rdg>
+</app>
+<app loc="221.18">
+<rdg>unde hetes doch dîne jugent bevor (bevoz <wit>U</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="221.19">
+<lem>nû</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="221.20">
+<lem>geslagen</lem> <rdg>erslagen <wit>*m</wit></rdg>
+</app>
+<app loc="221.21">
+<rdg>iuwer (Owe <wit>mk</wit>) edele vürstinne, <wit>*m</wit></rdg>
+</app>
+<app loc="221.28">
+<lem>arbeit</lem> <rdg>arbeist <wit>D</wit></rdg>
+</app>
+<app loc="221.28">
+<lem>ist</lem> <rdg>wart <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="221.01">
+<rdg></rdg>
+</app>
+<app loc="221.02">
+<rdg></rdg>
+</app>
+<app loc="221.03">
+<rdg></rdg>
+</app>
+<app loc="221.04">
+<rdg></rdg>
+</app>
+<app loc="221.05">
+<rdg>an sîn g., <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="221.06">
+<rdg></rdg>
+</app>
+<app loc="221.07">
+<rdg>s. basen (<subst><del>*</del><add>swester</add></subst> <wit>V</wit>) sun <wit>*T</wit></rdg>
+</app>
+<app loc="221.08">
+<rdg>gesellichkeit dem rîter t. <wit>*G</wit> <note>(nur G)</note> · geselleschaft dem k. (riter <wit>I</wit>) t. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="221.09">
+<rdg>ez (Er <wit>O</wit>) w. <wit>*G</wit></rdg>
+</app>
+<app loc="221.10">
+<rdg>dô w. er wol e. <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="221.11">
+<rdg><note>Versfolge 221.12-11</note> <wit>*T</wit> · &#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="221.12">
+<rdg>v. vrîe <wit>*T</wit></rdg>
+</app>
+<app loc="221.13">
+<rdg>"Cl.", sp. K., <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="221.14">
+<rdg></rdg>
+</app>
+<app loc="221.15">
+<rdg>d. gevangen s. ze hûs (zehvs sach <wit>Fr21</wit>)! <wit>*G</wit></rdg>
+</app>
+<app loc="221.16">
+<rdg></rdg>
+</app>
+<app loc="221.17">
+<rdg>urbor (vnboz <wit>U</wit> <subst><del>*</del><add>vrbor</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="221.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="221.19">
+<rdg></rdg>
+</app>
+<app loc="221.20">
+<rdg>hât durch zorn <wit>*G</wit></rdg>
+</app>
+<app loc="221.21">
+<rdg></rdg>
+</app>
+<app loc="221.22">
+<rdg>diu von (<subst><del>*</del><add>mit</add></subst> <wit>V</wit>) ir h. (herze <wit>U</wit>) s. <wit>*T</wit></rdg>
+</app>
+<app loc="221.23">
+<rdg>den (<subst><del>*</del><add>Jr</add></subst> <wit>V</wit>) mit <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="221.24">
+<rdg></rdg>
+</app>
+<app loc="221.25">
+<rdg></rdg>
+</app>
+<app loc="221.26">
+<rdg></rdg>
+</app>
+<app loc="221.27">
+<rdg></rdg>
+</app>
+<app loc="221.28">
+<rdg>ist ez g. (ergan <wit>I</wit>), <wit>*G</wit> <note>(nur GI)</note> ez wart (<subst><del>*</del><add>wart</add></subst> <wit>V</wit>) g., <wit>*T</wit></rdg>
+</app>
+<app loc="221.29">
+<rdg>daz dort (<subst><del>*</del><add>tot</add></subst> <wit>V</wit>) her <wit>*T</wit> · wart wider <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="221.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

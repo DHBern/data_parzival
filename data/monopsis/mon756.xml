@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 756</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 756.01">wol nâch strîtes êre</l>
+<l n="*D 756.02">helme unt ir schilde sêre</l>
+<l n="*D 756.03">wâren mit swerten an gerant.</l>
+<l n="*D 756.04">ieweder wol gelêrte hant</l>
+<l n="*D 756.05">truoc, der diu strît<reg type="Synkope">e</reg>s mâl entwarf.</l>
+<l n="*D 756.06">in strîte man ouch kunst bedarf.</l>
+<l n="*D 756.07"><seg type="Initiale" subtype="Majuskel">B</seg>î <name type="Person">Artuse<corr type="Emendation">s</corr></name> ringe hin</l>
+<l n="*D 756.08">si riten. dâ wart vil nâch in</l>
+<l n="*D 756.09">geschouwet, dâ der <name type="Person">heiden</name> reit;</l>
+<l n="*D 756.10">der vuort êt solhe rîcheit.</l>
+<l n="*D 756.11">wol beherberget was daz velt.</l>
+<l n="*D 756.12">si kêrten vür daz hôch gezelt</l>
+<l n="*D 756.13">an <name type="Person">Gawans</name> ringe.</l>
+<l n="*D 756.14">ob mans iht innen bringe,</l>
+<l n="*D 756.15">daz man si gerne s&#x00E6;he?</l>
+<l n="*D 756.16">ich w&#x00E6;ne, daz dâ gesch&#x00E6;he.</l>
+<l n="*D 756.17"><name type="Person">Gawan</name> kom snellîche nâch,</l>
+<l n="*D 756.18">wander vor <name type="Person">Artuse</name> sach,</l>
+<l n="*D 756.19">daz si gein sîme gezelte riten.</l>
+<l n="*D 756.20">der enpfienc si dâ mit vreude siten.</l>
+<l n="*D 756.21"><seg type="Initiale" subtype="Majuskel">S</seg>i hetenz harnasch dennoch an.</l>
+<l n="*D 756.22"><name type="Person">Gawan</name>, der höfsche man,</l>
+<l n="*D 756.23">hiez si entwâpen schiere.</l>
+<l n="*D 756.24">ecidemôn, dem tiere,</l>
+<l n="*D 756.25">was geteilet mit der strît.</l>
+<l n="*D 756.26">der <name type="Person">heiden</name> truog ein kursît</l>
+<l n="*D 756.27">- dem was von slegen ouch worden wê -,</l>
+<l n="*D 756.28">daz was ein saranthasmê.</l>
+<l n="*D 756.29">dâr an stuont manec tiwer stein.</l>
+<l n="*D 756.30">dâr unde ein wâpenroc erschein,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit> <note>(ohne 756.4-19)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="756.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>L</wit> 
+</rdg></app>
+<app loc="756.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="756.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="756.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="756.02">
+<lem>helme</lem> <rdg>ir helm <wit>*m</wit></rdg>
+</app>
+<app loc="756.03">
+<rdg>mit swerten wâren an gerant. <wit>*m</wit></rdg>
+</app>
+<app loc="756.07">
+<lem>Artuses</lem> <rdg>Artvse <wit>D</wit></rdg>
+</app>
+<app loc="756.07">
+<lem>hin</lem> <rdg>si hin <wit>*m</wit></rdg>
+</app>
+<app loc="756.08">
+<lem>si</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="756.09">
+<lem>geschouwet</lem> <rdg>gewartet <wit>*m</wit></rdg>
+</app>
+<app loc="756.10">
+<lem>êt</lem> <rdg>ouch <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="756.11">
+<lem>beherberget</lem> <rdg>geherberget (geherbet <wit>mk</wit>) <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="756.15">
+<lem>si</lem> <rdg>si dâ <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="756.18">
+<lem>wander</lem> <rdg>wan der <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="756.20">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="756.27">
+<rdg>- dem ouch von slegen was worden wê -, <wit>*m</wit></rdg>
+</app>
+<app loc="756.29">
+<lem>dâr an</lem> <rdg>an dem <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="756.01">
+<rdg></rdg>
+</app>
+<app loc="756.02">
+<rdg></rdg>
+</app>
+<app loc="756.03">
+<rdg></rdg>
+</app>
+<app loc="756.04">
+<rdg>ietweders wol <wit>*T</wit></rdg>
+</app>
+<app loc="756.05">
+<rdg>tr., diu (des <wit>L</wit>) st. mâl erwarf. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="756.06">
+<rdg>man wol k. <wit>*G</wit> <note>(ohne Z)</note> man ou. wol k. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="756.07">
+<rdg></rdg>
+</app>
+<app loc="756.08">
+<rdg></rdg>
+</app>
+<app loc="756.09">
+<rdg>beschouwet, <wit>*T</wit></rdg>
+</app>
+<app loc="756.10">
+<rdg>der v. êt an solh (et an solhev <wit>I</wit> riliche <wit>L</wit> ein solich <wit>Z</wit>) kleit. <wit>*G</wit></rdg>
+</app>
+<app loc="756.11">
+<rdg>wol beherbergt wart daz v. <wit>*T</wit></rdg>
+</app>
+<app loc="756.12">
+<rdg>daz grôz g. <wit>*T</wit></rdg>
+</app>
+<app loc="756.13">
+<rdg>gein G. r. (<subst><del>*</del><add>Gegen Gawans ringe</add></subst> <wit>V</wit>). <wit>*G</wit> (<wit>V</wit>) · gegen hêrren G. r. <wit>*T</wit></rdg>
+</app>
+<app loc="756.14">
+<rdg></rdg>
+</app>
+<app loc="756.15">
+<rdg></rdg>
+</app>
+<app loc="756.16">
+<rdg>ich w. ouch, daz (daz da <wit>I</wit> <wit>L</wit>) g. <wit>*G</wit> <note>(ohne Z)</note> · ich w. ouch, daz daz g. <wit>*T</wit></rdg>
+</app>
+<app loc="756.17">
+<rdg></rdg>
+</app>
+<app loc="756.18">
+<rdg>wan er bî Artus s., <wit>*T</wit></rdg>
+</app>
+<app loc="756.19">
+<rdg></rdg>
+</app>
+<app loc="756.20">
+<rdg></rdg>
+</app>
+<app loc="756.21">
+<rdg></rdg>
+</app>
+<app loc="756.22">
+<rdg>G., der stolze h. man, <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="756.23">
+<rdg></rdg>
+</app>
+<app loc="756.24">
+<rdg></rdg>
+</app>
+<app loc="756.25">
+<rdg></rdg>
+</app>
+<app loc="756.26">
+<rdg></rdg>
+</app>
+<app loc="756.27">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="756.28">
+<rdg></rdg>
+</app>
+<app loc="756.29">
+<rdg>an <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="756.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

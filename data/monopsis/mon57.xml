@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 57</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 57.01">wem hât sîn manlîchiu zuht</l>
+<l n="*D 57.02">hie lâzen sîner minne vruht?</l>
+<l n="*D 57.03">owê, lieplîch geselleschaft!</l>
+<l n="*D 57.04">sol mir nû riwe mit ir kraft</l>
+<l n="*D 57.05">immer twingen mînen lîp?</l>
+<l n="*D 57.06">sîme gote ze êren", sprach daz wîp,</l>
+<l n="*D 57.07">"ich mich gerne toufen solte</l>
+<l n="*D 57.08">unt leben, swie er wolte."</l>
+<l n="*D 57.09"><seg type="Initiale" subtype="Majuskel">D</seg>er jâmer gap ir herzen wîc.</l>
+<l n="*D 57.10">ir vreude vant den dürren zwîc,</l>
+<l n="*D 57.11">als noch diu turteltûbe tuot.</l>
+<l n="*D 57.12">diu het ie den selben muot.</l>
+<l n="*D 57.13">swenne ir an trûtscheft gebrast,</l>
+<l n="*D 57.14">ir triwe kôs den dürren ast.</l>
+<l n="*D 57.15"><seg type="Initiale" subtype="Majuskel">D</seg>iu vrouwe an rehter zît genas</l>
+<l n="*D 57.16">eines suns, der zweier varwe was,</l>
+<l n="*D 57.17">an dem got anders wart enein:</l>
+<l n="*D 57.18">wîz unt swarzer varwe er schein.</l>
+<l n="*D 57.19">diu künegîn kust in sund<reg type="Synkope">e</reg>r twâl</l>
+<l n="*D 57.20">vil dicke an sîniu blanken mâl.</l>
+<l n="*D 57.21">diu muoter hiez ir kindelîn</l>
+<l n="*D 57.22"><name type="Person">Feirefiz</name> <name type="Person">Anschevin</name>.</l>
+<l n="*D 57.23">der wart ein waltswende.</l>
+<l n="*D 57.24">die tjoste sîner hende</l>
+<l n="*D 57.25">manec sper zerbrâchen,</l>
+<l n="*D 57.26">die schilde dürkel stâchen.</l>
+<l n="*D 57.27"><seg type="Initiale"><corr type="Emendation">A</corr></seg>ls ein agelster wart gevar</l>
+<l n="*D 57.28">sîn hâr unt ouch sîn vel vil gar.</l>
+<l n="*D 57.29">dô was ez ouch über des jâres zil,</l>
+<l n="*D 57.30">daz <name type="Person">Gahmuret</name> geprîset vil</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="57.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="57.03"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="57.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="57.15"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>L</wit> <wit>T</wit>
+</rdg></app><app loc="57.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="57.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="57.19"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="57.26"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="57.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit>
+</rdg></app>
+<app loc="57.29"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>L</wit> <wit>V</wit>
+</rdg></app><app loc="57.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="57.17">
+<lem>anders</lem> <rdg>wunder <wit>*m</wit></rdg>
+</app>
+<app loc="57.23">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="57.26">
+<lem>dürkel stâchen</lem> <rdg>durchstâchen <wit>*m</wit></rdg>
+</app>
+<app loc="57.27">
+<lem>Als</lem> <rdg>&#x00F7;ls <wit>D</wit></rdg>
+</app>
+<app loc="57.28">
+<rdg>sîn vel und ouch sîn hâr. <wit>*m</wit></rdg>
+</app>
+<app loc="57.29">
+<rdg>Nû was ez (ez ovch <wit>Z</wit> [<wit>Fr21</wit>]) über des (<note>om.</note> <wit>Fr21</wit>) jâres zil, <wit>*m</wit> (<wit>*G</wit>)</rdg>
+</app>
+<app loc="57.29">
+<rdg>nû was (Nv was ez <wit>T</wit>) ouch über des jâres zil, <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="57.01">
+<rdg></rdg>
+</app>
+<app loc="57.02">
+<rdg></rdg>
+</app>
+<app loc="57.03">
+<rdg></rdg>
+</app>
+<app loc="57.04">
+<rdg>sol nû riuwe (sol mir triuwe <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="57.05">
+<rdg></rdg>
+</app>
+<app loc="57.06">
+<rdg></rdg>
+</app>
+<app loc="57.07">
+<rdg></rdg>
+</app>
+<app loc="57.08">
+<rdg></rdg>
+</app>
+<app loc="57.09">
+<rdg></rdg>
+</app>
+<app loc="57.10">
+<rdg>ir triuwe v. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="57.11">
+<rdg></rdg>
+</app>
+<app loc="57.12">
+<rdg></rdg>
+</app>
+<app loc="57.13">
+<rdg>an vriuntschaft (ir travtschaft <wit>O</wit> [<wit>L</wit> <wit>Fr21</wit>] trewschefte <wit>Z</wit>) g., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="57.14">
+<rdg></rdg>
+</app>
+<app loc="57.15">
+<rdg></rdg>
+</app>
+<app loc="57.16">
+<rdg></rdg>
+</app>
+<app loc="57.17">
+<rdg>got wunders w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="57.18">
+<rdg></rdg>
+</app>
+<app loc="57.19">
+<rdg></rdg>
+</app>
+<app loc="57.20">
+<rdg></rdg>
+</app>
+<app loc="57.21">
+<rdg></rdg>
+</app>
+<app loc="57.22">
+<rdg></rdg>
+</app>
+<app loc="57.23">
+<rdg></rdg>
+</app>
+<app loc="57.24">
+<rdg>die tjost ze s. h. <wit>*G</wit> · die joste von s. h. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="57.25">
+<rdg>manic sp. z. <wit>*G</wit> · vil m. sp. (der sper vil <wit>T</wit>) z., <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="57.26">
+<rdg>Und schilte <wit>*G</wit> <note>(nur GI)</note> · durchstâchen (durch stochen <wit>V</wit> [<wit>O</wit>]). <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="57.27">
+<rdg>w. er (<del>er</del> <wit>T</wit>) var (<subst><del>*</del><add>gevar</add></subst> <wit>V</wit> geuar <wit>I</wit> [<wit>L</wit>]), <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="57.28">
+<rdg>sîn vel und ou. sîn hâr vil gar. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="57.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="57.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

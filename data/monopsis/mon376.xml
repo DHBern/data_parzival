@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 376</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 376.01"><seg type="Initiale">D</seg>er tac het ende unt kom diu naht.</l>
+<l n="*D 376.02">ze bêder sît was grôziu maht,</l>
+<l n="*D 376.03">manec werlîch ritt<reg type="Synkope">e</reg>r guot.</l>
+<l n="*D 376.04">w&#x00E6;re des ûzern hers niht solhiu vluot,</l>
+<l n="*D 376.05">sô heten die inn<reg type="Synkope">e</reg>ren strîtes vil.</l>
+<l n="*D 376.06">dô mâzen si ir letze zil</l>
+<l n="*D 376.07">bî dem liehtem mânen.</l>
+<l n="*D 376.08">si kunden sich wol ânen</l>
+<l n="*D 376.09">vorhteclîcher zagheit.</l>
+<l n="*D 376.10">vor tages wart von in bereit</l>
+<l n="*D 376.11">zwelf zingel wîte,</l>
+<l n="*D 376.12">vergrabt gein dem strîte,</l>
+<l n="*D 376.13">daz ieslîch zingel muose hân</l>
+<l n="*D 376.14">ze orse ûz drî barbigân.</l>
+<l n="*D 376.15"><name type="Person">Kardefablet</name> von <name type="Ort">Jamor</name>,</l>
+<l n="*D 376.16">des marschalc nam dâ vier tor,</l>
+<l n="*D 376.17">dâ man smorgens sach sîn her</l>
+<l n="*D 376.18">wol mit ellenthafter wer.</l>
+<l n="*D 376.19">der herzoge rîche</l>
+<l n="*D 376.20">streit dâ rîterlîche.</l>
+<l n="*D 376.21">diu wirtîn was sîn swester.</l>
+<l n="*D 376.22">er was des muotes vester</l>
+<l n="*D 376.23">denne and<reg type="Synkope">e</reg>rs manec strîtec man,</l>
+<l n="*D 376.24">der wol in strîte tûren kan.</l>
+<l n="*D 376.25">des leit er dicke in strîte pîn.</l>
+<l n="*D 376.26">sîn her dâ zogete des nahtes în.</l>
+<l n="*D 376.27">er was verre dar gestrichen,</l>
+<l n="*D 376.28">wander selten was entwichen</l>
+<l n="*D 376.29">strîteclîcher herte.</l>
+<l n="*D 376.30">vier porten er dâ wol werte.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 376.19)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="376.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="376.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="376.10">
+<lem>tages</lem> <rdg>tage <wit>*m</wit></rdg>
+</app>
+<app loc="376.15">
+<rdg>kardefablet von Lamor <wit>D</wit></rdg>
+</app>
+<app loc="376.15">
+<rdg>Kardefablet de Jamor, <wit>*m</wit></rdg>
+</app>
+<app loc="376.15">
+<rdg>Kardefablet de Amor (deiamor <wit>G</wit> [<wit>Z</wit>] dei mor <wit>I</wit> dei amor <wit>O</wit> de lamar <wit>L</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="376.15">
+<rdg>Gardefablet de Jammor (<subst><del>*aminor</del><add>JaminoR</add></subst> <wit>T</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="376.17">
+<lem>smorgens</lem> <rdg>morgens <wit>*m</wit></rdg>
+</app>
+<app loc="376.23">
+<lem>anders</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="376.28">
+<lem>selten was</lem> <rdg>was selten <wit>*m</wit></rdg>
+</app>
+<app loc="376.30">
+<lem>dâ wol</lem> <rdg>wol dâ <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="376.01">
+<rdg></rdg>
+</app>
+<app loc="376.02">
+<rdg></rdg>
+</app>
+<app loc="376.03">
+<rdg>m. weltlîch rîter g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="376.04">
+<rdg></rdg>
+</app>
+<app loc="376.05">
+<rdg></rdg>
+</app>
+<app loc="376.06">
+<rdg></rdg>
+</app>
+<app loc="376.07">
+<rdg></rdg>
+</app>
+<app loc="376.08">
+<rdg></rdg>
+</app>
+<app loc="376.09">
+<rdg></rdg>
+</app>
+<app loc="376.10">
+<rdg>vor t. was von in (im <wit>L</wit>) b. <wit>*G</wit> <note>(ohne I)</note> · vor tage was vor (<subst><del>wa*</del><add>wart</add></subst> von <wit>V</wit>) in b. <wit>*T</wit></rdg>
+</app>
+<app loc="376.11">
+<rdg></rdg>
+</app>
+<app loc="376.12">
+<rdg></rdg>
+</app>
+<app loc="376.13">
+<rdg></rdg>
+</app>
+<app loc="376.14">
+<rdg></rdg>
+</app>
+<app loc="376.15">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="376.16">
+<rdg></rdg>
+</app>
+<app loc="376.17">
+<rdg></rdg>
+</app>
+<app loc="376.18">
+<rdg></rdg>
+</app>
+<app loc="376.19">
+<rdg></rdg>
+</app>
+<app loc="376.20">
+<rdg></rdg>
+</app>
+<app loc="376.21">
+<rdg></rdg>
+</app>
+<app loc="376.22">
+<rdg></rdg>
+</app>
+<app loc="376.23">
+<rdg></rdg>
+</app>
+<app loc="376.24">
+<rdg>der wol st. t. (mit strites fu&#x0364;re <wit>I</wit>) kan. <wit>*G</wit> <note>(nur G)</note> · der wol in st. turnieren kan. <wit>*T</wit></rdg>
+</app>
+<app loc="376.25">
+<rdg></rdg>
+</app>
+<app loc="376.26">
+<rdg>her, daz (<subst><del>da*</del><add>da</add></subst> <wit>V</wit>) z. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="376.27">
+<rdg></rdg>
+</app>
+<app loc="376.28">
+<rdg></rdg>
+</app>
+<app loc="376.29">
+<rdg></rdg>
+</app>
+<app loc="376.30">
+<rdg>er wol dâ w. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 55</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 55.01">dâ vor gevüeret. er brâht in dar.</l>
+<l n="*D 55.02">er was niht als ein môr gevar.</l>
+<l n="*D 55.03"><seg type="Initiale" subtype="Majuskel">D</seg>er marn&#x00E6;re wîse</l>
+<l n="*D 55.04">sprach: "ir sult heln lîse</l>
+<l n="*D 55.05">vor den, die tragent daz swarze vel.</l>
+<l n="*D 55.06">mîne kocken sint sô snel,</l>
+<l n="*D 55.07">sine mugen uns niht genâhen.</l>
+<l n="*D 55.08">wir sulen von hinnen gâhen."</l>
+<l n="*D 55.09"><seg type="Initiale" subtype="Majuskel">S</seg>în golt hiez er ze schiffe trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 55.10">nû muoz ich iu von scheiden sag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 55.11">die naht vuor dan der werde man.</l>
+<l n="*D 55.12">daz wart verholne getân.</l>
+<l n="*D 55.13">dô er entran dem wîbe,</l>
+<l n="*D 55.14">dô hete si in ir lîbe</l>
+<l n="*D 55.15">zwelf wochen lebendic ein kint.</l>
+<l n="*D 55.16">vaste ment in dan der wint.</l>
+<l n="*D 55.17"><seg type="Initiale" subtype="Majuskel">D</seg>iu vrouwe in ir biutel vant</l>
+<l n="*D 55.18">einen brief, den schreib ir mannes hant</l>
+<l n="*D 55.19">en <name type="Person">franzoys</name>, daz si kunde.</l>
+<l n="*D 55.20">diu schrift ir sagen begunde:</l>
+<l n="*D 55.21">"<seg type="Initiale"><corr type="Emendation">H</corr></seg>ie enbiutet liep ein and<reg type="Synkope">e</reg>r liep.</l>
+<l n="*D 55.22">ich bin dirre verte ein diep.</l>
+<l n="*D 55.23">die muose ich dir durch jâmer steln.</l>
+<l n="*D 55.24">vrouwe, ine mac dich niht verheln:</l>
+<l n="*D 55.25">w&#x00E6;re dîn ord<reg type="Synkope">e</reg>n in mîner ê,</l>
+<l n="*D 55.26">sô w&#x00E6;re mir immer nâch dir wê</l>
+<l n="*D 55.27">unt hân doch immer nâch dir pîn.</l>
+<l n="*D 55.28">werde unser zweier kindelîn</l>
+<l n="*D 55.29">an dem antlütze einem man gelîch,</l>
+<l n="*D 55.30">deiswâr, der wirt ellens rîch.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="55.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="55.03"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="55.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="55.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="55.17"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>G</wit> <wit>L</wit>
+</rdg></app><app loc="55.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="55.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="55.21"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="55.21"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app><app loc="55.21"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="55.27"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="55.27"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="55.04">
+<lem>sult</lem> <rdg>sullet ez <wit>*m</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>)</rdg>
+</app>
+<app loc="55.05">
+<lem>daz swarze vel</lem> <rdg>swarziu velle <wit>*m</wit></rdg>
+</app>
+<app loc="55.07">
+<lem>genâhen</lem> <rdg>gevâhen <wit>*m</wit> <subst><del>*</del><add>gevohen</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="55.12">
+<rdg>verholn daz wart getan <wit>I</wit></rdg>
+</app>
+<app loc="55.12">
+<lem>wart</lem> <rdg>waz <wit>V</wit></rdg>
+</app>
+<app loc="55.13">
+<rdg>dô entran er dem wîbe. <wit>*m</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="55.16">
+<lem>ment</lem> <rdg>wegete <wit>*m</wit></rdg>
+</app>
+<app loc="55.17">
+<lem>biutel</lem> <rdg>seckel <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="55.18">
+<lem>mannes</lem> <rdg><subst><del>manne</del><add>mannes</add></subst> <wit>Fr21</wit></rdg>
+</app>
+<app loc="55.19">
+<lem>en</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="55.20">
+<lem>schrift</lem> <rdg>geschrift <wit>*m</wit></rdg>
+</app>
+<app loc="55.21">
+<lem>Hie</lem> <rdg>&#x00F7;ie <wit>D</wit></rdg>
+</app>
+<app loc="55.24">
+<rdg>ichne mac dich es (dich <wit>I</wit> <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit> dirs <wit>V</wit>), vrouwe (Vrowe ich mau&#x0366;g dirs <wit>L</wit> ichn mac mich <wit>T</wit>), niht verheln (geheln <wit>T</wit>): <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="55.24">
+<lem>dich</lem> <rdg>dir <wit>*m</wit></rdg>
+</app>
+<app loc="55.30">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="55.01">
+<rdg>g. und br. <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="55.02">
+<rdg></rdg>
+</app>
+<app loc="55.03">
+<rdg></rdg>
+</app>
+<app loc="55.04">
+<rdg>sp. (sprach <subst><del>er</del><add>-*-</add></subst> <wit>V</wit>): "nû helt ez (Sprach ir svlt iz heln <wit>O</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>]) l. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="55.05">
+<rdg>wan (<subst><del>*</del><add>vor den</add></subst> <wit>V</wit>) die tr. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="55.06">
+<rdg>m. kiele (kocke <wit>T</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>]) sint <wit>*T</wit></rdg>
+</app>
+<app loc="55.07">
+<rdg>den mac n. g. (Sine mugen vns niht gnaden <wit>Fr21</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="55.08">
+<rdg></rdg>
+</app>
+<app loc="55.09">
+<rdg></rdg>
+</app>
+<app loc="55.10">
+<rdg></rdg>
+</app>
+<app loc="55.11">
+<rdg>in (<subst><del>*</del><add>Bi</add></subst> <wit>V</wit>) der n. v. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="55.12">
+<rdg></rdg>
+</app>
+<app loc="55.13">
+<rdg></rdg>
+</app>
+<app loc="55.14">
+<rdg></rdg>
+</app>
+<app loc="55.15">
+<rdg>zw. w. ein lebendec (ein lebende <wit>V</wit> lebende ein <wit>T</wit>) k. <wit>*T</wit></rdg>
+</app>
+<app loc="55.16">
+<rdg>v. wâte in (vaste in fu&#x0366;rte <wit>V</wit> vaste treip in <wit>T</wit> [<wit>I</wit>]) <wit>*T</wit></rdg>
+</app>
+<app loc="55.17">
+<rdg></rdg>
+</app>
+<app loc="55.18">
+<rdg></rdg>
+</app>
+<app loc="55.19">
+<rdg>in franzois, <wit>*T</wit></rdg>
+</app>
+<app loc="55.20">
+<rdg>s. b., <wit>*T</wit></rdg>
+</app>
+<app loc="55.21">
+<rdg>hie enbüte liebe ein a. liep. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="55.22">
+<rdg>"ich bin <wit>*T</wit></rdg>
+</app>
+<app loc="55.23">
+<rdg>die muoz ich <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="55.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="55.25">
+<rdg></rdg>
+</app>
+<app loc="55.26">
+<rdg>dir wê. <wit>*T</wit></rdg>
+</app>
+<app loc="55.27">
+<rdg>unde hân (<note>om.</note> <wit>L</wit>) sus imer <wit>*G</wit> <note>(ohne Z)</note> ich hân sus iemer <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="55.28">
+<rdg></rdg>
+</app>
+<app loc="55.29">
+<rdg>anme lîbe e. man g., <wit>*G</wit> <note>(nur GI)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="55.30">
+<rdg>w. e. (ellent <wit>O</wit>) rîch <wit>*G</wit> w. alsô (<subst><del>ellen*</del><add>ellenz</add></subst> <wit>V</wit> ellens <wit>T</wit>) r. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

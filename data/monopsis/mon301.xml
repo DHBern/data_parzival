@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 301</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>26.09.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 301.01"><seg type="Initiale">D</seg>es erwi<corr type="Emendation">r</corr>be ich iu die hulde,</l>
+<l n="*D 301.02">daz der künec l&#x00E6;t die schulde,</l>
+<l n="*D 301.03">welt ir nâch mîme râte leb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 301.04">geselleschaft mir vür in geb<reg type="Synkope">e</reg>n."</l>
+<l n="*D 301.05"><seg type="Initiale" subtype="Majuskel">D</seg>es künec <name type="Person">Gahmuretes</name> kint,</l>
+<l n="*D 301.06">dröuwen unt vlêhen was im ein wint.</l>
+<l n="*D 301.07">der tavelrunde h&#x0153;hster prîs,</l>
+<l n="*D 301.08"><name type="Person">Gawan</name>, was solher n&#x0153;te al wîs.</l>
+<l n="*D 301.09">er het si unsanfte erkant,</l>
+<l n="*D 301.10">dô er mit dem mezzer durch die hant</l>
+<l n="*D 301.11">stach. des twang in minnen kraft</l>
+<l n="*D 301.12">unt wert wîplîch geselleschaft.</l>
+<l n="*D 301.13"><seg type="Initiale" subtype="Majuskel">I</seg>n schiet von tôde ein künegîn,</l>
+<l n="*D 301.14">dô der küene <name type="Person">L&#x00E6;helin</name></l>
+<l n="*D 301.15">mit einer tjoste rîche</l>
+<l n="*D 301.16">in twanc sô volleclîche.</l>
+<l n="*D 301.17">diu senfte, süeze, wol gevar</l>
+<l n="*D 301.18">ze pfande sazt ir houbet dar,</l>
+<l n="*D 301.19">diu künegîn <name type="Person">Inguse</name> von <name type="Ort">Bahtarliez</name>,</l>
+<l n="*D 301.20">alsus diu getriwe hiez.</l>
+<l n="*D 301.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô dâhte mîn hêr <name type="Person">Gawan</name>:</l>
+<l n="*D 301.22">"waz, ob diu minne disen man</l>
+<l n="*D 301.23">twinget, als si mich dô twanc,</l>
+<l n="*D 301.24">unt sîn getriulîch gedanc</l>
+<l n="*D 301.25">der minne muoz ir siges jehen?"</l>
+<l n="*D 301.26"><seg type="Initiale" subtype="Majuskel">E</seg>r marcte des <name type="Person">Waleis<reg type="Synkope">e</reg>s</name> sehen,</l>
+<l n="*D 301.27">war stüenden im diu ougen sîn.</l>
+<l n="*D 301.28">eine failen tuoches von <name type="Ort">Surin</name>,</l>
+<l n="*D 301.29">gefurriert mit gelwem zindâl,</l>
+<l n="*D 301.30">die swang er über di<corr type="Emendation">u</corr> bluot<reg type="Synkope">e</reg>s mâl.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> 
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 301.19-20)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="301.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="301.05"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app><app loc="301.05"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="301.07"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="301.07"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="301.13"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>O</wit>
+</rdg></app><app loc="301.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="301.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="301.21"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="301.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="301.26"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="301.29"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="301.01">
+<lem>erwirbe</lem> <rdg>erwibe <wit>D</wit> erwürbe <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="301.04">
+<lem>geselleschaft</lem> <rdg>selleschaft <wit>*m</wit></rdg>
+</app>
+<app loc="301.05">
+<lem>künec</lem> <rdg>küniges <wit>*m</wit></rdg>
+</app>
+<app loc="301.08">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="301.19">
+<rdg>royn (Koyn <wit>U</wit> <subst><del>*n</del><add>Die kv́negin</add></subst> <wit>V</wit>) Ingwiz (Inguzze <wit>*T</wit>) de (<note>om.</note> <wit>O</wit>) Paitterliez, <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="301.19">
+<lem>diu</lem> <rdg>de <wit>D</wit></rdg>
+</app>
+<app loc="301.23">
+<lem>dô twanc</lem> <rdg>betwanc <wit>*m</wit></rdg>
+</app>
+<app loc="301.27">
+<lem>stüenden im</lem> <rdg>ime stüenden <wit>*m</wit></rdg>
+</app>
+<app loc="301.28">
+<rdg>ein vêl von einen sigelatin <wit>I</wit></rdg>
+</app>
+<app loc="301.30">
+<lem>über</lem> <rdg>ûf <wit>*m</wit></rdg>
+</app>
+<app loc="301.30">
+<lem>diu</lem> <rdg>die <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="301.01">
+<rdg></rdg>
+</app>
+<app loc="301.02">
+<rdg></rdg>
+</app>
+<app loc="301.03">
+<rdg>r. leben <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="301.04">
+<rdg>unde g. her (mir <wit>Z</wit>) vür <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="301.05">
+<rdg>küneges <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="301.06">
+<rdg></rdg>
+</app>
+<app loc="301.07">
+<rdg></rdg>
+</app>
+<app loc="301.08">
+<rdg>was dirre n. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="301.09">
+<rdg>het es (<note>om.</note> <wit>U</wit>) u. <wit>*T</wit></rdg>
+</app>
+<app loc="301.10">
+<rdg></rdg>
+</app>
+<app loc="301.11">
+<rdg></rdg>
+</app>
+<app loc="301.12">
+<rdg></rdg>
+</app>
+<app loc="301.13">
+<rdg></rdg>
+</app>
+<app loc="301.14">
+<rdg></rdg>
+</app>
+<app loc="301.15">
+<rdg></rdg>
+</app>
+<app loc="301.16">
+<rdg>in tw. sus (twan so <wit>Z</wit> twanc sos <wit>U</wit>) volliclîche. <wit>*G</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="301.17">
+<rdg>diu junge (<subst><del>*</del><add>senfte</add></subst> <wit>V</wit>), süeze, wol g. <wit>*T</wit></rdg>
+</app>
+<app loc="301.18">
+<rdg></rdg>
+</app>
+<app loc="301.19">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="301.20">
+<rdg></rdg>
+</app>
+<app loc="301.21">
+<rdg>dô sprach (<subst><del>*</del><add>gedohte</add></subst> <wit>V</wit>) mîn <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="301.22">
+<rdg></rdg>
+</app>
+<app loc="301.23">
+<rdg>dô betwanc, <wit>*T</wit></rdg>
+</app>
+<app loc="301.24">
+<rdg></rdg>
+</app>
+<app loc="301.25">
+<rdg></rdg>
+</app>
+<app loc="301.26">
+<rdg></rdg>
+</app>
+<app loc="301.27">
+<rdg>war (<subst><del>*</del><add>War im</add></subst> <wit>V</wit>) stuonden diu (im die <wit>Z</wit>) ou. sîn. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="301.28">
+<rdg>ein vêle, tuoch (veletv&#x0366;ch <wit>V</wit>) von S., <wit>*T</wit> · tuoches <note>om.</note> &#x2193;<wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="301.29">
+<rdg></rdg>
+</app>
+<app loc="301.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 171</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 171.01">- daz ist ein unsüez<reg type="Synkope">e</reg> arbeit -,</l>
+<l n="*D 171.02">dem sult ir helfe sîn bereit.</l>
+<l n="*D 171.03">swenne ir dem tuot kumbers buoz,</l>
+<l n="*D 171.04">sô nâhet iu der gotes gruoz.</l>
+<l n="*D 171.05">im ist noch wirs denne den, die gênt</l>
+<l n="*D 171.06">nâch porte, al dâ diu venster stênt.</l>
+<l n="*D 171.07"><seg type="Initiale">I</seg>r sult bescheidenlîche</l>
+<l n="*D 171.08">sîn arm unt rîche,</l>
+<l n="*D 171.09">wan swâ der hêrre gar vertuot,</l>
+<l n="*D 171.10">daz ist niht hêrrenlîcher muot.</l>
+<l n="*D 171.11">samnet er aber schaz ze sêre,</l>
+<l n="*D 171.12">daz sint ouch unêre.</l>
+<l n="*D 171.13">gebt rehter mâze ir orden.</l>
+<l n="*D 171.14">ich bin wol innen worden,</l>
+<l n="*D 171.15">daz ir râtes dürftic sît.</l>
+<l n="*D 171.16">nû lât der unvuoge ir strît.</l>
+<l n="*D 171.17"><seg type="Initiale" subtype="Majuskel">I</seg>r ensult niht vil gevrâgen.</l>
+<l n="*D 171.18">ouch ensol iuch niht betrâgen</l>
+<l n="*D 171.19">bedâht<reg type="Synkope">e</reg>r gegenrede, diu gê</l>
+<l n="*D 171.20">reht, als jenes vrâgen stê,</l>
+<l n="*D 171.21">der iuch wil mit worten spehen.</l>
+<l n="*D 171.22">ir kunnet h&#x0153;ren unt sehen,</l>
+<l n="*D 171.23">entseben unt <corr type="Emendation">d</corr>r&#x00E6;hen,</l>
+<l n="*D 171.24">daz solt iuch witzen n&#x00E6;hen.</l>
+<l n="*D 171.25">lât die erbärme bî der vrevel sîn.</l>
+<l n="*D 171.26">sus tuot mir rât<reg type="Synkope">e</reg>s volge schîn:</l>
+<l n="*D 171.27"><seg type="Initiale" subtype="Majuskel">A</seg>n swem ir strîtes sicherheit</l>
+<l n="*D 171.28">bezalt, ern hab iu sölhiu leit</l>
+<l n="*D 171.29">getân, diu herzekumb<reg type="Synkope">e</reg>r wes<reg type="Synkope">e</reg>n,</l>
+<l n="*D 171.30">di<corr type="Emendation">e</corr> nemt und lâzet in genes<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(171.1-3 und 6-8)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="171.07"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="171.07"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="171.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="171.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="171.27"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="171.05">
+<lem>denne den die</lem> <rdg>danne die (danne di do <wit>O</wit> <subst><del>*</del><add>danne die</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>O</wit> <wit>Fr21</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="171.06">
+<lem>porte</lem> <rdg>brôte (bratte <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="171.11">
+<rdg>sament er aber (aber er <wit>Fr21</wit>) schatzes êre (schatzes m&#x00E6;re <wit>G</wit> schatz sere <wit>Fr21</wit>), <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="171.11">
+<rdg>samnet er aber (aber er <wit>U</wit> <wit>V</wit>) schatz mêre (<subst><del>*</del><add>ze sere</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="171.15">
+<lem>dürftic</lem> <rdg>bedürftic <wit>*m</wit></rdg>
+</app>
+<app loc="171.16">
+<lem>unvuoge</lem> <rdg>ungevuoge <wit>*m</wit></rdg>
+</app>
+<app loc="171.21">
+<lem>iuch</lem> <rdg>iuch dâ <wit>*m</wit></rdg>
+</app>
+<app loc="171.25">
+<lem>die erbärme</lem> <rdg>erbermde <wit>*m</wit></rdg>
+</app>
+<app loc="171.30">
+<lem>die</lem> <rdg>div <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="171.01">
+<rdg>- daz ist unsüeziu (Deist ein sv&#x0366;zev <wit>Fr21</wit>) a. -, <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="171.02">
+<rdg></rdg>
+</app>
+<app loc="171.03">
+<rdg>wan sw. <wit>*T</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="171.04">
+<rdg></rdg>
+</app>
+<app loc="171.05">
+<rdg></rdg>
+</app>
+<app loc="171.06">
+<rdg>n. brôte, al (<note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) dâ (<subst><del>*</del><add>aldo</add></subst> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="171.07">
+<rdg></rdg>
+</app>
+<app loc="171.08">
+<rdg></rdg>
+</app>
+<app loc="171.09">
+<rdg></rdg>
+</app>
+<app loc="171.10">
+<rdg></rdg>
+</app>
+<app loc="171.11">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="171.12">
+<rdg>daz s. grôz u. <wit>*T</wit></rdg>
+</app>
+<app loc="171.13">
+<rdg></rdg>
+</app>
+<app loc="171.14">
+<rdg></rdg>
+</app>
+<app loc="171.15">
+<rdg></rdg>
+</app>
+<app loc="171.16">
+<rdg>ungevuoge <wit>*G</wit> <note>(ohne LZ)</note> · ir <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="171.17">
+<rdg></rdg>
+</app>
+<app loc="171.18">
+<rdg></rdg>
+</app>
+<app loc="171.19">
+<rdg>beidenthalp diu rede (<subst><del>*</del><add>Bedahter gegenrede</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="171.20">
+<rdg>vrâge <wit>*G</wit> <note>(ohne IZ)</note></rdg>
+</app>
+<app loc="171.21">
+<rdg>swer iu. wil <wit>*G</wit> <note>(ohne Z)</note> (<wit>V</wit>) swer iuwer (Wer vch wer <wit>U</wit>) wil <wit>*T</wit></rdg>
+</app>
+<app loc="171.22">
+<rdg></rdg>
+</app>
+<app loc="171.23">
+<rdg></rdg>
+</app>
+<app loc="171.24">
+<rdg>daz sol (solt <wit>Z</wit> <subst><del>sol*</del><add>solte</add></subst> <wit>V</wit>) iu. witzen (witzen vnd <wit>Z</wit> witze <wit>*T</wit> <note>[ohne V]</note> <wit>L</wit>) n. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="171.25">
+<rdg>die (<note>om.</note> <wit>I</wit> <wit>L</wit> ewer <wit>Z</wit>) erbermede (<subst><del>erbar*</del><add>erbarmde</add></subst> <wit>I</wit>) <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="171.26">
+<rdg></rdg>
+</app>
+<app loc="171.27">
+<rdg></rdg>
+</app>
+<app loc="171.28">
+<rdg>sölhiu (<subst><del>*</del><add>soliche</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="171.29">
+<rdg></rdg>
+</app>
+<app loc="171.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

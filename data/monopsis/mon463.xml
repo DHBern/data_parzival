@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 463</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 463.01"><seg type="Initiale">I</seg>rn megt im ab erzürnen niht.</l>
+<l n="*D 463.02">swer iuch gein im in hazze siht,</l>
+<l n="*D 463.03">der hât iuch an den witzen kranc.</l>
+<l n="*D 463.04">nû prüevet, wie <name type="Person">Lucifern</name> gelanc</l>
+<l n="*D 463.05">und sînen nôtgestallen.</l>
+<l n="*D 463.06">si wâren doch âne gallen.</l>
+<l n="*D 463.07">jâ, hêrre, wâ nâmen si den nît,</l>
+<l n="*D 463.08">dâ von ir endelôser strît</l>
+<l n="*D 463.09">zer helle enpfâhet sûren lôn?</l>
+<l n="*D 463.10"><name type="Person">Astiroth</name> und <name type="Person">Belcimon</name>,</l>
+<l n="*D 463.11"><name type="Person">Belet</name> und <name type="Person">Radamant</name></l>
+<l n="*D 463.12">unt and<reg type="Synkope">e</reg>r, die ich dâ hân erkant,</l>
+<l n="*D 463.13">diu liehtiu himelische schar</l>
+<l n="*D 463.14">wart durch nît nâch helle var.</l>
+<l n="*D 463.15">dô <name type="Person">Lucifer</name> vuor die helle vart</l>
+<l n="*D 463.16">mit schar, ein mensche nâch im wart.</l>
+<l n="*D 463.17"><seg type="Initiale" subtype="Majuskel">G</seg>ot worhte ûz der erden</l>
+<l n="*D 463.18"><name type="Person">Adamen</name>, den werden.</l>
+<l n="*D 463.19">von <name type="Person">Adames</name> verche er <name type="Person">Even</name> brach,</l>
+<l n="*D 463.20">diu uns gap an daz ungemach,</l>
+<l n="*D 463.21">daz s<reg type="Synkope">i</reg> ir schepf&#x00E6;re überhôrte</l>
+<l n="*D 463.22">unt unser vreude stôrte.</l>
+<l n="*D 463.23">von in zwein kom gebürte vruht.</l>
+<l n="*D 463.24">einem riet sîn ungenuht,</l>
+<l n="*D 463.25">daz er durch gîteclîchen ruom</l>
+<l n="*D 463.26">sîner anen nam den mag<reg type="Synkope">e</reg>tuom.</l>
+<l n="*D 463.27">nû beginnet g<reg type="Synkope">e</reg>nuoge des gezemen,</l>
+<l n="*D 463.28">ê si diz m&#x00E6;re vernemen,</l>
+<l n="*D 463.29">daz si vreischen, wie daz möte sîn.</l>
+<l n="*D 463.30">ez wart i<reg type="Synkope">e</reg>doch mi<corr type="Emendation">t</corr> sünden schîn."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <note>(463.20)</note> <wit>Fr22</wit> <note>(463.5-25)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="463.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="463.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="463.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="463.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="463.27"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="463.01">
+<lem>ab erzürnen</lem> <rdg>aber zerrinnen <wit>*m</wit></rdg>
+</app>
+<app loc="463.02">
+<lem>hazze</lem> <rdg>strîte <wit>*m</wit></rdg>
+</app>
+<app loc="463.05">
+<lem>und</lem> <rdg>an <wit>*m</wit></rdg>
+</app>
+<app loc="463.07">
+<lem>nâmen</lem> <rdg>nement <wit>*m</wit></rdg>
+</app>
+<app loc="463.09">
+<lem>zer</lem> <rdg>zuo <wit>*m</wit></rdg>
+</app>
+<app loc="463.09">
+<lem>enpfâhet sûren lôn</lem> <rdg>enpfâhet viurînen lôn (enpfachent fu̽renlon <wit>mk</wit> enphahet viwers lon <wit>I</wit> <subst><del>*</del><add>svren</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(nur G)</note> (<wit>mk</wit> <wit>I</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="463.10">
+<rdg>Astrioch und Belczelon, <wit>*m</wit></rdg>
+</app>
+<app loc="463.11">
+<rdg>Bellech und Radamant <wit>*m</wit></rdg>
+</app>
+<app loc="463.12">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="463.13">
+<rdg>diu himelschar <wit>*m</wit></rdg>
+</app>
+<app loc="463.15">
+<lem>vart</lem> <rdg><subst><del>wrt</del><add>vart</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="463.21">
+<rdg>daz ir schepfer si (vnd scho̽pft <wit>mk</wit>) überhôrte <wit>*m</wit></rdg>
+</app>
+<app loc="463.25">
+<lem>gîteclîchen</lem> <rdg>güetlîchen (<subst><del>*ichen</del><add>giteclichen</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="463.28">
+<rdg>ê daz si daz (des <wit>mk</wit>) m&#x00E6;re vernemen, <wit>*m</wit></rdg>
+</app>
+<app loc="463.29">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="463.30">
+<lem>mit</lem> <rdg>min <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="463.01">
+<rdg></rdg>
+</app>
+<app loc="463.02">
+<rdg></rdg>
+</app>
+<app loc="463.03">
+<rdg></rdg>
+</app>
+<app loc="463.04">
+<rdg></rdg>
+</app>
+<app loc="463.05">
+<rdg></rdg>
+</app>
+<app loc="463.06">
+<rdg></rdg>
+</app>
+<app loc="463.07">
+<rdg></rdg>
+</app>
+<app loc="463.08">
+<rdg></rdg>
+</app>
+<app loc="463.09">
+<rdg>ze h. <wit>*T</wit> <wit>O</wit> <wit>L</wit> · &#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="463.10">
+<rdg>A. (Astaron <wit>L</wit>) unde Beleimon (Belzimon <wit>L</wit>), <wit>*G</wit> <note>(ohne Z)</note> · Beleet unde B., <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="463.11">
+<rdg>Asterot unde R. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="463.12">
+<rdg></rdg>
+</app>
+<app loc="463.13">
+<rdg></rdg>
+</app>
+<app loc="463.14">
+<rdg>w. d. nît hellevar. <wit>*T</wit> (<wit>G</wit>)</rdg>
+</app>
+<app loc="463.15">
+<rdg></rdg>
+</app>
+<app loc="463.16">
+<rdg></rdg>
+</app>
+<app loc="463.17">
+<rdg></rdg>
+</app>
+<app loc="463.18">
+<rdg></rdg>
+</app>
+<app loc="463.19">
+<rdg></rdg>
+</app>
+<app loc="463.20">
+<rdg>gap uns <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="463.21">
+<rdg></rdg>
+</app>
+<app loc="463.22">
+<rdg></rdg>
+</app>
+<app loc="463.23">
+<rdg></rdg>
+</app>
+<app loc="463.24">
+<rdg>einen verriet (eim geriet <wit>I</wit> [<wit>O</wit> <wit>L</wit> <wit>Fr22</wit>] Einem <subst><del>*</del><add>riet</add></subst> <wit>V</wit>) sîn u., <wit>*G</wit> <note>(ohne Z)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="463.25">
+<rdg></rdg>
+</app>
+<app loc="463.26">
+<rdg></rdg>
+</app>
+<app loc="463.27">
+<rdg></rdg>
+</app>
+<app loc="463.28">
+<rdg></rdg>
+</app>
+<app loc="463.29">
+<rdg></rdg>
+</app>
+<app loc="463.30">
+<rdg>mit triuwen (<subst><del>*</del><add>sv́nden</add></subst> <wit>V</wit>) sch. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

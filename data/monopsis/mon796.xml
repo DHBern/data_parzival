@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 796</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 796.01">von tôde lebendec dan hiez gên</l>
+<l n="*D 796.02">unt der <name type="Person">Lazarum</name> bat ûf stên,</l>
+<l n="*D 796.03">der selbe half, daz <name type="Person">Anfortas</name></l>
+<l n="*D 796.04">wart gesunt unt wol genas.</l>
+<l n="*D 796.05"><seg type="Initiale" subtype="Majuskel">S</seg>waz der <name type="Person">Franzoys</name> heizet flôrî,</l>
+<l n="*D 796.06">der glast kom sînem velle bî.</l>
+<l n="*D 796.07"><name type="Person">Parzival<corr type="Emendation">s</corr></name> sch&#x0153;ne was nû ein wint</l>
+<l n="*D 796.08">unt <name type="Person">Absalon</name>, <name type="Person">Davides</name> kint,</l>
+<l n="*D 796.09">von <name type="Ort">Ascalun</name> <name type="Person">Vergulaht</name></l>
+<l n="*D 796.10">unt al, den sch&#x0153;ne was geslaht,</l>
+<l n="*D 796.11">unt des man <name type="Person">Gahmurete</name> jach,</l>
+<l n="*D 796.12">dô man in în zog<reg type="Synkope">e</reg>n sach</l>
+<l n="*D 796.13">ze <name type="Ort">Kanvoleiz</name> sô wünneclîch,</l>
+<l n="*D 796.14">ir dechein<reg type="Synkope">e</reg>s sch&#x0153;ne was der gelîch,</l>
+<l n="*D 796.15">die <name type="Person">Anfortas</name> ûz siecheit truoc.</l>
+<l n="*D 796.16">got noch künste kan genuoc.</l>
+<l n="*D 796.17"><seg type="Initiale" subtype="Majuskel">D</seg>â ergienc dô dehein ander wal,</l>
+<l n="*D 796.18">wan die diu schrift ame <name type="Sonstiges">Grâl</name></l>
+<l n="*D 796.19">hete ze hêrr<reg type="Synkope">e</reg>n in benant.</l>
+<l n="*D 796.20"><name type="Person">Parzival</name> wart schiere bekant</l>
+<l n="*D 796.21">ze künege unt ze hêrren dâ.</l>
+<l n="*D 796.22">ich w&#x00E6;ne, iemen anderswâ</l>
+<l n="*D 796.23">vünde zwêne als rîche man</l>
+<l n="*D 796.24"></l>
+<l n="*D 796.25">als <name type="Person">Parzival</name> unt <name type="Person">Feirefiz</name>.</l>
+<l n="*D 796.26">man bôt vil dienstlîchen vlîz</l>
+<l n="*D 796.27">dem wirte unt sîme gaste.</l>
+<l n="*D 796.28"><seg type="Initiale" subtype="Majuskel">I</seg>ne weiz, wie manege raste</l>
+<l n="*D 796.29"><name type="Person">Condwiramurs</name> dô was geriten</l>
+<l n="*D 796.30">gein <name type="Ort">Munsalv&#x00E6;sche</name> mit vreude siten.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(ohne 796.24)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(mit 796.28¹-28⁴)</note> <wit>V</wit> <note>(mit 796.28¹-28⁴)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <note>(ohne 796.9-12 und 15-16)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="796.01"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="796.05"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app><app loc="796.05"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="796.07"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>U</wit>
+</rdg></app>
+<app loc="796.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="796.28"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="796.28-1"><rdg>
+ <note>Illustration mit Überschrift:</note> Also parcifal des groles herre wart vnd anfortas erlost mit siner froge die do geschah <wit>mk</wit>
+</rdg></app><app loc="796.28-1"><rdg><note>Initiale</note> <wit>mk</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="796.01">
+<rdg>von (von dem <wit>I</wit> [<wit>L</wit> <wit>Z</wit>]) tôde lebende (lebendic <wit>I</wit> <wit>Z</wit>) hiez hine (hiez <wit>I</wit> dan hiz <wit>L</wit> [<wit>Z</wit>]) gên <wit>*G</wit></rdg>
+</app>
+<app loc="796.05">
+<rdg>er was vor ungemache vrî (Gotes craft wart an im shin <wit>I</wit> Daz der frantzois heizzet flori <wit>Z</wit>), <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="796.07">
+<lem>Parzivals</lem> <rdg>Parcifal <wit>D</wit></rdg>
+</app>
+<app loc="796.08">
+<lem>Absalon</lem> <rdg>Absolones (<subst><del>absolo*</del><add>absolonez</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="796.10">
+<lem>den sch&#x0153;ne</lem> <rdg>den (der <wit>V</wit>) schône <wit>*m</wit></rdg>
+</app>
+<app loc="796.11">
+<lem>des</lem> <rdg>daz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="796.12">
+<lem>man in</lem> <rdg>mann <wit>D</wit></rdg>
+</app>
+<app loc="796.18">
+<lem>die</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="796.24">
+<rdg>ob ich rîcheit gebrüefen kan, <wit>*m</wit></rdg>
+</app>
+<app loc="796.27">
+<lem>sîme gaste</lem> <rdg>dem gaste (den gesten <wit>V</wit>) sîn <wit>*m</wit></rdg>
+</app>
+<app loc="796.28">
+<rdg>daz ist der gloube mîn. <wit>*m</wit></rdg>
+</app>
+<app loc="796.28">
+<rdg><note>nach 796.28:</note> Nû si (<note>om.</note> <wit>mk</wit>) alsô sint gesezzen / und ir sorge (sorgen <wit>V</wit>) hânt vergezzen, / dô seite man in m&#x00E6;re, / diu wâren vröudeb&#x00E6;re, <wit>*m</wit></rdg>
+</app>
+<app loc="796.29">
+<rdg>daz Condwieramurs kam geriten <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="796.01">
+<rdg>&#x2193;<wit>*G</wit> · hiez dan <wit>*T</wit></rdg>
+</app>
+<app loc="796.02">
+<rdg>der (von dem Tode <wit>I</wit>) <note>om.</note> <wit>*G</wit> <wit>*T</wit> · L. hiez ûf (hiez vf vf <wit>I</wit> vf bat <wit>Z</wit>) st., <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="796.03">
+<rdg></rdg>
+</app>
+<app loc="796.04">
+<rdg></rdg>
+</app>
+<app loc="796.05">
+<rdg>&#x2193;<wit>*G</wit> · Franzoyser <wit>*T</wit></rdg>
+</app>
+<app loc="796.06">
+<rdg></rdg>
+</app>
+<app loc="796.07">
+<rdg>nû <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="796.08">
+<rdg>unt <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="796.09">
+<rdg>unde von <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="796.10">
+<rdg>unde allen, <wit>*G</wit></rdg>
+</app>
+<app loc="796.11">
+<rdg>oder des <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="796.12">
+<rdg></rdg>
+</app>
+<app loc="796.13">
+<rdg>sô minneclîch, <wit>*T</wit></rdg>
+</app>
+<app loc="796.14">
+<rdg></rdg>
+</app>
+<app loc="796.15">
+<rdg></rdg>
+</app>
+<app loc="796.16">
+<rdg></rdg>
+</app>
+<app loc="796.17">
+<rdg>dô e. ouch kein a. wal, <wit>*T</wit></rdg>
+</app>
+<app loc="796.18">
+<rdg>wan den diu <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="796.19">
+<rdg></rdg>
+</app>
+<app loc="796.20">
+<rdg></rdg>
+</app>
+<app loc="796.21">
+<rdg></rdg>
+</app>
+<app loc="796.22">
+<rdg></rdg>
+</app>
+<app loc="796.23">
+<rdg>v. (man funde <wit>I</wit>) zw. sô r. man, <wit>*T</wit></rdg>
+</app>
+<app loc="796.24">
+<rdg>obe ich rîcheit prüeven kan, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="796.25">
+<rdg></rdg>
+</app>
+<app loc="796.26">
+<rdg>bôt in d. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="796.27">
+<rdg></rdg>
+</app>
+<app loc="796.28">
+<rdg></rdg>
+</app>
+<app loc="796.29">
+<rdg>dô <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="796.30">
+<rdg>ze Muntsalfatsche <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

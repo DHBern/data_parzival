@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 52</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 52.01"><name type="Person">Gahmurete</name>, ir hêrren.</l>
+<l n="*D 52.02">die selben wâren die êrren.</l>
+<l n="*D 52.03"></l>
+<l n="*D 52.04"></l>
+<l n="*D 52.05"></l>
+<l n="*D 52.06"></l>
+<l n="*D 52.07"></l>
+<l n="*D 52.08"></l>
+<l n="*D 52.09"><seg type="Initiale" subtype="Majuskel">D</seg>ô hete <name type="Person">Prothizilas</name>,</l>
+<l n="*D 52.10">der von arde ein vürste was,</l>
+<l n="*D 52.11">lâzen ein herzentuom.</l>
+<l n="*D 52.12">daz lêch er dem, der manegen ruom</l>
+<l n="*D 52.13">mit sîner hant bejagete.</l>
+<l n="*D 52.14">gein strîte er nie verzagete:</l>
+<l n="*D 52.15"><name type="Person">Lachfilirost</name> schahtelakunt</l>
+<l n="*D 52.16">nam ez mit vanen sân zestunt.</l>
+<l n="*D 52.17"><seg type="Initiale">V</seg>on <name type="Ort">Azagouc</name> die vürsten hêr</l>
+<l n="*D 52.18">nâmen den <name type="Person">Schotten</name> <name type="Person">Hiuteger</name></l>
+<l n="*D 52.19">unt <name type="Person">Gaschieren</name> den <name type="Person">Oriman</name>.</l>
+<l n="*D 52.20">si giengen vür ir hêrren sân.</l>
+<l n="*D 52.21">der liez si ledic umb ir bete.</l>
+<l n="*D 52.22">des danketen si dô <name type="Person">Gahmurete</name>.</l>
+<l n="*D 52.23"><name type="Person">Hiuteger</name> de<corr type="Emendation">n</corr> <name type="Person">Schotten</name></l>
+<l n="*D 52.24">si bâten sunder spotten:</l>
+<l n="*D 52.25">"lât mîme hêrren daz gezelt</l>
+<l n="*D 52.26">hie umbe âventiure gelt.</l>
+<l n="*D 52.27">ez zucket uns <name type="Person">Isenhartes</name> leb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 52.28">daz <name type="Person">Vridebrande</name> wart gegeb<reg type="Synkope">e</reg>n</l>
+<l n="*D 52.29">diu zierde unsers landes.</l>
+<l n="*D 52.30">sîn vreude diu stuont pfandes.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(ohne 52.3-8)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 52.3-8)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="52.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="52.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="52.09"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="52.09"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="52.17"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+<app loc="52.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="52.27"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app><app loc="52.27"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="52.03">
+<rdg><note>Die Verse 52.3-8 fehlen</note> <wit>*m</wit></rdg>
+</app>
+<app loc="52.16">
+<lem>mit</lem> <rdg>die <wit>*m</wit></rdg>
+</app>
+<app loc="52.19">
+<lem>Orman</lem> <rdg>Ernman <wit>*m</wit></rdg>
+</app>
+<app loc="52.23">
+<lem>den</lem> <rdg>der <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="52.01">
+<rdg></rdg>
+</app>
+<app loc="52.02">
+<rdg></rdg>
+</app>
+<app loc="52.03">
+<rdg>nâher drungen die von Zazamanc <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="52.04">
+<rdg>mit grôzer vuore, niht ze kranc, <wit>*G</wit> · mit grôzer vuore, niht ze kranc. <wit>*T</wit></rdg>
+</app>
+<app loc="52.05">
+<rdg>unde (si <wit>*T</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit>]) enpfiengen, als ir hêrre (vrouwe <wit>*T</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit>]) hiez, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="54.06">
+<rdg>von im ir lant und des geniez, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="52.07">
+<rdg>als iegelîchen (iegelîchem <wit>*T</wit> <note>[ohne T]</note>) ane gezôch. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="54.08">
+<rdg>diu armuot ir hêrren vlôch. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="52.09">
+<rdg>nû h. Protizalas, <wit>*T</wit> <note>(ohne T)</note> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="52.10">
+<rdg></rdg>
+</app>
+<app loc="52.11">
+<rdg>verlâzen (verlâzen gar <wit>T</wit>) ein herzogentuom. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="52.12">
+<rdg></rdg>
+</app>
+<app loc="52.13">
+<rdg></rdg>
+</app>
+<app loc="52.14">
+<rdg>an strît er <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="52.15">
+<rdg></rdg>
+</app>
+<app loc="52.16">
+<rdg></rdg>
+</app>
+<app loc="52.17">
+<rdg></rdg>
+</app>
+<app loc="52.18">
+<rdg></rdg>
+</app>
+<app loc="52.19">
+<rdg>den Norman. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="52.20">
+<rdg>h. stân. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="52.21">
+<rdg>der lie si l. durch sîne (ir <wit>O</wit>) bet (Der sie ledichet vmbe ir bet <wit>L</wit>). <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="52.22">
+<rdg>des genâdeten si Gahmuret. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="52.23">
+<rdg></rdg>
+</app>
+<app loc="52.24">
+<rdg></rdg>
+</app>
+<app loc="52.25">
+<rdg>h. diz g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="52.26">
+<rdg>hie ûf â. g. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="52.27">
+<rdg></rdg>
+</app>
+<app loc="52.28">
+<rdg></rdg>
+</app>
+<app loc="52.29">
+<rdg>diu gezierde (<subst><del>*zierde</del><add>gezierde</add></subst> <wit>V</wit>) u. l. <wit>*G</wit> <note>(ohne L)</note> (<wit>V</wit> <wit>T</wit>)</rdg>
+</app>
+<app loc="52.30">
+<rdg>sîn vr. st. dô (<note>om.</note> <wit>*T</wit>) pf. (des stvnt sin vrôude pfandes <wit>T</wit>) <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

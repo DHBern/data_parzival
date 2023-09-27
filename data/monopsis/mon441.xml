@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 441</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 441.01"><seg type="Initiale">H</seg>abt ir geprüevet noch sînen art</l>
+<l n="*D 441.02">oder wie ist <seg type="singuläre_Lesart">bewendet</seg> iwer vart?"</l>
+<l n="*D 441.03">er sprach zer meide wol geborn:</l>
+<l n="*D 441.04">"dâ hân ich vreude vil <seg type="singuläre_Lesart">verlorn</seg>.</l>
+<l n="*D 441.05">der <name type="Sonstiges">Grâl</name> mir <seg type="singuläre_Lesart">sorgen</seg> gît genuoc.</l>
+<l n="*D 441.06">ich liez ein lant, dâ ich krône truoc,</l>
+<l n="*D 441.07">dar zuo daz minneclîchste wîp.</l>
+<l n="*D 441.08">ûf erde nie sô sch&#x0153;ner lîp</l>
+<l n="*D 441.09">wart geborn von <seg type="singuläre_Lesart">menschlîcher</seg> vruht.</l>
+<l n="*D 441.10">ich sen mich nâch ir <seg type="singuläre_Lesart">kiuschen</seg> zuht.</l>
+<l n="*D 441.11">nâch ir minne ich trûre vil</l>
+<l n="*D 441.12">unt mêr nâch <seg type="singuläre_Lesart">dem</seg> hôhen zil,</l>
+<l n="*D 441.13">wie <seg type="singuläre_Lesart">ich <name type="Ort">Munsalv&#x00E6;sche</name> mege</seg> geseh<reg type="Synkope">e</reg>n</l>
+<l n="*D 441.14"><seg type="singuläre_Lesart">unt den <name type="Sonstiges">Grâl</name></seg>. daz ist noch ungescheh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 441.15"><seg type="Initiale" subtype="Majuskel">N</seg>iftel <name type="Person">Sigune</name>, dû tuost gewalt,</l>
+<l n="*D 441.16">sît dû mînen kumber manecvalt</l>
+<l n="*D 441.17">erkennest, daz dû vêhest mich."</l>
+<l n="*D 441.18">diu magt sprach: "al mîn gerich</l>
+<l n="*D 441.19">sol ûf dich, neve, sîn verkorn.</l>
+<l n="*D 441.20">dû hâst doch vreuden vil verlorn,</l>
+<l n="*D 441.21">sît dû lieze dich betrâgen</l>
+<l n="*D 441.22">umbe daz werdeclîche vrâgen</l>
+<l n="*D 441.23">unt dô der süeze <name type="Person">Anfortas</name></l>
+<l n="*D 441.24">dîn wirt unt dîn gelücke was.</l>
+<l n="*D 441.25">dâ hete dir vrâgen wunsch bejagt.</l>
+<l n="*D 441.26">nû muoz dîn vröude sîn verzagt</l>
+<l n="*D 441.27">unt al dîn hôher muot erlemt.</l>
+<l n="*D 441.28">dîn herze sorge hât gezemt,</l>
+<l n="*D 441.29">diu dir vil wilde w&#x00E6;re,</l>
+<l n="*D 441.30"><seg type="singuläre_Lesart">hetes gevrâget dû</seg> der m&#x00E6;re."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr5</wit> <note>(441.29-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr25</wit> <note>(441.1-12)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="441.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr25</wit> <wit>V</wit>
+</rdg></app>
+<app loc="441.03"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="441.03"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="441.15"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="441.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="441.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="441.13">
+<lem>gesehen</lem> <rdg>sehen <wit>*m</wit></rdg>
+</app>
+<app loc="441.29">
+<lem>wilde</lem> <rdg>vrömede (framede <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="441.30">
+<lem>gevrâget dû</lem> <rdg>du givragit <wit>Fr5</wit></rdg>
+<rdg>(<wit>*m</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="441.01">
+<rdg></rdg>
+</app>
+<app loc="441.02">
+<rdg></rdg>
+</app>
+<app loc="441.03">
+<rdg></rdg>
+</app>
+<app loc="441.04">
+<rdg></rdg>
+</app>
+<app loc="441.05">
+<rdg>mir sorge gît (sorge gite <wit>G</wit> sorgen lie <wit>I</wit> git sorgen <wit>Z</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="441.06">
+<rdg></rdg>
+</app>
+<app loc="441.07">
+<rdg></rdg>
+</app>
+<app loc="441.08">
+<rdg></rdg>
+</app>
+<app loc="441.09">
+<rdg>w. (<note>om.</note> <wit>I</wit>) g. von menschen (menschen her <wit>I</wit>) vr. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>Fr25</wit>)</rdg>
+</app>
+<app loc="441.10">
+<rdg></rdg>
+</app>
+<app loc="441.11">
+<rdg></rdg>
+</app>
+<app loc="441.12">
+<rdg></rdg>
+</app>
+<app loc="441.13">
+<rdg></rdg>
+</app>
+<app loc="441.14">
+<rdg></rdg>
+</app>
+<app loc="441.15">
+<rdg></rdg>
+</app>
+<app loc="441.16">
+<rdg></rdg>
+</app>
+<app loc="441.17">
+<rdg></rdg>
+</app>
+<app loc="441.18">
+<rdg></rdg>
+</app>
+<app loc="441.19">
+<rdg></rdg>
+</app>
+<app loc="441.20">
+<rdg>h. ouch vröuden <wit>*T</wit> <note>(ohne U)</note> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="441.21">
+<rdg></rdg>
+</app>
+<app loc="441.22">
+<rdg>u. daz w&#x00E6;rlîche vr. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="441.23">
+<rdg>dô <note>om.</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="441.24">
+<rdg></rdg>
+</app>
+<app loc="441.25">
+<rdg></rdg>
+</app>
+<app loc="441.26">
+<rdg></rdg>
+</app>
+<app loc="441.27">
+<rdg></rdg>
+</app>
+<app loc="441.28">
+<rdg></rdg>
+</app>
+<app loc="441.29">
+<rdg></rdg>
+</app>
+<app loc="441.30">
+<rdg>hetestû dô (<note>om.</note> <wit>*T</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>) g. der m." <wit>*G</wit> (<wit>*T</wit>) (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

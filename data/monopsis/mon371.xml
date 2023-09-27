@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 371</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>21.04.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 371.01"><seg type="Initiale">S</seg>i sprach: "vil wênec mich des bevilt.</l>
+<l n="*D 371.02">ich bin iwer scherm unt iwer schilt</l>
+<l n="*D 371.03">unt iwer herze unt iwer trôst,</l>
+<l n="*D 371.04">sît ir mich zwîvels hât erlôst.</l>
+<l n="*D 371.05">ich bin vür ungevelle</l>
+<l n="*D 371.06">iwer geleite unt iwer geselle,</l>
+<l n="*D 371.07">vür ungelückes schûr ein dach</l>
+<l n="*D 371.08">bin ich iu senfteclîch gemach.</l>
+<l n="*D 371.09">mîn minne sol iu vride bern,</l>
+<l n="*D 371.10">gelückes vor der angest wern,</l>
+<l n="*D 371.11">daz iwer ellen niht verbirt,</l>
+<l n="*D 371.12">ir enwert iuch vaste unz an den wirt.</l>
+<l n="*D 371.13">ich bin wirt unt wirtîn</l>
+<l n="*D 371.14">unt wil in strîte bî iu sîn.</l>
+<l n="*D 371.15">swenne ir des gedingen hât,</l>
+<l n="*D 371.16">s&#x00E6;lde unt ellen iuch niht enlât."</l>
+<l n="*D 371.17"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der werde <name type="Person">Gawan</name>:</l>
+<l n="*D 371.18">"vrouwe, ich wil beidiu hân,</l>
+<l n="*D 371.19">sît ich in iwerem gebote lebe,</l>
+<l n="*D 371.20">iwer<reg type="Synkope">e</reg>r minne unt iwerre trôstes gebe."</l>
+<l n="*D 371.21">die wîle wâren ir hendelîn</l>
+<l n="*D 371.22">zwischen den handen sîn.</l>
+<l n="*D 371.23">dô sprach si: "hêrre, nû lât mich varn.</l>
+<l n="*D 371.24">ich muoz ouch mich dâr an bewarn.</l>
+<l n="*D 371.25">wie vüeret ir âne mînen solt?</l>
+<l n="*D 371.26">dar zuo w&#x00E6;re ich iu al ze holt.</l>
+<l n="*D 371.27">ich sol mich arbeiten,</l>
+<l n="*D 371.28">mîn klein&#x0153;te iu bereiten.</l>
+<l n="*D 371.29">swenne ir daz traget, decheinen g<reg type="Synkope">e</reg>wîs</l>
+<l n="*D 371.30">überh&#x0153;het iuch nimm<reg type="Synkope">e</reg>r and<reg type="Synkope">e</reg>r prîs."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <note>(ohne 371.5-6)</note> <wit>Z</wit> <wit>Fr24</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="371.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit> <wit>T</wit>
+</rdg></app>
+<app loc="371.17"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>T</wit> <wit>V</wit>
+</rdg></app><app loc="371.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="371.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="371.01">
+<lem>vil</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="371.01">
+<lem>des</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="371.02">
+<rdg>ich bin iuwer schirm (schilt <wit>mk</wit>) und iuwer schilt (schrrint <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="371.03">
+<rdg>iuwer herze und iuwer trôst, <wit>*m</wit></rdg>
+</app>
+<app loc="371.20">
+<rdg>iuwer minne und iuweres trôstes gebe." <wit>*m</wit></rdg>
+</app>
+<app loc="371.21">
+<lem>wâren</lem> <rdg>was <wit>*m</wit></rdg>
+</app>
+<app loc="371.29">
+<lem>decheinen gewîs</lem> <rdg>dekeine wîs <wit>*m</wit></rdg>
+</app>
+<app loc="371.30">
+<rdg>überh&#x0153;het iuch niemen an dem prîs." <wit>*m</wit></rdg>
+</app>
+<app loc="371.30">
+<rdg>überh&#x0153;het (vber <subst><del>haubet</del><add>hohet</add></subst> <wit>I</wit> Vberhu̽get <wit>L</wit> vber hovbet <wit>Fr24</wit>) iuch (<note>om.</note> <wit>L</wit>) dehein (<subst><del>immer</del><add>nimmer</add></subst> <wit>O</wit> niemer <wit>L</wit> [<wit>Z</wit> <wit>Fr24</wit>]) ander (<note>om.</note> <wit>I</wit>) brîs." <wit>*G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="371.01">
+<rdg></rdg>
+</app>
+<app loc="371.02">
+<rdg>iuwer sch., <wit>*T</wit></rdg>
+</app>
+<app loc="371.03">
+<rdg>iuwer h. (herze vnde <wit>V</wit> <wit>G</wit>), iuwer tr., <wit>*T</wit> (<wit>G</wit>)</rdg>
+</app>
+<app loc="371.04">
+<rdg></rdg>
+</app>
+<app loc="371.05">
+<rdg>ich bin iuwer (<subst><del>*</del><add>fúr</add></subst> <wit>V</wit>) u., <wit>*T</wit></rdg>
+</app>
+<app loc="371.06">
+<rdg></rdg>
+</app>
+<app loc="371.07">
+<rdg></rdg>
+</app>
+<app loc="371.08">
+<rdg>bin ich (Jch bin <wit>V</wit>) iu ein senfteclîchez g. <wit>*T</wit></rdg>
+</app>
+<app loc="371.09">
+<rdg></rdg>
+</app>
+<app loc="371.10">
+<rdg>g. vür die (<note>om.</note> <wit>I</wit>) a. w., <wit>*G</wit> <note>(nur G)</note> · glücke vor der a. w., <wit>*T</wit></rdg>
+</app>
+<app loc="371.11">
+<rdg></rdg>
+</app>
+<app loc="371.12">
+<rdg></rdg>
+</app>
+<app loc="371.13">
+<rdg></rdg>
+</app>
+<app loc="371.14">
+<rdg>unde wil bî iu in st. sîn. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="371.15">
+<rdg></rdg>
+</app>
+<app loc="371.16">
+<rdg></rdg>
+</app>
+<app loc="371.17">
+<rdg></rdg>
+</app>
+<app loc="371.18">
+<rdg></rdg>
+</app>
+<app loc="371.19">
+<rdg></rdg>
+</app>
+<app loc="371.20">
+<rdg>iwere m. unde iwers (ewer <wit>I</wit> [<wit>L</wit>]) tr. g." <wit>*G</wit> · iuwer m. unde iuwer (v́wers <wit>V</wit>) tr. g." <wit>*T</wit></rdg>
+</app>
+<app loc="371.21">
+<rdg>die w. was ir h. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="371.22">
+<rdg></rdg>
+</app>
+<app loc="371.23">
+<rdg>nû <note>om.</note> <wit>*T</wit> <note>(nur T)</note> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="371.24">
+<rdg>ich sol ou. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="371.25">
+<rdg>v. (<subst><del>*</del><add>Wie fu&#x0364;rent</add></subst> <wit>V</wit>) ir âne m. s., <wit>*T</wit></rdg>
+</app>
+<app loc="371.26">
+<rdg>dar zuo bin ich iu ze h. (al zeholt <wit>O</wit> [<wit>Z</wit>] <subst><del>*</del><add>alzeholt</add></subst> <wit>V</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="371.27">
+<rdg></rdg>
+</app>
+<app loc="371.28">
+<rdg></rdg>
+</app>
+<app loc="371.29">
+<rdg>tr., deheine wîs <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="371.30">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

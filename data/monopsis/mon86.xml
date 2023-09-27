@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 86</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 86.01">dem dû vor <name type="Ort">Patelamunt</name></l>
+<l n="*D 86.02">t&#x00E6;te ouch fîanze kunt.</l>
+<l n="*D 86.03">des gert dîn prîs an strîte</l>
+<l n="*D 86.04">der h&#x0153;he unt ouch der wîte."</l>
+<l n="*D 86.05"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach: "mîn vrouwe mac w&#x00E6;nen, daz dû tobst,</l>
+<l n="*D 86.06">sît dû mich alsô verlobst.</l>
+<l n="*D 86.07">dûne maht mîn doch verkoufen niht,</l>
+<l n="*D 86.08">wande etswer wandel an mir siht.</l>
+<l n="*D 86.09">dîn munt ist lob<reg type="Synkope">e</reg>s ze vil vernom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 86.10">sag êt, wie bistû widerkom<reg type="Synkope">e</reg>n?"</l>
+<l n="*D 86.11">"<seg type="Initiale">D</seg>iu werde diet von <name type="Ort">Punturteys</name></l>
+<l n="*D 86.12">hât mich unt disen <name type="Ort">Schamponeys</name></l>
+<l n="*D 86.13">ledic lâzen überal.</l>
+<l n="*D 86.14"><name type="Person">Morholt</name>, der mînen neven stal,</l>
+<l n="*D 86.15">von de<corr type="Emendation">m</corr> sol er ledic sîn,</l>
+<l n="*D 86.16">mac mîn hêr <name type="Person">Brandelidelin</name></l>
+<l n="*D 86.17">ledic sîn von dîner hant.</l>
+<l n="*D 86.18">wir sîn noch anders beide pfant,</l>
+<l n="*D 86.19">ich unt mîner swester sun.</l>
+<l n="*D 86.20">dû solt an uns genâde tuon.</l>
+<l n="*D 86.21">ein vesperîe ist hie erliten.</l>
+<l n="*D 86.22">daz turnieren wirt vermiten</l>
+<l n="*D 86.23">an dirre zît vo<corr type="Emendation">r</corr> <name type="Ort">Kanvoleiz</name>.</l>
+<l n="*D 86.24">die rehten wârheit ich des weiz,</l>
+<l n="*D 86.25">wan diu ûzer sitzet hie.</l>
+<l n="*D 86.26">nû sprich êt, wâ von od<reg type="Synkope">e</reg>r wie</l>
+<l n="*D 86.27">mohten si uns vor gehalden?</l>
+<l n="*D 86.28">dû muost vil prîses walden."</l>
+<l n="*D 86.29"><seg type="Initiale" subtype="Majuskel">D</seg>iu künegîn sprach ze <name type="Person">Gahmurete</name></l>
+<l n="*D 86.30">von herzen eine süeze bete:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="86.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="86.05"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>Z</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="86.05"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app><app loc="86.05"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="86.11"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit>
+</rdg></app><app loc="86.11"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="86.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="86.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="86.29"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="86.29"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="86.05">
+<rdg><note>Versfolge 86.6-5</note> <wit>*m</wit></rdg>
+</app>
+<app loc="86.05">
+<rdg>mîn vrouwe mac w&#x00E6;nen, daz (da <wit>mk</wit>) dû tobest. <wit>*m</wit></rdg>
+</app>
+<app loc="86.06">
+<rdg>er sprach: "sît dû mich alsô lobest, <wit>*m</wit></rdg>
+</app>
+<app loc="86.06">
+<rdg>sît (daz <wit>*T</wit> <wit>I</wit> [<wit>L</wit>] <wit>Z</wit>) dû (<note>om.</note> <wit>U</wit>) mich alsus vor ir (vor ir so <wit>I</wit> svs also <wit>O</wit> sus vor ir <wit>L</wit> also <wit>Z</wit> von ir alsvs <wit>T</wit>) lobest. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="86.07">
+<lem>mîn</lem> <rdg>mich <wit>*m</wit></rdg>
+</app>
+<app loc="86.09">
+<rdg>dînem munde ist lobes vil vernomen. <wit>*m</wit></rdg>
+</app>
+<app loc="86.09">
+<rdg>dinem munde ist lobes zevil vernomen <wit>I</wit></rdg>
+</app>
+<app loc="86.15">
+<lem>dem</lem> <rdg>den <wit>D</wit></rdg>
+</app>
+<app loc="86.23">
+<lem>vor</lem> <rdg>von <wit>D</wit></rdg>
+</app>
+<app loc="86.25">
+<rdg>gar dûzer (gar dvz der <wit>G</wit> Die vszer <wit>L</wit> Wan die vzzer <wit>Z</wit>) herte sitzet hie (div ist <wit>O</wit> sitzet gar <wit>L</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="86.25">
+<rdg>Hardiz, der hêrre (de rehte <wit>T</wit>), sitzet hie (<subst><del>*</del><add>Wande die usser herte sittzet hie</add></subst> <wit>V</wit>). <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="86.25">
+<lem>ûzer</lem> <rdg>ûzere herte <wit>*m</wit></rdg>
+</app>
+<app loc="86.26">
+<rdg>nû (<note>om.</note> <wit>Z</wit>) sprich (sage <wit>G</wit> sich <wit>I</wit>) eht, wâ oder (er wa von vnde <wit>I</wit> etwa <subst><del>od</del><add>von od</add></subst> <wit>O</wit> wa von oder <wit>Z</wit>) wie <wit>*m</wit> (<wit>*G</wit>)</rdg>
+</app>
+<app loc="86.26">
+<rdg>nû sprechet (sprichet <wit>U</wit> sprenchent <wit>V</wit> sprich <wit>T</wit>), wâ oder wie <wit>*T</wit></rdg>
+</app>
+<app loc="86.27">
+<rdg>si (si an an <wit>Z</wit>) uns mohten (mo&#x0364;hten <wit>V</wit>) vor gehalten (vor mochten halten <wit>O</wit> mohten verhalden <wit>Z</wit>). <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.28">
+<lem>muost</lem> <rdg>maht <wit>*m</wit></rdg>
+</app>
+<app loc="86.30">
+<rdg>"vernemet, hêrre, mîne bete: <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="86.01">
+<rdg>der dir (dem div <wit>T</wit>) vor P. <wit>*T</wit></rdg>
+</app>
+<app loc="86.02">
+<rdg></rdg>
+</app>
+<app loc="86.03">
+<rdg></rdg>
+</app>
+<app loc="86.04">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <note>(ohne V)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="86.05">
+<rdg>Er sprach <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.06">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.07">
+<rdg>m. doch mich (mich doch <wit>T</wit>) v. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="86.08">
+<rdg></rdg>
+</app>
+<app loc="86.09">
+<rdg>von (Vor <wit>U</wit>) dînem m. ist zuo vil l. (ist vil lobes <wit>V</wit> ist lobes vil <wit>T</wit>) v. <wit>*T</wit></rdg>
+</app>
+<app loc="86.10">
+<rdg>sage an (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> eht an <wit>V</wit>), <wit>*G</wit> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="86.11">
+<rdg></rdg>
+</app>
+<app loc="86.12">
+<rdg>hânt m. <wit>*G</wit> <note>(ohne IL)</note> <wit>V</wit></rdg>
+</app>
+<app loc="86.13">
+<rdg>lâzen (Gelaszen <wit>L</wit> [<wit>T</wit>]) ledic ü. <wit>*G</wit> verlâzen ledic ü. <wit>*T</wit></rdg>
+</app>
+<app loc="86.14">
+<rdg></rdg>
+</app>
+<app loc="86.15">
+<rdg></rdg>
+</app>
+<app loc="86.16">
+<rdg></rdg>
+</app>
+<app loc="86.17">
+<rdg>werden l. von <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.18">
+<rdg>wir sîn n. b. dar umb (beide anders <wit>T</wit>) pf., <wit>*T</wit></rdg>
+</app>
+<app loc="86.19">
+<rdg>ich und m. muomen suon. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="86.20">
+<rdg></rdg>
+</app>
+<app loc="86.21">
+<rdg>hie ist ein v. e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.22">
+<rdg></rdg>
+</app>
+<app loc="86.23">
+<rdg></rdg>
+</app>
+<app loc="86.24">
+<rdg></rdg>
+</app>
+<app loc="86.25">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.26">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.27">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="86.28">
+<rdg></rdg>
+</app>
+<app loc="86.29">
+<rdg></rdg>
+</app>
+<app loc="86.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

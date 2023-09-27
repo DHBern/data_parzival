@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 43</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 43.01">unt ein swert, daz <name type="Person">Razalik</name></l>
+<l n="*D 43.02">durch ellen brâht in den wîc.</l>
+<l n="*D 43.03"><seg type="Initiale">D</seg>â was er von gescheiden,</l>
+<l n="*D 43.04">der küene, swarze <name type="Person">heiden</name>.</l>
+<l n="*D 43.05">des lop was virrec unt wît.</l>
+<l n="*D 43.06">starb er â<corr type="Emendation">n</corr>e toufen sît,</l>
+<l n="*D 43.07">sô erkenne sich über den degen balt,</l>
+<l n="*D 43.08">der aller wunder hât gewalt.</l>
+<l n="*D 43.09"><seg type="Initiale" subtype="Majuskel">D</seg>ô der burcgrâve daz gesach,</l>
+<l n="*D 43.10">sô rehte liebe im nie geschach.</l>
+<l n="*D 43.11">diu wâpen er erkande.</l>
+<l n="*D 43.12">hin ûz der porte er rande.</l>
+<l n="*D 43.13">sînen gast sach er dort halden,</l>
+<l n="*D 43.14">den jungen, niht den alden,</l>
+<l n="*D 43.15">al gernde strîteclîcher tjost.</l>
+<l n="*D 43.16">dô nam in <name type="Person">Lachfilirost</name>,</l>
+<l n="*D 43.17">sîn wirt, der zôch in <corr type="Emendation">v</corr>aste wid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 43.18">ern stach dâ mêr decheinen nid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 43.19"><name type="Person">Lachfilirost</name> schahtelakunt</l>
+<l n="*D 43.20">sprach: "hêrre, ir sult mir machen kunt,</l>
+<l n="*D 43.21">hât betwungen iwer hant</l>
+<l n="*D 43.22"><name type="Person">Razaligen</name>, unser lant</l>
+<l n="*D 43.23">ist kampfes sicher immer mêr.</l>
+<l n="*D 43.24">der ist ob al den môren hêr,</l>
+<l n="*D 43.25">des getriwen <name type="Person">Isenhartes</name> man,</l>
+<l n="*D 43.26">die uns den schaden hânt getân.</l>
+<l n="*D 43.27">sich hât verendet unser nôt.</l>
+<l n="*D 43.28">ein zornic got in daz gebôt,</l>
+<l n="*D 43.29">daz si uns hie suochten mit ir her.</l>
+<l n="*D 43.30">nû ist enschumpfieret ir wer."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="43.03"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr14</wit>
+</rdg></app>
+<app loc="43.09"><rdg>
+<note>Illustration mit Überschrift:</note> Wie der Burgaffe die wappen erkante vnd sas uff vnd reit fur die porte vs gegen dem jungen gast <wit>mk</wit>
+</rdg></app><app loc="43.09"><rdg><note>Initiale</note> <wit>mk</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="43.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="43.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="43.15"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="43.05">
+<lem>virrec</lem> <rdg>verre <wit>*m</wit></rdg>
+</app>
+<app loc="43.06">
+<lem>âne</lem> <rdg>ante <wit>D</wit></rdg>
+</app>
+<app loc="43.09">
+<lem>gesach</lem> <rdg>ersach <wit>Fr14</wit> <wit>*m</wit></rdg>
+</app>
+<app loc="43.17">
+<rdg>sîn wirt, und zôch in (in vaste <wit>O</wit> <wit>L</wit> <wit>Z</wit> [<wit>Fr21</wit>]) wider. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="43.17">
+<rdg>sîn wirt (<subst><del>S*de*</del><add>Sin wurt vnde</add></subst> <wit>V</wit> sin wirt vnde <wit>T</wit>) zôch in vaste wider. <wit>*T</wit></rdg>
+</app>
+<app loc="43.17">
+<lem>der</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="43.17">
+<lem>vaste</lem> <rdg>waste <wit>D</wit></rdg>
+</app>
+<app loc="43.19">
+<lem>schahtelakunt</lem> <rdg>scaherlacvnt <wit>Fr14</wit></rdg>
+</app>
+<app loc="43.24">
+<lem>al den</lem> <rdg>allen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="43.01">
+<rdg></rdg>
+</app>
+<app loc="43.02">
+<rdg>ellende <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="43.03">
+<rdg>er <note>om.</note> <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="43.04">
+<rdg></rdg>
+</app>
+<app loc="43.05">
+<rdg>sîn lop (lip <wit>L</wit>) was v. (werrich <wit>L</wit>) <wit>*G</wit> (<wit>V</wit> <wit>T</wit>) sîn lop was verre <wit>*T</wit></rdg>
+</app>
+<app loc="43.06">
+<rdg>toufe <wit>*G</wit> <note>(ohne LZ)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="43.07">
+<rdg>den helt (<subst><del>*</del><add>helt</add></subst> <wit>V</wit>) b. (vber helt bat <wit>Fr21</wit>), <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="43.08">
+<rdg>der maniger (alle <wit>Z</wit>) w. <wit>*G</wit></rdg>
+</app>
+<app loc="43.09">
+<rdg>daz ersach, <wit>*G</wit> diz ersach (gesach <wit>T</wit>), <wit>*T</wit> (<wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="43.10">
+<rdg></rdg>
+</app>
+<app loc="43.11">
+<rdg>disiu w. er kante (erkande <wit>V</wit> bekande <wit>T</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="43.12">
+<rdg>her (<subst><del>h*</del><add>hin</add></subst> <wit>V</wit> hin <wit>T</wit>) ûz zuo (<note>om.</note> <wit>V</wit>) der <wit>*T</wit></rdg>
+</app>
+<app loc="43.13">
+<rdg></rdg>
+</app>
+<app loc="43.14">
+<rdg></rdg>
+</app>
+<app loc="43.15">
+<rdg>al (Alle <wit>U</wit>) g. mit st. (<subst><del>*</del><add>in stritlicher</add></subst> <wit>V</wit>) jost. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="43.16">
+<rdg></rdg>
+</app>
+<app loc="43.17">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="43.18">
+<rdg></rdg>
+</app>
+<app loc="43.19">
+<rdg>Lafillirost, der sch., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="43.20">
+<rdg></rdg>
+</app>
+<app loc="43.21">
+<rdg></rdg>
+</app>
+<app loc="43.22">
+<rdg></rdg>
+</app>
+<app loc="43.23">
+<rdg>ist strîtes s. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="43.24">
+<rdg>er (Der <wit>Z</wit>) ist obe al den (allen <wit>O</wit> <wit>L</wit> <wit>Z</wit> [<wit>Fr21</wit>] <wit>V</wit> <wit>T</wit>) <wit>*G</wit> er ist über allen <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="43.25">
+<rdg>des küenen Ysenhartes man, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="43.26">
+<rdg></rdg>
+</app>
+<app loc="43.27">
+<rdg></rdg>
+</app>
+<app loc="43.28">
+<rdg></rdg>
+</app>
+<app loc="43.29">
+<rdg>hie <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="43.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

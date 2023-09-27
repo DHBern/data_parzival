@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 417</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 417.01"><seg type="Initiale">D</seg>ô sprach der vürste <name type="Person">Liddamus</name>:</l>
+<l n="*D 417.02">"waz solte der in mîn<reg type="Synkope">e</reg>s hêrr<reg type="Synkope">e</reg>n hûs,</l>
+<l n="*D 417.03">der im sînen vater sluoc</l>
+<l n="*D 417.04">unt daz laster im sô nâhe truoc?</l>
+<l n="*D 417.05">ist mîn hêrre wert bekant,</l>
+<l n="*D 417.06">daz richet alhie sîn selbes hant.</l>
+<l n="*D 417.07">sô gelt ein tôt den andern tôt.</l>
+<l n="*D 417.08">ich w&#x00E6;ne gelîche sîn die nôt."</l>
+<l n="*D 417.09"><seg type="Initiale" subtype="Majuskel">N</seg>û seht ir, wie <name type="Person">Gawan</name> dô stuont.</l>
+<l n="*D 417.10">alrêst was im grôz angest kunt.</l>
+<l n="*D 417.11"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach <name type="Person">Kingrimursel</name>:</l>
+<l n="*D 417.12">"swer mit der drô w&#x00E6;re sô snel,</l>
+<l n="*D 417.13">der solte ouch gâhen in den strît.</l>
+<l n="*D 417.14">ir habt gedrenge od<reg type="Synkope">e</reg>r wît,</l>
+<l n="*D 417.15">man mac sich iwer lîhte erwern.</l>
+<l n="*D 417.16">hêr <name type="Person">Liddamus</name>, vil wol ernern</l>
+<l n="*D 417.17">trûwe ich vor iu disen man.</l>
+<l n="*D 417.18">swaz iu der hete getân,</l>
+<l n="*D 417.19">ir liezetz ungerochen.</l>
+<l n="*D 417.20">ir habt iuch gar versprochen.</l>
+<l n="*D 417.21">man sol iu wol gelouben,</l>
+<l n="*D 417.22">daz iuch nie mannes ougen</l>
+<l n="*D 417.23">gesâhen ze vorderst, dâ man streit.</l>
+<l n="*D 417.24">iu was ie strîten wol sô leit,</l>
+<l n="*D 417.25">daz ir der vluht begundet.</l>
+<l n="*D 417.26">dennoch ir mêr wol kundet:</l>
+<l n="*D 417.27">swâ man ie gein strîte dranc,</l>
+<l n="*D 417.28">dâ t&#x00E6;tet ir wîbes widerwanc.</l>
+<l n="*D 417.29">swelich künec sich lât an iwern rât,</l>
+<l n="*D 417.30">vil twerhes dem diu krône stât.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr5</wit> <note>(417.19-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="417.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="417.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="417.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="417.11"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="417.11"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="417.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="417.02">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="417.05">
+<lem>wert</lem> <rdg>an wer <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="417.06">
+<lem>alhie</lem> <rdg>an wer <wit>*m</wit></rdg>
+</app>
+<app loc="417.19">
+<lem>liezetz</lem> <rdg>liezet daz <wit>*m</wit></rdg>
+</app>
+<app loc="417.21">
+<rdg>man giht daz âne lougen, <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="417.28">
+<lem>t&#x00E6;tet</lem> <rdg>tatint <wit>Fr5</wit> tâtet (totten <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="417.28">
+<lem>dem</lem> <rdg>im <wit>Fr5</wit> (<wit>*m</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="417.01">
+<rdg></rdg>
+</app>
+<app loc="417.02">
+<rdg>"waz wolte der <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="417.03">
+<rdg></rdg>
+</app>
+<app loc="417.04">
+<rdg>im daz laster <wit>*T</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="417.05">
+<rdg>ist mîm hêrren (min herre <wit>G</wit> <wit>Z</wit> <wit>V</wit>) wer (an wer <wit>V</wit>) b. (erkant <wit>Z</wit>), <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="417.06">
+<rdg>ez r. (Daz reche <wit>O</wit>) <wit>*G</wit> <note>(nur GI)</note> · selbes <note>om.</note> <wit>*T</wit> <note>(ohne V)</note> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="417.07">
+<rdg></rdg>
+</app>
+<app loc="417.08">
+<rdg>ich w., glîch sî diu (disiu <wit>I</wit> div <wit>O</wit> [<wit>Z</wit>]) nôt." <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>Z</wit>) · sîn dise nôt." <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="417.09">
+<rdg>ir <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note> <wit>U</wit> <wit>V</wit></rdg>
+</app>
+<app loc="417.10">
+<rdg></rdg>
+</app>
+<app loc="417.11">
+<rdg></rdg>
+</app>
+<app loc="417.12">
+<rdg>der (<note>om.</note> <wit>I</wit> <wit>L</wit>) rede (drov <wit>L</wit>) w. <wit>*G</wit> <note>(ohne OZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="417.13">
+<rdg></rdg>
+</app>
+<app loc="417.14">
+<rdg></rdg>
+</app>
+<app loc="417.15">
+<rdg></rdg>
+</app>
+<app loc="417.16">
+<rdg></rdg>
+</app>
+<app loc="417.17">
+<rdg>ich getriuwe disem (Tru&#x0366;we ich disen <wit>U</wit>) man. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="417.18">
+<rdg>sw. er iu hete (iu der hât <wit>*T</wit>) g., <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="417.19">
+<rdg>ir liezet ez (liezez <wit>I</wit> lieszet <wit>L</wit>) unerrochen. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="417.20">
+<rdg></rdg>
+</app>
+<app loc="417.21">
+<rdg></rdg>
+</app>
+<app loc="417.22">
+<rdg></rdg>
+</app>
+<app loc="417.23">
+<rdg>ze vorderst <note>om.</note> <wit>*T</wit> <note>(ohne V)</note> <wit>O</wit></rdg>
+</app>
+<app loc="417.24">
+<rdg></rdg>
+</app>
+<app loc="417.25">
+<rdg></rdg>
+</app>
+<app loc="417.26">
+<rdg>wol <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="417.27">
+<rdg>man <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="417.28">
+<rdg>tâtet <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="417.29">
+<rdg></rdg>
+</app>
+<app loc="417.30">
+<rdg>dem sîn kr. <wit>*G</wit> <note>(ohne LZ)</note> im diu (<subst><del>*</del><add>die</add></subst> <wit>V</wit>) kr. <wit>*T</wit> (<wit>I</wit> <wit>O</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

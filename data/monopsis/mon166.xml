@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 166</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 166.01">dô bat in vlîzeclîche</l>
+<l n="*D 166.02"><name type="Person">Gurnemanz</name>, der triwen rîche,</l>
+<l n="*D 166.03">daz er vaste &#x00E6;ze</l>
+<l n="*D 166.04">unt der müede sîn verg&#x00E6;ze.</l>
+<l n="*D 166.05"><seg type="Initiale">M</seg>an huop den tisch, dô des wart zît.</l>
+<l n="*D 166.06">"ich w&#x00E6;ne, daz ir müede sît",</l>
+<l n="*D 166.07">sus sprach der wirt. "w&#x00E6;ret ir iht vruo?"</l>
+<l n="*D 166.08">got weiz, mîn muot<reg type="Synkope">e</reg>r slief duo.</l>
+<l n="*D 166.09">diu kan sô vil niht wachen."</l>
+<l n="*D 166.10">der wirt begunde lachen.</l>
+<l n="*D 166.11">er vuorten an die slâfstat.</l>
+<l n="*D 166.12">der wirt in sich ûz sloufen bat.</l>
+<l n="*D 166.13">ungern erz tet, doch muost ez sîn.</l>
+<l n="*D 166.14">ein declachen härmîn</l>
+<l n="*D 166.15">wart geleit üb<reg type="Synkope">e</reg>r sînen blôzen lîp.</l>
+<l n="*D 166.16">sô werde vruht gebar nie wîp.</l>
+<l n="*D 166.17"><seg type="Initiale" subtype="Majuskel">G</seg>rôz müede und slâf in lêrte,</l>
+<l n="*D 166.18">daz er sich selten kêrte</l>
+<l n="*D 166.19">an die anderen sîten.</l>
+<l n="*D 166.20">sus kund<reg type="Synkope">e</reg>r tages erbîten.</l>
+<l n="*D 166.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô gebôt der vürste m&#x00E6;re,</l>
+<l n="*D 166.22">daz ein bat bereite w&#x00E6;re</l>
+<l n="*D 166.23">reht umbe den mitten morgens tac</l>
+<l n="*D 166.24">ze ende an den teppich, der dâ lac.</l>
+<l n="*D 166.25">daz muose des morgens alsô sîn.</l>
+<l n="*D 166.26">man warf dâ rôsen oben în.</l>
+<l n="*D 166.27">swie wênic man umb in dâ rief,</l>
+<l n="*D 166.28">der gast erwachte, der dâ slief.</l>
+<l n="*D 166.29">der junge, werde, süeze man</l>
+<l n="*D 166.30">gienc sitzen in die <corr type="Emendation">kuofen sân</corr>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(166.5-7, 12-14 und 18-20)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit> <note>(166.1-27)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="166.01"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="166.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>Fr69</wit> <wit>I</wit> <wit>O</wit> <wit>Z</wit> <wit>Fr17</wit>
+</rdg></app>
+<app loc="166.06"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="166.07"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="166.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="166.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="166.21"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="166.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="166.02">
+<lem>triwen</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="166.03">
+<lem>vaste</lem> <rdg>vaster <wit>*m</wit></rdg>
+</app>
+<app loc="166.04">
+<rdg>und sîner müede verg&#x00E6;ze. <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="166.07">
+<rdg>sprach der wirt (DEr wirt sprach <wit>L</wit>). "w&#x00E6;ret ir (wart ir <wit>I</wit> <wit>O</wit> <wit>Fr17</wit> waret <wit>Z</wit> wârt ir ûf <wit>*T</wit>) iht vruo?" <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="166.07">
+<lem>sus</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="166.07">
+<lem>w&#x00E6;ret</lem> <rdg>wârt <wit>*m</wit></rdg>
+</app>
+<app loc="166.08">
+<lem>slief duo</lem> <rdg>sliefe (sleiffe <wit>mk</wit>) nû <wit>*m</wit></rdg>
+</app>
+<app loc="166.15">
+<lem>sînen blôzen</lem> <rdg>des tumben <wit>*m</wit></rdg>
+</app>
+<app loc="166.17">
+<lem>und</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="166.23">
+<rdg>des morgens umb den mitten (mittem <wit>mk</wit>) tac <wit>*m</wit></rdg>
+</app>
+<app loc="166.24">
+<lem>den</lem> <rdg>dem <wit>*m</wit></rdg>
+</app>
+<app loc="166.30">
+<lem>kuofen sân</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="166.01">
+<rdg></rdg>
+</app>
+<app loc="166.02">
+<rdg></rdg>
+</app>
+<app loc="166.03">
+<rdg></rdg>
+</app>
+<app loc="166.04">
+<rdg></rdg>
+</app>
+<app loc="166.05">
+<rdg>dô des (des <wit>Z</wit> do do d <wit>Fr17</wit>) was zît. <wit>*G</wit></rdg>
+</app>
+<app loc="166.06">
+<rdg></rdg>
+</app>
+<app loc="166.07">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="166.08">
+<rdg>sliefe (slaffet <wit>I</wit> [<wit>Fr17</wit>]) nû. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="166.09">
+<rdg>si (sin <wit>I</wit>) kan <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="166.10">
+<rdg></rdg>
+</app>
+<app loc="166.11">
+<rdg></rdg>
+</app>
+<app loc="166.12">
+<rdg>dâ er in ûz sl. bat. <wit>*T</wit></rdg>
+</app>
+<app loc="166.13">
+<rdg></rdg>
+</app>
+<app loc="166.14">
+<rdg></rdg>
+</app>
+<app loc="166.15">
+<rdg></rdg>
+</app>
+<app loc="166.16">
+<rdg></rdg>
+</app>
+<app loc="166.17">
+<rdg></rdg>
+</app>
+<app loc="166.18">
+<rdg>sich wênic k. <wit>*T</wit></rdg>
+</app>
+<app loc="166.19">
+<rdg>umbe (vbe <wit>Fr17</wit>) an <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="166.20">
+<rdg>sus (sv <wit>T</wit>) k. t. (des tages <wit>*T</wit> <wit>I</wit>) bîten. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="166.21">
+<rdg></rdg>
+</app>
+<app loc="166.22">
+<rdg></rdg>
+</app>
+<app loc="166.23">
+<rdg></rdg>
+</app>
+<app loc="166.24">
+<rdg>zende an dem tepche (bette <wit>I</wit>), dâ er dâ (<note>om.</note> <wit>*T</wit> <note>[ohne U]</note> <wit>I</wit> <wit>O</wit> <wit>L</wit>) lac. <wit>*G</wit> (<wit>U</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="166.25">
+<rdg></rdg>
+</app>
+<app loc="166.26">
+<rdg>man w. (w. im <wit>*T</wit>) r. (der rosen <wit>L</wit> <wit>Z</wit>) o. drîn (in <wit>L</wit> <wit>Z</wit> [<wit>V</wit>]). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="166.27">
+<rdg>umbe in man <wit>*G</wit> <note>(ohne IOLZ)</note></rdg>
+</app>
+<app loc="166.28">
+<rdg>erwachete, dâr dâ (do er <wit>V</wit>) sl. <wit>*T</wit></rdg>
+</app>
+<app loc="166.29">
+<rdg></rdg>
+</app>
+<app loc="166.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

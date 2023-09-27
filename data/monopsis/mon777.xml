@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 777</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>09.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 777.01"><name type="Person"><seg type="Initiale">A</seg>rtus</name> werte si des sân.</l>
+<l n="*D 777.02">vrâge iuch wîb oder man,</l>
+<l n="*D 777.03">wer trüege die rîchsten hant,</l>
+<l n="*D 777.04">der ie von deheime lant</l>
+<l n="*D 777.05">über tavelrunt gesaz,</l>
+<l n="*D 777.06">ir enmugt sis niht bescheiden baz:</l>
+<l n="*D 777.07">ez was <name type="Person">Feirefiz</name> <name type="Person">Anschevin</name>.</l>
+<l n="*D 777.08">dâ mite lât die rede sîn.</l>
+<l n="*D 777.09"><seg type="Initiale" subtype="Majuskel">S</seg>i zogten gein dem ringe</l>
+<l n="*D 777.10">mit werdeclîchem dinge.</l>
+<l n="*D 777.11">etslîch vrouwe wart gehurt,</l>
+<l n="*D 777.12">w&#x00E6;re ir pfert niht wol gegurt,</l>
+<l n="*D 777.13">si w&#x00E6;re gevallen schiere.</l>
+<l n="*D 777.14"><seg type="Initiale" subtype="Majuskel">M</seg>anege rîche baniere</l>
+<l n="*D 777.15">sach man zallen sîten kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 777.16">dâ wart der buhurt wît genom<reg type="Synkope">e</reg>n</l>
+<l n="*D 777.17">al umbe der tavelrunde rinc.</l>
+<l n="*D 777.18">ez wâren höfschlîchiu dinc,</l>
+<l n="*D 777.19">daz ir deheiner in den rinc gereit.</l>
+<l n="*D 777.20">daz velt was ûzerhalp sô breit,</l>
+<l n="*D 777.21">si mohten dors ersprengen</l>
+<l n="*D 777.22">unt sich mit hurten mengen</l>
+<l n="*D 777.23">und ouch mit künste rîten sô,</l>
+<l n="*D 777.24">des diu wîp ze sehen wâren vrô.</l>
+<l n="*D 777.25"><seg type="Initiale" subtype="Majuskel">S</seg>i kôm<reg type="Synkope">e</reg>n ouch, dâ si sâzen,</l>
+<l n="*D 777.26">al dâ die werden âzen.</l>
+<l n="*D 777.27">kamer&#x00E6;re, truhs&#x00E6;zen, schenken</l>
+<l n="*D 777.28">muosen daz bedenken,</l>
+<l n="*D 777.29">wie manz mit zuht dar vür getruoc.</l>
+<l n="*D 777.30">ich w&#x00E6;ne, man gab in dâ genuoc.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="777.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="777.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="777.14"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="777.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="777.02">
+<lem>iuch</lem> <rdg>iuch nû <wit>*m</wit></rdg>
+</app>
+<app loc="777.05">
+<lem>gesaz</lem> <rdg>saz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="777.11">
+<lem>wart</lem> <rdg>wart dô <wit>*m</wit></rdg>
+</app>
+<app loc="777.18">
+<lem>höfschlîchiu</lem> <rdg>hovelîchiu <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="777.22">
+<lem>hurten</lem> <rdg>hurte <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="777.24">
+<lem>des</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="777.29">
+<lem>getruoc</lem> <rdg>truoc (<subst><del>*</del><add>getru&#x0366;g</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="777.01">
+<rdg>A. gewerte si des sân. <wit>*T</wit></rdg>
+</app>
+<app loc="777.02">
+<rdg></rdg>
+</app>
+<app loc="777.03">
+<rdg></rdg>
+</app>
+<app loc="777.04">
+<rdg></rdg>
+</app>
+<app loc="777.05">
+<rdg>ü. tavelrunder saz, <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="777.06">
+<rdg>irne mügets in (mugt ez <wit>I</wit> mvgt siz <wit>L</wit> [<wit>Z</wit>]) n. <wit>*G</wit></rdg>
+</app>
+<app loc="777.07">
+<rdg>ez (<note>om.</note> <wit>U</wit>) ist Ferefis A. <wit>*T</wit></rdg>
+</app>
+<app loc="777.08">
+<rdg>lât dise r. <wit>*T</wit></rdg>
+</app>
+<app loc="777.09">
+<rdg></rdg>
+</app>
+<app loc="777.10">
+<rdg>mit werlîchem d. <wit>*T</wit></rdg>
+</app>
+<app loc="777.11">
+<rdg></rdg>
+</app>
+<app loc="777.12">
+<rdg>und w&#x00E6;re <wit>*T</wit></rdg>
+</app>
+<app loc="777.13">
+<rdg></rdg>
+</app>
+<app loc="777.14">
+<rdg></rdg>
+</app>
+<app loc="777.15">
+<rdg>zuo allen zîten k. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="777.16">
+<rdg></rdg>
+</app>
+<app loc="777.17">
+<rdg></rdg>
+</app>
+<app loc="777.18">
+<rdg>ez w. höveschiu d., <wit>*T</wit></rdg>
+</app>
+<app loc="777.19">
+<rdg>daz ir (<note>om.</note> <wit>I</wit>) d. an den r. reit. <wit>*G</wit> · daz ir (<note>om.</note> <wit>L</wit>) dekeiner in den r. reit. <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="777.20">
+<rdg></rdg>
+</app>
+<app loc="777.21">
+<rdg></rdg>
+</app>
+<app loc="777.22">
+<rdg>hurte <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="777.23">
+<rdg>unde iedoch mit kunst alsô (so <wit>L</wit>), <wit>*G</wit> · und doch mit kunst r. sô, <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="777.24">
+<rdg>daz (Daz ez <wit>L</wit>) diu <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="777.25">
+<rdg>si kâmen (quam <wit>Z</wit>) ûz, dâ si s., <wit>*T</wit></rdg>
+</app>
+<app loc="777.26">
+<rdg></rdg>
+</app>
+<app loc="777.27">
+<rdg></rdg>
+</app>
+<app loc="777.28">
+<rdg>m. dâ b., <wit>*T</wit></rdg>
+</app>
+<app loc="777.29">
+<rdg>mit zühten vür (da vor <wit>L</wit>) truoc. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="777.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

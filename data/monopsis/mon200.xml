@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 200</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>03.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 200.01">nâch sîner grôzen arbeit</l>
+<l n="*D 200.02">was krankiu wirtschaft bereit.</l>
+<l n="*D 200.03"><seg type="Initiale" subtype="Majuskel">D</seg>ie burg&#x00E6;re sus gevuoren,</l>
+<l n="*D 200.04">daz si im alle hulde swuoren</l>
+<l n="*D 200.05">unt jâhen, er müese ir hêrre sîn.</l>
+<l n="*D 200.06">dô sprach ouch diu künegîn,</l>
+<l n="*D 200.07">er solte sîn ir âmîs,</l>
+<l n="*D 200.08">sît daz er sô hôhen prîs</l>
+<l n="*D 200.09">bezalte an <name type="Person">Kingrune</name>.</l>
+<l n="*D 200.10">zwêne segele brûne,</l>
+<l n="*D 200.11">die kôs man von der wer hin abe.</l>
+<l n="*D 200.12">die sluoc grôz wint vaste in die habe.</l>
+<l n="*D 200.13">die kiele wâren geladen sô,</l>
+<l n="*D 200.14">des die burg&#x00E6;re wurden vrô.</l>
+<l n="*D 200.15">sine truogen niht wan spîse.</l>
+<l n="*D 200.16">daz vuogte got, der wîse.</l>
+<l n="*D 200.17"><seg type="Initiale" subtype="Majuskel">H</seg>in von den zinnen vielen</l>
+<l n="*D 200.18">unt gâhten zuo den kielen</l>
+<l n="*D 200.19">daz hungerc her durch den stoup.</l>
+<l n="*D 200.20">si mohten vliegen sô diu loup,</l>
+<l n="*D 200.21">die magern unt die sîhten,</l>
+<l n="*D 200.22">von vleische die lîhten.</l>
+<l n="*D 200.23">in was erschoben niht der balc.</l>
+<l n="*D 200.24">der küneginne marschalc</l>
+<l n="*D 200.25"><seg type="Initiale">T</seg>et den schiffen sölhen vride,</l>
+<l n="*D 200.26">daz er gebôt bî der wide,</l>
+<l n="*D 200.27">daz sich ir decheiner ruorte.</l>
+<l n="*D 200.28">die koufliute er vuorte</l>
+<l n="*D 200.29">vür sînen hêrren in die stat.</l>
+<l n="*D 200.30"><name type="Person">Parzival</name> in gelten bat</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(200.11-14, 19-20 und 22)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="200.03"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="200.03"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="200.06"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="200.06"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="200.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="200.13"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>L</wit>
+</rdg></app>
+<app loc="200.17"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Z</wit>
+</rdg></app><app loc="200.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="200.24"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="200.24"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="200.25"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="200.06">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="200.18">
+<lem>zuo</lem> <rdg>gegen <wit>*m</wit></rdg>
+</app>
+<app loc="200.19">
+<lem>stoup</lem> <rdg>roup <wit>*m</wit></rdg>
+</app>
+<app loc="200.21">
+<rdg>die dürren (<subst><del>*urn</del><add>durn</add></subst> <wit>I</wit> magern <wit>*T</wit>) unde die (<note>om.</note> <wit>*T</wit> <note>[nur T]</note>) sîhten (lychten <wit>L</wit> v́rsihten <wit>V</wit>), <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="200.01">
+<rdg></rdg>
+</app>
+<app loc="200.02">
+<rdg></rdg>
+</app>
+<app loc="200.03">
+<rdg>die b. sô g., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="200.04">
+<rdg>hulde <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="200.05">
+<rdg></rdg>
+</app>
+<app loc="200.06">
+<rdg></rdg>
+</app>
+<app loc="200.07">
+<rdg></rdg>
+</app>
+<app loc="200.08">
+<rdg></rdg>
+</app>
+<app loc="200.09">
+<rdg></rdg>
+</app>
+<app loc="200.10">
+<rdg>s. brûne <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="200.11">
+<rdg>die <note>om.</note> <wit>*G</wit> <wit>*T</wit> · wer her abe. <wit>*G</wit></rdg>
+</app>
+<app loc="200.12">
+<rdg>die sl. gr. (der <wit>*T</wit>) w. (wint vaste <wit>*T</wit> <wit>O</wit> <wit>Z</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="200.13">
+<rdg></rdg>
+</app>
+<app loc="200.14">
+<rdg>daz ir (sin <wit>I</wit>) die b. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="200.15">
+<rdg></rdg>
+</app>
+<app loc="200.16">
+<rdg></rdg>
+</app>
+<app loc="200.17">
+<rdg>her (Ser <wit>Z</wit>) von <wit>*G</wit> · den z. si (<subst><del>*</del><add>sv́</add></subst> <wit>V</wit>) v. <wit>*T</wit></rdg>
+</app>
+<app loc="200.18">
+<rdg>unde g. gein den k. <wit>*G</wit> <note>(ohne LZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="200.19">
+<rdg>den roup. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="200.20">
+<rdg>vl. sam diu (als daz <wit>U</wit> sam der <wit>V</wit>) <wit>*T</wit> (<wit>Fr69</wit>) <wit>I</wit></rdg>
+</app>
+<app loc="200.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="200.22">
+<rdg>vor vl. <wit>*T</wit></rdg>
+</app>
+<app loc="200.23">
+<rdg>n. ir (<subst><del>*</del><add>ir</add></subst> <wit>V</wit>) b. <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="200.24">
+<rdg></rdg>
+</app>
+<app loc="200.25">
+<rdg>schuof den scheffen solhen vr., <wit>*G</wit> <note>(ohne OZ)</note> · tet den schifliuten solhen vr.: <wit>*T</wit></rdg>
+</app>
+<app loc="200.26">
+<rdg>er g. in allen bî der w., <wit>*T</wit></rdg>
+</app>
+<app loc="200.27">
+<rdg>daz si ir (So daz da <wit>L</wit> daz si <wit>*T</wit> [<wit>O</wit>]) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="200.28">
+<rdg>die schifliute er v. <wit>*T</wit> <note>(ohne V)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="200.29">
+<rdg></rdg>
+</app>
+<app loc="200.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

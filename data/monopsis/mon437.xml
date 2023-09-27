@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 437</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 437.01"><seg type="Initiale"><corr type="Emendation">E</corr></seg>r vrâgte der gegenrede al dâ:</l>
+<l n="*D 437.02">"ist iemen dinne?" si sprach: "jâ."</l>
+<l n="*D 437.03">dô er hôrte, daz ez vrouwen stimme was,</l>
+<l n="*D 437.04">her dan ûf ungetret gras</l>
+<l n="*D 437.05">warf erz ors vil drâte.</l>
+<l n="*D 437.06">ez dûht in al ze spâte.</l>
+<l n="*D 437.07">daz er niht was erbeizet ê,</l>
+<l n="*D 437.08">diu selbe schame tet im wê.</l>
+<l n="*D 437.09"><seg type="Initiale" subtype="Majuskel">E</seg>r bant daz ors vil vaste</l>
+<l n="*D 437.10">zeines gevallen ronen aste.</l>
+<l n="*D 437.11">sînen dürkeln schilt hienger ouch dran.</l>
+<l n="*D 437.12">dô der kiusche, vrävel man</l>
+<l n="*D 437.13">durch zuht sîn swert von im gebant,</l>
+<l n="*D 437.14">er gienc vürz venster zuo der want.</l>
+<l n="*D 437.15">dô wolt er vrâgen m&#x00E6;re.</l>
+<l n="*D 437.16">diu klôse was vreuden l&#x00E6;re,</l>
+<l n="*D 437.17">dar zuo aller schimpfe blôz.</l>
+<l n="*D 437.18">er vant dâ niht wan jâmer grôz.</l>
+<l n="*D 437.19"><seg type="Initiale" subtype="Majuskel">E</seg>r gert ir anz venster dar.</l>
+<l n="*D 437.20">diu juncvrouwe bleich gevar</l>
+<l n="*D 437.21">mit zuht ûf von ir venje stuont.</l>
+<l n="*D 437.22">dennoch was im hart unkunt,</l>
+<l n="*D 437.23">wer si w&#x00E6;re oder m<corr type="Emendation">ö</corr>hte sîn.</l>
+<l n="*D 437.24">si truog ein hemde h&#x00E6;rîn</l>
+<l n="*D 437.25">und<reg type="Synkope">e</reg>r grâwem rocke ze n&#x00E6;hst ir hût.</l>
+<l n="*D 437.26">grôz jâmer was ir sund<reg type="Synkope">e</reg>rtrût.</l>
+<l n="*D 437.27">der hete ir hôhen muot gelegt,</l>
+<l n="*D 437.28">vonme herzen siufzens vil erwegt.</l>
+<l n="*D 437.29">mit zuht diu magt zem venster gienc.</l>
+<l n="*D 437.30">mit süezen worten si in enpfienc.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr25</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="437.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr25</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="437.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="437.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="437.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="437.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="437.20"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="437.01">
+<rdg>er gerte der gegenrede dâ: <wit>*m</wit></rdg>
+</app>
+<app loc="437.01">
+<lem>Er</lem> <rdg>&#x00F7;R <wit>D</wit></rdg>
+</app>
+<app loc="437.10">
+<lem>gevallen</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="437.11">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="437.23">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="437.25">
+<rdg>under eime grâwen rocke ze n&#x00E6;hst an der hût. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="437.01">
+<rdg>Er gerte (<subst><del>*</del><add>gerte</add></subst> <wit>V</wit>) der g. (dehain rede <wit>I</wit> gein der rede <wit>U</wit>) aldâ: <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="437.02">
+<rdg></rdg>
+</app>
+<app loc="437.03">
+<rdg>er erhôrte, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="437.04">
+<rdg></rdg>
+</app>
+<app loc="437.05">
+<rdg></rdg>
+</app>
+<app loc="437.06">
+<rdg></rdg>
+</app>
+<app loc="437.07">
+<rdg>was <note>om.</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="437.08">
+<rdg></rdg>
+</app>
+<app loc="437.09">
+<rdg></rdg>
+</app>
+<app loc="437.10">
+<rdg></rdg>
+</app>
+<app loc="437.11">
+<rdg></rdg>
+</app>
+<app loc="437.12">
+<rdg></rdg>
+</app>
+<app loc="437.13">
+<rdg>durch zuht <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="437.14">
+<rdg></rdg>
+</app>
+<app loc="437.15">
+<rdg></rdg>
+</app>
+<app loc="437.16">
+<rdg></rdg>
+</app>
+<app loc="437.17">
+<rdg>alles schimpfes <wit>*T</wit> <wit>O</wit></rdg>
+</app>
+<app loc="437.18">
+<rdg></rdg>
+</app>
+<app loc="437.19">
+<rdg></rdg>
+</app>
+<app loc="437.20">
+<rdg></rdg>
+</app>
+<app loc="437.21">
+<rdg>zühten <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="437.22">
+<rdg></rdg>
+</app>
+<app loc="437.23">
+<rdg></rdg>
+</app>
+<app loc="437.24">
+<rdg></rdg>
+</app>
+<app loc="437.25">
+<rdg>u. einem gr. r. ze (aller <wit>U</wit>) n&#x00E6;hest an (bi <wit>U</wit> <note>om.</note> <wit>V</wit>) ir hût. <wit>*T</wit></rdg>
+</app>
+<app loc="437.26">
+<rdg>ir (ir herzen <wit>I</wit>) trût. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="437.27">
+<rdg>diu het <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="437.28">
+<rdg>vil siuftens (groz sufften het <wit>I</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="437.29">
+<rdg>zühten <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="437.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

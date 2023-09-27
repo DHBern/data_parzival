@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 556</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 556.01"><name type="Person"><seg type="Initiale">G</seg>awan</name> sprach: "hie ist niht gescheh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 556.02">wan des wir vor iu wellen jeh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 556.03">ich vrâgte dise magt ein teil;</l>
+<l n="*D 556.04">daz dûhte si mîn unheil</l>
+<l n="*D 556.05">und bat michz, daz ichz lieze.</l>
+<l n="*D 556.06"><seg type="Initiale" subtype="Majuskel">O</seg>b iuch des niht verdrieze,</l>
+<l n="*D 556.07">sô lât mîn dienst umb iuch bejag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 556.08">wirt, daz ir mirz ruochet sag<reg type="Synkope">e</reg>n</l>
+<l n="*D 556.09">umbe die vrouwen ob uns hie.</l>
+<l n="*D 556.10">ich envriesch in al den landen nie,</l>
+<l n="*D 556.11">dâ man m<corr type="Emendation">ö</corr>hte schouwen</l>
+<l n="*D 556.12">sô manege clâre vrouwen</l>
+<l n="*D 556.13">mit sô liehtem gebende."</l>
+<l n="*D 556.14"><seg type="Initiale" subtype="Majuskel">D</seg>er wirt want sîne hende;</l>
+<l n="*D 556.15">dô sprach er: "hêrre, vrâgets niht durch got.</l>
+<l n="*D 556.16">hêrre, dâ ist nôt ob aller nôt."</l>
+<l n="*D 556.17">"<seg type="Initiale" subtype="Majuskel">S</seg>ô muoz ich doch ir kumber klagen",</l>
+<l n="*D 556.18">sprach <name type="Person">Gawan</name>. "wirt, ir sult mir sagen:</l>
+<l n="*D 556.19">war umbe ist iu mîn vrâgen leit?"</l>
+<l n="*D 556.20">"<seg type="Initiale" subtype="Majuskel">H</seg>êrre, durch iwer manheit -</l>
+<l n="*D 556.21">kunnet ir vrâgen niht verbern,</l>
+<l n="*D 556.22">sô welt ir lîhte vürbaz gern.</l>
+<l n="*D 556.23">daz lêret iuch herzen sw&#x00E6;re</l>
+<l n="*D 556.24">unt machet uns vreuden l&#x00E6;re,</l>
+<l n="*D 556.25">mich unt elliu mîniu kint,</l>
+<l n="*D 556.26">die iu ze dienste erborn sint."</l>
+<l n="*D 556.27"><name type="Person">Gawan</name> sprach: "ir sult mirz sag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 556.28">welt aber ir michz gar verdag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 556.29">daz iwer m&#x00E6;re mich vergêt,</l>
+<l n="*D 556.30">ich vreische iedoch wol, wie ez dâ stêt."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <note>(ohne 556.15-17)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="556.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit>
+</rdg></app>
+<app loc="556.06"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="556.14"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="556.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="556.17"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="556.20"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="556.27"><rdg>
+<note>Überschrift:</note> Hie kvmet gawan zv&#x0366; der burge die do heisset kastel marueile <wit>V</wit>
+</rdg></app><app loc="556.27"><rdg><note>Initiale</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="556.01">
+<lem>geschehen</lem> <rdg>beschehen <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="556.02">
+<lem>des</lem> <rdg>daz <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="556.04">
+<lem>mîn</lem> <rdg>ein <wit>*m</wit> <wit>Fr23</wit></rdg>
+</app>
+<app loc="556.05">
+<lem>michz</lem> <rdg>mich <wit>*m</wit></rdg>
+</app>
+<app loc="556.08">
+<lem>wirt</lem> <rdg>hêr wirt <wit>*m</wit></rdg>
+</app>
+<app loc="556.10">
+<rdg>ich ervriesch (erfreisch <wit>mk</wit>) in allen landen nie, <wit>*m</wit></rdg>
+</app>
+<app loc="556.11">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="556.12">
+<lem>vrouwen</lem> <rdg>juncvrouwen <wit>*m</wit></rdg>
+</app>
+<app loc="556.13">
+<rdg>mit solichem (<subst><del>solich*em</del><add>solichem</add></subst> <wit>L</wit>) gebende." <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="556.15">
+<rdg>er sprach: "vrâgt niht (in <wit>mk</wit>) durch got. <wit>*m</wit></rdg>
+</app>
+<app loc="556.21">
+<lem>verbern</lem> <rdg>enbern <wit>*m</wit></rdg>
+</app>
+<app loc="556.28">
+<lem>michz</lem> <rdg>mirz <wit>*m</wit></rdg>
+</app>
+<app loc="556.30">
+<lem>iedoch</lem> <rdg>doch <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="556.01">
+<rdg></rdg>
+</app>
+<app loc="556.02">
+<rdg>wan des wir w. vor iu verjehen (iehen <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="556.03">
+<rdg></rdg>
+</app>
+<app loc="556.04">
+<rdg></rdg>
+</app>
+<app loc="556.05">
+<rdg>mich, <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="556.06">
+<rdg></rdg>
+</app>
+<app loc="556.07">
+<rdg></rdg>
+</app>
+<app loc="556.08">
+<rdg>daz ir mir geruochet s. <wit>*T</wit></rdg>
+</app>
+<app loc="556.09">
+<rdg>u. (vmd <wit>I</wit>) die vr., die obe uns hie. <wit>*G</wit> <note>(nur GI)</note> · u. dise vr. hie (<subst><del>*e</del><add>obe</add></subst> vnz hie <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="556.10">
+<rdg>ich engevriesch (me gefraishte ich <wit>I</wit>) <wit>*G</wit> <note>(ohne ZFr23)</note> · in allen l. nie, <wit>*G</wit> <note>(ohne LZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="556.11">
+<rdg></rdg>
+</app>
+<app loc="556.12">
+<rdg>sô m. sch&#x0153;ne vr. <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="556.13">
+<rdg></rdg>
+</app>
+<app loc="556.14">
+<rdg></rdg>
+</app>
+<app loc="556.15">
+<rdg>er sp.: "h., vrâget n. d. got. <wit>*T</wit></rdg>
+</app>
+<app loc="556.16">
+<rdg>dâ ist nôt al über (not vnd vber <wit>I</wit>) nôt." <wit>*G</wit> <note>(nur GI)</note> · diz ist ein nôt vor (ob <wit>V</wit>) aller nôt." <wit>*T</wit></rdg>
+</app>
+<app loc="556.17">
+<rdg></rdg>
+</app>
+<app loc="556.18">
+<rdg>"hêr w., <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="556.19">
+<rdg></rdg>
+</app>
+<app loc="556.20">
+<rdg></rdg>
+</app>
+<app loc="556.21">
+<rdg>vrâgens n. enbern, <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="556.22">
+<rdg></rdg>
+</app>
+<app loc="556.23">
+<rdg></rdg>
+</app>
+<app loc="556.24">
+<rdg></rdg>
+</app>
+<app loc="556.25">
+<rdg></rdg>
+</app>
+<app loc="556.26">
+<rdg>d. geborn s." <wit>*T</wit> (<wit>I</wit> <wit>Z</wit> <wit>Fr23</wit>)</rdg>
+</app>
+<app loc="556.27">
+<rdg>mir <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="556.28">
+<rdg>ir michs (irs mich <wit>V</wit> irz mich <wit>I</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="556.29">
+<rdg></rdg>
+</app>
+<app loc="556.30">
+<rdg>vr. doch wol (vreische doch <wit>V</wit>), <wit>*T</wit> (<wit>I</wit> <wit>Fr23</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

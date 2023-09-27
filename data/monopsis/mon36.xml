@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 36</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>19.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 36.01">sô die sen<reg type="Synkope">e</reg>wen tuot daz armbrust.</l>
+<l n="*D 36.02">dâ was ze dr&#x00E6;t sîn gelust.</l>
+<l n="*D 36.03">der hêrre ân allez slâfen lac,</l>
+<l n="*D 36.04">unz er erkôs den grâwen tac.</l>
+<l n="*D 36.05">der gap dennoch niht liehten schîn.</l>
+<l n="*D 36.06">dô solt ouch dâ bereite sîn</l>
+<l n="*D 36.07">zer messe eîn sîn kappelân.</l>
+<l n="*D 36.08">der sanc si got unt im sân.</l>
+<l n="*D 36.09">sîn harnasch truoc man sâ zehant.</l>
+<l n="*D 36.10">er reit, dâ man tjustieren vant.</l>
+<l n="*D 36.11">dô saz er an der stunde</l>
+<l n="*D 36.12">ûf ein ors, daz beidiu kunde,</l>
+<l n="*D 36.13">hurtlîchen dringen</l>
+<l n="*D 36.14">unt snelleclîchen springen,</l>
+<l n="*D 36.15">bekêric, swâ man<corr type="Emendation">z</corr> wid<reg type="Synkope">e</reg>r zôch.</l>
+<l n="*D 36.16">sînen anker ûf dem helme hôch</l>
+<l n="*D 36.17">man gein der porte vüeren sach.</l>
+<l n="*D 36.18">aldâ wîp unt man verjach,</l>
+<l n="*D 36.19">sine ges&#x00E6;hen nie helt sô wünneclîch.</l>
+<l n="*D 36.20">ir gote im solten sîn gelîch.</l>
+<l n="*D 36.21">man vuort ouch starkiu sper dâ bî.</l>
+<l n="*D 36.22">wie er gezimieret sî?</l>
+<l n="*D 36.23">sîn ors von îser truoc ein dach.</l>
+<l n="*D 36.24">daz was vür slege des gemach.</l>
+<l n="*D 36.25">dâr ûf ein and<reg type="Synkope">e</reg>r decke lac,</l>
+<l n="*D 36.26">ringe, diu niht sw&#x00E6;re wac.</l>
+<l n="*D 36.27">daz was ein grüener samît.</l>
+<l n="*D 36.28">sîn wâpenroc, sîn kursît</l>
+<l n="*D 36.29">was ouch ein grüenez achmardî.</l>
+<l n="*D 36.30">daz wart geworht dâ z<name type="Ort">Arabi</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 36.1-2)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(Leithandschrift bis 36.14)</note> <wit>U</wit> <note>(Leithandschrift von 36.15-157.24)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="36.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="36.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="36.09"><rdg>
+<note>Initiale</note> <wit>L</wit><wit>Z</wit>
+</rdg></app>
+<app loc="36.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="36.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="36.01">
+<rdg>&#x00F7;am (Sam <wit>L</wit> So <wit>Z</wit> <wit>Fr21</wit>) div senwe tv&#x0366;t daz armbrvst <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="36.02">
+<rdg>Da was ze dr&#x00E6;te sin gelust <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="36.04">
+<lem>unz er</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+<app loc="36.09">
+<lem>sâ</lem> <rdg>dar <wit>*m</wit></rdg>
+</app>
+<app loc="36.10">
+<lem>man</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="36.15">
+<lem>bekêric</lem> <rdg>bekêret <wit>*m</wit></rdg>
+</app>
+<app loc="36.15">
+<lem>manz</lem> <rdg>mans <wit>D</wit></rdg>
+</app>
+<app loc="36.21">
+<lem>starkiu</lem> <rdg>starken <wit>*m</wit></rdg>
+</app>
+<app loc="36.22">
+<lem>gezimieret</lem> <rdg>geformieret <wit>*m</wit></rdg>
+</app>
+<app loc="36.23">
+<lem>îser</lem> <rdg>îsen <wit>*m</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="36.24">
+<rdg><subst><del>sin ors von isene trv&#x0366;c ein tach / da man den helt rîten sach</del><add>da man den helt rîten sach / sin ors von isene trv&#x0366;c ein tach</add></subst> <wit>T</wit></rdg>
+</app>
+<app loc="36.24">
+<rdg>Daz was vur <subst><del>sleg</del><add>slege</add></subst> des ein dach <wit>U</wit></rdg>
+</app>
+<app loc="36.24">
+<rdg>das waz <subst><del>fur</del><add>fúr</add></subst> slege des <subst><del>*ach</del><add>gemach</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="36.30">
+<rdg>daz was geworht zArabi <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="36.01">
+<rdg><note>Die Verse 36.1-2 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur G)</note> · alse die <wit>*T</wit></rdg>
+</app>
+<app loc="36.02">
+<rdg></rdg>
+</app>
+<app loc="36.03">
+<rdg>der h. sunder sl. lac, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="36.04">
+<rdg></rdg>
+</app>
+<app loc="36.05">
+<rdg></rdg>
+</app>
+<app loc="36.06">
+<rdg>nû (Da <wit>O</wit> [<wit>L</wit> <wit>Fr21</wit>]) wolt ou. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="36.07">
+<rdg></rdg>
+</app>
+<app loc="36.08">
+<rdg></rdg>
+</app>
+<app loc="36.09">
+<rdg>man tr. sîn h. dar z. <wit>*G</wit> · man tr. sînen h. dar z. <wit>*T</wit></rdg>
+</app>
+<app loc="36.10">
+<rdg>dâ er tjostieren v. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="36.11">
+<rdg></rdg>
+</app>
+<app loc="36.12">
+<rdg></rdg>
+</app>
+<app loc="36.13">
+<rdg></rdg>
+</app>
+<app loc="36.14">
+<rdg></rdg>
+</app>
+<app loc="36.15">
+<rdg>kêric (Bekerich <wit>L</wit> [<wit>Z</wit>]), sô m. <wit>*G</wit> gerech (<subst><del>G*h</del><add>Keren</add></subst> <wit>V</wit>), sô m. <wit>*T</wit></rdg>
+</app>
+<app loc="36.16">
+<rdg></rdg>
+</app>
+<app loc="36.17">
+<rdg></rdg>
+</app>
+<app loc="36.18">
+<rdg>man und wîp <wit>*G</wit> <note>(nur G)</note> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="36.19">
+<rdg></rdg>
+</app>
+<app loc="36.20">
+<rdg>solten im <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="36.21">
+<rdg></rdg>
+</app>
+<app loc="36.22">
+<rdg></rdg>
+</app>
+<app loc="36.23">
+<rdg>&#x2193;<wit>*G</wit> · <note>Versfolge 36.24-23</note> <wit>*T</wit> <note>(nur T)</note> · îsene (<subst><del>yser</del><add>ysern</add></subst> <wit>U</wit> <subst><del>is*</del><add>iser</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="36.24">
+<rdg>dâ man den helt rîten sach, &#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="36.25">
+<rdg>ein a. d. drûffe lac, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="36.26">
+<rdg>diu ringe, n. sw. wac. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="36.27">
+<rdg></rdg>
+</app>
+<app loc="36.28">
+<rdg></rdg>
+</app>
+<app loc="36.29">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(nur G)</note> <wit>U</wit> <wit>V</wit></rdg>
+</app>
+<app loc="36.30">
+<rdg>daz was g. <wit>*G</wit> <note>(nur GZ)</note> · dâ <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

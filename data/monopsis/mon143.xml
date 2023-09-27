@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 143</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 143.01"><seg type="Initiale" subtype="Majuskel">D</seg>ô bôt im der knappe sân</l>
+<l n="*D 143.02">vroun <name type="Person">Jeschuten</name> vürspan.</l>
+<l n="*D 143.03">dô ez der vilân ersach,</l>
+<l n="*D 143.04">sîn munt dô lachete unt sprach:</l>
+<l n="*D 143.05">"wiltû belîben, liebez kint,</l>
+<l n="*D 143.06">dich êrent alle, die hinne sint."</l>
+<l n="*D 143.07">"wiltû mich hînte wol spîsen</l>
+<l n="*D 143.08">unt morgen rehte wîsen</l>
+<l n="*D 143.09">gein <name type="Person">Artuse</name>, dem bin ich holt,</l>
+<l n="*D 143.10">sô mac belîben dir daz golt."</l>
+<l n="*D 143.11">"<seg type="Initiale" subtype="Majuskel">D</seg>iz tuon ich", sprach der vilân.</l>
+<l n="*D 143.12">"ine gesach nie lîp sô wolgetân.</l>
+<l n="*D 143.13">ich bringe dich durch wunder</l>
+<l n="*D 143.14">vür des küneges tavelrunder."</l>
+<l n="*D 143.15"><seg type="Initiale"><corr type="Emendation">D</corr></seg>ie naht beleip der knappe dâ,</l>
+<l n="*D 143.16">man sach in smorgens and<reg type="Synkope">e</reg>rswâ.</l>
+<l n="*D 143.17">des tages er kûme erbeite,</l>
+<l n="*D 143.18">der wirt ouch sich bereite</l>
+<l n="*D 143.19">unt lief im vor, der knappe nâch</l>
+<l n="*D 143.20">reit. dô was in beiden gâch.</l>
+<l n="*D 143.21"><seg type="Initiale" subtype="Majuskel">M</seg>în hêr <name type="Person">Hartman</name> von <name type="Ort">Ouwe</name></l>
+<l n="*D 143.22">unt vrou <name type="Person">Ginover</name>, iwer vrouwe,</l>
+<l n="*D 143.23">unt iwer hêrre, der künec <name type="Person">Artus</name>,</l>
+<l n="*D 143.24">den kumt ein mîn gast ze hûs.</l>
+<l n="*D 143.25">bit hüeten sîn vor spotte.</l>
+<l n="*D 143.26">ern ist gîge noch diu rotte.</l>
+<l n="*D 143.27">si sulen ein and<reg type="Synkope">e</reg>r gampel nem<reg type="Synkope">e</reg>n,</l>
+<l n="*D 143.28">des lâzen sich durch zuht gezem<reg type="Synkope">e</reg>n.</l>
+<l n="*D 143.29"><seg type="Initiale" subtype="Majuskel">A</seg>nd<reg type="Synkope">e</reg>rs iwer vrou <name type="Person">Enide</name></l>
+<l n="*D 143.30">unt ir muoter <name type="Person">Karsnafide</name></l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(ohne 143.25-26)</note> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="143.01"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="143.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="143.11"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app><app loc="143.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="143.15"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>
+</rdg></app><app loc="143.15"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="143.17"><rdg>
+<note>Überschrift:</note> Aventiwer wie Parzifal von vrv&#x0366;n sygnen schiet Vnde den roeten riter slv&#x0366;ch <wit>I</wit>
+</rdg></app><app loc="143.17"><rdg><note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="143.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="143.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="143.23"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="143.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="143.29"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="143.03">
+<lem>ez</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="143.05">
+<lem>liebez</lem> <rdg>süezez <wit>*m</wit></rdg>
+</app>
+<app loc="143.06">
+<lem>hinne</lem> <rdg>innen <wit>*m</wit></rdg>
+</app>
+<app loc="143.10">
+<lem>dir</lem> <rdg>mir <wit>*m</wit></rdg>
+</app>
+<app loc="143.11">
+<lem>Diz</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="143.15">
+<lem>Die</lem> <rdg>&#x00F7;ie <note>nachträglich korrigiert zu:</note> Die <wit>D</wit></rdg>
+</app>
+<app loc="143.16">
+<lem>smorgens</lem> <rdg>morgens <wit>*m</wit></rdg>
+</app>
+<app loc="143.22">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="143.24">
+<rdg>dem (ev <wit>I</wit>) kumet ein mîn vriunt ze hûs. <wit>*G</wit></rdg>
+</app>
+<app loc="143.24">
+<rdg>dô (<subst><del>*</del><add>v́ch</add></subst> <wit>V</wit> <subst><del>v*</del><add>den</add></subst> <wit>T</wit> [<wit>O</wit> <wit>Z</wit>]) kumet ein mîn (minne <wit>Z</wit>) vriunt zuo hûs. <wit>*T</wit></rdg>
+</app>
+<app loc="143.25">
+<lem>bit</lem> <rdg>bittet si <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="143.01">
+<rdg>im bôt der kn. wolgetân <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="143.02">
+<rdg></rdg>
+</app>
+<app loc="143.03">
+<rdg>dô daz der v. e. (villan der sach <wit>Z</wit> vischer [vilan <wit>T</wit>] gesach <wit>*T</wit>), <wit>*G</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="143.04">
+<rdg></rdg>
+</app>
+<app loc="143.05">
+<rdg>b., süezez k., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="143.06">
+<rdg></rdg>
+</app>
+<app loc="143.07">
+<rdg></rdg>
+</app>
+<app loc="143.08">
+<rdg></rdg>
+</app>
+<app loc="143.09">
+<rdg></rdg>
+</app>
+<app loc="143.10">
+<rdg></rdg>
+</app>
+<app loc="143.11">
+<rdg>"daz t. <wit>*G</wit> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="143.12">
+<rdg></rdg>
+</app>
+<app loc="143.13">
+<rdg></rdg>
+</app>
+<app loc="143.14">
+<rdg></rdg>
+</app>
+<app loc="143.15">
+<rdg></rdg>
+</app>
+<app loc="143.16">
+<rdg></rdg>
+</app>
+<app loc="143.17">
+<rdg>er vil k. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="143.18">
+<rdg></rdg>
+</app>
+<app loc="143.19">
+<rdg></rdg>
+</app>
+<app loc="143.20">
+<rdg>er r. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="143.21">
+<rdg></rdg>
+</app>
+<app loc="143.22">
+<rdg>unt <note>om.</note> <wit>*G</wit> <wit>T</wit></rdg>
+</app>
+<app loc="143.23">
+<rdg>der <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="143.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="143.25">
+<rdg></rdg>
+</app>
+<app loc="143.26">
+<rdg>diu <note>om.</note> <wit>*T</wit> <note>(ohne T)</note> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+<app loc="143.27">
+<rdg></rdg>
+</app>
+<app loc="143.28">
+<rdg></rdg>
+</app>
+<app loc="143.29">
+<rdg></rdg>
+</app>
+<app loc="143.30">
+<rdg>Kursenite <wit>*G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

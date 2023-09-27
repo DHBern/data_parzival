@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 387</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 387.01"><seg type="Initiale">D</seg>es kom <name type="Person">Melyacanz</name> in nôt,</l>
+<l n="*D 387.02">daz im der werde <name type="Person">Lanzilot</name></l>
+<l n="*D 387.03">nie sô vaste zuo getrat,</l>
+<l n="*D 387.04">dô er von der swertbrücke pfat</l>
+<l n="*D 387.05">kom unt dâ nâch mit im streit.</l>
+<l n="*D 387.06">im was gevancnüsse leit,</l>
+<l n="*D 387.07">die vrou <name type="Person">Ginover</name> dolte,</l>
+<l n="*D 387.08">die er dâ mit strîte holte.</l>
+<l n="*D 387.09"><seg type="Initiale" subtype="Majuskel">D</seg>ô punierte <name type="Person">Lot<reg type="Synkope">e</reg>s</name> sun.</l>
+<l n="*D 387.10">waz mohte <name type="Person">Meljacanz</name> nû tuon,</l>
+<l n="*D 387.11">erne tribe ouch daz ors mit sporn dar?</l>
+<l n="*D 387.12">vil liute nam der tjoste war.</l>
+<l n="*D 387.13">wer dâ hinderm orse l&#x00E6;ge?</l>
+<l n="*D 387.14">den der von <name type="Ort">Norw&#x00E6;ge</name></l>
+<l n="*D 387.15">gevellet hete ûf die ouwe.</l>
+<l n="*D 387.16">manec ritt<reg type="Synkope">e</reg>r unt vrouwe</l>
+<l n="*D 387.17">dise tjost ersâhen,</l>
+<l n="*D 387.18">die <name type="Person">Gawane</name> prîs<reg type="Synkope">e</reg>s jâhen.</l>
+<l n="*D 387.19">den vrouwen ez guot ze seh<reg type="Synkope">e</reg>n was</l>
+<l n="*D 387.20">her nider von dem palas:</l>
+<l n="*D 387.21"><name type="Person">Melyacanz</name> wart getret<reg type="Synkope">e</reg>t,</l>
+<l n="*D 387.22">durch sîn kursît gewet<reg type="Synkope">e</reg>t</l>
+<l n="*D 387.23">maneg ors, daz sît nie gruose enbeiz,</l>
+<l n="*D 387.24">ez reis ûf in der bluotec sweiz.</l>
+<l n="*D 387.25">dâ ergienc der orse schelmtac,</l>
+<l n="*D 387.26">dâr nâch den gîren ir bejac.</l>
+<l n="*D 387.27">dô nam der herzoge <name type="Person">Astor</name></l>
+<l n="*D 387.28"><name type="Person">Melyacanzen</name> von <name type="Ort">Jamor</name>.</l>
+<l n="*D 387.29">der was vil nâch gevangen.</l>
+<l n="*D 387.30">der turnei was ergangen.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 387.19-20)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="387.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="387.03"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="387.05"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="387.09"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app><app loc="387.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="387.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="387.11">
+<lem>ouch</lem> <rdg>noch <wit>*m</wit></rdg>
+</app>
+<app loc="387.15">
+<lem>die</lem> <rdg>de <wit>D</wit></rdg>
+</app>
+<app loc="387.19">
+<rdg><note>Die Verse 387.19-20 fehlen</note> <wit>*m</wit></rdg>
+</app>
+<app loc="387.23">
+<rdg>manic ros, daz nie gruose enbeiz. <wit>*m</wit></rdg>
+</app>
+<app loc="387.23">
+<rdg>dâ viel ûf in der bluotic (blu&#x0364;tes <wit>I</wit>) sweiz, <wit>*G</wit></rdg>
+</app>
+<app loc="387.23">
+<rdg>- dô viel (<subst><del>*</del><add>Ez reis</add></subst> <wit>V</wit>) ûf in der bluotic sweiz. - <wit>*T</wit></rdg>
+</app>
+<app loc="387.28">
+<lem>von</lem> <rdg>de <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="387.01">
+<rdg></rdg>
+</app>
+<app loc="387.02">
+<rdg>wan im (Wan in <wit>L</wit> <subst><del>*</del><add>Daz</add></subst> im <wit>V</wit>) <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.03">
+<rdg></rdg>
+</app>
+<app loc="387.04">
+<rdg></rdg>
+</app>
+<app loc="387.05">
+<rdg>Kom, dar n. (Chom vnde dannoch <wit>O</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="387.06">
+<rdg>im was vancnisse (diu gevancnisse <wit>*T</wit> [<wit>L</wit>]) l., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) <note>(nur T)</note></rdg>
+</app>
+<app loc="387.07">
+<rdg></rdg>
+</app>
+<app loc="387.08">
+<rdg></rdg>
+</app>
+<app loc="387.09">
+<rdg></rdg>
+</app>
+<app loc="387.10">
+<rdg>waz mac (<subst><del>*</del><add>mo&#x0364;hte</add></subst> <wit>V</wit>) Meliahganz nû t., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.11">
+<rdg>trîbe <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="387.12">
+<rdg>nam (namen <wit>O</wit> [<wit>L</wit>] <wit>Z</wit>) ir (o&#x036E;ch ir <wit>V</wit>) tj. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.13">
+<rdg>wer (Wer da <wit>O</wit> <wit>L</wit> <wit>Z</wit>) h. o. gel&#x00E6;ge? <wit>*G</wit> · wer h. o. l&#x00E6;ge (<subst><del>*</del><add>do lege</add></subst> <wit>V</wit>)? <wit>*T</wit></rdg>
+</app>
+<app loc="387.14">
+<rdg></rdg>
+</app>
+<app loc="387.15">
+<rdg>ûf dem touwe. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="387.16">
+<rdg></rdg>
+</app>
+<app loc="387.17">
+<rdg>d. (Die <wit>L</wit>) tjoste ersâhen (sahen <wit>G</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.18">
+<rdg>G. si (<subst><del>*</del><add>Die gawane</add></subst> <wit>V</wit>) pr. j. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="387.19">
+<rdg></rdg>
+</app>
+<app loc="387.20">
+<rdg>von dem p., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="387.21">
+<rdg>daz Meliahganz w. g., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.22">
+<rdg>d. sînen wâpenroc g. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.23">
+<rdg><note>Versfolge 387.24-23</note> <wit>*T</wit> · gr. (gras <wit>I</wit>) enbeiz. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="387.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="387.25">
+<rdg></rdg>
+</app>
+<app loc="387.26">
+<rdg></rdg>
+</app>
+<app loc="387.27">
+<rdg></rdg>
+</app>
+<app loc="387.28">
+<rdg>Meliahkanzen den von (vo <wit>T</wit>) Amor (Lamor <wit>L</wit> Jammor <wit>*T</wit> [<wit>Z</wit>]). <wit>*G</wit> <note>(ohne O)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="387.29">
+<rdg>die heten in n. (<note>om.</note> <wit>L</wit>) g. (Der was vilnach gevangen <wit>Z</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="387.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

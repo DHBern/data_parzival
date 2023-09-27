@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 522</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 522.01"><seg type="Initiale">W</seg>ellestû behalten dînen lîp,</l>
+<l n="*D 522.02">sô lâ diz trügehafte wîp</l>
+<l n="*D 522.03">rîten und kêre von ir.</l>
+<l n="*D 522.04">nû prüeve selbe ir rât an mir.</l>
+<l n="*D 522.05">doch m<corr type="Emendation">ö</corr>hte ich harte wol genesen,</l>
+<l n="*D 522.06">ob ich bî ruowe solte wesen.</l>
+<l n="*D 522.07">des hilf mir, getriwer man."</l>
+<l n="*D 522.08"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach mîn hêr <name type="Person">Gawan</name>:</l>
+<l n="*D 522.09">"nim aller mîner helfe wal."</l>
+<l n="*D 522.10">"hie nâhen stêt ein spitâl",</l>
+<l n="*D 522.11"><seg type="Initiale" subtype="Majuskel">A</seg>lsô sprach der rîter wunt.</l>
+<l n="*D 522.12">"k&#x0153;me ich dar in kurzer stunt,</l>
+<l n="*D 522.13">dâ m<corr type="Emendation">ö</corr>ht ich ruowen lange zît.</l>
+<l n="*D 522.14">mîner vriwendinne runzît</l>
+<l n="*D 522.15">hab wir noch stênde al starkez hie.</l>
+<l n="*D 522.16">nû heb si drûf, mich hinder sie."</l>
+<l n="*D 522.17"><seg type="Initiale" subtype="Majuskel">D</seg>ô bant der wol geborne gast</l>
+<l n="*D 522.18">der vrouwen pfert von dem ast;</l>
+<l n="*D 522.19">er woltz ziehen nâher ir.</l>
+<l n="*D 522.20">der wunde sprach: "hin dan von mir!</l>
+<l n="*D 522.21">wie ist iuch tretens mich sô gâch?"</l>
+<l n="*D 522.22">er zôch ez ir verre; diu vrouwe gienc nâch,</l>
+<l n="*D 522.23">sanfte unt doch niht drâte,</l>
+<l n="*D 522.24">al nâch ir mannes râte.</l>
+<l n="*D 522.25"><name type="Person">Gawan</name> ûf daz pfert si swanc.</l>
+<l n="*D 522.26">innen des der wunde rîter spranc</l>
+<l n="*D 522.27">ûf <name type="Person">Gawans</name> kastelân.</l>
+<l n="*D 522.28">ich w&#x00E6;ne, daz was missetân.</l>
+<l n="*D 522.29">er unt sîn vrouwe riten hin;</l>
+<l n="*D 522.30">daz was ein sündehaft gewin.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <note>(mit 522.12¹)</note> <wit>L</wit> <wit>Z</wit> <note>(ohne 522.23-24)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="522.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app>
+<app loc="522.08"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="522.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="522.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="522.17"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="522.20"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="522.25"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="522.02">
+<lem>diz</lem> <rdg>daz <wit>*m</wit> <wit>O</wit></rdg>
+</app>
+<app loc="522.05">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="522.06">
+<lem>ruowe</lem> <rdg>triuwe <wit>*m</wit></rdg>
+</app>
+<app loc="522.07">
+<lem>hilf</lem> <rdg>hilf (hilft <wit>mk</wit>) dû <wit>*m</wit></rdg>
+</app>
+<app loc="522.13">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="522.15">
+<lem>stênde</lem> <rdg>stên <wit>*m</wit></rdg>
+</app>
+<app loc="522.16">
+<rdg>nû hebe si dar ûf; nû hinder sie!" <wit>*m</wit></rdg>
+</app>
+<app loc="522.19">
+<lem>er</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="522.22">
+<lem>ir</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="522.23">
+<rdg>vil sanft und niht zuo drât, <wit>*m</wit></rdg>
+</app>
+<app loc="522.28">
+<lem>was</lem> <rdg>w&#x00E6;r <wit>*m</wit></rdg>
+</app>
+<app loc="522.29">
+<rdg>er unde diu vrouwe riten hin; <wit>*G</wit></rdg>
+</app>
+<app loc="522.29">
+<rdg>er unde sîn wîp (<subst><del>die *</del><add>sin vrowe</add></subst> <wit>V</wit>), die (sie <wit>U</wit> [<wit>O</wit>] <note>om.</note> <wit>V</wit> <wit>Z</wit>) riten hin; <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="522.29">
+<lem>sîn</lem> <rdg>diu <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="522.01">
+<rdg></rdg>
+</app>
+<app loc="522.02">
+<rdg></rdg>
+</app>
+<app loc="522.03">
+<rdg></rdg>
+</app>
+<app loc="522.04">
+<rdg></rdg>
+</app>
+<app loc="522.05">
+<rdg></rdg>
+</app>
+<app loc="522.06">
+<rdg></rdg>
+</app>
+<app loc="522.07">
+<rdg>dar h. mir, <wit>*T</wit> · vil getriuwer man." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="522.08">
+<rdg></rdg>
+</app>
+<app loc="522.09">
+<rdg></rdg>
+</app>
+<app loc="522.10">
+<rdg></rdg>
+</app>
+<app loc="522.11">
+<rdg></rdg>
+</app>
+<app loc="522.12">
+<rdg></rdg>
+</app>
+<app loc="522.13">
+<rdg></rdg>
+</app>
+<app loc="522.14">
+<rdg>m. vrouwen r. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="522.15">
+<rdg>noch <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="522.16">
+<rdg></rdg>
+</app>
+<app loc="522.17">
+<rdg></rdg>
+</app>
+<app loc="522.18">
+<rdg></rdg>
+</app>
+<app loc="522.19">
+<rdg></rdg>
+</app>
+<app loc="522.20">
+<rdg></rdg>
+</app>
+<app loc="522.21">
+<rdg></rdg>
+</app>
+<app loc="522.22">
+<rdg>ir <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="522.23">
+<rdg>s., doch <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="522.24">
+<rdg></rdg>
+</app>
+<app loc="522.25">
+<rdg></rdg>
+</app>
+<app loc="522.26">
+<rdg></rdg>
+</app>
+<app loc="522.27">
+<rdg></rdg>
+</app>
+<app loc="522.28">
+<rdg></rdg>
+</app>
+<app loc="522.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="522.30">
+<rdg>ein schadehaft g. <wit>*G</wit> <note>(nur GI)</note> (<wit>T</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

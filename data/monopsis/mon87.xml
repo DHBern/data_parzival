@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 87</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 87.01">"swaz mînes rehtes an iu sî,</l>
+<l n="*D 87.02">dâ sult ir mich lâzen bî.</l>
+<l n="*D 87.03">dar zuo mîn dienest genâden gert.</l>
+<l n="*D 87.04">wird ich der bete hie gewert,</l>
+<l n="*D 87.05">sol iu daz prîs verkrenken,</l>
+<l n="*D 87.06">sô lât mich vürbaz wenken."</l>
+<l n="*D 87.07"><seg type="Initiale" subtype="Majuskel">D</seg>er künegîn <name type="Person">Ampflisen</name>,</l>
+<l n="*D 87.08">der kiuschen unt der wîsen,</l>
+<l n="*D 87.09"><seg type="Initiale">Û</seg>f spranc balde ir kappelân.</l>
+<l n="*D 87.10">er sprach: "niht! <corr type="Emendation">i</corr>n sol ze rehte hân</l>
+<l n="*D 87.11">mîn vrouwe, diu mich in ditze lant</l>
+<l n="*D 87.12">nâch sîner minne hât gesant.</l>
+<l n="*D 87.13">diu lebt nâch im ins lîbes zer.</l>
+<l n="*D 87.14">ir minne hât an im gewer.</l>
+<l n="*D 87.15">diu sol behalden sînen lîp,</l>
+<l n="*D 87.16">wan si ist im holt vür elliu wîp.</l>
+<l n="*D 87.17">hie sint ir boten, vürsten drî,</l>
+<l n="*D 87.18">kint vor missewende vrî.</l>
+<l n="*D 87.19">der heizet einer <name type="Person">Lanzidant</name>,</l>
+<l n="*D 87.20">von hôher art ûz <name type="Ort">Gruonlant</name>.</l>
+<l n="*D 87.21">der ist ze <name type="Ort">Kerlingen</name> kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 87.22">unt hât die sprâche an sich genom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 87.23">der and<reg type="Synkope">e</reg>r heizet <name type="Person">Liadarz</name></l>
+<l n="*D 87.24">filii cuons <name type="Person">Schiolarz</name>."</l>
+<l n="*D 87.25">wer nû der dritte w&#x00E6;re,</l>
+<l n="*D 87.26">des h&#x0153;ret ouch ein m&#x00E6;re:</l>
+<l n="*D 87.27">des muot<reg type="Synkope">e</reg>r hiez <name type="Person">Beaflurs</name></l>
+<l n="*D 87.28">unt sîn vat<reg type="Synkope">e</reg>r <name type="Person">Pansamurs</name>,</l>
+<l n="*D 87.29">die wâren von der fei<reg type="Synkope">e</reg>n art;</l>
+<l n="*D 87.30">daz kint hiez <name type="Person">Liahturteltart</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(87.1-26)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(87.18-30)</note>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="87.01"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>O</wit>
+</rdg></app>
+<app loc="87.07"><rdg>
+<note>Initiale</note><wit>Z</wit>
+</rdg></app><app loc="87.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="87.09"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit>
+</rdg></app>
+<app loc="87.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="87.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="87.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="87.06">
+<lem>vürbaz</lem> <rdg>vürder <wit>*m</wit></rdg>
+</app>
+<app loc="87.09">
+<lem>spranc</lem> <rdg>spranc dâr <wit>*m</wit></rdg>
+</app>
+<app loc="87.10">
+<lem>in sol</lem> <rdg>ensol <wit>D</wit></rdg>
+</app>
+<app loc="87.13">
+<rdg>si lebet nâch im (leb nach <wit>I</wit> lebet an in <wit>O</wit>) in (ins <wit>O</wit> <wit>Z</wit> in des <wit>L</wit>) lîbes zer (lêr <wit>I</wit>) <wit>*G</wit> · si lebete ie nâch sînes lîbes zer (Sie lebet in siner minne <wit>T</wit>) zer <wit>*T</wit></rdg>
+</app>
+<app loc="87.16">
+<lem>im holt</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="87.21">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="87.24">
+<rdg>filicunt de (der <wit>O</wit> <note>om.</note> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) Tschierarz (<subst><del>f*</del><add>filli kunt de Schelarz</add></subst> <wit>V</wit> fylly cons de tschalarz <wit>T</wit>) <wit>*G</wit> · figunt Schiolarz <wit>*T</wit></rdg>
+</app>
+<app loc="87.27">
+<rdg>des muoter, diu B., <wit>*m</wit></rdg>
+</app>
+<app loc="87.29">
+<lem>feien</lem> <rdg>selben <wit>*m</wit></rdg>
+</app>
+<app loc="87.30">
+<lem>hiez</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="87.01">
+<rdg></rdg>
+</app>
+<app loc="87.02">
+<rdg></rdg>
+</app>
+<app loc="87.03">
+<rdg></rdg>
+</app>
+<app loc="87.04">
+<rdg>der beider hie <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit> · der beider sol ich sin <wit>T</wit></rdg>
+</app>
+<app loc="87.05">
+<rdg>sol mir (wir <wit>Z</wit> mich <wit>T</wit>) daz (der <wit>*T</wit>) pr. v., <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="87.06">
+<rdg>m. sunder (fvder <wit>O</wit> <wit>Z</wit> wider <wit>L</wit>) w. (schenken <wit>Z</wit>)." <wit>*G</wit> m. vürder (vor dir <wit>U</wit>) w." <wit>*T</wit></rdg>
+</app>
+<app loc="87.07">
+<rdg></rdg>
+</app>
+<app loc="87.08">
+<rdg></rdg>
+</app>
+<app loc="87.09">
+<rdg>ûf sp. der k. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="87.10">
+<rdg>sp.: "in <wit>*G</wit> <wit>*T</wit> · in sol zerehte han <wit>I</wit></rdg>
+</app>
+<app loc="87.11">
+<rdg></rdg>
+</app>
+<app loc="87.12">
+<rdg>n. sînen (<subst><del>sine*</del><add>siner</add></subst> <wit>V</wit>) minnen <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="87.13">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="87.14">
+<rdg></rdg>
+</app>
+<app loc="87.15">
+<rdg>si sol behalten (behaben <wit>T</wit>) s. (sinen pris <wit>O</wit>) lîp, <wit>*G</wit> (<wit>V</wit>) <wit>T</wit> si sol in behalten, s. lîp, <wit>*T</wit></rdg>
+</app>
+<app loc="87.16">
+<rdg></rdg>
+</app>
+<app loc="87.17">
+<rdg></rdg>
+</app>
+<app loc="87.18">
+<rdg>driu k. (Die sint <wit>L</wit>) <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="87.19">
+<rdg>eines <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="87.20">
+<rdg></rdg>
+</app>
+<app loc="87.21">
+<rdg>der ist her ze <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="87.22">
+<rdg></rdg>
+</app>
+<app loc="87.23">
+<rdg></rdg>
+</app>
+<app loc="87.24">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="87.25">
+<rdg>nû <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="87.26">
+<rdg>des (den <wit>T</wit>) seiter ouch (iu <wit>*T</wit> <note>[nur U]</note>) ein m. (an dem mêre <wit>T</wit>): <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="87.27">
+<rdg>des (Sin <wit>V</wit>) m., diu h. B. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="87.28">
+<rdg>Gausamurs, <wit>*G</wit> <note>(nur I)</note></rdg>
+</app>
+<app loc="87.29">
+<rdg></rdg>
+</app>
+<app loc="87.30">
+<rdg>Liekurteltart. <wit>*G</wit> <note>(nur I)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

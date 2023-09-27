@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 256</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>07.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 256.01"><seg type="Initiale">D</seg>az er vrâgens <corr type="Emendation">w</corr>as sô laz,</l>
+<l n="*D 256.02">daz er bî dem trûrigem wirte saz,</l>
+<l n="*D 256.03"><seg type="Initiale" subtype="Majuskel">D</seg>az rou dô gr&#x0153;zlîche</l>
+<l n="*D 256.04">den helt ellens rîche.</l>
+<l n="*D 256.05">durch klage unt durch den tac sô heiz</l>
+<l n="*D 256.06"><seg type="Initiale" subtype="Majuskel">B</seg>egunde netzen in der sweiz.</l>
+<l n="*D 256.07">durch den luft von im er bant</l>
+<l n="*D 256.08">den helm unt vuorten in der hant.</l>
+<l n="*D 256.09">er entstricte die vintâlen sîn.</l>
+<l n="*D 256.10">durch îsers râm was lieht sîn schîn.</l>
+<l n="*D 256.11">er kom ûf eine niwe slâ,</l>
+<l n="*D 256.12">wandez gienc vor im al dâ</l>
+<l n="*D 256.13">ein ors, daz was wol beslagen,</l>
+<l n="*D 256.14">unt ein barvuoz pfert muose tragen</l>
+<l n="*D 256.15">eine vrouwen, die er sach.</l>
+<l n="*D 256.16">nâch der ze rîten im geschach.</l>
+<l n="*D 256.17"><seg type="Initiale" subtype="Majuskel">I</seg>r pfert gein kumber was verselt:</l>
+<l n="*D 256.18">man het im wol durch hût gezelt</l>
+<l n="*D 256.19">elliu sîniu rippe gar.</l>
+<l n="*D 256.20">als ein harm ez was gevar.</l>
+<l n="*D 256.21">ein bästîn halfter lac dâr an.</l>
+<l n="*D 256.22">unz ûf den huof swang im diu man,</l>
+<l n="*D 256.23">sîn ougen tief, die gruoben wît.</l>
+<l n="*D 256.24">ouch was der vrouwen runzît</l>
+<l n="*D 256.25">vertwâlet unt vertrecket,</l>
+<l n="*D 256.26">durch hunger dicke erwecket.</l>
+<l n="*D 256.27">ez was dürre als ein zund<reg type="Synkope">e</reg>r.</l>
+<l n="*D 256.28">sîn gên, daz was wund<reg type="Synkope">e</reg>r,</l>
+<l n="*D 256.29">wand ez reit ein vrouwe wert,</l>
+<l n="*D 256.30">diu selten kunrierte pfert.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 256.16 und 19-20)</note> <wit>Fr69</wit> <note>(256.1-2 und 20-27)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>Fr26</wit> <note>(256.1-11)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="256.01"><rdg>
+<note>Überschrift:</note> Wie parcifal mit stritte Jescutten die hulde erwarp <wit>mk</wit> · Hie qvam parcifal zv frowen iescvten <wit>Z</wit>
+</rdg></app><app loc="256.01"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>T</wit>
+</rdg></app><app loc="256.01"><rdg><note>Initiale</note> <wit>mk</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>Fr26</wit>
+</rdg></app>
+<app loc="256.03"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="256.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="256.06"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="256.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="256.11"><rdg>
+<note>Überschrift:</note> Hie kam parzifal zv&#x0366; orilus vnd Zv&#x0366; sinem wibe jescuten <wit>V</wit>
+</rdg></app><app loc="256.11"><rdg><note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="256.13"><rdg>
+<note>Überschrift:</note> Aventiwer wie Parzifal frowen Sigv&#x0366;nen in der chlosen lie <wit>I</wit>
+</rdg></app><app loc="256.13"><rdg><note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="256.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="256.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="256.27"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="256.01">
+<lem>was</lem> <rdg>vas <wit>D</wit></rdg>
+</app>
+<app loc="256.03">
+<lem>rou</lem> <rdg>gerouwe (<subst><del>*</del><add>gero&#x036E;</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="256.04">
+<lem>helt</lem> <rdg>degen <wit>*m</wit></rdg>
+</app>
+<app loc="256.05">
+<lem>durch</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>O</wit></rdg>
+</app>
+<app loc="256.07">
+<lem>von</lem> <rdg>an <wit>*m</wit></rdg>
+</app>
+<app loc="256.14">
+<lem>pfert</lem> <rdg>pfert, daz <wit>*m</wit></rdg>
+</app>
+<app loc="256.18">
+<lem>wol durch</lem> <rdg>durch die <wit>*m</wit></rdg>
+</app>
+<app loc="256.19">
+<lem>elliu</lem> <rdg>wol alliu <wit>*m</wit></rdg>
+</app>
+<app loc="256.24">
+<rdg>ouch was daz selbe (<subst><del>*</del><add>daz selbe</add></subst> <wit>V</wit>) runzît <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="256.28">
+<lem>wunder</lem> <rdg>ein wunder <wit>*m</wit> <wit>O</wit> (<wit>Fr21</wit>) <wit>V</wit></rdg>
+</app>
+<app loc="256.30">
+<lem>kunrierte</lem> <rdg>turnierte <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="256.01">
+<rdg></rdg>
+</app>
+<app loc="256.02">
+<rdg>dôr bî <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="256.03">
+<rdg></rdg>
+</app>
+<app loc="256.04">
+<rdg></rdg>
+</app>
+<app loc="256.05">
+<rdg></rdg>
+</app>
+<app loc="256.06">
+<rdg></rdg>
+</app>
+<app loc="256.07">
+<rdg>er von im b. (er abe do bant <wit>L</wit> von im erbant <wit>Z</wit> [<wit>Fr21</wit>]) <wit>*G</wit> <note>(ohne O)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="256.08">
+<rdg></rdg>
+</app>
+<app loc="256.09">
+<rdg></rdg>
+</app>
+<app loc="256.10">
+<rdg></rdg>
+</app>
+<app loc="256.11">
+<rdg></rdg>
+</app>
+<app loc="256.12">
+<rdg></rdg>
+</app>
+<app loc="256.13">
+<rdg></rdg>
+</app>
+<app loc="256.14">
+<rdg>pf., daz m. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="256.15">
+<rdg></rdg>
+</app>
+<app loc="256.16">
+<rdg></rdg>
+</app>
+<app loc="256.17">
+<rdg>Daz pf. g. (nach <wit>O</wit>) <wit>*G</wit> daz (<subst><del>*</del><add>Jr</add></subst> <wit>V</wit>) pf. von (mit <wit>U</wit> <subst><del>*</del><add>gegen</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="256.18">
+<rdg>im (im wol <wit>Z</wit>) d. die (div <wit>T</wit>) hût (hu̽t wol <wit>L</wit>) <wit>*G</wit> <note>(ohne OFr21)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="256.19">
+<rdg>wol alliu <wit>*T</wit></rdg>
+</app>
+<app loc="256.20">
+<rdg></rdg>
+</app>
+<app loc="256.21">
+<rdg>dâ lac ein bestîn (beste <wit>U</wit> lang bestin <wit>V</wit>) britel an. <wit>*T</wit></rdg>
+</app>
+<app loc="256.22">
+<rdg></rdg>
+</app>
+<app loc="256.23">
+<rdg>diu (<subst><del>*</del><add>Sin</add></subst> <wit>V</wit>) ou. <wit>*T</wit></rdg>
+</app>
+<app loc="256.24">
+<rdg>was <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="256.25">
+<rdg>- v. unde v. (verstrecket <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="256.26">
+<rdg>d. kumber (<subst><del>*</del><add>hvnger</add></subst> <wit>V</wit>) d. e. -, <wit>*T</wit></rdg>
+</app>
+<app loc="256.27">
+<rdg></rdg>
+</app>
+<app loc="256.28">
+<rdg></rdg>
+</app>
+<app loc="256.29">
+<rdg></rdg>
+</app>
+<app loc="256.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

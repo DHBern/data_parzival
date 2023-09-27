@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 72</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 72.01">gewâpent vaste unz ûf den huof.</l>
+<l n="*D 72.02">hie garzûne, ruofâ ruof!</l>
+<l n="*D 72.03">sîn lîp spranc drûf, wand erz dâ vant.</l>
+<l n="*D 72.04">vil sta<corr type="Emendation">r</corr>ker sper des held<reg type="Synkope">e</reg>s hant</l>
+<l n="*D 72.05">mit hurte verswande.</l>
+<l n="*D 72.06">die poynd<reg type="Synkope">e</reg>r er zertrande</l>
+<l n="*D 72.07">immer durch, anderthalben ûz.</l>
+<l n="*D 72.08">dem anker volgete nâch der strûz.</l>
+<l n="*D 72.09"><name type="Person"><seg type="Initiale">G</seg>ahmuret</name> stach hinderz ors</l>
+<l n="*D 72.10"><name type="Person">Poytwin</name> de <name type="Ort">Prienlascors</name></l>
+<l n="*D 72.11">unt anders manegen werden man,</l>
+<l n="*D 72.12">an den <corr type="Emendation">e</corr>r sicherheit gewan.</l>
+<l n="*D 72.13">swaz dâ gekriuzter ritt<reg type="Synkope">e</reg>r reit,</l>
+<l n="*D 72.14">die genuzzen des heldes arbeit.</l>
+<l n="*D 72.15">diu gewunnen ors, diu gab er in.</l>
+<l n="*D 72.16">an im lag ir grôz gewin.</l>
+<l n="*D 72.17"><seg type="Initiale" subtype="Majuskel">G</seg>lîcher baniere</l>
+<l n="*D 72.18">man gein im vuorte viere</l>
+<l n="*D 72.19">- küene rotten riten drunde,</l>
+<l n="*D 72.20">ir hêrre strîten kunde -</l>
+<l n="*D 72.21">an ieslîcher eines grîfen zagel.</l>
+<l n="*D 72.22">daz hind<reg type="Synkope">e</reg>r teil was ouch ein hagel</l>
+<l n="*D 72.23">an rîterschaft. des wâren die.</l>
+<l n="*D 72.24">daz vord<reg type="Synkope">e</reg>r teil des grîfen hie</l>
+<l n="*D 72.25">der künec von <name type="Ort">Gascone</name> truoc</l>
+<l n="*D 72.26">ûf sîme schilde, ein rît<reg type="Synkope">e</reg>r kluoc.</l>
+<l n="*D 72.27">gezimieret was sîn lîp,</l>
+<l n="*D 72.28">sô wol geprüeven kunnen wîp.</l>
+<l n="*D 72.29">er nam sich vor den andern ûz,</l>
+<l n="*D 72.30">dô er ûfem helme ersach den strûz.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="72.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="72.09"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit>
+</rdg></app>
+<app loc="72.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="72.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="72.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="72.20"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="72.29"><rdg>
+<note>Überschrift:</note> Hie kvmt gamuret vnd kvnic Gascon in dem strite zv samnen <wit>Z</wit>
+</rdg></app><app loc="72.29"><rdg><note>Initiale</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="72.03">
+<lem>spranc</lem> <rdg><subst><del>sprach</del><add>spranch</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="72.04">
+<lem>starker</lem> <rdg>stacher <wit>D</wit></rdg>
+</app>
+<app loc="72.06">
+<lem>die</lem> <rdg>dis <wit>*m</wit></rdg>
+</app>
+<app loc="72.07">
+<rdg>imer (Hie du̽rch <wit>L</wit>) anderthalben ûz (ein halb in anderthalb <wit>I</wit>). <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="72.07">
+<rdg>eine sîte in (in vnd <wit>V</wit>), anderthalp (nv hie in sa dort <wit>T</wit>) ûz. <wit>*T</wit></rdg>
+</app>
+<app loc="72.10">
+<lem>de </lem> <rdg>den <wit>*m</wit></rdg>
+</app>
+<app loc="72.10">
+<lem>Prienlascors</lem> <rdg><subst><del>prienlacors</del><add>prienlascors</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="72.12">
+<lem>den er</lem> <rdg>den ir <wit>D</wit> dem er <wit>*m</wit></rdg>
+</app>
+<app loc="72.13">
+<lem>gekriuzter</lem> <rdg>getriuwer <wit>*m</wit></rdg>
+</app>
+<app loc="72.16">
+<lem>ir grôz</lem> <rdg>grôz ir <wit>*m</wit> goz ir <wit>I</wit></rdg>
+</app>
+<app loc="72.18">
+<rdg>man vuorte (Fu̽rte man <wit>L</wit>) gein im (in <wit>I</wit>) viere (Gein im fvrte man fiere <wit>O</wit> [<wit>Fr21</wit>]) <wit>*G</wit></rdg>
+</app>
+<app loc="72.18">
+<rdg>man vuorte gein im schiere (<subst><del>*</del><add>noch im viere</add></subst> <wit>V</wit> gegn im viere <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="72.22">
+<rdg>(vnd <wit>I</wit> [<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>] <wit>V</wit>) daz ander (hinder <wit>*T</wit> <wit>O</wit> <wit>L</wit> [<wit>Z</wit> <wit>Fr21</wit>]) teil ouch was (was avch <wit>O</wit> [<wit>L</wit> <wit>Fr21</wit> <wit>T</wit>] <subst><del>*</del><add>waz</add></subst> <wit>V</wit>) ein hagel <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="72.22">
+<lem>was ouch</lem> <rdg>ouch was <wit>*m</wit></rdg>
+</app>
+<app loc="72.26">
+<lem>sîme</lem> <rdg>einem <wit>*m</wit></rdg>
+</app>
+<app loc="72.27">
+<lem>sîn</lem> <rdg>des heldes <wit>*m</wit></rdg>
+</app>
+<app loc="72.30">
+<lem>ûfem helme</lem> <rdg>ûf <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="72.01">
+<rdg>g. wol unz (bit <wit>U</wit>) <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="72.02">
+<rdg></rdg>
+</app>
+<app loc="72.03">
+<rdg></rdg>
+</app>
+<app loc="72.04">
+<rdg></rdg>
+</app>
+<app loc="72.05">
+<rdg></rdg>
+</app>
+<app loc="72.06">
+<rdg>er (<note>om.</note> <wit>O</wit>) z., <wit>*G</wit></rdg>
+</app>
+<app loc="72.07">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="72.08">
+<rdg>v. ie (<subst><del>*</del><add>nach</add></subst> <wit>V</wit>) der st. <wit>*T</wit></rdg>
+</app>
+<app loc="72.09">
+<rdg></rdg>
+</app>
+<app loc="72.10">
+<rdg>Poitewinen von (<note>om.</note> <wit>O</wit>) Prienlascors <wit>*G</wit> <note>(ohne ZFr21)</note> · Poytewin de (der <wit>U</wit>) Prialatscors <wit>*T</wit></rdg>
+</app>
+<app loc="72.11">
+<rdg></rdg>
+</app>
+<app loc="72.12">
+<rdg>an dem er (<note>om.</note> <wit>I</wit>) <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="72.13">
+<rdg></rdg>
+</app>
+<app loc="72.14">
+<rdg></rdg>
+</app>
+<app loc="72.15">
+<rdg></rdg>
+</app>
+<app loc="72.16">
+<rdg></rdg>
+</app>
+<app loc="72.17">
+<rdg></rdg>
+</app>
+<app loc="72.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="72.19">
+<rdg>drunden, <wit>*G</wit></rdg>
+</app>
+<app loc="72.20">
+<rdg>ir hêrren st. kunden - <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="72.21">
+<rdg>an iegelîcher ein gr. z. <wit>*G</wit> <note>(ohne IZ)</note> <wit>V</wit> <wit>T</wit></rdg>
+</app>
+<app loc="72.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="72.23">
+<rdg>gein r. <wit>*G</wit> <note>(ohne LZ)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="72.24">
+<rdg></rdg>
+</app>
+<app loc="72.25">
+<rdg></rdg>
+</app>
+<app loc="72.26">
+<rdg>an dem schilt, <wit>*G</wit> an s. schilte, <wit>*T</wit> (<wit>I</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="72.27">
+<rdg>gezieret was <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="72.28">
+<rdg>als wol <wit>*G</wit> <wit>T</wit> sam (die <wit>U</wit> <wit>V</wit>) wol <wit>*T</wit> (<wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="72.29">
+<rdg>der (<subst><del>*</del><add>Er</add></subst> <wit>V</wit>) nam <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="72.30">
+<rdg>h. sach (helme er sach <wit>G</wit>) den <wit>*G</wit> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

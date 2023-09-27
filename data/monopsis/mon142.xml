@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 142</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 142.01">si vorhte, daz er den lîp verlür</l>
+<l n="*D 142.02">unt daz si grôzen schaden kür.</l>
+<l n="*D 142.03">eine strâze er dô gevienc,</l>
+<l n="*D 142.04">diu gein den <name type="Person">Bertenoysen</name> gienc.</l>
+<l n="*D 142.05">diu was geestrîchet unt breit.</l>
+<l n="*D 142.06">swer im wid<reg type="Synkope">e</reg>rgienc od<reg type="Synkope">e</reg>r widerreit,</l>
+<l n="*D 142.07">ez w&#x00E6;re ritt<reg type="Synkope">e</reg>r od<reg type="Synkope">e</reg>r koufman,</l>
+<l n="*D 142.08">die selben gruozter alle sân</l>
+<l n="*D 142.09">unt jach, daz w&#x00E6;re sîner muot<reg type="Synkope">e</reg>r rât.</l>
+<l n="*D 142.10">diu gab in ouch âne missetât.</l>
+<l n="*D 142.11">der âbent begunde nâhen,</l>
+<l n="*D 142.12">grôz müede gein im gâhen.</l>
+<l n="*D 142.13"><seg type="Initiale">D</seg>ô ersach der tumpheit g<reg type="Synkope">e</reg>nôz</l>
+<l n="*D 142.14">ein hûs ze guoter mâze grôz.</l>
+<l n="*D 142.15">dâ was inne ein arger wirt,</l>
+<l n="*D 142.16">als noch ûf ungeslehte birt.</l>
+<l n="*D 142.17">daz was ein visch&#x00E6;re</l>
+<l n="*D 142.18">unt aller güete l&#x00E6;re.</l>
+<l n="*D 142.19">den knappen hunger lêrte,</l>
+<l n="*D 142.20">daz er dar gein kêrte</l>
+<l n="*D 142.21">unt klagete dem wirte hungers nôt.</l>
+<l n="*D 142.22">der sprach: "ine g&#x00E6;be iu ein halbez brôt</l>
+<l n="*D 142.23">niht ze drîzec jâren.</l>
+<l n="*D 142.24">swer mîner milte vâren</l>
+<l n="*D 142.25">vergeb<reg type="Synkope">e</reg>n wil, der sûmet sich.</l>
+<l n="*D 142.26">ine sorge umb niem<reg type="Synkope">e</reg>n danne umb mich,</l>
+<l n="*D 142.27">dar nâch umb mîniu kindelîn.</l>
+<l n="*D 142.28">ir enkomt tâlanc dâ her în.</l>
+<l n="*D 142.29">het ir pfenninge od<reg type="Synkope">e</reg>r pfant,</l>
+<l n="*D 142.30">ich behielt iuch al zehant."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="142.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="142.11"><rdg>
+<note>Überschrift:</note> Hie kvnt Parzifal zv&#x0366; eines vischers <subst><del>*</del><add>hus der vngetruwe waz jn knaben wis</add></subst> <wit>V</wit>
+</rdg></app><app loc="142.11"><rdg><note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="142.13"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="142.13"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="142.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="142.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="142.02">
+<lem>grôzen</lem> <rdg><seg type="singuläre_Lesart">gr&#x0153;zeren</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="142.05">
+<lem>geestrîchet</lem> <rdg>gestrichen <wit>*m</wit></rdg>
+</app>
+<app loc="142.10">
+<lem>âne</lem> <rdg>ân alle <wit>*m</wit></rdg>
+</app>
+<app loc="142.11">
+<lem>der</lem> <rdg>dô der <wit>*m</wit></rdg>
+</app>
+<app loc="142.12">
+<lem>grôz</lem> <rdg>und grôz <wit>*m</wit></rdg>
+</app>
+<app loc="142.14">
+<lem>ze guoter</lem> <rdg>daz was ze <wit>*m</wit></rdg>
+</app>
+<app loc="142.18">
+<rdg>aller güeter l&#x00E6;re <wit>*m</wit></rdg>
+</app>
+<app loc="142.22">
+<rdg>er (Der <wit>O</wit> <wit>L</wit> <wit>Z</wit> [<wit>T</wit>]) sprach (<subst><del>spra*</del><add>spranc</add></subst> <wit>U</wit>): "ine g&#x00E6;be (Geb ev <wit>I</wit> <subst><del>*</del><add>gebe</add></subst> iv <wit>O</wit>) ein halbez brôt <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="142.22">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="142.22">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="142.23">
+<lem>niht</lem> <rdg>ie niht <wit>*m</wit></rdg>
+</app>
+<app loc="142.26">
+<lem>umb niemen danne</lem> <rdg>niht wanne <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="142.01">
+<rdg></rdg>
+</app>
+<app loc="142.02">
+<rdg>gr&#x0153;zeren <wit>*G</wit> <note>(ohne IZ)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="142.03">
+<rdg></rdg>
+</app>
+<app loc="142.04">
+<rdg></rdg>
+</app>
+<app loc="142.05">
+<rdg>was gebert (Gestrichen <wit>I</wit> [<wit>L</wit> <wit>T</wit>] gestrichet <wit>O</wit> <wit>Z</wit>) unde <wit>*G</wit> was geriten unde <wit>*T</wit></rdg>
+</app>
+<app loc="142.06">
+<rdg></rdg>
+</app>
+<app loc="142.07">
+<rdg>er w. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="142.08">
+<rdg></rdg>
+</app>
+<app loc="142.09">
+<rdg>j., ez w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="142.10">
+<rdg>in (<note>om.</note> <wit>O</wit>) im âne (ovch ane <wit>Z</wit> im ouch ân <wit>*T</wit> [<wit>L</wit>]) m. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="142.11">
+<rdg></rdg>
+</app>
+<app loc="142.12">
+<rdg></rdg>
+</app>
+<app loc="142.13">
+<rdg>dô sach (gesach <wit>T</wit>) der <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="142.14">
+<rdg></rdg>
+</app>
+<app loc="142.15">
+<rdg>dâr inne was <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="142.16">
+<rdg>ungeslahte (geslehte <wit>T</wit>) <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="142.17">
+<rdg>und was <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="142.18">
+<rdg>unde (<note>om.</note> <wit>O</wit> <wit>L</wit>) maniger g. (gu̽ter <wit>L</wit>) l. <wit>*G</wit> <note>(ohne IZ)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="142.19">
+<rdg></rdg>
+</app>
+<app loc="142.20">
+<rdg></rdg>
+</app>
+<app loc="142.21">
+<rdg></rdg>
+</app>
+<app loc="142.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="142.23">
+<rdg>iu n. <wit>*G</wit> <note>(ohne IO)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="142.24">
+<rdg></rdg>
+</app>
+<app loc="142.25">
+<rdg></rdg>
+</app>
+<app loc="142.26">
+<rdg>umbe n. wan (vmb nieman nu&#x0364;n <wit>I</wit> [<wit>O</wit>] niht wan <wit>L</wit> <wit>T</wit>) umbe m., <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="142.27">
+<rdg></rdg>
+</app>
+<app loc="142.28">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <note>(nur GL)</note> <wit>V</wit></rdg>
+</app>
+<app loc="142.29">
+<rdg></rdg>
+</app>
+<app loc="142.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

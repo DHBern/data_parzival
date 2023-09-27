@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 184</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 184.01"><seg type="Initiale" subtype="Majuskel">O</seg>uch was diu j&#x00E6;merlîche schar</l>
+<l n="*D 184.02">elliu nâch aschen var</l>
+<l n="*D 184.03">oder als valwer leim.</l>
+<l n="*D 184.04">mîn hêrre, der grâve von Wertheim,</l>
+<l n="*D 184.05">w&#x00E6;re ungern soldier dâ gewesen.</l>
+<l n="*D 184.06">er m<corr type="Emendation">ö</corr>hte ir soldes niht genesen.</l>
+<l n="*D 184.07">der zadel vuoget in hungers nôt.</l>
+<l n="*D 184.08">sine heten k&#x00E6;se, vleisch noch brôt.</l>
+<l n="*D 184.09"></l>
+<l n="*D 184.10"></l>
+<l n="*D 184.11"></l>
+<l n="*D 184.12"></l>
+<l n="*D 184.13"></l>
+<l n="*D 184.14"></l>
+<l n="*D 184.15"></l>
+<l n="*D 184.16"></l>
+<l n="*D 184.17"></l>
+<l n="*D 184.18"></l>
+<l n="*D 184.19">des twanc si ein werder man,</l>
+<l n="*D 184.20">der stolze künec von Brandigan.</l>
+<l n="*D 184.21"></l>
+<l n="*D 184.22"></l>
+<l n="*D 184.23"></l>
+<l n="*D 184.24"></l>
+<l n="*D 184.25"></l>
+<l n="*D 184.26"></l>
+<l n="*D 184.27"><seg type="Initiale">W</seg>olt ich nû daz wîzen in,</l>
+<l n="*D 184.28">sô het ich harte kranken sin.</l>
+<l n="*D 184.29">wan dâ ich dicke bin erbeizet</l>
+<l n="*D 184.30">unt dâ man mich hêrre heizet,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(184.1-8, 19-20 und 27-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(184.2-5, 10-12 und 30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="184.01"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="184.01"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="184.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="184.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="184.19"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="184.27"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="184.02">
+<lem>var</lem> <rdg>gevar <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="184.06">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="184.08">
+<lem>noch</lem> <rdg>noch <seg type="singuläre_Lesart">daz</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="184.09">
+<rdg>si liezen zenstürn sîn <wit>*m</wit></rdg>
+</app>
+<app loc="184.10">
+<rdg>und smalzeten ouch dekeinen wîn <wit>*m</wit></rdg>
+</app>
+<app loc="184.11">
+<rdg>mit ir munde, sô si trunken. <wit>*m</wit></rdg>
+</app>
+<app loc="184.12">
+<rdg>die wamme in nider sunken, <wit>*m</wit></rdg>
+</app>
+<app loc="184.13">
+<rdg>ir hüffe hôch und mager, <wit>*m</wit></rdg>
+</app>
+<app loc="184.14">
+<rdg>gerumpfen (Gerupfen <wit>mk</wit>) als ein ungersch zager <wit>*m</wit></rdg>
+</app>
+<app loc="184.15">
+<rdg>was diu hût hin zuo den riben. <wit>*m</wit></rdg>
+</app>
+<app loc="184.16">
+<rdg>der hunger het in daz vleisch vertriben. <wit>*m</wit></rdg>
+</app>
+<app loc="184.17">
+<rdg>den muosen si durch zadel doln. <wit>*m</wit></rdg>
+</app>
+<app loc="184.18">
+<rdg>in trouf vil wênic in die koln. <wit>*m</wit></rdg>
+</app>
+<app loc="184.19">
+<lem>twanc</lem> <rdg><seg type="singuläre_Lesart">betwanc</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="184.21">
+<rdg>si arnden Clamides bete. <wit>*m</wit></rdg>
+</app>
+<app loc="184.22">
+<rdg>sich vergaz dâ selten mit dem mete <wit>*m</wit></rdg>
+</app>
+<app loc="184.23">
+<rdg>zuber oder kanne. <wit>*m</wit></rdg>
+</app>
+<app loc="184.24">
+<rdg>ein Truhinger pfanne <wit>*m</wit></rdg>
+</app>
+<app loc="184.25">
+<rdg>mit krapfen selten dâ erschrei. <wit>*m</wit></rdg>
+</app>
+<app loc="184.26">
+<rdg>in was der selbe (sebe <wit>mk</wit>) dôn enzwei. <wit>*m</wit></rdg>
+</app>
+<app loc="184.30">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="184.01">
+<rdg>Dâ was <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="184.02">
+<rdg></rdg>
+</app>
+<app loc="184.03">
+<rdg>o. als ein v. lein. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="184.04">
+<rdg>gr. Poppe (der grave <wit>O</wit> [<wit>Z</wit>]) von (da von <wit>L</wit>) W. <wit>*G</wit></rdg>
+</app>
+<app loc="184.05">
+<rdg></rdg>
+</app>
+<app loc="184.06">
+<rdg>er m. des (ir <wit>I</wit> <wit>O</wit> <wit>L</wit>) s. n. sîn g. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="184.07">
+<rdg></rdg>
+</app>
+<app loc="184.08">
+<rdg></rdg>
+</app>
+<app loc="184.09">
+<rdg>si liezen zenstüren (ir zene stürmen <wit>*T</wit>) sîn <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.10">
+<rdg>und (si <wit>*T</wit> [<wit>O</wit>]) smalzten ouch deheinen wîn <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.11">
+<rdg>mit ir munde, sô si trunken. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.12">
+<rdg>die wambe in nider sunken, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.13">
+<rdg>ir hüffe hôch unde mager, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.14">
+<rdg>gerumpfen (rumpfen <wit>*T</wit> <note>[ohne V]</note>) als ein Ungers (ungersch <wit>*T</wit>) zager <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.15">
+<rdg>was in diu hût (hût hin <wit>*T</wit>) zuo den riben. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.16">
+<rdg>der hunger het in (in hete der hunger <wit>*T</wit>) daz vleisch vertriben. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.17">
+<rdg>den muosen si durch zadel doln. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.18">
+<rdg>in trouf vil lützel (trouf wênic <wit>*T</wit>) in die koln. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.19">
+<rdg>ein (vil <wit>I</wit>) stolzer man, <wit>*G</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="184.20">
+<rdg>der werde künic von B. <wit>*G</wit></rdg>
+</app>
+<app loc="184.21">
+<rdg>si arnden Clamides bete. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.22">
+<rdg>sich vergôz (vergaz <wit>L</wit> begoz <wit>Z</wit> <wit>V</wit>) dâ selten mit dem mete <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.23">
+<rdg>der zuber oder diu kanne. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.24">
+<rdg>ein Truhending&#x00E6;re (ellenwîtiu [Ein al zu&#x0366; wite <wit>U</wit>] <wit>*T</wit>) pfanne <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="184.25">
+<rdg>mit krapfen selten dâ erschrei. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.26">
+<rdg>in was der selbe dôn enzwei. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="184.27">
+<rdg>solt ich <wit>*G</wit> (<wit>*T</wit>) · daz nû w. in, <wit>*G</wit></rdg>
+</app>
+<app loc="184.28">
+<rdg></rdg>
+</app>
+<app loc="184.29">
+<rdg></rdg>
+</app>
+<app loc="184.30">
+<rdg>unt <note>om.</note> <wit>*G</wit> · dâ <note>om.</note> (wan <wit>U</wit> <subst><del>*</del><add>Do</add></subst> <wit>V</wit>) <wit>*T</wit> · mich wirt h., <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

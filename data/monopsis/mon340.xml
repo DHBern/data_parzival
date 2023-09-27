@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 340</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 340.01"><seg type="Initiale">E</seg>z was von <name type="Ort">Munsalv&#x00E6;sche</name> kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 340.02">unt hetz <name type="Person">L&#x00E6;helin</name> genom<reg type="Synkope">e</reg>n</l>
+<l n="*D 340.03">ze <name type="Ort">Brumbane</name> bîme sê.</l>
+<l n="*D 340.04">eime rît<reg type="Synkope">e</reg>r tet sîn tjost wê,</l>
+<l n="*D 340.05">den er tôt dar hinder stach,</l>
+<l n="*D 340.06">des sid<reg type="Synkope">e</reg>r <name type="Person">Trevrizent</name> verjach.</l>
+<l n="*D 340.07"><name type="Person">Gawan</name> dâhte: "swer verzagt,</l>
+<l n="*D 340.08">sô daz er vliuht, ê man jagt,</l>
+<l n="*D 340.09">daz ist sîme prîse gar ze vruo.</l>
+<l n="*D 340.10">ich wil in nâher stapfen zuo,</l>
+<l n="*D 340.11">swaz mir dâ von nû mac gescheh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 340.12">ir hât michz mêre teil geseh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 340.13">des sol doch guot rât werden."</l>
+<l n="*D 340.14">dô erbeizt er ze der erden,</l>
+<l n="*D 340.15">reht als er habete einen stal.</l>
+<l n="*D 340.16">die rotte wâren âne zal,</l>
+<l n="*D 340.17">die dâ mit kumpânîe riten.</l>
+<l n="*D 340.18">er sach vil kleider wol gesniten</l>
+<l n="*D 340.19">unt manegen schilt wol gevar,</l>
+<l n="*D 340.20">daz er niht bekande gar</l>
+<l n="*D 340.21">noch deheine baniere und<reg type="Synkope">e</reg>r in.</l>
+<l n="*D 340.22">"disem her ein gast ich bin",</l>
+<l n="*D 340.23">sus sprach der werde <name type="Person">Gawan</name>.</l>
+<l n="*D 340.24">"sît ich ir deheine künde hân,</l>
+<l n="*D 340.25">wellent siz in übel wenden,</l>
+<l n="*D 340.26">eine tjost sol ich in senden,</l>
+<l n="*D 340.27">deiswâr, mit mîn selbes hant,</l>
+<l n="*D 340.28">ê daz ich von in sî gewant."</l>
+<l n="*D 340.29">dô was ouch <name type="Sonstiges">Gringuljeten</name> gegurt,</l>
+<l n="*D 340.30">daz in manegen angestlîchen vurt</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <note>(340.5-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="340.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="340.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="340.07"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+<app loc="340.21"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="340.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="340.02">
+<lem>hetz</lem> <rdg>hete <wit>*m</wit></rdg>
+</app>
+<app loc="340.05">
+<lem>dar</lem> <rdg>her <wit>*m</wit></rdg>
+</app>
+<app loc="340.07">
+<lem>swer</lem> <rdg>wer sô <wit>*m</wit></rdg>
+</app>
+<app loc="340.08">
+<lem>sô</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>Fr22</wit></rdg>
+</app>
+<app loc="340.08">
+<lem>jagt</lem> <rdg>in jaget (saget <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="340.17">
+<lem>dâ</lem> <rdg>dâ nâch <wit>*m</wit></rdg>
+</app>
+<app loc="340.19">
+<lem>wol</lem> <rdg>sô <wit>*m</wit></rdg>
+</app>
+<app loc="340.24">
+<lem>ich ir</lem> <rdg>ichs <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="340.01">
+<rdg></rdg>
+</app>
+<app loc="340.02">
+<rdg>unt hete (<note>om.</note> <wit>O</wit>) Lehelin g. <wit>*G</wit> <note>(ohne I)</note> · unde het ez Lehelin genomen. <wit>*T</wit></rdg>
+</app>
+<app loc="340.03">
+<rdg>bî dem sê <wit>*T</wit></rdg>
+</app>
+<app loc="340.04">
+<rdg></rdg>
+</app>
+<app loc="340.05">
+<rdg></rdg>
+</app>
+<app loc="340.06">
+<rdg>des sît Trefrizent v. <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="340.07">
+<rdg></rdg>
+</app>
+<app loc="340.08">
+<rdg>ê (ê daz <wit>Fr22</wit>) man in jaget, <wit>*T</wit> (<wit>O</wit> <wit>Z</wit> <wit>Fr22</wit>)</rdg>
+</app>
+<app loc="340.09">
+<rdg></rdg>
+</app>
+<app loc="340.10">
+<rdg>ich sol hin (îv <wit>Fr22</wit> in <wit>*T</wit> <note>[nur T]</note> <wit>I</wit> <wit>Z</wit>) n. <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="340.11">
+<rdg>sw. mir nû mac dar von g. (beschehen <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="340.12">
+<rdg>ersehen <wit>V</wit></rdg>
+</app>
+<app loc="340.13">
+<rdg>ez sol <wit>*T</wit></rdg>
+</app>
+<app loc="340.14">
+<rdg>ûf die e., <wit>*G</wit> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="340.15">
+<rdg></rdg>
+</app>
+<app loc="340.16">
+<rdg></rdg>
+</app>
+<app loc="340.17">
+<rdg></rdg>
+</app>
+<app loc="340.18">
+<rdg></rdg>
+</app>
+<app loc="340.19">
+<rdg>sch. sô g., <wit>*G</wit> <note>(ohne IOLZ)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="340.20">
+<rdg>daz er ir (erre <wit>Fr22</wit>) n. erkande gar <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="340.21">
+<rdg></rdg>
+</app>
+<app loc="340.22">
+<rdg></rdg>
+</app>
+<app loc="340.23">
+<rdg>sus <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="340.24">
+<rdg></rdg>
+</app>
+<app loc="340.25">
+<rdg></rdg>
+</app>
+<app loc="340.26">
+<rdg></rdg>
+</app>
+<app loc="340.27">
+<rdg></rdg>
+</app>
+<app loc="340.28">
+<rdg></rdg>
+</app>
+<app loc="340.29">
+<rdg>nû was <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="340.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

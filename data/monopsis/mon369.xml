@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 369</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 369.01"><seg type="Initiale">D</seg>iu junge, süeze, klâre</l>
+<l n="*D 369.02">sprach ân alle vâre:</l>
+<l n="*D 369.03">"got sich des wol versinnen kan,</l>
+<l n="*D 369.04">hêrre, ir sît der êrste man,</l>
+<l n="*D 369.05">der ie mîn redegeselle wart.</l>
+<l n="*D 369.06">ist mîn zuht dâr an bewart</l>
+<l n="*D 369.07">unt ouch mîn scham<reg type="Synkope">e</reg>lîcher sin,</l>
+<l n="*D 369.08">daz gît an vreuden mir gewin,</l>
+<l n="*D 369.09">wande mir mîn meist<reg type="Synkope">e</reg>rinne verjach,</l>
+<l n="*D 369.10">diu rede w&#x00E6;re des sinnes dach.</l>
+<l n="*D 369.11">hêrre, ich bitte iwer unt mîn,</l>
+<l n="*D 369.12">daz lêrt mich endehafter pîn.</l>
+<l n="*D 369.13">den nenne ich iu, geruochet irs.</l>
+<l n="*D 369.14">habt ir mich iht<reg type="Synkope">e</reg>s deste wirs,</l>
+<l n="*D 369.15">ich var doch ûf der mâze pfat,</l>
+<l n="*D 369.16">wande ich dâ ziu mîn selber bat.</l>
+<l n="*D 369.17">ir sît mit der wârheit ich,</l>
+<l n="*D 369.18">swie die namen teilen sich.</l>
+<l n="*D 369.19">mîn<reg type="Synkope">e</reg>s lîbes namen sult ir hân,</l>
+<l n="*D 369.20">nû sît magt unde man.</l>
+<l n="*D 369.21">ich hân iwer unt mîn gegert.</l>
+<l n="*D 369.22">lât ir mich, hêrre, ungewert</l>
+<l n="*D 369.23">nû scham<reg type="Synkope">e</reg>lîche von iu gên,</l>
+<l n="*D 369.24">dâr umbe muoz ze rehte stên</l>
+<l n="*D 369.25">iwer prîs vor iwer selbes zuht,</l>
+<l n="*D 369.26">sît mîn mag<reg type="Synkope">e</reg>ttuomlîchiu vluht</l>
+<l n="*D 369.27">iwer gnâde suochet.</l>
+<l n="*D 369.28">ob ir des, hêrre, ruochet,</l>
+<l n="*D 369.29">ich wil iu geben minne</l>
+<l n="*D 369.30">mit herzelîchem sinne.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr24</wit> <note>(369.6-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 369.7)</note> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="369.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit> <wit>V</wit> 
+</rdg></app>
+<app loc="369.02"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="369.09">
+<rdg>wan mir mîn meisterinne jach (Wan min m&#x00E6;isterinne ver iach <wit>O</wit> Wan mýn meister mir veriach <wit>L</wit>), <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="369.14">
+<rdg>habt irz ihtes deste wirs, <wit>*m</wit></rdg>
+</app>
+<app loc="369.16">
+<lem>ziu mîn</lem> <rdg>zuo mîn <wit>*m</wit></rdg>
+</app>
+<app loc="369.20">
+<lem>sît</lem> <rdg>sît ir (<subst><del>*</del><add>sint ir</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="369.01">
+<rdg></rdg>
+</app>
+<app loc="369.02">
+<rdg></rdg>
+</app>
+<app loc="369.03">
+<rdg>des <note>om.</note> <wit>*T</wit> <note>(nur T)</note> <wit>O</wit></rdg>
+</app>
+<app loc="369.04">
+<rdg></rdg>
+</app>
+<app loc="369.05">
+<rdg></rdg>
+</app>
+<app loc="369.06">
+<rdg></rdg>
+</app>
+<app loc="369.07">
+<rdg></rdg>
+</app>
+<app loc="369.08">
+<rdg></rdg>
+</app>
+<app loc="369.09">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="369.10">
+<rdg></rdg>
+</app>
+<app loc="369.11">
+<rdg></rdg>
+</app>
+<app loc="369.12">
+<rdg>endehaften <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="369.13">
+<rdg></rdg>
+</app>
+<app loc="369.14">
+<rdg>m. iht (nih <wit>I</wit>) d. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="369.15">
+<rdg></rdg>
+</app>
+<app loc="369.16">
+<rdg>wandich dâ zuo mîn selbes (wand ich ev min selbes <wit>I</wit> selber <wit>L</wit>) bat. <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="369.17">
+<rdg></rdg>
+</app>
+<app loc="369.18">
+<rdg></rdg>
+</app>
+<app loc="369.19">
+<rdg></rdg>
+</app>
+<app loc="369.20">
+<rdg>nû (<subst><del>*</del><add>Nv</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="369.21">
+<rdg></rdg>
+</app>
+<app loc="369.22">
+<rdg></rdg>
+</app>
+<app loc="369.23">
+<rdg>semelîche <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="369.24">
+<rdg></rdg>
+</app>
+<app loc="369.25">
+<rdg>i. brîs vür i. s. (selber <wit>I</wit>) z., <wit>*G</wit> · iuwer pr. vür mîn (<subst><del>*</del><add>úwer</add></subst> <wit>V</wit>) s. z., <wit>*T</wit></rdg>
+</app>
+<app loc="369.26">
+<rdg>sît mîn m. vruht (<subst><del>f*</del><add>flvht</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>O</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="369.27">
+<rdg>genâde an iuch s. <wit>*G</wit> · gn. an iu s. (<subst><del>*</del><add>V́wer genade su&#x0366;chet</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="369.28">
+<rdg>h., geruochet, <wit>*T</wit></rdg>
+</app>
+<app loc="369.29">
+<rdg></rdg>
+</app>
+<app loc="369.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

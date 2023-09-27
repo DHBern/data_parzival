@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 64</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 64.01">si sagetenz in vür unbetrog<reg type="Synkope">e</reg>n.</l>
+<l n="*D 64.02">dô begunden si an die brücke zog<reg type="Synkope">e</reg>n,</l>
+<l n="*D 64.03">and<reg type="Synkope">e</reg>r volc unt ouch die sîne.</l>
+<l n="*D 64.04">von dem liehten schîne,</l>
+<l n="*D 64.05">der von der künegîn erschein,</l>
+<l n="*D 64.06">zuckt im neb<reg type="Synkope">e</reg>n sich sîn bein.</l>
+<l n="*D 64.07">ûf regte sich der degen wert</l>
+<l n="*D 64.08">als ein vederspil, daz gert.</l>
+<l n="*D 64.09">diu herberge dûht in guot.</l>
+<l n="*D 64.10">alsô stuont des heldes muot.</l>
+<l n="*D 64.11"><seg type="Initiale" subtype="Majuskel">S</seg>i dolt ouch wol, diu wirtîn,</l>
+<l n="*D 64.12">von <name type="Ort">Waleis</name> diu künegîn.</l>
+<l n="*D 64.13"><seg type="Initiale" subtype="Majuskel">D</seg>ô vriesch der künec von <name type="Ort">Spane</name>,</l>
+<l n="*D 64.14">daz ûf der <name type="Ort">Leoplane</name></l>
+<l n="*D 64.15">stüende ein gezelt, daz <name type="Person">Gahmurete</name></l>
+<l n="*D 64.16">durch des küenen <name type="Person">Razaliges</name> bete</l>
+<l n="*D 64.17">beleip vor <name type="Ort">Patelamunt</name>.</l>
+<l n="*D 64.18">daz tet im ein rit<reg type="Synkope">e</reg>r kunt.</l>
+<l n="*D 64.19">dô vuor er springende als ein tier.</l>
+<l n="*D 64.20">er was der vreuden soldier.</l>
+<l n="*D 64.21">der selbe rîter aber sprach:</l>
+<l n="*D 64.22">"iwer muomen sun ich sach</l>
+<l n="*D 64.23">kumende, als er ê was, fier.</l>
+<l n="*D 64.24">ez sint hundert banier</l>
+<l n="*D 64.25">zuo eime schilde ûf grüene velt</l>
+<l n="*D 64.26">gestôzen vür sîn hôch gezelt.</l>
+<l n="*D 64.27">die sint ouch alle grüene.</l>
+<l n="*D 64.28">ouch hât der helt küene</l>
+<l n="*D 64.29"><seg type="Initiale">D</seg>rî hermîn anker lieht gemâl</l>
+<l n="*D 64.30">ûf ieslîchen zindâl."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <note>(ohne 64.3)</note> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="64.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="64.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="64.11"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="64.13"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>U</wit> <wit>T</wit>
+</rdg></app><app loc="64.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app><app loc="64.13"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="64.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="64.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="64.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="64.27"><rdg>
+<note>Überschrift:</note> Hie qvam gamuret zv waleis <wit>Z</wit>
+</rdg></app><app loc="64.27"><rdg><note>Initiale</note> <wit>I</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="64.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="64.01">
+<rdg>si seitenz in (im <wit>O</wit> <note>om.</note> <wit>L</wit>) vür ungelogen. <wit>*G</wit></rdg>
+</app>
+<app loc="64.01">
+<rdg>man sagetez in (daz sach ich iv <wit>T</wit>) vür ungelogen. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="64.01">
+<lem>si sagetenz</lem> <rdg>man sagete ez <wit>*m</wit></rdg>
+</app>
+<app loc="64.03">
+<lem>die</lem> <rdg>daz <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="64.05">
+<lem>erschein</lem> <rdg>schein <wit>*m</wit></rdg>
+</app>
+<app loc="64.06">
+<rdg>derzucte im neben sich sîn bein (zucht er im ein bein vf daz <wit>I</wit> Dv zvht er neben im sin <wit>O</wit> Er zu̽chte enneben sich sin <wit>L</wit>) bein. <wit>*G</wit></rdg>
+</app>
+<app loc="64.06">
+<lem>zuckt im</lem> <rdg>dô zuckete er <wit>*m</wit></rdg>
+</app>
+<app loc="64.07">
+<lem>regte</lem> <rdg>rihtete <wit>*m</wit></rdg>
+</app>
+<app loc="64.10">
+<lem>alsô</lem> <rdg>als dô <wit>*m</wit></rdg>
+</app>
+<app loc="64.13">
+<lem>vriesch</lem> <rdg>verhiez <wit>*m</wit></rdg>
+</app>
+<app loc="64.20">
+<lem>vreuden</lem> <rdg>vrowen <wit>*m</wit> <subst><del>frowen</del><add>frawen</add></subst> <wit>I</wit></rdg>
+</app>
+<app loc="64.23">
+<lem>ê</lem> <rdg>ie <wit>*m</wit></rdg>
+</app>
+<app loc="64.24">
+<lem>sint</lem> <rdg>sint wol <wit>*m</wit></rdg>
+</app>
+<app loc="64.30">
+<lem>ieslîchen</lem> <rdg>ieglîchem <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="64.01">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="64.02">
+<rdg>dô b. (b. si <subst><del>b. [*</del><add>sv́</add></subst> <wit>V</wit>] <wit>*T</wit>) über die br. z. <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>) (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="64.03">
+<rdg>ouch <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="64.04">
+<rdg></rdg>
+</app>
+<app loc="64.05">
+<rdg>küniginne schein (<subst><del>schein</del><add>er schein</add></subst> <wit>L</wit>) <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="64.06">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="64.07">
+<rdg>ûf rihte s. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="64.08">
+<rdg>reht als (als am <wit>T</wit>) <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="64.09">
+<rdg>diu h. in dûhte harte (in duhte <wit>I</wit> duhte in rehte <wit>V</wit>) g. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="64.10">
+<rdg>als dô st. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="64.11">
+<rdg></rdg>
+</app>
+<app loc="64.12">
+<rdg></rdg>
+</app>
+<app loc="64.13">
+<rdg>nû vr. <wit>*G</wit> (<wit>T</wit>) Dô ervriesch <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="64.14">
+<rdg></rdg>
+</app>
+<app loc="64.15">
+<rdg>stuont <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="64.16">
+<rdg></rdg>
+</app>
+<app loc="64.17">
+<rdg></rdg>
+</app>
+<app loc="64.18">
+<rdg>ein sîn r. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="64.19">
+<rdg>ein tier <wit>*T</wit></rdg>
+</app>
+<app loc="64.20">
+<rdg>und was <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="64.21">
+<rdg>a. dô sp.: <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="64.22">
+<rdg></rdg>
+</app>
+<app loc="64.23">
+<rdg>er ie (<note>om.</note> <wit>Z</wit>) was, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="64.24">
+<rdg>ez s. wol h. b. <wit>*G</wit> <note>(nur GI)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="64.25">
+<rdg><note>Versfolge 64.26-25</note> <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> <note>(nur U)</note> · zuo sîme sch. (zeiner slihte <wit>T</wit>) <wit>*T</wit> · ûf gr. (gru&#x0364;nem <wit>I</wit> ein grv&#x0366;ne <wit>O</wit>) velt. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="64.26">
+<rdg>gestecket vür <wit>*T</wit> <note>(ohne T)</note> · sîn h. gezelt <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="64.27">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <note>(nur U)</note> <wit>L</wit></rdg>
+</app>
+<app loc="64.28">
+<rdg>ez hât <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="64.29">
+<rdg>a. wol g. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="64.30">
+<rdg>ieclîchem <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 572</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.09.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 572.01"><seg type="Initiale">I</seg>me schilde beleip der vierde vuoz.</l>
+<l n="*D 572.02">mit bluote gab er solhen guz,</l>
+<l n="*D 572.03">daz <name type="Person">Gawan</name> mohte vaste stên.</l>
+<l n="*D 572.04">her unt dar begundez gên.</l>
+<l n="*D 572.05"><seg type="Initiale" subtype="Majuskel">D</seg>er lewe spranc dicke an den gast;</l>
+<l n="*D 572.06">durch die nasen manegen pfnast</l>
+<l n="*D 572.07">tet er mit bleckenden zenen.</l>
+<l n="*D 572.08">wolte man in solher spîse wenen,</l>
+<l n="*D 572.09">daz er guote liute g<reg type="Synkope">e</reg>&#x00E6;ze,</l>
+<l n="*D 572.10">ungern ich bî im s&#x00E6;ze.</l>
+<l n="*D 572.11"><seg type="Initiale" subtype="Majuskel">E</seg>z was ouch <name type="Person">Gawane</name> leit,</l>
+<l n="*D 572.12">der ûf den lîp dâ mit im streit.</l>
+<l n="*D 572.13">er hete in sô geletzet,</l>
+<l n="*D 572.14">mit bluote wart benetzet</l>
+<l n="*D 572.15">al diu kemenâte gar.</l>
+<l n="*D 572.16">mit zorne spranc der lewe dar</l>
+<l n="*D 572.17">unt wolt in zücken under sich.</l>
+<l n="*D 572.18"><name type="Person">Gawan</name> tet im einen stich</l>
+<l n="*D 572.19">durch die brust unz an die hant,</l>
+<l n="*D 572.20">dâ von des lewen zorn verswant,</l>
+<l n="*D 572.21">wander strûchte nider tôt.</l>
+<l n="*D 572.22"><name type="Person">Gawan</name> het die grôze nôt</l>
+<l n="*D 572.23">mit strîte überwunden.</l>
+<l n="*D 572.24">in den selben stunden</l>
+<l n="*D 572.25">dâhter: "waz ist mir nû guot?</l>
+<l n="*D 572.26">ich sitze ungern in ditze bluot.</l>
+<l n="*D 572.27"><seg type="Initiale" subtype="Majuskel">O</seg>uch sol ich mich des wol bewarn</l>
+<l n="*D 572.28">- diz bette kan sô umbe varn -,</l>
+<l n="*D 572.29">daz ich dran sitze oder lige,</l>
+<l n="*D 572.30">ob ich rehter wîsheit pflige."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <note>(ohne 572.19-24)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="572.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="572.05"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app><app loc="572.05"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="572.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="572.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="572.27"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="572.03">
+<lem>mohte vaste</lem> <rdg>vaste mohte <wit>*m</wit></rdg>
+</app>
+<app loc="572.14">
+<lem>benetzet</lem> <rdg>genetzet (<subst><del>gel*etzet</del><add>genetzet</add></subst> <wit>Z</wit>) <wit>*m</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="572.16">
+<rdg>mit zorne (<note>om.</note> <wit>mk</wit>) spranc der lewe dar: <wit>*m</wit></rdg>
+</app>
+<app loc="572.17">
+<lem>unt</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="572.29">
+<lem>dran</lem> <rdg>dâr <wit>*m</wit></rdg>
+</app>
+<app loc="572.30">
+<lem>wîsheit</lem> <rdg>witze <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="572.01">
+<rdg>Anme schilte <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="572.02">
+<rdg>von (<subst><del>*</del><add>Von</add></subst> <wit>V</wit>) bl. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="572.03">
+<rdg>daz G. begunde v. st. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="572.04">
+<rdg>begund er gân. <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="572.05">
+<rdg></rdg>
+</app>
+<app loc="572.06">
+<rdg></rdg>
+</app>
+<app loc="572.07">
+<rdg></rdg>
+</app>
+<app loc="572.08">
+<rdg></rdg>
+</app>
+<app loc="572.09">
+<rdg>l. (l::te <wit>T</wit>) &#x00E6;ze, <wit>*T</wit> (<wit>L</wit> <wit>Fr23</wit>)</rdg>
+</app>
+<app loc="572.10">
+<rdg></rdg>
+</app>
+<app loc="572.11">
+<rdg></rdg>
+</app>
+<app loc="572.12">
+<rdg>mit im dâ (<note>om.</note> <wit>V</wit> <wit>Z</wit>) <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="572.13">
+<rdg></rdg>
+</app>
+<app loc="572.14">
+<rdg></rdg>
+</app>
+<app loc="572.15">
+<rdg></rdg>
+</app>
+<app loc="572.16">
+<rdg></rdg>
+</app>
+<app loc="572.17">
+<rdg></rdg>
+</app>
+<app loc="572.18">
+<rdg>G. gap im <wit>*T</wit> <note>(nur T)</note> <wit>Z</wit></rdg>
+</app>
+<app loc="572.19">
+<rdg></rdg>
+</app>
+<app loc="572.20">
+<rdg></rdg>
+</app>
+<app loc="572.21">
+<rdg></rdg>
+</app>
+<app loc="572.22">
+<rdg>die <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="572.23">
+<rdg></rdg>
+</app>
+<app loc="572.24">
+<rdg>an (<subst><del>*</del><add>An</add></subst> <wit>V</wit>) den <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="572.25">
+<rdg>ist dir (<subst><del>*</del><add>mir</add></subst> <wit>V</wit>) nû <wit>*T</wit></rdg>
+</app>
+<app loc="572.26">
+<rdg></rdg>
+</app>
+<app loc="572.27">
+<rdg></rdg>
+</app>
+<app loc="572.28">
+<rdg></rdg>
+</app>
+<app loc="572.29">
+<rdg></rdg>
+</app>
+<app loc="572.30">
+<rdg>r. sinne (witze <wit>L</wit> wishei <wit>Fr23</wit> <subst><del>*</del><add>wisheit</add></subst> <wit>V</wit>) pf. (<note>om.</note> <wit>Fr23</wit>)." <wit>*G</wit> <note>(ohne Z)</note> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

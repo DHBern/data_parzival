@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 232</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 232.01"><seg type="Initiale"><corr type="Emendation">G</corr></seg>estillet was des volkes nôt,</l>
+<l n="*D 232.02">als in der jâmer ê gebôt,</l>
+<l n="*D 232.03">des si diu glevîn het ermant,</l>
+<l n="*D 232.04">die der knappe brâhte in sîner hant.</l>
+<l n="*D 232.05"><seg type="Initiale" subtype="Majuskel">W</seg>il iuch nû niht erlangen,</l>
+<l n="*D 232.06">sô wirt hie zuo gevangen,</l>
+<l n="*D 232.07">daz ich iuch bringe an die vart,</l>
+<l n="*D 232.08">wie dâ mit zuht gedienet wart.</l>
+<l n="*D 232.09">zende an dem palas</l>
+<l n="*D 232.10">ein steh<reg type="Synkope">e</reg>lîn tür entslozzen was;</l>
+<l n="*D 232.11">dâ giengen ûz zwei werdiu kint.</l>
+<l n="*D 232.12">nû h&#x0153;ret, wie diu geprüevet sint,</l>
+<l n="*D 232.13">daz si wol g&#x00E6;ben minnen solt,</l>
+<l n="*D 232.14">swerz dâ mit dienste het erholt.</l>
+<l n="*D 232.15">daz wâren juncvrouwen clâr.</l>
+<l n="*D 232.16">zwei schapel über blôziu hâr,</l>
+<l n="*D 232.17">bluomen was ir gebende.</l>
+<l n="*D 232.18">iewederiu ûf der hende</l>
+<l n="*D 232.19">truoc von golde ein kerz<reg type="Synkope">e</reg>stal.</l>
+<l n="*D 232.20">ir hâr was reit, lanc unt val.</l>
+<l n="*D 232.21"><seg type="Initiale" subtype="Majuskel">S</seg>i truogen brinnendigiu lieht.</l>
+<l n="*D 232.22">hie sule wir vergezzen nieht</l>
+<l n="*D 232.23">umbe der juncvrouwen gewant,</l>
+<l n="*D 232.24">dâ man si kumende inne vant:</l>
+<l n="*D 232.25"><seg type="Initiale" subtype="Majuskel">D</seg>e<corr type="Emendation">r</corr> gr&#x00E6;vinne von <name type="Ort">Tenabroc</name></l>
+<l n="*D 232.26">brûn scharlachen was ir roc.</l>
+<l n="*D 232.27">des selben truog ouch ir gespil.</l>
+<l n="*D 232.28">si wâren gefischieret vil</l>
+<l n="*D 232.29">mit zwein gürteln an der krenke,</l>
+<l n="*D 232.30"><seg type="Initiale" subtype="Majuskel">O</seg>b der hüffe ame gelenke.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(232.7-10, 15-17 und 19-22)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="232.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="232.05"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="232.05"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="232.09"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="232.09"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="232.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="232.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="232.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="232.25"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="232.30"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="232.01">
+<lem>Gestillet</lem> <rdg>Destillet <wit>D</wit></rdg>
+</app>
+<app loc="232.02">
+<lem>der</lem> <rdg>des <wit>*m</wit></rdg>
+</app>
+<app loc="232.04">
+<rdg>die brâhte der knappe (kanappe <wit>mk</wit>) in sîner hant. <wit>*m</wit></rdg>
+</app>
+<app loc="232.04">
+<rdg>die der knappe truoc (trv&#x0366;ch ein chnappe <wit>O</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>] Tru&#x0364;c der chnappe <wit>I</wit> [<wit>U</wit> <wit>V</wit>]) in (an <wit>*T</wit>) sîner (der <wit>G</wit>) hant. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="232.05">
+<lem>erlangen</lem> <rdg>belangen (<subst><del>*langen</del><add>belangen</add></subst> <wit>V</wit>) <wit>*m</wit> <wit>O</wit> (<wit>L</wit>) (<wit>V</wit>)</rdg>
+</app>
+<app loc="232.06">
+<lem>zuo gevangen</lem> <rdg>zuo (zu̽ v̽ch <wit>mk</wit>) gevangen <wit>*m</wit></rdg>
+</app>
+<app loc="232.13">
+<lem>wol</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="232.16">
+<lem>blôziu</lem> <rdg>blôz <wit>*m</wit></rdg>
+</app>
+<app loc="232.17">
+<lem>bluomen</lem> <rdg>blüemîn <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="232.18">
+<lem>der</lem> <rdg>einer (einen <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="232.20">
+<lem>reit lanc</lem> <rdg>rôt (<note>om.</note> <wit>Fr69</wit>) reit <wit>*m</wit></rdg>
+</app>
+<app loc="232.21">
+<lem>brinnendigiu</lem> <rdg>brinnendiu (brinenden <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="232.25">
+<rdg>diu gr&#x00E6;vîn von Tenebroc, <wit>*m</wit></rdg>
+</app>
+<app loc="232.25">
+<lem>Der</lem> <rdg>De <wit>D</wit></rdg>
+</app>
+<app loc="232.26">
+<lem>brûn</lem> <rdg>mit <wit>*m</wit></rdg>
+</app>
+<app loc="232.28">
+<lem>wâren</lem> <rdg>gewâren <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="232.01">
+<rdg>g. wart des <wit>*G</wit></rdg>
+</app>
+<app loc="232.02">
+<rdg></rdg>
+</app>
+<app loc="232.03">
+<rdg></rdg>
+</app>
+<app loc="232.04">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="232.05">
+<rdg></rdg>
+</app>
+<app loc="232.06">
+<rdg>sô w. (wirt iv <wit>O</wit> <wit>Fr21</wit>) hie angevangen, <wit>*G</wit> <note>(ohne Z)</note> · sô w. hie zuo gegangen, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="232.07">
+<rdg></rdg>
+</app>
+<app loc="232.08">
+<rdg></rdg>
+</app>
+<app loc="232.09">
+<rdg></rdg>
+</app>
+<app loc="232.10">
+<rdg></rdg>
+</app>
+<app loc="232.11">
+<rdg></rdg>
+</app>
+<app loc="232.12">
+<rdg></rdg>
+</app>
+<app loc="232.13">
+<rdg></rdg>
+</app>
+<app loc="232.14">
+<rdg></rdg>
+</app>
+<app loc="232.15">
+<rdg>ez w. <wit>*T</wit> <note>(ohne V)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="232.16">
+<rdg>blôzez (ir blozze <wit>Z</wit> ir blozez <wit>Fr21</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="232.17">
+<rdg>blüemîn was (warn <wit>I</wit>) ir g. <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="232.18">
+<rdg>ûf ir h. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="232.19">
+<rdg></rdg>
+</app>
+<app loc="232.20">
+<rdg>ir hâr was lanc, r. unde val. <wit>*G</wit> <note>(nur GLZ)</note> · ir hâr was r. unde val. <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="232.21">
+<rdg>brinnendiu <wit>*G</wit> brennendiu (bornende <wit>U</wit>) <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="232.22">
+<rdg>ouch sul wir <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="232.23">
+<rdg></rdg>
+</app>
+<app loc="232.24">
+<rdg></rdg>
+</app>
+<app loc="232.25">
+<rdg>diu gr&#x00E6;vîn von Tenebroc, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="232.26">
+<rdg></rdg>
+</app>
+<app loc="232.27">
+<rdg></rdg>
+</app>
+<app loc="232.28">
+<rdg></rdg>
+</app>
+<app loc="232.29">
+<rdg></rdg>
+</app>
+<app loc="232.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

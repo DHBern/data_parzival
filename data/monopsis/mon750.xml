@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 750</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.12.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 750.01"><seg type="Initiale">D</seg>er von <name type="Ort">Tribalibot</name></l>
+<l n="*D 750.02"><name type="Person">Jupiter</name>, sînen got,</l>
+<l n="*D 750.03">mit worten êrte manegen wîs.</l>
+<l n="*D 750.04">er gab ouch vil hôhen prîs</l>
+<l n="*D 750.05">sîner gotinne <name type="Person">Juno</name>,</l>
+<l n="*D 750.06">daz si daz weter vuogte sô,</l>
+<l n="*D 750.07">dâ mit er und al sîn her</l>
+<l n="*D 750.08">gein dem lande ûf dem mer</l>
+<l n="*D 750.09">lantveste nâmen,</l>
+<l n="*D 750.10">dâ si zein ander kâmen.</l>
+<l n="*D 750.11"><seg type="Initiale" subtype="Majuskel">A</seg>nderstunt si nider sâzen.</l>
+<l n="*D 750.12">die bêde des niht vergâzen,</l>
+<l n="*D 750.13">sine b<corr type="Emendation">ü</corr>ten ein ander êre.</l>
+<l n="*D 750.14">der <name type="Person">heiden</name> sprach dô mêre:</l>
+<l n="*D 750.15">"<seg type="Initiale" subtype="Majuskel">I</seg>ch wil lâzen dir zwei rîchiu lant</l>
+<l n="*D 750.16">dienstlîchen immer dîner hant,</l>
+<l n="*D 750.17">di<corr type="Emendation">u</corr> mîn vat<reg type="Synkope">e</reg>r unt der dîne erwarp,</l>
+<l n="*D 750.18">dô der künec <name type="Person">Isenhart</name> erstarp,</l>
+<l n="*D 750.19"><name type="Ort">Zazamanc</name> unt <name type="Ort">Azagouc</name>.</l>
+<l n="*D 750.20">sîn manheit dâ niemen trouc,</l>
+<l n="*D 750.21">wan daz er lie verweiset mich.</l>
+<l n="*D 750.22">gein mînem vat<reg type="Synkope">e</reg>r der gerich</l>
+<l n="*D 750.23">ist mînhalp noch unverkorn.</l>
+<l n="*D 750.24">sîn wîp, von der ich wart geborn,</l>
+<l n="*D 750.25">durch minne ein sterb<reg type="Synkope">e</reg>n nâch im kôs,</l>
+<l n="*D 750.26">dô si minne an im verlôs.</l>
+<l n="*D 750.27"><seg type="Initiale" subtype="Majuskel">I</seg>ch s&#x00E6;he doch gern den selb<reg type="Synkope">e</reg>n man.</l>
+<l n="*D 750.28">mir ist ze wizzene getân,</l>
+<l n="*D 750.29">daz nie bezzer rîter enwart.</l>
+<l n="*D 750.30">nâch im ist kostenlîch mîn vart."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr69</wit> <note>(750.1-4 und 15-17)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="750.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="750.11"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app><app loc="750.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="750.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="750.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="750.27"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="750.03">
+<lem>manegen wîs</lem> <rdg>manige (in manige <wit>V</wit> <wit>L</wit>) wîs <wit>*m</wit> <note>(ohne Fr69)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="750.07">
+<rdg>dâ mit er und sîn (Er gab ouch vil hohen <wit>mk</wit>) her <wit>*m</wit></rdg>
+</app>
+<app loc="750.08">
+<lem>ûf</lem> <rdg>und ûf (<subst><del>*</del><add>von</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="750.09">
+<rdg>die lantveste nâmen <wit>*m</wit></rdg>
+</app>
+<app loc="750.10">
+<lem>dâ</lem> <rdg>daz (<subst><del>Daz</del><add>Da</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="750.12">
+<lem>des</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="750.13">
+<lem>büten</lem> <rdg>bvten <wit>D</wit></rdg>
+</app>
+<app loc="750.17">
+<lem>diu</lem> <rdg>di <wit>D</wit></rdg>
+</app>
+<app loc="750.27">
+<lem>s&#x00E6;he</lem> <rdg>sihe <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="750.01">
+<rdg></rdg>
+</app>
+<app loc="750.02">
+<rdg></rdg>
+</app>
+<app loc="750.03">
+<rdg>manege wîs. <wit>*T</wit></rdg>
+</app>
+<app loc="750.04">
+<rdg></rdg>
+</app>
+<app loc="750.05">
+<rdg></rdg>
+</app>
+<app loc="750.06">
+<rdg></rdg>
+</app>
+<app loc="750.07">
+<rdg></rdg>
+</app>
+<app loc="750.08">
+<rdg>ûf daz (vnd vf daz <wit>I</wit> vz dem <wit>L</wit>) mer <wit>*G</wit> von dem mer <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="750.09">
+<rdg></rdg>
+</app>
+<app loc="750.10">
+<rdg>daz si (si da <wit>I</wit>) <wit>*T</wit> <wit>I</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="750.11">
+<rdg></rdg>
+</app>
+<app loc="750.12">
+<rdg>si b. (Beide sý <wit>L</wit>) n. (des nih <wit>I</wit>) v., <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="750.13">
+<rdg></rdg>
+</app>
+<app loc="750.14">
+<rdg></rdg>
+</app>
+<app loc="750.15">
+<rdg>dir (<note>om.</note> <wit>L</wit>) lâzen <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="750.16">
+<rdg></rdg>
+</app>
+<app loc="750.17">
+<rdg></rdg>
+</app>
+<app loc="750.18">
+<rdg></rdg>
+</app>
+<app loc="750.19">
+<rdg></rdg>
+</app>
+<app loc="750.20">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="750.21">
+<rdg></rdg>
+</app>
+<app loc="750.22">
+<rdg></rdg>
+</app>
+<app loc="750.23">
+<rdg></rdg>
+</app>
+<app loc="750.24">
+<rdg></rdg>
+</app>
+<app loc="750.25">
+<rdg></rdg>
+</app>
+<app loc="750.26">
+<rdg></rdg>
+</app>
+<app loc="750.27">
+<rdg>gerne disen man. <wit>*T</wit></rdg>
+</app>
+<app loc="750.28">
+<rdg></rdg>
+</app>
+<app loc="750.29">
+<rdg></rdg>
+</app>
+<app loc="750.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

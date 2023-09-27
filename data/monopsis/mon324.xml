@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 324</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 324.01"><name type="Person"><seg type="Initiale"><corr type="Emendation">B</corr></seg>eacors</name> al vaste bat.</l>
+<l n="*D 324.02">der gast stuont an sîner stat.</l>
+<l n="*D 324.03">er sprach: "mir biutet kampf ein man,</l>
+<l n="*D 324.04">des ich neheine künde hân.</l>
+<l n="*D 324.05">ine hân ouch niht ze sprechen dar.</l>
+<l n="*D 324.06">starc, küene, wol gevar,</l>
+<l n="*D 324.07">getriwe unde rîche,</l>
+<l n="*D 324.08">hât er diu volleclîche,</l>
+<l n="*D 324.09">er mac borgen deste baz.</l>
+<l n="*D 324.10">ine trage gein im decheinen haz.</l>
+<l n="*D 324.11"><seg type="Initiale" subtype="Majuskel">E</seg>r was mîn hêrre unt mîn mâc,</l>
+<l n="*D 324.12">durch den ich hebe disen bâc.</l>
+<l n="*D 324.13">unser vet<reg type="Synkope">e</reg>r gebruod<reg type="Synkope">e</reg>r hiezen,</l>
+<l n="*D 324.14">die niht<reg type="Synkope">e</reg>s ein and<reg type="Synkope">e</reg>r liezen.</l>
+<l n="*D 324.15"><seg type="Initiale" subtype="Majuskel">N</seg>ehein man gekr&#x0153;net wart</l>
+<l n="*D 324.16">nie, ich enhet im vollen art</l>
+<l n="*D 324.17">mit kampfe rede ze bieten,</l>
+<l n="*D 324.18">mich râche gein im nieten.</l>
+<l n="*D 324.19"><seg type="Initiale" subtype="Majuskel">I</seg>ch bin ein vürste ûz <name type="Ort">Ascalun</name>,</l>
+<l n="*D 324.20">der lantgrâve von <name type="Ort">Schampfanzun</name>,</l>
+<l n="*D 324.21">unt heize <name type="Person">Kingrimursel</name>.</l>
+<l n="*D 324.22">ist hêr <name type="Person">Gawan</name> lob<reg type="Synkope">e</reg>s snel,</l>
+<l n="*D 324.23">der mac sich and<reg type="Synkope">e</reg>rs niht entsag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 324.24">ern müeze kampf dâ gein mir trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 324.25"><seg type="Initiale" subtype="Majuskel">O</seg>uch gib ich im vride üb<reg type="Synkope">e</reg>r al daz lant,</l>
+<l n="*D 324.26">niwan von mîn eines hant.</l>
+<l n="*D 324.27">mit triwen ich vride geheize</l>
+<l n="*D 324.28">ûzerhalp des kampfes kreize.</l>
+<l n="*D 324.29">got hüete al der ich lâze hie,</l>
+<l n="*D 324.30">wan eines: er weiz wol se<corr type="Emendation">l</corr>be wie."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <note>(324.1-22)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="324.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="324.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="324.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="324.03"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="324.11"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Fr22</wit>
+</rdg></app><app loc="324.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="324.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="324.19"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>Z</wit> <wit>V</wit>
+</rdg></app><app loc="324.19"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="324.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="324.01">
+<lem>Beacors</lem> <rdg>Deachors <wit>D</wit></rdg>
+</app>
+<app loc="324.06">
+<rdg>st&#x00E6;te (Starke <wit>L</wit>), küene, wolgevar (wol getan <wit>L</wit>), <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="324.06">
+<rdg>sterke (<subst><del>*</del><add>Starc</add></subst> <wit>V</wit>), küene, wol gevar, <wit>*T</wit></rdg>
+</app>
+<app loc="324.07">
+<rdg>Dar zu̽ so ist er riche <wit>L</wit></rdg>
+</app>
+<app loc="324.07">
+<rdg> Ist er mv&#x0366;tis riche <wit>Fr22</wit></rdg>
+</app>
+<app loc="324.10">
+<lem>gein im</lem> <rdg>ûf in <wit>*m</wit></rdg>
+</app>
+<app loc="324.15">
+<rdg>Nie kam in angeko̽net bas <wit>mk</wit></rdg>
+</app>
+<app loc="324.15">
+<lem>Nehein</lem> <rdg>nie kein <wit>*m</wit></rdg>
+</app>
+<app loc="324.16">
+<rdg>nie, ern hete im (er in hete in <wit>U</wit> <subst><del>*</del><add>Jch enhette in wol</add></subst> <wit>V</wit>) vollen art <wit>*T</wit></rdg>
+</app>
+<app loc="324.16">
+<lem>nie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="324.16">
+<lem>im</lem> <rdg>ime wol <wit>*m</wit></rdg>
+</app>
+<app loc="324.24">
+<rdg>er enwelle (muz <wit>Z</wit>) dâ kampf (den campfe <wit>O</wit> [<wit>L</wit>] kampf <wit>Z</wit>) gein mir tragen. <wit>*G</wit></rdg>
+</app>
+<app loc="324.24">
+<rdg>ern welle (<subst><del>*</del><add>mv&#x0364;se</add></subst> <wit>V</wit>) den kampf dâ gegen mir tragen. <wit>*T</wit></rdg>
+</app>
+<app loc="324.30">
+<lem>selbe</lem> <rdg>sebe <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="324.01">
+<rdg></rdg>
+</app>
+<app loc="324.02">
+<rdg></rdg>
+</app>
+<app loc="324.03">
+<rdg></rdg>
+</app>
+<app loc="324.04">
+<rdg></rdg>
+</app>
+<app loc="324.05">
+<rdg></rdg>
+</app>
+<app loc="324.06">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="324.07">
+<rdg><note>Versfolge 324.8-7</note> &#x2193;<wit>*T</wit> <wit>L</wit> <wit>Fr22</wit> · unde ist getriuwe u. r., <wit>*T</wit></rdg>
+</app>
+<app loc="324.08">
+<rdg></rdg>
+</app>
+<app loc="324.09">
+<rdg></rdg>
+</app>
+<app loc="324.10">
+<rdg>ichne hân g. im (dir <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="324.11">
+<rdg>unde ouch mîn mâc (ich sin man <wit>L</wit>), <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="324.12">
+<rdg></rdg>
+</app>
+<app loc="324.13">
+<rdg>bruoder (<subst><del>*</del><add>gebru&#x0366;der</add></subst> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="324.14">
+<rdg>niht (nit des <wit>U</wit> <subst><del>*</del><add>nihtes</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="324.15">
+<rdg>sô hôher man <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="324.16">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="324.17">
+<rdg>in k. r. <wit>*G</wit> <note>(ohne Z)</note> im (Jn <wit>U</wit> <wit>V</wit> [<wit>I</wit>]) kampfes r. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="324.18">
+<rdg>mit r. <wit>*T</wit> (<wit>L</wit>) · gegen im ze n. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="324.19">
+<rdg></rdg>
+</app>
+<app loc="324.20">
+<rdg></rdg>
+</app>
+<app loc="324.21">
+<rdg></rdg>
+</app>
+<app loc="324.22">
+<rdg>l. hel (<subst><del>*</del><add>snel</add></subst> <wit>V</wit>), <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="324.23">
+<rdg>er mac <wit>*G</wit> (<wit>*T</wit>) · anders <note>om.</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="324.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="324.25">
+<rdg>ich gibe im (<note>om.</note> <wit>O</wit>) vr. (gen im vreden <wit>U</wit>) <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="324.26">
+<rdg></rdg>
+</app>
+<app loc="324.27">
+<rdg>ich im vr. <wit>*T</wit></rdg>
+</app>
+<app loc="324.28">
+<rdg></rdg>
+</app>
+<app loc="324.29">
+<rdg></rdg>
+</app>
+<app loc="324.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

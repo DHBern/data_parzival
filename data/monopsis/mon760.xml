@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 760</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 760.01">mit grôzer rîchen hôchgezît.</l>
+<l n="*D 760.02">mich müet iwer beider strît.</l>
+<l n="*D 760.03">dâ sult ir bî mir ruowen nâch.</l>
+<l n="*D 760.04">sît aber strît von iu geschach,</l>
+<l n="*D 760.05">ir erkennet ein ander deste baz.</l>
+<l n="*D 760.06">nû kieset vriwentschaft vür den haz."</l>
+<l n="*D 760.07"><name type="Person">Gawan</name> des âbents az dest ê,</l>
+<l n="*D 760.08">daz sîn neve von <name type="Ort">Thasme</name>,</l>
+<l n="*D 760.09"><name type="Person">Feirefiz</name> <name type="Person">Anschevin</name>,</l>
+<l n="*D 760.10">dennoch vaste, unt der bruoder sîn.</l>
+<l n="*D 760.11"><seg type="Initiale" subtype="Majuskel">M</seg>atraze dicke unde lanc,</l>
+<l n="*D 760.12">der wart ein wîter umbevanc.</l>
+<l n="*D 760.13">kultern maneger künne</l>
+<l n="*D 760.14">von balmâte, niht ze dünne,</l>
+<l n="*D 760.15">wurden dô der matraze dach.</l>
+<l n="*D 760.16">tiwern pfelle man drûf gesteppet sach,</l>
+<l n="*D 760.17">beidiu lanc und breit.</l>
+<l n="*D 760.18">diu <name type="Person">Clinschors</name> rîcheit</l>
+<l n="*D 760.19">wart dâ ze schouwen vür getrag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 760.20">dô sluoc man ûf, sus hôrt ich sag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 760.21">von pfelle vier ruclachen</l>
+<l n="*D 760.22">mit rîlîchen sachen,</l>
+<l n="*D 760.23">gein ein ander viersîte,</l>
+<l n="*D 760.24">dâr unde senfte plûmîte</l>
+<l n="*D 760.25">mit kultern verdecket,</l>
+<l n="*D 760.26">ruclachen drüber gestecket.</l>
+<l n="*D 760.27">der rinc begreif sô wît ein velt,</l>
+<l n="*D 760.28">dâ w&#x00E6;ren gestân sehs gezelt</l>
+<l n="*D 760.29"><seg type="Initiale">Â</seg>ne gedrenge der snüere.</l>
+<l n="*D 760.30">unbescheidenlîche ich vüere,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="760.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="760.07"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit>
+</rdg></app>
+<app loc="760.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="760.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="760.04">
+<lem>geschach</lem> <rdg>beschach <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="760.15">
+<lem>wurden</lem> <rdg>wâren <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="760.24">
+<lem>senfte</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="760.27">
+<lem>sô wît ein</lem> <rdg>ein wîtez <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="760.01">
+<rdg></rdg>
+</app>
+<app loc="760.02">
+<rdg></rdg>
+</app>
+<app loc="760.03">
+<rdg>dâ s. ir sîn mit triwen n. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="760.04">
+<rdg></rdg>
+</app>
+<app loc="760.05">
+<rdg></rdg>
+</app>
+<app loc="760.06">
+<rdg></rdg>
+</app>
+<app loc="760.07">
+<rdg>des tages az <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="760.08">
+<rdg>dô sîn n. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="760.09">
+<rdg>Ferefis von A., <wit>*T</wit></rdg>
+</app>
+<app loc="760.10">
+<rdg></rdg>
+</app>
+<app loc="760.11">
+<rdg>von palmât wît (dicke <wit>*T</wit> <wit>L</wit>) u. l. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="760.12">
+<rdg>umbehanc. <wit>*G</wit> <note>(nur GL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="760.13">
+<rdg></rdg>
+</app>
+<app loc="760.14">
+<rdg></rdg>
+</app>
+<app loc="760.15">
+<rdg></rdg>
+</app>
+<app loc="760.16">
+<rdg></rdg>
+</app>
+<app loc="760.17">
+<rdg>b. l. und beidiu br. <wit>*T</wit></rdg>
+</app>
+<app loc="760.18">
+<rdg>diu hêrlîche r. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="760.19">
+<rdg></rdg>
+</app>
+<app loc="760.20">
+<rdg></rdg>
+</app>
+<app loc="760.21">
+<rdg>von pf. niwe r. <wit>*G</wit> <note>(ohne Z)</note> · von pf. vier kurze lachen <wit>*T</wit></rdg>
+</app>
+<app loc="760.22">
+<rdg></rdg>
+</app>
+<app loc="760.23">
+<rdg>g. ein a. niwe site, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="760.24">
+<rdg></rdg>
+</app>
+<app loc="760.25">
+<rdg></rdg>
+</app>
+<app loc="760.26">
+<rdg>gestrecket <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="760.27">
+<rdg></rdg>
+</app>
+<app loc="760.28">
+<rdg>dâ wâren <wit>*G</wit> <note>(ohne I)</note> · gestanden vier (vierzech <wit>I</wit>) g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="760.29">
+<rdg></rdg>
+</app>
+<app loc="760.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

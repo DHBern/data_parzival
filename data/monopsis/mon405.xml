@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 405</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 405.01"><seg type="Initiale">D</seg>ô <name type="Person">Gawan</name> die magt ersach,</l>
+<l n="*D 405.02">der bote gienc nâher und sprach,</l>
+<l n="*D 405.03">al daz der künec werben hiez.</l>
+<l n="*D 405.04">diu küneginne dô niht enliez,</l>
+<l n="*D 405.05">sine spr&#x00E6;che: "hêrre, gêt nâher mir.</l>
+<l n="*D 405.06">mîner zühte meister, daz sît ir.</l>
+<l n="*D 405.07">nû gebiet unde lêret.</l>
+<l n="*D 405.08">wirt iu kurzwîle gemêret,</l>
+<l n="*D 405.09">daz muoz an iwerem gebote sîn.</l>
+<l n="*D 405.10">sît daz iuch der bruoder mîn</l>
+<l n="*D 405.11">mir bevolhen hât sô wol,</l>
+<l n="*D 405.12">ich küsse iuch, ob ich küssen sol.</l>
+<l n="*D 405.13">nû gebiet nâch iwer<reg type="Synkope">e</reg>r mâzen</l>
+<l n="*D 405.14">mîn tuon od<reg type="Synkope">e</reg>r mîn lâzen."</l>
+<l n="*D 405.15">mit grôzer zuht si vor im stuont.</l>
+<l n="*D 405.16"><name type="Person">Gawan</name> sprach: "vrouwe, iwer munt</l>
+<l n="*D 405.17">ist sô küssenlîch getân,</l>
+<l n="*D 405.18">ich sol iweren kus mit gruoze hân."</l>
+<l n="*D 405.19"><seg type="Initiale" subtype="Majuskel">I</seg>r munt was heiz, dicke unt rôt,</l>
+<l n="*D 405.20">dâr an <name type="Person">Gawan</name> den sînen bôt.</l>
+<l n="*D 405.21">dâ ergienc ein kus ungastlîch.</l>
+<l n="*D 405.22">zuo der meide zühte rîch</l>
+<l n="*D 405.23">saz der wol geborne gast.</l>
+<l n="*D 405.24">süezer rede in niht gebrast</l>
+<l n="*D 405.25">bêdenthalp mit triwen.</l>
+<l n="*D 405.26">si kunde wol geniwen,</l>
+<l n="*D 405.27">er sîne bete, si ir versagen.</l>
+<l n="*D 405.28">daz begund<reg type="Synkope">e</reg>r herzenlîche klagen.</l>
+<l n="*D 405.29">ouch bat er si genâden vil.</l>
+<l n="*D 405.30">diu magt sprach, als ich iu sagen wil:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr5</wit> <note>(405.17-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 405.26)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <note>(405.26-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="405.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="405.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="405.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="405.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="405.17"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="405.19"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="405.12">
+<lem>iuch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="405.26">
+<rdg>si kunde wol geniuwen <wit>*m</wit></rdg>
+</app>
+<app loc="405.27">
+<rdg>gegen sîner bete ir versagen. <wit>*m</wit></rdg>
+</app>
+<app loc="405.29">
+<lem>ouch</lem> <rdg>doch <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="405.01">
+<rdg></rdg>
+</app>
+<app loc="405.02">
+<rdg></rdg>
+</app>
+<app loc="405.03">
+<rdg>als in der k. w. h. <wit>*T</wit> <note>(ohne V)</note> · w. (werden <wit>O</wit>) h., <wit>*G</wit></rdg>
+</app>
+<app loc="405.04">
+<rdg></rdg>
+</app>
+<app loc="405.05">
+<rdg>si sprach: <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="405.06">
+<rdg></rdg>
+</app>
+<app loc="405.07">
+<rdg></rdg>
+</app>
+<app loc="405.08">
+<rdg></rdg>
+</app>
+<app loc="405.09">
+<rdg></rdg>
+</app>
+<app loc="405.10">
+<rdg></rdg>
+</app>
+<app loc="405.11">
+<rdg></rdg>
+</app>
+<app loc="405.12">
+<rdg>ob ich iuch k. sol. <wit>*T</wit></rdg>
+</app>
+<app loc="405.13">
+<rdg>iweren <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="405.14">
+<rdg>mîn t. unde mîn l." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="405.15">
+<rdg></rdg>
+</app>
+<app loc="405.16">
+<rdg>er sp.: <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="405.17">
+<rdg></rdg>
+</app>
+<app loc="405.18">
+<rdg>ich sol (wil <wit>G</wit>) i. gruoz mit kusse (chvs mir grv&#x0366;ze <wit>O</wit>) hân (kan <wit>L</wit>)." <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="405.19">
+<rdg></rdg>
+</app>
+<app loc="405.20">
+<rdg></rdg>
+</app>
+<app loc="405.21">
+<rdg></rdg>
+</app>
+<app loc="405.22">
+<rdg></rdg>
+</app>
+<app loc="405.23">
+<rdg></rdg>
+</app>
+<app loc="405.24">
+<rdg></rdg>
+</app>
+<app loc="405.25">
+<rdg></rdg>
+</app>
+<app loc="405.26">
+<rdg>kunden <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>) <wit>Z</wit> (<wit>Fr22</wit>)</rdg>
+</app>
+<app loc="405.27">
+<rdg></rdg>
+</app>
+<app loc="405.28">
+<rdg></rdg>
+</app>
+<app loc="405.29">
+<rdg></rdg>
+</app>
+<app loc="405.30">
+<rdg>als ich (ich nu <wit>I</wit> si <wit>O</wit>) s. wil: <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

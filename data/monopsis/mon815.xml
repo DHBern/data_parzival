@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 815</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>05.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 815.01"><seg type="Initiale">D</seg>er wirt des lachte sêre</l>
+<l n="*D 815.02">unt <name type="Person">Anfortas</name> noch mêre.</l>
+<l n="*D 815.03">"kanstû sus touf enpfâhen",</l>
+<l n="*D 815.04">sprach der wirt, "ich wil si nâhen</l>
+<l n="*D 815.05">durch rehten touf in dîn gebot.</l>
+<l n="*D 815.06"><name type="Person">Jupitern</name>, dînen got,</l>
+<l n="*D 815.07">muostû durch si verliesen</l>
+<l n="*D 815.08">unt <name type="Person">Secundillen</name> verkiesen.</l>
+<l n="*D 815.09">morgen vruo gib ich dir rât,</l>
+<l n="*D 815.10">der vuoge an dîme gewerbe hât."</l>
+<l n="*D 815.11"><name type="Person">Anfortas</name> vor siechheit zît</l>
+<l n="*D 815.12">sînen prîs gemachet hete wît</l>
+<l n="*D 815.13">mit rîterschaft durch minne.</l>
+<l n="*D 815.14">an sîn<reg type="Synkope">e</reg>s herzen sinne</l>
+<l n="*D 815.15">was güete unt mildecheit.</l>
+<l n="*D 815.16">sîn hant ouch manegen prîs erstreit.</l>
+<l n="*D 815.17"><seg type="Initiale" subtype="Majuskel">D</seg>â sâzen dem <name type="Sonstiges">Grâle</name> bî</l>
+<l n="*D 815.18">der aller besten rîter drî,</l>
+<l n="*D 815.19">die dô der schilde pflâgen,</l>
+<l n="*D 815.20">wande si getorstenz wâgen.</l>
+<l n="*D 815.21">welt ir, si hab<reg type="Synkope">e</reg>n dâ g<reg type="Synkope">e</reg>âz genuoc.</l>
+<l n="*D 815.22">mit zuht man von in allen truoc</l>
+<l n="*D 815.23">taveln, tischlachen.</l>
+<l n="*D 815.24">mit dienstlîchen sachen</l>
+<l n="*D 815.25">nigen al diu juncvröuwelîn.</l>
+<l n="*D 815.26"><name type="Person">Feirefiz</name> <name type="Person">Anschevin</name></l>
+<l n="*D 815.27">sach si von im kêren.</l>
+<l n="*D 815.28">daz begunde im trûren mêren.</l>
+<l n="*D 815.29">sîn<reg type="Synkope">e</reg>s herzen slôz truoc dan den <name type="Sonstiges">Grâl</name>.</l>
+<l n="*D 815.30">urloup gab in <name type="Person">Parzival</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="815.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>V</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app><app loc="815.01"><rdg><note>Capitulumzeichen</note> <wit>mk</wit>
+</rdg></app>
+<app loc="815.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="815.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="815.02">
+<lem>noch</lem> <rdg>noch dô <wit>*m</wit></rdg>
+</app>
+<app loc="815.07">
+<lem>muostû</lem> <rdg>mv&#x0366;ste <wit>D</wit></rdg>
+</app>
+<app loc="815.12">
+<rdg>Het sinen pris gemachet wit <wit>L</wit></rdg>
+</app>
+<app loc="815.12">
+<rdg>Sinen pris het gemachet wit <wit>Z</wit></rdg>
+</app>
+<app loc="815.18">
+<lem>rîter</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="815.21">
+<lem>haben</lem> <rdg>habent (habt <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="815.23">
+<rdg>taveln und tischlachen. <wit>*m</wit></rdg>
+</app>
+<app loc="815.30">
+<lem>in</lem> <rdg>in dô <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="815.01">
+<rdg></rdg>
+</app>
+<app loc="815.02">
+<rdg></rdg>
+</app>
+<app loc="815.03">
+<rdg></rdg>
+</app>
+<app loc="815.04">
+<rdg>"ich sol si n. <wit>*G</wit></rdg>
+</app>
+<app loc="815.05">
+<rdg>in sîn g. <wit>*T</wit></rdg>
+</app>
+<app loc="815.06">
+<rdg></rdg>
+</app>
+<app loc="815.07">
+<rdg></rdg>
+</app>
+<app loc="815.08">
+<rdg></rdg>
+</app>
+<app loc="815.09">
+<rdg>dir den rât, <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="815.10">
+<rdg></rdg>
+</app>
+<app loc="815.11">
+<rdg></rdg>
+</app>
+<app loc="815.12">
+<rdg>het sô wît &#x2193;<wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="815.13">
+<rdg>mit r. nâch m. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="815.14">
+<rdg></rdg>
+</app>
+<app loc="815.15">
+<rdg></rdg>
+</app>
+<app loc="815.16">
+<rdg></rdg>
+</app>
+<app loc="815.17">
+<rdg></rdg>
+</app>
+<app loc="815.18">
+<rdg></rdg>
+</app>
+<app loc="815.19">
+<rdg></rdg>
+</app>
+<app loc="815.20">
+<rdg>si (siz <wit>Z</wit>) getorsten <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="815.21">
+<rdg>si hânt dâ (habent <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="815.22">
+<rdg>zühten <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="815.23">
+<rdg>t. und tischelachen. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="815.24">
+<rdg></rdg>
+</app>
+<app loc="815.25">
+<rdg>n. (Vigen <wit>U</wit>) al diu magedîn (menegin <wit>U</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="815.26">
+<rdg></rdg>
+</app>
+<app loc="815.27">
+<rdg></rdg>
+</app>
+<app loc="815.28">
+<rdg></rdg>
+</app>
+<app loc="815.29">
+<rdg></rdg>
+</app>
+<app loc="815.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

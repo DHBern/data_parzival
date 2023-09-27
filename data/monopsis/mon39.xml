@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 39</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 39.01"><name type="Person">Gahmuret</name>, der wîgant,</l>
+<l n="*D 39.02">sprach: "mir sichert iwer hant.</l>
+<l n="*D 39.03"><seg type="Initiale"><corr type="Emendation">D</corr></seg>iu was bî manlîcher wer.</l>
+<l n="*D 39.04">nû rîtet gein der <name type="Person">Schotten</name> her</l>
+<l n="*D 39.05">unt bittet si, daz si uns verbern</l>
+<l n="*D 39.06">mit strîte, ob si des wellen gern,</l>
+<l n="*D 39.07">unt komt nâch mir in die stat."</l>
+<l n="*D 39.08">swaz er gebôt od<reg type="Synkope">e</reg>r bat,</l>
+<l n="*D 39.09">endehaft ez wart getân.</l>
+<l n="*D 39.10">die <name type="Person">Schotten</name> muosen strîten lân.</l>
+<l n="*D 39.11"><seg type="Initiale" subtype="Majuskel">D</seg>ô kom gevaren <name type="Person">Kaylet</name>.</l>
+<l n="*D 39.12">von dem kêrte <name type="Person">Gahmuret</name>,</l>
+<l n="*D 39.13">wand er was sîner muomen sun.</l>
+<l n="*D 39.14">waz solt er im dô leides tuon?</l>
+<l n="*D 39.15">der <name type="Person">Spanol</name> rief im nâch genuoc.</l>
+<l n="*D 39.16">einen strûz er ûf dem helme truoc.</l>
+<l n="*D 39.17">gezimieret was der man,</l>
+<l n="*D 39.18">als ich dâ von ze sagenne hân,</l>
+<l n="*D 39.19">mit pfelle wît und lanc.</l>
+<l n="*D 39.20">daz gevilde nâch dem helde klanc.</l>
+<l n="*D 39.21">sîne schellen gâben ged&#x0153;ne.</l>
+<l n="*D 39.22">er bluome an mannes sch&#x0153;ne,</l>
+<l n="*D 39.23">sîn varwe an sch&#x0153;ne hielt den strît</l>
+<l n="*D 39.24">unz an zwêne, die nâch im wuohsen sît:</l>
+<l n="*D 39.25"><name type="Person">Beacurs</name>, <name type="Person">Lotes</name> kint,</l>
+<l n="*D 39.26">unt <name type="Person">Parzival</name>, die dâ niht sint.</l>
+<l n="*D 39.27">die wâren dennoch ungeborn</l>
+<l n="*D 39.28">unt wurden sît vür sch&#x0153;ne erkorn.</l>
+<l n="*D 39.29"><name type="Person">Gaschier</name> in mit dem zoume nam.</l>
+<l n="*D 39.30">"iwer wilde wirt vil zam</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="39.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="39.03"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="39.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="39.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="39.11"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>
+</rdg></app><app loc="39.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="39.13"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app>
+<app loc="39.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="39.29"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="39.03">
+<lem>Diu</lem> <rdg>&#x00F7;iv <wit>D</wit></rdg>
+</app>
+<app loc="39.07">
+<lem>nâch mir</lem> <rdg>mir nâch <wit>*m</wit></rdg>
+</app>
+<app loc="39.09">
+<lem>endehaft ez wart</lem> <rdg>daz wart &#x2020;angehaft&#x2020; <wit>*m</wit></rdg>
+</app>
+<app loc="39.13">
+<lem>wand er</lem> <rdg>Der ander <wit>*m</wit></rdg>
+</app>
+<app loc="39.27">
+<lem>die</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="39.01">
+<rdg></rdg>
+</app>
+<app loc="39.02">
+<rdg></rdg>
+</app>
+<app loc="39.03">
+<rdg>diu was mit ellenthafter wer. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="39.04">
+<rdg>g. dem Sch. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="39.05">
+<rdg>unde b., daz si (bitte daz <wit>Fr21</wit>) uns verberen <wit>*G</wit> (<wit>V</wit> <wit>T</wit>) und b., daz uns si v. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="39.06">
+<rdg></rdg>
+</app>
+<app loc="39.07">
+<rdg>unde kêrt n. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="39.08">
+<rdg>g. und bat (gebat <wit>O</wit> <wit>L</wit> <wit>Z</wit>) <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="39.09">
+<rdg>e. daz wart (daz was <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit> wart es <wit>L</wit>) g. <wit>*G</wit> · daz was e. g. <wit>T</wit></rdg>
+</app>
+<app loc="39.10">
+<rdg>m. ir (<subst><del>*</del><add>ir</add></subst> <wit>V</wit>) st. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="39.11">
+<rdg></rdg>
+</app>
+<app loc="39.12">
+<rdg></rdg>
+</app>
+<app loc="39.13">
+<rdg></rdg>
+</app>
+<app loc="39.14">
+<rdg>waz mohter (wolt er <wit>Fr21</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="39.15">
+<rdg></rdg>
+</app>
+<app loc="39.16">
+<rdg></rdg>
+</app>
+<app loc="39.17">
+<rdg></rdg>
+</app>
+<app loc="39.18">
+<rdg>daz (swaz <wit>T</wit>) ich <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="39.19">
+<rdg>in pf. (Jn spollen <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="39.20">
+<rdg></rdg>
+</app>
+<app loc="39.21">
+<rdg></rdg>
+</app>
+<app loc="39.22">
+<rdg>bl. (blu&#x0366;met <wit>U</wit>) über (ob <wit>V</wit>) m. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="39.23">
+<rdg>hielt an sch&#x0153;ne <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="39.24">
+<rdg>âne z., <wit>*G</wit> <note>(nur G)</note> · die w. n. im sît (wu&#x0366;hsen sît <wit>T</wit>): <wit>*T</wit></rdg>
+</app>
+<app loc="39.25">
+<rdg></rdg>
+</app>
+<app loc="39.26">
+<rdg></rdg>
+</app>
+<app loc="39.27">
+<rdg></rdg>
+</app>
+<app loc="39.28">
+<rdg></rdg>
+</app>
+<app loc="39.29">
+<rdg>in bî dem <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="39.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

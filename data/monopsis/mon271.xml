@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 271</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 271.01"><seg type="Initiale">D</seg>az ich si hulde mîn verstiez.</l>
+<l n="*D 271.02">dô ich die süezen eine liez,</l>
+<l n="*D 271.03">waz mohte si, swaz ir geschach?</l>
+<l n="*D 271.04">dô si aber von dîner sch&#x0153;ne sprach,</l>
+<l n="*D 271.05">ich wânde, dâ w&#x00E6;re ein vriwentschaft bî.</l>
+<l n="*D 271.06">nû lône dir got, s<corr type="Emendation">i</corr> ist valsches vrî.</l>
+<l n="*D 271.07"><seg type="Initiale" subtype="Majuskel">I</seg><corr type="Emendation">ch</corr> hân unvuoge an ir getân.</l>
+<l n="*D 271.08">vürz fôrest in <name type="Ort">Brizljan</name></l>
+<l n="*D 271.09">reit ich dô in juven poys."</l>
+<l n="*D 271.10"><name type="Person">Parzival</name> diz sper von <name type="Ort">Troys</name></l>
+<l n="*D 271.11">nam unt vuortez mit im dan.</l>
+<l n="*D 271.12">des vergaz der wilde <name type="Person">Taurian</name>,</l>
+<l n="*D 271.13"><name type="Person">Dodines</name> bruoder, dâ.</l>
+<l n="*D 271.14">nû sprechet, wie od<reg type="Synkope">e</reg>r wâ</l>
+<l n="*D 271.15">die helde des nahtes megen sîn.</l>
+<l n="*D 271.16">helme unt ir schilde heten pîn;</l>
+<l n="*D 271.17">die sach man gar verhouwen.</l>
+<l n="*D 271.18"><name type="Person">Parzival</name> zer vrouwen</l>
+<l n="*D 271.19">nam urloup unt zir âmîs.</l>
+<l n="*D 271.20">dô ladete in der vürste wîs</l>
+<l n="*D 271.21">mit im an sîne viwerstat.</l>
+<l n="*D 271.22">daz half in niht, swi<reg type="Synkope">e</reg> vil ers bat.</l>
+<l n="*D 271.23">al dâ schieden die helde sich.</l>
+<l n="*D 271.24">diu âventiure wert m&#x00E6;re mich:</l>
+<l n="*D 271.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô <name type="Person">Orilus</name>, der vürste erkant,</l>
+<l n="*D 271.26">kom, dâ er sîne poulûn vant</l>
+<l n="*D 271.27">unt sîner messenîe ein teil,</l>
+<l n="*D 271.28">daz volc was al gelîche geil,</l>
+<l n="*D 271.29">daz suone was worden schîn</l>
+<l n="*D 271.30">gein der s&#x00E6;ldebernden herzogîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(271.19-21 und 24-26)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="271.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="271.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="271.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="271.19"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit>
+</rdg></app>
+<app loc="271.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="271.25"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app><app loc="271.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="271.03">
+<lem>ir geschach</lem> <rdg>ir beschach (sẏ <subst><del>*</del><add>geschu&#x0366;ff</add></subst> <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="271.06">
+<lem>si</lem> <rdg>so <wit>D</wit></rdg>
+</app>
+<app loc="271.07">
+<lem>Ich</lem> <rdg>Jn <wit>D</wit></rdg>
+</app>
+<app loc="271.07">
+<lem>unvuoge</lem> <rdg>ungevüege <wit>*m</wit></rdg>
+</app>
+<app loc="271.09">
+<rdg>reit ich dô in den Jovanpois (<subst><del>*</del><add>do in den iovanpoẏs</add></subst> <wit>V</wit>)." <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="271.09">
+<rdg>reit ich (<note>om.</note> <wit>I</wit>) von (vor <wit>I</wit> do <wit>O</wit> <wit>L</wit> [<wit>Z</wit>]) ir alsô von Poys (in manie von poys <wit>O</wit> Jmmanie von poýs <wit>L</wit> in dem iovan pois <wit>Z</wit>)." <wit>*G</wit></rdg>
+</app>
+<app loc="271.09">
+<rdg>reit ich vor ir alsô von Poys (do von pontertoys <wit>U</wit>)." <wit>*T</wit></rdg>
+</app>
+<app loc="271.10">
+<lem>diz</lem> <rdg>ein (<subst><del>*</del><add>ein</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="271.13">
+<lem>Dodines</lem> <rdg>Dodenas <wit>*m</wit></rdg>
+</app>
+<app loc="271.21">
+<rdg>vil ofte an sîne viurstat. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="271.21">
+<rdg>vil an (Vil in <wit>U</wit> <subst><del>*</del><add>Mit im an</add></subst> <wit>V</wit>) sîne viurstat (vorstat <wit>U</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="271.28">
+<lem>was</lem> <rdg>wart (<subst><del>*</del><add>wart</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="271.29">
+<lem>was</lem> <rdg>dô (<subst><del>*</del><add>do</add></subst> <wit>V</wit>) was (was da <wit>I</wit>) <wit>*m</wit> (<wit>I</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="271.30">
+<lem>s&#x00E6;ldebernden</lem> <rdg>s&#x00E6;ldeb&#x00E6;ren <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="271.01">
+<rdg>si suone mîn (si der su&#x0364;ne min <wit>I</wit> si miner sv&#x0366;n <wit>O</wit> [<wit>L</wit>] sie der hulde min <wit>Z</wit>) <wit>*G</wit> si mîner hulde <wit>*T</wit></rdg>
+</app>
+<app loc="271.02">
+<rdg>die guoten e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="271.03">
+<rdg></rdg>
+</app>
+<app loc="271.04">
+<rdg></rdg>
+</app>
+<app loc="271.05">
+<rdg>ein <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="271.06">
+<rdg></rdg>
+</app>
+<app loc="271.07">
+<rdg>ungevüege an ir (dir <wit>U</wit>) <wit>*G</wit> (<wit>U</wit>)</rdg>
+</app>
+<app loc="271.08">
+<rdg>durch daz (<note>om.</note> <wit>O</wit> <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="271.09">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="271.10">
+<rdg>P. daz sp. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="271.11">
+<rdg></rdg>
+</app>
+<app loc="271.12">
+<rdg>es (sin <wit>I</wit> Ez <wit>O</wit>) v. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="271.13">
+<rdg>Toclines <wit>*G</wit></rdg>
+</app>
+<app loc="271.14">
+<rdg></rdg>
+</app>
+<app loc="271.15">
+<rdg></rdg>
+</app>
+<app loc="271.16">
+<rdg>ir (<subst><del>*</del><add>ir</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+<app loc="271.17">
+<rdg>zerhouwen. <wit>*G</wit></rdg>
+</app>
+<app loc="271.18">
+<rdg></rdg>
+</app>
+<app loc="271.19">
+<rdg></rdg>
+</app>
+<app loc="271.20">
+<rdg></rdg>
+</app>
+<app loc="271.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="271.22">
+<rdg>ez h. in n., <wit>*G</wit> ez enhalf (<subst><del>*</del><add>Daz e</add></subst>nhalf <wit>V</wit>) n., <wit>*T</wit> (<wit>L</wit>) · vil (oft <wit>I</wit>) er (<subst><del>*</del><add>ers</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="271.23">
+<rdg>dô schieden <wit>*G</wit> sus (<subst><del>*</del><add>al da</add></subst> <wit>V</wit>) schieden <wit>*T</wit></rdg>
+</app>
+<app loc="271.24">
+<rdg>m&#x00E6;re <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> · sus w. div auenture m. <wit>G</wit></rdg>
+</app>
+<app loc="271.25">
+<rdg></rdg>
+</app>
+<app loc="271.26">
+<rdg></rdg>
+</app>
+<app loc="271.27">
+<rdg></rdg>
+</app>
+<app loc="271.28">
+<rdg></rdg>
+</app>
+<app loc="271.29">
+<rdg></rdg>
+</app>
+<app loc="271.30">
+<rdg>s&#x00E6;ldeb&#x00E6;ren (<subst><del>seldenber*</del><add>seldenberen</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

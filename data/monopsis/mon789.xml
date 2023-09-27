@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 789</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 789.01"><seg type="Initiale"><corr type="Emendation">U</corr></seg>nz an den tac, daz <name type="Person">Parzival</name></l>
+<l n="*D 789.02">unt <name type="Person">Feirefiz</name>, der vêch gemâl,</l>
+<l n="*D 789.03">mit vreuden ûf <name type="Ort">Munsalv&#x00E6;sche</name> riten.</l>
+<l n="*D 789.04">nû hete diu wîle des erbiten,</l>
+<l n="*D 789.05">daz <name type="Sonstiges">Mars</name> oder <name type="Sonstiges">Jupiter</name></l>
+<l n="*D 789.06">wâren kom<reg type="Synkope">e</reg>n wider her</l>
+<l n="*D 789.07">al zornec mit ir loufte</l>
+<l n="*D 789.08">- sô was er der verkoufte -,</l>
+<l n="*D 789.09">dâr si sich von sprunge huoben ê.</l>
+<l n="*D 789.10">daz tet an sîner wunden wê</l>
+<l n="*D 789.11"><name type="Person">Anfortase</name>, der sô qual,</l>
+<l n="*D 789.12">meide und ritter hôrten schal</l>
+<l n="*D 789.13">von sîme geschreie dicke,</l>
+<l n="*D 789.14">unt die jâmerlîchen blicke</l>
+<l n="*D 789.15">tet er in mit den ougen kunt.</l>
+<l n="*D 789.16">er was unhelfeclîche wunt.</l>
+<l n="*D 789.17"><seg type="Initiale" subtype="Majuskel">S</seg>i mohten im gehelfen niht.</l>
+<l n="*D 789.18">iedoch diu âventiure giht,</l>
+<l n="*D 789.19">im k&#x0153;me diu wâre helfe nû.</l>
+<l n="*D 789.20">si griffen herzen jâmers zuo.</l>
+<l n="*D 789.21"><seg type="Initiale" subtype="Majuskel">S</seg>wenn im diu scharpf, sûwer nôt</l>
+<l n="*D 789.22">daz strenge ungemach gebôt,</l>
+<l n="*D 789.23">sô wart der luft gesüezet,</l>
+<l n="*D 789.24">der wunden smac gebüezet.</l>
+<l n="*D 789.25"><seg type="Initiale" subtype="Majuskel">V</seg>or im ûfem teppech lac</l>
+<l n="*D 789.26">pigment unt zerbenz<corr type="Emendation">în</corr>en smac,</l>
+<l n="*D 789.27">müzzel unt arômatâ.</l>
+<l n="*D 789.28">durch süezen luft lag ouch dâ</l>
+<l n="*D 789.29">drîakel unt amber tiure.</l>
+<l n="*D 789.30">der smac was gehiure.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <note>(mit 789.2¹-2²)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="789.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="789.05"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="789.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="789.21"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit>
+</rdg></app><app loc="789.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="789.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="789.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="789.01">
+<lem>Unz</lem> <rdg>&#x00F7;nz <wit>D</wit></rdg>
+</app>
+<app loc="789.02">
+<lem>vêch</lem> <rdg>lieht <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="789.04">
+<lem>des</lem> <rdg><seg type="singuläre_Lesart">der</seg> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="789.10">
+<lem>an</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="789.23">
+<lem>sô</lem> <rdg>dô <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="789.26">
+<rdg>pigmente (<subst><del>piement</del><add>pioment</add></subst> <wit>I</wit> Pidimend <wit>Z</wit>) unde aberac (amerac <wit>I</wit> der svsze smach <wit>L</wit> zv robanzerin smac <wit>Z</wit>)</rdg>
+</app>
+<app loc="789.26">
+<lem>zerbenzînen</lem> <rdg>zerbenznîen <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="789.01">
+<rdg></rdg>
+</app>
+<app loc="789.02">
+<rdg></rdg>
+</app>
+<app loc="789.03">
+<rdg></rdg>
+</app>
+<app loc="789.04">
+<rdg></rdg>
+</app>
+<app loc="789.05">
+<rdg>daz M. unde (<note>om.</note> <wit>G</wit>) Juppiter <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="789.06">
+<rdg>wider komen <wit>*T</wit></rdg>
+</app>
+<app loc="789.07">
+<rdg></rdg>
+</app>
+<app loc="789.08">
+<rdg>- dô (<subst><del>*o</del><add>So</add></subst> <wit>L</wit>) was <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="789.09">
+<rdg></rdg>
+</app>
+<app loc="789.10">
+<rdg>sînen <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="789.11">
+<rdg>Anfortas, der alsô qu., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="789.12">
+<rdg></rdg>
+</app>
+<app loc="789.13">
+<rdg>von s. schrei d., <wit>*T</wit></rdg>
+</app>
+<app loc="789.14">
+<rdg>und (<note>om.</note> <wit>L</wit>) jâmerlîche bl. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="789.15">
+<rdg></rdg>
+</app>
+<app loc="789.16">
+<rdg></rdg>
+</app>
+<app loc="789.17">
+<rdg></rdg>
+</app>
+<app loc="789.18">
+<rdg></rdg>
+</app>
+<app loc="789.19">
+<rdg></rdg>
+</app>
+<app loc="789.20">
+<rdg></rdg>
+</app>
+<app loc="789.21">
+<rdg></rdg>
+</app>
+<app loc="789.22">
+<rdg>ditze st. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="789.23">
+<rdg></rdg>
+</app>
+<app loc="789.24">
+<rdg>der w. gesmac g. <wit>*T</wit></rdg>
+</app>
+<app loc="789.25">
+<rdg></rdg>
+</app>
+<app loc="789.26">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="789.27">
+<rdg></rdg>
+</app>
+<app loc="789.28">
+<rdg></rdg>
+</app>
+<app loc="789.29">
+<rdg></rdg>
+</app>
+<app loc="789.30">
+<rdg>der gesmac was g. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

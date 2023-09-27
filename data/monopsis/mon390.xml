@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 390</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>27.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 390.01"><seg type="Initiale">M</seg>it urloube tet er dankêre.</l>
+<l n="*D 390.02">vünfzehen ors od<reg type="Synkope">e</reg>r mêre</l>
+<l n="*D 390.03">liez er in âne wunden.</l>
+<l n="*D 390.04">die knappen danken kunden.</l>
+<l n="*D 390.05">si bâten in belîben vil.</l>
+<l n="*D 390.06">vürbaz gestôzen was sîn zil.</l>
+<l n="*D 390.07"><seg type="Initiale" subtype="Majuskel">D</seg>ô kêrte der gehiure,</l>
+<l n="*D 390.08">dâ grôz gemach was tiure.</l>
+<l n="*D 390.09">ern suochte niht wan strîten.</l>
+<l n="*D 390.10">ich w&#x00E6;ne, bî sînen zîten</l>
+<l n="*D 390.11">ie dechein man sô vil gestreit.</l>
+<l n="*D 390.12">daz ûzer her al zogende reit</l>
+<l n="*D 390.13">ze herbergen durch gemach.</l>
+<l n="*D 390.14">dort inne der vürste <name type="Person">Lyppaut</name> sprach</l>
+<l n="*D 390.15">unt vrâgte, wie ez dâ w&#x00E6;re kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 390.16">wand<reg type="Synkope">e</reg>r hete vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 390.17"><name type="Person">Melyanz</name> w&#x00E6;re gevangen.</l>
+<l n="*D 390.18">daz was im liebe ergangen.</l>
+<l n="*D 390.19">ez kom im sît ze trôste.</l>
+<l n="*D 390.20"><name type="Person">Gawan</name> den ermel lôste</l>
+<l n="*D 390.21">âne zerren vonme schilte</l>
+<l n="*D 390.22">- sînen prîs er h&#x0153;her zilte -,</l>
+<l n="*D 390.23">den gab er <name type="Person">Clauditten</name>.</l>
+<l n="*D 390.24">an dem orte unt ouch dâ mitten</l>
+<l n="*D 390.25">was er durchstochen unt durchslag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 390.26">er hiez in <name type="Person">Obilote</name> trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 390.27">dô wart der meide vreude grôz.</l>
+<l n="*D 390.28">ir arm was blanc unt blôz.</l>
+<l n="*D 390.29">dar über he<corr type="Emendation">f</corr>te si in dô sân.</l>
+<l n="*D 390.30">si sprach: "wer hât mir dâ getân?",</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 390.13)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <note>(mit 390.11¹ und 12¹)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="390.01"><rdg>
+<note>Überschrift:</note> Hie hat der strit ein ende den gawan gevohten hat vnd der rot ritter vnd scheident sich die her vnd reit ieslicher siner auentevre nach <wit>Z</wit>
+</rdg></app><app loc="390.01"><rdg><note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="390.05"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="390.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="390.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="390.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="390.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="390.27"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="390.06">
+<lem>gestôzen was</lem> <rdg>was gestôzen <wit>*m</wit></rdg>
+</app>
+<app loc="390.12">
+<rdg>daz ûzer her alzogende reit. <wit>*m</wit></rdg>
+</app>
+<app loc="390.19">
+<lem>im</lem> <rdg>ime ouch <wit>*m</wit></rdg>
+</app>
+<app loc="390.24">
+<rdg>an dem orte (Jndem orte <wit>O</wit> an den orten <wit>*T</wit> <note>[nur T]</note>) unde an dem mitten (im da en mitten <wit>I</wit> unde enmitten <wit>*T</wit> [<wit>L</wit>]) <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="390.24">
+<lem>ouch dâ mitten</lem> <rdg>enmitten <wit>*m</wit></rdg>
+</app>
+<app loc="390.29">
+<lem>hefte</lem> <rdg>hete <wit>D</wit></rdg>
+</app>
+<app loc="390.30">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="390.01">
+<rdg></rdg>
+</app>
+<app loc="390.02">
+<rdg></rdg>
+</app>
+<app loc="390.03">
+<rdg>l. er dâ âne w. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="390.04">
+<rdg>kunden <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="390.05">
+<rdg>Unde bâten <wit>*G</wit> <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="390.06">
+<rdg></rdg>
+</app>
+<app loc="390.07">
+<rdg></rdg>
+</app>
+<app loc="390.08">
+<rdg>dâ guot g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="390.09">
+<rdg></rdg>
+</app>
+<app loc="390.10">
+<rdg></rdg>
+</app>
+<app loc="390.11">
+<rdg></rdg>
+</app>
+<app loc="390.12">
+<rdg></rdg>
+</app>
+<app loc="390.13">
+<rdg>gein (<subst><del>*</del><add>Ze</add></subst> <wit>V</wit>) h. (herben <wit>G</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="390.14">
+<rdg></rdg>
+</app>
+<app loc="390.15">
+<rdg>w. komen. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="390.16">
+<rdg>ich w&#x00E6;ner (<subst><del>*</del><add>Wande er</add></subst> <wit>V</wit>) h. (heten <wit>O</wit>) v., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="390.17">
+<rdg>M. wart g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="390.18">
+<rdg>l. e., <wit>*T</wit></rdg>
+</app>
+<app loc="390.19">
+<rdg>wand ez (er <wit>O</wit>) <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="390.20">
+<rdg></rdg>
+</app>
+<app loc="390.21">
+<rdg></rdg>
+</app>
+<app loc="390.22">
+<rdg></rdg>
+</app>
+<app loc="390.23">
+<rdg></rdg>
+</app>
+<app loc="390.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="390.25">
+<rdg></rdg>
+</app>
+<app loc="390.26">
+<rdg>den bat er O. tr. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="390.27">
+<rdg></rdg>
+</app>
+<app loc="390.28">
+<rdg></rdg>
+</app>
+<app loc="390.29">
+<rdg></rdg>
+</app>
+<app loc="390.30">
+<rdg>mir hie g.?", <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

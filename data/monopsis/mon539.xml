@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 539</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 539.01"><seg type="Initiale">S</seg>wie ez dâ was ergangen,</l>
+<l n="*D 539.02">er hete vil enpfangen,</l>
+<l n="*D 539.03">des er niht vürbaz wolde geb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 539.04">vür sicherheit bôt er sîn leb<reg type="Synkope">e</reg>n</l>
+<l n="*D 539.05">unt jach, swaz im gesch&#x00E6;he,</l>
+<l n="*D 539.06">daz er nimer verj&#x00E6;he</l>
+<l n="*D 539.07">sicherheit durch twingen.</l>
+<l n="*D 539.08">mit dem tôde wolder dingen.</l>
+<l n="*D 539.09"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der unde ligende:</l>
+<l n="*D 539.10">"bistû nû der gesigende?</l>
+<l n="*D 539.11">des pflac ich, dô got wolte</l>
+<l n="*D 539.12">unt ich prîs hab<reg type="Synkope">e</reg>n solte.</l>
+<l n="*D 539.13">nû hât mîn prîs ein ende</l>
+<l n="*D 539.14">von dîner werden hende.</l>
+<l n="*D 539.15"><seg type="Initiale" subtype="Majuskel">S</seg>wâ vreischet man od<reg type="Synkope">e</reg>r wîp,</l>
+<l n="*D 539.16">daz überkom<reg type="Synkope">e</reg>n ist mîn lîp,</l>
+<l n="*D 539.17">des prîs sô hôhe ê swebt enbor,</l>
+<l n="*D 539.18">sô stêt mir baz ein sterb<reg type="Synkope">e</reg>n vor,</l>
+<l n="*D 539.19">ê mîne vriwent diz m&#x00E6;re</l>
+<l n="*D 539.20">so<corr type="Emendation">l</corr> machen vreuden l&#x00E6;re."</l>
+<l n="*D 539.21"><name type="Person">Gawan</name> warp sicherheit an in.</l>
+<l n="*D 539.22">dô stuont sîn gir unt al sîn sin</l>
+<l n="*D 539.23">niwan ûfes lîbes verderb<reg type="Synkope">e</reg>n</l>
+<l n="*D 539.24">oder ûf ein g&#x00E6;hez sterb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 539.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô dâhte mîn hêr <name type="Person">Gawan</name>:</l>
+<l n="*D 539.26">"durch waz t&#x0153;te ich disen man?</l>
+<l n="*D 539.27">wolt er sus ze mînem gebot stên,</l>
+<l n="*D 539.28">gesunt lieze ich in <seg type="singuläre_Lesart">hinnen</seg> gên."</l>
+<l n="*D 539.29">mit rede warb erz an in sô -</l>
+<l n="*D 539.30">daz enwart niht gar geleistet dô.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(mit 539.8¹-8²)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <note>(mit 539.8¹-8²)</note> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="539.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="539.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="539.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="539.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="539.25"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="539.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="539.01">
+<lem>was</lem> <rdg>w&#x00E6;re <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="539.03">
+<lem>des</lem> <rdg>daz <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="539.08">
+<rdg>mit dem tôde wolt er ê dingen <wit>*m</wit></rdg>
+</app>
+<app loc="539.08">
+<rdg><note>nach 539.8:</note> - w&#x00E6;r er noch zwirunt strenger (strengen <wit>mk</wit>) / er wolt niht leben lenger (lengen <wit>mk</wit>) - <wit>*m</wit></rdg>
+</app>
+<app loc="539.08">
+<rdg><note>Die Verse 539.8¹-8² sind am Rand nachgetragen und später radiert:</note> were er noch z: strenger / :aber lenger <wit>V</wit></rdg>
+</app>
+<app loc="539.09">
+<rdg>und sprach alsô under ligende: <wit>*m</wit></rdg>
+</app>
+<app loc="539.10">
+<lem>gesigende</lem> <rdg>sigende <wit>*m</wit> (<wit>I</wit>) <wit>O</wit></rdg>
+</app>
+<app loc="539.11">
+<rdg>des pflac ich, dô got wolt, <wit>*m</wit></rdg>
+</app>
+<app loc="539.12">
+<lem>unt</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="539.17">
+<lem>ê</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="539.19">
+<lem>diz</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="539.20">
+<lem>sol</lem> <rdg>so <wit>D</wit></rdg>
+</app>
+<app loc="539.22">
+<lem>al</lem> <rdg>alle <wit>*m</wit> <wit>G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="539.01">
+<rdg></rdg>
+</app>
+<app loc="539.02">
+<rdg></rdg>
+</app>
+<app loc="539.03">
+<rdg></rdg>
+</app>
+<app loc="539.04">
+<rdg></rdg>
+</app>
+<app loc="539.05">
+<rdg></rdg>
+</app>
+<app loc="539.06">
+<rdg></rdg>
+</app>
+<app loc="539.07">
+<rdg></rdg>
+</app>
+<app loc="539.08">
+<rdg>wolter ê ringen (dingen <wit>O</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="539.09">
+<rdg></rdg>
+</app>
+<app loc="539.10">
+<rdg></rdg>
+</app>
+<app loc="539.11">
+<rdg></rdg>
+</app>
+<app loc="539.12">
+<rdg>ich êre h. <wit>*T</wit></rdg>
+</app>
+<app loc="539.13">
+<rdg></rdg>
+</app>
+<app loc="539.14">
+<rdg></rdg>
+</app>
+<app loc="539.15">
+<rdg></rdg>
+</app>
+<app loc="539.16">
+<rdg></rdg>
+</app>
+<app loc="539.17">
+<rdg>sô h. ie (E so hohe <wit>L</wit>) swebete <wit>*G</wit> <note>(ohne ZFr19)</note> sô h. sw. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="539.18">
+<rdg></rdg>
+</app>
+<app loc="539.19">
+<rdg></rdg>
+</app>
+<app loc="539.20">
+<rdg></rdg>
+</app>
+<app loc="539.21">
+<rdg></rdg>
+</app>
+<app loc="539.22">
+<rdg>sîn muot unde sîn sin <wit>*T</wit></rdg>
+</app>
+<app loc="539.23">
+<rdg></rdg>
+</app>
+<app loc="539.24">
+<rdg></rdg>
+</app>
+<app loc="539.25">
+<rdg></rdg>
+</app>
+<app loc="539.26">
+<rdg>ich den man? <wit>*G</wit> <note>(ohne ILZ)</note></rdg>
+</app>
+<app loc="539.27">
+<rdg>sus <note>om.</note> <wit>*T</wit> <note>(nur TO)</note></rdg>
+</app>
+<app loc="539.28">
+<rdg>in hin gên." <wit>*G</wit> (<wit>U</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="539.29">
+<rdg></rdg>
+</app>
+<app loc="539.30">
+<rdg>n. (nie <wit>U</wit>) geleistet <wit>*T</wit> <note>(ohne VO)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

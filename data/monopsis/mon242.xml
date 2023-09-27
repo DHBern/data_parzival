@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 242</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 242.01"><seg type="Initiale">I</seg>ch wil iu doch baz bediuten</l>
+<l n="*D 242.02">von disen jâmerb&#x00E6;ren liuten,</l>
+<l n="*D 242.03">dar kom geriten <name type="Person">Parzival</name>:</l>
+<l n="*D 242.04">man sach dâ selten vreuden schal,</l>
+<l n="*D 242.05">ez w&#x00E6;re bûhurt od<reg type="Synkope">e</reg>r tanz.</l>
+<l n="*D 242.06">ir klagendiu st&#x00E6;te was sô ganz,</l>
+<l n="*D 242.07">sine kêrten sich an schimpfen niht.</l>
+<l n="*D 242.08">swâ man noch min volkes siht,</l>
+<l n="*D 242.09">den tuot etswenne vreude wol;</l>
+<l n="*D 242.10">dort wâren die winkel alle vol</l>
+<l n="*D 242.11">unt ouch ze hove, dâ man si sach.</l>
+<l n="*D 242.12">der wirt ze sîme gaste sprach:</l>
+<l n="*D 242.13">"<seg type="Initiale" subtype="Majuskel">I</seg>ch w&#x00E6;ne, man iu gebettet hât.</l>
+<l n="*D 242.14">sît ir müede, sô ist mîn rât,</l>
+<l n="*D 242.15">daz ir gêt, leit iuch slâfen."</l>
+<l n="*D 242.16">nû solt ich schrîen 'wâfen'</l>
+<l n="*D 242.17">umb ir scheiden, daz si tuont.</l>
+<l n="*D 242.18">ez wirt grôz schade in beiden kunt.</l>
+<l n="*D 242.19"><seg type="Initiale" subtype="Majuskel">V</seg>ome spanbette trat</l>
+<l n="*D 242.20">ûfen teppech an eine stat</l>
+<l n="*D 242.21"><name type="Person">Parzival</name>, der wol geslaht.</l>
+<l n="*D 242.22">der wirt bôt im guote naht.</l>
+<l n="*D 242.23">diu rîterschaft dô gar ûf spranc.</l>
+<l n="*D 242.24">ein teil ir im dar nâher dranc.</l>
+<l n="*D 242.25">dô vuorten si den jungen man</l>
+<l n="*D 242.26">in eine kemenâten sân,</l>
+<l n="*D 242.27">diu was wol gehêret,</l>
+<l n="*D 242.28">mit einem bette geêret,</l>
+<l n="*D 242.29">daz mich mîn armuot imm<reg type="Synkope">e</reg>r müet,</l>
+<l n="*D 242.30">sît derde alsölhe rîcheit blüet.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(242.10-13, 16-21 und 26-30)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr54</wit> <note>(242.28-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="242.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="242.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="242.09"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="242.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="242.13"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="242.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="242.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="242.19"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="242.23"><rdg>
+<note>Initiale</note> <wit>T</wit>
+</rdg></app>
+<app loc="242.29"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="242.01">
+<rdg>ich muoz iu (<note>om.</note> <wit>L</wit>) mêre (iamer <wit>I</wit> doch baz <wit>Z</wit>) bediuten (tuten <wit>I</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="242.03">
+<rdg>ze den (der <wit>mk</wit>) kam geriten Parcifal: <wit>*m</wit></rdg>
+</app>
+<app loc="242.08">
+<lem>min</lem> <rdg>minre <wit>*m</wit></rdg>
+</app>
+<app loc="242.11">
+<rdg>ein teil (Vnd wo <wit>L</wit> Vnd ouch <wit>Z</wit>) man ir ze hove (man sie zu̽ hoffe <wit>L</wit> zv hofe da mans <wit>Z</wit>) sach (<subst><del>sach</del><add>ersach</add></subst> <wit>O</wit> esach <wit>Z</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="242.11">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="242.15">
+<lem>gêt</lem> <rdg>gêt und <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="242.18">
+<rdg>ez wart grôz schade beiden kunt. <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="242.18">
+<rdg>des wirt grôz schade (Wan es zu̽ schaden <wit>L</wit>) in beiden kunt. <wit>*G</wit></rdg>
+</app>
+<app loc="242.18">
+<rdg>des wirt grôz trûren (<note>om.</note> <wit>U</wit> schade <wit>V</wit>) in beiden kunt. <wit>*T</wit></rdg>
+</app>
+<app loc="242.20">
+<lem>ûfen</lem> <rdg>ûf einen (einem <wit>mk</wit> ein ein <wit>Fr69</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="242.27">
+<lem>wol</lem> <rdg>alsô <wit>*m</wit></rdg>
+</app>
+<app loc="242.30">
+<rdg>sît diu (die <wit>T</wit>) erde (erden <wit>U</wit> <subst><del>*de</del><add>rede</add></subst> <wit>V</wit>) solche (asol ich <wit>Fr54</wit> alsolhe <wit>*T</wit>) rîcheit (richen <wit>Fr54</wit>) blüet. <wit>*G</wit> (<wit>*T</wit>) (<wit>Z</wit>)</rdg>
+</app>
+<app loc="242.30">
+<lem>derde</lem> <rdg>diu erde <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="242.01">
+<rdg>&#x2193;<wit>*G</wit> · iu noch (<subst><del>*</del><add>Doch</add></subst> <wit>V</wit>) baz <wit>*T</wit></rdg>
+</app>
+<app loc="242.02">
+<rdg>jâmerbernden (iamer <wit>I</wit>) <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="242.03">
+<rdg>dar (<subst><del>*</del><add>Zv&#x0366; den</add></subst> <wit>V</wit>) g. kom Parcifal: <wit>*T</wit></rdg>
+</app>
+<app loc="242.04">
+<rdg></rdg>
+</app>
+<app loc="242.05">
+<rdg></rdg>
+</app>
+<app loc="242.06">
+<rdg></rdg>
+</app>
+<app loc="242.07">
+<rdg>schimpf <wit>*T</wit></rdg>
+</app>
+<app loc="242.08">
+<rdg>n. minner v. (volch <wit>I</wit>) <wit>*G</wit> n. minre (mine <wit>U</wit>) liute (<subst><del>*</del><add>volkez</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="242.09">
+<rdg>t. (tru&#x0366;c <wit>U</wit>) ouch e. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="242.10">
+<rdg>dâ (<subst><del>D*</del><add>Dort</add></subst> <wit>V</wit>) w. <wit>*T</wit> · die w. a. (die winchel iamers <wit>L</wit> alle winkel <wit>Z</wit>) vol, <wit>*G</wit></rdg>
+</app>
+<app loc="242.11">
+<rdg>&#x2193;<wit>*G</wit> · h., swâ (<subst><del>*</del><add>swa</add></subst> <wit>V</wit>) man <wit>*T</wit></rdg>
+</app>
+<app loc="242.12">
+<rdg></rdg>
+</app>
+<app loc="242.13">
+<rdg></rdg>
+</app>
+<app loc="242.14">
+<rdg></rdg>
+</app>
+<app loc="242.15">
+<rdg>daz ir gêt iu. legen sl. (slagen <wit>U</wit>)." <wit>*T</wit></rdg>
+</app>
+<app loc="242.16">
+<rdg></rdg>
+</app>
+<app loc="242.17">
+<rdg>von ir sch., <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="242.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="242.19">
+<rdg>von der hertstat (der herter <subst><del>st*</del><add>stat</add></subst> <wit>U</wit> <subst><del>den*</del><add>dem spanbete</add></subst> <wit>V</wit>) er tr. <wit>*T</wit></rdg>
+</app>
+<app loc="242.20">
+<rdg>ûf einen tepich an e. st., <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="242.21">
+<rdg>wol g., <wit>*T</wit></rdg>
+</app>
+<app loc="242.22">
+<rdg>bôt (Der bot <wit>U</wit>) dem wirte (<subst><del>D*</del><add>Der wurt bot im</add></subst> <wit>V</wit>) g. n. <wit>*T</wit></rdg>
+</app>
+<app loc="242.23">
+<rdg></rdg>
+</app>
+<app loc="242.24">
+<rdg>n. dranc <wit>*T</wit></rdg>
+</app>
+<app loc="242.25">
+<rdg>unde v. (<subst><del>*</del><add>Do fu&#x0366;rten sv́</add></subst> <wit>V</wit>) den j. man <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="242.26">
+<rdg></rdg>
+</app>
+<app loc="242.27">
+<rdg>diu was alsô g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="242.28">
+<rdg></rdg>
+</app>
+<app loc="242.29">
+<rdg>immer <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="242.30">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

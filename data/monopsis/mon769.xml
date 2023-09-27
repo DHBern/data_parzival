@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 769</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 769.01"><name type="Person"><seg type="Initiale">A</seg>rtus</name> sprach: "von dem vater dîn,</l>
+<l n="*D 769.02"><name type="Person">Gahmurete</name>, dem neven mîn,</l>
+<l n="*D 769.03">ist ez dîn volleclîcher art,</l>
+<l n="*D 769.04">in wîbe dienste dîn verriu vart.</l>
+<l n="*D 769.05"><seg type="Initiale" subtype="Majuskel">I</seg>ch wil dich dienst wizzen lân,</l>
+<l n="*D 769.06">daz selten gr&#x0153;zerz ist getân</l>
+<l n="*D 769.07">ûf erde decheinem wîbe,</l>
+<l n="*D 769.08">ir wünneclîchem lîbe.</l>
+<l n="*D 769.09">ich meine die herzoginne,</l>
+<l n="*D 769.10">diu hie sitzet. nâch ir minne</l>
+<l n="*D 769.11">ist waldes vil verswendet.</l>
+<l n="*D 769.12">ir minne hât gepfendet</l>
+<l n="*D 769.13">an vreuden manegen rîter guot</l>
+<l n="*D 769.14">unt in erwendet hôhen muot."</l>
+<l n="*D 769.15"><seg type="Initiale" subtype="Majuskel">E</seg>r sagete ir urliuge gar</l>
+<l n="*D 769.16">unt ouch von der <name type="Person">Clinschors</name> schar,</l>
+<l n="*D 769.17">die dâ sâzen an allen sîten,</l>
+<l n="*D 769.18">unt von den zwein strîten,</l>
+<l n="*D 769.19">die <name type="Person">Parzival</name>, sîn bruoder, streit</l>
+<l n="*D 769.20">ze <name type="Ort">Joflanze</name> ûf dem anger breit,</l>
+<l n="*D 769.21">unt swaz er anders hât ervaren,</l>
+<l n="*D 769.22">dâ er den lîp niht kunde sparen.</l>
+<l n="*D 769.23">"<seg type="Initiale" subtype="Majuskel">E</seg>r sol dirz selbe machen kunt.</l>
+<l n="*D 769.24">er suochet einen hôhen vunt:</l>
+<l n="*D 769.25">nâch dem <name type="Sonstiges">Grâle</name> wirbet er.</l>
+<l n="*D 769.26">von iu beiden sampt ist daz mîn ger,</l>
+<l n="*D 769.27">ir saget mir liute und lant,</l>
+<l n="*D 769.28">die iu mit strîte sîn bekant."</l>
+<l n="*D 769.29"><seg type="Initiale" subtype="Majuskel">D</seg>er <name type="Person">heiden</name> sprach: "ich nenne sie,</l>
+<l n="*D 769.30">die mir die rîter vüerent hie:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <note>(mit 769.28¹-28²² und 30¹-30²)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit> <note>(ohne 769.19)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="769.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr2</wit> <wit>V</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <wit>U</wit>
+</rdg></app>
+<app loc="769.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="769.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="769.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="769.29"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app><app loc="769.29"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="769.01">
+<lem>Artus</lem> <rdg>&#x00F7;Rtvs <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.02">
+<lem>dem</lem> <rdg>den <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.06">
+<lem>gr&#x0153;zerz</lem> <rdg>gr&#x0153;zer <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="769.11">
+<lem>verswendet</lem> <rdg>geswendet (<subst><del>*swendet</del><add>verswendet</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="769.14">
+<lem>in</lem> <rdg>im <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.15">
+<lem>ir</lem> <rdg>im ir <wit>*m</wit></rdg>
+</app>
+<app loc="769.17">
+<lem>an</lem> <rdg>in <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.20">
+<lem>ûf</lem> <rdg><note>om.</note> <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.23">
+<lem>selbe</lem> <rdg>selben <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.26">
+<lem>sampt</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+<app loc="769.27">
+<rdg>daz ir mir sagt liute und lant, <wit>*m</wit></rdg>
+</app>
+<app loc="769.28">
+<lem>sîn bekant</lem> <rdg>sint erkant <wit>Fr2</wit> sint bekant <wit>*m</wit></rdg>
+</app>
+<app loc="769.28">
+<rdg><milestone unit="Chretien"/> <note>nach 769.28:</note> Sv́ rettent mitteinander vil gar / Heimliche vnde offenbar / Dar nach ru&#x0366;fte kv́nig <subst><del>art*</del><add>artus do</add></subst> / Den helden allen dar ieso / Hartte betteliche er sv́ bat / Daz ieglicher seite uf der stat / Bi dem eide den er imme hette getan / Waz imme wider varn were svnder wan / Die wile iederman vsser lande waz / Sv́ gelobetent alle zetu&#x0366;nde daz / Sv́ seitent die worheit alle glich / Es were in schande oder erlich / Boors vnd lýonel an den stvnden / Seitent wie sv́ einander funden / Vnde wie ietwederre mit dem andern vaht / Vnde der werde kolagrenans geslaht / Wart do von ir eime erslagen / Daz begundent sv́ von ende sagen / Vmbe kolagrenans tot tugenthaft / Trurte der kv́nig vnde alle die ritterschaft / Dar nach sprach der heiden rich / Kv́nig Artus nv ho&#x0364;re mich <note>(Einschub entspr. 'Troisième Continuation', Ep. 29, V. 42335-42354)</note> <wit>V</wit></rdg>
+</app>
+<app loc="769.29">
+<rdg>der heiden sprach: "ich nenne iu die (Jch wil dir nennen alle die <wit>V</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="769.29">
+<lem>sprach</lem> <rdg><note>om.</note> <wit>Fr2</wit></rdg>
+</app>
+<app loc="769.29">
+<rdg><note>nach 769.30:</note> An den mir ist gelungen / Die ich alle han betwungen <wit>V</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="769.01">
+<rdg></rdg>
+</app>
+<app loc="769.02">
+<rdg></rdg>
+</app>
+<app loc="769.03">
+<rdg></rdg>
+</app>
+<app loc="769.04">
+<rdg>wîbes <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="769.05">
+<rdg></rdg>
+</app>
+<app loc="769.06">
+<rdg>gr&#x0153;zer ist <wit>*G</wit> <note>(ohne Fr18)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="769.07">
+<rdg></rdg>
+</app>
+<app loc="769.08">
+<rdg>ir (an <wit>*T</wit>) minneclîchem l. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="769.09">
+<rdg></rdg>
+</app>
+<app loc="769.10">
+<rdg></rdg>
+</app>
+<app loc="769.11">
+<rdg></rdg>
+</app>
+<app loc="769.12">
+<rdg></rdg>
+</app>
+<app loc="769.13">
+<rdg></rdg>
+</app>
+<app loc="769.14">
+<rdg></rdg>
+</app>
+<app loc="769.15">
+<rdg>er saget im âne lougen (ir v&#x0366;r livgen <wit>Fr18</wit>) gar <wit>*G</wit></rdg>
+</app>
+<app loc="769.16">
+<rdg></rdg>
+</app>
+<app loc="769.17">
+<rdg>si (Die <wit>Fr18</wit> die dâ <wit>*T</wit> [<wit>L</wit> <wit>Z</wit>]) s. in a. (alle <wit>U</wit>) s., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="769.18">
+<rdg></rdg>
+</app>
+<app loc="769.19">
+<rdg></rdg>
+</app>
+<app loc="769.20">
+<rdg></rdg>
+</app>
+<app loc="769.21">
+<rdg></rdg>
+</app>
+<app loc="769.22">
+<rdg></rdg>
+</app>
+<app loc="769.23">
+<rdg>"er sol daz s. <wit>*T</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>)</rdg>
+</app>
+<app loc="769.24">
+<rdg></rdg>
+</app>
+<app loc="769.25">
+<rdg>n. dem Gr. suochter <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="769.26">
+<rdg></rdg>
+</app>
+<app loc="769.27">
+<rdg>nû (vnd <wit>I</wit>) s. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="769.28">
+<rdg>&#x2193;<wit>V</wit> <milestone unit="Chretien"/> · diu iu (<note>om.</note> <wit>Fr18</wit>) mit state (stâte <wit>G</wit>) sîn (sint <wit>L</wit>) b." <wit>*G</wit> <note>(nur GIL)</note> · sint <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="769.29">
+<rdg></rdg>
+</app>
+<app loc="769.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

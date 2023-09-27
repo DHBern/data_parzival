@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 281</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 281.01"><seg type="Initiale">Û</seg>f gerihtiu sper wir müezen seh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 281.02">welt ir danne vür ein and<reg type="Synkope">e</reg>r scheh<reg type="Synkope">e</reg>n</l>
+<l n="*D 281.03">alsô vreche rüden, den meisters hant</l>
+<l n="*D 281.04">ab stroufet ir bant,</l>
+<l n="*D 281.05">dar zuo trag ich niht willen.</l>
+<l n="*D 281.06">ich sol den schal gestillen.</l>
+<l n="*D 281.07">ich hilf iu, swâ ez niht rât mac sîn;</l>
+<l n="*D 281.08">des wartet an daz ellen mîn."</l>
+<l n="*D 281.09"><seg type="Initiale" subtype="Majuskel">D</seg>ise gelübde habt ir wol vernom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 281.10">welt ir nû h&#x0153;ren, war sî kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 281.11"><name type="Person">Parzival</name> der <name type="Person">Waleis</name>?</l>
+<l n="*D 281.12">von snêwe was ein niwe leis</l>
+<l n="*D 281.13">des nahtes vast ûf in gesnît.</l>
+<l n="*D 281.14">ez enwas iedoch niht snêwes zît,</l>
+<l n="*D 281.15"><seg type="Initiale" subtype="Majuskel">I</seg>st ez, als ichz vernom<reg type="Synkope">e</reg>n hân.</l>
+<l n="*D 281.16"><name type="Person">Artus</name>, der meienb&#x00E6;re man,</l>
+<l n="*D 281.17">swaz man ie von dem gesprach,</l>
+<l n="*D 281.18">zeinen pfingsten daz geschach</l>
+<l n="*D 281.19">od<reg type="Synkope">e</reg>r in des meien bluomen zît.</l>
+<l n="*D 281.20">waz man im süezes luftes gît!</l>
+<l n="*D 281.21"><seg type="Initiale" subtype="Majuskel">D</seg>iz m&#x00E6;re ist hie vaste und<reg type="Synkope">e</reg>rsniten,</l>
+<l n="*D 281.22">ez parriert sich mit snêwes siten.</l>
+<l n="*D 281.23">sîne valken&#x00E6;re von <name type="Ort">Karid&#x0153;l</name></l>
+<l n="*D 281.24">riten sâbents zuo dem <name type="Ort">Plimiz&#x0153;l</name></l>
+<l n="*D 281.25">durch beizen, dâ si schaden kuren:</l>
+<l n="*D 281.26">ir besten valken si verluren.</l>
+<l n="*D 281.27">der gâhete von in balde</l>
+<l n="*D 281.28">unt stuont die naht ze walde.</l>
+<l n="*D 281.29">von überkrüpfe daz geschach,</l>
+<l n="*D 281.30">daz im was von dem luoder gâch.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr30</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="281.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="281.09"><rdg>
+<note>Überschrift:</note> Hie kvmet parzifal zv&#x0366;m anderen male zv&#x0366; kv́nig artvs hof do er bi dem grale waz gesin <add>vnde bi anfortas</add> <wit>V</wit>
+</rdg></app><app loc="281.09"><rdg><note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="281.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="281.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="281.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="281.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="281.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="281.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app><app loc="281.23"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="281.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="281.04">
+<rdg>sôn abe gezucket wirt ir (ab zuchtan iriu <wit>I</wit> Ab zvchende ir iv <wit>O</wit> abe gezuchet ir <wit>Fr30</wit>) bant, <wit>*G</wit></rdg>
+</app>
+<app loc="281.04">
+<rdg>abe zuckent (zucken <wit>U</wit>) ir (ire <wit>V</wit>) bant, <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="281.04">
+<lem>ir</lem> <rdg>diu <wit>*m</wit></rdg>
+</app>
+<app loc="281.05">
+<lem>trag</lem> <rdg>hân <wit>*m</wit></rdg>
+</app>
+<app loc="281.07">
+<rdg><note>Versfolge 281.8-7</note> <wit>*m</wit></rdg>
+</app>
+<app loc="281.07">
+<rdg>daz ich iu helfe (Jch helf vch <wit>U</wit> Jch hilf v́ch <wit>V</wit>), wâ ez sol (waz nit rat mac <wit>U</wit> swa <subst><del>*</del><add>ez sol</add></subst> <wit>V</wit>) sîn." <wit>*m</wit> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="281.08">
+<rdg>doch wartet an daz ellen mîn, <wit>*m</wit></rdg>
+</app>
+<app loc="281.17">
+<rdg>waz man von (ven <wit>mk</wit>) dem ie gesprach (geschach <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="281.18">
+<lem>zeinen</lem> <rdg>ze einer <wit>*m</wit></rdg>
+</app>
+<app loc="281.21">
+<lem>Diz</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="281.24">
+<rdg>riten des âbendes (waren des abendes <wit>G</wit> Ritens habenden <wit>O</wit>) bî dem (vorm <wit>O</wit>) Blimzol <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="281.24">
+<rdg>reit (<subst><del>Rit*</del><add>Rittent</add></subst> <wit>V</wit>) des âbendes bî dem Plymizol <wit>*T</wit></rdg>
+</app>
+<app loc="281.27">
+<lem>gâhete</lem> <rdg>ergâhete <wit>*m</wit></rdg>
+</app>
+<app loc="281.28">
+<lem>ze</lem> <rdg>zem <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="281.01">
+<rdg></rdg>
+</app>
+<app loc="281.02">
+<rdg>a. sch. (spehen <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="281.03">
+<rdg>r. in (<note>om.</note> <wit>L</wit> <wit>Z</wit> <wit>Fr30</wit>) m. (meister <wit>Z</wit>) h., <wit>*G</wit> r. ûz (<subst><del>*</del><add>den</add></subst> <wit>V</wit>) m. h. <wit>*T</wit></rdg>
+</app>
+<app loc="281.04">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="281.05">
+<rdg>zuo hân (habete <wit>U</wit>) ich <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="281.06">
+<rdg></rdg>
+</app>
+<app loc="281.07">
+<rdg>swâs (swa sin <wit>O</wit> waz <wit>L</wit>) n. <wit>*G</wit> <note>(ohne IZ)</note></rdg>
+</app>
+<app loc="281.08">
+<rdg></rdg>
+</app>
+<app loc="281.09">
+<rdg></rdg>
+</app>
+<app loc="281.10">
+<rdg></rdg>
+</app>
+<app loc="281.11">
+<rdg></rdg>
+</app>
+<app loc="281.12">
+<rdg></rdg>
+</app>
+<app loc="281.13">
+<rdg></rdg>
+</app>
+<app loc="281.14">
+<rdg></rdg>
+</app>
+<app loc="281.15">
+<rdg>ich <wit>*G</wit> <note>(nur GIO)</note></rdg>
+</app>
+<app loc="281.16">
+<rdg>A., der niuweb&#x00E6;re (<subst><del>*</del><add>meigenbere</add></subst> <wit>V</wit>) man, <wit>*T</wit></rdg>
+</app>
+<app loc="281.17">
+<rdg></rdg>
+</app>
+<app loc="281.18">
+<rdg></rdg>
+</app>
+<app loc="281.19">
+<rdg></rdg>
+</app>
+<app loc="281.20">
+<rdg></rdg>
+</app>
+<app loc="281.21">
+<rdg>daz m. <wit>*G</wit> <note>(ohne L)</note> · vaste hie <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="281.22">
+<rdg></rdg>
+</app>
+<app loc="281.23">
+<rdg>Ein (<subst><del>Sir*</del><add>Sine</add></subst> <wit>V</wit>) v. von Karidol <wit>*T</wit></rdg>
+</app>
+<app loc="281.24">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="281.25">
+<rdg>b., al (<note>om.</note> <wit>U</wit>) dâ si sch. kurn: <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="281.26">
+<rdg></rdg>
+</app>
+<app loc="281.27">
+<rdg></rdg>
+</app>
+<app loc="281.28">
+<rdg></rdg>
+</app>
+<app loc="281.29">
+<rdg></rdg>
+</app>
+<app loc="281.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

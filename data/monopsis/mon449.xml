@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 449</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.12.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 449.01"><seg type="Initiale">W</seg>an vüerstûn, dâ er <seg type="singuläre_Lesart">erwarme</seg></l>
+<l n="*D 449.02">sîne g<reg type="Synkope">e</reg>îserten arme?</l>
+<l n="*D 449.03">swie rîterlîch <seg type="singuläre_Lesart">die</seg> sîn gestalt,</l>
+<l n="*D 449.04">uns dunket doch <seg type="singuläre_Lesart">des</seg>, si <seg type="singuläre_Lesart">haben</seg> kalt.</l>
+<l n="*D 449.05">er <seg type="singuläre_Lesart">ervrür</seg>, w&#x00E6;ren sîn eines drî.</l>
+<l n="*D 449.06">dû hâst hie stênde nâhen bî</l>
+<l n="*D 449.07">gezelt unde <seg type="singuläre_Lesart">slavenîen</seg> hûs.</l>
+<l n="*D 449.08"><seg type="singuläre_Lesart">k&#x0153;me</seg> dir der künec <name type="Person">Artus</name>,</l>
+<l n="*D 449.09">dû behieltest in ouch mit spîse wol.</l>
+<l n="*D 449.10">nû tuo, als ein wirt sol:</l>
+<l n="*D 449.11">vüere disen rîter mit <seg type="singuläre_Lesart">dir</seg> dan."</l>
+<l n="*D 449.12">dô sprach aber der grâwe man:</l>
+<l n="*D 449.13">"hêrre, mîne tohter <seg type="singuläre_Lesart">sagent</seg> al wâr.</l>
+<l n="*D 449.14">hie nâhen bî elliu jâr</l>
+<l n="*D 449.15">var ich ûf disen wilden walt,</l>
+<l n="*D 449.16">ez sî warm oder kalt,</l>
+<l n="*D 449.17">immer gein <seg type="singuläre_Lesart">des</seg> marter zît,</l>
+<l n="*D 449.18"><seg type="singuläre_Lesart">der</seg> st&#x00E6;ten lôn nâch dienste gît.</l>
+<l n="*D 449.19">swaz spîse ich ûz <seg type="singuläre_Lesart">brâhte</seg> durch got,</l>
+<l n="*D 449.20">die teile ich mit iu âne spot."</l>
+<l n="*D 449.21">die ez mit guoten willen tâten,</l>
+<l n="*D 449.22">die juncvrouwen, <seg type="singuläre_Lesart"></seg>bâten</l>
+<l n="*D 449.23"><seg type="singuläre_Lesart">in</seg> belîben<seg type="singuläre_Lesart"></seg> sêre</l>
+<l n="*D 449.24">unt er hete belîbens êre.</l>
+<l n="*D 449.25">iewederiu daz mit triwen sprach.</l>
+<l n="*D 449.26"><name type="Person">Parzival</name> an in ersach,</l>
+<l n="*D 449.27">swie tiure von vroste <seg type="singuläre_Lesart">dâ was der</seg> sweiz,</l>
+<l n="*D 449.28">ir münde wâren rôt <seg type="singuläre_Lesart">unt</seg> dicke<seg type="singuläre_Lesart"></seg> heiz.</l>
+<l n="*D 449.29"><seg type="singuläre_Lesart">die</seg> stuonden niht senlîche,</l>
+<l n="*D 449.30">des tages zîte gelîche.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr5</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="449.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr5</wit> <wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="449.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="449.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="449.01">
+<lem>erwarme</lem> <rdg>warme <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.02">
+<rdg>sîne gesêrten arme? <wit>*m</wit></rdg>
+</app>
+<app loc="449.03">
+<lem>die</lem> <rdg>si <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.04">
+<lem>doch des</lem> <rdg>doch <wit>Fr5</wit> des doch <wit>*m</wit></rdg>
+</app>
+<app loc="449.04">
+<lem>haben</lem> <rdg>habint <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.05">
+<lem>ervrür</lem> <rdg>erfrurit <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.07">
+<lem>slavenîen</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.10">
+<lem>tuo</lem> <rdg>tuot <wit>*m</wit></rdg>
+</app>
+<app loc="449.11">
+<lem>dir</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.13">
+<lem>sagent</lem> <rdg>sagit <wit>Fr5</wit> (<wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="449.14">
+<lem>elliu</lem> <rdg>uns alliu (<subst><del>*</del><add>vnz alle</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="449.17">
+<lem>des</lem> <rdg>der <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.18">
+<lem>der</lem> <rdg>Div <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.19">
+<lem>brâhte</lem> <rdg>han braht <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.21">
+<lem>guoten</lem> <rdg>gu&#x0366;tim <wit>Fr5</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="449.22">
+<lem>bâten</lem> <rdg>in batin <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.23">
+<rdg>in belîbens sêre. <wit>*m</wit> (<wit>G</wit>)</rdg>
+</app>
+<app loc="449.23">
+<lem>in belîben</lem> <rdg>Bilibin harte <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.24">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="449.26">
+<rdg>Parzifal wol an in ersach <wit>I</wit></rdg>
+</app>
+<app loc="449.26">
+<lem>ersach</lem> <rdg>sach <wit>*m</wit> <wit>U</wit> wol sach (<subst><del>*</del><add>wol sach</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="449.27">
+<lem>dâ was der</lem> <rdg>in w&#x00E6;re <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.28">
+<lem>unt dicke</lem> <rdg>dicke vnd <wit>Fr5</wit> <wit>*m</wit></rdg>
+</app>
+<app loc="449.29">
+<lem>die</lem> <rdg>Sie <wit>Fr5</wit></rdg>
+</app>
+<app loc="449.29">
+<lem>die</lem> <rdg>sin <wit>I</wit></rdg>
+</app>
+<app loc="449.29">
+<lem>stuonden</lem> <rdg>stuenden <wit>G</wit></rdg>
+</app>
+<app loc="449.29">
+<lem>dien stuonden niht</lem> <rdg>Die stv&#x0366;nden <subst><del>*</del><add>niht</add></subst> <wit>V</wit> Die stundent <wit>R</wit></rdg>
+</app>
+<app loc="449.30">
+<lem> gelîche</lem> <rdg>ungelîch <wit>*m</wit></rdg>
+</app>
+<app loc="449.30">
+<lem>glîche</lem> <rdg><subst><del>*ng*iche</del><add>geliche</add></subst> <wit>V</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="449.01">
+<rdg></rdg>
+</app>
+<app loc="449.02">
+<rdg></rdg>
+</app>
+<app loc="449.03">
+<rdg>sw. r. si sîn (di sint <wit>O</wit> [<wit>L</wit> <wit>V</wit>]) g., <wit>*G</wit></rdg>
+</app>
+<app loc="449.04">
+<rdg>dunket doch, si <wit>*G</wit> <note>(ohne OZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="449.05">
+<rdg></rdg>
+</app>
+<app loc="449.06">
+<rdg></rdg>
+</app>
+<app loc="449.07">
+<rdg></rdg>
+</app>
+<app loc="449.08">
+<rdg></rdg>
+</app>
+<app loc="449.09">
+<rdg></rdg>
+</app>
+<app loc="449.10">
+<rdg></rdg>
+</app>
+<app loc="449.11">
+<rdg></rdg>
+</app>
+<app loc="449.12">
+<rdg></rdg>
+</app>
+<app loc="449.13">
+<rdg></rdg>
+</app>
+<app loc="449.14">
+<rdg></rdg>
+</app>
+<app loc="449.15">
+<rdg></rdg>
+</app>
+<app loc="449.16">
+<rdg></rdg>
+</app>
+<app loc="449.17">
+<rdg></rdg>
+</app>
+<app loc="449.18">
+<rdg></rdg>
+</app>
+<app loc="449.19">
+<rdg></rdg>
+</app>
+<app loc="449.20">
+<rdg>daz teil ich <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="449.21">
+<rdg></rdg>
+</app>
+<app loc="449.22">
+<rdg></rdg>
+</app>
+<app loc="449.23">
+<rdg></rdg>
+</app>
+<app loc="449.24">
+<rdg></rdg>
+</app>
+<app loc="449.25">
+<rdg></rdg>
+</app>
+<app loc="449.26">
+<rdg></rdg>
+</app>
+<app loc="449.27">
+<rdg>vr. dâ (<note>om.</note> <wit>O</wit> in <wit>*T</wit>) w&#x00E6;re der <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="449.28">
+<rdg>dicke (<note>om.</note> <wit>I</wit>) unde (<note>om.</note> <wit>L</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="449.29">
+<rdg></rdg>
+</app>
+<app loc="449.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

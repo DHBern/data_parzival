@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 737</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>22.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 737.01"><seg type="Initiale">A</seg>lsus manec sunder lant</l>
+<l n="*D 737.02">diende sîner werden hant,</l>
+<l n="*D 737.03"><name type="Person">Môre</name> und ander <name type="Person">Sarrazîne</name></l>
+<l n="*D 737.04">mit ungelîchem schîne.</l>
+<l n="*D 737.05">in sînem wît gesam<reg type="Synkope">e</reg>ntem her</l>
+<l n="*D 737.06">was manec wunderlîchiu wer.</l>
+<l n="*D 737.07"><seg type="Initiale" subtype="Majuskel">O</seg>uch reit nâch âventiure dan</l>
+<l n="*D 737.08">von sîme her dirre eine man</l>
+<l n="*D 737.09">durch baneken inz fôreht.</l>
+<l n="*D 737.10">sît si selbe nâmen in daz reht,</l>
+<l n="*D 737.11">die künege ich lâze rîten,</l>
+<l n="*D 737.12">al eine nâch prîse strîten.</l>
+<l n="*D 737.13"><name type="Person">Parzival</name> reit niht eine;</l>
+<l n="*D 737.14">dâ was mit im gemeine</l>
+<l n="*D 737.15">er selbe unt ouch sîn hôher muot,</l>
+<l n="*D 737.16">der sô manlîch wer dâ tuot,</l>
+<l n="*D 737.17">daz ez diu wîp solden lob<reg type="Synkope">e</reg>n,</l>
+<l n="*D 737.18">sine wolten denne durch lôsheit tob<reg type="Synkope">e</reg>n.</l>
+<l n="*D 737.19"><seg type="Initiale" subtype="Majuskel">H</seg>ie wellent ein ander vâren,</l>
+<l n="*D 737.20">die mit kiusche lember wâren</l>
+<l n="*D 737.21">unt lewen an der vrecheit.</l>
+<l n="*D 737.22">owê, sît diu erde was sô breit,</l>
+<l n="*D 737.23">daz si ein ander niht vermiten,</l>
+<l n="*D 737.24">die dâ umb unschulde striten.</l>
+<l n="*D 737.25">ich sorge des, den ich hân brâht,</l>
+<l n="*D 737.26">wan daz ich trôstes hân gedâht,</l>
+<l n="*D 737.27">in sule des <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> kraft ernern.</l>
+<l n="*D 737.28">in sol ouch diu minne wern.</l>
+<l n="*D 737.29">den was er beiden diensthaft</l>
+<l n="*D 737.30">âne wanc mit dienstlîcher kraft.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr69</wit> <note>(737.13-16 und 22-29)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="737.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="737.05"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr24</wit>
+</rdg></app>
+<app loc="737.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="737.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="737.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="737.10">
+<rdg>sît si selbe in nâmenz (si selbe in namez <wit>G</wit> siz in selben namen <wit>I</wit> si selbe ýnz namen <wit>L</wit> [<wit>Fr24</wit>]) ze reht, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="737.10">
+<lem>nâmen in</lem> <rdg>nâmen (nam <wit>mk</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="737.11">
+<lem>ich lâze</lem> <rdg>lât sô (so lant sv́ <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="737.17">
+<lem>solden</lem> <rdg>nû (wol <wit>V</wit>) solten <wit>*m</wit></rdg>
+</app>
+<app loc="737.21">
+<lem>an</lem> <rdg>in <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="737.22">
+<lem>sît</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="737.27">
+<lem>sule</lem> <rdg>sol <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="737.29">
+<lem>was er beiden</lem> <rdg>beiden was er (beidenschaft was <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="737.01">
+<rdg>als manic <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="737.02">
+<rdg></rdg>
+</app>
+<app loc="737.03">
+<rdg>ander <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="737.04">
+<rdg></rdg>
+</app>
+<app loc="737.05">
+<rdg>Mit s. wît gesamenten her <wit>*G</wit> <note>(nur GI)</note> · sîme wîten gesamenten her <wit>*T</wit></rdg>
+</app>
+<app loc="737.06">
+<rdg></rdg>
+</app>
+<app loc="737.07">
+<rdg>r. durch â. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="737.08">
+<rdg></rdg>
+</app>
+<app loc="737.09">
+<rdg>in diu f. <wit>*T</wit></rdg>
+</app>
+<app loc="737.10">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="737.11">
+<rdg>die künige, ich l. si (lasze ich <wit>L</wit>) r., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="737.12">
+<rdg></rdg>
+</app>
+<app loc="737.13">
+<rdg></rdg>
+</app>
+<app loc="737.14">
+<rdg></rdg>
+</app>
+<app loc="737.15">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="737.16">
+<rdg>dâ tuot. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="737.17">
+<rdg>ez <note>om.</note> <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="737.18">
+<rdg></rdg>
+</app>
+<app loc="737.19">
+<rdg></rdg>
+</app>
+<app loc="737.20">
+<rdg>kiuscheit <wit>*T</wit></rdg>
+</app>
+<app loc="737.21">
+<rdg>an der (mit ir <wit>I</wit>) kuonheit. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="737.22">
+<rdg>ouch sît <wit>*T</wit></rdg>
+</app>
+<app loc="737.23">
+<rdg>si <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="737.24">
+<rdg></rdg>
+</app>
+<app loc="737.25">
+<rdg></rdg>
+</app>
+<app loc="737.26">
+<rdg></rdg>
+</app>
+<app loc="737.27">
+<rdg></rdg>
+</app>
+<app loc="737.28">
+<rdg></rdg>
+</app>
+<app loc="737.29">
+<rdg></rdg>
+</app>
+<app loc="737.30">
+<rdg>mit dienstes kr. <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

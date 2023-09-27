@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 503</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>02.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 503.01"><seg type="Initiale">E</seg>z n&#x00E6;ht nû wilden m&#x00E6;ren,</l>
+<l n="*D 503.02">die vreuden kunnen l&#x00E6;ren</l>
+<l n="*D 503.03">unt die hôch gemüete bringent;</l>
+<l n="*D 503.04">mit den bêden si ringent.</l>
+<l n="*D 503.05">nû was ez ouch über des jâr<reg type="Synkope">e</reg>s zît.</l>
+<l n="*D 503.06">gescheid<reg type="Synkope">e</reg>n was des kampf<reg type="Synkope">e</reg>s strît,</l>
+<l n="*D 503.07">den der lantgrâve zem <name type="Ort">Plimiz&#x0153;l</name></l>
+<l n="*D 503.08">erwarp. der was ze <name type="Ort">Barbig&#x0153;l</name></l>
+<l n="*D 503.09">von <name type="Ort">Schanpfanzun</name> gesprochen;</l>
+<l n="*D 503.10">dâ beleip ungerochen</l>
+<l n="*D 503.11">der künec <name type="Person">Kingrisin</name>.</l>
+<l n="*D 503.12"><name type="Person">Vergulaht</name>, der sun sîn,</l>
+<l n="*D 503.13">kom gein <name type="Person">Gawane</name> dar.</l>
+<l n="*D 503.14">dô nam diu werlt ir sippe war</l>
+<l n="*D 503.15">und schiet den kampf ir sippe maht,</l>
+<l n="*D 503.16">wand ouch der grâve <name type="Person">Ehkunaht</name></l>
+<l n="*D 503.17">ûf im die grôzen schulde truoc,</l>
+<l n="*D 503.18">der man <name type="Person">Gawanen</name> zêch genuoc.</l>
+<l n="*D 503.19">des verkôs <name type="Person">Kingrimursel</name></l>
+<l n="*D 503.20">ûf <name type="Person">Gawanen</name>, den degen snel.</l>
+<l n="*D 503.21">si vuoren beide sunder dan,</l>
+<l n="*D 503.22"><name type="Person">Vergulaht</name> unt <name type="Person">Gawan</name>,</l>
+<l n="*D 503.23">an dem selbem mâle</l>
+<l n="*D 503.24">durch vorschen nâch dem <name type="Sonstiges">Grâle</name>.</l>
+<l n="*D 503.25">al dâ si mit ir henden</l>
+<l n="*D 503.26">manege tjoste muosen senden.</l>
+<l n="*D 503.27">wan swers <name type="Sonstiges">Grâl<reg type="Synkope">e</reg>s</name> gerte,</l>
+<l n="*D 503.28">d<corr type="Emendation">er</corr> muose mit dem swerte</l>
+<l n="*D 503.29">sich dem prîse nâhen.</l>
+<l n="*D 503.30">sus sol man prîses gâhen.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 503.16)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr57</wit> <note>(503.1-10)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="503.01"><rdg>
+<note>Illustration mit Überschrift:</note> Hie vohet an wunderlich offentu̽re also gawan gon orgeleise kam <wit>mk</wit>
+</rdg></app><app loc="503.01"><rdg><note>Überschrift:</note> Hie scheidet parcifal von siner muter bruder der ein heilic man was Vnd het im alle sine svnde gesagt Vnd het sie der selb man vf sich genomen zv bvzzen fvr in Vnd was bi im in der Closen gewesen vntz an den fvnfzehenden tac Vnd het newer krvt vnd wurtzelin gezzen Vnd ritet er nv von im Vnd hat rat genomen vmb den gral vnd vmb sache war er nu qvam daz lese man hin fvrbaz <wit>Z</wit>
+</rdg></app><app loc="503.01"><rdg>Hie wúrt Gawan vnde der lantgrave versv&#x0364;net mit <subst><del>kyngri*</del><add>kyngrisin</add></subst> vnde sime svne virgvlat vmbe den kamph Den sv́ soltent han getan ze schamfenzvn / Hie gan die wilden auentv́ren an vnde wie Gawan zv&#x0366; orgelvsen kam <wit>V</wit>
+</rdg></app><app loc="503.01"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="503.01"><rdg><note>Initiale</note> <wit>mk</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr57</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="503.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="503.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="503.11">
+<rdg>der werde künic Kingrisin. <wit>*m</wit></rdg>
+</app>
+<app loc="503.15">
+<lem>sippe</lem> <rdg>site <wit>*m</wit></rdg>
+</app>
+<app loc="503.18">
+<lem>Gawanen zêch</lem> <rdg>zêch Gawan <wit>*m</wit></rdg>
+</app>
+<app loc="503.19">
+<lem>des</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="503.25">
+<lem>al dâ</lem> <rdg>alsô <wit>*m</wit></rdg>
+</app>
+<app loc="503.28">
+<lem>der</lem> <rdg>do <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="503.01">
+<rdg></rdg>
+</app>
+<app loc="503.02">
+<rdg></rdg>
+</app>
+<app loc="503.03">
+<rdg></rdg>
+</app>
+<app loc="503.04">
+<rdg></rdg>
+</app>
+<app loc="503.05">
+<rdg>ez (ovch <wit>O</wit>) ü. <wit>*T</wit> · j. zît, <wit>*G</wit></rdg>
+</app>
+<app loc="503.06">
+<rdg>daz g. <wit>*G</wit> <note>(ohne LZ)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="503.07">
+<rdg>den der grâve zem Plymizol <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="503.08">
+<rdg></rdg>
+</app>
+<app loc="503.09">
+<rdg></rdg>
+</app>
+<app loc="503.10">
+<rdg></rdg>
+</app>
+<app loc="503.11">
+<rdg></rdg>
+</app>
+<app loc="503.12">
+<rdg></rdg>
+</app>
+<app loc="503.13">
+<rdg>der kom <wit>*T</wit></rdg>
+</app>
+<app loc="503.14">
+<rdg></rdg>
+</app>
+<app loc="503.15">
+<rdg></rdg>
+</app>
+<app loc="503.16">
+<rdg></rdg>
+</app>
+<app loc="503.17">
+<rdg>die sw&#x00E6;ren sch. <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="503.18">
+<rdg></rdg>
+</app>
+<app loc="503.19">
+<rdg>dô (<subst><del>Des</del><add>Do</add></subst> <wit>G</wit> daz <wit>*T</wit>) v. K. <wit>*G</wit> <note>(ohne LZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="503.20">
+<rdg></rdg>
+</app>
+<app loc="503.21">
+<rdg></rdg>
+</app>
+<app loc="503.22">
+<rdg></rdg>
+</app>
+<app loc="503.23">
+<rdg></rdg>
+</app>
+<app loc="503.24">
+<rdg></rdg>
+</app>
+<app loc="503.25">
+<rdg></rdg>
+</app>
+<app loc="503.26">
+<rdg></rdg>
+</app>
+<app loc="503.27">
+<rdg></rdg>
+</app>
+<app loc="503.28">
+<rdg></rdg>
+</app>
+<app loc="503.29">
+<rdg></rdg>
+</app>
+<app loc="503.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

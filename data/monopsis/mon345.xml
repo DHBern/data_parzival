@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 345</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 345.01"><seg type="Initiale">E</seg>r kôs im einen sund<reg type="Synkope">e</reg>r dan,</l>
+<l n="*D 345.02">der vürste was sîn h&#x0153;hster man,</l>
+<l n="*D 345.03">gegen triwe alsô bew&#x00E6;ret,</l>
+<l n="*D 345.04">aller valscheit erl&#x00E6;ret.</l>
+<l n="*D 345.05">den bat er ziehen sînen sun.</l>
+<l n="*D 345.06">er sprach: "dû maht an im nû tuon</l>
+<l n="*D 345.07">dîner triwe hantveste.</l>
+<l n="*D 345.08">bitte in, daz er die geste</l>
+<l n="*D 345.09">unt die heinlîchen habe wert.</l>
+<l n="*D 345.10">swenne es der kumberhafte gert,</l>
+<l n="*D 345.11">dem bitte in teilen sîne habe."</l>
+<l n="*D 345.12">sus wart bevolhen dâ der knabe.</l>
+<l n="*D 345.13"><seg type="Initiale" subtype="Majuskel">D</seg>ô leiste der vürste <name type="Person">Lyppaut</name></l>
+<l n="*D 345.14">al daz sîn hêrre, der künec <name type="Person">Schaut</name>,</l>
+<l n="*D 345.15">an tôdes legere gein im warp.</l>
+<l n="*D 345.16">harte wênec des verdarp,</l>
+<l n="*D 345.17">endehaft ez wart geleistet sid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 345.18">der vürste vuorte den knappen wid<reg type="Synkope">e</reg>r.</l>
+<l n="*D 345.19">der hete dâ heime liebiu kint,</l>
+<l n="*D 345.20">als si im noch billîche sint:</l>
+<l n="*D 345.21">eine tohter, der des niht gebrach,</l>
+<l n="*D 345.22">wan daz man des ir zîte jach,</l>
+<l n="*D 345.23">si w&#x00E6;re wol âmîe.</l>
+<l n="*D 345.24">sie hiez <name type="Person">Obie</name>.</l>
+<l n="*D 345.25">ir swester heizet <name type="Person">Obilot</name>.</l>
+<l n="*D 345.26"><name type="Person">Obie</name> vrumt uns dise nôt.</l>
+<l n="*D 345.27"><seg type="Initiale" subtype="Majuskel">E</seg>in<reg type="Synkope">e</reg>s tages gedêch ez an die stat,</l>
+<l n="*D 345.28">daz si der junge künec bat</l>
+<l n="*D 345.29">nâch sîme die<corr type="Emendation">n</corr>ste minne.</l>
+<l n="*D 345.30">si vervluochte im sîne sinne</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="345.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+<app loc="345.13"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="345.13"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="345.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="345.27"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="345.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="345.01">
+<rdg>doch kôs er sunder einen dan, <wit>*m</wit></rdg>
+</app>
+<app loc="345.19">
+<rdg>dâr heim, dâ hete er liebiu kint, <wit>*m</wit></rdg>
+</app>
+<app loc="345.24">
+<rdg>die heizet Obie. <wit>*m</wit></rdg>
+</app>
+<app loc="345.28">
+<lem>si</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="345.29">
+<lem>dienste</lem> <rdg>dieste <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="345.01">
+<rdg></rdg>
+</app>
+<app loc="345.02">
+<rdg>einen vürsten, der was <wit>*T</wit></rdg>
+</app>
+<app loc="345.03">
+<rdg></rdg>
+</app>
+<app loc="345.04">
+<rdg></rdg>
+</app>
+<app loc="345.05">
+<rdg></rdg>
+</app>
+<app loc="345.06">
+<rdg>im wol t. <wit>*T</wit></rdg>
+</app>
+<app loc="345.07">
+<rdg></rdg>
+</app>
+<app loc="345.08">
+<rdg></rdg>
+</app>
+<app loc="345.09">
+<rdg></rdg>
+</app>
+<app loc="345.10">
+<rdg></rdg>
+</app>
+<app loc="345.11">
+<rdg>den (Dem <wit>O</wit> <wit>Z</wit>) bit im t. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="345.12">
+<rdg></rdg>
+</app>
+<app loc="345.13">
+<rdg></rdg>
+</app>
+<app loc="345.14">
+<rdg></rdg>
+</app>
+<app loc="345.15">
+<rdg>an des (Andem <wit>O</wit> [<wit>Z</wit> <wit>Fr22</wit>] An <wit>L</wit>) t. (totde <wit>I</wit>) <wit>*G</wit> · im erwarp. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="345.16">
+<rdg></rdg>
+</app>
+<app loc="345.17">
+<rdg></rdg>
+</app>
+<app loc="345.18">
+<rdg></rdg>
+</app>
+<app loc="345.19">
+<rdg>er h. <wit>*T</wit></rdg>
+</app>
+<app loc="345.20">
+<rdg>si (<subst><del>*</del><add>sim</add></subst> <wit>V</wit>) n. <wit>*T</wit> <wit>Fr22</wit></rdg>
+</app>
+<app loc="345.21">
+<rdg></rdg>
+</app>
+<app loc="345.22">
+<rdg></rdg>
+</app>
+<app loc="345.23">
+<rdg></rdg>
+</app>
+<app loc="345.24">
+<rdg>si heizet O. <wit>*G</wit> · si h. (<subst><del>hiez*</del><add>hiezset</add></subst> <wit>V</wit>) Obie <wit>*T</wit></rdg>
+</app>
+<app loc="345.25">
+<rdg>unde ir sw. O. (<subst><del>*</del><add>heisset</add></subst> obylot <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="345.26">
+<rdg></rdg>
+</app>
+<app loc="345.27">
+<rdg></rdg>
+</app>
+<app loc="345.28">
+<rdg></rdg>
+</app>
+<app loc="345.29">
+<rdg>n. sînem d. ir m. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="345.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

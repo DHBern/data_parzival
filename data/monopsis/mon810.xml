@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 810</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 810.01"><name type="Ort">Pelrapeire</name> al anders vant,</l>
+<l n="*D 810.02">dô si im zem êrsten wart erkant.</l>
+<l n="*D 810.03"><seg type="Initiale" subtype="Majuskel">D</seg>er <name type="Person">heiden</name> vrâgte m&#x00E6;re,</l>
+<l n="*D 810.04">wâ von diu goltvaz l&#x00E6;re</l>
+<l n="*D 810.05">vor der taveln würden vol.</l>
+<l n="*D 810.06">daz wunder im tet ze seh<reg type="Synkope">e</reg>n wol.</l>
+<l n="*D 810.07"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der clâre <name type="Person">Anfortas</name>,</l>
+<l n="*D 810.08">der im ze gesellen gegeb<reg type="Synkope">e</reg>n was:</l>
+<l n="*D 810.09">"hêrre, seht ir vor iu ligen den <name type="Sonstiges">Grâl</name>?"</l>
+<l n="*D 810.10">dô sprach der <name type="Person">heiden</name> vêch gemâl:</l>
+<l n="*D 810.11">"ich ensihe niht wan ein achmardî.</l>
+<l n="*D 810.12">daz truoc mîn juncvrouwe uns bî,</l>
+<l n="*D 810.13">diu dort vor uns mit krône stêt.</l>
+<l n="*D 810.14">ir blic mir inz herze gêt.</l>
+<l n="*D 810.15"><seg type="Initiale" subtype="Majuskel">I</seg>ch wânde, sô starc w&#x00E6;re mîn lîp,</l>
+<l n="*D 810.16">daz iemmer magt oder wîp</l>
+<l n="*D 810.17">mir vreuden kraft ben&#x00E6;me.</l>
+<l n="*D 810.18">mir ist worden widerz&#x00E6;me,</l>
+<l n="*D 810.19">ob ich ie werde minne enpfienc.</l>
+<l n="*D 810.20">unzuht mir zuht undervienc,</l>
+<l n="*D 810.21">daz ich iu künde mîne nôt,</l>
+<l n="*D 810.22">sît ich iu dienst nie gebôt.</l>
+<l n="*D 810.23"><seg type="Initiale" subtype="Majuskel">W</seg>az hilfet al mîn rîcheit</l>
+<l n="*D 810.24">unt swaz ich ie durch wîp gestreit,</l>
+<l n="*D 810.25">unt ob mîn hant iht hât vergeb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 810.26">muoz ich sus pîn<reg type="Synkope">e</reg>clîche leb<reg type="Synkope">e</reg>n?</l>
+<l n="*D 810.27"><seg type="Initiale" subtype="Majuskel">E</seg>in kreftec got, <name type="Person">Jupiter</name>,</l>
+<l n="*D 810.28">waz woldestû mîn zunsenfte her?"</l>
+<l n="*D 810.29">minnen kraft mit vreuden krenke</l>
+<l n="*D 810.30">vrumt in bleich an sîner blenke.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <note>(810.1-24)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="810.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="810.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> 
+</rdg></app><app loc="810.03"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="810.07"><rdg>
+<note>Initiale</note> <wit>U</wit>
+</rdg></app><app loc="810.07"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="810.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="810.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="810.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="810.27"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="810.04">
+<lem>l&#x00E6;re</lem> <rdg>w&#x00E6;re <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="810.07">
+<lem>clâre</lem> <rdg>künic <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="810.09">
+<lem>vor iu ligen</lem> <rdg>ligen (ligent <wit>mk</wit>) vor iu <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="810.12">
+<lem>mîn</lem> <rdg>ein <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="810.13">
+<rdg>diu (Do <wit>mk</wit>) dort mit krône vor (fu̽r <wit>mk</wit>) uns stât. <wit>*m</wit></rdg>
+</app>
+<app loc="810.14">
+<lem>mir</lem> <rdg>mir unz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="810.28">
+<lem>zunsenfte</lem> <rdg>zuo unsanft <wit>*m</wit></rdg>
+</app>
+<app loc="810.30">
+<lem>in</lem> <rdg><subst><del>im</del><add>in</add></subst> <wit>D</wit> ẏm <wit>mk</wit></rdg>
+</app>
+<app loc="810.30">
+<lem>an</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="810.01">
+<rdg></rdg>
+</app>
+<app loc="810.02">
+<rdg>dô si (ez <wit>L</wit>) im êrst w. e. (bekant <wit>*T</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="810.03">
+<rdg></rdg>
+</app>
+<app loc="810.04">
+<rdg></rdg>
+</app>
+<app loc="810.05">
+<rdg></rdg>
+</app>
+<app loc="810.06">
+<rdg></rdg>
+</app>
+<app loc="810.07">
+<rdg></rdg>
+</app>
+<app loc="810.08">
+<rdg></rdg>
+</app>
+<app loc="810.09">
+<rdg></rdg>
+</app>
+<app loc="810.10">
+<rdg></rdg>
+</app>
+<app loc="810.11">
+<rdg></rdg>
+</app>
+<app loc="810.12">
+<rdg></rdg>
+</app>
+<app loc="810.13">
+<rdg>diu d. mit kr. vor uns st. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="810.14">
+<rdg></rdg>
+</app>
+<app loc="810.15">
+<rdg></rdg>
+</app>
+<app loc="810.16">
+<rdg>daz weder maget o. wîp <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="810.17">
+<rdg></rdg>
+</app>
+<app loc="810.18">
+<rdg></rdg>
+</app>
+<app loc="810.19">
+<rdg></rdg>
+</app>
+<app loc="810.20">
+<rdg></rdg>
+</app>
+<app loc="810.21">
+<rdg></rdg>
+</app>
+<app loc="810.22">
+<rdg></rdg>
+</app>
+<app loc="810.23">
+<rdg></rdg>
+</app>
+<app loc="810.24">
+<rdg></rdg>
+</app>
+<app loc="810.25">
+<rdg></rdg>
+</app>
+<app loc="810.26">
+<rdg>sus blintlîche l.? <wit>*T</wit></rdg>
+</app>
+<app loc="810.27">
+<rdg>mîn (<subst><del>M*</del><add>Min</add></subst> <wit>V</wit>) kr. got Juppiter, <wit>*G</wit> (<wit>V</wit>) · ey, kr. got J., <wit>*T</wit></rdg>
+</app>
+<app loc="810.28">
+<rdg></rdg>
+</app>
+<app loc="810.29">
+<rdg></rdg>
+</app>
+<app loc="810.30">
+<rdg>vr. im bleiche <wit>*G</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

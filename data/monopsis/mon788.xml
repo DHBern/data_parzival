@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 788</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 788.01"><seg type="Initiale"><corr type="Emendation">I</corr></seg>ch vreuden ellende,</l>
+<l n="*D 788.02">zem urteillîchem ende</l>
+<l n="*D 788.03">beklage ich eine iuch alle.</l>
+<l n="*D 788.04">sô n&#x00E6;het ez iwerem valle,</l>
+<l n="*D 788.05">ir enlât mich von iu scheiden.</l>
+<l n="*D 788.06">mîn kumber solt iu leiden.</l>
+<l n="*D 788.07"><seg type="Initiale" subtype="Majuskel">I</seg>r habt geseh<reg type="Synkope">e</reg>n unt ouch vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 788.08">wie mir diz ungelücke ist kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 788.09">waz toug ich iu ze hêrr<reg type="Synkope">e</reg>n nû?</l>
+<l n="*D 788.10">ez ist iu leider al ze vruo,</l>
+<l n="*D 788.11">wirt iwer sêle an mir verlorn.</l>
+<l n="*D 788.12">waz sites habt ir iu erkorn?"</l>
+<l n="*D 788.13"><seg type="Initiale" subtype="Majuskel">S</seg>i heten kumbers in erlôst,</l>
+<l n="*D 788.14">wan der trôstlîche trôst,</l>
+<l n="*D 788.15">den <name type="Person">Trevrizent</name> dort vorn sprach,</l>
+<l n="*D 788.16">als er ame <name type="Sonstiges">Grâle</name> geschriben sach.</l>
+<l n="*D 788.17">si warten anderstunt des man,</l>
+<l n="*D 788.18">dem al sîn vreude al dâ entran,</l>
+<l n="*D 788.19">unt der helfeclîchen stunde</l>
+<l n="*D 788.20">der vrâge von sînem munde.</l>
+<l n="*D 788.21"><seg type="Initiale" subtype="Majuskel">D</seg>er künec sich dicke des bewac,</l>
+<l n="*D 788.22">daz er blinzender ougen pflac</l>
+<l n="*D 788.23">etswenne gein vier tag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 788.24">sô wart er zuome <name type="Sonstiges">Grâle</name> getrag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 788.25">ez w&#x00E6;re im lieb oder leit.</l>
+<l n="*D 788.26">sô twang in des diu siecheit,</l>
+<l n="*D 788.27">daz er dougen ûf swanc.</l>
+<l n="*D 788.28">sô muos er âne sînen danc</l>
+<l n="*D 788.29">leb<reg type="Synkope">e</reg>n unt niht ersterben.</l>
+<l n="*D 788.30">sus kunden si mit im werben</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit> <wit>Fr6</wit> <note>(788.1-3)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="788.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit>
+</rdg></app><app loc="788.01"><rdg><note>Majuskel</note> <wit>Fr6</wit>
+</rdg></app>
+<app loc="788.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="788.13"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>I</wit>
+</rdg></app><app loc="788.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="788.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="788.01">
+<lem>Ich</lem> <rdg>&#x00F7;ch <wit>D</wit></rdg>
+</app>
+<app loc="788.07">
+<lem>ouch</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="788.08">
+<lem>diz ungelücke ist</lem> <rdg>daz ungelück ist (ist daz vngeluche <wit>I</wit>) <wit>*m</wit> <note>(nur m)</note> (<wit>I</wit>)</rdg>
+</app>
+<app loc="788.09">
+<lem>ze</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="788.10">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="788.14">
+<lem>trôstlîche</lem> <rdg>trôstlôse <wit>*m</wit></rdg>
+</app>
+<app loc="788.15">
+<lem>vorn</lem> <rdg><subst><del>vor</del><add>vorn</add></subst> <wit>D</wit> vornan (vor <subst><del>*</del><add>E</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="788.01">
+<rdg></rdg>
+</app>
+<app loc="788.02">
+<rdg></rdg>
+</app>
+<app loc="788.03">
+<rdg>iuch eine <wit>*T</wit></rdg>
+</app>
+<app loc="788.04">
+<rdg></rdg>
+</app>
+<app loc="788.05">
+<rdg></rdg>
+</app>
+<app loc="788.06">
+<rdg></rdg>
+</app>
+<app loc="788.07">
+<rdg>unde wol v., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="788.08">
+<rdg></rdg>
+</app>
+<app loc="788.09">
+<rdg></rdg>
+</app>
+<app loc="788.10">
+<rdg></rdg>
+</app>
+<app loc="788.11">
+<rdg></rdg>
+</app>
+<app loc="788.12">
+<rdg></rdg>
+</app>
+<app loc="788.13">
+<rdg>si hieten trûrens in e., <wit>*G</wit></rdg>
+</app>
+<app loc="788.14">
+<rdg>wan daz der <wit>*T</wit> <wit>G</wit></rdg>
+</app>
+<app loc="788.15">
+<rdg>vorne ê (vorne <add>ê</add> <wit>G</wit> E vor <wit>L</wit>) sp., <wit>*G</wit> <note>(ohne IZ)</note> vor ê sp., <wit>*T</wit></rdg>
+</app>
+<app loc="788.16">
+<rdg></rdg>
+</app>
+<app loc="788.17">
+<rdg>a. dem (<subst><del>d*m*</del><add>dem</add></subst> <wit>V</wit>) man <wit>*T</wit> (<wit>V</wit>) <wit>L</wit></rdg>
+</app>
+<app loc="788.18">
+<rdg></rdg>
+</app>
+<app loc="788.19">
+<rdg>unt <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="788.20">
+<rdg></rdg>
+</app>
+<app loc="788.21">
+<rdg></rdg>
+</app>
+<app loc="788.22">
+<rdg></rdg>
+</app>
+<app loc="788.23">
+<rdg></rdg>
+</app>
+<app loc="788.24">
+<rdg></rdg>
+</app>
+<app loc="788.25">
+<rdg></rdg>
+</app>
+<app loc="788.26">
+<rdg>in diu sicherheit (des <subst><del>sicherheit</del><add>sichheit</add></subst> <wit>L</wit> des sin sicheit <wit>Z</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="788.27">
+<rdg>ûf twanc. <wit>*T</wit></rdg>
+</app>
+<app loc="788.28">
+<rdg>âne mînen d. <wit>*T</wit></rdg>
+</app>
+<app loc="788.29">
+<rdg></rdg>
+</app>
+<app loc="788.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

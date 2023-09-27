@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 147</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 147.01">vriunt, nû saget der künegîn,</l>
+<l n="*D 147.02">ich begüzzes ân den willen mîn,</l>
+<l n="*D 147.03">al dâ die werden sâzen,</l>
+<l n="*D 147.04">die rehter wer vergâzen.</l>
+<l n="*D 147.05">ez sîn künege od<reg type="Synkope">e</reg>r vürsten,</l>
+<l n="*D 147.06">wes lâzent si ir wirt erdürsten?</l>
+<l n="*D 147.07">wan holent si im hie sîn goltvaz?</l>
+<l n="*D 147.08">ir sneller prîs wirt anders laz."</l>
+<l n="*D 147.09"><seg type="Initiale" subtype="Majuskel">D</seg>er knappe sprach: "ich wirbe dir,</l>
+<l n="*D 147.10">swaz dû gesprochen hâst ze mir."</l>
+<l n="*D 147.11">er reit von im ze <name type="Ort">Nantes</name> în.</l>
+<l n="*D 147.12">dâ volgeten im diu kindelîn</l>
+<l n="*D 147.13">ûf den hof vür den palas,</l>
+<l n="*D 147.14">dâ maneger slahte vuore was.</l>
+<l n="*D 147.15">schiere wart umb in gedranc.</l>
+<l n="*D 147.16"><name type="Person">Iwanet</name> dar nâher spranc,</l>
+<l n="*D 147.17">ein knappe valsches vrîe,</l>
+<l n="*D 147.18">der bôt im kumpânîe.</l>
+<l n="*D 147.19"><seg type="Initiale"><corr type="Emendation">D</corr></seg>er knappe sprach: "got halde dich,</l>
+<l n="*D 147.20">bat reden mîn muot<reg type="Synkope">e</reg>r mich,</l>
+<l n="*D 147.21">ê daz ich schiede von ir hûs.</l>
+<l n="*D 147.22">ich sihe hie manegen <name type="Person">Artus</name>.</l>
+<l n="*D 147.23"><seg type="Initiale" subtype="Majuskel">W</seg>er sol mich ritter machen?"</l>
+<l n="*D 147.24"><name type="Person">Iwanet</name> begunde lachen.</l>
+<l n="*D 147.25">er sprach: "dûne sihst des rehten niht,</l>
+<l n="*D 147.26">daz aber schiere nû geschiht."</l>
+<l n="*D 147.27">er vuorten în zem palas,</l>
+<l n="*D 147.28">dâ diu werde massenîe was.</l>
+<l n="*D 147.29">sus vil kund<reg type="Synkope">e</reg>r in schalle,</l>
+<l n="*D 147.30">er sprach: "got halde iuch hêrren alle,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit> <note>(ohne 147.7-8)</note> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="147.09"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="147.09"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="147.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="147.19"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="147.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="147.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="147.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="147.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="147.01">
+<rdg>vriunt mîn, sage der künigîn, <wit>*m</wit></rdg>
+</app>
+<app loc="147.05">
+<lem>sîn</lem> <rdg>sî <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="147.07">
+<lem>si im</lem> <rdg>sinne <wit>*m</wit></rdg>
+</app>
+<app loc="147.14">
+<lem>slahte</lem> <rdg>hande <wit>*m</wit></rdg>
+</app>
+<app loc="147.17">
+<lem>ein</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+<app loc="147.18">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="147.19">
+<lem>Der</lem> <rdg>&#x00F7;eR <note>nachträglich korrigiert zu:</note> DeR <wit>D</wit></rdg>
+</app>
+<app loc="147.20">
+<rdg>bat mîn muoter reden mich, <wit>*m</wit></rdg>
+</app>
+<app loc="147.20">
+<rdg>alsus bat reden (also bat <wit>I</wit>) mîn muoter mich, <wit>*G</wit></rdg>
+</app>
+<app loc="147.20">
+<rdg>alsus bat diu (<subst><del>*</del><add>Suz bat reden min</add></subst> <wit>V</wit> sus hiez <subst><del>div</del><add>min</add></subst> <wit>T</wit>) muoter mich, <wit>*T</wit></rdg>
+</app>
+<app loc="147.23">
+<lem>mich</lem> <rdg>mich hie <wit>*m</wit></rdg>
+</app>
+<app loc="147.27">
+<lem>în</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="147.30">
+<lem>hêrren</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="147.01">
+<rdg>sage <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="147.02">
+<rdg></rdg>
+</app>
+<app loc="147.03">
+<rdg></rdg>
+</app>
+<app loc="147.04">
+<rdg></rdg>
+</app>
+<app loc="147.05">
+<rdg></rdg>
+</app>
+<app loc="147.06">
+<rdg>si den (ir <wit>L</wit>) w. dürsten? <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="147.07">
+<rdg>wan h. si im hie niht sîn (holent niht hie sin <wit>Z</wit> holnt si hie sin <wit>T</wit>) g.? <wit>*T</wit></rdg>
+</app>
+<app loc="147.08">
+<rdg></rdg>
+</app>
+<app loc="147.09">
+<rdg></rdg>
+</app>
+<app loc="147.10">
+<rdg></rdg>
+</app>
+<app loc="147.11">
+<rdg>er (Der <wit>L</wit>) r. vor im <wit>*G</wit> der (<subst><del>D*r</del><add>Er</add></subst> <wit>V</wit> vnd <wit>I</wit>) r. von <wit>*T</wit> <note>(nur U)</note> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="147.12">
+<rdg></rdg>
+</app>
+<app loc="147.13">
+<rdg></rdg>
+</app>
+<app loc="147.14">
+<rdg>maniger hande v. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="147.15">
+<rdg>vil sch. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="147.16">
+<rdg></rdg>
+</app>
+<app loc="147.17">
+<rdg>der kn. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="147.18">
+<rdg>unde bôt <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="147.19">
+<rdg>dô sp. der gast (<note>om.</note> <wit>Z</wit>): <wit>*G</wit> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="147.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="147.21">
+<rdg></rdg>
+</app>
+<app loc="147.22">
+<rdg></rdg>
+</app>
+<app loc="147.23">
+<rdg></rdg>
+</app>
+<app loc="147.24">
+<rdg></rdg>
+</app>
+<app loc="147.25">
+<rdg>"dû sihest rehte (<subst><del>*</del><add>dez rehte</add></subst> <wit>V</wit>) n., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="147.26">
+<rdg></rdg>
+</app>
+<app loc="147.27">
+<rdg>dô vuortern (Do fvrt er <add>in</add> <wit>O</wit> er vuortin <wit>*T</wit>) hin (<note>om.</note> <wit>O</wit> <wit>L</wit> in <wit>Z</wit>) zem p., <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="147.28">
+<rdg></rdg>
+</app>
+<app loc="147.29">
+<rdg></rdg>
+</app>
+<app loc="147.30">
+<rdg>hêrren (herren <subst><del>*</del><add>alle</add></subst> <wit>T</wit>) <note>om.</note> <wit>*T</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

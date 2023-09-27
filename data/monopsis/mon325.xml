@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 325</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 325.01"><seg type="Initiale">S</seg>us schiet der wol gelobte man</l>
+<l n="*D 325.02">von dem <name type="Ort">Plimiz&#x0153;ls</name> plân.</l>
+<l n="*D 325.03">dô <name type="Person">Kingrimursel</name> wart genant,</l>
+<l n="*D 325.04">ohteiz, dô wart er schiere erkant!</l>
+<l n="*D 325.05">werden, virrigen prîs</l>
+<l n="*D 325.06">het an im der vürste wîs.</l>
+<l n="*D 325.07">si jâhen, daz hêr <name type="Person">Gawan</name></l>
+<l n="*D 325.08">des kampfes sorge müese hân</l>
+<l n="*D 325.09">gein sîner wâren manheit,</l>
+<l n="*D 325.10">des vürsten, der dâ von in reit.</l>
+<l n="*D 325.11">ouch wante manegen trûrens nôt,</l>
+<l n="*D 325.12">daz man im dâ niht êre bôt.</l>
+<l n="*D 325.13">dar wâren solhiu m&#x00E6;re kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 325.14">als ir wol ê hât vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 325.15">die lîhte erwanden einem gast,</l>
+<l n="*D 325.16">daz wirtes gruozes im gebrast.</l>
+<l n="*D 325.17"><seg type="Initiale" subtype="Majuskel">V</seg>on <name type="Person">Cundrien</name> man ouch innen wart</l>
+<l n="*D 325.18"><name type="Person">Parzivales</name> nam<reg type="Synkope">e</reg>n unt sîner art,</l>
+<l n="*D 325.19">daz in gebar ein künegîn</l>
+<l n="*D 325.20">unt wie die erwarp der <name type="Person">Anschevin</name>.</l>
+<l n="*D 325.21"><seg type="Initiale" subtype="Majuskel">M</seg>aneger sprach: "vil wol ichz weiz,</l>
+<l n="*D 325.22">daz er si vor <name type="Ort">Kanvoleiz</name></l>
+<l n="*D 325.23">gediende hurteclîche</l>
+<l n="*D 325.24">mit manegem poynd<reg type="Synkope">e</reg>r rîche</l>
+<l n="*D 325.25">unt daz sîn ellen unverzagt</l>
+<l n="*D 325.26">erwarp die s&#x00E6;ldeb&#x00E6;ren magt.</l>
+<l n="*D 325.27"><name type="Person">Ampflise</name>, diu gehêrte,</l>
+<l n="*D 325.28">ouch <name type="Person">Gahmureten</name> lêrte,</l>
+<l n="*D 325.29">dâ von der helt wart kurtoys.</l>
+<l n="*D 325.30">nû sol ein ieslîch <name type="Person">Bertenoys</name></l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="325.01"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="325.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit> 
+</rdg></app>
+<app loc="325.11"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit>
+</rdg></app>
+<app loc="325.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="325.17"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="325.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="325.21"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app><app loc="325.21"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="325.25"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="325.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="325.05">
+<lem>werden</lem> <rdg>wand werden (Wande <subst><del>w*</del><add>werden</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="325.11">
+<lem>wante</lem> <rdg>mante <wit>*m</wit></rdg>
+</app>
+<app loc="325.12">
+<lem>êre</lem> <rdg>êren <wit>*m</wit></rdg>
+</app>
+<app loc="325.13">
+<rdg>dô wâren dar soliche m&#x00E6;r komen (komen solliche mer <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="325.14">
+<lem>wol ê</lem> <rdg>ê wol <wit>*m</wit></rdg>
+</app>
+<app loc="325.15">
+<lem>einem</lem> <rdg>einen <wit>*m</wit></rdg>
+</app>
+<app loc="325.18">
+<lem>Parzivales</lem> <rdg>des Waleises <wit>*m</wit></rdg>
+</app>
+<app loc="325.21">
+<lem>vil wol ichz</lem> <rdg>wie wol ich <wit>*m</wit></rdg>
+</app>
+<app loc="325.30">
+<lem>ein</lem> <rdg>sich <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="325.01">
+<rdg></rdg>
+</app>
+<app loc="325.02">
+<rdg></rdg>
+</app>
+<app loc="325.03">
+<rdg></rdg>
+</app>
+<app loc="325.04">
+<rdg></rdg>
+</app>
+<app loc="325.05">
+<rdg></rdg>
+</app>
+<app loc="325.06">
+<rdg></rdg>
+</app>
+<app loc="325.07">
+<rdg></rdg>
+</app>
+<app loc="325.08">
+<rdg>des k. müese s. (sorgen mu&#x0366;zen <wit>U</wit>) hân <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="325.09">
+<rdg>von s. werden (waren <wit>O</wit> <wit>L</wit>) m., <wit>*G</wit> <note>(ohne Z)</note> · von s. grôzen m., <wit>*T</wit></rdg>
+</app>
+<app loc="325.10">
+<rdg>der (do er <wit>U</wit> <subst><del>*</del><add>der do</add></subst> <wit>V</wit>) von in dâ r. <wit>*T</wit></rdg>
+</app>
+<app loc="325.11">
+<rdg></rdg>
+</app>
+<app loc="325.12">
+<rdg>êren <wit>*G</wit> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="325.13">
+<rdg></rdg>
+</app>
+<app loc="325.14">
+<rdg>wol <note>om.</note> <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="325.15">
+<rdg>e. (erwande <wit>I</wit>) einen (eren <wit>Z</wit>) g., <wit>*G</wit> wanten (<subst><del>er*</del><add>erwante</add></subst> <wit>V</wit>) einen g., <wit>*T</wit></rdg>
+</app>
+<app loc="325.16">
+<rdg>gruoz (<subst><del>grv&#x0366;z</del><add>grv&#x0366;zes</add></subst> <wit>O</wit>) <wit>*T</wit> (<wit>I</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="325.17">
+<rdg>an Gundrien <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="325.18">
+<rdg>unde sînen (sin <wit>U</wit>) art, <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="325.19">
+<rdg></rdg>
+</app>
+<app loc="325.20">
+<rdg>die (div <wit>T</wit>) e. ein (<subst><del>*</del><add>der</add></subst> <wit>V</wit>) A. (heidenin <wit>T</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="325.21">
+<rdg>vil (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>) maniger sp.: "wie (vil <wit>G</wit>) wol ich (ich z <wit>I</wit> [<wit>L</wit>]) w., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="325.22">
+<rdg></rdg>
+</app>
+<app loc="325.23">
+<rdg></rdg>
+</app>
+<app loc="325.24">
+<rdg></rdg>
+</app>
+<app loc="325.25">
+<rdg></rdg>
+</app>
+<app loc="325.26">
+<rdg>s&#x00E6;ldebernden (s&#x00E6;ldebenden <wit>G</wit> seldebarn <wit>I</wit> saldenbernden <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="325.27">
+<rdg></rdg>
+</app>
+<app loc="325.28">
+<rdg></rdg>
+</app>
+<app loc="325.29">
+<rdg></rdg>
+</app>
+<app loc="325.30">
+<rdg>sol sich ie. (iesglicher <wit>I</wit> iechich <wit>U</wit>) <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

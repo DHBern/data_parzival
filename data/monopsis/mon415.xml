@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 415</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.10.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 415.01">ich hôrt ie sagen, swâ ez sô gezôch,</l>
+<l n="*D 415.02">daz man gein wîbes scherme vlôch,</l>
+<l n="*D 415.03">dâ solde ellenthaftez jagen</l>
+<l n="*D 415.04">an sîme strîte gar verzag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 415.05">ob dâ w&#x00E6;re manlîchiu zuht.</l>
+<l n="*D 415.06">hêr <name type="Person">Vergulaht</name>, iwers gastes vluht,</l>
+<l n="*D 415.07">die er gein mir tet vür den tôt,</l>
+<l n="*D 415.08">lêret iwern prîs noch lasters nôt."</l>
+<l n="*D 415.09"><name type="Person">Kingrimursel</name> dô sprach:</l>
+<l n="*D 415.10">"hêrre, ûf iwern trôst geschach,</l>
+<l n="*D 415.11">daz ich hêrn <name type="Person">Gawane</name></l>
+<l n="*D 415.12">ûf dem <name type="Ort">Plimiz&#x0153;ls</name> plâne</l>
+<l n="*D 415.13">gap vride her in iwer lant.</l>
+<l n="*D 415.14">iwer sicherheit was pfant,</l>
+<l n="*D 415.15">ob in sîn ellen trüege her,</l>
+<l n="*D 415.16">daz ich des vür iuch würde wer,</l>
+<l n="*D 415.17">i<corr type="Emendation">n</corr> bestüende hie niht wan einec man.</l>
+<l n="*D 415.18">hêrre, dâ bin ich bekrenket an.</l>
+<l n="*D 415.19">hie sehen mîne g<reg type="Synkope">e</reg>nôze zuo.</l>
+<l n="*D 415.20">diz laster ist uns gar ze vruo.</l>
+<l n="*D 415.21">künnet ir niht vürsten schônen,</l>
+<l n="*D 415.22">wir krenken ouch die krônen.</l>
+<l n="*D 415.23">sol man iuch bî zühten seh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 415.24">sô muoz des iwer zuht verjehen,</l>
+<l n="*D 415.25">daz sippe reichet ab iu an mich.</l>
+<l n="*D 415.26">w&#x00E6;re daz ein keb<reg type="Synkope">e</reg>slîcher slich</l>
+<l n="*D 415.27">mînhalp, swâ uns diu wirt gezilt,</l>
+<l n="*D 415.28">ir hetet iuch gâhes an mir bevilt.</l>
+<l n="*D 415.29"><seg type="Initiale">W</seg>ande ich bin ein ritt<reg type="Synkope">e</reg>r doch,</l>
+<l n="*D 415.30">an dem nie valsch wart vunden noch.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="415.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="415.09"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="415.21"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="415.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="415.11">
+<lem>ich</lem> <rdg>ich dem <wit>*m</wit></rdg>
+</app>
+<app loc="415.14">
+<lem>was</lem> <rdg>gap <wit>*m</wit></rdg>
+</app>
+<app loc="415.16">
+<lem>des</lem> <rdg>es <wit>*m</wit></rdg>
+</app>
+<app loc="415.17">
+<lem>in</lem> <rdg>ich <wit>D</wit></rdg>
+</app>
+<app loc="415.17">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="415.28">
+<lem>an</lem> <rdg>gegen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="415.01">
+<rdg>swâz (swenne ez <wit>V</wit>) sich sô g., <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="415.02">
+<rdg></rdg>
+</app>
+<app loc="415.03">
+<rdg></rdg>
+</app>
+<app loc="415.04">
+<rdg></rdg>
+</app>
+<app loc="415.05">
+<rdg></rdg>
+</app>
+<app loc="415.06">
+<rdg></rdg>
+</app>
+<app loc="415.07">
+<rdg></rdg>
+</app>
+<app loc="415.08">
+<rdg></rdg>
+</app>
+<app loc="415.09">
+<rdg></rdg>
+</app>
+<app loc="415.10">
+<rdg></rdg>
+</app>
+<app loc="415.11">
+<rdg>daz ich dem (den <wit>I</wit> [<wit>L</wit>]) hêrn Gawan <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="415.12">
+<rdg>ûf des Plymizols pl. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="415.13">
+<rdg>vr. (her <wit>L</wit>) in <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="415.14">
+<rdg></rdg>
+</app>
+<app loc="415.15">
+<rdg></rdg>
+</app>
+<app loc="415.16">
+<rdg></rdg>
+</app>
+<app loc="415.17">
+<rdg>in b. hie nieman (nih <wit>I</wit> [<wit>O</wit> <wit>L</wit>]) wan (denne <wit>V</wit>) ein man. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="415.18">
+<rdg>ich gekrenkt (bekrenken <wit>Z</wit>) an. <wit>*G</wit> <note>(ohne OL)</note> (<wit>U</wit>)</rdg>
+</app>
+<app loc="415.19">
+<rdg></rdg>
+</app>
+<app loc="415.20">
+<rdg>daz l. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="415.21">
+<rdg></rdg>
+</app>
+<app loc="415.22">
+<rdg></rdg>
+</app>
+<app loc="415.23">
+<rdg></rdg>
+</app>
+<app loc="415.24">
+<rdg>sô m. iuwer z. des jehen, <wit>*T</wit></rdg>
+</app>
+<app loc="415.25">
+<rdg></rdg>
+</app>
+<app loc="415.26">
+<rdg></rdg>
+</app>
+<app loc="415.27">
+<rdg>uns <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="415.28">
+<rdg>gâhens (gahen <wit>I</wit> gahes <wit>L</wit>) gein mir <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="415.29">
+<rdg></rdg>
+</app>
+<app loc="415.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

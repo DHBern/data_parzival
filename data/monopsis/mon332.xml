@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 332</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>09.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 332.01"><seg type="Initiale">D</seg>er <name type="Person">Waleis</name> sprach: "wê, waz ist got?</l>
+<l n="*D 332.02">w&#x00E6;re der gewaldec, sölhen spot</l>
+<l n="*D 332.03">het er uns bêden niht gegeb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 332.04">kunde got mit kreften leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 332.05">ich was im dienstes undertân,</l>
+<l n="*D 332.06">sît ich genâden mich versan.</l>
+<l n="*D 332.07">nû wil ich im dienst widersag<reg type="Synkope">e</reg>n;</l>
+<l n="*D 332.08">hât er haz, den wil ich trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 332.09"><seg type="Initiale" subtype="Majuskel">V</seg>riw<reg type="Synkope">e</reg>nt, an dîn<reg type="Synkope">e</reg>s kampfes zît</l>
+<l n="*D 332.10">dâ nem ein wîp vür dich den strît.</l>
+<l n="*D 332.11">diu müeze ziehen dîne hant,</l>
+<l n="*D 332.12">an der dû kiusche hâst bekant</l>
+<l n="*D 332.13">unt wîplîche güete.</l>
+<l n="*D 332.14">ir minne dich dâ behüete.</l>
+<l n="*D 332.15">ine weiz, wenne ich dich mêr gesehe.</l>
+<l n="*D 332.16">mîn wünschen sus an dir geschehe."</l>
+<l n="*D 332.17"><seg type="Initiale" subtype="Majuskel">I</seg>r scheiden gab in trûren</l>
+<l n="*D 332.18">ze strengen nâchgebûren.</l>
+<l n="*D 332.19"><seg type="Initiale" subtype="Majuskel">V</seg>rou <name type="Person">Cunneware</name> de <name type="Ort">Lalant</name></l>
+<l n="*D 332.20">in vuorte, dâ si ir poulûn vant.</l>
+<l n="*D 332.21">sîn harnasch hiez si bringen dar.</l>
+<l n="*D 332.22">ir linden hande wol gevar</l>
+<l n="*D 332.23">wâpenden <name type="Person">Gahmuretes</name> sun.</l>
+<l n="*D 332.24">si sprach: "ich solz von rehte tuon,</l>
+<l n="*D 332.25">sît der künec von <name type="Ort">Brandigan</name></l>
+<l n="*D 332.26">von iwern schulden mich wil hân.</l>
+<l n="*D 332.27">grôz kumber iwer werdecheit</l>
+<l n="*D 332.28">gît mir siufzeb&#x00E6;re<corr type="Emendation">z</corr> leit.</l>
+<l n="*D 332.29">swenne ir sît trûrens niht erwert,</l>
+<l n="*D 332.30">iwer sorge mîne vreude zert."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 332.7)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="332.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Fr21</wit>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="332.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="332.13"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="332.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="332.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app><app loc="332.17"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="332.19"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app><app loc="332.19"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="332.01">
+<lem>wê</lem> <rdg><seg type="singuläre_Lesart">owê</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="332.04">
+<lem>kreften</lem> <rdg>krefte <wit>*m</wit></rdg>
+</app>
+<app loc="332.05">
+<lem>dienstes</lem> <rdg>diens <wit>D</wit></rdg>
+</app>
+<app loc="332.07">
+<lem>im</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="332.11">
+<lem>ziehen</lem> <rdg>leiten (<subst><del>*</del><add>leiten</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="332.12">
+<lem>bekant</lem> <rdg>erkant <wit>*m</wit></rdg>
+</app>
+<app loc="332.20">
+<lem>ir poulûn</lem> <rdg>die pavelûne <wit>*m</wit></rdg>
+</app>
+<app loc="332.21">
+<lem>si</lem> <rdg>si im <wit>*m</wit></rdg>
+</app>
+<app loc="332.22">
+<rdg>ir linden hende wol gevar, <wit>*m</wit></rdg>
+</app>
+<app loc="332.23">
+<rdg>die wâpenden Gahmuretes sun. <wit>*m</wit></rdg>
+</app>
+<app loc="332.28">
+<lem>siufzeb&#x00E6;rez</lem> <rdg>sivfzeb&#x00E6;res <wit>D</wit></rdg>
+</app>
+<app loc="332.29">
+<rdg><note>Versfolge 332.30-29</note> <wit>*m</wit></rdg>
+</app>
+<app loc="332.29">
+<rdg>wenne ir niht trûrens sît erwert." <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="332.01">
+<rdg>wê (<subst><del>w*</del><add>we</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <note>(nur T)</note> <wit>G</wit></rdg>
+</app>
+<app loc="332.02">
+<rdg>w. er gewaltic, <wit>*G</wit></rdg>
+</app>
+<app loc="332.03">
+<rdg></rdg>
+</app>
+<app loc="332.04">
+<rdg>unde (<note>om.</note> <wit>G</wit>) kunde <wit>*G</wit></rdg>
+</app>
+<app loc="332.05">
+<rdg></rdg>
+</app>
+<app loc="332.06">
+<rdg>die wîle ich <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="332.07">
+<rdg></rdg>
+</app>
+<app loc="332.08">
+<rdg></rdg>
+</app>
+<app loc="332.09">
+<rdg></rdg>
+</app>
+<app loc="332.10">
+<rdg></rdg>
+</app>
+<app loc="332.11">
+<rdg></rdg>
+</app>
+<app loc="332.12">
+<rdg>h. erkant (<subst><del>*</del><add>erkant</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(ohne I)</note> (<wit>U</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="332.13">
+<rdg></rdg>
+</app>
+<app loc="332.14">
+<rdg></rdg>
+</app>
+<app loc="332.15">
+<rdg><note>Versfolge 332.16-15</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="332.16">
+<rdg>mîn wunsch sus (alsus <wit>G</wit>) <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="332.17">
+<rdg>ir sch., daz (<note>om.</note> <wit>U</wit>) gap tr. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="332.18">
+<rdg></rdg>
+</app>
+<app loc="332.19">
+<rdg></rdg>
+</app>
+<app loc="332.20">
+<rdg></rdg>
+</app>
+<app loc="332.21">
+<rdg></rdg>
+</app>
+<app loc="332.22">
+<rdg>ir blanken hende wolgevar <wit>*G</wit> · mit blanken handen wol g. <wit>*T</wit></rdg>
+</app>
+<app loc="332.23">
+<rdg>wâpente si G. sun. <wit>*T</wit></rdg>
+</app>
+<app loc="332.24">
+<rdg>si jach: <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="332.25">
+<rdg></rdg>
+</app>
+<app loc="332.26">
+<rdg>m. wil von iuwern sch. hân. <wit>*T</wit></rdg>
+</app>
+<app loc="332.27">
+<rdg></rdg>
+</app>
+<app loc="332.28">
+<rdg>ist mir ein (ist mir vnd <wit>I</wit> Git mit <wit>O</wit>) siufteb&#x00E6;rez (sevftwerev <wit>O</wit>) l. <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="332.29">
+<rdg>sw. (so <wit>G</wit>) ir n. sît tr. (niht trurens sit <wit>G</wit> si trvrens niht <wit>O</wit>) erweret, <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="332.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 70</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>20.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 70.09">die doch der hôhe gerten niht,</l>
+<l n="*D 70.10">des der küneginne zil vergiht,</l>
+<l n="*D 70.11">ir lîbes unt ir lande.</l>
+<l n="*D 70.12">si gerten anderre pfande.</l>
+<l n="*D 70.13"><seg type="Initiale">N</seg>û was ouch <name type="Person">Gahmuretes</name> lîp</l>
+<l n="*D 70.14">in harnasche, dâ sîn wîp</l>
+<l n="*D 70.15">wart einer suone bî gemant,</l>
+<l n="*D 70.16">daz ir von <name type="Ort">Schotten</name> <name type="Person">Vridebrant</name></l>
+<l n="*D 70.17">ze gebe sande vür ir schaden.</l>
+<l n="*D 70.18">mit strîte heter si verladen.</l>
+<l n="*D 70.19">ûf erde niht sô guotes was.</l>
+<l n="*D 70.20">dô schouwet er den <name type="Sonstiges">adamas</name>.</l>
+<l n="*D 70.21">daz was ein helm, dâr ûf man bant</l>
+<l n="*D 70.22">einen anker, dâ man inne vant</l>
+<l n="*D 70.23">verwieret edel gesteine,</l>
+<l n="*D 70.24">grôz, niht ze kleine.</l>
+<l n="*D 70.25">daz was iedoch ein sw&#x00E6;rer last.</l>
+<l n="*D 70.26">gezimieret wart der gast.</l>
+<l n="*D 70.27">wie sîn schilt ge<corr type="Emendation">h</corr>êrt sî?</l>
+<l n="*D 70.28">mit golde von <name type="Ort">Arabi</name></l>
+<l n="*D 70.29">ein tiweriu buckel drûf geslag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 70.30">sw&#x00E6;re, die er muose trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 70.101">diu gap von r&#x0153;te al solhez brehen,</l>
+<l n="*D 70.102">daz man sich drinne mohte ersehen,</l>
+<l n="*D 70.103">ein zobelîn anker drunde.</l>
+<l n="*D 70.104">mir selb<reg type="Synkope">e</reg>n ich wol gunde,</l>
+<l n="*D 70.105">des er hete an den lîp gegert,</l>
+<l n="*D 70.106">wand ez was maneger marke wert.</l>
+<l n="*D 70.929"><seg type="Initiale" subtype="Majuskel">N</seg>û was ouch der künec von <name type="Ort">Francrîche</name> tôt.</l>
+<l n="*D 70.930">des wîp in dicke in grôze nôt</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 70.12)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="70.09"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="70.13"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="70.13"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="70.929"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="70.929"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="70.09">
+<rdg>die doch der hôhe gerten iht. <wit>*m</wit></rdg>
+</app>
+<app loc="70.10">
+<rdg>der küniginne zil vergiht <wit>*m</wit></rdg>
+</app>
+<app loc="70.12">
+<rdg><note>Vers 70.12 fehlt</note> <wit>*m</wit></rdg>
+</app>
+<app loc="70.26">
+<lem>wart</lem> <rdg>was <wit>*m</wit> <wit>O</wit> (<wit>L</wit>) <wit>Fr21</wit></rdg>
+</app>
+<app loc="70.27">
+<lem>gehêrt</lem> <rdg>gebert <wit>D</wit></rdg>
+</app>
+<app loc="70.29">
+<rdg>ein rîchiu (richer <wit>L</wit>) buckel (bvckeln <wit>Z</wit>) drûf (<subst><del>*</del><add>riche buckel druf</add></subst> <wit>V</wit>) geslagen, <wit>*G</wit> (<wit>V</wit> <wit>T</wit>)</rdg>
+</app>
+<app loc="70.29">
+<rdg>was ein buckeler durch geslagen, <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="70.101">
+<rdg>diu gap von golde al solichen brehen, <wit>*m</wit></rdg>
+</app>
+<app loc="70.929">
+<rdg>Nû was ouch rois de Franze tôt. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="70.09">
+<rdg>der (<note>om.</note> <wit>T</wit>) habe (der <subst><del>*</del><add>ho&#x0364;he</add></subst> <wit>V</wit>) g. <wit>*T</wit></rdg>
+</app>
+<app loc="70.10">
+<rdg>alse (der <wit>I</wit>) der <wit>*G</wit> <note>(nur GZ)</note></rdg>
+</app>
+<app loc="70.11">
+<rdg>ir l. noch ir l. <wit>*G</wit> <wit>T</wit> · ir l. noch ir landes. <wit>*T</wit></rdg>
+</app>
+<app loc="70.12">
+<rdg>andere pf. <wit>*G</wit> <note>(ohne IO)</note> anderes pfandes. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="70.13">
+<rdg></rdg>
+</app>
+<app loc="70.14">
+<rdg>sîn werdez wîp (sin <subst><del>*</del><add>wip</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="70.15">
+<rdg>s. mite w. g. (<subst><del>*</del><add>wart einer su&#x0366;ne bigemant</add></subst> <wit>V</wit> wart einer sv&#x0366;ne mit gemant <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="70.16">
+<rdg></rdg>
+</app>
+<app loc="70.17">
+<rdg>ze gelte s. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="70.18">
+<rdg>si (<subst><del>*</del><add>sv́</add></subst> <wit>V</wit>) überladen. <wit>*G</wit> <note>(nur GIL)</note> si beladen. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="70.19">
+<rdg></rdg>
+</app>
+<app loc="70.20">
+<rdg>dô schouweten si (schowete <subst><del>*</del><add>er</add></subst> <wit>V</wit>) den a. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="70.21">
+<rdg></rdg>
+</app>
+<app loc="70.22">
+<rdg></rdg>
+</app>
+<app loc="70.23">
+<rdg></rdg>
+</app>
+<app loc="70.24">
+<rdg>gr. und n. zuo kl. (Zegrôze noch ze cleine <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="70.25">
+<rdg><note>Versfolge 70.26-25</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="70.25">
+<rdg>diz was <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="70.26">
+<rdg>wol gezimiert w. der werde (selbe <wit>V</wit>) g. <wit>*T</wit></rdg>
+</app>
+<app loc="70.27">
+<rdg></rdg>
+</app>
+<app loc="70.28">
+<rdg>ûz (von <wit>I</wit>) g. von (vz <wit>I</wit>) A. <wit>*G</wit> <note>(nur G)</note> · von guotem g. von A. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="70.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="70.30">
+<rdg>die er (diere <wit>U</wit>) wolte (mu&#x0364;se <wit>V</wit> [<wit>T</wit>]) tr. <wit>*T</wit></rdg>
+</app>
+<app loc="70.101">
+<rdg>alsoliche <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="70.102">
+<rdg>daz man s. drinne het e., <wit>*G</wit> · daz man s. mohte dâr in (mo&#x0364;hte drinne <wit>V</wit>) e., <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="70.103">
+<rdg></rdg>
+</app>
+<app loc="70.104">
+<rdg></rdg>
+</app>
+<app loc="70.105">
+<rdg></rdg>
+</app>
+<app loc="70.106">
+<rdg>wan daz was <wit>*T</wit></rdg>
+</app>
+<app loc="70.929">
+<rdg>nû was ou. roy (roys <wit>*T</wit>) de (der <wit>I</wit> <wit>O</wit> <wit>Fr21</wit>) Franze tôt. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="70.930">
+<rdg>des wîp in ofte in gr. (<subst><del>*</del><add>in dicke in</add></subst> grosze <wit>V</wit> dicke brahte in <wit>T</wit>) nôt <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

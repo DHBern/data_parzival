@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 354</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 354.01"><seg type="Initiale">G</seg>ar dirre worte hôre</l>
+<l n="*D 354.02">kom <name type="Person">Gawane</name> in sîn ôre.</l>
+<l n="*D 354.03">die rede lât sîn, als si nû stê,</l>
+<l n="*D 354.04">nû h&#x0153;ret, wie ez der stat ergê:</l>
+<l n="*D 354.05">ein schifreht wazzer vür si vlôz</l>
+<l n="*D 354.06">durch eine brücke steinîn grôz,</l>
+<l n="*D 354.07">niht gein der vîende want.</l>
+<l n="*D 354.08">and<reg type="Synkope">e</reg>rhalp was unverhert daz lant.</l>
+<l n="*D 354.09">ein marschalc kom geriten sân.</l>
+<l n="*D 354.10">vür die brücken ûf den plân</l>
+<l n="*D 354.11">nam er herberge wît.</l>
+<l n="*D 354.12">sîn hêrre kom an rehter zît</l>
+<l n="*D 354.13">unt and<reg type="Synkope">e</reg>r, die dâ solden kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 354.14">ich sagez iu, hât irs niht vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 354.15">wer in des wirtes hilfe reit</l>
+<l n="*D 354.16">unt wer durch in mit triwen streit.</l>
+<l n="*D 354.17"><seg type="Initiale" subtype="Majuskel">I</seg>m kom von <name type="Ort">Brevigariez</name></l>
+<l n="*D 354.18">sîn bruoder, der herzoge <name type="Person">Marangliez</name>.</l>
+<l n="*D 354.19">durch den kômen zwêne ritt<reg type="Synkope">e</reg>r snel:</l>
+<l n="*D 354.20">der werde künec <name type="Person">Schirniel</name>,</l>
+<l n="*D 354.21">der truoc krône ze <name type="Ort">Lyrivoyn</name>,</l>
+<l n="*D 354.22">als tet sîn bruoder ze <name type="Ort">Avendroyn</name>.</l>
+<l n="*D 354.23"><seg type="Initiale" subtype="Majuskel">D</seg>ô die burg&#x00E6;re gesâhen,</l>
+<l n="*D 354.24">daz in helfe wolde nâhen,</l>
+<l n="*D 354.25">daz ê des was ir aller rât,</l>
+<l n="*D 354.26">daz dûhte si dô ein missetât.</l>
+<l n="*D 354.27">der vürste <name type="Person">Lyppaut</name> dô sprach:</l>
+<l n="*D 354.28">"owê, daz <name type="Ort">Bearosche</name> ie geschach,</l>
+<l n="*D 354.29">daz ir porten suln vermûrt sîn!</l>
+<l n="*D 354.30">wan swenne ich gein dem hêrren mîn</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(mit 354.26¹-26²)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 354.6)</note> <wit>V</wit> <note>(mit 354.26¹-26²)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="354.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="354.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="354.09"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+<app loc="354.15"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit>
+</rdg></app>
+<app loc="354.17"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="354.23"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="354.23"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="354.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="354.04">
+<lem>nû</lem> <rdg>und <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="354.11">
+<lem>nam</lem> <rdg>dô nam <wit>*m</wit></rdg>
+</app>
+<app loc="354.18">
+<lem>der herzoge</lem> <rdg>duc <wit>*m</wit></rdg>
+</app>
+<app loc="354.23">
+<lem>gesâhen</lem> <rdg>sâhen <wit>*m</wit></rdg>
+</app>
+<app loc="354.26">
+<rdg>daz dûhte si dô ein missetât, <wit>*m</wit></rdg>
+</app>
+<app loc="354.26">
+<rdg><note>nach 354.26:</note> ich meine, daz si dâ vor / vermûret heten ir tor. <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="354.27">
+<lem>dô</lem> <rdg>dô selbe <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="354.01">
+<rdg></rdg>
+</app>
+<app loc="354.02">
+<rdg>kômen (Koment <wit>V</wit>) G. <wit>*T</wit></rdg>
+</app>
+<app loc="354.03">
+<rdg>dise r. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="354.04">
+<rdg>unde h&#x0153;rt ouch (<note>om.</note> <wit>I</wit> <wit>O</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="354.05">
+<rdg>ein schifreche (schifr&#x00E6;tich <wit>O</wit>) w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="354.06">
+<rdg>d. e. st. br. (steinbru̽gge <wit>L</wit>) gr., <wit>*T</wit> <note>(nur V)</note> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="354.07">
+<rdg></rdg>
+</app>
+<app loc="354.08">
+<rdg></rdg>
+</app>
+<app loc="354.09">
+<rdg>Sîn m. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="354.10">
+<rdg>die burc ûf <wit>*G</wit> <note>(nur GL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="354.11">
+<rdg></rdg>
+</app>
+<app loc="354.12">
+<rdg>an der (in rehter <wit>V</wit>) zît <wit>*T</wit></rdg>
+</app>
+<app loc="354.13">
+<rdg></rdg>
+</app>
+<app loc="354.14">
+<rdg></rdg>
+</app>
+<app loc="354.15">
+<rdg></rdg>
+</app>
+<app loc="354.16">
+<rdg></rdg>
+</app>
+<app loc="354.17">
+<rdg></rdg>
+</app>
+<app loc="354.18">
+<rdg>sîn br., duc M. <wit>*G</wit> · sîn br. M. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="354.19">
+<rdg></rdg>
+</app>
+<app loc="354.20">
+<rdg></rdg>
+</app>
+<app loc="354.21">
+<rdg></rdg>
+</app>
+<app loc="354.22">
+<rdg></rdg>
+</app>
+<app loc="354.23">
+<rdg>dô die b. sâhen, <wit>*G</wit> · Dô die b. alle (also <wit>V</wit>) sâhen (sagen <wit>Z</wit>), <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="354.24">
+<rdg></rdg>
+</app>
+<app loc="354.25">
+<rdg></rdg>
+</app>
+<app loc="354.26">
+<rdg>si dô m. <wit>*G</wit> <note>(nur GI)</note> si ein m. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="354.27">
+<rdg>der v. Libaut selbe (do selber <wit>V</wit>) sp.: <wit>*G</wit> <note>(ohne G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="354.28">
+<rdg>"ouwê, daz ich Bearosch ie gesach, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="354.29">
+<rdg></rdg>
+</app>
+<app loc="354.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 93</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 93.01">dô sprach der künec <name type="Person">Hardiz</name>:</l>
+<l n="*D 93.02">"nû kêrt an manheit iwern vlîz.</l>
+<l n="*D 93.03">ob ir manheit kunnet trag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 93.04">sô sult ir leit ze mâzen klag<reg type="Synkope">e</reg>n."</l>
+<l n="*D 93.05"><seg type="Initiale" subtype="Majuskel">S</seg>în kumb<reg type="Synkope">e</reg>r leid<reg type="Synkope">e</reg>r was ze grôz.</l>
+<l n="*D 93.06">ein güsse im von den ougen vlôz.</l>
+<l n="*D 93.07">er schuof den rittern ir gemach</l>
+<l n="*D 93.08">unt gienc, dâ er sîne kamern sach,</l>
+<l n="*D 93.09">ein kleine gezelt von samît.</l>
+<l n="*D 93.10">die naht er dolte jâmers zît.</l>
+<l n="*D 93.11"><seg type="Initiale">A</seg>ls der and<reg type="Synkope">e</reg>r tac erschein,</l>
+<l n="*D 93.12">si wurden alle des enein,</l>
+<l n="*D 93.13">die innern unt daz ûzer her,</l>
+<l n="*D 93.14">swer dâ mit strîteclîcher wer</l>
+<l n="*D 93.15">w&#x00E6;re, junc od<reg type="Synkope">e</reg>r alt</l>
+<l n="*D 93.16">od<reg type="Synkope">e</reg>r bl&#x0153;de od<reg type="Synkope">e</reg>r balt,</l>
+<l n="*D 93.17">diene solt<reg type="Synkope">e</reg>n tjustieren niht.</l>
+<l n="*D 93.18">dô schein der mitte morgen lieht.</l>
+<l n="*D 93.19">si wâr<reg type="Synkope">e</reg>n mit strîte sô verrib<reg type="Synkope">e</reg>n</l>
+<l n="*D 93.20">unt ors mit sporn alsô vertrib<reg type="Synkope">e</reg>n,</l>
+<l n="*D 93.21">daz die vrechen ritterschaft</l>
+<l n="*D 93.22">ie dennoch twanc der müede kraft.</l>
+<l n="*D 93.23"><seg type="Initiale" subtype="Majuskel">D</seg>iu künegîn reit dô selbe</l>
+<l n="*D 93.24">nâch den werden hin ze velde</l>
+<l n="*D 93.25">unt brâht die mit ir in die stat.</l>
+<l n="*D 93.26">die best<reg type="Synkope">e</reg>n si dort inne bat,</l>
+<l n="*D 93.27">daz si zer <name type="Ort">Leoplane</name> riten.</l>
+<l n="*D 93.28">dône wart ir bete niht vermiten.</l>
+<l n="*D 93.29"><seg type="Initiale" subtype="Majuskel">S</seg>i kôm<reg type="Synkope">e</reg>n, dâ man messe sanc</l>
+<l n="*D 93.30">dem trûrigen künege von <name type="Ort">Zazamanc</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(ohne 93.15-16)</note> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="93.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>T</wit>
+</rdg></app>
+<app loc="93.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="93.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="93.11"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="93.11"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="93.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="93.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="93.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="93.26"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="93.29"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="93.15">
+<rdg>Waren iung oder alt <wit>V</wit></rdg>
+</app>
+<app loc="93.15">
+<rdg>si weren ivnc oder alde <wit>T</wit></rdg>
+</app>
+<app loc="93.16">
+<rdg>beide blo&#x0364;de oder balt <wit>V</wit></rdg>
+</app>
+<app loc="93.16">
+<rdg>Blo&#x0364;de oder balde <wit>T</wit></rdg>
+</app>
+<app loc="93.19">
+<lem>sô</lem> <rdg>wol <wit>*m</wit></rdg>
+</app>
+<app loc="93.20">
+<rdg>und diu ros mit sporn als übertriben, <wit>*m</wit></rdg>
+</app>
+<app loc="93.20">
+<rdg>unt diu ors mit sporen sô (alsus mit sporn <wit>I</wit> mit sporn <wit>O</wit> mit sporn also <wit>L</wit> <wit>Z</wit>) vertriben, <wit>*G</wit></rdg>
+</app>
+<app loc="93.20">
+<rdg>und diu ors (dorch sie <wit>U</wit>) mit sporn alsô (<note>om.</note> <wit>T</wit>) verriben (<subst><del>ver*</del><add>vertriben</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="93.22">
+<rdg>twanc iedoch (Dannoch twanc <wit>Z</wit>) der müede (minne <wit>O</wit> <wit>Fr21</wit>) kraft. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="93.22">
+<rdg>twanc dannoch der (die <wit>U</wit>) müede (Mit grozer samenvnge <wit>T</wit>) kraft. <wit>*T</wit></rdg>
+</app>
+<app loc="93.24">
+<rdg>nâch dem (den <wit>O</wit> <wit>Fr21</wit> <subst><del>dem</del><add>den</add></subst> <wit>V</wit>) werden (werden hin <wit>V</wit>) ze velde (Nach den helden vil gemeit <wit>L</wit> Ze velde hin Gahmvrete <wit>T</wit>) <wit>*G</wit> <note>(ohne IZ)</note></rdg>
+</app>
+<app loc="93.25">
+<lem>die</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="93.30">
+<rdg>dem trûrigen künic von Zazamanc, <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="93.01">
+<rdg></rdg>
+</app>
+<app loc="93.02">
+<rdg>iuwern vl., <wit>*T</wit></rdg>
+</app>
+<app loc="93.03">
+<rdg>und ob <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="93.04">
+<rdg></rdg>
+</app>
+<app loc="93.05">
+<rdg>dô was sîn k. alze (also <wit>V</wit>) gr. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="93.06">
+<rdg></rdg>
+</app>
+<app loc="93.07">
+<rdg></rdg>
+</app>
+<app loc="93.08">
+<rdg></rdg>
+</app>
+<app loc="93.09">
+<rdg>ein wênic g. <wit>*G</wit> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="93.10">
+<rdg></rdg>
+</app>
+<app loc="93.11">
+<rdg>des morgens, dô der tac e., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="93.12">
+<rdg>si w. algelîche (alle gelich <wit>O</wit> [<wit>Z</wit> <wit>Fr21</wit> <wit>T</wit>]) e., <wit>*G</wit> · si w. des alle in ein, <wit>*T</wit></rdg>
+</app>
+<app loc="93.13">
+<rdg></rdg>
+</app>
+<app loc="93.14">
+<rdg>daz dâ was mit <wit>*G</wit> daz dâ mit <wit>*T</wit></rdg>
+</app>
+<app loc="93.15">
+<rdg><note>Die Verse 93.15-16 fehlen</note> &#x2193;<wit>*T</wit> <note>(nur U)</note> · si w&#x00E6;ren (waren <wit>G</wit> <wit>L</wit> <wit>Fr21</wit>) j. o. alt <wit>*G</wit></rdg>
+</app>
+<app loc="93.16">
+<rdg></rdg>
+</app>
+<app loc="93.17">
+<rdg>sine s. <wit>*G</wit> <wit>T</wit> si wolten <wit>*T</wit></rdg>
+</app>
+<app loc="93.18">
+<rdg></rdg>
+</app>
+<app loc="93.19">
+<rdg>st. alsô (alsus <wit>I</wit>) v. <wit>*G</wit> <note>(ohne Fr21)</note> st. als (so <wit>T</wit>) vertriben (<subst><del>ver*</del><add>verriben</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="93.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="93.21">
+<rdg>daz al die werde (da von si horten <wit>T</wit>) r. <wit>*T</wit> (<wit>I</wit>) · daz al die <wit>*G</wit></rdg>
+</app>
+<app loc="93.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="93.23">
+<rdg></rdg>
+</app>
+<app loc="93.24">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="93.25">
+<rdg>unde vuorte si (wu&#x0366;rte in <wit>T</wit>) mit <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="93.26">
+<rdg></rdg>
+</app>
+<app loc="93.27">
+<rdg></rdg>
+</app>
+<app loc="93.28">
+<rdg></rdg>
+</app>
+<app loc="93.29">
+<rdg>si vuoren, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="93.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

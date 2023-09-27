@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 37</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 37.01"><seg type="Initiale">D</seg>âr an ich liuge niemen.</l>
+<l n="*D 37.02">sîne schiltriemen,</l>
+<l n="*D 37.03">swaz der dâ zuo gehôrte,</l>
+<l n="*D 37.04">was ein unverblichen borte</l>
+<l n="*D 37.05">mit gesteine harte tiure.</l>
+<l n="*D 37.06">gelûtert in dem viure</l>
+<l n="*D 37.07">was sîn buckel rôtgolt.</l>
+<l n="*D 37.08">sîn dienest nam der minne solt.</l>
+<l n="*D 37.09">ein scharpfer strît in ringe wac.</l>
+<l n="*D 37.10">diu künegîn in dem venster lac.</l>
+<l n="*D 37.11">bî ir sâzen vrouwen mêr.</l>
+<l n="*D 37.12">nû seht, dort hielt ouch <name type="Person">Hiuteger</name>,</l>
+<l n="*D 37.13">al dâ im ê der prîs geschach.</l>
+<l n="*D 37.14">dô er disen rîter kom<reg type="Synkope">e</reg>n sach</l>
+<l n="*D 37.15">zuo zim kalopieren hie,</l>
+<l n="*D 37.16">dô dâht er: "wenne oder wie</l>
+<l n="*D 37.17">kom dirre <name type="Person">Franzois</name> inz lant?</l>
+<l n="*D 37.18">wer hât den stolzen her gesant?</l>
+<l n="*D 37.19">het ich den vür einen môr,</l>
+<l n="*D 37.20">sô w&#x00E6;re mîn bester sin ein tôr."</l>
+<l n="*D 37.21"><seg type="Initiale" subtype="Majuskel">D</seg>iu doch von sprüngen niht belib<reg type="Synkope">e</reg>n,</l>
+<l n="*D 37.22">ir ors, mit sporen si bêde trib<reg type="Synkope">e</reg>n</l>
+<l n="*D 37.23">ûzem walap in die rabîn.</l>
+<l n="*D 37.24">si tâten rîters ellen schîn,</l>
+<l n="*D 37.25">der tjost ein and<reg type="Synkope">e</reg>r si niht lugen.</l>
+<l n="*D 37.26">die sprîzen gein den luft et vlugen</l>
+<l n="*D 37.27">von des küenen <name type="Person">Hiutegers</name> sper.</l>
+<l n="*D 37.28">ouch velte in sînes strîtes wer</l>
+<l n="*D 37.29">hinder<corr type="Emendation">z</corr> ors ûfz gras.</l>
+<l n="*D 37.30">vil ungewent er des was.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="37.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="37.09"><rdg>
+<note>Initiale</note><wit>Z</wit>
+</rdg></app>
+<app loc="37.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="37.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="37.17"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="37.21"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="37.21"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="37.11">
+<rdg>und saz ouch bî ir vrouwen mêr. <wit>*m</wit></rdg>
+</app>
+<app loc="37.15">
+<lem>zim</lem> <rdg>im <wit>*m</wit></rdg>
+</app>
+<app loc="37.21">
+<rdg>iedoch von sprüngen niht beliben <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="37.21">
+<rdg>iedoch von springen (sprúngen <wit>V</wit> [<wit>T</wit>]) si (<subst><del>*</del><add>sv́</add></subst> <wit>V</wit> <note>om.</note> <wit>T</wit>) niht bliben, <wit>*T</wit></rdg>
+</app>
+<app loc="37.21">
+<lem>sprüngen</lem> <rdg>springen <wit>*m</wit></rdg>
+</app>
+<app loc="37.22">
+<lem>si bêde</lem> <rdg>beide si <wit>*m</wit></rdg>
+</app>
+<app loc="37.26">
+<lem>luft et</lem> <rdg>lüften <wit>*m</wit></rdg>
+</app>
+<app loc="37.29">
+<lem>hinderz</lem> <rdg>hinders <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="37.01">
+<rdg></rdg>
+</app>
+<app loc="37.02">
+<rdg></rdg>
+</app>
+<app loc="37.03">
+<rdg></rdg>
+</app>
+<app loc="37.04">
+<rdg></rdg>
+</app>
+<app loc="37.05">
+<rdg>mit golde h. t. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="37.06">
+<rdg></rdg>
+</app>
+<app loc="37.07">
+<rdg></rdg>
+</app>
+<app loc="37.08">
+<rdg></rdg>
+</app>
+<app loc="37.09">
+<rdg>st. im r. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="37.10">
+<rdg>in den vensteren (<subst><del>den venstern</del><add>dem venster</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(nur G)</note> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="37.11">
+<rdg>dâ bî <wit>*T</wit> (<wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="37.12">
+<rdg>ouch <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="37.13">
+<rdg>ê <note>om.</note> (<subst><del>*</del><add>im e</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(nur U)</note> <wit>O</wit> <wit>Fr21</wit></rdg>
+</app>
+<app loc="37.14">
+<rdg>er einen (ginen <wit>V)</wit> r. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="37.15">
+<rdg>zuo im (zim <wit>O</wit>) gewalopiert hie, <wit>*G</wit> <note>(nur G)</note> · gein im (zv&#x0366; zim <wit>T</wit>) galopierende hie, <wit>*T</wit></rdg>
+</app>
+<app loc="37.16">
+<rdg>nû dâhter: <wit>*G</wit> <note>(ohne Z)</note> · dô gedâhte er: <wit>*T</wit> <note>(ohne T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="37.17">
+<rdg>in diz l. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="37.18">
+<rdg>wer hete den <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="37.19">
+<rdg></rdg>
+</app>
+<app loc="37.20">
+<rdg></rdg>
+</app>
+<app loc="37.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="37.22">
+<rdg>ir ors, si mit den sp. beide (mit sporn <subst><del>s*</del><add>sv́</add></subst> beide <wit>V</wit> si beide mit sporn <wit>T</wit>) tr. <wit>*T</wit></rdg>
+</app>
+<app loc="37.23">
+<rdg></rdg>
+</app>
+<app loc="37.24">
+<rdg></rdg>
+</app>
+<app loc="37.25">
+<rdg>si ein ander (<subst><del>s*</del><add>sv́</add></subst> enander <wit>V</wit>) <wit>*T</wit> <note>(ohne T)</note> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="37.26">
+<rdg>den lüften <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="37.27">
+<rdg>von des stolzen Hutegers sp. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="37.28">
+<rdg>doch v. in <wit>*G</wit> <note>(nur G)</note> dô v. in <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="37.29">
+<rdg></rdg>
+</app>
+<app loc="37.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

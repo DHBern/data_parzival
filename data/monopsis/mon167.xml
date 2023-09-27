@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 167</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 167.01">ine weiz, wer si des b&#x00E6;te,</l>
+<l n="*D 167.02">juncvrouwen mit rîcher w&#x00E6;te</l>
+<l n="*D 167.03">unt an lîbes varwe minneclîch,</l>
+<l n="*D 167.04">die kôm<reg type="Synkope">e</reg>n zühte site gelîch.</l>
+<l n="*D 167.05">si truogen unt strichen schiere</l>
+<l n="*D 167.06">von im sîn amesiere</l>
+<l n="*D 167.07"><seg type="Initiale">M</seg>it blanken, linden henden.</l>
+<l n="*D 167.08">jâne dorft in niht ellenden,</l>
+<l n="*D 167.09">der dô was witze ein weise.</l>
+<l n="*D 167.10">sus dolt er vreude unt eise.</l>
+<l n="*D 167.11">tumpheit er wênic gein in engalt.</l>
+<l n="*D 167.12">juncvrouwen kiusche unde balt</l>
+<l n="*D 167.13">in alsus kunrierten.</l>
+<l n="*D 167.14">swâ von si parlierten,</l>
+<l n="*D 167.15">dâ kund<reg type="Synkope">e</reg>r wol geswîgen zuo.</l>
+<l n="*D 167.16">ez dorft in dunken niht ze vruo,</l>
+<l n="*D 167.17">wan von in schein der and<reg type="Synkope">e</reg>r tac.</l>
+<l n="*D 167.18">der glast alsus in strîte lac,</l>
+<l n="*D 167.19">sîn varwe laschte beidiu lieht.</l>
+<l n="*D 167.20">des was sîn lîp versûmet nieht.</l>
+<l n="*D 167.21"><seg type="Initiale" subtype="Majuskel">M</seg>an bôt ein bad<reg type="Synkope">e</reg>lachen dar,</l>
+<l n="*D 167.22">des nam er vil kleine war.</l>
+<l n="*D 167.23">sus kund<reg type="Synkope">e</reg>r sich bî vrouwen schem<reg type="Synkope">e</reg>n;</l>
+<l n="*D 167.24">vor in <corr type="Emendation">w</corr>olt ers niht umbe nem<reg type="Synkope">e</reg>n.</l>
+<l n="*D 167.25">juncvrouwen muosen gên,</l>
+<l n="*D 167.26">sine torst<reg type="Synkope">e</reg>n dâ niht langer stên.</l>
+<l n="*D 167.27">ich w&#x00E6;ne, si gerne heten geseh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 167.28">ob im dort unde iht w&#x00E6;re gescheh<reg type="Synkope">e</reg>n.</l>
+<l n="*D 167.29">wîpheit vert mit triwen,</l>
+<l n="*D 167.30">si kan vriwendes kumber riwen.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(167.21-23 und 26-28)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit> <note>(167.3-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="167.01"><rdg>
+<note>Initiale</note> <wit>G</wit> 
+</rdg></app><app loc="167.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="167.05"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Z</wit> <wit>Fr17</wit>
+</rdg></app>
+<app loc="167.07"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="167.11"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>L</wit>
+</rdg></app>
+<app loc="167.21"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="167.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="167.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="167.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="167.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="167.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="167.02">
+<lem>mit</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="167.05">
+<lem>truogen</lem> <rdg>twuogen <wit>*m</wit></rdg>
+</app>
+<app loc="167.17">
+<lem>wan von in</lem> <rdg>daz von (<subst><del>*</del><add>Wan</add></subst> von <wit>V</wit> von <wit>I</wit> Vor <wit>L</wit> wan von <wit>Fr17</wit>) in (im <wit>U</wit> <wit>V</wit> <wit>I</wit> <wit>L</wit> [<wit>Fr17</wit>]). <wit>*T</wit> (<wit>I</wit> <wit>L</wit> <wit>Fr17</wit>)</rdg>
+</app>
+<app loc="167.20">
+<lem>versûmet</lem> <rdg>versweinet (verswinet <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="167.22">
+<lem>vil</lem> <rdg>harte (herte <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="167.24">
+<lem>wolt</lem> <rdg>volt <wit>D</wit></rdg>
+</app>
+<app loc="167.25">
+<lem>juncvrouwen</lem> <rdg>die juncvrouwen <wit>*m</wit></rdg>
+</app>
+<app loc="167.26">
+<lem>torsten</lem> <rdg>getorsten (gestortten <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="167.30">
+<lem>kan</lem> <rdg>kan wol <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="167.01">
+<rdg></rdg>
+</app>
+<app loc="167.02">
+<rdg>j. in r. w., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="167.03">
+<rdg>an (andes <wit>I</wit> Vnde <wit>O</wit>) l. v. <wit>*G</wit> <note>(ohne ZFr17)</note></rdg>
+</app>
+<app loc="167.04">
+<rdg></rdg>
+</app>
+<app loc="167.05">
+<rdg>si (Die <wit>L</wit>) twuogen (twungen <wit>O</wit>) unde <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="167.06">
+<rdg></rdg>
+</app>
+<app loc="167.07">
+<rdg>mit ir bl., <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="167.08">
+<rdg>jône <wit>*T</wit> <note>(nur T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="167.09">
+<rdg>witze (witzen <wit>V</wit>) was <wit>*T</wit></rdg>
+</app>
+<app loc="167.10">
+<rdg></rdg>
+</app>
+<app loc="167.11">
+<rdg>w. dâ (gein im <wit>U</wit>) e. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="167.12">
+<rdg>ein juncvrouwe, beidiu (<note>om.</note> <wit>U</wit> <wit>V</wit>) k. u. b. <wit>*T</wit></rdg>
+</app>
+<app loc="167.13">
+<rdg>in alsus condewierte (<subst><del>kvnrierten</del><add>kvnrierte</add></subst> <wit>V</wit>), <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="167.14">
+<rdg>dâ von er sich parelierte (Parlierte <wit>T</wit> [<wit>U</wit>]) (<subst><del>d* *n</del><add>Swa von sv́ parlierte</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="167.15">
+<rdg></rdg>
+</app>
+<app loc="167.16">
+<rdg>jân dorfte in (<note>om.</note> <wit>Z</wit>) <wit>*G</wit> <note>(ohne L)</note> jâne dorftez in (dorfte sin <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="167.17">
+<rdg>&#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="167.18">
+<rdg></rdg>
+</app>
+<app loc="167.19">
+<rdg>sîn v. gelaste b. l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="167.20">
+<rdg></rdg>
+</app>
+<app loc="167.21">
+<rdg></rdg>
+</app>
+<app loc="167.22">
+<rdg></rdg>
+</app>
+<app loc="167.23">
+<rdg>s. vor vr. <wit>*T</wit> (<wit>Fr69</wit> <wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="167.24">
+<rdg>w. erz n. (erz niht wolde <wit>I</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="167.25">
+<rdg>die j. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="167.26">
+<rdg>die liez er lenger dâ n. stân. <wit>*T</wit> · getorsten <wit>*G</wit></rdg>
+</app>
+<app loc="167.27">
+<rdg>die, w. ich, gerne h. g., <wit>*G</wit> <note>(ohne OLZ)</note></rdg>
+</app>
+<app loc="167.28">
+<rdg></rdg>
+</app>
+<app loc="167.29">
+<rdg></rdg>
+</app>
+<app loc="167.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

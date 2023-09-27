@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 40</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 40.01">- daz sag ich iu ûf die triwe mîn -,</l>
+<l n="*D 40.02">bestêt ir den <name type="Person">Anschevin</name>,</l>
+<l n="*D 40.03"><seg type="Initiale"><corr type="Emendation">D</corr></seg>er mîne sicherheit dort hât.</l>
+<l n="*D 40.04">ir sult merken mînen rât</l>
+<l n="*D 40.05">unt dar zuo, hêrre, mîne bete.</l>
+<l n="*D 40.06">ich hân geheizen <name type="Person">Gahmurete</name>,</l>
+<l n="*D 40.07">daz ich iuch alle wende.</l>
+<l n="*D 40.08">daz lobt ich sîner hende.</l>
+<l n="*D 40.09">durch mich lât iwer streben sîn.</l>
+<l n="*D 40.10">er tuot iu kraft an strîte schîn."</l>
+<l n="*D 40.11"><seg type="Initiale" subtype="Majuskel">D</seg>ô sprach der künec <name type="Person">Kaylet</name>:</l>
+<l n="*D 40.12">"ist ez mîn neve <name type="Person">Gahmuret</name></l>
+<l n="*D 40.13">filuroy <name type="Person">Gandin</name>,</l>
+<l n="*D 40.14">mit dem lâz ich mîn strîten sîn.</l>
+<l n="*D 40.15">lât mirn zoum!" "ine lâz<reg type="Synkope">e</reg>z niht,</l>
+<l n="*D 40.16">ê daz mîn ouge alrêste ersiht</l>
+<l n="*D 40.17">iwer blôzez houbet.</l>
+<l n="*D 40.18">daz mîne ist mir betoubet."</l>
+<l n="*D 40.19">den helm er im her ab dô bant.</l>
+<l n="*D 40.20"><name type="Person">Gahmuret</name> mêr strîtes vant.</l>
+<l n="*D 40.21">ez was wol mitter morgen dô.</l>
+<l n="*D 40.22">die von der stat des wâren vrô,</l>
+<l n="*D 40.23">die dise tjost ersâhen.</l>
+<l n="*D 40.24">si begunden alle gâhen</l>
+<l n="*D 40.25">an ir werlîchen letze.</l>
+<l n="*D 40.26">er was vor in ein netze:</l>
+<l n="*D 40.27">swaz drunder kom, daz was beslagen.</l>
+<l n="*D 40.28">ein and<reg type="Synkope">e</reg>r ors, sus h&#x0153;re ich sagen,</l>
+<l n="*D 40.29">dâr ûf saz der werde.</l>
+<l n="*D 40.30">daz vlouc unt ruorte die erde</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="40.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="40.03"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="40.11"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="40.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="40.15"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="40.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="40.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="40.29"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="40.01">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="40.02">
+<lem>bestêt</lem> <rdg>Vnd bestet <wit>O</wit> <wit>L</wit> <wit>Z</wit> (<wit>Fr21</wit>)</rdg>
+</app>
+<app loc="40.02">
+<lem>ir den</lem> <rdg>iuch der <wit>*m</wit></rdg>
+</app>
+<app loc="40.03">
+<lem>der</lem> <rdg>&#x00F7;eR <wit>D</wit></rdg>
+</app>
+<app loc="40.11">
+<lem>künec</lem> <rdg>küene <wit>*m</wit></rdg>
+</app>
+<app loc="40.12">
+<lem>ez</lem> <rdg>daz <wit>*m</wit> <wit>V</wit></rdg>
+</app>
+<app loc="40.15">
+<lem>mirn</lem> <rdg>mir mîn <wit>*m</wit></rdg>
+</app>
+<app loc="40.16">
+<rdg>ê (E daz <wit>L</wit> e <subst><del>*</del><add>das</add></subst> <wit>V</wit>) mîn ouge alrêrst (vor <wit>L</wit> <subst><del>*</del><add>baz</add></subst> <wit>V</wit>) gesiht (ersiht <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit> <subst><del>*</del><add>ersiht</add></subst> <wit>V</wit> siht <wit>T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="40.19">
+<lem>er im her ab</lem> <rdg>her abe er im <wit>*m</wit></rdg>
+</app>
+<app loc="40.20">
+<lem>mêr</lem> <rdg>nimer <wit>*m</wit></rdg>
+</app>
+<app loc="40.28">
+<lem>h&#x0153;re</lem> <rdg>hôrt <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="40.01">
+<rdg>- daz nim (sag <wit>Fr21</wit>) ich ûf <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="40.02">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="40.03">
+<rdg></rdg>
+</app>
+<app loc="40.04">
+<rdg>nû sult ir m. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="40.05">
+<rdg>dar zuo h&#x0153;ret m. bet <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="40.06">
+<rdg></rdg>
+</app>
+<app loc="40.07">
+<rdg></rdg>
+</app>
+<app loc="40.08">
+<rdg></rdg>
+</app>
+<app loc="40.09">
+<rdg></rdg>
+</app>
+<app loc="40.10">
+<rdg></rdg>
+</app>
+<app loc="40.11">
+<rdg></rdg>
+</app>
+<app loc="40.12">
+<rdg>"ist daz mîn <wit>*G</wit> <wit>V</wit> "ist diz mîn <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="40.15">
+<rdg>lâzez (laz <wit>O</wit> [<wit>L</wit> <wit>Fr21</wit>] iu (iv sin <wit>O</wit>) n., <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="40.16">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="40.17">
+<rdg></rdg>
+</app>
+<app loc="40.18">
+<rdg></rdg>
+</app>
+<app loc="40.19">
+<rdg>im abe (im her abe <wit>Z</wit> im her do <wit>Fr21</wit>) <wit>*G</wit> <note>(ohne OL)</note> im dô (<note>om.</note> <wit>T</wit>) abe <wit>*T</wit></rdg>
+</app>
+<app loc="40.20">
+<rdg>G. nimê st. v. <wit>*G</wit> <note>(ohne Z)</note> · G. niht mê st. v. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="40.21">
+<rdg></rdg>
+</app>
+<app loc="40.22">
+<rdg></rdg>
+</app>
+<app loc="40.23">
+<rdg></rdg>
+</app>
+<app loc="40.24">
+<rdg>die b. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="40.25">
+<rdg>an ir gew&#x00E6;rlîche l. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="40.26">
+<rdg></rdg>
+</app>
+<app loc="40.27">
+<rdg>was erslagen. <wit>*T</wit> <note>(nur U)</note> (<wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="40.28">
+<rdg>hôrte <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="40.29">
+<rdg></rdg>
+</app>
+<app loc="40.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

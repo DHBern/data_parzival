@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 781</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 781.01">an der selben stunde</l>
+<l n="*D 781.02">ir rede si sus begunde:</l>
+<l n="*D 781.03">"<seg type="Initiale" subtype="Majuskel">Ô</seg>wol dich, <name type="Person">Gahmuret<reg type="Synkope">e</reg>s</name> sun!</l>
+<l n="*D 781.04">got wil gnâde an dir nû tuon.</l>
+<l n="*D 781.05">ich meine, den <name type="Person">Herzeloyde</name> bar.</l>
+<l n="*D 781.06"><name type="Person">Feirefiz</name>, der vêch gevar,</l>
+<l n="*D 781.07">muoz mir willekom<reg type="Synkope">e</reg>n sîn</l>
+<l n="*D 781.08">durch <name type="Person">Secundillen</name>, die vrouwen mîn,</l>
+<l n="*D 781.09">unt durch manege hôhe werdecheit,</l>
+<l n="*D 781.10">die von kindes jugent sîn prîs erstreit."</l>
+<l n="*D 781.11"><seg type="Initiale" subtype="Majuskel">Z</seg>uo <name type="Person">Parzivale</name> sprach si dô:</l>
+<l n="*D 781.12">"nû wis kiusche unt dâ bî vrô!</l>
+<l n="*D 781.13">wol dich des hôhen teiles,</l>
+<l n="*D 781.14">dû krône menneschen heiles!</l>
+<l n="*D 781.15">daz epitafjum ist gelesen:</l>
+<l n="*D 781.16">dû solts <name type="Sonstiges">Grâles</name> hêrre wesen.</l>
+<l n="*D 781.17"><name type="Person">Condwiramurs</name>, daz wîp dîn,</l>
+<l n="*D 781.18">unt dîn sun <name type="Person">Loherangrin</name></l>
+<l n="*D 781.19">sint beidiu mit dir dar benant.</l>
+<l n="*D 781.20">dô dû rûmdes <name type="Ort">Brobarz</name>, daz lant,</l>
+<l n="*D 781.21">zwêne süne si lebendec dô truoc.</l>
+<l n="*D 781.22"><name type="Person">Kardeiz</name> hât ouch dort genuoc.</l>
+<l n="*D 781.23"><seg type="Initiale" subtype="Majuskel">W</seg>&#x00E6;re dir niht mêr s&#x00E6;lden kunt,</l>
+<l n="*D 781.24">wan daz dîn wârhafter munt</l>
+<l n="*D 781.25">den werden unt den süezen</l>
+<l n="*D 781.26">mit rede nû sol grüezen.</l>
+<l n="*D 781.27">den künec <name type="Person">Anfortas</name> nû nert</l>
+<l n="*D 781.28">dîn<reg type="Synkope">e</reg>s mundes vrâge, diu im wert</l>
+<l n="*D 781.29">siufzeb&#x00E6;ren jâmer grôz.</l>
+<l n="*D 781.30">wâ wart an s&#x00E6;lden ie dîn genôz?"</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="781.01"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>V</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="781.03"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="781.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="781.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="781.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="781.02">
+<lem>sus</lem> <rdg>süeze <wit>*m</wit> <note>(nur m)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="781.03">
+<lem>Ôwol</lem> <rdg>Sô wol <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="781.05">
+<lem>Herzeloyde</lem> <rdg>Herczeloiden <wit>*m</wit></rdg>
+</app>
+<app loc="781.06">
+<lem>vêch</lem> <rdg>rîch (rich gemal vnd <wit>mk</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="781.10">
+<lem>sîn</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="781.14">
+<lem>dû</lem> <rdg>dû hâst die (Do hast den <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="781.21">
+<lem>si lebendec</lem> <rdg>lebendic si <wit>*m</wit></rdg>
+</app>
+<app loc="781.22">
+<lem>hât</lem> <rdg>het <wit>*m</wit></rdg>
+</app>
+<app loc="781.27">
+<lem>nû</lem> <rdg>den nû <wit>*m</wit> <note>(ohne V)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="781.01">
+<rdg></rdg>
+</app>
+<app loc="781.02">
+<rdg></rdg>
+</app>
+<app loc="781.03">
+<rdg>"ôwol dir, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="781.04">
+<rdg></rdg>
+</app>
+<app loc="781.05">
+<rdg>H. gebar. <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="781.06">
+<rdg></rdg>
+</app>
+<app loc="781.07">
+<rdg>sol mir <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="781.08">
+<rdg></rdg>
+</app>
+<app loc="781.09">
+<rdg></rdg>
+</app>
+<app loc="781.10">
+<rdg></rdg>
+</app>
+<app loc="781.11">
+<rdg></rdg>
+</app>
+<app loc="781.12">
+<rdg></rdg>
+</app>
+<app loc="781.13">
+<rdg>des hôhesten t., <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="781.14">
+<rdg>diu kr. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="781.15">
+<rdg></rdg>
+</app>
+<app loc="781.16">
+<rdg>dû sollest Gr. h. w. <wit>*T</wit></rdg>
+</app>
+<app loc="781.17">
+<rdg></rdg>
+</app>
+<app loc="781.18">
+<rdg></rdg>
+</app>
+<app loc="781.19">
+<rdg></rdg>
+</app>
+<app loc="781.20">
+<rdg></rdg>
+</app>
+<app loc="781.21">
+<rdg>si lebende dô (do lebende <wit>I</wit> [<wit>L</wit>] lebentic <wit>Z</wit>) <wit>*G</wit> si dô l. <wit>*T</wit></rdg>
+</app>
+<app loc="781.22">
+<rdg>K. gewinnet ou. (hete doch <wit>*T</wit>) d. g. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="781.23">
+<rdg></rdg>
+</app>
+<app loc="781.24">
+<rdg></rdg>
+</app>
+<app loc="781.25">
+<rdg></rdg>
+</app>
+<app loc="781.26">
+<rdg></rdg>
+</app>
+<app loc="781.27">
+<rdg></rdg>
+</app>
+<app loc="781.28">
+<rdg></rdg>
+</app>
+<app loc="781.29">
+<rdg></rdg>
+</app>
+<app loc="781.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

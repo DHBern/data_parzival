@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 518</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.05.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 518.01"><seg type="Initiale">U</seg>nser vater <name type="Person">Adam</name>,</l>
+<l n="*D 518.02">die kunst er von gote nam,</l>
+<l n="*D 518.03">er gab allen dingen nam<reg type="Synkope">e</reg>n,</l>
+<l n="*D 518.04">bêdiu wilden und zam<reg type="Synkope">e</reg>n.</l>
+<l n="*D 518.05">er erkant ouch ieslîches art,</l>
+<l n="*D 518.06">dar zuo der stern<reg type="Synkope">e</reg> umbevart,</l>
+<l n="*D 518.07">der selben plânêten,</l>
+<l n="*D 518.08">waz die krefte heten.</l>
+<l n="*D 518.09"><seg type="Initiale" subtype="Majuskel">E</seg>r erkant ouch aller würze maht</l>
+<l n="*D 518.10">unt waz ieslîcher was geslaht.</l>
+<l n="*D 518.11"><seg type="Initiale" subtype="Majuskel">D</seg>ô sîniu kint der jâre kraft</l>
+<l n="*D 518.12">gewunnen, daz si berhaft</l>
+<l n="*D 518.13">wurden menschlîcher vruht,</l>
+<l n="*D 518.14">er widerriet in ungenuht.</l>
+<l n="*D 518.15">swâ sîner tohter keiniu truoc,</l>
+<l n="*D 518.16">vil dicke er des gein in gewuoc</l>
+<l n="*D 518.17">- den rât er selten gein in liez -:</l>
+<l n="*D 518.18">vil würze er si mîden hiez,</l>
+<l n="*D 518.19">die menschen vruht verkêrten</l>
+<l n="*D 518.20">unt sî<corr type="Emendation">n</corr> geslehte unêrten,</l>
+<l n="*D 518.21">"anders denne got uns maz,</l>
+<l n="*D 518.22">dô er ze werke über mich gesaz",</l>
+<l n="*D 518.23">sprach er. "mîniu lieben kint,</l>
+<l n="*D 518.24">nû sît an s&#x00E6;lecheit niht blint."</l>
+<l n="*D 518.25"><seg type="Initiale" subtype="Majuskel">D</seg>iu wîp tâten êt als wîp;</l>
+<l n="*D 518.26">etslîcher geriet ir br&#x0153;der lîp,</l>
+<l n="*D 518.27">daz si diu werc volbrâhte,</l>
+<l n="*D 518.28">des ir herzen gir gedâhte.</l>
+<l n="*D 518.29"><seg type="Initiale" subtype="Majuskel">S</seg>us wart verkêret diu menscheit;</l>
+<l n="*D 518.30">daz was i<reg type="Synkope">e</reg>doch <name type="Person">Adame</name> leit.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <note>(518.1-27)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="518.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <wit>T</wit> <wit>U</wit> <wit>O</wit>
+</rdg></app>
+<app loc="518.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="518.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="518.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="518.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="518.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="518.29"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="518.03">
+<lem>er</lem> <rdg>daz er <wit>*m</wit></rdg>
+</app>
+<app loc="518.05">
+<lem>erkant</lem> <rdg>bekant <wit>*m</wit></rdg>
+</app>
+<app loc="518.07">
+<lem>selben</lem> <rdg>siben <wit>*m</wit></rdg>
+</app>
+<app loc="518.10">
+<lem>waz</lem> <rdg><subst><del>was</del><add>waz</add></subst> <wit>D</wit> wie <wit>*m</wit> was <wit>G</wit> <wit>Z</wit></rdg>
+</app>
+<app loc="518.11">
+<lem>jâre</lem> <rdg>werde <wit>*m</wit></rdg>
+</app>
+<app loc="518.20">
+<rdg>vnt si gesl&#x00E6;hte <subst><del>merten</del><add>vnerten</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="518.24">
+<rdg>die &#x2020;sît&#x2020; an solicher werlte blint." <wit>*m</wit></rdg>
+</app>
+<app loc="518.25">
+<lem>êt als</lem> <rdg>als ê <wit>*m</wit></rdg>
+</app>
+<app loc="518.26">
+<rdg>etlîcher riet ir bl&#x0153;der lîp, <wit>*m</wit></rdg>
+</app>
+<app loc="518.28">
+<lem>des</lem> <rdg>der <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="518.01">
+<rdg></rdg>
+</app>
+<app loc="518.02">
+<rdg></rdg>
+</app>
+<app loc="518.03">
+<rdg></rdg>
+</app>
+<app loc="518.04">
+<rdg></rdg>
+</app>
+<app loc="518.05">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="518.06">
+<rdg></rdg>
+</app>
+<app loc="518.07">
+<rdg>der (des <wit>I</wit> <subst><del>D</del><add>Der</add></subst> <wit>V</wit>) siben pl., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="518.08">
+<rdg></rdg>
+</app>
+<app loc="518.09">
+<rdg>er bekante (erkante <wit>U</wit> [<wit>V</wit> <wit>O</wit>]) a. <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="518.10">
+<rdg>unde wie iegeslîcher was g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="518.11">
+<rdg></rdg>
+</app>
+<app loc="518.12">
+<rdg></rdg>
+</app>
+<app loc="518.13">
+<rdg></rdg>
+</app>
+<app loc="518.14">
+<rdg></rdg>
+</app>
+<app loc="518.15">
+<rdg></rdg>
+</app>
+<app loc="518.16">
+<rdg></rdg>
+</app>
+<app loc="518.17">
+<rdg></rdg>
+</app>
+<app loc="518.18">
+<rdg></rdg>
+</app>
+<app loc="518.19">
+<rdg></rdg>
+</app>
+<app loc="518.20">
+<rdg>unde ir g. u., <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="518.21">
+<rdg>a. danne <wit>*T</wit></rdg>
+</app>
+<app loc="518.22">
+<rdg>dô er ü. uns ze w. (zv&#x0366; werke v́ber mich <wit>V</wit> er zewerke vber vns <wit>O</wit>) saz. <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="518.23">
+<rdg>Dô sp. er: "m. vil (<note>om.</note> <wit>V</wit> <wit>O</wit>) liebiu k., <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="518.24">
+<rdg></rdg>
+</app>
+<app loc="518.25">
+<rdg></rdg>
+</app>
+<app loc="518.26">
+<rdg>eteslîcher (ieglicher <wit>I</wit>) riet ir (<subst><del>irn</del><add>ir</add></subst> <wit>V</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="518.27">
+<rdg></rdg>
+</app>
+<app loc="518.28">
+<rdg>der ir h. (Der ir herze <wit>G</wit> diu irherzen <wit>I</wit> des irs hertzen <wit>Z</wit>) <wit>*G</wit> alsirs (alsirz <wit>T</wit> Als ir <wit>V</wit> <wit>O</wit>) h. <wit>*T</wit></rdg>
+</app>
+<app loc="518.29">
+<rdg>Sus verkêrte sich diu m.; <wit>*T</wit></rdg>
+</app>
+<app loc="518.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

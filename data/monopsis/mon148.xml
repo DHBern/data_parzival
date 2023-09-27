@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 148</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 148.01">benam<reg type="Synkope">e</reg>n den künec unt des wîp.</l>
+<l n="*D 148.02">mir gebôt mîn muot<reg type="Synkope">e</reg>r an den lîp,</l>
+<l n="*D 148.03">daz ich die gruozte sund<reg type="Synkope">e</reg>r,</l>
+<l n="*D 148.04">die ob der tavelrund<reg type="Synkope">e</reg>r</l>
+<l n="*D 148.05">von rehtem prîse heten stat.</l>
+<l n="*D 148.06">die selb<reg type="Synkope">e</reg>n si mich grüezen bat.</l>
+<l n="*D 148.07"><seg type="Initiale" subtype="Majuskel">D</seg>âr an ein kunst mich verbirt,</l>
+<l n="*D 148.08">ine weiz niht, welher hinne ist wirt.</l>
+<l n="*D 148.09">dem hât ein ritt<reg type="Synkope">e</reg>r her enbot<reg type="Synkope">e</reg>n</l>
+<l n="*D 148.10">- den sach ich allenthalben rôt<reg type="Synkope">e</reg>n -,</l>
+<l n="*D 148.11">er welle sîn dâ ûze bîten.</l>
+<l n="*D 148.12">mich dunket, er welle strîten.</l>
+<l n="*D 148.13"><seg type="Initiale" subtype="Majuskel">I</seg>m ist ouch leit, daz er den wîn</l>
+<l n="*D 148.14">vergôz ûf die künegîn.</l>
+<l n="*D 148.15">owî, wan het ich sîn gewant</l>
+<l n="*D 148.16">enpfangen von des küneges hant,</l>
+<l n="*D 148.17">sô w&#x00E6;re ich vreuden rîche,</l>
+<l n="*D 148.18">wan ez stêt sô rîterlîche!"</l>
+<l n="*D 148.19"><seg type="Initiale"><corr type="Emendation">D</corr></seg>er knappe unbetwungen</l>
+<l n="*D 148.20">wart harte vil gedrungen,</l>
+<l n="*D 148.21">gehurt her unt dar.</l>
+<l n="*D 148.22">si nâmen sîner varwe war,</l>
+<l n="*D 148.23">diz was selpschouwet.</l>
+<l n="*D 148.24">gehêrt noch gevrouwet</l>
+<l n="*D 148.25">wart nie minneclîcher vruht.</l>
+<l n="*D 148.26">got was in einer süezen zuht,</l>
+<l n="*D 148.27">dô er <name type="Person">Parzivalen</name> worhte,</l>
+<l n="*D 148.28">der vreise wênec vorhte.</l>
+<l n="*D 148.29"><seg type="Initiale" subtype="Majuskel">S</seg>us wart er vür <name type="Person">Artusen</name> brâht,</l>
+<l n="*D 148.30">an dem got wunsches het erdâht.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="148.01"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="148.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="148.13"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="148.15"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="148.19"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+<app loc="148.29"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="148.01">
+<lem>des</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="148.03">
+<rdg>daz ich die gruozte besunder <wit>*m</wit></rdg>
+</app>
+<app loc="148.03">
+<rdg>daz ich si gruozte (si <add>ich</add> grv&#x0366;zte <wit>O</wit> ich gru̽szete sý <wit>L</wit>) sunder (besunder <wit>*T</wit> [<wit>L</wit>] <wit>Z</wit>) <wit>*G</wit> (<wit>T</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="148.04">
+<lem>die</lem> <rdg>und die <wit>*m</wit></rdg>
+</app>
+<app loc="148.08">
+<lem>niht</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>T</wit></rdg>
+</app>
+<app loc="148.19">
+<lem>Der</lem> <rdg>&#x00F7;eR <note>nachträglich korrigiert zu:</note> DeR <wit>D</wit></rdg>
+</app>
+<app loc="148.26">
+<lem>in</lem> <rdg>an <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="148.01">
+<rdg></rdg>
+</app>
+<app loc="148.02">
+<rdg></rdg>
+</app>
+<app loc="148.03">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="148.04">
+<rdg>unt die <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="148.05">
+<rdg>mit r. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="148.06">
+<rdg></rdg>
+</app>
+<app loc="148.07">
+<rdg></rdg>
+</app>
+<app loc="148.08">
+<rdg></rdg>
+</app>
+<app loc="148.09">
+<rdg>dem ein r. her hât (ein ritter hat <wit>V</wit> hat ein riter har <wit>T</wit>) e. <wit>*T</wit></rdg>
+</app>
+<app loc="148.10">
+<rdg></rdg>
+</app>
+<app loc="148.11">
+<rdg></rdg>
+</app>
+<app loc="148.12">
+<rdg></rdg>
+</app>
+<app loc="148.13">
+<rdg></rdg>
+</app>
+<app loc="148.14">
+<rdg></rdg>
+</app>
+<app loc="148.15">
+<rdg></rdg>
+</app>
+<app loc="148.16">
+<rdg></rdg>
+</app>
+<app loc="148.17">
+<rdg></rdg>
+</app>
+<app loc="148.18">
+<rdg>wan (<note>om.</note> <wit>I</wit>) ez st. (stet im <wit>I</wit> stet so <wit>O</wit> <wit>Z</wit>) r.!" <wit>*G</wit> (<wit>T</wit>) · wan daz st. sô r.!" <wit>*T</wit></rdg>
+</app>
+<app loc="148.19">
+<rdg></rdg>
+</app>
+<app loc="148.20">
+<rdg></rdg>
+</app>
+<app loc="148.21">
+<rdg>gevüeret her und dar. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="148.22">
+<rdg></rdg>
+</app>
+<app loc="148.23">
+<rdg>daz was s. (sebe geshawet <wit>I</wit>). <wit>*G</wit> · diu was s. (die <subst><del>*lp*</del><add>wart do wol beschowet</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="148.24">
+<rdg>gehêrret n. (vnd <wit>L</wit>) g. (gefrowen <wit>Z</wit>) <wit>*G</wit> · geêret (<subst><del>*</del><add>Geheret</add></subst> <wit>V</wit>) n. g. <wit>*T</wit></rdg>
+</app>
+<app loc="148.25">
+<rdg></rdg>
+</app>
+<app loc="148.26">
+<rdg>got was an e. reiner z., <wit>*G</wit> · got was an sîner s. (reinen <wit>T</wit>) z., <wit>*T</wit></rdg>
+</app>
+<app loc="148.27">
+<rdg></rdg>
+</app>
+<app loc="148.28">
+<rdg></rdg>
+</app>
+<app loc="148.29">
+<rdg>er <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="148.30">
+<rdg>hât gedâht. <wit>*T</wit> <note>(ohne T)</note> (<wit>I</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

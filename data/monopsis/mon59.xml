@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 59</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 59.01">der was nâch rîterschefte gevarn,</l>
+<l n="*D 59.02">dâ man niht schilde dorfte sparn.</l>
+<l n="*D 59.03"><seg type="Initiale" subtype="Majuskel">D</seg>ô hiez ouch <corr type="Emendation">er</corr> bereiten sich</l>
+<l n="*D 59.04">- sus wert diu âventiure mich -</l>
+<l n="*D 59.05">mit spern wol gemâlen,</l>
+<l n="*D 59.06">mit grüenen zindâlen.</l>
+<l n="*D 59.07">ieslîchez hete ein banier.</l>
+<l n="*D 59.08">drî hermîn enker dran sô fier,</l>
+<l n="*D 59.09">daz man ir jach vür rîcheit.</l>
+<l n="*D 59.10">si wâren lang unt breit</l>
+<l n="*D 59.11">unt reichten vaste unz ûf die hant,</l>
+<l n="*D 59.12">dô mans zuome sperîser bant</l>
+<l n="*D 59.13">dâ niderhalp eine spanne.</l>
+<l n="*D 59.14">der wart dem küenen manne</l>
+<l n="*D 59.15">hundert dâ bereitet</l>
+<l n="*D 59.16">unt wol hin nâch geleitet</l>
+<l n="*D 59.17">von sînes neven liuten.</l>
+<l n="*D 59.18">êren unt triuten</l>
+<l n="*D 59.19">kunden si im mit werdecheit.</l>
+<l n="*D 59.20">daz was ir hêrren niht ze leit.</l>
+<l n="*D 59.21">er streich - ine weiz wie lange - nâch,</l>
+<l n="*D 59.22">unz er geste herberge ersach</l>
+<l n="*D 59.23">ime lande ze <name type="Ort">Waleis</name>.</l>
+<l n="*D 59.24">dâ was geslagen vür <name type="Ort">Kanvoleis</name></l>
+<l n="*D 59.25">manec poulûn ûf die plâne.</l>
+<l n="*D 59.26">ine sag ez iu niht nâch wâne,</l>
+<l n="*D 59.27"><seg type="Initiale"><corr type="Emendation">G</corr></seg>ebiet er, sô ist ez wâr.</l>
+<l n="*D 59.28">sîn volc hiez er ûf halden gar.</l>
+<l n="*D 59.29">der hêrre sande vor hin în</l>
+<l n="*D 59.30">den kluogen meisterknappen sîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="59.03"><rdg>
+<note>Überschrift:</note> Auentiwer wie gahmuret vrowen Herzenlavdn gewan <wit>I</wit>
+</rdg></app><app loc="59.03"><rdg><note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="59.03"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="59.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="59.21"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="59.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="59.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="59.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="59.03">
+<lem>er</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="59.04">
+<rdg>- sus diu âventiure wert mich - <wit>*m</wit></rdg>
+</app>
+<app loc="59.07">
+<lem>ieslîchez</lem> <rdg>iegelîcher <wit>*m</wit></rdg>
+</app>
+<app loc="59.11">
+<lem>unz</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="59.12">
+<rdg>dâ (So <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>) man si zuo dem (zv&#x0364; den <wit>I</wit> ze des spers <wit>O</wit> [<wit>L</wit>] <wit>Fr21</wit> zvm spers <wit>Z</wit>) îsen bant <wit>*G</wit></rdg>
+</app>
+<app loc="59.12">
+<rdg>sô mans (man <wit>U</wit>) zuo sperîsene (zu&#x0366; <subst><del>*</del><add>deme sperisin</add></subst> <wit>V</wit> zez spers Jsene <wit>T</wit>) bant <wit>*T</wit></rdg>
+</app>
+<app loc="59.12">
+<lem>sperîser</lem> <rdg>sperîsen <wit>*m</wit></rdg>
+</app>
+<app loc="59.19">
+<lem>si im</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="59.20">
+<lem>was</lem> <rdg><seg type="singuläre_Lesart">wart</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="59.26">
+<rdg>ine sage ez (Me sage ich es <wit>mk</wit>) iu niht nâch wâne. <wit>*m</wit></rdg>
+</app>
+<app loc="59.27">
+<lem>Gebiet</lem> <rdg>&#x00F7;ebiet <wit>D</wit></rdg>
+</app>
+<app loc="59.27">
+<lem>er</lem> <rdg>ir <wit>*m</wit></rdg>
+</app>
+<app loc="59.29">
+<lem>hin</lem> <rdg>ime <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="59.01">
+<rdg>der was durch rîterschaft gevaren, <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="59.02">
+<rdg></rdg>
+</app>
+<app loc="59.03">
+<rdg>er (<note>om.</note> <wit>T</wit>) ouch <wit>*T</wit> <wit>L</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="59.04">
+<rdg></rdg>
+</app>
+<app loc="59.05">
+<rdg>wol g. (<subst><del>gemalen</del><add>gemale</add></subst> <wit>U</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="59.06">
+<rdg>von gr. zendâlen. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="59.07">
+<rdg>an ie. (iegeshlichem <wit>I</wit>) ein b., <wit>*G</wit> <note>(nur GI)</note> · ieglîcher h. ein b. <wit>*T</wit> <note>(nur U)</note> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="59.08">
+<rdg></rdg>
+</app>
+<app loc="59.09">
+<rdg></rdg>
+</app>
+<app loc="59.10">
+<rdg>die w. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="59.11">
+<rdg>v. ûf <wit>*G</wit> <note>(ohne IOZ)</note> (<wit>T</wit>)</rdg>
+</app>
+<app loc="59.12">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="59.13">
+<rdg>n. ein (einer <wit>G</wit>) sp. <wit>*G</wit> <note>(nur GI)</note> · dâ nidene (vnde vürbaz <wit>T</wit>) e. sp. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="59.14">
+<rdg></rdg>
+</app>
+<app loc="59.15">
+<rdg>wol h. dâr b. <wit>*G</wit> <note>(nur GI)</note> · h. wol bereit <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="59.16">
+<rdg>hinden n. (<subst><del>hin*</del><add>hinnach</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="59.17">
+<rdg></rdg>
+</app>
+<app loc="59.18">
+<rdg>ê. (geren <wit>G</wit>) und getriuten, <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="59.19">
+<rdg>k. (Begvnden <wit>O</wit> [<wit>Fr21</wit>]) sin mit w. <wit>*G</wit> (<wit>T</wit>) · k. si (<subst><del>Kunden*</del><add>Kundez in</add></subst> <wit>V</wit>) mit wirdecheit. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="59.20">
+<rdg></rdg>
+</app>
+<app loc="59.21">
+<rdg></rdg>
+</app>
+<app loc="59.22">
+<rdg>unz er zuo der g. (er der gest <wit>I</wit> [<wit>L</wit> <wit>V</wit>] er gest <wit>O</wit> [<wit>Z</wit> <wit>T</wit>]) h. sach <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="59.23">
+<rdg></rdg>
+</app>
+<app loc="59.24">
+<rdg>vor K. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="59.25">
+<rdg>ûf den plân. <wit>*G</wit> <note>(ohne O)</note> ûf dem pl. <wit>*T</wit> <note>(ohne T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="59.26">
+<rdg>n. vür wân. <wit>*G</wit> <note>(nur GI)</note> · n. von wâne. <wit>*T</wit> (<wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="59.27">
+<rdg>gebiet ir (irs <wit>V</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="59.28">
+<rdg>h. gar <wit>*G</wit></rdg>
+</app>
+<app loc="59.29">
+<rdg>unde (der hêrre <wit>*T</wit> [<wit>O</wit>]) s. vor im hin în (vor in in <wit>O</wit> vor im in <wit>T</wit>) <wit>*G</wit> <note>(nur GI)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="59.30">
+<rdg>den kl. knappen meister sîn. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

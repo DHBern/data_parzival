@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 469</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 469.01"><seg type="Initiale">D</seg>â wont ein werlîchiu schar.</l>
+<l n="*D 469.02">ich wil iu künden umb ir nar:</l>
+<l n="*D 469.03">si lebent von einem steine,</l>
+<l n="*D 469.04">des geslähte ist vil reine.</l>
+<l n="*D 469.05">hât ir des niht erkennet,</l>
+<l n="*D 469.06">der wirt iu hie genennet:</l>
+<l n="*D 469.07">er heizet <name type="Sonstiges">lapsit exillis</name>.</l>
+<l n="*D 469.08">von des steines kraft vil gewis</l>
+<l n="*D 469.09">der fênix verbrinnet, daz er zaschen wirt.</l>
+<l n="*D 469.10">diu asche im aber leb<reg type="Synkope">e</reg>n birt.</l>
+<l n="*D 469.11">sus rêrt der fênix mûze sîn</l>
+<l n="*D 469.12">unt gît dar nâch vil liehten schîn,</l>
+<l n="*D 469.13">daz er sch&#x0153;ne wirt als ê.</l>
+<l n="*D 469.14">ouch wart nie menschen sô wê,</l>
+<l n="*D 469.15">swelhes tages ez den stein gesiht,</l>
+<l n="*D 469.16">die wochen mac ez sterben niht,</l>
+<l n="*D 469.17">diu aller schierst dar nâch gestêt.</l>
+<l n="*D 469.18">sîn varwe im nimmer ouch zergêt.</l>
+<l n="*D 469.19">man muoz im sölher varwe jeh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 469.20">dâ mit ez hât den stein geseh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 469.21">ez sî magt ode man,</l>
+<l n="*D 469.22">als dô sîn bestiu zît huop an.</l>
+<l n="*D 469.23">s&#x00E6;hez den stein zwei hundert jâr,</l>
+<l n="*D 469.24">im enwürde denne grâ sîn hâr.</l>
+<l n="*D 469.25">sölhe kraft dem menschen gît der stein,</l>
+<l n="*D 469.26">daz im vleisch und bein</l>
+<l n="*D 469.27">jugent enpf&#x00E6;het al sunder twâl.</l>
+<l n="*D 469.28">der stein ist ouch genant der <name type="Sonstiges">Grâl</name>.</l>
+<l n="*D 469.29">dâr ûf kumt hiute ein botschaft,</l>
+<l n="*D 469.30">dâr an doch lît sîn h&#x0153;hste kraft.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="469.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>
+</rdg></app>
+<app loc="469.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="469.04">
+<lem>vil</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="469.06">
+<lem>der</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="469.07">
+<rdg>er heizet lapis exilis. <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="469.08">
+<lem>vil gewis</lem> <rdg>der fênix (vinx <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="469.09">
+<lem>der fênix</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="469.11">
+<lem>der fênix</lem> <rdg>fênix die <wit>*m</wit></rdg>
+</app>
+<app loc="469.15">
+<lem>ez</lem> <rdg>er (<subst><del>er</del><add>ez</add></subst> <wit>O</wit>) <wit>*m</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="469.16">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="469.19">
+<lem>varwe</lem> <rdg>vröude <wit>*m</wit></rdg>
+</app>
+<app loc="469.23">
+<lem>s&#x00E6;hez</lem> <rdg>sehe ez <wit>*m</wit> (<wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>)</rdg>
+</app>
+<app loc="469.24">
+<lem>enwürde</lem> <rdg>werde <wit>*m</wit></rdg>
+</app>
+<app loc="469.27">
+<lem>enpf&#x00E6;het</lem> <rdg>enpfâhent <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="469.01">
+<rdg></rdg>
+</app>
+<app loc="469.02">
+<rdg></rdg>
+</app>
+<app loc="469.03">
+<rdg></rdg>
+</app>
+<app loc="469.04">
+<rdg></rdg>
+</app>
+<app loc="469.05">
+<rdg></rdg>
+</app>
+<app loc="469.06">
+<rdg>der w. iu alhie g.: <wit>*T</wit></rdg>
+</app>
+<app loc="469.07">
+<rdg>er h. jaspis ex illix (<subst><del>*</del><add>lapis exillix</add></subst> <wit>V</wit>). <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr18</wit>)</rdg>
+</app>
+<app loc="469.08">
+<rdg>von des st. kr. (des chraft <wit>O</wit> [<wit>L</wit> <wit>Fr18</wit>] <subst><del>de*</del><add>dez</add></subst> craft <wit>V</wit> der kraft <wit>*T</wit>) der fênix <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="469.09">
+<rdg>der fênix <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="469.10">
+<rdg>aber daz l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="469.11">
+<rdg>f. die m. die <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="469.12">
+<rdg></rdg>
+</app>
+<app loc="469.13">
+<rdg></rdg>
+</app>
+<app loc="469.14">
+<rdg></rdg>
+</app>
+<app loc="469.15">
+<rdg>st. (<note>om.</note> <wit>I</wit>) siht (gesiht <wit>I</wit>), <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="469.16">
+<rdg>ez ersterben n., <wit>*T</wit></rdg>
+</app>
+<app loc="469.17">
+<rdg></rdg>
+</app>
+<app loc="469.18">
+<rdg>im (<note>om.</note> <wit>I</wit>) ouch niemer <wit>*T</wit> <note>(nur T)</note> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="469.19">
+<rdg></rdg>
+</app>
+<app loc="469.20">
+<rdg></rdg>
+</app>
+<app loc="469.21">
+<rdg></rdg>
+</app>
+<app loc="469.22">
+<rdg>alsô sîn beste zil (bestiv zit <wit>O</wit>) h. an. <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="469.23">
+<rdg></rdg>
+</app>
+<app loc="469.24">
+<rdg></rdg>
+</app>
+<app loc="469.25">
+<rdg>menschen <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="469.26">
+<rdg></rdg>
+</app>
+<app loc="469.27">
+<rdg>j. enpfâhent (enpfahet <wit>V</wit> [<wit>O</wit> <wit>Z</wit> <wit>Fr18</wit>] enphahen <wit>L</wit>) s. tw. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit>)</rdg>
+</app>
+<app loc="469.28">
+<rdg>der st., der ist g. der Gr. <wit>*T</wit></rdg>
+</app>
+<app loc="469.29">
+<rdg></rdg>
+</app>
+<app loc="469.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

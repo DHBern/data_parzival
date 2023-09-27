@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 46</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 46.01">"gêt nâher, mîn hêr <name type="Person">Razalik</name>.</l>
+<l n="*D 46.01-1"></l>
+<l n="*D 46.02">ir sult küssen mîn wîp.</l>
+<l n="*D 46.02-1"></l>
+<l n="*D 46.03"><seg type="Initiale"><corr type="Emendation">A</corr></seg>lsô tuot ouch ir, hêr <name type="Person">Gaschier</name>."</l>
+<l n="*D 46.04"><name type="Person">Hiutegern</name> den <name type="Person">Schotten</name> fier</l>
+<l n="*D 46.05">bat er si küssen an ir munt.</l>
+<l n="*D 46.06">der was von sîner tjost wunt.</l>
+<l n="*D 46.07">er bat si alle sitzen.</l>
+<l n="*D 46.08">al stênde sprach er mit witzen:</l>
+<l n="*D 46.09">"ich s&#x00E6;he ouch gerne den neven mîn,</l>
+<l n="*D 46.10">m<corr type="Emendation">ö</corr>ht ez mit sînen hulden sîn,</l>
+<l n="*D 46.11">der in hie gevangen hât.</l>
+<l n="*D 46.12">ine hâns von sippe decheinen rât,</l>
+<l n="*D 46.13">ine muoz in ledec machen."</l>
+<l n="*D 46.14">diu künegîn begunde lachen.</l>
+<l n="*D 46.15"><seg type="Initiale" subtype="Majuskel">S</seg>i hiez balde nâch im springen.</l>
+<l n="*D 46.16">dort her begunde dringen</l>
+<l n="*D 46.17">der minneclîche bêâ kunt.</l>
+<l n="*D 46.18">der was von rîterschefte wunt</l>
+<l n="*D 46.19">unt het ez ouch dâ vil guot getân.</l>
+<l n="*D 46.20"><name type="Person">Gaschier</name> der <name type="Person">Oriman</name></l>
+<l n="*D 46.21">in dar brâhte. er was kurtoys.</l>
+<l n="*D 46.22">sîn vater was ein <name type="Person">Franzoys</name>.</l>
+<l n="*D 46.23">er was <name type="Person">Kayletes</name> swester barn.</l>
+<l n="*D 46.24">in wîbes dienste er was gevarn.</l>
+<l n="*D 46.25">er hiez <name type="Person">Killirjacac</name>.</l>
+<l n="*D 46.26">aller manne sch&#x0153;ne er widerwac.</l>
+<l n="*D 46.27"><seg type="Initiale" subtype="Majuskel">D</seg>ô in <name type="Person">Gahmuret</name> gesach,</l>
+<l n="*D 46.28">ir antlütze sippe jach.</l>
+<l n="*D 46.29">diu wâren ein and<reg type="Synkope">e</reg>r vil gelîch.</l>
+<l n="*D 46.30">er bat die küneginne rîch</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <note>(mit 46.1¹ und 2²)</note> <wit>V</wit> <note>(mit 46.1¹ und 2²)</note> <wit>T</wit> <note>(ohne 46.1¹ und 2²)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="46.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="46.03"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr14</wit>
+</rdg></app>
+<app loc="46.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="46.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="46.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="46.27"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app><app loc="46.27"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="46.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="46.01">
+<rdg>er sprach: "mîn hêrre Razalic, <wit>*m</wit></rdg>
+</app>
+<app loc="46.01">
+<rdg>"gêt her, mîn hêr (<subst><del>R</del><add>Her</add></subst> <wit>O</wit>) Razalic. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="46.01">
+<rdg>"gât, hêrre mîn, Razalic, (Gant har min <subst><del>*R*</del><add>herre Razalig</add></subst> <wit>V</wit> er sprach her Razalic gêt her <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="46.02">
+<rdg>gât nâher und küsset mîn wîp. <wit>*m</wit></rdg>
+</app>
+<app loc="46.03">
+<lem>Alsô</lem> <rdg>&#x00F7;lso <wit>D</wit></rdg>
+</app>
+<app loc="46.05">
+<lem>ir</lem> <rdg>den <wit>*m</wit> <wit>I</wit></rdg>
+</app>
+<app loc="46.08">
+<rdg>alstênder sprach (Stende sprach er <wit>O</wit>) mit witzen: <wit>*G</wit></rdg>
+</app>
+<app loc="46.08">
+<rdg>alle stunde (al stande <wit>V</wit> vnde stânde <wit>T</wit>) er sprach mit witzen: <wit>*T</wit></rdg>
+</app>
+<app loc="46.08">
+<lem>sprach er</lem> <rdg><supplied resp="Sekundärliteratur">er</supplied> sprach <wit>Fr14</wit></rdg>
+</app>
+<app loc="46.10">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="46.11">
+<lem>gevangen</lem> <rdg><supplied resp="Sekundärliteratur">ge</supplied>vangen <wit>Fr14</wit></rdg>
+</app>
+<app loc="46.18">
+<rdg>der was von einer tjoste wunt <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="46.18">
+<rdg>er was von ritterschaft wunt (von riterscefte was er wunt <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="46.19">
+<lem>ez</lem> <rdg><note>om.</note> <wit>Fr14</wit></rdg>
+</app>
+<app loc="46.20">
+<lem>Oriman</lem> <rdg>Ereman (ere man <note>nachträglich korrigiert zu:</note> eren man <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="46.26">
+<rdg>er aller manne sch&#x0153;ne widerwac. <wit>*m</wit></rdg>
+</app>
+<app loc="46.27">
+<lem>gesach</lem> <rdg><supplied resp="Sekundärliteratur">er sach</supplied> <wit>Fr14</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="46.01">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="46.01-1">
+<rdg>tretet an der s&#x00E6;lden stîc. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="46.02">
+<rdg>ir s. k. mîn wîp (kvsset min wip daz ist min ger <wit>T</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="46.02-1">
+<rdg>diu mir ist als der lîp. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="46.03">
+<rdg>sam tuot ir (tu&#x0366; o&#x036E;ch <wit>V</wit>), mîn (<note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>L</wit>) hêr Gatschier." <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="46.04">
+<rdg>Hutegern, den degen (<subst><del>*</del><add>schotten</add></subst> <wit>V</wit>) f., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="46.05">
+<rdg>an sînen m. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="46.06">
+<rdg>er was <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="46.07">
+<rdg></rdg>
+</app>
+<app loc="46.08">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="46.09">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="46.10">
+<rdg></rdg>
+</app>
+<app loc="46.11">
+<rdg></rdg>
+</app>
+<app loc="46.12">
+<rdg>h. vor s. <wit>*G</wit> <note>(ohne O)</note> <wit>T</wit></rdg>
+</app>
+<app loc="46.13">
+<rdg></rdg>
+</app>
+<app loc="46.14">
+<rdg></rdg>
+</app>
+<app loc="46.15">
+<rdg>si h. in b. bringen. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="46.16">
+<rdg></rdg>
+</app>
+<app loc="46.17">
+<rdg></rdg>
+</app>
+<app loc="46.18">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="46.19">
+<rdg>und hât er (hat es <wit>V</wit> hatez <wit>T</wit>) dâ vil wol (gv&#x0366;t <wit>T</wit>) g. <wit>*T</wit></rdg>
+</app>
+<app loc="46.20">
+<rdg>der Norman <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="46.21">
+<rdg>brâhtin (Brachten in <wit>L</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="46.22">
+<rdg>ein Franzois <wit>*G</wit></rdg>
+</app>
+<app loc="46.23">
+<rdg>unde was <wit>*G</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="46.24">
+<rdg></rdg>
+</app>
+<app loc="46.25">
+<rdg></rdg>
+</app>
+<app loc="46.26">
+<rdg></rdg>
+</app>
+<app loc="46.27">
+<rdg>Als in G. ersach, <wit>*G</wit> <note>(nur GI)</note> Dô in G. ersach, <wit>*T</wit></rdg>
+</app>
+<app loc="46.28">
+<rdg></rdg>
+</app>
+<app loc="46.29">
+<rdg></rdg>
+</app>
+<app loc="46.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

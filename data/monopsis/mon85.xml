@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 85</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 85.01">dô bôt man in ir trinken dar</l>
+<l n="*D 85.02">in manegem steine lieht gevar,</l>
+<l n="*D 85.03"><name type="Sonstiges">smareide</name> unt <name type="Sonstiges">sardîn</name>.</l>
+<l n="*D 85.04">etslîcher was ein <name type="Sonstiges">rubîn</name>.</l>
+<l n="*D 85.05">vürz poulûn dô reit</l>
+<l n="*D 85.06">zwêne ritt<reg type="Synkope">e</reg>r ûf ir sicherheit.</l>
+<l n="*D 85.07">die wâren hin ûz gevangen</l>
+<l n="*D 85.08">unt kômen her în gegangen.</l>
+<l n="*D 85.09">daz eine, daz was <name type="Person">Kaylet</name>.</l>
+<l n="*D 85.10">der sach den künec <name type="Person">Gahmuret</name></l>
+<l n="*D 85.11">sitzen, als er w&#x00E6;re unvrô.</l>
+<l n="*D 85.12">er sprach: "wie gebârest dû sô?</l>
+<l n="*D 85.13"><seg type="Initiale"><corr type="Emendation">D</corr></seg>în prîs ist doch dâ vür erkant,</l>
+<l n="*D 85.14">vrôn <name type="Person">Herzeloyden</name> unt ir lant</l>
+<l n="*D 85.15">hât dîn lîp errungen.</l>
+<l n="*D 85.16">des jehent hie gar die zungen.</l>
+<l n="*D 85.17">er sî <name type="Person">Bertun</name> od<reg type="Synkope">e</reg>r <name type="Person">Yrschman</name></l>
+<l n="*D 85.18">od<reg type="Synkope">e</reg>r swer hie <name type="Person">welhisch</name> sprâche kan,</l>
+<l n="*D 85.19"><name type="Person">Franzois</name> od<reg type="Synkope">e</reg>r <name type="Person">Brabant</name>,</l>
+<l n="*D 85.20">die jehent unt volgen<corr type="Emendation">t</corr> dîner hant,</l>
+<l n="*D 85.21">dir enkünne an sô bewantem spiln</l>
+<l n="*D 85.22">glîche niem<reg type="Synkope">e</reg>n hie geziln.</l>
+<l n="*D 85.23">des lis ich hie den wâren brief.</l>
+<l n="*D 85.24">dîn kraft mit ellen dô niht slief,</l>
+<l n="*D 85.25">dô dise hêrren kôm<reg type="Synkope">e</reg>n in nôt,</l>
+<l n="*D 85.26">der hant nie sicherheit gebôt:</l>
+<l n="*D 85.27">mîn hêr <name type="Person">Brandelidelin</name></l>
+<l n="*D 85.28">unt der küene <name type="Person">L&#x00E6;helin</name>,</l>
+<l n="*D 85.29"><name type="Person">Hardiz</name> unt <name type="Person">Schafillor</name>.</l>
+<l n="*D 85.30">owê, <name type="Person">Razalik</name>, der môr,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="85.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="85.05"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>L</wit><wit>Z</wit> <wit>U</wit> <wit>T</wit>
+</rdg></app>
+<app loc="85.13"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="85.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="85.27"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="85.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="85.01">
+<lem>ir</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="85.02">
+<rdg>in manigen steinen wol gevar, <wit>*m</wit></rdg>
+</app>
+<app loc="85.05">
+<lem>vürz poulûn</lem> <rdg>Vür die pavelûne <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="85.13">
+<lem>Dîn</lem> <rdg>&#x00F7;in <wit>D</wit></rdg>
+</app>
+<app loc="85.16">
+<lem>gar</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="85.17">
+<lem>er</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+<app loc="85.20">
+<lem>volgent</lem> <rdg>volgen <wit>D</wit></rdg>
+</app>
+<app loc="85.21">
+<lem>bewantem spiln</lem> <rdg>bewanten ziln <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="85.01">
+<rdg>man bôt (het <wit>O</wit>) in daz (ir <wit>I</wit>) tr. dar <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="85.02">
+<rdg>st. wol g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="85.03">
+<rdg></rdg>
+</app>
+<app loc="85.04">
+<rdg>etslîche wâren rubîne. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="85.05">
+<rdg></rdg>
+</app>
+<app loc="85.06">
+<rdg></rdg>
+</app>
+<app loc="85.07">
+<rdg>ûz <note>om.</note> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="85.08">
+<rdg>k. hin în <wit>*G</wit> kâmen dar în <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="85.09">
+<rdg>daz was einer Kailet. <wit>*G</wit> <note>(ohne G)</note> · der eine, daz was (daz eine was <wit>T</wit>) K. <wit>*T</wit></rdg>
+</app>
+<app loc="85.10">
+<rdg>er (vnde <wit>G</wit> <wit>V</wit>) s. <wit>*G</wit> <note>(ohne LZ)</note> <wit>T</wit></rdg>
+</app>
+<app loc="85.11">
+<rdg></rdg>
+</app>
+<app loc="85.12">
+<rdg></rdg>
+</app>
+<app loc="85.13">
+<rdg></rdg>
+</app>
+<app loc="85.14">
+<rdg></rdg>
+</app>
+<app loc="85.15">
+<rdg>dîn lîp hât e. (betwungen <wit>I</wit>). <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="85.16">
+<rdg>des j. dir gar (dir all <wit>I</wit> dir <wit>*T</wit> <note>[nur U]</note>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="85.17">
+<rdg>ez sî <wit>*G</wit> <wit>*T</wit> · Britun oder irisch man, <wit>*T</wit></rdg>
+</app>
+<app loc="85.18">
+<rdg>oder <note>om.</note> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="85.19">
+<rdg></rdg>
+</app>
+<app loc="85.20">
+<rdg></rdg>
+</app>
+<app loc="85.21">
+<rdg>daz dir an sô gewanten spilen (ziln <wit>I</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="85.22">
+<rdg>gelîch n. müge g. (<subst><del>geziln</del><add>gespiln</add></subst> <wit>I</wit> gezeln <wit>U</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="85.23">
+<rdg>hie <note>om.</note> <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="85.24">
+<rdg></rdg>
+</app>
+<app loc="85.25">
+<rdg>d. helde k. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="85.26">
+<rdg>diu h. dir (der hant <subst><del>*</del><add>nie</add></subst> <wit>V</wit>) s. dâ bôt: <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="85.27">
+<rdg>der stolze B. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="85.28">
+<rdg>und ouch der k. (ouch herre <wit>T</wit>) <wit>*T</wit> (<wit>O</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="85.29">
+<rdg>H. und Schafillor <wit>*T</wit></rdg>
+</app>
+<app loc="85.30">
+<rdg>und (owe vnd <wit>I</wit>) Razalic, <wit>*T</wit> <note>(ohne T)</note> (<wit>I</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

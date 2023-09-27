@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 338</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 338.01"><seg type="Initiale">D</seg>er nie gewarb nâch schanden,</l>
+<l n="*D 338.02">eine wîle zuo sînen handen</l>
+<l n="*D 338.03">sol nû dise âventiure hân</l>
+<l n="*D 338.04">der werde erkande <name type="Person">Gawan</name>.</l>
+<l n="*D 338.05">diu prüevet manegen âne haz</l>
+<l n="*D 338.06">dâr neben od<reg type="Synkope">e</reg>r vür in baz</l>
+<l n="*D 338.07">den des m&#x00E6;res hêrren <name type="Person">Parzival</name>.</l>
+<l n="*D 338.08">swer sînen vriunt alle mâl</l>
+<l n="*D 338.09">mit worten an daz h&#x0153;hste jagt,</l>
+<l n="*D 338.10">der ist prîses anderhalp verzagt.</l>
+<l n="*D 338.11">nû w&#x00E6;re der liute volge guot,</l>
+<l n="*D 338.12">swer dicke lop mit wârheit tuot,</l>
+<l n="*D 338.13">wan swaz er sprichet od<reg type="Synkope">e</reg>r sprach,</l>
+<l n="*D 338.14">diu rede belîbet âne dach.</l>
+<l n="*D 338.15"><seg type="Initiale" subtype="Majuskel">W</seg>er sol sinnes wort behalten,</l>
+<l n="*D 338.16">es enwellen die wîsen walten?</l>
+<l n="*D 338.17">valsch, lüg<reg type="Synkope">e</reg>lîch ein m&#x00E6;re,</l>
+<l n="*D 338.18">daz, w&#x00E6;n ich, baz noch w&#x00E6;re</l>
+<l n="*D 338.19">âne wirt ûf eime snê,</l>
+<l n="*D 338.20">sô daz dem munde würde wê,</l>
+<l n="*D 338.21">derz ûz vür wârheit breitet.</l>
+<l n="*D 338.22">sô het in got bereitet,</l>
+<l n="*D 338.23">als guoter liute wünschen stêt,</l>
+<l n="*D 338.24">den ir triwe zarbeite ergêt.</l>
+<l n="*D 338.25"><seg type="Initiale" subtype="Majuskel">S</seg>wem ist ze sölhen werken gâch,</l>
+<l n="*D 338.26">dâ missewende h&#x0153;ret nâch,</l>
+<l n="*D 338.27">pflihtet werder lîp an den gewin,</l>
+<l n="*D 338.28">daz muoz in lêren kranker sin.</l>
+<l n="*D 338.29">er mîdet ez ê, kan er sich schem<reg type="Synkope">e</reg>n;</l>
+<l n="*D 338.30">den site sol er ze vogte nem<reg type="Synkope">e</reg>n.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="338.01"><rdg>
+<note>Illustration mit Überschrift:</note> Hie gant Gawanes offenturen an wie der ze sinem kampfe fu̽r vnd gedaget man parcifals ein lange wile <wit>mk</wit>
+</rdg></app><app loc="338.01"><rdg><note>Überschrift:</note> Hie vert her Gawan in daz lant zv&#x0366; ascalvn Do er kemphen solte mit kyngrimursel <wit>V</wit>
+</rdg></app><app loc="338.01"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>T</wit> <wit>V</wit>
+</rdg></app><app loc="338.01"><rdg><note>Initiale</note> <wit>mk</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="338.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="338.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="338.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="338.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="338.25"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="338.03">
+<lem>dise</lem> <rdg>die <wit>*m</wit></rdg>
+</app>
+<app loc="338.05">
+<rdg>die brüefent manigen âne haz <wit>*m</wit></rdg>
+</app>
+<app loc="338.11">
+<lem>nû</lem> <rdg>ime <wit>*m</wit></rdg>
+</app>
+<app loc="338.18">
+<lem>baz noch</lem> <rdg>noch baz (<subst><del>*</del><add>noch baz</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="338.24">
+<lem>zarbeite</lem> <rdg>zer arbeit <wit>*m</wit> (<wit>Z</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="338.01">
+<rdg></rdg>
+</app>
+<app loc="338.02">
+<rdg></rdg>
+</app>
+<app loc="338.03">
+<rdg></rdg>
+</app>
+<app loc="338.04">
+<rdg></rdg>
+</app>
+<app loc="338.05">
+<rdg>Daz (<subst><del>D*</del><add>Die</add></subst> <wit>V</wit>) pr. maneger (manigen <wit>V</wit>) âne haz <wit>*T</wit></rdg>
+</app>
+<app loc="338.06">
+<rdg>o. vürbaz <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="338.07">
+<rdg>danne daz m&#x00E6;re (dez <subst><del>*</del><add>merez</add></subst> <wit>V</wit>) hêrn Parcifal. <wit>*T</wit></rdg>
+</app>
+<app loc="338.08">
+<rdg>sîne <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="338.09">
+<rdg></rdg>
+</app>
+<app loc="338.10">
+<rdg></rdg>
+</app>
+<app loc="338.11">
+<rdg>im ist der l. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="338.12">
+<rdg>der d. <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="338.13">
+<rdg>oder sw. <wit>*T</wit></rdg>
+</app>
+<app loc="338.14">
+<rdg></rdg>
+</app>
+<app loc="338.15">
+<rdg></rdg>
+</app>
+<app loc="338.16">
+<rdg></rdg>
+</app>
+<app loc="338.17">
+<rdg></rdg>
+</app>
+<app loc="338.18">
+<rdg></rdg>
+</app>
+<app loc="338.19">
+<rdg>einen (<subst><del>einen*</del><add>einem</add></subst> <wit>V</wit>) <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="338.20">
+<rdg></rdg>
+</app>
+<app loc="338.21">
+<rdg></rdg>
+</app>
+<app loc="338.22">
+<rdg></rdg>
+</app>
+<app loc="338.23">
+<rdg></rdg>
+</app>
+<app loc="338.24">
+<rdg></rdg>
+</app>
+<app loc="338.25">
+<rdg></rdg>
+</app>
+<app loc="338.26">
+<rdg></rdg>
+</app>
+<app loc="338.27">
+<rdg></rdg>
+</app>
+<app loc="338.28">
+<rdg>l. karger (k:::ger <wit>I</wit>) sin. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="338.29">
+<rdg>ê <note>om.</note> <wit>*T</wit> <wit>O</wit></rdg>
+</app>
+<app loc="338.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

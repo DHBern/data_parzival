@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 307</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>02.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 307.01">spien si im vür sîn houbtloch.</l>
+<l n="*D 307.02"><name type="Person">Cunneware</name> gab im mêr dennoch:</l>
+<l n="*D 307.03">einen tiweren gürtel fier.</l>
+<l n="*D 307.04">mit edelen steinen manec tier</l>
+<l n="*D 307.05">muose ûzen ûf dem borten sîn.</l>
+<l n="*D 307.06">diu rinke was ein <name type="Sonstiges">rubîn</name>.</l>
+<l n="*D 307.07"><seg type="Initiale" subtype="Majuskel">W</seg>ie was der junge âne bart</l>
+<l n="*D 307.08">geschicket, dô er gegürtet wart?</l>
+<l n="*D 307.09">diz m&#x00E6;re giht: wol genuoc.</l>
+<l n="*D 307.10">daz volc im holdez herze truoc.</l>
+<l n="*D 307.11">swer in sach, man od<reg type="Synkope">e</reg>r wîp,</l>
+<l n="*D 307.12">die heten wert sînen lîp.</l>
+<l n="*D 307.13"><seg type="Initiale" subtype="Majuskel">D</seg>er künec messe het gehôrt.</l>
+<l n="*D 307.14">man sach <name type="Person">Artusen</name> komen dort</l>
+<l n="*D 307.15">mit der tavelrunde diet,</l>
+<l n="*D 307.16">der neheiner valscheit nie geriet.</l>
+<l n="*D 307.17">die heten alle ê vernom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 307.18">der rôte rît<reg type="Synkope">e</reg>r w&#x00E6;re kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 307.19">in <name type="Person">Gawans</name> poulûn.</l>
+<l n="*D 307.20">dar kom <name type="Person">Artus</name> der <name type="Person">Bertûn</name>.</l>
+<l n="*D 307.21"><seg type="Initiale" subtype="Majuskel">D</seg>er zerblûwen <name type="Person">Anthanor</name></l>
+<l n="*D 307.22">spranc dem künege allez vor,</l>
+<l n="*D 307.23">unz er den <name type="Person">Waleis</name> ersach.</l>
+<l n="*D 307.24">den vrâgt er: "sît irz, der mich rach</l>
+<l n="*D 307.25">unt <name type="Person">Cunnewaren</name> de <name type="Ort">Lalant</name>?</l>
+<l n="*D 307.26">vil prîs<reg type="Synkope">e</reg>s giht man iwer<reg type="Synkope">e</reg>r hant.</l>
+<l n="*D 307.27"><name type="Person">Keie</name> hât verpfendet,</l>
+<l n="*D 307.28">sîn dröuwen ist nû gelendet.</l>
+<l n="*D 307.29">ich vürhte wênec sînen swanc;</l>
+<l n="*D 307.30">der zeswe arm ist im ze kranc."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(307.11-13)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="307.05"><rdg>
+<note>Initiale</note> <wit>V</wit>
+</rdg></app>
+<app loc="307.07"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit> <wit>Z</wit>
+</rdg></app><app loc="307.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="307.13"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit> <wit>O</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="307.13"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="307.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="307.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="307.05">
+<lem>dem</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="307.11">
+<lem>sach</lem> <rdg>gesach <wit>*m</wit></rdg>
+</app>
+<app loc="307.12">
+<lem>wert</lem> <rdg>werden <wit>*m</wit></rdg>
+</app>
+<app loc="307.13">
+<lem>Der künec</lem> <rdg>Artus <wit>*m</wit></rdg>
+</app>
+<app loc="307.14">
+<rdg>den sach man schône komen dort <wit>*m</wit></rdg>
+</app>
+<app loc="307.24">
+<lem>rach</lem> <rdg>dô rach (<subst><del>r</del><add>da</add></subst> rach <wit>I</wit> <subst><del>*</del><add>do rach</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>I</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="307.30">
+<lem>ze</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="307.01">
+<rdg></rdg>
+</app>
+<app loc="307.02">
+<rdg></rdg>
+</app>
+<app loc="307.03">
+<rdg></rdg>
+</app>
+<app loc="307.04">
+<rdg>von edelem gesteine (edelen steinen <wit>G</wit>) <wit>*G</wit> ûz (<subst><del>*</del><add>Mit</add></subst> <wit>V</wit>) edelem gesteine <wit>*T</wit></rdg>
+</app>
+<app loc="307.05">
+<rdg>muosen (<subst><del>mvezen</del><add>mvesen</add></subst> <wit>T</wit> <subst><del>Mv&#x0364;ste*</del><add>Mv&#x0364;ste</add></subst> <wit>V</wit> Must <wit>Z</wit>) ûf (vzen of <wit>U</wit> vzzen an <wit>V</wit> <wit>Z</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="307.06">
+<rdg></rdg>
+</app>
+<app loc="307.07">
+<rdg></rdg>
+</app>
+<app loc="307.08">
+<rdg>er gekleidet w.? <wit>*G</wit> <note>(nur GI)</note> er begürtet (<subst><del>*egv́rt*</del><add>gegv́rtet</add></subst> <wit>V</wit>) w.? <wit>*T</wit></rdg>
+</app>
+<app loc="307.09">
+<rdg>daz m. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="307.10">
+<rdg></rdg>
+</app>
+<app loc="307.11">
+<rdg>beidiu man unde (Swer in gesach man oder <wit>Z</wit>) wîp, <wit>*G</wit> · beidiu man unde wîp <wit>*T</wit></rdg>
+</app>
+<app loc="307.12">
+<rdg>die <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="307.13">
+<rdg></rdg>
+</app>
+<app loc="307.14">
+<rdg></rdg>
+</app>
+<app loc="307.15">
+<rdg></rdg>
+</app>
+<app loc="307.16">
+<rdg>der deheine (<subst><del>*</del><add>deheiner</add></subst> <wit>V</wit>) v. <wit>*G</wit> <note>(ohne OL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="307.17">
+<rdg>die h. a. ê (ê Alle <wit>O</wit>) wol (<note>om.</note> <wit>I</wit> <wit>O</wit>) v., <wit>*G</wit></rdg>
+</app>
+<app loc="307.18">
+<rdg></rdg>
+</app>
+<app loc="307.19">
+<rdg></rdg>
+</app>
+<app loc="307.20">
+<rdg></rdg>
+</app>
+<app loc="307.21">
+<rdg></rdg>
+</app>
+<app loc="307.22">
+<rdg></rdg>
+</app>
+<app loc="307.23">
+<rdg></rdg>
+</app>
+<app loc="307.24">
+<rdg>"sît ir (<subst><del>*</del><add>irs</add></subst> <wit>V</wit>), <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="307.25">
+<rdg></rdg>
+</app>
+<app loc="307.26">
+<rdg></rdg>
+</app>
+<app loc="307.27">
+<rdg></rdg>
+</app>
+<app loc="307.28">
+<rdg>nû (<subst><del>*</del><add>nv</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="307.29">
+<rdg></rdg>
+</app>
+<app loc="307.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 535</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 535.01"><seg type="Initiale">V</seg>on <seg type="singuläre_Lesart">passâschen ungeverte</seg> grôz</l>
+<l n="*D 535.02">gienc an ein wazzer, daz dâ vlôz,</l>
+<l n="*D 535.03">schifr&#x00E6;he, snel und breit,</l>
+<l n="*D 535.04">dâ engein er unt diu vrouwe reit.</l>
+<l n="*D 535.05"><seg type="Initiale" subtype="Majuskel">A</seg>n dem urvar ein anger lac,</l>
+<l n="*D 535.06">dâr ûfe man vil tjoste pflac.</l>
+<l n="*D 535.07">überz wazzer stuont daz kastel.</l>
+<l n="*D 535.08"><name type="Person">Gawan</name>, der degen snel,</l>
+<l n="*D 535.09">sach einen rîter nâch im varn,</l>
+<l n="*D 535.10">der schilt noch sper niht kunde sparn.</l>
+<l n="*D 535.11"><name type="Person">Orgeluse</name>, diu rîche,</l>
+<l n="*D 535.12">sprach hôchvertlîche:</l>
+<l n="*D 535.13">"ob mirz iwer munt vergiht,</l>
+<l n="*D 535.14">sô brich ich mîner triwe niht.</l>
+<l n="*D 535.15">ich hets iu ê sô vil gesagt,</l>
+<l n="*D 535.16">daz ir <seg type="singuläre_Lesart">vil lasters hie</seg> bejagt.</l>
+<l n="*D 535.17">nû wert iuch, ob ir kunnet wern,</l>
+<l n="*D 535.18">iuch en<seg type="singuläre_Lesart">mac</seg> and<reg type="Synkope">e</reg>rs niht ernern.</l>
+<l n="*D 535.19">der dort kumt, iuch sol sîn hant</l>
+<l n="*D 535.20">sô vellen, ob iu ist zertrant</l>
+<l n="*D 535.21">ind<reg type="Synkope">e</reg>r iwer niderkleit.</l>
+<l n="*D 535.22">daz lât <seg type="singuläre_Lesart">iu</seg> durch die vrouwen leit</l>
+<l n="*D 535.23">sîn, die ob iu sitzent und sehent.</l>
+<l n="*D 535.24">waz, ob <seg type="singuläre_Lesart">die</seg> iwer laster spehent?"</l>
+<l n="*D 535.25"><seg type="Initiale" subtype="Majuskel">D</seg>es <seg type="singuläre_Lesart">schiffes meister</seg> <seg type="singuläre_Lesart">über</seg> her</l>
+<l n="*D 535.26">kom durch <name type="Person">Orgelusen</name> ger.</l>
+<l n="*D 535.27">vonme lande inz schif si kêrte,</l>
+<l n="*D 535.28">daz <name type="Person">Gawanen</name> trûren lêrte.</l>
+<l n="*D 535.29"><seg type="Initiale">D</seg>iu rîche, wol geborne</l>
+<l n="*D 535.30">sprach wider ûz mit zorne:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="535.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr19</wit>
+</rdg></app><app loc="535.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="535.05"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="535.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="535.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="535.25"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="535.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="535.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="535.03">
+<lem>schifr&#x00E6;he</lem> <rdg>schifreht <wit>*m</wit></rdg>
+</app>
+<app loc="535.13">
+<lem>mirz</lem> <rdg>mirs <wit>*m</wit></rdg>
+</app>
+<app loc="535.15">
+<lem>vil</lem> <rdg>wol <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="535.01">
+<rdg>p. ein (passas <wit>O</wit>) u. <wit>*T</wit></rdg>
+</app>
+<app loc="535.02">
+<rdg>an daz w., <wit>*T</wit> <note>(nur TU)</note></rdg>
+</app>
+<app loc="535.03">
+<rdg>schifrechic (Schifrichec <wit>U</wit>), <wit>*T</wit> <note>(ohne VO)</note></rdg>
+</app>
+<app loc="535.04">
+<rdg></rdg>
+</app>
+<app loc="535.05">
+<rdg></rdg>
+</app>
+<app loc="535.06">
+<rdg>dâ man vil tj. (tyost vil <wit>V</wit>) ûffe pf. <wit>*T</wit></rdg>
+</app>
+<app loc="535.07">
+<rdg>ü. w. lac ein k. <wit>*T</wit></rdg>
+</app>
+<app loc="535.08">
+<rdg></rdg>
+</app>
+<app loc="535.09">
+<rdg></rdg>
+</app>
+<app loc="535.10">
+<rdg></rdg>
+</app>
+<app loc="535.11">
+<rdg></rdg>
+</app>
+<app loc="535.12">
+<rdg></rdg>
+</app>
+<app loc="535.13">
+<rdg>mirs (mir <wit>I</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="535.14">
+<rdg></rdg>
+</app>
+<app loc="535.15">
+<rdg>ich hânz (han <wit>O</wit>) iu ê sô wol (vil <wit>U</wit> <wit>V</wit> <wit>O</wit>) gesaget, <wit>*T</wit></rdg>
+</app>
+<app loc="535.16">
+<rdg></rdg>
+</app>
+<app loc="535.17">
+<rdg>iu. (<note>om.</note> <wit>O</wit>), ob ir (vbir <wit>U</wit>) iuch k. (ko&#x0364;nnent ir v́ch <wit>V</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="535.18">
+<rdg></rdg>
+</app>
+<app loc="535.19">
+<rdg></rdg>
+</app>
+<app loc="535.20">
+<rdg></rdg>
+</app>
+<app loc="535.21">
+<rdg></rdg>
+</app>
+<app loc="535.22">
+<rdg>daz sî (wirt <wit>L</wit>) iu d. die (<note>om.</note> <wit>U</wit>) vr. l. (sin leit <wit>Z</wit>), <wit>*G</wit> <note>(ohne Fr19)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="535.23">
+<rdg>die obe <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="535.24">
+<rdg></rdg>
+</app>
+<app loc="535.25">
+<rdg></rdg>
+</app>
+<app loc="535.26">
+<rdg></rdg>
+</app>
+<app loc="535.27">
+<rdg></rdg>
+</app>
+<app loc="535.28">
+<rdg></rdg>
+</app>
+<app loc="535.29">
+<rdg></rdg>
+</app>
+<app loc="535.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

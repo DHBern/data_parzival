@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 805</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 805.01"><seg type="Initiale"><corr type="Emendation">D</corr></seg>iu mag<reg type="Synkope">e</reg>tuomlîch minne im gap,</l>
+<l n="*D 805.02">dô si lebte, unt sluogen zuo daz grap.</l>
+<l n="*D 805.03"><name type="Person">Condwiramurs</name> begunde klag<reg type="Synkope">e</reg>n</l>
+<l n="*D 805.04">ir vetern tohter, hôrt ich sag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 805.05">unt wart vil vreuden âne,</l>
+<l n="*D 805.06">wande si <name type="Person">Schoysiane</name>,</l>
+<l n="*D 805.07">der tôten meide muoter, zôch</l>
+<l n="*D 805.08">kint wes<reg type="Synkope">e</reg>nde - dâr umbe si vreude vlôch -,</l>
+<l n="*D 805.09">diu <name type="Person">Parzivals</name> muome was,</l>
+<l n="*D 805.10">ob der <name type="Person">Provenzâl</name> die wârheit las.</l>
+<l n="*D 805.11"><seg type="Initiale" subtype="Majuskel">D</seg>er herzoge <name type="Person">Kyot</name></l>
+<l n="*D 805.12">wesse wênec umbe sîner tohter tôt,</l>
+<l n="*D 805.13">des künec <name type="Person">Kardeyzes</name> mag<reg type="Synkope">e</reg>zoge.</l>
+<l n="*D 805.14">ez ist niht krump alsô der boge,</l>
+<l n="*D 805.15">diz m&#x00E6;re ist wâr unt sleht.</l>
+<l n="*D 805.16">si tâten dô der reise ir reht,</l>
+<l n="*D 805.17">bî naht gein <name type="Ort">Munsalv&#x00E6;sche</name> si riten.</l>
+<l n="*D 805.18">dâ het ir <name type="Person">Feirefiz</name> gebiten</l>
+<l n="*D 805.19">mit kurzwîle die stunde.</l>
+<l n="*D 805.20">vil kerzen man dô enzunde,</l>
+<l n="*D 805.21">reht als ob brünne gar der walt.</l>
+<l n="*D 805.22"><seg type="Initiale" subtype="Majuskel">E</seg>in templeis von <name type="Ort">Patrigalt</name></l>
+<l n="*D 805.23">gewâpent bî der küneginne reit.</l>
+<l n="*D 805.24">der hof was wît und breit.</l>
+<l n="*D 805.25">dâr ûffe stuont manec sunderschar.</l>
+<l n="*D 805.26">si enpfiengen die küneginne gar</l>
+<l n="*D 805.27">unt den wirt unt den sun sîn.</l>
+<l n="*D 805.28">dô truoc man <name type="Person">Loherangrin</name></l>
+<l n="*D 805.29">gein sînem veter <name type="Person">Feirefiz</name>.</l>
+<l n="*D 805.30">dô der was swarz unt wîz,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <note>(805.15-30)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="805.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="805.03"><rdg>
+<note>Überschrift:</note> Hie kvmmet kv́nig Parzefal mit Sineme wibe kvndewiramurs vnde mit sineme svnne Lohelangrin Zv&#x0366;me grole <wit>V</wit>
+</rdg></app><app loc="805.03"><rdg><note>Initiale</note> <wit>V</wit> <wit>I</wit>
+</rdg></app>
+<app loc="805.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="805.15"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="805.22"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="805.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="805.01">
+<lem>Diu</lem> <rdg>&#x00F7;iv <wit>D</wit></rdg>
+</app>
+<app loc="805.01">
+<lem>magetuomlîch</lem> <rdg>magetlîche (megliche <wit>mk</wit>) <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="805.14">
+<lem>der</lem> <rdg>ein <wit>*m</wit></rdg>
+</app>
+<app loc="805.15">
+<lem>ist</lem> <rdg>ez ist <wit>*m</wit></rdg>
+</app>
+<app loc="805.16">
+<lem>ir</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="805.19">
+<lem>die</lem> <rdg>dise <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="805.27">
+<lem>unt</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="805.01">
+<rdg>Diu im magetuomlîche m. gap, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.02">
+<rdg>die wîl si lebet, <wit>*G</wit> (<wit>*T</wit>) · sluoc <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="805.03">
+<rdg></rdg>
+</app>
+<app loc="805.04">
+<rdg></rdg>
+</app>
+<app loc="805.05">
+<rdg>daz si was (wart <wit>*T</wit> <wit>Z</wit>) vröuden âne, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.06">
+<rdg></rdg>
+</app>
+<app loc="805.07">
+<rdg></rdg>
+</app>
+<app loc="805.08">
+<rdg>- dâ von si <wit>*T</wit></rdg>
+</app>
+<app loc="805.09">
+<rdg></rdg>
+</app>
+<app loc="805.10">
+<rdg></rdg>
+</app>
+<app loc="805.11">
+<rdg></rdg>
+</app>
+<app loc="805.12">
+<rdg></rdg>
+</app>
+<app loc="805.13">
+<rdg>küniges <wit>*G</wit> <note>(nur GL)</note> (<wit>*T</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="805.14">
+<rdg>ditze (Dise <wit>U</wit>) m&#x00E6;re ist n. sô der b., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.15">
+<rdg>ez ist wâr unde sl. <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="805.16">
+<rdg>der reise (reisen <wit>*T</wit>) t. si dô (ir <wit>*T</wit>) r., <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.17">
+<rdg>die n. si (<note>om.</note> <wit>I</wit> <wit>Z</wit>) g. Muntsalfatsche r. (si riten <wit>I</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.18">
+<rdg>mit (Sie mit <wit>Z</wit>) vröuden (freude <wit>I</wit> <wit>L</wit>) het ir (er <wit>G</wit>) dâ erbiten (gebiten <wit>*T</wit> <wit>L</wit> <wit>Z</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.19">
+<rdg>Feirafiz die st. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.20">
+<rdg>dô <note>om.</note> <wit>*G</wit></rdg>
+</app>
+<app loc="805.21">
+<rdg>reht <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="805.22">
+<rdg></rdg>
+</app>
+<app loc="805.23">
+<rdg></rdg>
+</app>
+<app loc="805.24">
+<rdg></rdg>
+</app>
+<app loc="805.25">
+<rdg>dâ st. ûf (Drvfe stvnt <wit>L</wit>) manic s. (manegiu [mage <wit>U</wit>] wîte schar <wit>*T</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.26">
+<rdg>die e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="805.27">
+<rdg>den w. unde <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="805.28">
+<rdg></rdg>
+</app>
+<app loc="805.29">
+<rdg></rdg>
+</app>
+<app loc="805.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

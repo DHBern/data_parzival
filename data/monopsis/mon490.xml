@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 490</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 490.01"><seg type="Initiale"><corr type="Emendation">D</corr></seg>â half ein nôt vür die andern nôt;</l>
+<l n="*D 490.02">des wart daz sper bluotec rôt.</l>
+<l n="*D 490.03">eteslîcher sterne komende tage</l>
+<l n="*D 490.04">die diet dâ lêret jâmers klage,</l>
+<l n="*D 490.05">die sô hôhe ob ein ander stênt</l>
+<l n="*D 490.06">unt ungelîche wider gênt;</l>
+<l n="*D 490.07">unt des <corr type="Emendation">m</corr>â<corr type="Emendation">n</corr>en wandelkêre</l>
+<l n="*D 490.08">schadet ouch zer wunden sêre.</l>
+<l n="*D 490.09">dise zît, die ich hie benennet hân,</l>
+<l n="*D 490.10">sô muoz der künec ruowe lân;</l>
+<l n="*D 490.11">sô tuot im grôzer vrost sô wê,</l>
+<l n="*D 490.12">sîn vleisch wirt kelter denne der snê.</l>
+<l n="*D 490.13">sît man daz gelüppe heiz</l>
+<l n="*D 490.14">an dem spers îsen weiz,</l>
+<l n="*D 490.15">die zît mans ûf die wunden leit.</l>
+<l n="*D 490.16">den vrost ez ûzzem lîbe treit,</l>
+<l n="*D 490.17">al umbez sper glasvar als îs.</l>
+<l n="*D 490.18">dazn moht aber decheine wîs</l>
+<l n="*D 490.19">vome sper niem<reg type="Synkope">e</reg>n bringen dan</l>
+<l n="*D 490.20">wan <name type="Person">Trebuchet</name>, der wîse man;</l>
+<l n="*D 490.21">der worhte zwei mezzer, diu ez sniten,</l>
+<l n="*D 490.22">ûz silber, diu ez niht vermiten.</l>
+<l n="*D 490.23">den list tet im ein segen kunt,</l>
+<l n="*D 490.24">der an des küneges swerte stuont.</l>
+<l n="*D 490.25">maneger ist, der gerne giht,</l>
+<l n="*D 490.26"><seg type="Initiale" subtype="Majuskel">A</seg>spindê, daz holz, enbrinne niht.</l>
+<l n="*D 490.27">sô disses glas<reg type="Synkope">e</reg>s drûf iht spranc,</l>
+<l n="*D 490.28">viwers lohen dâ nâch swanc;</l>
+<l n="*D 490.29"><seg type="Initiale" subtype="Majuskel">A</seg>spindê dâ von verbran.</l>
+<l n="*D 490.30">waz wunders diz gelüppe kan!</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="490.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="490.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="490.26"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="490.29"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="490.01">
+<lem>Dâ</lem> <rdg>&#x00F7;a <note>nachträglich korrigiert zu:</note> Da <wit>D</wit></rdg>
+</app>
+<app loc="490.07">
+<lem>mânen</lem> <rdg>namen <wit>D</wit></rdg>
+</app>
+<app loc="490.09">
+<lem>hie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="490.11">
+<lem>sô tuot im</lem> <rdg>wan im tuot <wit>*m</wit></rdg>
+</app>
+<app loc="490.13">
+<lem>daz gelüppe</lem> <rdg>dâ gelupte <wit>*m</wit></rdg>
+</app>
+<app loc="490.15">
+<lem>mans</lem> <rdg>manz <wit>*m</wit></rdg>
+</app>
+<app loc="490.17">
+<rdg>al umb daz sper, glas als îs. <wit>*m</wit></rdg>
+</app>
+<app loc="490.26">
+<lem>enbrinne</lem> <rdg>enbrenne <wit>*m</wit></rdg>
+</app>
+<app loc="490.29">
+<lem>verbran</lem> <rdg>enbran <wit>*m</wit></rdg>
+</app>
+<app loc="490.30">
+<lem>diz gelüppe</lem> <rdg>daz gelupte <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="490.01">
+<rdg>die (<note>om.</note> <wit>O</wit>) a. nôt; <wit>*G</wit></rdg>
+</app>
+<app loc="490.02">
+<rdg>dâ w. daz sp. <wit>*G</wit> <note>(nur GI)</note> · von bluote rôt. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="490.03">
+<rdg></rdg>
+</app>
+<app loc="490.04">
+<rdg>lêrent <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="490.05">
+<rdg></rdg>
+</app>
+<app loc="490.06">
+<rdg></rdg>
+</app>
+<app loc="490.07">
+<rdg></rdg>
+</app>
+<app loc="490.08">
+<rdg>sch. ou. zem wandel (<subst><del>*</del><add>zer wunden</add></subst> <wit>V</wit>) s. <wit>*T</wit></rdg>
+</app>
+<app loc="490.09">
+<rdg>die zît, die ich b. (<subst><del>bennet</del><add>benenet</add></subst> <wit>T</wit>) hân, <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="490.10">
+<rdg></rdg>
+</app>
+<app loc="490.11">
+<rdg></rdg>
+</app>
+<app loc="490.12">
+<rdg></rdg>
+</app>
+<app loc="490.13">
+<rdg></rdg>
+</app>
+<app loc="490.14">
+<rdg>an des sp. <wit>*T</wit> <wit>O</wit></rdg>
+</app>
+<app loc="490.15">
+<rdg>die zît (Dvrch daz <wit>O</wit> Die mane zit <wit>L</wit>) manz ûf <wit>*G</wit> sô (<subst><del>*</del><add>Die zit</add></subst> <wit>V</wit>) manz ûf <wit>*T</wit></rdg>
+</app>
+<app loc="490.16">
+<rdg>den vr. ez ûz der wunden treget, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="490.17">
+<rdg></rdg>
+</app>
+<app loc="490.18">
+<rdg>aber <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="490.19">
+<rdg>niemer br. dan (<subst><del>b:i:g*</del><add>nieman bringen dan</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="490.20">
+<rdg></rdg>
+</app>
+<app loc="490.21">
+<rdg>diuz snîdent, <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="490.22">
+<rdg>diuz n. mîdent (vermident <wit>V</wit> [<wit>O</wit>]). <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="490.23">
+<rdg></rdg>
+</app>
+<app loc="490.24">
+<rdg>des wirtes (<subst><del>*</del><add>kvnigez</add></subst> <wit>V</wit>) sw. <wit>*T</wit> <wit>O</wit></rdg>
+</app>
+<app loc="490.25">
+<rdg>m. ist, der des (<subst><del>*</del><add>gerne</add></subst> <wit>V</wit>) giht, <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="490.26">
+<rdg>enbrenne (bringe <wit>I</wit> brýnne <wit>L</wit>) <wit>*G</wit></rdg>
+</app>
+<app loc="490.27">
+<rdg></rdg>
+</app>
+<app loc="490.28">
+<rdg></rdg>
+</app>
+<app loc="490.29">
+<rdg>aspindê, daz holz, v. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="490.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

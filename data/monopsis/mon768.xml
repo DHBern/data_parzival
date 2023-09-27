@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 768</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>08.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 768.01">ich vüere sô kreftigez her,</l>
+<l n="*D 768.02"><name type="Person">Troy&#x00E6;re</name> lantwer</l>
+<l n="*D 768.03">unt jene, die si besâzen,</l>
+<l n="*D 768.04">müesen rûmen mir die strâzen,</l>
+<l n="*D 768.05">ob si beidenthalp noch lebten</l>
+<l n="*D 768.06">und strît<reg type="Synkope">e</reg>s gein mir strebten.</l>
+<l n="*D 768.07">si m<corr type="Emendation">ö</corr>hten siges niht erholn,</l>
+<l n="*D 768.08">si müesen schumpfentiure doln</l>
+<l n="*D 768.09">von mir unt von den mînen.</l>
+<l n="*D 768.10">ich hân in manegen pînen</l>
+<l n="*D 768.11">bejagt mit rîterlîcher tât,</l>
+<l n="*D 768.12">daz mîn nû genâde hât</l>
+<l n="*D 768.13">diu küneginne <name type="Person">Secundille</name>.</l>
+<l n="*D 768.14">swes diu gert, daz ist mîn wille.</l>
+<l n="*D 768.15"><seg type="Initiale" subtype="Majuskel">S</seg><corr type="Emendation">i</corr> hât gesetzet mir mîn leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 768.16">si hiez mich milteclîche geb<reg type="Synkope">e</reg>n</l>
+<l n="*D 768.17">unt guote rîter an mich nemen.</l>
+<l n="*D 768.18">des solte mich durch si gezemen.</l>
+<l n="*D 768.19"><seg type="Initiale" subtype="Majuskel">D</seg>az ist alsô ergangen:</l>
+<l n="*D 768.20">mit schilde bevangen</l>
+<l n="*D 768.21">ist zingesinde mir benant</l>
+<l n="*D 768.22">manec rîter wert erkant.</l>
+<l n="*D 768.23"><seg type="Initiale" subtype="Majuskel">D</seg>â engein ir minne ist mîn lôn.</l>
+<l n="*D 768.24">ich trage ein ecidemôn</l>
+<l n="*D 768.25">ûf dem schilde, als si mir gebôt.</l>
+<l n="*D 768.26">swâ ich sider kom in nôt,</l>
+<l n="*D 768.27">zehan<corr type="Emendation">t</corr> sô ich an si dâhte,</l>
+<l n="*D 768.28">ir minne helfe brâhte.</l>
+<l n="*D 768.29">diu was mir bezzer trôstes wer</l>
+<l n="*D 768.30">denne mîn got <name type="Person">Jupiter</name>."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr2</wit> <note>(768.14-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(mit 768.14¹)</note> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr18</wit> <note>(768.7-30)</note>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="768.01"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="768.09"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="768.15"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="768.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="768.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="768.02">
+<rdg>daz (Des <wit>mk</wit>) Troiere lantwer <wit>*m</wit></rdg>
+</app>
+<app loc="768.07">
+<lem>möhten</lem> <rdg>mohten <wit>D</wit></rdg>
+</app>
+<app loc="768.07">
+<lem>siges</lem> <rdg>strîtes (<subst><del>*</del><add>siges</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="768.09">
+<lem>unt von</lem> <rdg>und <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="768.14">
+<lem>swes</lem> <rdg>waz <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="768.15">
+<lem>Si</lem> <rdg>Sit <wit>D</wit></rdg>
+</app>
+<app loc="768.21">
+<lem>ist zingesinde</lem> <rdg>Jstez ingesinde <wit>Fr2</wit></rdg>
+</app>
+<app loc="768.23">
+<lem>engein</lem> <rdg>gegen <wit>*m</wit></rdg>
+</app>
+<app loc="768.27">
+<lem>zehant</lem> <rdg>ce hanc <wit>D</wit></rdg>
+</app>
+<app loc="768.27">
+<lem>dâhte</lem> <rdg>gedahte <wit>Fr2</wit> (<wit>*m</wit> <note>[nur m]</note>)</rdg>
+</app>
+<app loc="768.28">
+<lem>helfe</lem> <rdg>mir helfe <wit>Fr2</wit></rdg>
+</app>
+<app loc="768.30">
+<lem>Jupiter</lem> <rdg>hêr Jupiter <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="768.01">
+<rdg></rdg>
+</app>
+<app loc="768.02">
+<rdg>daz Troi&#x00E6;re l. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="768.03">
+<rdg></rdg>
+</app>
+<app loc="768.04">
+<rdg></rdg>
+</app>
+<app loc="768.05">
+<rdg></rdg>
+</app>
+<app loc="768.06">
+<rdg></rdg>
+</app>
+<app loc="768.07">
+<rdg></rdg>
+</app>
+<app loc="768.08">
+<rdg></rdg>
+</app>
+<app loc="768.09">
+<rdg></rdg>
+</app>
+<app loc="768.10">
+<rdg></rdg>
+</app>
+<app loc="768.11">
+<rdg></rdg>
+</app>
+<app loc="768.12">
+<rdg></rdg>
+</app>
+<app loc="768.13">
+<rdg></rdg>
+</app>
+<app loc="768.14">
+<rdg></rdg>
+</app>
+<app loc="768.15">
+<rdg></rdg>
+</app>
+<app loc="768.16">
+<rdg></rdg>
+</app>
+<app loc="768.17">
+<rdg></rdg>
+</app>
+<app loc="768.18">
+<rdg></rdg>
+</app>
+<app loc="768.19">
+<rdg></rdg>
+</app>
+<app loc="768.20">
+<rdg>mit slehte b. <wit>*T</wit></rdg>
+</app>
+<app loc="768.21">
+<rdg>ist daz ingesinde m. b., <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="768.22">
+<rdg></rdg>
+</app>
+<app loc="768.23">
+<rdg>dâ gein ir <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="768.24">
+<rdg></rdg>
+</app>
+<app loc="768.25">
+<rdg>mir <note>om.</note> <wit>*T</wit> <wit>L</wit></rdg>
+</app>
+<app loc="768.26">
+<rdg>swâ ich sît kam in nôt, <wit>*T</wit> (<wit>L</wit> <wit>Fr18</wit>)</rdg>
+</app>
+<app loc="768.27">
+<rdg>si gedâhte, <wit>*G</wit> <note>(ohne Fr18)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="768.28">
+<rdg>m. mir h. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="768.29">
+<rdg>b. strîtes wer <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="768.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

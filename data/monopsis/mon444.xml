@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 444</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.12.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 444.01"><seg type="Initiale">I</seg><reg type="Synkope">e</reg>doch bereit er sich zer tjost.</l>
+<l n="*D 444.02"><name type="Person">Parzival</name> mit solher kost</l>
+<l n="*D 444.03"><seg type="singuläre_Lesart"></seg>het ouch sper vil verzert.</l>
+<l n="*D 444.04">er dâhte: "ich w&#x00E6;re<seg type="singuläre_Lesart"></seg> unernert,</l>
+<l n="*D 444.05">rit ich über dis<reg type="Synkope">e</reg>s mannes sât.</l>
+<l n="*D 444.06">wie würde denne sîn<reg type="Synkope">e</reg>s zorn<reg type="Synkope">e</reg>s rât?</l>
+<l n="*D 444.07">nû tritte ich hie den wilden varm.</l>
+<l n="*D 444.08">mir engeswîchen hende, <seg type="singuläre_Lesart">i<reg type="Synkope">e</reg>wed<reg type="Synkope">e</reg>r</seg> arm,</l>
+<l n="*D 444.09">ich gibe <seg type="singuläre_Lesart">vür</seg> mîne reise ein pfant,</l>
+<l n="*D 444.10">daz nind<reg type="Synkope">e</reg>r bindet mich sîn hant."</l>
+<l n="*D 444.11"><seg type="Initiale" subtype="Majuskel">D</seg>az wart ze <seg type="singuläre_Lesart">bêder sît</seg> getân:</l>
+<l n="*D 444.12">diu ors in den walap verlân,</l>
+<l n="*D 444.13">mit sporn getriben unt ouch gevuort</l>
+<l n="*D 444.14">vast ûf der rabbîne hurt.</l>
+<l n="*D 444.15">ir enweders tjost dâ misseriet.</l>
+<l n="*D 444.16">man<reg type="Synkope">e</reg>ger tjost ein gegenniet</l>
+<l n="*D 444.17">was <name type="Person">Parzivals</name> hôhiu brust.</l>
+<l n="*D 444.18">den lêrte kunst unt <seg type="singuläre_Lesart">sîn</seg> gelust,</l>
+<l n="*D 444.19">daz sîn tjost als eben vuor</l>
+<l n="*D 444.20">reht in den stric der helmsnuor.</l>
+<l n="*D 444.21">er traf in, dâ man <seg type="singuläre_Lesart">h&#x00E6;ht</seg> den schilt,</l>
+<l n="*D 444.22">sô man ritterschefte spilt,</l>
+<l n="*D 444.23">daz von <name type="Ort">Munsalv&#x00E6;sche</name> der templeis</l>
+<l n="*D 444.24">von dem orse in <seg type="singuläre_Lesart">eine</seg> halden reis</l>
+<l n="*D 444.25">sô verre hin ab - diu was sô tief -,</l>
+<l n="*D 444.26">daz dâ sîn leger wênec slief.</l>
+<l n="*D 444.27"><name type="Person">Parzival</name> der tjoste nâch</l>
+<l n="*D 444.28">volgete. dem orse was <seg type="singuläre_Lesart">ze</seg> gâch;</l>
+<l n="*D 444.29">ez viel hin ab, daz ez <seg type="singuläre_Lesart">gar</seg> zerbrast.</l>
+<l n="*D 444.30"><name type="Person">Parzival</name> ein<reg type="Synkope">e</reg>s zêders ast</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr5</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="444.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr5</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="444.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="444.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="444.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="444.01">
+<lem>er</lem> <rdg><note>om.</note> <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.03">
+<lem>het</lem> <rdg>Er het <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.04">
+<lem>w&#x00E6;re</lem> <rdg>were ouch <wit>Fr5</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="444.08">
+<rdg>mirn geswîchen (Mirn gewischen <wit>G</wit> mir geswichen denn <wit>I</wit>) h. unde arm, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="444.08">
+<rdg>mir geswîche h. unde ietweder (Mir in gesweche hende oder beide <wit>U</wit> Mir engeswiche ýetweder <wit>L</wit>) arm, <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="444.08">
+<lem>ieweder</lem> <rdg>vnd <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.09">
+<lem>vür</lem> <rdg>vf <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.11">
+<lem>bêder sît</lem> <rdg>beiden siten <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.15">
+<lem>ir endweders</lem> <rdg>ir deweders (ir dewers <wit>G</wit> Jr ýetweders <wit>L</wit> Jetweders <wit>Z</wit> Jr beider <wit>U</wit> Jr <subst><del>*weders</del><add>ieweders</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="444.18">
+<lem>sîn</lem> <rdg>o&#x036E;ch <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.21">
+<lem>h&#x00E6;ht</lem> <rdg>henkit <wit>Fr5</wit> (<wit>*m</wit>)</rdg>
+</app>
+<app loc="444.24">
+<lem>eine</lem> <rdg>die <wit>Fr5</wit></rdg>
+</app>
+<app loc="444.27">
+<rdg>Parcifal, der werde, juste nâch <wit>*m</wit></rdg>
+</app>
+<app loc="444.28">
+<lem>ze</lem> <rdg><note>om.</note> <wit>Fr5</wit> <wit>*m</wit></rdg>
+</app>
+<app loc="444.29">
+<lem>gar</lem> <rdg>alliz <wit>Fr5</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="444.01">
+<rdg></rdg>
+</app>
+<app loc="444.02">
+<rdg></rdg>
+</app>
+<app loc="444.03">
+<rdg></rdg>
+</app>
+<app loc="444.04">
+<rdg>er d.: "er (ich <wit>U</wit> <wit>V</wit>) w. des u., <wit>*T</wit></rdg>
+</app>
+<app loc="444.05">
+<rdg></rdg>
+</app>
+<app loc="444.06">
+<rdg></rdg>
+</app>
+<app loc="444.07">
+<rdg></rdg>
+</app>
+<app loc="444.08">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="444.09">
+<rdg>ich gibim (gebe <wit>U</wit> gibt <wit>V</wit>) vür mîne reite (reise <wit>U</wit> <wit>V</wit> <wit>I</wit>) pf. (<subst><del>ei*</del><add>ein</add></subst> phant <wit>V</wit>), <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="444.10">
+<rdg></rdg>
+</app>
+<app loc="444.11">
+<rdg></rdg>
+</app>
+<app loc="444.12">
+<rdg></rdg>
+</app>
+<app loc="444.13">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="444.14">
+<rdg></rdg>
+</app>
+<app loc="444.15">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="444.16">
+<rdg>m. tj. ein gegenbiet (tiost en gegn bîet <wit>T</wit> [<wit>U</wit> <wit>V</wit>] tiost engegen biet <wit>I</wit>) <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="444.17">
+<rdg></rdg>
+</app>
+<app loc="444.18">
+<rdg>daz l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="444.19">
+<rdg></rdg>
+</app>
+<app loc="444.20">
+<rdg></rdg>
+</app>
+<app loc="444.21">
+<rdg>man helt (hapt <wit>I</wit> [<wit>O</wit> <wit>L</wit>]) den <wit>*G</wit> <note>(ohne Z)</note> man (<note>om.</note> <wit>T</wit>) hebet den <wit>*T</wit></rdg>
+</app>
+<app loc="444.22">
+<rdg></rdg>
+</app>
+<app loc="444.23">
+<rdg></rdg>
+</app>
+<app loc="444.24">
+<rdg></rdg>
+</app>
+<app loc="444.25">
+<rdg>was t. -, <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="444.26">
+<rdg></rdg>
+</app>
+<app loc="444.27">
+<rdg></rdg>
+</app>
+<app loc="444.28">
+<rdg>was ouch (so <wit>I</wit>) g.; <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="444.29">
+<rdg>gar <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> <wit>V</wit></rdg>
+</app>
+<app loc="444.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 206</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>03.08.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 206.01">ir ebenh&#x0153;he unt ir mangen,</l>
+<l n="*D 206.02">swaz ûf redern kom gegangen,</l>
+<l n="*D 206.03">igel, katzen in den graben,</l>
+<l n="*D 206.04">die kunde daz viwer hin dan wol schaben.</l>
+<l n="*D 206.05"><name type="Person"><seg type="Initiale"><corr type="Emendation">K</corr></seg>ingrun</name> scheneschalt</l>
+<l n="*D 206.06">was kom<reg type="Synkope">e</reg>n ze <name type="Ort">Bertane</name> in daz lant</l>
+<l n="*D 206.07">und vant den künec <name type="Person">Artus</name></l>
+<l n="*D 206.08">in <name type="Ort">Brizljan</name> zem weidehûs,</l>
+<l n="*D 206.09">daz was geheizen <name type="Ort">Karminal</name>.</l>
+<l n="*D 206.10">dô warb er, als in <name type="Person">Parzival</name></l>
+<l n="*D 206.11">gevangen<reg type="Synkope">e</reg>n hete dar gesant.</l>
+<l n="*D 206.12">vroun <name type="Person">Cunnewaren</name> de <name type="Ort">Lalant</name></l>
+<l n="*D 206.13">brâht er sîne sicherheit.</l>
+<l n="*D 206.14">diu juncvrouwe was gemeit,</l>
+<l n="*D 206.15">daz mit triwen klagt ir nôt,</l>
+<l n="*D 206.16">den man dâ hiez 'der ritt<reg type="Synkope">e</reg>r rôt'.</l>
+<l n="*D 206.17"><seg type="Initiale" subtype="Majuskel">Ü</seg>ber al diz m&#x00E6;re wart vernom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 206.18">dô was ouch vür den künec kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 206.19">der betwungene werde man.</l>
+<l n="*D 206.20">im unt der messenîde sân</l>
+<l n="*D 206.21">saget er, wa<corr type="Emendation">z</corr> in was enboten.</l>
+<l n="*D 206.22"><name type="Person">Keie</name> erschrac und begunde rôten.</l>
+<l n="*D 206.23"><seg type="Initiale" subtype="Majuskel">D</seg>och sprach er: "bistûz, <name type="Person">Kingrun</name>?</l>
+<l n="*D 206.24">âvoy, wie manegen <name type="Person">Bertun</name></l>
+<l n="*D 206.25">hât enschumpfieret dîn hant,</l>
+<l n="*D 206.26">dû, <name type="Person">Clamides</name> scheneschalt!</l>
+<l n="*D 206.27">wirt mir dîn meist<reg type="Synkope">e</reg>r nimmer holt,</l>
+<l n="*D 206.28">dîn<reg type="Synkope">e</reg>s amtes dû doch geniezen solt.</l>
+<l n="*D 206.29">der kezzel ist uns undertân,</l>
+<l n="*D 206.30">mir hie unt dir ze <name type="Ort">Brandigan</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(206.1, 5-11, 14-17 und 22-25)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="206.01"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="206.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="206.14"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="206.17"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="206.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="206.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="206.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="206.23"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="206.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="206.04">
+<rdg>daz kunde daz (<note>om.</note> <wit>*T</wit> <note>[nur T]</note>) viur her (wol her <wit>Z</wit> hin <wit>*T</wit>) dan wol schaben (geschaben <wit>U</wit> <wit>V</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="206.05">
+<rdg>Nû was ouch Kingrun schinschant <wit>*m</wit></rdg>
+</app>
+<app loc="206.05">
+<lem>Kingrun</lem> <rdg>&#x00F7;ingrv&#x0366;n <note>nachträglich korrigiert zu:</note> Kingrv&#x0366;n <wit>D</wit></rdg>
+</app>
+<app loc="206.06">
+<lem>was</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="206.08">
+<rdg>ze (in <wit>I</wit>) Brizilan zem (zen <wit>G</wit> ze sinem <wit>I</wit>) weidehûs (hus <wit>I</wit>), <wit>*G</wit> <note>(ohne O)</note> (<wit>Fr69</wit>)</rdg>
+</app>
+<app loc="206.08">
+<rdg>in (<subst><del>Jm</del><add>Jn</add></subst> <wit>V</wit>) Brecilian in dem weidehûs, <wit>*T</wit> <note>(nur T)</note> (<wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="206.17">
+<lem>al diz</lem> <rdg>alle disiu <wit>*m</wit></rdg>
+</app>
+<app loc="206.21">
+<lem>waz</lem> <rdg>was <wit>D</wit></rdg>
+</app>
+<app loc="206.25">
+<rdg>hât entschumpfieret dîn hant <wit>*m</wit></rdg>
+</app>
+<app loc="206.26">
+<lem>dû</lem> <rdg>dô <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="206.01">
+<rdg>e. unde (<note>om.</note> <wit>O</wit> <wit>Fr21</wit>) ir (<note>om.</note> <wit>G</wit>) m., <wit>*G</wit></rdg>
+</app>
+<app loc="206.02">
+<rdg></rdg>
+</app>
+<app loc="206.03">
+<rdg>k., igele in den gr., <wit>*T</wit></rdg>
+</app>
+<app loc="206.04">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="206.05">
+<rdg>Nû was ouch Kyngrun dan gewant (kingrun <subst><del>*</del><add>schineschant</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="206.06">
+<rdg>unde kom ze (<subst><del>*</del><add>kvmmen</add></subst> <wit>V</wit>) Britanie in daz lant. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="206.07">
+<rdg>er (<subst><del>*</del><add>Vnde</add></subst> <wit>V</wit>) v. <wit>*T</wit></rdg>
+</app>
+<app loc="206.08">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="206.09">
+<rdg></rdg>
+</app>
+<app loc="206.10">
+<rdg></rdg>
+</app>
+<app loc="206.11">
+<rdg></rdg>
+</app>
+<app loc="206.12">
+<rdg></rdg>
+</app>
+<app loc="206.13">
+<rdg></rdg>
+</app>
+<app loc="206.14">
+<rdg>Dô was diu j. g., <wit>*T</wit></rdg>
+</app>
+<app loc="206.15">
+<rdg></rdg>
+</app>
+<app loc="206.16">
+<rdg>h. den rîter rôt. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="206.17">
+<rdg>al daz (die <wit>L</wit>) m. <wit>*G</wit> al daz lant daz (die <wit>U</wit>) m. <wit>*T</wit></rdg>
+</app>
+<app loc="206.18">
+<rdg>Nû was <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="206.19">
+<rdg></rdg>
+</app>
+<app loc="206.20">
+<rdg></rdg>
+</app>
+<app loc="206.21">
+<rdg>waz (was <wit>T</wit>) im (im e <wit>Fr21</wit>) was <wit>*T</wit> (<wit>Fr21</wit>)</rdg>
+</app>
+<app loc="206.22">
+<rdg></rdg>
+</app>
+<app loc="206.23">
+<rdg>dô sp. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="206.24">
+<rdg></rdg>
+</app>
+<app loc="206.25">
+<rdg>hât uns entschumpfieret dîn h.! <wit>*T</wit></rdg>
+</app>
+<app loc="206.26">
+<rdg>gevuoger (Gnvger <wit>L</wit>) prîs gegen dir verswant (<subst><del>*</del><add>Dv clamides schineschant</add></subst> <wit>V</wit>). <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="206.27">
+<rdg></rdg>
+</app>
+<app loc="206.28">
+<rdg>d. dienstes (<subst><del>*</del><add>amtes</add></subst> <wit>V</wit>) dû <wit>*T</wit></rdg>
+</app>
+<app loc="206.29">
+<rdg>die kezzele sint uns (vnz <wit>L</wit>) u., <wit>*G</wit> · uns ist der kezzel (kezzer <wit>T</wit> <wit>U</wit>) u., <wit>*T</wit></rdg>
+</app>
+<app loc="206.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

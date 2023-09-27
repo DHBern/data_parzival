@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 571</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.09.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 571.01"><seg type="Initiale">D</seg>ô hôrt er ein gebrummen,</l>
+<l n="*D 571.02">als der wol zweinzec trummen</l>
+<l n="*D 571.03">slüege hie ze tanze.</l>
+<l n="*D 571.04">sîn vester muot der ganze,</l>
+<l n="*D 571.05">den diu wâre zagheit</l>
+<l n="*D 571.06">nie verscherte noch versneit,</l>
+<l n="*D 571.07">dâhte: "waz sol mir geschehen?</l>
+<l n="*D 571.08">ich m<corr type="Emendation">ö</corr>hte nû wol kumbers jehen.</l>
+<l n="*D 571.09">wil sich mîn kumber mêrn,</l>
+<l n="*D 571.10">ze wer sol ich mich kêrn."</l>
+<l n="*D 571.11"><seg type="Initiale" subtype="Majuskel">N</seg>û sach er geins gebûwers tür.</l>
+<l n="*D 571.12">ein starker lewe spranc dar vür;</l>
+<l n="*D 571.13">der was als ein ors sô hôch.</l>
+<l n="*D 571.14"><name type="Person">Gawan</name>, der ie ungerne vlôch,</l>
+<l n="*D 571.15">den schilt mit den riemen nam.</l>
+<l n="*D 571.16">er tet, als ez der wer gezam:</l>
+<l n="*D 571.17">er spranc ûf den estrîch.</l>
+<l n="*D 571.18">durch hunger was vreislîch</l>
+<l n="*D 571.19">dirre starke lewe grôz,</l>
+<l n="*D 571.20">des er doch wênec dâ genôz.</l>
+<l n="*D 571.21"><seg type="Initiale" subtype="Majuskel">M</seg>it zorne lief er an den man,</l>
+<l n="*D 571.22">ze wer stuont hêr <name type="Person">Gawan</name>.</l>
+<l n="*D 571.23">er hete im den schilt nâch genom<reg type="Synkope">e</reg>n:</l>
+<l n="*D 571.24">sîn êrster grif was alsô kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 571.25">durch den schilt mit al den klân.</l>
+<l n="*D 571.26">von tiere ist selten ê getân</l>
+<l n="*D 571.27">sîn grif durch solhe herte.</l>
+<l n="*D 571.28"><name type="Person">Gawan</name> sich zuckes werte:</l>
+<l n="*D 571.29">ein bein hin ab er im swanc.</l>
+<l n="*D 571.30">der lewe ûf drîen vüezen spranc;</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit> <note>(ohne 571.9-13)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="571.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr23</wit>
+</rdg></app><app loc="571.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="571.11"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="571.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="571.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="571.01">
+<rdg>dô h&#x0153;ret er ein brummen, <wit>*m</wit></rdg>
+</app>
+<app loc="571.03">
+<lem>hie</lem> <rdg>dâ <wit>*m</wit></rdg>
+</app>
+<app loc="571.06">
+<lem>verscherte</lem> <rdg>versêrt <wit>*m</wit></rdg>
+</app>
+<app loc="571.07">
+<lem>dâhte</lem> <rdg>er dâht <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="571.08">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="571.11">
+<lem>geins</lem> <rdg>gegen <wit>*m</wit></rdg>
+</app>
+<app loc="571.12">
+<rdg>Einen starken lo&#x0364;wen springen her fv́r <wit>V</wit></rdg>
+</app>
+<app loc="571.12">
+<lem>dar</lem> <rdg>her <wit>*m</wit></rdg>
+</app>
+<app loc="571.15">
+<lem>schilt</lem> <rdg>schilt er <wit>*m</wit></rdg>
+</app>
+<app loc="571.17">
+<lem>den</lem> <rdg>dem <wit>*m</wit></rdg>
+</app>
+<app loc="571.18">
+<rdg>dô was durch hunger vreislîch <wit>*m</wit></rdg>
+</app>
+<app loc="571.26">
+<rdg>von tier ie selten wart getân <wit>*m</wit></rdg>
+</app>
+<app loc="571.27">
+<lem>sîn</lem> <rdg>ein <wit>*m</wit></rdg>
+</app>
+<app loc="571.28">
+<lem>zuckes</lem> <rdg>zuckens (zuchhens <wit>I</wit> <subst><del>*</del><add>zuckes</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>I</wit> <wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="571.01">
+<rdg>Dô gehôrt er ein g. (einen brunnen <wit>Fr23</wit>), <wit>*T</wit> <note>(nur T)</note> (<wit>Z</wit> <wit>Fr23</wit>)</rdg>
+</app>
+<app loc="571.02">
+<rdg>wol <note>om.</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="571.03">
+<rdg></rdg>
+</app>
+<app loc="571.04">
+<rdg></rdg>
+</app>
+<app loc="571.05">
+<rdg></rdg>
+</app>
+<app loc="571.06">
+<rdg>nie (Hie <wit>Fr23)</wit> versêrte n. v., <wit>*T</wit> (<wit>Z</wit> <wit>Fr23</wit>)</rdg>
+</app>
+<app loc="571.07">
+<rdg></rdg>
+</app>
+<app loc="571.08">
+<rdg></rdg>
+</app>
+<app loc="571.09">
+<rdg></rdg>
+</app>
+<app loc="571.10">
+<rdg></rdg>
+</app>
+<app loc="571.11">
+<rdg>er gegen jenes gebûres (er iensz gebu̽ren <wit>L</wit>) tür. <wit>*T</wit></rdg>
+</app>
+<app loc="571.12">
+<rdg>ein grôzer (gro&#x0364;z <wit>I</wit>) l. <wit>*G</wit> (<note>(ohne LZ)</note>) · sp. her vür; <wit>*G</wit> &#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="571.13">
+<rdg>ors als (<note>om.</note> <wit>I</wit>) h. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="571.14">
+<rdg></rdg>
+</app>
+<app loc="571.15">
+<rdg>sch. er mit <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="571.16">
+<rdg></rdg>
+</app>
+<app loc="571.17">
+<rdg></rdg>
+</app>
+<app loc="571.18">
+<rdg></rdg>
+</app>
+<app loc="571.19">
+<rdg></rdg>
+</app>
+<app loc="571.20">
+<rdg></rdg>
+</app>
+<app loc="571.21">
+<rdg></rdg>
+</app>
+<app loc="571.22">
+<rdg></rdg>
+</app>
+<app loc="571.23">
+<rdg></rdg>
+</app>
+<app loc="571.24">
+<rdg></rdg>
+</app>
+<app loc="571.25">
+<rdg>al <note>om.</note> <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="571.26">
+<rdg>tieren (<subst><del>*</del><add>tiere</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="571.27">
+<rdg>ein (<subst><del>*</del><add>Sin</add></subst> <wit>V</wit>) gr. <wit>*T</wit></rdg>
+</app>
+<app loc="571.28">
+<rdg></rdg>
+</app>
+<app loc="571.29">
+<rdg></rdg>
+</app>
+<app loc="571.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

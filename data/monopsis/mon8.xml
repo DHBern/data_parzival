@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 8</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 8.01"><name type="Person"><seg type="Initiale">G</seg>ahmuret</name> sprach aver sân:</l>
+<l n="*D 8.02">"sehzehen knappen ich hân,</l>
+<l n="*D 8.03">der sehse von îser sint.</l>
+<l n="*D 8.04">dar zuo gebt mir vier kint</l>
+<l n="*D 8.05">mit guoter zuht an hôher art.</l>
+<l n="*D 8.06">vor den wirt nimmer niht gespart,</l>
+<l n="*D 8.07">des ie bejagen mac mîn hant.</l>
+<l n="*D 8.08">ich wil kêren in diu lant.</l>
+<l n="*D 8.09">ich hân ouch ê ein teil gevarn.</l>
+<l n="*D 8.10">ob mich gelücke wil bewarn,</l>
+<l n="*D 8.11">sô erwirbe ich guotes wîbes gruoz.</l>
+<l n="*D 8.12">ob ich ir dâr nâch dienen muoz</l>
+<l n="*D 8.13">und ob ich des wirdec bin,</l>
+<l n="*D 8.14">sô r&#x00E6;tet mir mîn bester sin,</l>
+<l n="*D 8.15">daz ichs mit rehten triwen pflege.</l>
+<l n="*D 8.16">got wîse mich der s&#x00E6;lden wege!</l>
+<l n="*D 8.17">wir vuoren geselleclîche.</l>
+<l n="*D 8.18">dennoch het iwer rîche</l>
+<l n="*D 8.19">unser vater <name type="Person">Gandin</name>.</l>
+<l n="*D 8.20">manegen kumberlîchen pîn</l>
+<l n="*D 8.21">wir bêde dolten umbe liep.</l>
+<l n="*D 8.22">ir wâret ritter unde diep,</l>
+<l n="*D 8.23">ir kundet dienen unde heln.</l>
+<l n="*D 8.24">wan kunde ouch ich nû minne steln!</l>
+<l n="*D 8.25">owê, wan het ich iwer kunst</l>
+<l n="*D 8.26">und anderhalp die wâren gunst!"</l>
+<l n="*D 8.27">der künec siufzete unde sprach:</l>
+<l n="*D 8.28">"owê, daz ich dich ie gesach,</l>
+<l n="*D 8.29">sît dû mit schimpflîchen siten</l>
+<l n="*D 8.30">mîn ganzez herze hâst versniten</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(8.1-20)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="8.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="8.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="8.15"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="8.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="8.19"><rdg>
+<note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="8.27"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="8.05">
+<lem>an</lem> <rdg>von <wit>*m</wit></rdg>
+</app>
+<app loc="8.09">
+<lem>ê</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="8.11">
+<lem>erwirbe</lem> <rdg><seg type="singuläre_Lesart">wirbe</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="8.12">
+<lem>ir</lem> <rdg><note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit></rdg>
+</app>
+<app loc="8.15">
+<lem>ichs</lem> <rdg>ich <wit>*m</wit></rdg>
+</app>
+<app loc="8.19">
+<lem>unser</lem> <rdg>unser beider <wit>*m</wit></rdg>
+</app>
+<app loc="8.22">
+<lem>ir wâret</lem> <rdg>wir wâren <wit>*m</wit></rdg>
+</app>
+<app loc="8.23">
+<lem>kundet</lem> <rdg>wolte<corr type="Emendation">t</corr> <wit>*m</wit></rdg>
+</app>
+<app loc="8.26">
+<lem>die</lem> <rdg><seg type="singuläre_Lesart">des</seg> <wit>*m</wit></rdg>
+</app>
+<app loc="8.29">
+<lem>schimpflîchen</lem> <rdg>semlîchem <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="8.01">
+<rdg></rdg>
+</app>
+<app loc="8.02">
+<rdg>ich hân. <wit>*G</wit></rdg>
+</app>
+<app loc="8.03">
+<rdg>s. dâr von î. s. <wit>*G</wit> · s., die von î. s. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="8.04">
+<rdg></rdg>
+</app>
+<app loc="8.05">
+<rdg>an g. z., <wit>*G</wit> <wit>*T</wit> · von h. art. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="8.06">
+<rdg></rdg>
+</app>
+<app loc="8.07">
+<rdg></rdg>
+</app>
+<app loc="8.08">
+<rdg></rdg>
+</app>
+<app loc="8.09">
+<rdg>ein t. ou. ê <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="8.10">
+<rdg></rdg>
+</app>
+<app loc="8.11">
+<rdg>guoter wîbe (<subst><del>gu&#x0366;te*</del><add>gu&#x0366;ts wibes</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="8.12">
+<rdg>&#x2193;<wit>*G</wit> · ich in dâr <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="8.13">
+<rdg></rdg>
+</app>
+<app loc="8.14">
+<rdg></rdg>
+</app>
+<app loc="8.15">
+<rdg></rdg>
+</app>
+<app loc="8.16">
+<rdg></rdg>
+</app>
+<app loc="8.17">
+<rdg></rdg>
+</app>
+<app loc="8.18">
+<rdg></rdg>
+</app>
+<app loc="8.19">
+<rdg></rdg>
+</app>
+<app loc="8.20">
+<rdg>vil m. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="8.21">
+<rdg></rdg>
+</app>
+<app loc="8.22">
+<rdg></rdg>
+</app>
+<app loc="8.23">
+<rdg></rdg>
+</app>
+<app loc="8.24">
+<rdg></rdg>
+</app>
+<app loc="8.25">
+<rdg>ouwê, und het <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="8.26">
+<rdg></rdg>
+</app>
+<app loc="8.27">
+<rdg>Der k. ersûfte und sp.: <wit>*T</wit></rdg>
+</app>
+<app loc="8.28">
+<rdg></rdg>
+</app>
+<app loc="8.29">
+<rdg></rdg>
+</app>
+<app loc="8.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

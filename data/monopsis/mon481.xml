@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 481</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 481.01"><seg type="Initiale">S</seg>ît daz ich mich het ergeb<reg type="Synkope">e</reg>n</l>
+<l n="*D 481.02">in alsus <seg type="singuläre_Lesart">ärmeclîchez</seg> leb<reg type="Synkope">e</reg>n</l>
+<l n="*D 481.03">unt des edelen ardes hêrschaft</l>
+<l n="*D 481.04">was komen an sô swache kraft.</l>
+<l n="*D 481.05">des küneges wunde g<reg type="Synkope">e</reg>eitert was.</l>
+<l n="*D 481.06">swaz man der <seg type="singuläre_Lesart">arzât buoch</seg> las,</l>
+<l n="*D 481.07">die <seg type="singuläre_Lesart">en</seg>gâben <seg type="singuläre_Lesart">decheiner</seg> helfe lôn.</l>
+<l n="*D 481.08"><seg type="singuläre_Lesart">gein</seg> aspis, ecidemôn,</l>
+<l n="*D 481.09"><seg type="singuläre_Lesart">ehkontîus</seg> unt lisîs,</l>
+<l n="*D 481.10">jêcîs <seg type="singuläre_Lesart">unt</seg> meatrîs</l>
+<l n="*D 481.11">- die <seg type="singuläre_Lesart">armen</seg> slangen <seg type="singuläre_Lesart"></seg>daz eiter heiz</l>
+<l n="*D 481.12">tragent -, swaz iemen dâ vür <seg type="singuläre_Lesart">weiz</seg></l>
+<l n="*D 481.13">unt vür <seg type="singuläre_Lesart"></seg>ander würme, diez eit<reg type="Synkope">e</reg>r tragent,</l>
+<l n="*D 481.14">swaz die wîsen arz<reg type="Synkope">e</reg>t dâ vür bejagent</l>
+<l n="*D 481.15">mit fisiken liste an würzen</l>
+<l n="*D 481.16">- <seg type="singuläre_Lesart">lâ dir</seg> die rede kürzen -,</l>
+<l n="*D 481.17">der decheinez gehelfen kunde;</l>
+<l n="*D 481.18">got selbe uns des verbunde.</l>
+<l n="*D 481.19">wir gewunnen <name type="Ort">Geon</name></l>
+<l n="*D 481.20">ze helfe unde <name type="Ort">Fison</name>,</l>
+<l n="*D 481.21"><name type="Ort">Eufrates</name> unde <name type="Ort">Tigris</name>,</l>
+<l n="*D 481.22">diu vier wazzer ûzzem pardîs</l>
+<l n="*D 481.23">- sô nâhe hin zuo ir süezer smac</l>
+<l n="*D 481.24">dennoch niht sîn verrochen mac -,</l>
+<l n="*D 481.25">ob dehein würz dinne k&#x00E6;me,</l>
+<l n="*D 481.26">diu unser trûren n&#x00E6;me.</l>
+<l n="*D 481.27">daz was verlorniu arbeit;</l>
+<l n="*D 481.28">dô niwet sich unser herzeleit.</l>
+<l n="*D 481.29">doch versuochte wirz in manege wîs;</l>
+<l n="*D 481.30">dô gewunne wir daz selbe rîs,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="481.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="481.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="481.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="481.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="481.16"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="481.02">
+<lem>ärmeclîchez</lem> <rdg>armez <wit>*m</wit></rdg>
+</app>
+<app loc="481.05">
+<lem>geeitert</lem> <rdg>gedorret (getret <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="481.11">
+<rdg>- die argen slangen, die daz eiter heiz (hies <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="481.13">
+<lem>diez</lem> <rdg>die dâ <wit>*m</wit> <wit>R</wit></rdg>
+</app>
+<app loc="481.17">
+<lem>der</lem> <rdg>der in <wit>*m</wit></rdg>
+</app>
+<app loc="481.23">
+<rdg>- sô nâhen, daz ir (<subst><del>*</del><add>Daz ir</add></subst> <wit>V</wit>) süezer smac <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="481.01">
+<rdg></rdg>
+</app>
+<app loc="481.02">
+<rdg>in a. j&#x00E6;merlîchez (amerliches <wit>G</wit>) l. <wit>*G</wit> <note>(ohne OZ)</note> · in ein als ä. (<subst><del>*</del><add>ein sus armez</add></subst> <wit>V</wit>) l. <wit>*T</wit></rdg>
+</app>
+<app loc="481.03">
+<rdg>unde des edeln Grâles h. <wit>*T</wit></rdg>
+</app>
+<app loc="481.04">
+<rdg></rdg>
+</app>
+<app loc="481.05">
+<rdg></rdg>
+</app>
+<app loc="481.06">
+<rdg></rdg>
+</app>
+<app loc="481.07">
+<rdg></rdg>
+</app>
+<app loc="481.08">
+<rdg></rdg>
+</app>
+<app loc="481.09">
+<rdg></rdg>
+</app>
+<app loc="481.10">
+<rdg></rdg>
+</app>
+<app loc="481.11">
+<rdg>- die (Des <wit>I</wit>) argen (alten <wit>L</wit>) sl. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="481.12">
+<rdg>tr. -, daz (<subst><del>*</del><add>swaz</add></subst> <wit>V</wit> swaz <wit>O</wit> [<wit>L</wit>]) ieman dâ von w. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="481.13">
+<rdg></rdg>
+</app>
+<app loc="481.14">
+<rdg></rdg>
+</app>
+<app loc="481.15">
+<rdg>f. (fisiche <wit>O</wit>) listen <wit>*T</wit> <note>(nur T)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="481.16">
+<rdg></rdg>
+</app>
+<app loc="481.17">
+<rdg></rdg>
+</app>
+<app loc="481.18">
+<rdg>des erbunde. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="481.19">
+<rdg></rdg>
+</app>
+<app loc="481.20">
+<rdg></rdg>
+</app>
+<app loc="481.21">
+<rdg></rdg>
+</app>
+<app loc="481.22">
+<rdg></rdg>
+</app>
+<app loc="481.23">
+<rdg></rdg>
+</app>
+<app loc="481.24">
+<rdg></rdg>
+</app>
+<app loc="481.25">
+<rdg></rdg>
+</app>
+<app loc="481.26">
+<rdg></rdg>
+</app>
+<app loc="481.27">
+<rdg></rdg>
+</app>
+<app loc="481.28">
+<rdg></rdg>
+</app>
+<app loc="481.29">
+<rdg></rdg>
+</app>
+<app loc="481.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

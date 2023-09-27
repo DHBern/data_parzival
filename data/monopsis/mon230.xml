@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 230</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 230.01"><seg type="Initiale">I</seg>e vier gesellen sundersiz.</l>
+<l n="*D 230.02">dâ zwischen was ein und<reg type="Synkope">e</reg>rviz,</l>
+<l n="*D 230.03">d<reg type="Synkope">â</reg>r vor ein teppech sinewel.</l>
+<l n="*D 230.04">fillu roy <name type="Person">Frimutel</name></l>
+<l n="*D 230.05">mohte wol geleisten daz.</l>
+<l n="*D 230.06">ein<reg type="Synkope">e</reg>s dinges man dâ niht vergaz:</l>
+<l n="*D 230.07">sine hete niht betûret,</l>
+<l n="*D 230.08">mit marmel was gemûret</l>
+<l n="*D 230.09">drî vierecke viwerram.</l>
+<l n="*D 230.10">dâr ûffe was des viwers nam,</l>
+<l n="*D 230.11">holz hiez 'lign âlôê'.</l>
+<l n="*D 230.12">sô grôziu viwer sît noch ê</l>
+<l n="*D 230.13">sach niem<reg type="Synkope">e</reg>n hie ze <name type="Ort">Wildenberc</name>.</l>
+<l n="*D 230.14">jenez wâren kostelîchiu werc.</l>
+<l n="*D 230.15"><seg type="Initiale" subtype="Majuskel">D</seg>er wirt sich selb<reg type="Synkope">e</reg>n setzen bat</l>
+<l n="*D 230.16">gein der mitteln viwerstat</l>
+<l n="*D 230.17">ûf ein spanbette.</l>
+<l n="*D 230.18">ez was worden wette</l>
+<l n="*D 230.19">zwischen im unt der vröude;</l>
+<l n="*D 230.20">er lebte niht wan töude.</l>
+<l n="*D 230.21"><seg type="Initiale" subtype="Majuskel">I</seg>n den palas kom gegangen,</l>
+<l n="*D 230.22">der dâ wart wol enpfangen,</l>
+<l n="*D 230.23"><name type="Person">Parzival</name>, der lieht gevar,</l>
+<l n="*D 230.24">von im, der in sante dar.</l>
+<l n="*D 230.25">der liez in dâ niht langer stên.</l>
+<l n="*D 230.26">in bat der wirt nâher gên</l>
+<l n="*D 230.27">unt sitzen: "zuo mir dâ her an.</l>
+<l n="*D 230.28">sazte ich iuch verre dort hin dan,</l>
+<l n="*D 230.29">daz w&#x00E6;re iu alze gastlîch",</l>
+<l n="*D 230.30">sus sprach der wirt jâmers rîch.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(230.1-3, 8-10 und 12-15)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(230.3-30)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="230.01"><rdg>
+<note>Großinitiale</note> <wit>Z</wit>
+</rdg></app><app loc="230.01"><rdg><note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="230.04"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="230.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="230.15"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="230.15"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="230.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="230.21"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="230.23"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="230.05">
+<lem>geleisten</lem> <rdg>gelusten <wit>*m</wit></rdg>
+</app>
+<app loc="230.12">
+<lem>grôziu</lem> <rdg>grôz <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="230.16">
+<rdg>gegen der mittelen vürsten stat <wit>*m</wit></rdg>
+</app>
+<app loc="230.16">
+<rdg>gein der (<note>om.</note> <wit>Z</wit>) mitteren viurstat <wit>*G</wit></rdg>
+</app>
+<app loc="230.16">
+<rdg>gegen der mitteln hertstat (<subst><del>*</del><add>vúrstat</add></subst> <wit>V</wit> hertelen hert stat <wit>L</wit>) <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="230.17">
+<lem>ein</lem> <rdg>einem <wit>*m</wit></rdg>
+</app>
+<app loc="230.18">
+<lem>ez</lem> <rdg>es <wit>*m</wit></rdg>
+</app>
+<app loc="230.23">
+<lem>lieht gevar</lem> <rdg>wolgevar <wit>*m</wit></rdg>
+</app>
+<app loc="230.25">
+<rdg>er beleip niht langer stên. <wit>*m</wit></rdg>
+</app>
+<app loc="230.26">
+<rdg>&#x2020;dis&#x2020; bat der wirt dar nâher gên. <wit>*m</wit></rdg>
+</app>
+<app loc="230.27">
+<lem>unt sitzen</lem> <rdg>er sprach sitzet <wit>*m</wit></rdg>
+</app>
+<app loc="230.28">
+<lem>dort</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="230.29">
+<rdg>daz w&#x00E6;re iu al ze gastlîch." <wit>*G</wit></rdg>
+</app>
+<app loc="230.30">
+<rdg>der wirt was jâmers rîch <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="230.01">
+<rdg>g. ein s. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="230.02">
+<rdg></rdg>
+</app>
+<app loc="230.03">
+<rdg>dâr ûf ein <wit>*T</wit></rdg>
+</app>
+<app loc="230.04">
+<rdg></rdg>
+</app>
+<app loc="230.05">
+<rdg></rdg>
+</app>
+<app loc="230.06">
+<rdg></rdg>
+</app>
+<app loc="230.07">
+<rdg>h. des (dez <wit>V</wit>) n. <wit>*T</wit></rdg>
+</app>
+<app loc="230.08">
+<rdg></rdg>
+</app>
+<app loc="230.09">
+<rdg></rdg>
+</app>
+<app loc="230.10">
+<rdg></rdg>
+</app>
+<app loc="230.11">
+<rdg>h. heizet 'lingâlôê'. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="230.12">
+<rdg></rdg>
+</app>
+<app loc="230.13">
+<rdg></rdg>
+</app>
+<app loc="230.14">
+<rdg></rdg>
+</app>
+<app loc="230.15">
+<rdg>sitzen <wit>*G</wit> <wit>U</wit></rdg>
+</app>
+<app loc="230.16">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="230.17">
+<rdg>an ein sp. <wit>*G</wit></rdg>
+</app>
+<app loc="230.18">
+<rdg>es was <wit>*G</wit></rdg>
+</app>
+<app loc="230.19">
+<rdg></rdg>
+</app>
+<app loc="230.20">
+<rdg></rdg>
+</app>
+<app loc="230.21">
+<rdg></rdg>
+</app>
+<app loc="230.22">
+<rdg>wol e. <wit>*T</wit></rdg>
+</app>
+<app loc="230.23">
+<rdg><note>Versfolge 230.24-23</note> <wit>*T</wit> · s. dar, <wit>*T</wit></rdg>
+</app>
+<app loc="230.24">
+<rdg>l. g. <wit>*T</wit></rdg>
+</app>
+<app loc="230.25">
+<rdg><note>Versfolge 230.26-25</note> <wit>*G</wit> · er lie <wit>*G</wit> (<wit>*T</wit>) · dâ <note>om.</note> <wit>*T</wit> · l. st.: <wit>*G</wit></rdg>
+</app>
+<app loc="230.26">
+<rdg>in bat der w. n. gên. <wit>*G</wit> · der w. bat in n. (<subst><del>*</del><add>dar naher</add></subst>) gân: <wit>*T</wit></rdg>
+</app>
+<app loc="230.27">
+<rdg>"sitzet zuo mir (<subst><del>*</del><add>Er sprach sittzent</add></subst> <wit>V</wit>) dâ (hie <wit>G</wit>) her an. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="230.28">
+<rdg></rdg>
+</app>
+<app loc="230.29">
+<rdg>w. a. (wer iv gar ze <wit>O</wit> were <subst><del>*</del><add>v́ch alze</add></subst> <wit>V</wit>) <wit>*G</wit> <note>(nur GL)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="230.30">
+<rdg>sô (Do <wit>O</wit>) sp. <wit>*G</wit> sp. (<subst><del>*</del><add>So sprach</add></subst> <wit>V</wit>) <wit>*T</wit> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 802</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>12.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 802.01"><seg type="Initiale">G</seg>ezucte im ie bluot und snê</l>
+<l n="*D 802.02">geselleschaft an witzen ê</l>
+<l n="*D 802.03">- ûf der selb<reg type="Synkope">e</reg>n ouwe erz ligen vant -,</l>
+<l n="*D 802.04">vür solhen kumber gap nû pfant</l>
+<l n="*D 802.05"><name type="Person">Condwiramurs</name>. diu het ez dâ.</l>
+<l n="*D 802.06">sîn lîp enpfienc nie anderswâ</l>
+<l n="*D 802.07">minne helfe vür der minne nôt,</l>
+<l n="*D 802.08">manec wert wîp im doch minne bôt.</l>
+<l n="*D 802.09"><seg type="Initiale" subtype="Majuskel">I</seg>ch w&#x00E6;ne, er kurzwîle pflac</l>
+<l n="*D 802.10">unz an den mitten morgens tac.</l>
+<l n="*D 802.11">daz her überal reit schouwen dar.</l>
+<l n="*D 802.12">si nâmen der templeise war.</l>
+<l n="*D 802.13">die wâren gezimieret</l>
+<l n="*D 802.14">unt wol zerhurtieret,</l>
+<l n="*D 802.15">ir schilde mit tjosten sêre durchriten,</l>
+<l n="*D 802.16">dar zuo mit swerten ouch versniten.</l>
+<l n="*D 802.17">etslîcher truoc ein kursît</l>
+<l n="*D 802.18">von pfelle oder von samît.</l>
+<l n="*D 802.19">îserkolzen heten si dennoch an.</l>
+<l n="*D 802.20">daz ander harnasch was von in getân.</l>
+<l n="*D 802.21"><seg type="Initiale" subtype="Majuskel">D</seg>âne mac niht mêr geslâfen sîn.</l>
+<l n="*D 802.22">der künec unt diu künegîn</l>
+<l n="*D 802.23">stuonden ûf. ein priester messe sanc.</l>
+<l n="*D 802.24">ûf dem ringe huop sich grôz gedranc</l>
+<l n="*D 802.25">von dem ellenthaftem her,</l>
+<l n="*D 802.26">die gein <name type="Person">Clamide</name> ê wâren ze wer.</l>
+<l n="*D 802.27">dô der ben<reg type="Synkope">e</reg>diz wart getân,</l>
+<l n="*D 802.28"><name type="Person">Parzivaln</name> enpfiengen sîne man</l>
+<l n="*D 802.29">mit triwen werdeclîche,</l>
+<l n="*D 802.30">manec rîter ellens rîche.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <note>(ohne 802.8)</note> <wit>L</wit> <note>(ohne 802.1-8 und 17-20)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="802.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>Z</wit> <wit>U</wit>
+</rdg></app>
+<app loc="802.09"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="802.21"><rdg>
+<note>Initiale</note> <wit>V</wit> <wit>I</wit>
+</rdg></app><app loc="802.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="802.01">
+<lem>Gezucte</lem> <rdg>gezogte <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="802.04">
+<lem>nû</lem> <rdg>im <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="802.07">
+<lem>vür der</lem> <rdg>und (fúr <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="802.08">
+<lem>wert</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="802.10">
+<lem>morgens</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="802.14">
+<lem>zerhurtieret</lem> <rdg>gehurtieret (<subst><del>*hurtieret</del><add>gehurtieret</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="802.15">
+<lem>tjosten</lem> <rdg>juste <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="802.23">
+<lem>messe</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="802.26">
+<lem>ê</lem> <rdg><note>om.</note> <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="802.01">
+<rdg>im ê bl. <wit>*T</wit></rdg>
+</app>
+<app loc="802.02">
+<rdg></rdg>
+</app>
+<app loc="802.03">
+<rdg></rdg>
+</app>
+<app loc="802.04">
+<rdg>gap im nû <wit>*T</wit></rdg>
+</app>
+<app loc="802.05">
+<rdg>die (<note>om.</note> <wit>G</wit>) het er (hitz al <wit>Z</wit>) <wit>*G</wit> diu het (<note>om.</note> <wit>U</wit>) ez <wit>*T</wit></rdg>
+</app>
+<app loc="802.06">
+<rdg></rdg>
+</app>
+<app loc="802.07">
+<rdg></rdg>
+</app>
+<app loc="802.08">
+<rdg>minne enbôt. <wit>*T</wit></rdg>
+</app>
+<app loc="802.09">
+<rdg></rdg>
+</app>
+<app loc="802.10">
+<rdg></rdg>
+</app>
+<app loc="802.11">
+<rdg>reit überal schouwen (vber Anschowen <wit>U</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="802.12">
+<rdg></rdg>
+</app>
+<app loc="802.13">
+<rdg></rdg>
+</app>
+<app loc="802.14">
+<rdg>und wol gehurtieret, <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="802.15">
+<rdg>unde schilt mit tjoste s. (wol <wit>I</wit>) d., <wit>*G</wit> <note>(ohne Z)</note> · mit jostieren s. <wit>*T</wit></rdg>
+</app>
+<app loc="802.16">
+<rdg></rdg>
+</app>
+<app loc="802.17">
+<rdg></rdg>
+</app>
+<app loc="802.18">
+<rdg></rdg>
+</app>
+<app loc="802.19">
+<rdg></rdg>
+</app>
+<app loc="802.20">
+<rdg></rdg>
+</app>
+<app loc="802.21">
+<rdg>mac nimer (mocht nit me <wit>L</wit>) g. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="802.22">
+<rdg></rdg>
+</app>
+<app loc="802.23">
+<rdg></rdg>
+</app>
+<app loc="802.24">
+<rdg></rdg>
+</app>
+<app loc="802.25">
+<rdg></rdg>
+</app>
+<app loc="802.26">
+<rdg>ê <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="802.27">
+<rdg></rdg>
+</app>
+<app loc="802.28">
+<rdg></rdg>
+</app>
+<app loc="802.29">
+<rdg>mit triuwen werlîche, <wit>*T</wit></rdg>
+</app>
+<app loc="802.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

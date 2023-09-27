@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 179</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 179.01">sô daz ich wol mac minne gern,</l>
+<l n="*D 179.02">ir sult mich <name type="Person">Liazen</name> wern,</l>
+<l n="*D 179.03">iwer<reg type="Synkope">e</reg>r tohter, der sch&#x0153;nen magt.</l>
+<l n="*D 179.04">ir habt mir al ze vil geklagt.</l>
+<l n="*D 179.05">mag ich iu jâmer denne e<corr type="Emendation">n</corr>tsagen,</l>
+<l n="*D 179.06">des lâze ich iuch sô vil niht tragen."</l>
+<l n="*D 179.07"><seg type="Initiale" subtype="Majuskel">U</seg>rloup nam der junge man</l>
+<l n="*D 179.08">von dem getriwen vürsten sân</l>
+<l n="*D 179.09">unt zald<reg type="Synkope">e</reg>r massenîe.</l>
+<l n="*D 179.10">des vürsten jâmers drîe</l>
+<l n="*D 179.11">was riwic an daz quat<reg type="Synkope">e</reg>r kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 179.12">die vierden vlust het er genom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 179.13"><seg type="Initiale">D</seg>annen schiet sus <name type="Person">Parzival</name>.</l>
+<l n="*D 179.14">ritt<reg type="Synkope">e</reg>rs site unt ritt<reg type="Synkope">e</reg>rs mâl</l>
+<l n="*D 179.15">sîn lîp mit zühten vuorte.</l>
+<l n="*D 179.16">ouwê, wan daz in ruorte</l>
+<l n="*D 179.17">manec unsüeziu strenge!</l>
+<l n="*D 179.18">im was diu wîte zenge</l>
+<l n="*D 179.19">unt ouch diu breite gar ze smal.</l>
+<l n="*D 179.20">elliu grüene in dûhte val.</l>
+<l n="*D 179.21">sîn rôt harnasch in dûhte blanc.</l>
+<l n="*D 179.22">sîn herze diu ougen des betwanc.</l>
+<l n="*D 179.23">sît er tumpheit âne wart,</l>
+<l n="*D 179.24">dône wolde in <name type="Person">Gahmuretes</name> art</l>
+<l n="*D 179.25">denkens niht erlâzen</l>
+<l n="*D 179.26">nâch der sch&#x0153;nen <name type="Person">Liazen</name>,</l>
+<l n="*D 179.27">der meide s&#x00E6;lden rîche,</l>
+<l n="*D 179.28">diu im geselleclîche</l>
+<l n="*D 179.29">sund<reg type="Synkope">e</reg>r minne bôt êre.</l>
+<l n="*D 179.30">swar sîn ors nû kêre,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(179.9-11, 14-16 und 22-24)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="179.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="179.13"><rdg>
+<note>Illustration mit Überschrift:</note> Wie parcifal pelraperre erlo̽ste vnder Do zelande <subst><del>*</del><add>herre</add></subst> wart <wit>mk</wit>
+</rdg></app><app loc="179.13"><rdg><note>Überschrift:</note> Hie schiet parcifal von der schonen lyazzen vnd von irem vater mit manigem leide <wit>Z</wit>
+</rdg></app><app loc="179.13"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="179.13"><rdg><note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>
+</rdg></app>
+<app loc="179.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="179.01">
+<rdg>iemer gewinnen, sô daz ich mac minnen (min <wit>U</wit>) gern (<subst><del>*minne gern</del><add>So daz ich wol mag minne gern</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="179.02">
+<rdg>sô sullet ir (<subst><del>J* soll*</del><add>So so&#x0364;llent ir</add></subst> <wit>V</wit>) mich Liazen gewern, <wit>*m</wit> (<wit>G</wit>)</rdg>
+</app>
+<app loc="179.05">
+<lem>jâmer</lem> <rdg>jâmers <wit>*m</wit></rdg>
+</app>
+<app loc="179.05">
+<lem>entsagen</lem> <rdg>etsagen <wit>D</wit></rdg>
+</app>
+<app loc="179.06">
+<lem>sô</lem> <rdg>ze <wit>*m</wit></rdg>
+</app>
+<app loc="179.14">
+<lem>mâl</lem> <rdg>wal <wit>*m</wit></rdg>
+</app>
+<app loc="179.18">
+<lem>im</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="179.01">
+<rdg>&#x2193;<wit>*T</wit> · mac wol (mach <wit>I</wit> wol nach <wit>L</wit>) <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="179.02">
+<rdg></rdg>
+</app>
+<app loc="179.03">
+<rdg></rdg>
+</app>
+<app loc="179.04">
+<rdg></rdg>
+</app>
+<app loc="179.05">
+<rdg>mag ich danne j. (<subst><del>*</del><add>úch iamers danne</add></subst> <wit>V</wit> ev dann iamer <wit>I</wit>) e., <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="179.06">
+<rdg>des l. ich iu. n. langer tr." <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="179.07">
+<rdg></rdg>
+</app>
+<app loc="179.08">
+<rdg>ze dem <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="179.09">
+<rdg></rdg>
+</app>
+<app loc="179.10">
+<rdg></rdg>
+</app>
+<app loc="179.11">
+<rdg>riuwic unzem (vnz an ein <wit>V</wit>) q. <wit>*T</wit></rdg>
+</app>
+<app loc="179.12">
+<rdg></rdg>
+</app>
+<app loc="179.13">
+<rdg>dannen sch. dô P. <wit>*G</wit> <note>(ohne Z)</note> · Von Greharz sch. sus (<note>om.</note> <wit>V</wit>) Parcifal. <wit>*T</wit></rdg>
+</app>
+<app loc="179.14">
+<rdg></rdg>
+</app>
+<app loc="179.15">
+<rdg></rdg>
+</app>
+<app loc="179.16">
+<rdg></rdg>
+</app>
+<app loc="179.17">
+<rdg>vil manic <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="179.18">
+<rdg></rdg>
+</app>
+<app loc="179.19">
+<rdg></rdg>
+</app>
+<app loc="179.20">
+<rdg></rdg>
+</app>
+<app loc="179.21">
+<rdg>dûhte in <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="179.22">
+<rdg></rdg>
+</app>
+<app loc="179.23">
+<rdg></rdg>
+</app>
+<app loc="179.24">
+<rdg>sône wolt in (wolte <wit>U</wit>) <wit>*G</wit> <note>(nur G)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="179.25">
+<rdg>gedenkens n. e. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="179.26">
+<rdg>n. der werden Lyazen, <wit>*T</wit> (<wit>I</wit> <wit>O</wit>)</rdg>
+</app>
+<app loc="179.27">
+<rdg></rdg>
+</app>
+<app loc="179.28">
+<rdg></rdg>
+</app>
+<app loc="179.29">
+<rdg>bôt unde êre (bot <subst><del>*e ere</del><add>ere</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="179.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

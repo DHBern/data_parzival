@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 22</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 22.01">daz er den prîs über menegiu <corr type="Emendation">l</corr>ant</l>
+<l n="*D 22.02">hete al eine zuo sîner hant."</l>
+<l n="*D 22.03">"<seg type="Initiale" subtype="Majuskel">N</seg>û sich êt, wenne oder wie,</l>
+<l n="*D 22.04">unt vüege, daz er mich <seg type="singuläre_Lesart">gespreche</seg> hie.</l>
+<l n="*D 22.05">wir haben doch vrid al disen tac.</l>
+<l n="*D 22.06">dâ von der helt wol rîten mac</l>
+<l n="*D 22.07">her ûf ze mir. od<reg type="Synkope">e</reg>r sol ich dar?</l>
+<l n="*D 22.08">er ist and<reg type="Synkope">e</reg>rs denne wir gevar.</l>
+<l n="*D 22.09">ôwî, wan t&#x00E6;te im daz niht wê!</l>
+<l n="*D 22.10">daz het ich gerne ervunden ê,</l>
+<l n="*D 22.11">ob mirz die mîne rieten,</l>
+<l n="*D 22.12">ich solt im êr bieten.</l>
+<l n="*D 22.13">geruochet er mir nâhen,</l>
+<l n="*D 22.14">wie sol ich in enpfâhen?</l>
+<l n="*D 22.15">ist er mir dar zuo wol geborn,</l>
+<l n="*D 22.16">daz mîn kus niht sî verlorn?"</l>
+<l n="*D 22.17">"vrouwe, er ist vür küneges künne erkant.</l>
+<l n="*D 22.18">des sî mîn lîp genennet pfant.</l>
+<l n="*D 22.19"><seg type="Initiale">V</seg>rouwe, ich wil iwern vürsten sag<reg type="Synkope">e</reg>n,</l>
+<l n="*D 22.20">daz si rîchiu kleider trag<reg type="Synkope">e</reg>n</l>
+<l n="*D 22.21">unt daz si vor iu bîten,</l>
+<l n="*D 22.22">unz d<corr type="Emendation">az</corr> wir zuo ziu rîten.</l>
+<l n="*D 22.23">daz saget ir iweren vrouwen gar,</l>
+<l n="*D 22.24">wan swenne ich nû hin nid<reg type="Synkope">e</reg>r var,</l>
+<l n="*D 22.25">sô bring ich iu den werden gast,</l>
+<l n="*D 22.26">dem süezer tugende nie gebrast."</l>
+<l n="*D 22.27">harte wênic des verdarp.</l>
+<l n="*D 22.28">vil behendeclîchen warp</l>
+<l n="*D 22.29">der marschalc sîner vrouwen bete.</l>
+<l n="*D 22.30">balde wart dô <name type="Person">Gahmurete</name></l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit> <note>(22.1-28)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(22.1-14 und 18-30)</note> <wit>Fr55</wit> <note>(22.1-28)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="22.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Fr29</wit>
+</rdg></app>
+<app loc="22.03"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>T</wit>
+</rdg></app><app loc="22.03"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="22.07"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="22.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="22.19"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr14</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="22.27"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="22.01">
+<lem>lant</lem> <rdg>sant <wit>D</wit></rdg>
+</app>
+<app loc="22.01">
+<lem>menegiu</lem> <rdg>menic <wit>*m</wit></rdg>
+</app>
+<app loc="22.03">
+<lem>sich</lem> <rdg>seht <wit>*m</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="22.04">
+<rdg>&#x2020;umbe vienge&#x2020;, daz er (es <wit>mk</wit>) mich &#x2020;sprache&#x2020; hie <wit>*m</wit></rdg>
+</app>
+<app loc="22.04">
+<lem>gespreche</lem> <rdg>spreche <wit>Fr14</wit></rdg>
+</app>
+<app loc="22.05">
+<rdg>und haben vride allen tac. <wit>*m</wit></rdg>
+</app>
+<app loc="22.09">
+<rdg>und wenne t&#x00E6;te im daz noch wê? <wit>*m</wit></rdg>
+</app>
+<app loc="22.10">
+<rdg>daz h&#x0153;re ich gerne von minnen ê, <wit>*m</wit></rdg>
+</app>
+<app loc="22.14">
+<lem>in enpfâhen</lem> <rdg>en phahen <wit>Fr14</wit></rdg>
+</app>
+<app loc="22.15">
+<lem>dar zuo wol</lem> <rdg>wol dar zuo <wit>*m</wit></rdg>
+</app>
+<app loc="22.19">
+<lem>Vrouwe</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="22.21">
+<lem>si</lem> <rdg><note>om.</note> <wit>Fr14</wit></rdg>
+</app>
+<app loc="22.22">
+<lem>daz</lem> <rdg>d:: <wit>D</wit></rdg>
+</app>
+<app loc="22.22">
+<lem>ziu</lem> <rdg>iu zuo <wit>*m</wit></rdg>
+</app>
+<app loc="22.24">
+<lem>nider</lem> <rdg>wider <wit>*m</wit></rdg>
+</app>
+<app loc="22.25">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="22.27">
+<rdg>dâr an ouch (Dar an doch <wit>O</wit> <wit>Fr29</wit> Der rede <wit>L</wit>) lützel des (<note>om.</note> <wit>L</wit>) verdarp <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="22.27">
+<rdg>Dâr an dô lützel des (<subst><del>Da*</del><add>Der rede</add></subst> lutzel <subst><del>*</del><add>da</add></subst> <wit>V</wit>) verdarp. <wit>*T</wit></rdg>
+</app>
+<app loc="22.30">
+<rdg>balde wurden Gahmurete <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="22.01">
+<rdg>pr. ze sîner hant (vber manich lant <wit>O</wit> [<wit>L</wit> <wit>Fr29</wit>]) <wit>*G</wit> <note>(ohne Z)</note> pr. ü. elliu (<subst><del>*</del><add>manig</add></subst> <wit>V</wit>) l. <wit>*T</wit></rdg>
+</app>
+<app loc="22.02">
+<rdg>hât al e. über manigiu lant (mit siner hant <wit>Z</wit>)." <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="22.03">
+<rdg>w. und wie, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="22.04">
+<rdg>v., daz <wit>*G</wit> <note>(nur G)</note> · spreche (bespreche <wit>Z</wit>) <wit>*G</wit> <note>(ohne OL)</note></rdg>
+</app>
+<app loc="22.05">
+<rdg>al (allen <wit>O</wit> <wit>Z</wit> <wit>Fr29</wit>) <note>om.</note> <wit>*G</wit> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="22.06">
+<rdg></rdg>
+</app>
+<app loc="22.07">
+<rdg></rdg>
+</app>
+<app loc="22.08">
+<rdg></rdg>
+</app>
+<app loc="22.09">
+<rdg>owê, <wit>*G</wit> <note>(nur GLZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="22.10">
+<rdg>e. ê: <wit>*T</wit></rdg>
+</app>
+<app loc="22.11">
+<rdg><note>Versfolge 22.12-11</note> <wit>*T</wit> · ob ez mir die m. r., <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="22.12">
+<rdg></rdg>
+</app>
+<app loc="22.13">
+<rdg></rdg>
+</app>
+<app loc="22.14">
+<rdg></rdg>
+</app>
+<app loc="22.15">
+<rdg></rdg>
+</app>
+<app loc="22.16">
+<rdg>kus iht sî (ist niht <wit>O</wit>) <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="22.17">
+<rdg></rdg>
+</app>
+<app loc="22.18">
+<rdg></rdg>
+</app>
+<app loc="22.19">
+<rdg>Vrouwe <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="22.20">
+<rdg></rdg>
+</app>
+<app loc="22.21">
+<rdg>unde hie vor (hie bî <wit>*T</wit> hie <subst><del>in</del><add>bi</add></subst> <wit>U</wit>) iu (Vnd vor u̽ch hie <wit>L</wit>) b. (beidin <wit>U</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="22.22">
+<rdg>biz (Vntz <wit>L</wit> [<wit>Fr29</wit> <wit>Fr55</wit>]) daz wir zuo (zuo iu <wit>*T</wit> [<wit>O</wit> <wit>Z</wit> <wit>Fr29</wit>]) r. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="22.23">
+<rdg>saget ouch iweren <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="22.24">
+<rdg></rdg>
+</app>
+<app loc="22.25">
+<rdg></rdg>
+</app>
+<app loc="22.26">
+<rdg>dem ganzer t. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="22.27">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="22.28">
+<rdg>vil behendeclîche dô w. <wit>*T</wit></rdg>
+</app>
+<app loc="22.29">
+<rdg></rdg>
+</app>
+<app loc="22.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

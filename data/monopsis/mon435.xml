@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 435</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 435.01"><seg type="Initiale">S</seg>werz niht geloubet, der sündet.</l>
+<l n="*D 435.02">diu âventiure uns kündet,</l>
+<l n="*D 435.03">daz <name type="Person">Parzival</name>, der degen balt,</l>
+<l n="*D 435.04">kom geriten ûf einen walt,</l>
+<l n="*D 435.05">ine weiz ze welhen stunden.</l>
+<l n="*D 435.06">al dâ sîniu ougen vunden</l>
+<l n="*D 435.07">eine klôsen niwes bûwes stên,</l>
+<l n="*D 435.08">dâ durch einen snellen brunnen gên.</l>
+<l n="*D 435.09">einhalp si drüber was geworht.</l>
+<l n="*D 435.10">der junge deg<reg type="Synkope">e</reg>n unervorht</l>
+<l n="*D 435.11">reit durch âventiure ze versuochen.</l>
+<l n="*D 435.12">sîn wolte got dô ruochen.</l>
+<l n="*D 435.13">er vant eine klôs<reg type="Synkope">e</reg>n&#x00E6;rinne,</l>
+<l n="*D 435.14">diu durch die gotes minne</l>
+<l n="*D 435.15">ir magetuom unt ir vreude gap.</l>
+<l n="*D 435.16">wîplîcher sorgen urhap</l>
+<l n="*D 435.17">ûz ir herzen bluote al niwe</l>
+<l n="*D 435.18">unt doch durch alte triwe.</l>
+<l n="*D 435.19"><name type="Person">Schianatuland<reg type="Synkope">e</reg>r</name></l>
+<l n="*D 435.20">unt <name type="Person">Sigunen</name> dâ vand<reg type="Synkope">e</reg>r.</l>
+<l n="*D 435.21">der helt lac dinne begraben tôt.</l>
+<l n="*D 435.22">ir leben leit ûf dem sarke nôt.</l>
+<l n="*D 435.23"><name type="Person">Sigune</name> <seg type="singuläre_Lesart">doschesse</seg></l>
+<l n="*D 435.24">hôrte selten messe.</l>
+<l n="*D 435.25">ir leb<reg type="Synkope">e</reg>n was doch ein <seg type="singuläre_Lesart">venje</seg> gar.</l>
+<l n="*D 435.26">ir dicker munt heiz, rôt gevar</l>
+<l n="*D 435.27">was <seg type="singuläre_Lesart">dô</seg> erblichen unde bleich,</l>
+<l n="*D 435.28">sît werltlîch vreude ir gar gesweich.</l>
+<l n="*D 435.29">ez erleit nie magt sô hôhen pîn.</l>
+<l n="*D 435.30">durch klage si <seg type="singuläre_Lesart">muoz</seg> al eine sîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="435.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="435.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="435.13"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="435.19"><rdg>
+<note>Überschrift:</note> Hie kvmet parzifal zem dritte male Zv&#x0366; sigunen sinre núfteln do sú ein Closenerin waz worden <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="435.01">
+<lem>Swerz</lem> <rdg>Der ez <wit>*m</wit></rdg>
+</app>
+<app loc="435.07">
+<rdg>niuwes bûwes ein klûsen stên, <wit>*m</wit></rdg>
+</app>
+<app loc="435.10">
+<lem>unervorht</lem> <rdg>âne vorht <wit>*m</wit></rdg>
+</app>
+<app loc="435.17">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="435.20">
+<lem>dâ</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="435.28">
+<lem>gar</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>O</wit></rdg>
+</app>
+<app loc="435.30">
+<lem>muoz</lem> <rdg>muose <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="435.01">
+<rdg></rdg>
+</app>
+<app loc="435.02">
+<rdg></rdg>
+</app>
+<app loc="435.03">
+<rdg></rdg>
+</app>
+<app loc="435.04">
+<rdg></rdg>
+</app>
+<app loc="435.05">
+<rdg></rdg>
+</app>
+<app loc="435.06">
+<rdg></rdg>
+</app>
+<app loc="435.07">
+<rdg></rdg>
+</app>
+<app loc="435.08">
+<rdg></rdg>
+</app>
+<app loc="435.09">
+<rdg></rdg>
+</app>
+<app loc="435.10">
+<rdg></rdg>
+</app>
+<app loc="435.11">
+<rdg>ze (<note>om.</note> <wit>U</wit> <wit>V</wit> <wit>O</wit> <wit>L</wit>) suochen. <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="435.12">
+<rdg></rdg>
+</app>
+<app loc="435.13">
+<rdg></rdg>
+</app>
+<app loc="435.14">
+<rdg></rdg>
+</app>
+<app loc="435.15">
+<rdg></rdg>
+</app>
+<app loc="435.16">
+<rdg></rdg>
+</app>
+<app loc="435.17">
+<rdg></rdg>
+</app>
+<app loc="435.18">
+<rdg></rdg>
+</app>
+<app loc="435.19">
+<rdg></rdg>
+</app>
+<app loc="435.20">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="435.21">
+<rdg></rdg>
+</app>
+<app loc="435.22">
+<rdg>ir lîp leit <wit>*T</wit></rdg>
+</app>
+<app loc="435.23">
+<rdg>Sygune de Sesse (do zesse <wit>U</wit> leducesse <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="435.24">
+<rdg></rdg>
+</app>
+<app loc="435.25">
+<rdg>doch <note>om.</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="435.26">
+<rdg></rdg>
+</app>
+<app loc="435.27">
+<rdg></rdg>
+</app>
+<app loc="435.28">
+<rdg>vröude an ir g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="435.29">
+<rdg></rdg>
+</app>
+<app loc="435.30">
+<rdg>kl. (daz [<note>om.</note> <wit>U</wit>] <wit>*T</wit>) si muose (mu&#x0364;st <wit>I</wit> [<wit>T</wit>] mu&#x0366;ze <wit>U</wit>) al e. <wit>*G</wit> <note>(ohne OZ)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

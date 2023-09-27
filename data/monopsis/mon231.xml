@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 231</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 231.01"><seg type="Initiale"><corr type="Emendation">D</corr></seg>er wirt het durch siecheit</l>
+<l n="*D 231.02">grôziu viwer unt an im warmiu kleit.</l>
+<l n="*D 231.03">wît unt lanc zob<reg type="Synkope">e</reg>lîn,</l>
+<l n="*D 231.04">sus muose ûzen unt innen sîn</l>
+<l n="*D 231.05">der bellîz unt der mantel drobe.</l>
+<l n="*D 231.06">der swecheste balc w&#x00E6;re wol ze lobe,</l>
+<l n="*D 231.07">der was doch swarz unt grâ.</l>
+<l n="*D 231.08">des selben was ein hûbe aldâ</l>
+<l n="*D 231.09">ûf sîme houbte, zwivalt</l>
+<l n="*D 231.10">von zobele, den man tiure galt.</l>
+<l n="*D 231.11">sinwel <name type="Person">arab<reg type="Synkope">e</reg>sch</name> ein borte</l>
+<l n="*D 231.12">oben drûf gehôrte,</l>
+<l n="*D 231.13">mitten dran ein knopfelîn,</l>
+<l n="*D 231.14">ein durchliuhtic <name type="Sonstiges">rubîn</name>.</l>
+<l n="*D 231.15">dâ saz manec ritt<reg type="Synkope">e</reg>r kluoc,</l>
+<l n="*D 231.16">dâ man jâmer vür si truoc.</l>
+<l n="*D 231.17">ein knappe spranc zer tür dar în,</l>
+<l n="*D 231.18">der truog eine glevîn.</l>
+<l n="*D 231.19">der site was ze trûren guot:</l>
+<l n="*D 231.20">an der snîden huop sich bluot</l>
+<l n="*D 231.21">unt lief den schaft unz ûf die hant,</l>
+<l n="*D 231.22">dârz in dem ermel wid<reg type="Synkope">e</reg>rwant.</l>
+<l n="*D 231.23"><seg type="Initiale" subtype="Majuskel">D</seg>â wart geweinet unt geschrît</l>
+<l n="*D 231.24">ûf dem palase wît.</l>
+<l n="*D 231.25">daz volc von drîzec landen</l>
+<l n="*D 231.26">m<corr type="Emendation">ö</corr>htez den ougen niht enblanden.</l>
+<l n="*D 231.27">er truoc si in sînen henden</l>
+<l n="*D 231.28">alumbe zen vier wenden</l>
+<l n="*D 231.29">unz aber wider zuo der tür.</l>
+<l n="*D 231.30">der knappe spranc hin ûz d<reg type="Synkope">a</reg>r vür.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(231.5-7, 15-18 und 20-21)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="231.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app><app loc="231.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="231.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="231.17"><rdg>
+<note>Initiale</note> <wit>Fr69</wit>
+</rdg></app><app loc="231.17"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="231.23"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="231.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="231.01">
+<rdg>und hete durch sîne siecheit (<subst><del>*</del><add>vnde hette durch sine siecheit</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="231.01">
+<lem>Der</lem> <rdg>&#x00F7;er <note>nachträglich korrigiert zu:</note> Der <wit>D</wit></rdg>
+</app>
+<app loc="231.02">
+<lem>an im</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="231.05">
+<rdg>ein belz und ein mantel drobe. <wit>*m</wit></rdg>
+</app>
+<app loc="231.08">
+<lem>selben</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="231.08">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="231.17">
+<lem>dar</lem> <rdg>her <wit>*m</wit></rdg>
+</app>
+<app loc="231.21">
+<lem>ûf</lem> <rdg>an <wit>*m</wit></rdg>
+</app>
+<app loc="231.22">
+<rdg>daz an (daze im an <wit>G</wit> Daz ez an <wit>L</wit> <wit>Z</wit>) dem ermel widerwant (<subst><del>Da*</del><add>Daz es an dem ermel wider want</add></subst> <wit>V</wit>). <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="231.22">
+<rdg>daz sin dem ermele erwant (wider want <wit>U</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="231.25">
+<rdg><note>Versdoppelung 231.25, 231.27-232.2 und 230.21 (²O) nach 230.21</note> <wit>O</wit></rdg>
+</app>
+<app loc="231.26">
+<lem>möhtez</lem> <rdg>mohtez <wit>D</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="231.01">
+<rdg></rdg>
+</app>
+<app loc="231.02">
+<rdg>grôz <wit>*T</wit> (<wit>Z</wit> <wit>Fr21</wit>) · an im <note>om.</note> <wit>*G</wit> <note>(ohne ZFr21)</note></rdg>
+</app>
+<app loc="231.03">
+<rdg>wît, l. z., <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="231.04">
+<rdg>als (sust <wit>I</wit>) m. ûz unde inne sîn <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="231.05">
+<rdg>ein (<subst><del>*</del><add>Einen</add></subst> <wit>V</wit>) b. (belliz wit <wit>I</wit>) unde ein (der <wit>L</wit> <wit>Z</wit> <subst><del>*</del><add>ein</add></subst> <wit>V</wit>) mandel dr. <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="231.06">
+<rdg>b. was (<subst><del>w*</del><add>waz</add></subst> <wit>V</wit>) wol <wit>*G</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="231.07">
+<rdg></rdg>
+</app>
+<app loc="231.08">
+<rdg>h. dâ <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="231.09">
+<rdg></rdg>
+</app>
+<app loc="231.10">
+<rdg></rdg>
+</app>
+<app loc="231.11">
+<rdg>sinewel ein a. b. <wit>*T</wit></rdg>
+</app>
+<app loc="231.12">
+<rdg>o. dr. g.; <wit>*G</wit> · o. (Obenan <wit>V</wit>) dr. hôrte, <wit>*T</wit></rdg>
+</app>
+<app loc="231.13">
+<rdg>dâr an was (<note>om.</note> <wit>Z</wit>) ein kn. (chophelin <wit>G</wit> knevflin <wit>Z</wit>), <wit>*G</wit> <note>(ohne Z)</note> enmitten dr. ein kn., <wit>*T</wit> <note>(ohne U)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="231.14">
+<rdg></rdg>
+</app>
+<app loc="231.15">
+<rdg>dâ was (<subst><del>*</del><add>saz</add></subst> <wit>V</wit>) m. <wit>*T</wit></rdg>
+</app>
+<app loc="231.16">
+<rdg></rdg>
+</app>
+<app loc="231.17">
+<rdg>tür her în, <wit>*G</wit> <note>(nur GIZ)</note></rdg>
+</app>
+<app loc="231.18">
+<rdg></rdg>
+</app>
+<app loc="231.19">
+<rdg>des s. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="231.20">
+<rdg>oben (Ob ein <wit>U</wit>) an der sn. erhuop s. bl. <wit>*T</wit></rdg>
+</app>
+<app loc="231.21">
+<rdg>unze an die <wit>*G</wit> <note>(nur GIL)</note> nider (<note>om.</note> <wit>U</wit> <wit>V</wit>) unz ûf (bit of <wit>U</wit> vnz <subst><del>*</del><add>an</add></subst> <wit>V</wit>) die <wit>*T</wit></rdg>
+</app>
+<app loc="231.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="231.23">
+<rdg></rdg>
+</app>
+<app loc="231.24">
+<rdg>in dem <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> · p. wît, <wit>*T</wit></rdg>
+</app>
+<app loc="231.25">
+<rdg>daz (Daz <subst><del>*</del><add>volk</add></subst> <wit>V</wit>) von <wit>*T</wit></rdg>
+</app>
+<app loc="231.26">
+<rdg>möhtens (mohtens <wit>T</wit>) n. (iz <wit>U</wit> [<wit>V</wit>]) den ou. e. (nit enblanden <wit>U</wit> [<wit>V</wit>]). <wit>*T</wit></rdg>
+</app>
+<app loc="231.27">
+<rdg></rdg>
+</app>
+<app loc="231.28">
+<rdg>Ze (zen <wit>G</wit>) allen v. w. (enden <wit>Z</wit>) <wit>*G</wit> · a. ze v. w. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="231.29">
+<rdg>unde a. <wit>*T</wit> · w. hin zer (wider andie <wit>I</wit> wider fvr di <note><hi rend="hochgestellt">2</hi></note><wit>O</wit>) tür. <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="231.30">
+<rdg>hin ûz zer tür (<subst><del>*</del><add>hin vz der fúr</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

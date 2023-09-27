@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 9</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 9.01">und tuost, ob wir uns scheiden.</l>
+<l n="*D 9.02">mîn vater hât uns beiden</l>
+<l n="*D 9.03"><seg type="Initiale">G</seg>elâzen guotes harte vil.</l>
+<l n="*D 9.04">des stôze ich dir gelîchiu zil.</l>
+<l n="*D 9.05">ich bin dir herzenlîchen holt.</l>
+<l n="*D 9.06">li<corr type="Emendation">e</corr>ht gesteine, rôtez golt,</l>
+<l n="*D 9.07">liute, wâpen, ors, gewant,</l>
+<l n="*D 9.08">des nim sô vil von mîner hant,</l>
+<l n="*D 9.09">daz dû nâch dînem willen varst</l>
+<l n="*D 9.10">und dîne mildecheit bewarst.</l>
+<l n="*D 9.11">dîn manheit ist ûzerkorn.</l>
+<l n="*D 9.12">w&#x00E6;restû von <name type="Ort">Gylstram</name> geborn</l>
+<l n="*D 9.13">oder komen her von <name type="Ort">Ranculat</name>,</l>
+<l n="*D 9.14">ich hete dich immer an der stat,</l>
+<l n="*D 9.15">als ich dich sus vil gerne hân.</l>
+<l n="*D 9.16">dû bist mîn bruoder sunder wân."</l>
+<l n="*D 9.17">"<seg type="Initiale" subtype="Majuskel">H</seg>êrre, ir lobt mich umbe nôt,</l>
+<l n="*D 9.18">sît ez iwer zuht gebôt.</l>
+<l n="*D 9.19">dâr nâch tuot iwer helfe schîn.</l>
+<l n="*D 9.20">welt ir und diu muoter mîn</l>
+<l n="*D 9.21">mir teilen iwer varnde habe,</l>
+<l n="*D 9.22">sô stîge ich ûf und ninder abe.</l>
+<l n="*D 9.23">mîn herze iedoch nâch h&#x0153;he strebet.</l>
+<l n="*D 9.24">ine weiz, wâr umbe ez alsus lebet,</l>
+<l n="*D 9.25">daz mir swillet sus mîn winster brust.</l>
+<l n="*D 9.26">owê, war jaget mich mîn gelust?</l>
+<l n="*D 9.27">ich solz versuochen, ob ich mac.</l>
+<l n="*D 9.28">nû nâhet mîn urloubes tac."</l>
+<l n="*D 9.29"><seg type="Initiale">D</seg>er künec in alles werte,</l>
+<l n="*D 9.30">mêr denne er selbe gerte:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit><wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="9.01"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="9.03"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="9.13"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="9.17"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="9.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>L</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>Z</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="9.03">
+<lem>Gelâzen</lem> <rdg>gegeben <wit>*m</wit></rdg>
+</app>
+<app loc="9.06">
+<lem>lieht</lem> <rdg>lîht <wit>D</wit></rdg>
+</app>
+<app loc="9.11">
+<lem>ist</lem> <rdg>dir ist <wit>*m</wit></rdg>
+</app>
+<app loc="9.17">
+<lem>lobt</lem> <rdg>krieget <wit>*m</wit></rdg>
+</app>
+<app loc="9.22">
+<lem>ninder</lem> <rdg>wider <wit>*m</wit> <wit>U</wit> <subst><del>*</del><add>niender</add></subst> <wit>V</wit></rdg>
+</app>
+<app loc="9.24">
+<lem>ine</lem> <rdg>wer <wit>*m</wit></rdg>
+</app>
+<app loc="9.25">
+<rdg>daz mir swillet sust mîn winster brust? <wit>*m</wit></rdg>
+</app>
+<app loc="9.27">
+<lem>solz</lem> <rdg>solt <wit>*m</wit></rdg>
+</app>
+<app loc="9.27">
+<lem>versuochen</lem> <rdg>verscho&#x036E;chen <wit>G</wit></rdg>
+</app>
+<app loc="9.30">
+<lem>selbe</lem> <rdg>selbes <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="9.01">
+<rdg></rdg>
+</app>
+<app loc="9.02">
+<rdg></rdg>
+</app>
+<app loc="9.03">
+<rdg>verlâzen g. h. vil. <wit>*G</wit> <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="9.04">
+<rdg>glîchez (gelichin <wit>U</wit> geliche <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="9.05">
+<rdg>dienstlîchen (<subst><del>*</del><add>herzeclichen</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="9.06">
+<rdg></rdg>
+</app>
+<app loc="9.07">
+<rdg></rdg>
+</app>
+<app loc="9.08">
+<rdg></rdg>
+</app>
+<app loc="9.09">
+<rdg></rdg>
+</app>
+<app loc="9.10">
+<rdg></rdg>
+</app>
+<app loc="9.11">
+<rdg>m., diu ist <wit>*G</wit> <note>(nur G)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="9.12">
+<rdg></rdg>
+</app>
+<app loc="9.13">
+<rdg>her k. <wit>*G</wit> <note>(nur GL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="9.14">
+<rdg></rdg>
+</app>
+<app loc="9.15">
+<rdg>dâr an ich d. doch g. hân. <wit>*T</wit></rdg>
+</app>
+<app loc="9.16">
+<rdg></rdg>
+</app>
+<app loc="9.17">
+<rdg>m. ungenôt (svnder not <wit>O</wit> <wit>L</wit>), <wit>*G</wit> m. âne nôt, <wit>*T</wit></rdg>
+</app>
+<app loc="9.18">
+<rdg></rdg>
+</app>
+<app loc="9.19">
+<rdg>t. mir h. <wit>*T</wit></rdg>
+</app>
+<app loc="9.20">
+<rdg></rdg>
+</app>
+<app loc="9.21">
+<rdg>mir t. iuwerre vordern h. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="9.22">
+<rdg></rdg>
+</app>
+<app loc="9.23">
+<rdg></rdg>
+</app>
+<app loc="9.24">
+<rdg></rdg>
+</app>
+<app loc="9.25">
+<rdg>sus (so <wit>V</wit>) sw. <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="9.26">
+<rdg></rdg>
+</app>
+<app loc="9.27">
+<rdg>daz (Dar <wit>U</wit>) versuoche ich, <wit>*T</wit></rdg>
+</app>
+<app loc="9.28">
+<rdg>nû n. mir (<subst><del>*</del><add>mir</add></subst> <wit>V</wit>) u. tac." <wit>*T</wit></rdg>
+</app>
+<app loc="9.29">
+<rdg>in dô (alsus <wit>L</wit>) w., <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="9.30">
+<rdg>er g.: <wit>*T</wit> <wit>Z</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

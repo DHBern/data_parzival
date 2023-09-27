@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 462</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>18.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 462.01"><seg type="Initiale">G</seg>ot müeze uns helfen beiden.</l>
+<l n="*D 462.02">hêrre, ir sult mich bescheiden</l>
+<l n="*D 462.03">- ruochet alrêrst sitzen -,</l>
+<l n="*D 462.04">sagt mir mit kiuschen witzen,</l>
+<l n="*D 462.05">wie der zorn sich an gevienc,</l>
+<l n="*D 462.06">dâ von got iwern haz enpfienc.</l>
+<l n="*D 462.07">durch iwer zuht gedult</l>
+<l n="*D 462.08">vernemt von mir sîn unschult,</l>
+<l n="*D 462.09">ê daz ir mir von im iht klagt.</l>
+<l n="*D 462.10">sîn helfe ist imm<reg type="Synkope">e</reg>r unverzagt.</l>
+<l n="*D 462.11">doch ich ein leie w&#x00E6;re,</l>
+<l n="*D 462.12">der wâren buoche m&#x00E6;re</l>
+<l n="*D 462.13">künd ich lesen und schrîben,</l>
+<l n="*D 462.14">wie der mensch sol belîben</l>
+<l n="*D 462.15">mit dienste gein des helfe grôz,</l>
+<l n="*D 462.16">den der st&#x00E6;ten helfe nie verdrôz</l>
+<l n="*D 462.17">vür der sêle senken.</l>
+<l n="*D 462.18">sît getriwe âne allez wenken,</l>
+<l n="*D 462.19">sît got selbe ein triwe ist.</l>
+<l n="*D 462.20">dem was unm&#x00E6;re ie valscher list.</l>
+<l n="*D 462.21">wir suln in des geniezen lân:</l>
+<l n="*D 462.22">er hât vil durch uns getân,</l>
+<l n="*D 462.23">sît sîn edel hôher art</l>
+<l n="*D 462.24">durch uns ze menschen bilde wart.</l>
+<l n="*D 462.25">got heizet unt ist ein wârheit.</l>
+<l n="*D 462.26">dem was ie valschiu vuore leit.</l>
+<l n="*D 462.27">daz sult ir gar bedenken.</l>
+<l n="*D 462.28">ern kan an niemen wenken.</l>
+<l n="*D 462.29">nû lêret iwer gedanke,</l>
+<l n="*D 462.30">hüetet iuch gein im an wanke.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <note>(ohne 462.21-26)</note> <wit>Z</wit> <wit>Fr22</wit> <note>(462.1-7)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="462.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr22</wit>
+</rdg></app>
+<app loc="462.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="462.23"><rdg>
+<note>Überschrift:</note> <subst><del>*</del><add>Hie bihtet parzefal Trefrischenten</add></subst> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="462.01">
+<lem>müeze</lem> <rdg>muoz <wit>*m</wit></rdg>
+</app>
+<app loc="462.03">
+<lem>ruochet</lem> <rdg>und ruocht <wit>*m</wit></rdg>
+</app>
+<app loc="462.20">
+<rdg>dem ist unm&#x00E6;r ein valscher list. <wit>*m</wit></rdg>
+</app>
+<app loc="462.25">
+<lem>ein</lem> <rdg>diu <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="462.01">
+<rdg></rdg>
+</app>
+<app loc="462.02">
+<rdg>s. mir (mir baz <wit>O</wit>) b. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr22</wit>)</rdg>
+</app>
+<app loc="462.03">
+<rdg>- geruochet a. s. -, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="462.04">
+<rdg></rdg>
+</app>
+<app loc="462.05">
+<rdg>wi der z. sich angehüebe ie (wie sich der zorn an <subst><del>geh*</del><add>gevieng</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="462.06">
+<rdg>haz enpfie. <wit>*T</wit></rdg>
+</app>
+<app loc="462.07">
+<rdg></rdg>
+</app>
+<app loc="462.08">
+<rdg></rdg>
+</app>
+<app loc="462.09">
+<rdg></rdg>
+</app>
+<app loc="462.10">
+<rdg></rdg>
+</app>
+<app loc="462.11">
+<rdg></rdg>
+</app>
+<app loc="462.12">
+<rdg></rdg>
+</app>
+<app loc="462.13">
+<rdg></rdg>
+</app>
+<app loc="462.14">
+<rdg></rdg>
+</app>
+<app loc="462.15">
+<rdg></rdg>
+</app>
+<app loc="462.16">
+<rdg></rdg>
+</app>
+<app loc="462.17">
+<rdg>vür der helle s. <wit>*T</wit></rdg>
+</app>
+<app loc="462.18">
+<rdg>sîn triuwe ist âne w., <wit>*T</wit></rdg>
+</app>
+<app loc="462.19">
+<rdg></rdg>
+</app>
+<app loc="462.20">
+<rdg></rdg>
+</app>
+<app loc="462.21">
+<rdg></rdg>
+</app>
+<app loc="462.22">
+<rdg></rdg>
+</app>
+<app loc="462.23">
+<rdg></rdg>
+</app>
+<app loc="462.24">
+<rdg></rdg>
+</app>
+<app loc="462.25">
+<rdg>ist diu w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="462.26">
+<rdg></rdg>
+</app>
+<app loc="462.27">
+<rdg></rdg>
+</app>
+<app loc="462.28">
+<rdg></rdg>
+</app>
+<app loc="462.29">
+<rdg></rdg>
+</app>
+<app loc="462.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

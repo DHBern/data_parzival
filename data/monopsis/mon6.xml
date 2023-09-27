@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 6</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 6.01">brâht er unz an sînen tôt.</l>
+<l n="*D 6.02">sîn elter sun vür sich gebôt</l>
+<l n="*D 6.03">den vürsten ûz sînem rîche.</l>
+<l n="*D 6.04">die kâmen ritterlîche,</l>
+<l n="*D 6.05">wan si ze rehte solden hân</l>
+<l n="*D 6.06">von im grôz lêhen sunder wân.</l>
+<l n="*D 6.07"><seg type="Initiale" subtype="Majuskel">D</seg>ô si ze hove wâren komen</l>
+<l n="*D 6.08">und ir reht was vernomen,</l>
+<l n="*D 6.09">daz si ir lêhen alle enpfiengen,</l>
+<l n="*D 6.10">nû h&#x0153;ret, wie siz ane geviengen:</l>
+<l n="*D 6.11">si gerten, als ir triwe riet,</l>
+<l n="*D 6.12">rîch und arme, gar diu diet,</l>
+<l n="*D 6.13">einer kranken ern<corr type="Emendation">st</corr>lîcher bete,</l>
+<l n="*D 6.14">daz der künec an <name type="Person">Gahmurete</name></l>
+<l n="*D 6.15">bruoderlîche triwe mêrte</l>
+<l n="*D 6.16">und sich selben êrte,</l>
+<l n="*D 6.17">daz er in niht gar verstieze</l>
+<l n="*D 6.18">und im sînes landes lieze</l>
+<l n="*D 6.19">hantgem&#x00E6;lde, daz man m<corr type="Emendation">ö</corr>hte sehen,</l>
+<l n="*D 6.20">dâ von der hêrre m<corr type="Emendation">üe</corr>se jehen</l>
+<l n="*D 6.21">sînes namen und sîner vrîheit.</l>
+<l n="*D 6.22">daz was dem künege niht ze leit.</l>
+<l n="*D 6.23">er sprach: "ir kunnet mâze gern.</l>
+<l n="*D 6.24">ich wil iuch des und vürbaz wern.</l>
+<l n="*D 6.25">wan nennet ir den bruoder mîn</l>
+<l n="*D 6.26"><name type="Person">Gahmuret</name> <name type="Person">Anschevin</name>?</l>
+<l n="*D 6.27"><name type="Ort">Anschouwe</name> ist mîn lant.</l>
+<l n="*D 6.28">dâ wesen beide von genant."</l>
+<l n="*D 6.29"><seg type="Initiale">D</seg>ô sprach der künec hêre:</l>
+<l n="*D 6.30">"mîn bruoder, der mac sich mêre</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="6.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="6.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="6.03"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="6.07"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="6.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="6.11"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="6.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="6.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="6.04">
+<lem>die</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="6.08">
+<lem>was</lem> <rdg>baz <wit>*m</wit></rdg>
+</app>
+<app loc="6.10">
+<lem>siz</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="6.13">
+<lem>ernstlîcher</lem> <rdg>erntslicher <wit>D</wit></rdg>
+</app>
+<app loc="6.19">
+<rdg>hantgem&#x00E6;lde; dâ man möhte sehen (schen <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="6.19">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="6.20">
+<lem>müese</lem> <rdg>mv&#x0366;se <wit>D</wit></rdg>
+</app>
+<app loc="6.22">
+<lem>ze</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="6.28">
+<lem>wesen</lem> <rdg>wesen wir <wit>*m</wit> sint wir <wit>V</wit> sie wir <wit>Z</wit></rdg>
+</app>
+<app loc="6.29">
+<lem>Dô</lem> <rdg>ouch <wit>*m</wit></rdg>
+</app>
+<app loc="6.30">
+<rdg>"mîn bruoder mac sich mêre <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="6.01">
+<rdg>behielt er <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="6.02">
+<rdg></rdg>
+</app>
+<app loc="6.03">
+<rdg>ûz dem (sinem <del>:::ndem</del> <wit>O</wit>) r. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="6.04">
+<rdg>die kômen al gelîche, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="6.05">
+<rdg></rdg>
+</app>
+<app loc="6.06">
+<rdg></rdg>
+</app>
+<app loc="6.07">
+<rdg></rdg>
+</app>
+<app loc="6.08">
+<rdg>unde ir r. wart v., <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="6.09">
+<rdg>daz si a. ir l. e., <wit>*G</wit> (<wit>V</wit>) unde daz (do <wit>U</wit>) sir l. e., <wit>*T</wit></rdg>
+</app>
+<app loc="6.10">
+<rdg>nû <note>om.</note> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="6.10">
+<rdg>ane viengen <wit>*G</wit> <note>(ohne O)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="6.11">
+<rdg></rdg>
+</app>
+<app loc="6.12">
+<rdg></rdg>
+</app>
+<app loc="6.13">
+<rdg>e. kargen ernstlîchen bet, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="6.14">
+<rdg></rdg>
+</app>
+<app loc="6.15">
+<rdg></rdg>
+</app>
+<app loc="6.16">
+<rdg></rdg>
+</app>
+<app loc="6.17">
+<rdg>in iht gar (<note>om.</note> <wit>O</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="6.18">
+<rdg></rdg>
+</app>
+<app loc="6.19">
+<rdg></rdg>
+</app>
+<app loc="6.20">
+<rdg>h. möhte (<subst><del>m*</del><add>mo&#x0364;hte</add></subst> <wit>V</wit>) j. <wit>*T</wit></rdg>
+</app>
+<app loc="6.21">
+<rdg></rdg>
+</app>
+<app loc="6.22">
+<rdg></rdg>
+</app>
+<app loc="6.23">
+<rdg>k. ze m. <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="6.24">
+<rdg></rdg>
+</app>
+<app loc="6.25">
+<rdg>man nenne den (dem <wit>U</wit>) <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="6.26">
+<rdg>G. A. <wit>*T</wit></rdg>
+</app>
+<app loc="6.27">
+<rdg>Anschouwe, daz ist <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="6.28">
+<rdg></rdg>
+</app>
+<app loc="6.29">
+<rdg>sus sp. <wit>*G</wit> (<wit>V</wit>) Aber sp. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="6.30">
+<rdg>"sich sol mîn br. (Min bru&#x0366;der sol sich <wit>V</wit>) m. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

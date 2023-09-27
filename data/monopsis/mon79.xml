@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 79</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>24.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 79.01">hinderz ors mit eime rôr.</l>
+<l n="*D 79.02">der künec hiez <name type="Person">Schafillor</name>.</l>
+<l n="*D 79.03">daz sper was sund<reg type="Synkope">e</reg>r banier,</l>
+<l n="*D 79.04">dâ mit er valte den degen fier.</l>
+<l n="*D 79.05">er hetz brâht ûz der heidenschaft.</l>
+<l n="*D 79.06">die sîne wert<reg type="Synkope">e</reg>n in mit kraft.</l>
+<l n="*D 79.07"><seg type="Initiale">D</seg>och vieng er den werden man.</l>
+<l n="*D 79.08">die inren tâten die ûzern sân</l>
+<l n="*D 79.09">vaste rîten ûfz velt.</l>
+<l n="*D 79.10">ir vesperîe gap strîtes gelt.</l>
+<l n="*D 79.11">ez mohte sîn ein turnei,</l>
+<l n="*D 79.12">wan dâ lac manec sper enzwei.</l>
+<l n="*D 79.13"><seg type="Initiale" subtype="Majuskel">D</seg>ô begunde zürnen <name type="Person">L&#x00E6;helin</name>:</l>
+<l n="*D 79.14">"sul wir sus entêret sîn?</l>
+<l n="*D 79.15">daz machet, der den anker treit.</l>
+<l n="*D 79.16">unser eintwed<reg type="Synkope">e</reg>r den andern leit</l>
+<l n="*D 79.17">noch hiute, dâ er unsamfte ligt.</l>
+<l n="*D 79.18">si hânt uns vil nâch an gesigt."</l>
+<l n="*D 79.19">ir hurte gab in rûmes vil.</l>
+<l n="*D 79.20">dâ gieng ez ûz der kinde spil.</l>
+<l n="*D 79.21">si worhten mit ir henden,</l>
+<l n="*D 79.22">daz den walt begunde swenden.</l>
+<l n="*D 79.23">diz was gelîche ir beider ger.</l>
+<l n="*D 79.24">sperâ, hêrre, sperâ sper!</l>
+<l n="*D 79.25">doch muose êt dulden <name type="Person">L&#x00E6;helin</name></l>
+<l n="*D 79.26">einen sm&#x00E6;hlîchen pîn.</l>
+<l n="*D 79.27">in stach der künec von <name type="Ort">Zazamanc</name></l>
+<l n="*D 79.28">hinderz ors wol spers lanc,</l>
+<l n="*D 79.29">daz in ein rôr geschift was.</l>
+<l n="*D 79.30">sîne sicherheit er an sich las.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="79.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="79.03"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="79.07"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="79.08"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="79.13"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit> <wit>V</wit>
+</rdg></app><app loc="79.13"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="79.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="79.20"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="79.21"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="79.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="79.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="79.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="79.05">
+<lem>ûz</lem> <rdg>von <wit>*m</wit></rdg>
+</app>
+<app loc="79.14">
+<rdg>"sullen wir sus entêret sîn <wit>*m</wit></rdg>
+</app>
+<app loc="79.15">
+<rdg>von dem, der anker treit? <wit>*m</wit></rdg>
+</app>
+<app loc="79.19">
+<rdg>grôz (Jr <wit>L</wit> [<wit>T</wit>]) hurten gap in rûmes vil. <wit>*G</wit> (<wit>T</wit>) <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="79.19">
+<rdg>ir hurte gâben in roumes vil. <wit>*T</wit></rdg>
+</app>
+<app loc="79.21">
+<lem>worhten</lem> <rdg>vohten <wit>*m</wit></rdg>
+</app>
+<app loc="79.24">
+<rdg>sperâ, hêrre, sperâ, hêr! <wit>*m</wit></rdg>
+</app>
+<app loc="79.26">
+<lem>sm&#x00E6;hlîchen</lem> <rdg>schamelîchen <wit>*m</wit></rdg>
+</app>
+<app loc="79.28">
+<lem>spers</lem> <rdg>spere <wit>*m</wit></rdg>
+</app>
+<app loc="79.29">
+<rdg>daz in den rôr geschift was (<subst><del>wart</del><add>was</add></subst> <wit>I</wit>). <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="79.29">
+<rdg>daz in dem (<subst><del>*</del><add>ein</add></subst> <wit>V</wit> den <wit>T</wit>) rôr schafte (gescheftet <wit>V</wit> <subst><del>*</del><add>gesceftet</add></subst> <wit>T</wit>) wa.s <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="79.01">
+<rdg>mit dem rôr <wit>*T</wit> <note>(nur U)</note> (<wit>O</wit> <wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="79.02">
+<rdg></rdg>
+</app>
+<app loc="79.03">
+<rdg></rdg>
+</app>
+<app loc="79.04">
+<rdg></rdg>
+</app>
+<app loc="79.05">
+<rdg>er brâhtez von der h. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="79.06">
+<rdg></rdg>
+</app>
+<app loc="79.07">
+<rdg>iedoch v. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="79.08">
+<rdg></rdg>
+</app>
+<app loc="79.09">
+<rdg>v. rîtende (rîten [<note>om.</note> <wit>T</wit>] <wit>*T</wit> [<wit>I</wit> <wit>L</wit>]) über (vber daz <wit>O</wit> vber ienez <wit>T</wit>) v. <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="79.10">
+<rdg>st. gelt <wit>*G</wit></rdg>
+</app>
+<app loc="79.11">
+<rdg>ez moht wol (<note>om.</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit>) sîn ein turnei. <wit>*G</wit> und m. sîn ein t., <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="79.12">
+<rdg>wan <note>om.</note> <wit>*G</wit> <note>(nur GI)</note> · lac vil spere <wit>*T</wit> <note>(ohne T)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="79.13">
+<rdg></rdg>
+</app>
+<app loc="79.14">
+<rdg>wir alsus e. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="79.15">
+<rdg></rdg>
+</app>
+<app loc="79.16">
+<rdg>den a. (ander <wit>T</wit>) l., <wit>*T</wit></rdg>
+</app>
+<app loc="79.17">
+<rdg>n. h. der u. liget. <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="79.18">
+<rdg>si h. uns zuo vil (vns vaste <wit>T</wit>) an gesiget." <wit>*T</wit></rdg>
+</app>
+<app loc="79.19">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="79.20">
+<rdg>ûzer der k. (vzer kindes <wit>Z</wit> vz ir kindes <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="79.21">
+<rdg></rdg>
+</app>
+<app loc="79.22">
+<rdg></rdg>
+</app>
+<app loc="79.23">
+<rdg>daz was <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="79.24">
+<rdg></rdg>
+</app>
+<app loc="79.25">
+<rdg>dô m. (mu&#x0364;ste <wit>V</wit> [<wit>T</wit>]) d. Lehelin <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="79.26">
+<rdg>e. schemelîchen pîn. <wit>*G</wit> <note>(ohne I)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="79.27">
+<rdg></rdg>
+</app>
+<app loc="79.28">
+<rdg>wol eines sp. <wit>*T</wit></rdg>
+</app>
+<app loc="79.29">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="79.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

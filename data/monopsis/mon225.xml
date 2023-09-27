@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 225</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 225.01"><seg type="Initiale">W</seg>elt ir nû h&#x0153;ren, wie ez im gestê?</l>
+<l n="*D 225.02">er kom des âbents an einen sê.</l>
+<l n="*D 225.03">dâ heten geankert weideman,</l>
+<l n="*D 225.04">den was daz wazzer undertân.</l>
+<l n="*D 225.05">dô si in rîten sâhen,</l>
+<l n="*D 225.06">si wâren dem stade sô nâhen,</l>
+<l n="*D 225.07">daz si wol hôrten, swaz er sprach.</l>
+<l n="*D 225.08">einen er ime schiffe sach,</l>
+<l n="*D 225.09">der hete an im alsolch gewant,</l>
+<l n="*D 225.10">ob im dienden elliu lant,</l>
+<l n="*D 225.11">daz ez niht bezzer m<corr type="Emendation">ö</corr>hte sîn;</l>
+<l n="*D 225.12">gefurriert sîn huot was pfâwîn.</l>
+<l n="*D 225.13">den selben <corr type="Emendation">v</corr>isch&#x00E6;re</l>
+<l n="*D 225.14">begunder vrâgen m&#x00E6;re,</l>
+<l n="*D 225.15">daz er im riete durch got</l>
+<l n="*D 225.16">unt durch sîner zühte gebot,</l>
+<l n="*D 225.17">wâ er herberge m<corr type="Emendation">ö</corr>hte hân.</l>
+<l n="*D 225.18">sus antwurte im der trûrige man.</l>
+<l n="*D 225.19"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach: "hêrre, mir ist niht bekant,</l>
+<l n="*D 225.20">daz weder wazzer oder lant</l>
+<l n="*D 225.21">inre drîzec mîlen erbouwen sî,</l>
+<l n="*D 225.22">wan ein hûs lît uns hie bî.</l>
+<l n="*D 225.23">mit triwen ich iu râte dar.</l>
+<l n="*D 225.24">war m<corr type="Emendation">ö</corr>ht ir tâlanc anderswar?</l>
+<l n="*D 225.25"><seg type="Initiale" subtype="Majuskel">D</seg>ort an des velses ende,</l>
+<l n="*D 225.26">dâ kêrt zer zeswen hende.</l>
+<l n="*D 225.27">sô ir ûf hin komt an den grab<reg type="Synkope">e</reg>n,</l>
+<l n="*D 225.28">ich w&#x00E6;ne, dâ müezet ir stille hab<reg type="Synkope">e</reg>n.</l>
+<l n="*D 225.29">bittet iu die brücken nider lâzen</l>
+<l n="*D 225.30">unt offen iu die strâzen."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(225.13-15, 20-22 und 25-27)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>Fr23</wit> <note>(225.1-3)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="225.01"><rdg>
+<note>Überschrift:</note> Hie kvmet parzifal zem ersten male zv&#x0366;m grale do er von pelrepere schiet <wit>V</wit>
+</rdg></app><app loc="225.01"><rdg><note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="225.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="225.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="225.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="225.24"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="225.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="225.01">
+<lem>gestê</lem> <rdg>ergê (<subst><del>*</del><add>erge</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>Fr23</wit> <wit>V</wit>)</rdg>
+</app>
+<app loc="225.05">
+<rdg><note>Versfolge 225.6-5</note> <wit>*m</wit></rdg>
+</app>
+<app loc="225.05">
+<rdg>dô si in dâ rîten gesâhen, <wit>*m</wit></rdg>
+</app>
+<app loc="225.06">
+<lem>si</lem> <rdg>die <wit>*m</wit></rdg>
+</app>
+<app loc="225.08">
+<lem>sach</lem> <rdg>ersach <wit>*m</wit></rdg>
+</app>
+<app loc="225.11">
+<rdg>daz er niht bezzer dörfte sîn; <wit>*m</wit></rdg>
+</app>
+<app loc="225.11">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="225.12">
+<lem>was</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="225.13">
+<lem>visch&#x00E6;re</lem> <rdg>wisc&#x00E6;re <wit>D</wit></rdg>
+</app>
+<app loc="225.16">
+<lem>unt</lem> <rdg>und ouch <wit>*m</wit></rdg>
+</app>
+<app loc="225.17">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="225.18">
+<lem>sus</lem> <rdg>dô <wit>*m</wit></rdg>
+</app>
+<app loc="225.19">
+<lem>bekant</lem> <rdg>erkant <wit>*m</wit></rdg>
+</app>
+<app loc="225.20">
+<lem>oder</lem> <rdg>noch <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+<app loc="225.21">
+<lem>inre</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="225.22">
+<rdg>wanne ein hûs, daz lît (ist <wit>Fr69</wit>) hie bî. <wit>*m</wit></rdg>
+</app>
+<app loc="225.22">
+<rdg>wan (Niwen <wit>I</wit> [<wit>O</wit> <wit>Fr21</wit>]) ein burc, diu (hus daz <wit>I</wit> [<wit>Z</wit> <wit>Fr21</wit>] hvs <wit>O</wit>) lît (<note>om.</note> <wit>L</wit> stêt <wit>*T</wit>) hie bî (hie nahe bý <wit>L</wit> [<wit>Fr21</wit>]). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="225.24">
+<lem>möht</lem> <rdg>moht <wit>D</wit></rdg>
+</app>
+<app loc="225.29">
+<lem>bittet</lem> <rdg>heizet <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="225.01">
+<rdg></rdg>
+</app>
+<app loc="225.02">
+<rdg></rdg>
+</app>
+<app loc="225.03">
+<rdg></rdg>
+</app>
+<app loc="225.04">
+<rdg></rdg>
+</app>
+<app loc="225.05">
+<rdg></rdg>
+</app>
+<app loc="225.06">
+<rdg></rdg>
+</app>
+<app loc="225.07">
+<rdg></rdg>
+</app>
+<app loc="225.08">
+<rdg></rdg>
+</app>
+<app loc="225.09">
+<rdg>im solch (alsolhe <wit>Z</wit>) g. (gevant <wit>Fr21</wit>), <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="225.10">
+<rdg></rdg>
+</app>
+<app loc="225.11">
+<rdg></rdg>
+</app>
+<app loc="225.12">
+<rdg></rdg>
+</app>
+<app loc="225.13">
+<rdg></rdg>
+</app>
+<app loc="225.14">
+<rdg></rdg>
+</app>
+<app loc="225.15">
+<rdg></rdg>
+</app>
+<app loc="225.16">
+<rdg>unde ouch d. <wit>*G</wit></rdg>
+</app>
+<app loc="225.17">
+<rdg>er die h. <wit>*G</wit> <note>(nur GL)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="225.18">
+<rdg>des (Daz <wit>L</wit>) a. <wit>*G</wit></rdg>
+</app>
+<app loc="225.19">
+<rdg>Er sp. <note>om.</note> <wit>*T</wit> <wit>L</wit> · "h. (<note>om.</note> <wit>Z</wit>), mirst unerkant (vmbe chant <wit>O</wit> [<wit>Z</wit> <wit>Fr21</wit>]), <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="225.20">
+<rdg>wazzer noch l. <wit>*G</wit></rdg>
+</app>
+<app loc="225.21">
+<rdg>in drîzic <wit>*G</wit> <note>(nur GIZ)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="225.22">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="225.23">
+<rdg></rdg>
+</app>
+<app loc="225.24">
+<rdg></rdg>
+</app>
+<app loc="225.25">
+<rdg>des veldes e., <wit>*G</wit> <note>(ohne IZ)</note> (<wit>Fr69</wit>) des v. wende, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="225.26">
+<rdg></rdg>
+</app>
+<app loc="225.27">
+<rdg>sô ir komet (komet ir <wit>U</wit> <subst><del>kv́ment</del><add>koment</add></subst> ir <wit>V</wit>) hin ûf den gr., <wit>*T</wit></rdg>
+</app>
+<app loc="225.28">
+<rdg></rdg>
+</app>
+<app loc="225.29">
+<rdg>bit (Biz <wit>Z</wit>) die brücke iu n. l. <wit>*G</wit> <note>(nur GOZ)</note> (<wit>U</wit>)</rdg>
+</app>
+<app loc="225.30">
+<rdg>unde iu offenen (offenen <subst><del>*</del><add>v́ch</add></subst> <wit>V</wit>) die st." <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

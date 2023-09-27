@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 434</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>15.11.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 434.01"><seg type="Initiale">B</seg>eidiu iwer hêrre unt ouch der mîn.</l>
+<l n="*D 434.02">nû erliuhtet mir die vuore sîn.</l>
+<l n="*D 434.03">der süezen <name type="Person">Herzeloyden</name> barn,</l>
+<l n="*D 434.04">wie hât <name type="Person">Gahmuretes</name> sun gevarn,</l>
+<l n="*D 434.05">sît er von <name type="Person">Artuse</name> reit?</l>
+<l n="*D 434.06">ob er liep oder herzeleit</l>
+<l n="*D 434.07">sît habe bezalt an strîte?</l>
+<l n="*D 434.08"><seg type="singuläre_Lesart">habt</seg> er sich an die wîte</l>
+<l n="*D 434.09">oder hât er sider sich verleg<reg type="Synkope">e</reg>n?</l>
+<l n="*D 434.10">sagt mir sîne site unt al sîn pfleg<reg type="Synkope">e</reg>n."</l>
+<l n="*D 434.11"><seg type="Initiale" subtype="Majuskel">N</seg>û tuot uns diu âventiure bekant,</l>
+<l n="*D 434.12">er habe <seg type="singuläre_Lesart">erstrichen</seg> manec lant</l>
+<l n="*D 434.13">zorse <seg type="singuläre_Lesart">unt in schiffen</seg> ûf de<corr type="Emendation">m</corr> wâc.</l>
+<l n="*D 434.14"><seg type="singuläre_Lesart">ez</seg> w&#x00E6;re lantman oder mâc,</l>
+<l n="*D 434.15">der tjoste poind<reg type="Synkope">e</reg>r gein im maz,</l>
+<l n="*D 434.16">daz der dekeiner nie gesaz.</l>
+<l n="*D 434.17">sus kan sîn wâge seigen,</l>
+<l n="*D 434.18">sîn selbes prîs ûf steigen</l>
+<l n="*D 434.19">unt die andern lêren sîgen.</l>
+<l n="*D 434.20">in man<reg type="Synkope">e</reg>gen herten wîgen</l>
+<l n="*D 434.21">hât er sich schumpfentiure erwert,</l>
+<l n="*D 434.22">den lîp gein strîte alsô gezert,</l>
+<l n="*D 434.23">swer prîs zim wolte borgen,</l>
+<l n="*D 434.24">der muos ez tuon mit sorgen.</l>
+<l n="*D 434.25">sîn swert, daz im <name type="Person">Anfortas</name></l>
+<l n="*D 434.26">gap, dô er bîme <name type="Sonstiges">Grâle</name> was,</l>
+<l n="*D 434.27">brast, sît dô er bestanden wart.</l>
+<l n="*D 434.28">dô machet ez ganz des brunnen art</l>
+<l n="*D 434.29">bî <name type="Ort">Karnant</name>, der dâ heizet <name type="Ort">Lac</name>.</l>
+<l n="*D 434.30">daz swert gehalf im prîs<reg type="Synkope">e</reg>s bejac.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="434.01"><rdg>
+<note>Überschrift:</note> Hie ist die auentevr wider an parcifaln komen wie der gelebt habe die wile hat gestriten her gawan zv tschanfanzvn <wit>Z</wit>
+</rdg></app><app loc="434.01"><rdg><note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>V</wit>
+</rdg></app>
+<app loc="434.11"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="434.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="434.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="434.17"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="434.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="434.02">
+<lem>nû</lem> <rdg><subst><del>ny</del><add>nv</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="434.08">
+<lem>die</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="434.13">
+<lem>in schiffen</lem> <rdg>ze schiffe <wit>*m</wit></rdg>
+</app>
+<app loc="434.13">
+<lem>dem</lem> <rdg>den <wit>D</wit></rdg>
+</app>
+<app loc="434.14">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="434.30">
+<lem>gehalf</lem> <rdg>half <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="434.01">
+<rdg>ouch <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit></rdg>
+</app>
+<app loc="434.02">
+<rdg>erliuht (nu betutet <wit>I</wit>) <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="434.03">
+<rdg></rdg>
+</app>
+<app loc="434.04">
+<rdg></rdg>
+</app>
+<app loc="434.05">
+<rdg></rdg>
+</app>
+<app loc="434.06">
+<rdg>hât er l. oder leit (herzeleit <wit>V</wit>) <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="434.07">
+<rdg>habe <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="434.08">
+<rdg></rdg>
+</app>
+<app loc="434.09">
+<rdg>sich sider (sît <wit>I</wit>) <wit>*T</wit> <note>(ohne V)</note> (<wit>I</wit>) <wit>L</wit></rdg>
+</app>
+<app loc="434.10">
+<rdg></rdg>
+</app>
+<app loc="434.11">
+<rdg></rdg>
+</app>
+<app loc="434.12">
+<rdg>er h. durchstrichen m. l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="434.13">
+<rdg>ûf (Ze <wit>V</wit> [<wit>L</wit>]) orsen unde in den (<note>om.</note> <wit>U</wit> <wit>V</wit> <wit>L</wit>) sch. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="434.14">
+<rdg></rdg>
+</app>
+<app loc="434.15">
+<rdg></rdg>
+</app>
+<app loc="434.16">
+<rdg>daz der deheiner vor im g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="434.17">
+<rdg></rdg>
+</app>
+<app loc="434.18">
+<rdg></rdg>
+</app>
+<app loc="434.19">
+<rdg></rdg>
+</app>
+<app loc="434.20">
+<rdg></rdg>
+</app>
+<app loc="434.21">
+<rdg></rdg>
+</app>
+<app loc="434.22">
+<rdg>den lîp gegen prîse (strit <wit>I</wit>) a. verzert (gezert <wit>V</wit>), <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="434.23">
+<rdg></rdg>
+</app>
+<app loc="434.24">
+<rdg></rdg>
+</app>
+<app loc="434.25">
+<rdg></rdg>
+</app>
+<app loc="434.26">
+<rdg></rdg>
+</app>
+<app loc="434.27">
+<rdg></rdg>
+</app>
+<app loc="434.28">
+<rdg></rdg>
+</app>
+<app loc="434.29">
+<rdg>dâ <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="434.30">
+<rdg>sw. half im <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

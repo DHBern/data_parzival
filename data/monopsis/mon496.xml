@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 496</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>28.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 496.01"><seg type="Initiale">S</seg>us pflac ich<seg type="singuläre_Lesart">s</seg> durch die werden</l>
+<l n="*D 496.02">ûf den drîn teil<reg type="Synkope">e</reg>n der erden,</l>
+<l n="*D 496.03">ze <name type="Ort">Europa</name> unt in <name type="Ort">Asia</name></l>
+<l n="*D 496.04">unt verre in <name type="Ort">Affrica</name>.</l>
+<l n="*D 496.05">sô ich rîche tjoste wolde tuon,</l>
+<l n="*D 496.06">sô reit ich vür <name type="Ort">Gauriuon</name>.</l>
+<l n="*D 496.07">ich hân ouch manege tjost getân</l>
+<l n="*D 496.08">vor dem berc ze <name type="Ort">Famorgan</name>.</l>
+<l n="*D 496.09">ich tet vil rîcher tjoste schîn</l>
+<l n="*D 496.10">vor dem berc ze <name type="Ort">Agremontin</name>.</l>
+<l n="*D 496.11">swer einhalp wil ir tjoste hân,</l>
+<l n="*D 496.12">dâ komen<corr type="Emendation">t</corr> ûz viurige man;</l>
+<l n="*D 496.13">anderhalp si brinnent niht,</l>
+<l n="*D 496.14">swaz man <seg type="singuläre_Lesart">dâ</seg> tjostiure siht,</l>
+<l n="*D 496.15">unt dô ich vür den <name type="Ort">Rohas</name></l>
+<l n="*D 496.16">durch âventiure gestrichen was,</l>
+<l n="*D 496.17">dâ kom ein werdiu windisch diet</l>
+<l n="*D 496.18">ûz durch tjoste geinbiet.</l>
+<l n="*D 496.19">ich vuor von <name type="Ort">Sibilje</name></l>
+<l n="*D 496.20">daz mer alumbe gein <name type="Ort">Zilje</name>,</l>
+<l n="*D 496.21">durch <name type="Ort">Friul</name> ûz <seg type="singuläre_Lesart">vür</seg> <name type="Ort">Aglei</name>.</l>
+<l n="*D 496.22">owê unde heiâ hei,</l>
+<l n="*D 496.23">daz ich dînen vater ie gesach,</l>
+<l n="*D 496.24">der mir ze sehen al dâ geschach,</l>
+<l n="*D 496.25">dô ich ze <name type="Ort">Sibilje</name> zogte în!</l>
+<l n="*D 496.26">dô het der werde <name type="Person">Anschevin</name></l>
+<l n="*D 496.27">vor mir geherberget ê.</l>
+<l n="*D 496.28">sîn vart tuot mir iemer wê,</l>
+<l n="*D 496.29"><seg type="singuläre_Lesart">die er</seg> vuor ze <name type="Ort">Baldac</name>;</l>
+<l n="*D 496.30">ze tjostieren er dâ tôt lac.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(mit 496.4¹-4², ohne 496.5)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <note>(ohne 496.7-8)</note> <wit>V</wit> <note>(mit 496.4¹-4²)</note> <wit>O</wit> <note>(ohne 496.7-8)</note>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="496.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app><app loc="496.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="496.15"><rdg>
+ <note>Initiale</note> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+<app loc="496.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="496.01">
+<lem>ichs</lem> <rdg>ich <wit>*m</wit> <wit>L</wit></rdg>
+</app>
+<app loc="496.03">
+<lem>Europa</lem> <rdg>Erupie <wit>*m</wit></rdg>
+</app>
+<app loc="496.04">
+<rdg>und &#x2020;wer&#x2020; hin in Affrica <wit>*m</wit></rdg>
+</app>
+<app loc="496.04">
+<rdg><note>nach 496.4:</note> ritterschaft zuo tuon / sunder vröude und âne suon. <wit>*m</wit></rdg>
+</app>
+<app loc="496.04">
+<rdg><note>Die Verse 496.4¹-4² sind am Rand nachgetragen und später radiert:</note> R:schaft : tvne / svnder vride vnde ane svne <wit>V</wit></rdg>
+</app>
+<app loc="496.07">
+<rdg><note>Die Verse 496.7-8 sind am Rand nachgetragen und später radiert:</note> ::: han o&#x036E;ch manige :st getan / von dem berge famorgan <wit>V</wit></rdg>
+</app>
+<app loc="496.08">
+<lem>ze</lem> <rdg><note>om.</note> <wit>*m</wit> <wit>I</wit> <wit>L</wit></rdg>
+</app>
+<app loc="496.10">
+<lem>vor</lem> <rdg>zuo <wit>*m</wit></rdg>
+</app>
+<app loc="496.12">
+<lem>dâ koment</lem> <rdg>do chomen <wit>D</wit></rdg>
+</app>
+<app loc="496.18">
+<rdg>ûz durch juste gegenbiet, <wit>*m</wit></rdg>
+</app>
+<app loc="496.19">
+<lem>ich</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="496.21">
+<rdg>durch Vriul ûz durch (vnd Gein <wit>I</wit> vnz gein <wit>L</wit>) Aglei. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="496.21">
+<rdg>durch Fryuz vür (<subst><del>*</del><add>vz fv́r</add></subst> <wit>V</wit>) Aglei. <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="496.30">
+<rdg>zuo justieren er tôt dâ lac. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="496.01">
+<rdg></rdg>
+</app>
+<app loc="496.02">
+<rdg></rdg>
+</app>
+<app loc="496.03">
+<rdg>ze Aropie unde in A. <wit>*G</wit> · ze Arabie unde in Asya <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="496.04">
+<rdg></rdg>
+</app>
+<app loc="496.05">
+<rdg></rdg>
+</app>
+<app loc="496.06">
+<rdg>vür Gaurian. <wit>*G</wit> vür die (den <wit>V</wit> <note>om.</note> <wit>O</wit>) Covriuon (<subst><del>*</del><add>ganrivn</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="496.07">
+<rdg><note>Die Verse 496.7-8 fehlen</note> &#x2193;<wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="496.08">
+<rdg></rdg>
+</app>
+<app loc="496.09">
+<rdg>rîche <wit>*T</wit> <note>(ohne O)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="496.10">
+<rdg></rdg>
+</app>
+<app loc="496.11">
+<rdg></rdg>
+</app>
+<app loc="496.12">
+<rdg>ûz viurîne man; <wit>*T</wit></rdg>
+</app>
+<app loc="496.13">
+<rdg></rdg>
+</app>
+<app loc="496.14">
+<rdg>sw. man tj. s. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="496.15">
+<rdg>unde ich <wit>*G</wit> <note>(nur GI)</note> Dô ich <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="496.16">
+<rdg></rdg>
+</app>
+<app loc="496.17">
+<rdg></rdg>
+</app>
+<app loc="496.18">
+<rdg></rdg>
+</app>
+<app loc="496.19">
+<rdg></rdg>
+</app>
+<app loc="496.20">
+<rdg>daz mer umbe gegen Cecilie (cilîe <wit>O</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="496.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="496.22">
+<rdg></rdg>
+</app>
+<app loc="496.23">
+<rdg></rdg>
+</app>
+<app loc="496.24">
+<rdg></rdg>
+</app>
+<app loc="496.25">
+<rdg></rdg>
+</app>
+<app loc="496.26">
+<rdg></rdg>
+</app>
+<app loc="496.27">
+<rdg></rdg>
+</app>
+<app loc="496.28">
+<rdg></rdg>
+</app>
+<app loc="496.29">
+<rdg></rdg>
+</app>
+<app loc="496.30">
+<rdg>er tôt (do tot <wit>V</wit> [<wit>L</wit>] da <wit>Z</wit>) gelac (lach <wit>O</wit>). <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

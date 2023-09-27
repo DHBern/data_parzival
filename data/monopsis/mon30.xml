@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 30</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 30.01">ob er wolde baneken rîten,</l>
+<l n="*D 30.02">"unt schouwet, wâ wir strîten,</l>
+<l n="*D 30.03">wie unser port<reg type="Synkope">e</reg>n sîn behuot."</l>
+<l n="*D 30.04"><name type="Person">Gahmuret</name>, der degen guot,</l>
+<l n="*D 30.05">sprach, er wolde gerne sehen,</l>
+<l n="*D 30.06">wâ rîterschaft dâ w&#x00E6;re geschehen.</l>
+<l n="*D 30.07"><seg type="Initiale" subtype="Majuskel">H</seg>er ab mit dem helde reit</l>
+<l n="*D 30.08">manec rîter vil gemeit,</l>
+<l n="*D 30.09">hie der wîse, dort der tumbe.</l>
+<l n="*D 30.10">si vuorten in al umbe</l>
+<l n="*D 30.11">vür sehzehen porten.</l>
+<l n="*D 30.12">si beschieden im mit worten,</l>
+<l n="*D 30.13">daz der decheiniu w&#x00E6;re bespart,</l>
+<l n="*D 30.14">sît würde gerochen <name type="Person">Isenhart</name>,</l>
+<l n="*D 30.15">"an uns mit zorne naht noch tac.</l>
+<l n="*D 30.16">unser strît vil nâch gelîche wac.</l>
+<l n="*D 30.17">man beslôz ir decheine sît.</l>
+<l n="*D 30.18">uns gît vor ähte porten strît</l>
+<l n="*D 30.19">des getriwen <name type="Person">Isenhartes</name> man.</l>
+<l n="*D 30.20">die habent uns schaden vil getân.</l>
+<l n="*D 30.21">si ringent mit zorne,</l>
+<l n="*D 30.22">die vürsten wol geborne,</l>
+<l n="*D 30.23">des küneges man von <name type="Ort">Azagouc</name>.</l>
+<l n="*D 30.24">von ieslîcher porte vlouc</l>
+<l n="*D 30.25">ob küener schar ein liehter van,</l>
+<l n="*D 30.26">ein durchstochen rîter dran,</l>
+<l n="*D 30.27">als <name type="Person">Isenhart</name> den lîp verlôs.</l>
+<l n="*D 30.28">sîn volc diu wâpen dâ nâch kôs.</l>
+<l n="*D 30.29"><seg type="Initiale">D</seg>â gein hân wir einen site,</l>
+<l n="*D 30.30">dâ stille wir ir jâmer mite.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 30.21-22)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(30.5-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="30.07"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="30.07"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="30.20"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="30.29"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app><app loc="30.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="30.01">
+<lem>ob er wolde</lem> <rdg>hêrre welt ir <wit>*m</wit></rdg>
+</app>
+<app loc="30.02">
+<lem>schouwet</lem> <rdg>schouwen <wit>*m</wit></rdg>
+</app>
+<app loc="30.03">
+<lem>sîn</lem> <rdg>sint <wit>*m</wit></rdg>
+</app>
+<app loc="30.12">
+<lem>im</lem> <rdg>in <wit>*m</wit> <wit>Z</wit> <wit>U</wit></rdg>
+</app>
+<app loc="30.13">
+<lem>bespart</lem> <rdg>gespart <wit>*m</wit></rdg>
+</app>
+<app loc="30.15">
+<rdg>mit zorne an uns (An vns mit zorn <wit>O</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr29</wit>]) naht und tac. <wit>*G</wit></rdg>
+</app>
+<app loc="30.15">
+<rdg>an uns mit vlîze (<subst><del>*</del><add>zorne</add></subst> <wit>V</wit>) naht und tac. <wit>*T</wit></rdg>
+</app>
+<app loc="30.15">
+<lem>noch</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="30.18">
+<lem>gît</lem> <rdg>gâben <wit>*m</wit></rdg>
+</app>
+<app loc="30.21">
+<rdg>Sie ringent mit zorne <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr29</wit>)</rdg>
+</app>
+<app loc="30.21">
+<lem>ringent</lem> <rdg>müejent <wit>*m</wit></rdg>
+</app>
+<app loc="30.22">
+<rdg>Die fvrsten wol geborne <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr29</wit>)</rdg>
+</app>
+<app loc="30.24">
+<lem>von</lem> <rdg>vor <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="30.01">
+<rdg>ob er wolte paneken (banichen wolde <wit>O</wit> [<wit>L</wit>]) r.: <wit>*G</wit></rdg>
+</app>
+<app loc="30.02">
+<rdg>unt <note>om.</note> <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.03">
+<rdg></rdg>
+</app>
+<app loc="30.04">
+<rdg>G., der helt g., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="30.05">
+<rdg></rdg>
+</app>
+<app loc="30.06">
+<rdg></rdg>
+</app>
+<app loc="30.07">
+<rdg>Her (Er <wit>U</wit>) ûz dô mit dem h. r. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="30.08">
+<rdg>vil <note>om.</note> <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.09">
+<rdg></rdg>
+</app>
+<app loc="30.10">
+<rdg></rdg>
+</app>
+<app loc="30.11">
+<rdg>vür s. borten <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="30.12">
+<rdg>unde b. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="30.13">
+<rdg>w. verspart, <wit>*G</wit> <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="30.14">
+<rdg>"sît wart (<subst><del>*</del><add>wurde</add></subst> <wit>V</wit>) g. Ysenhart <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="30.15">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="30.16">
+<rdg>n. ringe wac. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="30.17">
+<rdg>man verlôs ir <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.18">
+<rdg></rdg>
+</app>
+<app loc="30.19">
+<rdg>des küenen Ysenhartes man, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.20">
+<rdg>Die uns den sch. hânt g., <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="30.21">
+<rdg><note>Die Verse 30.21-22 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.22">
+<rdg></rdg>
+</app>
+<app loc="30.23">
+<rdg>man <note>om.</note> <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.24">
+<rdg>obe iegeslîcher p. vl. <wit>*G</wit> <note>(nur G)</note> · vor ie. porten vl. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit>)</rdg>
+</app>
+<app loc="30.25">
+<rdg></rdg>
+</app>
+<app loc="30.26">
+<rdg>r. dr. <wit>*G</wit></rdg>
+</app>
+<app loc="30.27">
+<rdg>als Ysenhart, der den lîp v. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="30.28">
+<rdg></rdg>
+</app>
+<app loc="30.29">
+<rdg></rdg>
+</app>
+<app loc="30.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

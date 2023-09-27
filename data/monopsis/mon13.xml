@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 13</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>13.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 13.01">sîniu werc, dâ er vremde w&#x00E6;re.</l>
+<l n="*D 13.02">sô geloupte manz m&#x00E6;re.</l>
+<l n="*D 13.03"><name type="Person"><seg type="Initiale"><corr type="Emendation">G</corr></seg>ahmuret</name> der site pflac,</l>
+<l n="*D 13.04">den rehtiu mâze widerwac,</l>
+<l n="*D 13.05">und ander schanze enkeine.</l>
+<l n="*D 13.06">sîn rüemen, daz was kleine.</l>
+<l n="*D 13.07">grôze êre er lîdenlîche leit.</l>
+<l n="*D 13.08">der lôse wille in gar vermeit.</l>
+<l n="*D 13.09">doch wânde der gevüege,</l>
+<l n="*D 13.10">daz nieman krône trüege,</l>
+<l n="*D 13.11">künec, keiser, keiserîn,</l>
+<l n="*D 13.12">des messenîe er wolde sîn,</l>
+<l n="*D 13.13">niwan eines, der die h&#x0153;hsten hant</l>
+<l n="*D 13.14">trüege ûf erde über elliu lant.</l>
+<l n="*D 13.15">der wille in sînem herzen lac.</l>
+<l n="*D 13.16">im wart gesagt, ze <name type="Ort">Baldac</name></l>
+<l n="*D 13.17">w&#x00E6;re ein sô gewaltic man,</l>
+<l n="*D 13.18">daz im der erde undertân</l>
+<l n="*D 13.19">diu zwei teil w&#x00E6;ren oder mêr.</l>
+<l n="*D 13.20">sîn nam<corr type="Emendation">e</corr> <name type="Person">heidensch</name> was sô hêr,</l>
+<l n="*D 13.21">daz man in hiez 'der bâruc'.</l>
+<l n="*D 13.22">er hete an krefte al solhen zuc,</l>
+<l n="*D 13.23">vil künege wâren sîne man,</l>
+<l n="*D 13.24">mit krôntem lîbe undertân.</l>
+<l n="*D 13.25">daz bâruc ambet hiute stêt.</l>
+<l n="*D 13.26">seht, wie man <name type="Person">kristen</name> ê begêt</l>
+<l n="*D 13.27">ze <name type="Ort">Rome</name>, als uns der touf vergiht.</l>
+<l n="*D 13.28">heidensch orden man dort siht.</l>
+<l n="*D 13.29">ze <name type="Ort">Baldac</name> nement si ir bâbestreht.</l>
+<l n="*D 13.30">daz dunket si âne krumben sleht.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(13.1-10 und 22-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="13.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="13.03"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr29</wit>
+</rdg></app>
+<app loc="13.09"><rdg>
+<note>Initiale</note> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="13.13"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="13.25"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="13.01">
+<lem>sîniu werc</lem> <rdg>sîne were <wit>*m</wit></rdg>
+</app>
+<app loc="13.02">
+<lem>manz</lem> <rdg>man der <wit>*m</wit></rdg>
+</app>
+<app loc="13.03">
+<lem>Gahmuret</lem> <rdg>&#x00F7;Ahmv&#x0366;ret <note>nachträglich korrigiert zu:</note> GAhmv&#x0366;ret <wit>D</wit></rdg>
+</app>
+<app loc="13.04">
+<lem>den rehtiu</lem> <rdg>diu rehter <wit>*m</wit></rdg>
+</app>
+<app loc="13.08">
+<lem>lôse</lem> <rdg>bôse <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="13.13">
+<rdg>Wan der (er <wit>O</wit> <wit>L</wit>) bînamen (Wan eines der <wit>Z</wit>) die h&#x0153;hesten hant <wit>*G</wit></rdg>
+</app>
+<app loc="13.13">
+<rdg>wande benamen der (Wan der bieder man <wit>U</wit> <subst><del>Wand*</del><add>Wande eines der</add></subst> <wit>V</wit>) die h&#x0153;hesten hant <wit>*T</wit></rdg>
+</app>
+<app loc="13.13">
+<lem>niwan</lem> <rdg>wenne <wit>*m</wit></rdg>
+</app>
+<app loc="13.14">
+<lem>elliu</lem> <rdg>allez <wit>*m</wit></rdg>
+</app>
+<app loc="13.19">
+<lem>diu zwei teil</lem> <rdg>daz zweiteil <wit>*m</wit></rdg>
+</app>
+<app loc="13.20">
+<lem>name</lem> <rdg>namen <wit>D</wit></rdg>
+</app>
+<app loc="13.21">
+<lem>der</lem> <rdg>den <wit>*m</wit></rdg>
+</app>
+<app loc="13.22">
+<lem>krefte al</lem> <rdg>kreften <wit>*m</wit></rdg>
+</app>
+<app loc="13.25">
+<lem>hielt stêt</lem> <rdg>hielt st&#x00E6;t <wit>*m</wit></rdg>
+</app>
+<app loc="13.30">
+<lem>krumben</lem> <rdg>krumbe <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="13.01">
+<rdg></rdg>
+</app>
+<app loc="13.02">
+<rdg>man der m. <wit>*T</wit></rdg>
+</app>
+<app loc="13.03">
+<rdg></rdg>
+</app>
+<app loc="13.04">
+<rdg>ein rehte m. w. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="13.05">
+<rdg></rdg>
+</app>
+<app loc="13.06">
+<rdg></rdg>
+</app>
+<app loc="13.07">
+<rdg><note>Versfolge 13.8-7</note> <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="13.08">
+<rdg></rdg>
+</app>
+<app loc="13.09">
+<rdg></rdg>
+</app>
+<app loc="13.10">
+<rdg>daz iemen (kein <wit>Z</wit>) kr. tr., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="13.11">
+<rdg>künege, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="13.12">
+<rdg>der m. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="13.13">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="13.14">
+<rdg>truoc (<subst><del>tr*</del><add>trv&#x0364;g</add></subst> <wit>V</wit>) <wit>*T</wit> (<wit>O</wit>)</rdg>
+</app>
+<app loc="13.15">
+<rdg></rdg>
+</app>
+<app loc="13.16">
+<rdg>im was gesaget, <wit>*T</wit></rdg>
+</app>
+<app loc="13.17">
+<rdg></rdg>
+</app>
+<app loc="13.18">
+<rdg></rdg>
+</app>
+<app loc="13.19">
+<rdg></rdg>
+</app>
+<app loc="13.20">
+<rdg></rdg>
+</app>
+<app loc="13.21">
+<rdg>h. den b. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="13.22">
+<rdg>kr. (chreften al <wit>O</wit> Crefften <wit>L</wit> [<wit>Z</wit>]) s. zuc, <wit>*G</wit> kr. (creften <wit>U</wit> [<wit>V</wit>]) s. ruc (gezu&#x0366;c <wit>U</wit> zug <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="13.23">
+<rdg></rdg>
+</app>
+<app loc="13.24">
+<rdg>mit gekrôntem (gecrotem <wit>U</wit>) l. u. <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="13.25">
+<rdg></rdg>
+</app>
+<app loc="13.26">
+<rdg></rdg>
+</app>
+<app loc="13.27">
+<rdg></rdg>
+</app>
+<app loc="13.28">
+<rdg>d. siht <wit>*T</wit></rdg>
+</app>
+<app loc="13.29">
+<rdg>nemen ir (<subst><del>nement*</del><add>nementz ir</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="13.30">
+<rdg>ez d. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> · krumbe <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

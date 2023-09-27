@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 78</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 78.01">het er versûmet sîne tât.</l>
+<l n="*D 78.02">al hie was g<reg type="Synkope">e</reg>nuoger rât.</l>
+<l n="*D 78.03">si solden tjustieren,</l>
+<l n="*D 78.04">dort mit rotten punieren.</l>
+<l n="*D 78.05"><seg type="Initiale">S</seg>i geloub<corr type="Emendation">t</corr>en sich der sliche,</l>
+<l n="*D 78.06">die man heizet vriwendes stiche.</l>
+<l n="*D 78.07">heinlîch gevaterschaft</l>
+<l n="*D 78.08">wart dâ zervuort mit zornes kraft.</l>
+<l n="*D 78.09">dâ wirt diu krumbe selten sleht.</l>
+<l n="*D 78.10">man sprach dâ lützel rîters reht.</l>
+<l n="*D 78.11">swer iht gewan, der habt im daz.</l>
+<l n="*D 78.12">ern ruochte, hetes der and<reg type="Synkope">e</reg>r haz.</l>
+<l n="*D 78.13">si wâren von manegen landen,</l>
+<l n="*D 78.14">die dâ mit ir handen</l>
+<l n="*D 78.15">schildes amb<reg type="Synkope">e</reg>t worhten</l>
+<l n="*D 78.16">unt schaden lützel vorhten.</l>
+<l n="*D 78.17"><seg type="Initiale" subtype="Majuskel">A</seg>l dâ wart von <name type="Person">Gahmurete</name></l>
+<l n="*D 78.18">geleistet <name type="Person">Ampflisen</name> bete,</l>
+<l n="*D 78.19">daz er ir ritter w&#x00E6;re.</l>
+<l n="*D 78.20">ein brief sagt im daz m&#x00E6;re.</l>
+<l n="*D 78.21"><seg type="Initiale" subtype="Majuskel">Â</seg>voy, nû wart er lâzen an!</l>
+<l n="*D 78.22">ob minne unt ellen in des man?</l>
+<l n="*D 78.23">grôz<corr type="Emendation">iu</corr> liebe unt starkiu triwe</l>
+<l n="*D 78.24">sîne kraft im vrumt al niwe.</l>
+<l n="*D 78.25">nû sach er, wâ der künic <name type="Person">Lot</name></l>
+<l n="*D 78.26">sînen schilt gein der herten bôt.</l>
+<l n="*D 78.27">der was umb nâch gewant.</l>
+<l n="*D 78.28">daz werte <name type="Person">Gahmuretes</name> hant.</l>
+<l n="*D 78.29">mit hurte er den poind<reg type="Synkope">e</reg>r brach.</l>
+<l n="*D 78.30">den künec von <name type="Ort">Arragun</name> er stach</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <note>(mit 78.4¹-4²)</note> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="78.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="78.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit>
+</rdg></app>
+<app loc="78.09"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="78.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="78.17"><rdg>
+<note>Initiale</note> <wit>U</wit>
+</rdg></app><app loc="78.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="78.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="78.25"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>T</wit>
+</rdg></app>
+<app loc="78.30"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="78.01">
+<lem>versûmet</lem> <rdg>versuonet <wit>*m</wit></rdg>
+</app>
+<app loc="78.05">
+<lem>geloubten</lem> <rdg>gelo&#x036E;ben <wit>D</wit></rdg>
+</app>
+<app loc="78.08">
+<lem>zornes</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="78.09">
+<lem>wirt</lem> <rdg>wart <wit>*m</wit></rdg>
+</app>
+<app loc="78.10">
+<lem>lützel</lem> <rdg>wênic <wit>*m</wit></rdg>
+</app>
+<app loc="78.11">
+<lem>habt</lem> <rdg>hete <wit>*m</wit></rdg>
+</app>
+<app loc="78.16">
+<lem>lützel</lem> <rdg>wênic <wit>*m</wit></rdg>
+</app>
+<app loc="78.23">
+<lem>grôziu</lem> <rdg>groze <wit>D</wit></rdg>
+</app>
+<app loc="78.27">
+<rdg>der (er <wit>G</wit>) was vil nâch al umbe gewant (was vmbe nach gebant <wit>Z</wit>). <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="78.27">
+<rdg>der was al umb (was wider <wit>T</wit>) nâch gewant. <wit>*T</wit></rdg>
+</app>
+<app loc="78.29">
+<lem>hurte</lem> <rdg>herte <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="78.01">
+<rdg></rdg>
+</app>
+<app loc="78.02">
+<rdg>al dâ was <wit>*G</wit> <note>(nur GI)</note> · g. worden rât <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="78.03">
+<rdg>si (so <wit>T</wit>) wolten jostieren, <wit>*T</wit> (<wit>O</wit>) <wit>L</wit></rdg>
+</app>
+<app loc="78.04">
+<rdg>mit hurte (mit hurten <wit>I</wit> Dort mit rote <wit>O</wit> [<wit>L</wit>]) p. <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="78.05">
+<rdg></rdg>
+</app>
+<app loc="78.06">
+<rdg></rdg>
+</app>
+<app loc="78.07">
+<rdg></rdg>
+</app>
+<app loc="78.08">
+<rdg>wart (War <wit>O</wit> <subst><del>w*</del><add>wart do</add></subst> <wit>V</wit>) zervüeret <wit>*T</wit> <note>(nur U)</note> (<wit>O</wit>)</rdg>
+</app>
+<app loc="78.09">
+<rdg>dâ wart diu <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="78.10">
+<rdg>dâ wênic (selten <wit>I</wit>) r. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="78.11">
+<rdg>der het im <wit>*G</wit> <note>(ohne IO)</note> <wit>V</wit></rdg>
+</app>
+<app loc="78.12">
+<rdg></rdg>
+</app>
+<app loc="78.13">
+<rdg>si w. ûz verren l, <wit>*G</wit> <note>(nur GI)</note> · si w. ûz manegen l., <wit>*T</wit></rdg>
+</app>
+<app loc="78.14">
+<rdg></rdg>
+</app>
+<app loc="78.15">
+<rdg></rdg>
+</app>
+<app loc="78.16">
+<rdg>unde sch. wênic (wenig <subst><del>scha*</del><add>schaden</add></subst> <wit>V</wit>) v. <wit>*G</wit> <note>(ohne O)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="78.17">
+<rdg>dô w. ouch (avch da <wit>O</wit> [<wit>L</wit>] <wit>Z</wit> da <wit>T</wit>) von Gahmuret <wit>*G</wit> (<wit>T</wit>) · Nû w. ouch dâ von Gahmuret <wit>*T</wit></rdg>
+</app>
+<app loc="78.18">
+<rdg>g. vroun (vru&#x0366;nt <wit>U</wit>) Anflisen bet <wit>*T</wit></rdg>
+</app>
+<app loc="78.19">
+<rdg></rdg>
+</app>
+<app loc="78.20">
+<rdg></rdg>
+</app>
+<app loc="78.21">
+<rdg>dô w. er (<note>om.</note> <wit>U</wit> <wit>V</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="78.22">
+<rdg></rdg>
+</app>
+<app loc="78.23">
+<rdg></rdg>
+</app>
+<app loc="78.24">
+<rdg>vrumte s. kr. al niuwe (mahte im die creffte ni&#x036E;we <wit>T</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="78.25">
+<rdg></rdg>
+</app>
+<app loc="78.26">
+<rdg></rdg>
+</app>
+<app loc="78.27">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="78.28">
+<rdg></rdg>
+</app>
+<app loc="78.29">
+<rdg></rdg>
+</app>
+<app loc="78.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

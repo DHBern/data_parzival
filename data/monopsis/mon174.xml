@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 174</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 174.01">mit sporn gruozes pîne</l>
+<l n="*D 174.02">mit schenkelen vliegen schîne</l>
+<l n="*D 174.03">ûf den poind<reg type="Synkope">e</reg>r solde wenken</l>
+<l n="*D 174.04">unt den schaft ze rehte senken</l>
+<l n="*D 174.05">unt den schilt gein tjoste vür sich nemen.</l>
+<l n="*D 174.06">er sprach: "des lâzet iuch gezemen."</l>
+<l n="*D 174.07"><seg type="Initiale">U</seg>nvuoge er im sus werte</l>
+<l n="*D 174.08">baz denne ein swankel gerte,</l>
+<l n="*D 174.09">diu argen kinden brichet vel.</l>
+<l n="*D 174.10">dô hiez er kom<reg type="Synkope">e</reg>n ritt<reg type="Synkope">e</reg>r snel</l>
+<l n="*D 174.11">gein im durch tjustieren.</l>
+<l n="*D 174.12">er begunde in condwier<reg type="Synkope">e</reg>n</l>
+<l n="*D 174.13">einem ze gegen an den rinc.</l>
+<l n="*D 174.14">dô brâhte der jungelinc</l>
+<l n="*D 174.15">sîn êrsten tjost durch einen schilt,</l>
+<l n="*D 174.16">deis von in allen wart bevilt</l>
+<l n="*D 174.17">unt daz er hinder<corr type="Emendation">z</corr> ors verswanc</l>
+<l n="*D 174.18">einen starken rîter, niht ze kranc.</l>
+<l n="*D 174.19"><seg type="Initiale" subtype="Majuskel">E</seg>in tjostiure was kom<reg type="Synkope">e</reg>n.</l>
+<l n="*D 174.20">dô het ouch <name type="Person">Parzival</name> genom<reg type="Synkope">e</reg>n</l>
+<l n="*D 174.21">einen starken niwen schaft.</l>
+<l n="*D 174.22">sîn jugent het ellen unt kraft.</l>
+<l n="*D 174.23">der junge süeze âne bart,</l>
+<l n="*D 174.24">den twanc diu <name type="Person">Gahmuret<reg type="Synkope">e</reg>s</name> art</l>
+<l n="*D 174.25">unt angeborniu manheit.</l>
+<l n="*D 174.26">daz ors von rabbîne er reit</l>
+<l n="*D 174.27">mit volleclîcher hurte dar;</l>
+<l n="*D 174.28">er nam der vier nagele war.</l>
+<l n="*D 174.29">des wirt<reg type="Synkope">e</reg>s ritt<reg type="Synkope">e</reg>r niht gesaz,</l>
+<l n="*D 174.30">al vallende er den acker maz.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(174.21-28)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <note>(174.1-28)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="174.07"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>mk</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="174.10"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="174.11"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="174.18"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="174.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="174.20"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="174.22"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="174.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="174.29"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="174.02">
+<lem>schenkelen</lem> <rdg>schenkele <wit>*m</wit></rdg>
+</app>
+<app loc="174.03">
+<rdg>"in dem (<subst><del>J*</del><add>Vf den</add></subst> <wit>V</wit>) pondier sult ir (<subst><del>so&#x0364;l*</del><add>solte</add></subst> <wit>V</wit>) wenken <wit>*T</wit></rdg>
+</app>
+<app loc="174.03">
+<lem>den</lem> <rdg>dem <wit>*m</wit></rdg>
+</app>
+<app loc="174.05">
+<lem>unt den schilt gein tjoste</lem> <rdg>den (Der <wit>Fr21</wit>) schilt gein (gein der <wit>I</wit> er zer <wit>O</wit> zv <wit>Z</wit> zer <wit>Fr21</wit>) tjoste <wit>*G</wit> <note>(ohne LZ)</note> unde gegen der (Vnd den gein der <wit>U</wit> Vnd den <subst><del>*</del><add>schilt gegen</add></subst> <wit>V</wit>) tjost <wit>*T</wit></rdg>
+</app>
+<app loc="174.16">
+<lem>deis</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="174.17">
+<lem>hinderz</lem> <rdg>hinders <wit>D</wit></rdg>
+</app>
+<app loc="174.18">
+<lem>starken</lem> <rdg>stolzen <wit>*m</wit></rdg>
+</app>
+<app loc="174.19">
+<rdg>ein ander justiere was dô komen. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="174.01">
+<rdg></rdg>
+</app>
+<app loc="174.02">
+<rdg>nâch (<subst><del>*</del><add>Mit</add></subst> <wit>V</wit>) sch. (schenchelns <wit>O</wit> [<wit>Fr21</wit>]) vliegens (vliegen <wit>I</wit> [<wit>O</wit>] <wit>L</wit> <wit>Fr21</wit>) sch. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="174.03">
+<rdg>&#x2193;<wit>*T</wit> · ûz (Vf <wit>O</wit> <wit>L</wit> <wit>Z</wit>) dem ponder <wit>*G</wit> <note>(ohne Fr21)</note></rdg>
+</app>
+<app loc="174.04">
+<rdg></rdg>
+</app>
+<app loc="174.05">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="174.06">
+<rdg></rdg>
+</app>
+<app loc="174.07">
+<rdg></rdg>
+</app>
+<app loc="174.08">
+<rdg></rdg>
+</app>
+<app loc="174.09">
+<rdg></rdg>
+</app>
+<app loc="174.10">
+<rdg>Die (<subst><del>d*</del><add>do</add></subst> <wit>V</wit>) h. <wit>*T</wit></rdg>
+</app>
+<app loc="174.11">
+<rdg></rdg>
+</app>
+<app loc="174.12">
+<rdg></rdg>
+</app>
+<app loc="174.13">
+<rdg>einen (Einē <wit>L</wit>) <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit> <note>(ohne U)</note></rdg>
+</app>
+<app loc="174.14">
+<rdg>dô brach (<subst><del>bra*</del><add>brahte</add></subst> <wit>V</wit>) der j. <wit>*T</wit></rdg>
+</app>
+<app loc="174.15">
+<rdg>d. den (dem <wit>T</wit> <subst><del>*</del><add>einen</add></subst> <wit>V</wit>) sch., <wit>*T</wit></rdg>
+</app>
+<app loc="174.16">
+<rdg>dês (Der es <wit>Fr21</wit>) von <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="174.17">
+<rdg>ors swanc <wit>*T</wit></rdg>
+</app>
+<app loc="174.18">
+<rdg>Ein starker r., <wit>*T</wit></rdg>
+</app>
+<app loc="174.19">
+<rdg>ein (E in <wit>O</wit>) ander tj. (tiostiern <wit>I</wit> [<wit>L</wit>] tyostier <wit>O</wit>) was k. <wit>*G</wit> · zer andern tjost was k. <wit>*T</wit></rdg>
+</app>
+<app loc="174.20">
+<rdg>nû het <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="174.21">
+<rdg>e. st. îwînen sch. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="174.22">
+<rdg></rdg>
+</app>
+<app loc="174.23">
+<rdg></rdg>
+</app>
+<app loc="174.24">
+<rdg>des twang in (Den twanc <wit>Z</wit>) G. art <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="174.25">
+<rdg></rdg>
+</app>
+<app loc="174.26">
+<rdg></rdg>
+</app>
+<app loc="174.27">
+<rdg></rdg>
+</app>
+<app loc="174.28">
+<rdg></rdg>
+</app>
+<app loc="174.29">
+<rdg>n. vergaz (<subst><del>*z</del><add>gesas</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="174.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

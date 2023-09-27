@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 164</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 164.01">in eine kemenâten.</l>
+<l n="*D 164.02">si begunden im alle râten:</l>
+<l n="*D 164.03">"lât den harnasch von iu bringen</l>
+<l n="*D 164.04">unt iweren liden ringen."</l>
+<l n="*D 164.05"><seg type="Initiale">S</seg>chiere er muose entwâpent sîn.</l>
+<l n="*D 164.06">dô si diu rûhen ribbalîn</l>
+<l n="*D 164.07">unt diu tôren kleit gesâhen,</l>
+<l n="*D 164.08">dô erschrâken die sîn pflâgen.</l>
+<l n="*D 164.09">vil blûwec ez wart ze hove gesagt.</l>
+<l n="*D 164.10">der wirt vor schame was nâch verzagt.</l>
+<l n="*D 164.11"><seg type="Initiale" subtype="Majuskel">E</seg>in ritt<reg type="Synkope">e</reg>r sprach durch sîne zuht:</l>
+<l n="*D 164.12">"deiswâr, sô werdeclîche vruht</l>
+<l n="*D 164.13">erkôs nie mîner ougen sehe.</l>
+<l n="*D 164.14">an im lît der s&#x00E6;lden spehe</l>
+<l n="*D 164.15">mit reiner, süezen, hôhen art.</l>
+<l n="*D 164.16">wie ist der minnen blic alsus bewart?</l>
+<l n="*D 164.17">mich jâmert immer, daz ich vant</l>
+<l n="*D 164.18">an der werlde vröude alsölh gewant.</l>
+<l n="*D 164.19">wol doch der muot<reg type="Synkope">e</reg>r, diu in truoc,</l>
+<l n="*D 164.20">an dem des wunsches lît genuoc.</l>
+<l n="*D 164.21"><seg type="Initiale" subtype="Majuskel">S</seg>în zimierde ist rîche,</l>
+<l n="*D 164.22">daz harnasch stuont ritterlîche,</l>
+<l n="*D 164.23">ê ez k&#x0153;me von dem gehiuren.</l>
+<l n="*D 164.24">von einer quaschiuren</l>
+<l n="*D 164.25">bluotige amesiere</l>
+<l n="*D 164.26">kôs ich an im schiere."</l>
+<l n="*D 164.27"><seg type="Initiale" subtype="Majuskel">D</seg>er wirt sprach zem ritt<reg type="Synkope">e</reg>r sân:</l>
+<l n="*D 164.28">"daz ist durch wîbe gebôt getân."</l>
+<l n="*D 164.29">"nein, hêrre, er ist mit sölhen siten,</l>
+<l n="*D 164.30">ern kunde nimer wîp gebiten,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 164.25)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit> <note>(164.1-27)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="164.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="164.05"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit>
+</rdg></app>
+<app loc="164.07"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="164.11"><rdg>
+<note>Initiale</note> <wit>mk</wit>
+</rdg></app><app loc="164.11"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="164.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="164.21"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="164.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="164.25"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="164.27"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="164.27"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="164.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="164.02">
+<lem>im</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="164.05">
+<rdg>mit der rede entwâpenten si (entwappent es <wit>mk</wit>) in. <wit>*m</wit></rdg>
+</app>
+<app loc="164.06">
+<lem>dô</lem> <rdg>nû <wit>*m</wit></rdg>
+</app>
+<app loc="164.07">
+<lem>gesâhen</lem> <rdg>ersâhen <wit>*m</wit></rdg>
+</app>
+<app loc="164.08">
+<lem>dô</lem> <rdg>si <wit>*m</wit></rdg>
+</app>
+<app loc="164.09">
+<lem>blûwec</lem> <rdg>schier <wit>*m</wit></rdg>
+</app>
+<app loc="164.10">
+<lem>nâch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="164.15">
+<lem>süezen hôhen</lem> <rdg>hôher süezer <wit>*m</wit></rdg>
+</app>
+<app loc="164.18">
+<lem>werlde</lem> <rdg>werden <wit>*m</wit></rdg>
+</app>
+<app loc="164.18">
+<lem>al</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="164.23">
+<lem>ê ez k&#x0153;me</lem> <rdg>ez kom (cho&#x0364;m <wit>I</wit> [<wit>Z</wit>] chome <wit>Fr17</wit>) <wit>*G</wit> <note>(ohne Z)</note> Ê ich k&#x00E6;me (Eich keine <wit>U</wit> E <subst><del>*</del><add>ez kam</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="164.28">
+<rdg>"ez (Daz <wit>Z</wit>) ist lîhte (<note>om.</note> <wit>L</wit> <wit>Z</wit>) durch wîbe (wibes <wit>L</wit> <wit>Z</wit>) gebôt (bet <wit>Z</wit>) getân." <wit>*G</wit></rdg>
+</app>
+<app loc="164.28">
+<rdg>"ez ist lîhte durch wîbes (wibe <wit>U</wit> <wit>V</wit>) gebôt getân." <wit>*T</wit></rdg>
+</app>
+<app loc="164.29">
+<lem>er</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="164.01">
+<rdg></rdg>
+</app>
+<app loc="164.02">
+<rdg></rdg>
+</app>
+<app loc="164.03">
+<rdg></rdg>
+</app>
+<app loc="164.04">
+<rdg></rdg>
+</app>
+<app loc="164.05">
+<rdg>vil (&#x00F7;lsch <wit>O</wit>) schierer m. <wit>*G</wit> <note>(ohne L)</note> (<wit>U</wit> <wit>V</wit>) vil sch. muoser <wit>*T</wit></rdg>
+</app>
+<app loc="164.06">
+<rdg></rdg>
+</app>
+<app loc="164.07">
+<rdg>Unde diu t. (roten <wit>I</wit> <wit>Fr17</wit>) kl. ersâhen, <wit>*G</wit> · ersâhen unde diu (der <wit>U</wit> <wit>V</wit>) t. kl. <wit>*T</wit></rdg>
+</app>
+<app loc="164.08">
+<rdg>si e. (Si er schrachten <wit>O</wit> [<wit>Z</wit>]), die sîn pf. <wit>*G</wit> · si e., unde was in leit. <wit>*T</wit></rdg>
+</app>
+<app loc="164.09">
+<rdg>vil blûgez (balde ez <wit>O</wit>) <wit>*G</wit> vil bl&#x0153;de ez (blvde ez <wit>T</wit> blu&#x0366;de er iz <wit>U</wit> <subst><del>*</del><add>schier ez</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="164.10">
+<rdg>vor (<subst><del>*</del><add>Der wurt vor</add></subst> <wit>V</wit>) sch. was n. verzaget (verschamet <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="164.11">
+<rdg>rîter, der (do <wit>V</wit>) sp. <wit>*T</wit></rdg>
+</app>
+<app loc="164.12">
+<rdg></rdg>
+</app>
+<app loc="164.13">
+<rdg></rdg>
+</app>
+<app loc="164.14">
+<rdg></rdg>
+</app>
+<app loc="164.15">
+<rdg>von reine, süeze, h. (Mit reiner sv&#x0366;zen <wit>O</wit>) art. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="164.16">
+<rdg>alsus (<subst><del>*</del><add>alsus</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit> <wit>I</wit> <wit>Fr17</wit></rdg>
+</app>
+<app loc="164.17">
+<rdg></rdg>
+</app>
+<app loc="164.18">
+<rdg>vr. (vo&#x036E;de <wit>Fr17</wit>) sölch (selig <wit>U</wit>) g. <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="164.19">
+<rdg></rdg>
+</app>
+<app loc="164.20">
+<rdg>an im des w. lît (doch lit wunsches <wit>I</wit>) g. <wit>*G</wit> <note>(ohne Z)</note> · an im liget w. g. <wit>*T</wit></rdg>
+</app>
+<app loc="164.21">
+<rdg></rdg>
+</app>
+<app loc="164.22">
+<rdg>sîn (<subst><del>S*</del><add>Daz</add></subst> <wit>V</wit>) h. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="164.23">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="164.24">
+<rdg></rdg>
+</app>
+<app loc="164.25">
+<rdg></rdg>
+</app>
+<app loc="164.26">
+<rdg></rdg>
+</app>
+<app loc="164.27">
+<rdg>Dô sp. zuo zim (im <wit>U</wit>) ein (<subst><del>D*</del><add>Der wurt sprach zvome</add></subst> <wit>V</wit>) rîter sân: <wit>*T</wit></rdg>
+</app>
+<app loc="164.28">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="164.29">
+<rdg>erst in (ninder in <wit>I</wit> von <wit>L</wit>) solhen s., <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="164.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

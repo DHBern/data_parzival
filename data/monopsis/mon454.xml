@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 454</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>02.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 454.01"><seg type="Initiale"><corr type="Emendation">E</corr></seg>r was ein <corr type="Emendation"><name type="Person">heiden</name></corr> vaterhalp,</l>
+<l n="*D 454.02"><name type="Person">Flegetanis</name>, der an ein kalp</l>
+<l n="*D 454.03">bette, als ob ez w&#x00E6;re sîn got.</l>
+<l n="*D 454.04">wie mac der tievel sölhen spot</l>
+<l n="*D 454.05">gevüegen an sô wîser diet,</l>
+<l n="*D 454.06">daz si niht scheidet ode schiet</l>
+<l n="*D 454.07">dâ von, der treit die h&#x0153;hsten hant</l>
+<l n="*D 454.08">unt dem elliu wunder sint bekant?</l>
+<l n="*D 454.09"><name type="Person">Flegetanis</name> der <name type="Person">heiden</name></l>
+<l n="*D 454.10">kunde uns wol bescheiden</l>
+<l n="*D 454.11">ieslîches sternen hinganc</l>
+<l n="*D 454.12">unt sîner künfte widerwanc,</l>
+<l n="*D 454.13">wie lange ieslîcher umbe gêt,</l>
+<l n="*D 454.14">ê er wider an sîn zil gestêt.</l>
+<l n="*D 454.15">mit der sternen umbereise vart</l>
+<l n="*D 454.16">ist gep<corr type="Emendation">r</corr>üefe<corr type="Emendation">t</corr> aller menschlîcher art.</l>
+<l n="*D 454.17"><name type="Person">Flegetanis</name> der <name type="Person">heiden</name> sach,</l>
+<l n="*D 454.18">dâ von er blûweclîche sprach,</l>
+<l n="*D 454.19">inme gestirne mit sînen ougen</l>
+<l n="*D 454.20">verholneb&#x00E6;riu tougen.</l>
+<l n="*D 454.21">er jach, ez hiez ein dinc der <name type="Sonstiges">Grâl</name>.</l>
+<l n="*D 454.22">des namen las er sunder twâl</l>
+<l n="*D 454.23">inme gestirne, wie der hiez.</l>
+<l n="*D 454.24">"ein schar in ûf der erden liez,</l>
+<l n="*D 454.25">diu vuor ûf über die sterne hôch,</l>
+<l n="*D 454.26">ob die ir unschult wider zôch,</l>
+<l n="*D 454.27">sît muoz sîn pfleg<reg type="Synkope">e</reg>n getouftiu vruht</l>
+<l n="*D 454.28">mit alsô kiuschlîcher zuht.</l>
+<l n="*D 454.29">diu menscheit ist immer wert,</l>
+<l n="*D 454.30">der zuo dem <name type="Sonstiges">Grâle</name> wirt gegert."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="454.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="454.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="454.03">
+<lem>sîn</lem> <rdg>ein <wit>*m</wit></rdg>
+</app>
+<app loc="454.10">
+<lem>uns</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="454.12">
+<lem>künfte</lem> <rdg>künste (<subst><del>kv́n*e</del><add>kv́nfte</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="454.16">
+<lem>geprüefet</lem> <rdg>gepv&#x0364;fel <wit>D</wit></rdg>
+</app>
+<app loc="454.16">
+<lem>aller menschlîcher</lem> <rdg>ieglîches menschen (<subst><del>*</del><add>iecliches menschen</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="454.18">
+<lem>blûweclîche</lem> <rdg>bl&#x0153;declîchen <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="454.23">
+<lem>der</lem> <rdg>er <wit>*m</wit> <wit>Z</wit> <wit>V</wit></rdg>
+</app>
+<app loc="454.28">
+<rdg>mit alsô kiuschlîcher zuht, <wit>*m</wit></rdg>
+</app>
+<app loc="454.29">
+<lem>diu</lem> <rdg>daz diu (<subst><del>*</del><add>Daz die</add></subst> <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="454.30">
+<lem>gegert</lem> <rdg>begert <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="454.01">
+<rdg>Ez (&#x00F7;r <wit>O</wit>) was <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="454.02">
+<rdg></rdg>
+</app>
+<app loc="454.03">
+<rdg>ob <note>om.</note> <wit>*G</wit> <note>(ohne OZ)</note></rdg>
+</app>
+<app loc="454.04">
+<rdg>der t. sînen sp. <wit>*G</wit> <note>(nur GIZ)</note> (<wit>V</wit>) der vâlant sînen sp. <wit>*T</wit></rdg>
+</app>
+<app loc="454.05">
+<rdg></rdg>
+</app>
+<app loc="454.06">
+<rdg></rdg>
+</app>
+<app loc="454.07">
+<rdg></rdg>
+</app>
+<app loc="454.08">
+<rdg></rdg>
+</app>
+<app loc="454.09">
+<rdg></rdg>
+</app>
+<app loc="454.10">
+<rdg></rdg>
+</app>
+<app loc="454.11">
+<rdg></rdg>
+</app>
+<app loc="454.12">
+<rdg>unt s. (sinen <wit>G</wit>) künste (<subst><del>kuste</del><add>kunste</add></subst> <wit>I</wit>) w. (widerswanc <wit>I</wit> widervanc <wit>Z</wit>), <wit>*G</wit></rdg>
+</app>
+<app loc="454.13">
+<rdg>wie l. etslîcher hine gêt, <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="454.14">
+<rdg></rdg>
+</app>
+<app loc="454.15">
+<rdg></rdg>
+</app>
+<app loc="454.16">
+<rdg>a. menschen art. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="454.17">
+<rdg></rdg>
+</app>
+<app loc="454.18">
+<rdg></rdg>
+</app>
+<app loc="454.19">
+<rdg></rdg>
+</app>
+<app loc="454.20">
+<rdg></rdg>
+</app>
+<app loc="454.21">
+<rdg>ez w&#x00E6;re ein <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="454.22">
+<rdg></rdg>
+</app>
+<app loc="454.23">
+<rdg></rdg>
+</app>
+<app loc="454.24">
+<rdg></rdg>
+</app>
+<app loc="454.25">
+<rdg></rdg>
+</app>
+<app loc="454.26">
+<rdg></rdg>
+</app>
+<app loc="454.27">
+<rdg></rdg>
+</app>
+<app loc="454.28">
+<rdg></rdg>
+</app>
+<app loc="454.29">
+<rdg></rdg>
+</app>
+<app loc="454.30">
+<rdg>diu zem Gr. w. gewert." <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

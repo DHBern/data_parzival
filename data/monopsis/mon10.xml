@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 10</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>10.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 10.01">vünf ors erwelt und erkant,</l>
+<l n="*D 10.02">diu besten über al sîn lant,</l>
+<l n="*D 10.03">küene, starc, niht ze laz,</l>
+<l n="*D 10.04">manec tiwer goltvaz</l>
+<l n="*D 10.05">und manegen guldînen klôz.</l>
+<l n="*D 10.06">den künec wênec des verdrôz,</l>
+<l n="*D 10.07">er envultes im vier soumschrîn.</l>
+<l n="*D 10.08">gesteines muose ouch vil dar în.</l>
+<l n="*D 10.09"><seg type="Initiale" subtype="Majuskel">D</seg>ô si gevüllet lâgen,</l>
+<l n="*D 10.10">knappen, die des pflâgen,</l>
+<l n="*D 10.11">wâren wol gekleidet und geriten.</l>
+<l n="*D 10.12">dâne wart jâmer niht vermiten,</l>
+<l n="*D 10.13">dô er vür sîne muoter gienc</l>
+<l n="*D 10.14">und si in sô vaste zuo ir vienc.</l>
+<l n="*D 10.15">"filliiroy <name type="Person">Gandin</name>,</l>
+<l n="*D 10.16">wil dû niht langer bî mir sîn?",</l>
+<l n="*D 10.17">sprach daz wîplîche wîp.</l>
+<l n="*D 10.18">"owê, nû truoc dich doch mîn lîp!</l>
+<l n="*D 10.19">dû bist ouch <name type="Person">Gandins</name> kint.</l>
+<l n="*D 10.20">ist got an sîner helfe blint</l>
+<l n="*D 10.21">oder ist er dran betoubet,</l>
+<l n="*D 10.22">daz er mir niht geloubet?</l>
+<l n="*D 10.23">sol ich nû niwen kumber haben?</l>
+<l n="*D 10.24">ich hân mînes herzen kraft begraben,</l>
+<l n="*D 10.25">die süeze mîner ougen.</l>
+<l n="*D 10.26">wil er mich vürbaz rouben</l>
+<l n="*D 10.27">und ist doch ein riht&#x00E6;re,</l>
+<l n="*D 10.28">sô liuget mir daz m&#x00E6;re,</l>
+<l n="*D 10.29">als man von sîner helfe saget,</l>
+<l n="*D 10.30">sît er an mir ist sus verzaget."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit> <note>(10.19-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="10.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="10.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="10.21"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="10.02">
+<lem>diu</lem> <rdg>de <wit>D</wit></rdg>
+</app>
+<app loc="10.02">
+<lem>al</lem> <rdg>alliu <wit>*m</wit></rdg>
+</app>
+<app loc="10.03">
+<rdg>kurz, starc, zuo lanc und laz <wit>*m</wit></rdg>
+</app>
+<app loc="10.04">
+<rdg>- sîn gewant goltvar was -, <wit>*m</wit></rdg>
+</app>
+<app loc="10.04">
+<lem>manec</lem> <rdg>Vnd manich <wit>O</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="10.09">
+<lem>si</lem> <rdg>si dâ <wit>*m</wit></rdg>
+</app>
+<app loc="10.16">
+<lem>wil</lem> <rdg>wil <note>nachträglich korrigiert zu:</note> wilt <wit>D</wit></rdg>
+</app>
+<app loc="10.18">
+<lem>doch</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="10.21">
+<lem>betoubet</lem> <rdg>ertoubet <wit>*m</wit></rdg>
+</app>
+<app loc="10.23">
+<rdg>durch nû niuwen kumber haben (habent <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="10.24">
+<rdg>ich hân mîner herzen kraft vergraben, <wit>*m</wit></rdg>
+</app>
+<app loc="10.25">
+<lem>die</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="10.26">
+<rdg>wiltû mich vürbaz touben? <wit>*m</wit></rdg>
+</app>
+<app loc="10.28">
+<lem>daz</lem> <rdg>disiu <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="10.01">
+<rdg>v. ors, die besten erkant <wit>*T</wit></rdg>
+</app>
+<app loc="10.02">
+<rdg>und ûzerwelt ü. al sîn l., <wit>*T</wit></rdg>
+</app>
+<app loc="10.03">
+<rdg>k., st. und n. ze laz, <wit>*T</wit></rdg>
+</app>
+<app loc="10.04">
+<rdg>manic (Vnd manich <wit>O</wit> [<wit>L</wit> <wit>Z</wit>]) tiure g., <wit>*G</wit> · vil m. tiure g. <wit>*T</wit></rdg>
+</app>
+<app loc="10.05">
+<rdg>(Vil <wit>O</wit> <wit>L</wit> Vnd <wit>Z</wit>) manigen <wit>*G</wit></rdg>
+</app>
+<app loc="10.06">
+<rdg>den künic lützel des v., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="10.07">
+<rdg></rdg>
+</app>
+<app loc="10.08">
+<rdg>g. (Vil gesteins <wit>Z</wit>) m. vil (avch <wit>O</wit> [<wit>Z</wit>]) dar în. <wit>*G</wit> · g. m. ou. mê dar în. <wit>*T</wit></rdg>
+</app>
+<app loc="10.09">
+<rdg>dô die g. l., <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="10.10">
+<rdg>kn., die der pf., <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="10.11">
+<rdg>die w. gekleit und wol g. <wit>*T</wit></rdg>
+</app>
+<app loc="10.12">
+<rdg>al dâ w. <wit>*G</wit> <note>(ohne L)</note> · grôz j. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="10.13">
+<rdg>m. gienc. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="10.14">
+<rdg>vil nâhen sin (si <wit>O</wit> [<wit>U</wit>]) zuo zir (ir <wit>O</wit> <wit>L</wit> <wit>V</wit> <wit>Z</wit>) gevienc (vienc <wit>Z</wit>). <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="10.15">
+<rdg></rdg>
+</app>
+<app loc="10.16">
+<rdg></rdg>
+</app>
+<app loc="10.17">
+<rdg>sô (Da <wit>Z</wit>) sp. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="10.18">
+<rdg>mîn lîp, <wit>*T</wit></rdg>
+</app>
+<app loc="10.19">
+<rdg>und b. ou. Gandines k.! <wit>*T</wit></rdg>
+</app>
+<app loc="10.20">
+<rdg>h. bl.? <wit>*G</wit></rdg>
+</app>
+<app loc="10.21">
+<rdg>o. wie ist er sus b. (betru&#x0366;bet <wit>U</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="10.22">
+<rdg></rdg>
+</app>
+<app loc="10.23">
+<rdg></rdg>
+</app>
+<app loc="10.24">
+<rdg>m. h. k. hân ich (ich han <wit>L</wit>) b. <wit>*G</wit> · m. h. vröude ich hân b. <wit>*T</wit></rdg>
+</app>
+<app loc="10.25">
+<rdg>unt die (der <wit>Z</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="10.26">
+<rdg></rdg>
+</app>
+<app loc="10.27">
+<rdg></rdg>
+</app>
+<app loc="10.28">
+<rdg></rdg>
+</app>
+<app loc="10.29">
+<rdg>daz man <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="10.30">
+<rdg>sît er alsus ist v. (a. ist vnverzaget <wit>U</wit> <subst><del>*</del><add>an mir sus hat verzaget</add></subst> <wit>V</wit>)." <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

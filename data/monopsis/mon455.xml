@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 455</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 455.01"><seg type="Initiale">S</seg>us schreip dar von <name type="Person">Flegetanis</name>.</l>
+<l n="*D 455.02"><name type="Person">Kyot</name>, der meister wîs,</l>
+<l n="*D 455.03">diz m&#x00E6;re begunde suochen</l>
+<l n="*D 455.04">in latînischen buochen,</l>
+<l n="*D 455.05">wâ gewes<reg type="Synkope">e</reg>n w&#x00E6;re</l>
+<l n="*D 455.06">ein volc dâ zuo geb&#x00E6;re,</l>
+<l n="*D 455.07">daz ez des <name type="Sonstiges">Grâles</name> pfl&#x00E6;ge</l>
+<l n="*D 455.08">unt der kiusche sich bew&#x00E6;ge.</l>
+<l n="*D 455.09">er la<corr type="Emendation">s</corr> der lande chrônica</l>
+<l n="*D 455.10">ze <name type="Ort">Brittanie</name> unt anderswâ,</l>
+<l n="*D 455.11">ze <name type="Ort">Francrîche</name> unt in <name type="Ort">Yrlant</name>.</l>
+<l n="*D 455.12">ze <name type="Ort">Anschouwe</name> er diu m&#x00E6;re vant.</l>
+<l n="*D 455.13">er las von <name type="Person">Mazadan</name></l>
+<l n="*D 455.14">mit wârheit sunder wân.</l>
+<l n="*D 455.15">umb allez sîn geslehte</l>
+<l n="*D 455.16">stuont dâ geschriben rehte</l>
+<l n="*D 455.17">unt anderhalp, wie <name type="Person">Titurel</name></l>
+<l n="*D 455.18">unt des sun <name type="Person">Frimutel</name></l>
+<l n="*D 455.19">den <name type="Sonstiges">Grâl</name> br&#x00E6;hte ûf <name type="Person">Anfortas</name>,</l>
+<l n="*D 455.20">des swester <name type="Person">Herzeloyde </name> was,</l>
+<l n="*D 455.21">bî der <name type="Person">Gahmuret</name> ein kint</l>
+<l n="*D 455.22">gewan, des disiu m&#x00E6;re sint.</l>
+<l n="*D 455.23"><seg type="Initiale" subtype="Majuskel">D</seg>er rîtet nû ûf die niwen slâ,</l>
+<l n="*D 455.24">die gein im kom der rît<reg type="Synkope">e</reg>r grâ.</l>
+<l n="*D 455.25">er erkande eine stat, swie l&#x00E6;ge der snê,</l>
+<l n="*D 455.26">dâ liehte bluomen stuonden ê.</l>
+<l n="*D 455.27">daz was vor ein<reg type="Synkope">e</reg>s gebirges want,</l>
+<l n="*D 455.28">al dâ sîn manlîchiu hant</l>
+<l n="*D 455.29">vroun <name type="Person">Jeschuten</name> die hulde erwarp</l>
+<l n="*D 455.30">unt dâ <name type="Person">Orilus<reg type="Synkope">e</reg>s</name> zorn verdarp.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> 
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(ohne 455.9 und 16)</note> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="455.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>V</wit>
+</rdg></app>
+<app loc="455.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="455.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="455.01">
+<lem>dar von</lem> <rdg>der wîse <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="455.06">
+<lem>geb&#x00E6;re</lem> <rdg>b&#x00E6;re <wit>*m</wit></rdg>
+</app>
+<app loc="455.09">
+<lem>las</lem> <rdg>la: <note>nachträglich korrigiert zu:</note> las <wit>D</wit></rdg>
+</app>
+<app loc="455.11">
+<lem>Yrlant</lem> <rdg>ir lant <wit>*m</wit></rdg>
+</app>
+<app loc="455.19">
+<lem>br&#x00E6;hte</lem> <rdg>brâht <wit>*m</wit></rdg>
+</app>
+<app loc="455.22">
+<lem>disiu</lem> <rdg>diu <wit>*m</wit></rdg>
+</app>
+<app loc="455.23">
+<lem>die</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="455.24">
+<lem>die</lem> <rdg>dâ <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="455.01">
+<rdg></rdg>
+</app>
+<app loc="455.02">
+<rdg></rdg>
+</app>
+<app loc="455.03">
+<rdg></rdg>
+</app>
+<app loc="455.04">
+<rdg></rdg>
+</app>
+<app loc="455.05">
+<rdg></rdg>
+</app>
+<app loc="455.06">
+<rdg></rdg>
+</app>
+<app loc="455.07">
+<rdg></rdg>
+</app>
+<app loc="455.08">
+<rdg></rdg>
+</app>
+<app loc="455.09">
+<rdg></rdg>
+</app>
+<app loc="455.10">
+<rdg></rdg>
+</app>
+<app loc="455.11">
+<rdg>in ir lant (in irgelant <wit>I</wit>). <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="455.12">
+<rdg></rdg>
+</app>
+<app loc="455.13">
+<rdg></rdg>
+</app>
+<app loc="455.14">
+<rdg></rdg>
+</app>
+<app loc="455.15">
+<rdg>über a. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="455.16">
+<rdg></rdg>
+</app>
+<app loc="455.17">
+<rdg></rdg>
+</app>
+<app loc="455.18">
+<rdg></rdg>
+</app>
+<app loc="455.19">
+<rdg>brâht <wit>*G</wit> <note>(nur GLZ)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="455.20">
+<rdg></rdg>
+</app>
+<app loc="455.21">
+<rdg></rdg>
+</app>
+<app loc="455.22">
+<rdg></rdg>
+</app>
+<app loc="455.23">
+<rdg>der reit (<subst><del>*</del><add>ritet</add></subst> <wit>V</wit>) nû <wit>*T</wit></rdg>
+</app>
+<app loc="455.24">
+<rdg></rdg>
+</app>
+<app loc="455.25">
+<rdg>er bekande (erkante <wit>V</wit> [<wit>O</wit> <wit>L</wit>]) die (<subst><del>*</del><add>die</add></subst> <wit>V</wit> eine <wit>I</wit>) st., <wit>*T</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="455.26">
+<rdg></rdg>
+</app>
+<app loc="455.27">
+<rdg></rdg>
+</app>
+<app loc="455.28">
+<rdg>al <note>om.</note> <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="455.29">
+<rdg></rdg>
+</app>
+<app loc="455.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 168</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 168.01"><seg type="Initiale" subtype="Majuskel">D</seg>er gast an daz bette schreit.</l>
+<l n="*D 168.02">al wîz gewant im was bereit.</l>
+<l n="*D 168.03">von golde unde sîdîn</l>
+<l n="*D 168.04">einen bruochgürtel zôch man drîn.</l>
+<l n="*D 168.05">scharlachens hosen rôt man streich</l>
+<l n="*D 168.06">an in, dem ellen nie gesweich.</l>
+<l n="*D 168.07"><seg type="Initiale"><corr type="Emendation">Â</corr></seg>voy, wie stuonden sîniu bein!</l>
+<l n="*D 168.08">reht geschickede ab in schein.</l>
+<l n="*D 168.09">brûn scharlachen wol gesniten,</l>
+<l n="*D 168.10">dem was furrieren niht vermiten,</l>
+<l n="*D 168.11">beidiu innen härmîn blanc,</l>
+<l n="*D 168.12">roc unt mantel wâren lanc.</l>
+<l n="*D 168.13">breit, swarz unt grâ</l>
+<l n="*D 168.14">zobel d<reg type="Synkope">â</reg>r vor man kôs al dâ.</l>
+<l n="*D 168.15">daz leite an der gehiure.</l>
+<l n="*D 168.16">und<reg type="Synkope">e</reg>r einen g<corr type="Emendation">ür</corr>te<corr type="Emendation">l</corr> tiure</l>
+<l n="*D 168.17">wart <corr type="Emendation">er</corr> gefischieret</l>
+<l n="*D 168.18">unt wol gezimieret</l>
+<l n="*D 168.19">mit einem tiurem vürspan.</l>
+<l n="*D 168.20">sîn munt dâ bî vor r&#x0153;te bran.</l>
+<l n="*D 168.21"><seg type="Initiale" subtype="Majuskel">D</seg>ô kom der wirt mit triwen kraft,</l>
+<l n="*D 168.22">nâch dem gie stolziu rîterschaft.</l>
+<l n="*D 168.23">der enpfienc den gast. dô daz geschach,</l>
+<l n="*D 168.24">der ritt<reg type="Synkope">e</reg>r ieslîcher sprach,</l>
+<l n="*D 168.25">sine ges&#x00E6;hen nie sô sch&#x0153;nen lîp.</l>
+<l n="*D 168.26">mit triwen lobten si daz wîp,</l>
+<l n="*D 168.27">diu gap der werlde alsölhe vruht.</l>
+<l n="*D 168.28">durch wârheit unt umb ir zuht</l>
+<l n="*D 168.29">si jâhen: "er wirt wol gewert,</l>
+<l n="*D 168.30">swâ sîn dienst gnâden gert.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(168.4-6, 14-16, 21-24 und 27-29)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr17</wit> <note>(168.1-28)</note> <wit>Fr21</wit> <note>(168.9-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="168.01"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="168.05"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app><app loc="168.05"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="168.07"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app><app loc="168.07"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="168.15"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="168.21"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>Fr69</wit> <wit>I</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app><app loc="168.21"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="168.27"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="168.03">
+<lem>unde</lem> <rdg>und ouch <wit>*m</wit></rdg>
+</app>
+<app loc="168.04">
+<lem>bruochgürtel</lem> <rdg>gürtel <wit>*m</wit></rdg>
+</app>
+<app loc="168.07">
+<lem>Âvoy</lem> <rdg>&#x00F7;voy <wit>D</wit></rdg>
+</app>
+<app loc="168.14">
+<rdg>zobel dâr vor kôs man dâ (sa <wit>I</wit>). <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="168.16">
+<lem>einen gürtel</lem> <rdg>einen gvlter <wit>D</wit> <wit>O</wit> einem kulter <wit>Fr69</wit></rdg>
+</app>
+<app loc="168.17">
+<lem>er</lem> <rdg><note>om.</note> <wit>D</wit></rdg>
+</app>
+<app loc="168.20">
+<lem>vor</lem> <rdg>von <wit>*m</wit></rdg>
+</app>
+<app loc="168.25">
+<lem>nie</lem> <rdg>niht <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="168.01">
+<rdg></rdg>
+</app>
+<app loc="168.02">
+<rdg>was im <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="168.03">
+<rdg><note>Versfolge 168.4-3</note> <wit>*T</wit> · der was von g. u. s. (sitlin <wit>T</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="168.04">
+<rdg></rdg>
+</app>
+<app loc="168.05">
+<rdg></rdg>
+</app>
+<app loc="168.06">
+<rdg>nie ellen (engel <wit>T</wit> <subst><del>*llen</del><add>ellen</add></subst> <wit>V</wit>) <wit>*T</wit> <wit>I</wit></rdg>
+</app>
+<app loc="168.07">
+<rdg></rdg>
+</app>
+<app loc="168.08">
+<rdg>wol geschicket <wit>*T</wit> · abe im (von <subst><del>im</del><add>in</add></subst> <wit>U</wit>) sch. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="168.09">
+<rdg></rdg>
+</app>
+<app loc="168.10">
+<rdg></rdg>
+</app>
+<app loc="168.11">
+<rdg>b. von harmen (<subst><del>*en</del><add>innen hermin</add></subst> <wit>V</wit>) bl., <wit>*T</wit></rdg>
+</app>
+<app loc="168.12">
+<rdg></rdg>
+</app>
+<app loc="168.13">
+<rdg>brûn, sw. unde grâ <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="168.14">
+<rdg>einen z. dâr vor kôs man dâ (den verkos man do <wit>U</wit> <subst><del>*</del><add>man kos der vor alda</add></subst> <wit>V</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="168.15">
+<rdg>dâ leit <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="168.16">
+<rdg></rdg>
+</app>
+<app loc="168.17">
+<rdg></rdg>
+</app>
+<app loc="168.18">
+<rdg></rdg>
+</app>
+<app loc="168.19">
+<rdg></rdg>
+</app>
+<app loc="168.20">
+<rdg>bî von r. <wit>*G</wit> <note>(ohne Z)</note> vor (<subst><del>*</del><add>bi</add></subst> <wit>V</wit>) von <wit>*T</wit></rdg>
+</app>
+<app loc="168.21">
+<rdg></rdg>
+</app>
+<app loc="168.22">
+<rdg></rdg>
+</app>
+<app loc="168.23">
+<rdg>er (Der <wit>L</wit>) gruozte den g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="168.24">
+<rdg></rdg>
+</app>
+<app loc="168.25">
+<rdg></rdg>
+</app>
+<app loc="168.26">
+<rdg></rdg>
+</app>
+<app loc="168.27">
+<rdg>diu der werlte gap alsolhe vr. <wit>*T</wit> · w. solhe (solhiv <wit>O</wit>) vr. <wit>*G</wit></rdg>
+</app>
+<app loc="168.28">
+<rdg>ir (<subst><del>*</del><add>ir</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="168.29">
+<rdg>si sprâchen (<subst><del>*</del><add>Jahen</add></subst> <wit>V</wit>): <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="168.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

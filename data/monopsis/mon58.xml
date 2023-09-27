@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 58</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 58.01">was worden dâ ze <name type="Ort">Zazamanc</name>.</l>
+<l n="*D 58.02">sîn hant die gunst erranc.</l>
+<l n="*D 58.03">dennoch swebt er ûf dem sê.</l>
+<l n="*D 58.04">die snellen winde im tâten wê.</l>
+<l n="*D 58.05">einen sîdînen segel sach er rôten.</l>
+<l n="*D 58.06">den truoc ein kocke unt ouch die bot<reg type="Synkope">e</reg>n,</l>
+<l n="*D 58.07">die von <name type="Ort">Schotten</name> <name type="Person">Vridebrant</name></l>
+<l n="*D 58.08">vroun <name type="Person">Belakanen</name> hete gesant.</l>
+<l n="*D 58.09">er bat si, daz si ûf in verkür,</l>
+<l n="*D 58.10">swer den mâg durch si verlür,</l>
+<l n="*D 58.11">daz si von im gesuochet was.</l>
+<l n="*D 58.12">dô vuorten si den <name type="Sonstiges">adamas</name></l>
+<l n="*D 58.13">unt ein swert, einen halsberc und zwô hosen.</l>
+<l n="*D 58.14">hie mug<reg type="Synkope">e</reg>t ir grôz wunder losen,</l>
+<l n="*D 58.15">daz im der kocke widervuor,</l>
+<l n="*D 58.16">als im diu âventiure swuor.</l>
+<l n="*D 58.17">si gâbenz im. dô lobt ouch er:</l>
+<l n="*D 58.18">sîn munt der botschefte ein wer</l>
+<l n="*D 58.19">würde, swenner k&#x0153;me zir.</l>
+<l n="*D 58.20">si schieden sich. man sagete mir,</l>
+<l n="*D 58.21">daz mer in truoc in eine habe.</l>
+<l n="*D 58.22">ze <name type="Ort">Sibilje</name> kêrt er drabe.</l>
+<l n="*D 58.23">mit golde galt der küene man</l>
+<l n="*D 58.24">sînem marn&#x00E6;re sân</l>
+<l n="*D 58.25">harte wol sîn arbeit.</l>
+<l n="*D 58.26">si schieden sich. daz was dem leit.</l>
+<l n="*D 58.27"><seg type="Initiale" subtype="Großinitiale">D</seg>â ze <name type="Ort">Spane</name> ime lande</l>
+<l n="*D 58.28">er den künec erkande.</l>
+<l n="*D 58.29">daz was sîn neve <name type="Person">Kaylet</name>.</l>
+<l n="*D 58.30">nâch dem kêrt er ze <name type="Ort">Dolet</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="58.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="58.03"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="58.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="58.12"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="58.22"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="58.27"><rdg>
+<note>Illustration mit Überschrift:</note> Von eime turneÿe ze kanvoleis wie da Gahmuret die kunigin herczeloiden erwarb <wit>mk</wit>
+</rdg></app><app loc="58.27"><rdg><note>Großinitiale</note> <wit>D</wit> <wit>U</wit> <wit>T</wit>
+</rdg></app><app loc="58.27"><rdg><note>Initiale</note> <wit>mk</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>V</wit>
+</rdg></app>
+<app loc="58.30"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="58.02">
+<rdg>sîn hant dâ den sic erranc. <wit>*m</wit></rdg>
+</app>
+<app loc="58.04">
+<lem>im tâten</lem> <rdg><seg type="singuläre_Lesart">tâten im</seg> <wit>*m</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="58.06">
+<rdg>den truogen kocken (der chok tru&#x0364;gt die gabe <wit>I</wit> Den tru̽ck ein kocke <wit>L</wit> [<wit>Z</wit> <wit>Fr21</wit>]) und (vnd auch <wit>I</wit> [<wit>Z</wit> <wit>Fr21</wit>]) die boten, <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="58.07">
+<lem>Schotten</lem> <rdg>Schotten lant <wit>*m</wit></rdg>
+</app>
+<app loc="58.10">
+<lem>swer</lem> <rdg>wie er <wit>*m</wit></rdg>
+</app>
+<app loc="58.12">
+<rdg>dô vuorten si den adamas (adams <wit>mk</wit>), <wit>*m</wit></rdg>
+</app>
+<app loc="58.13">
+<lem>unt ein swert</lem> <rdg>ein swert <wit>*m</wit> ein (<note>om.</note> <wit>I</wit>) swert (<subst><del>E*</del><add>Ein halsperg</add></subst> <wit>V</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="58.13">
+<lem>einen halperc</lem> <rdg>den (<note>om.</note> <wit>I</wit> <wit>L</wit> an <wit>Fr21</wit>) halsberc <wit>*G</wit> <note>(nur G)</note> <subst><del>*</del><add>ein</add></subst> swert <wit>V</wit></rdg>
+</app>
+<app loc="58.16">
+<lem>im</lem> <rdg>mir <wit>*m</wit></rdg>
+</app>
+<app loc="58.19">
+<rdg>w&#x00E6;re, sô er k&#x00E6;me wider (so er wider chom <wit>O</wit> so er wider keme <wit>L</wit> [<wit>Fr21</wit> <wit>T</wit>] er wider komen <wit>Z</wit>) zuo ir. <wit>*T</wit></rdg>
+</app>
+<app loc="58.21">
+<rdg>daz mer in trüege, in einer habe <wit>*m</wit></rdg>
+</app>
+<app loc="58.21">
+<rdg>mer warf (wurf <wit>I</wit>) in (in trv&#x0366;ge <wit>O</wit> [<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>]) in eine habe. <wit>*G</wit></rdg>
+</app>
+<app loc="58.21">
+<rdg>daz trüege in (tru&#x0366;ge <wit>U</wit> tru&#x0366;g in <wit>V</wit>) in eine habe. <wit>*T</wit></rdg>
+</app>
+<app loc="58.30">
+<lem>nâch</lem> <rdg>mit <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="58.01">
+<rdg>wart dâ ze (&#x00F7;as von den <wit>O</wit> Was da von den ze <wit>Fr21</wit>) Z. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="58.02">
+<rdg>sîn h. dâ (<note>om.</note> <wit>I</wit>) sigenunft e. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="58.03">
+<rdg></rdg>
+</app>
+<app loc="58.04">
+<rdg></rdg>
+</app>
+<app loc="58.05">
+<rdg>dô sach er e. segel (Einen sydinen segel sach <wit>O</wit>) r. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="58.06">
+<rdg>&#x2193;<wit>*G</wit></rdg>
+</app>
+<app loc="58.07">
+<rdg></rdg>
+</app>
+<app loc="58.08">
+<rdg></rdg>
+</app>
+<app loc="58.09">
+<rdg></rdg>
+</app>
+<app loc="58.10">
+<rdg>swier den (Swie <wit>O</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="58.11">
+<rdg></rdg>
+</app>
+<app loc="58.12">
+<rdg>den a., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="58.13">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="58.14">
+<rdg>ir (<note>om.</note> <wit>Fr21</wit>) grôzes (grozeiv <wit>O</wit>) wunders (wunder <wit>I</wit> <wit>O</wit>) l., <wit>*G</wit> <note>(nur GL)</note></rdg>
+</app>
+<app loc="58.15">
+<rdg></rdg>
+</app>
+<app loc="58.16">
+<rdg>als mir diu <wit>*G</wit> <note>(ohne I)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="58.17">
+<rdg></rdg>
+</app>
+<app loc="58.18">
+<rdg></rdg>
+</app>
+<app loc="58.19">
+<rdg>w&#x00E6;re, <wit>*G</wit> · &#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="58.20">
+<rdg></rdg>
+</app>
+<app loc="58.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="58.22">
+<rdg>kêrter abe. <wit>*G</wit> <note>(nur GIL)</note> (<wit>T</wit>) dô kêrte er abe. <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="58.23">
+<rdg></rdg>
+</app>
+<app loc="58.24">
+<rdg></rdg>
+</app>
+<app loc="58.25">
+<rdg></rdg>
+</app>
+<app loc="58.26">
+<rdg></rdg>
+</app>
+<app loc="58.27">
+<rdg>Dâ <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="58.28">
+<rdg>den künic er (er wol <wit>I</wit>) e. (der kande <wit>Z</wit> bekande <wit>*T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="58.29">
+<rdg></rdg>
+</app>
+<app loc="58.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

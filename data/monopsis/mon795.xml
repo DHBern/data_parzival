@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 795</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>11.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 795.01"><seg type="Initiale">V</seg>r&#x0153;lîche unt doch mit jâmers siten.</l>
+<l n="*D 795.02">er sprach: "ich hân unsanfte erbiten,</l>
+<l n="*D 795.03">wirde ich immer von iu vrô.</l>
+<l n="*D 795.04">ir schiedet nû jungest von mir alsô,</l>
+<l n="*D 795.05">pfl<corr type="Emendation">e</corr>gt ir herzenlîcher triwe,</l>
+<l n="*D 795.06">man siht iuch drumbe in riwe.</l>
+<l n="*D 795.07"><seg type="Initiale" subtype="Majuskel">W</seg>ürde ie prîs von iu gesagt,</l>
+<l n="*D 795.08">hie sî rîter oder magt,</l>
+<l n="*D 795.09">werbet mir dâ zin den tôt</l>
+<l n="*D 795.10">unt lât sich enden mîne nôt.</l>
+<l n="*D 795.11">sît ir genant <name type="Person">Parzival</name>,</l>
+<l n="*D 795.12">sô wert mîn seh<reg type="Synkope">e</reg>n an den <name type="Sonstiges">Grâl</name></l>
+<l n="*D 795.13">siben naht und aht tage.</l>
+<l n="*D 795.14">dâ mite ist wendec al mîn klage.</l>
+<l n="*D 795.15">ine getar iuch anders warnen niht.</l>
+<l n="*D 795.16">wol iu, ob man iu helfe giht!</l>
+<l n="*D 795.17"><seg type="Initiale" subtype="Majuskel">I</seg>wer geselle ist hie ein vremder man.</l>
+<l n="*D 795.18">sîn<reg type="Synkope">e</reg>s stêns ich im vor mir niht gan.</l>
+<l n="*D 795.19">wan lât irn varn an sîn gemach?"</l>
+<l n="*D 795.20"><seg type="Initiale" subtype="Majuskel">A</seg>l weinende <name type="Person">Parzival</name> dô sprach:</l>
+<l n="*D 795.21">"saget mir, wâ der <name type="Sonstiges">Grâl</name> hie lige.</l>
+<l n="*D 795.22">ob diu gotes güete an mir gesige,</l>
+<l n="*D 795.23">des wirt wol innen disiu schar."</l>
+<l n="*D 795.24">sîne venje viel er des endes dar</l>
+<l n="*D 795.25">drîstunt ze êren der trinitât.</l>
+<l n="*D 795.26">er warp, daz m<corr type="Emendation">üe</corr>se werden rât</l>
+<l n="*D 795.27">des trûrigen mannes herzesêr.</l>
+<l n="*D 795.28">er rihte sich ûf und sprach dô mêr:</l>
+<l n="*D 795.29">"<seg type="Initiale"><corr type="Emendation">&#x0152;</corr></seg>heim, waz wirret dir?"</l>
+<l n="*D 795.30">der durch sande <name type="Person">Silvestern</name> einen stier</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>V</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <note>(ohne 795.7-10)</note> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>U</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="795.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="795.07"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="795.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="795.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="795.20"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="795.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="795.04">
+<lem>alsô</lem> <rdg>sô <wit>*m</wit></rdg>
+</app>
+<app loc="795.05">
+<lem>pflegt</lem> <rdg>pfligt <wit>D</wit></rdg>
+</app>
+<app loc="795.05">
+<lem>herzenlîcher</lem> <rdg>helflîcher <wit>*m</wit></rdg>
+</app>
+<app loc="795.19">
+<lem>irn varn an sîn</lem> <rdg>ir in varn in sîn (sv́ varn an ir <wit>V</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="795.20">
+<rdg>Parcifal zuo im dô sprach: <wit>*m</wit></rdg>
+</app>
+<app loc="795.26">
+<lem>müese</lem> <rdg>mv&#x0366;se <wit>D</wit></rdg>
+</app>
+<app loc="795.29">
+<lem>&#x0152;heim</lem> <rdg>&#x00F7;heim <wit>D</wit></rdg>
+</app>
+<app loc="795.30">
+<lem>sande</lem> <rdg>sant <wit>*m</wit> <note>(nur m)</note></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="795.01">
+<rdg></rdg>
+</app>
+<app loc="795.02">
+<rdg></rdg>
+</app>
+<app loc="795.03">
+<rdg></rdg>
+</app>
+<app loc="795.04">
+<rdg>mir sô, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="795.05">
+<rdg>pfleget ir helflîcher triuwe, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="795.06">
+<rdg></rdg>
+</app>
+<app loc="795.07">
+<rdg></rdg>
+</app>
+<app loc="795.08">
+<rdg></rdg>
+</app>
+<app loc="795.09">
+<rdg>sô w. (erwerbet <wit>*T</wit>) <wit>*G</wit> (<wit>*T</wit>) · mir hin zin <wit>*T</wit></rdg>
+</app>
+<app loc="795.10">
+<rdg></rdg>
+</app>
+<app loc="795.11">
+<rdg></rdg>
+</app>
+<app loc="795.12">
+<rdg>sô wendet (<subst><del>*</del><add>wendent</add></subst> <wit>V</wit>) mîn <wit>*T</wit> (<wit>V</wit>) So went min <wit>Z</wit></rdg>
+</app>
+<app loc="795.13">
+<rdg></rdg>
+</app>
+<app loc="795.14">
+<rdg></rdg>
+</app>
+<app loc="795.15">
+<rdg>iu. vürbaz w. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="795.16">
+<rdg></rdg>
+</app>
+<app loc="795.17">
+<rdg></rdg>
+</app>
+<app loc="795.18">
+<rdg></rdg>
+</app>
+<app loc="795.19">
+<rdg>nû lât in v. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="795.20">
+<rdg>&#x2193;<wit>*m</wit></rdg>
+</app>
+<app loc="795.21">
+<rdg>"nû (<note>om.</note> <wit>I</wit>) zeiget mir, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="795.22">
+<rdg></rdg>
+</app>
+<app loc="795.23">
+<rdg></rdg>
+</app>
+<app loc="795.24">
+<rdg>er viel <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="795.25">
+<rdg></rdg>
+</app>
+<app loc="795.26">
+<rdg></rdg>
+</app>
+<app loc="795.27">
+<rdg></rdg>
+</app>
+<app loc="795.28">
+<rdg>dô stuont er ûf unde sp. mêr: <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="795.29">
+<rdg></rdg>
+</app>
+<app loc="795.30">
+<rdg>sande <note>om.</note> <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

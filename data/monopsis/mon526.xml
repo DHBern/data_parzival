@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 526</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>01.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 526.01"><seg type="Initiale">D</seg>iu juncvrouwe reit uns mite.</l>
+<l n="*D 526.02">riweb&#x00E6;rec was ir site,</l>
+<l n="*D 526.03">durch daz ir hete genom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 526.04">der nie was in ir dienst kom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 526.05">ir kiuscheclîchen magetuom.</l>
+<l n="*D 526.06">ouch bezalt er dâ vil kleinen ruom</l>
+<l n="*D 526.07">gein ir unwerlîchen hant.</l>
+<l n="*D 526.08">mînen hêrr<reg type="Synkope">e</reg>n si mit zorne vant,</l>
+<l n="*D 526.09"><name type="Person">Artusen</name>, den getriwen.</l>
+<l n="*D 526.10">er sprach: 'die werlt sol immer riwen</l>
+<l n="*D 526.11">dirre vermaldîte mein.</l>
+<l n="*D 526.12">owê, daz ie der tag erschein,</l>
+<l n="*D 526.13">bî des liehte disiu nôt geschach</l>
+<l n="*D 526.14">unt dâ man mir gerihtes jach</l>
+<l n="*D 526.15">unt dâ ich hiute riht&#x00E6;r bin!'</l>
+<l n="*D 526.16"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach zer vrouwen: 'habt ir sin,</l>
+<l n="*D 526.17">nemt vürsprechen und klagt.'</l>
+<l n="*D 526.18">diu vrouwe was des unverzagt:</l>
+<l n="*D 526.19">si tet, als ir der künec riet.</l>
+<l n="*D 526.20">dâ <seg type="singuläre_Lesart">stuont</seg> von rîtern grôziu diet.</l>
+<l n="*D 526.21"><name type="Person">Urjans</name>, der vürste ûz <name type="Ort">Punturtoys</name>,</l>
+<l n="*D 526.22">der stuont<seg type="singuläre_Lesart"></seg> dâ vor dem <name type="Person">Bertenoys</name></l>
+<l n="*D 526.23">ûf al sîn êre unt ûf den lîp.</l>
+<l n="*D 526.24">vür gienc daz klagehafte wîp,</l>
+<l n="*D 526.25"><seg type="singuläre_Lesart">dâ ez</seg> rîche unt arme hôrten.</l>
+<l n="*D 526.26">si bat mit klagenden worten</l>
+<l n="*D 526.27">den künec durch alle wîpheit,</l>
+<l n="*D 526.28">daz er im lieze ir laster leit</l>
+<l n="*D 526.29"><seg type="singuläre_Lesart">sîn</seg>, unt durch mag<reg type="Synkope">e</reg>tuomlîch êre.</l>
+<l n="*D 526.30">si bat in vürbaz mêre</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="526.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app><app loc="526.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="526.07"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="526.16"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="526.19"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="526.01">
+<rdg>dô reit diu juncvrouwe uns mite. <wit>*m</wit></rdg>
+</app>
+<app loc="526.02">
+<rdg>riuwas was ir site, <wit>*m</wit></rdg>
+</app>
+<app loc="526.04">
+<lem>dienst</lem> <rdg>dienste <wit>*m</wit> <wit>G</wit> <wit>O</wit></rdg>
+<rdg><wit>O</wit> (<wit>Fr40</wit>)</rdg>
+</app>
+<app loc="526.10">
+<rdg>er sprach: "diu werlt sol riuwen <wit>*m</wit></rdg>
+</app>
+<app loc="526.11">
+<rdg>diser vermaledîten mein. <wit>*m</wit></rdg>
+</app>
+<app loc="526.12">
+<lem>ie</lem> <rdg>ir <wit>*m</wit></rdg>
+</app>
+<app loc="526.13">
+<rdg>bî des lieht disiu nôt geschach, <wit>*m</wit></rdg>
+</app>
+<app loc="526.14">
+<lem>unt dâ</lem> <rdg>daz <wit>*m</wit></rdg>
+</app>
+<app loc="526.15">
+<lem>hiute</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="526.20">
+<lem>stuont</lem> <rdg>was <wit>*m</wit></rdg>
+</app>
+<app loc="526.21">
+<lem>Urjans</lem> <rdg>Vrians <wit>D</wit> <wit>*m</wit></rdg>
+</app>
+<app loc="526.28">
+<rdg>daz im w&#x00E6;r ir kumber leit, <wit>*m</wit></rdg>
+</app>
+<app loc="526.28">
+<rdg>er liez im sîn ir laster (Daz er im liez ir laster sin <wit>Z</wit>) leit, <wit>*G</wit></rdg>
+</app>
+<app loc="526.28">
+<rdg>daz im w&#x00E6;re ir laster (ir laster were <wit>V</wit> <wit>O</wit>) leit, <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="526.29">
+<rdg>und durch magetlîche êre. <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="526.01">
+<rdg>Diu vrouwe r. uns allez m. <wit>*T</wit></rdg>
+</app>
+<app loc="526.02">
+<rdg>riuweb&#x00E6;re (Reweberic <wit>Z</wit>) wâren (waz <wit>L</wit>) ir s., <wit>*G</wit></rdg>
+</app>
+<app loc="526.03">
+<rdg>daz er ir <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="526.04">
+<rdg></rdg>
+</app>
+<app loc="526.05">
+<rdg></rdg>
+</app>
+<app loc="526.06">
+<rdg>ou. bejageter vil (do vil <wit>O</wit>) krankren r. <wit>*T</wit></rdg>
+</app>
+<app loc="526.07">
+<rdg></rdg>
+</app>
+<app loc="526.08">
+<rdg></rdg>
+</app>
+<app loc="526.09">
+<rdg></rdg>
+</app>
+<app loc="526.10">
+<rdg>er sp.: 'diu w. <wit>*T</wit> <note>(ohne O)</note> · sol riuwen <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="526.11">
+<rdg>diz (Diz vil <wit>V</wit> Daz <wit>O</wit>) vervluochete (verluchte <wit>U</wit>) m. <wit>*T</wit></rdg>
+</app>
+<app loc="526.12">
+<rdg></rdg>
+</app>
+<app loc="526.13">
+<rdg></rdg>
+</app>
+<app loc="526.14">
+<rdg></rdg>
+</app>
+<app loc="526.15">
+<rdg></rdg>
+</app>
+<app loc="526.16">
+<rdg></rdg>
+</app>
+<app loc="526.17">
+<rdg></rdg>
+</app>
+<app loc="526.18">
+<rdg></rdg>
+</app>
+<app loc="526.19">
+<rdg></rdg>
+</app>
+<app loc="526.20">
+<rdg>dâ (hie <wit>I</wit>) was von <wit>*G</wit></rdg>
+</app>
+<app loc="526.21">
+<rdg>Vrians, der <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="526.22">
+<rdg>der <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="526.23">
+<rdg></rdg>
+</app>
+<app loc="526.24">
+<rdg></rdg>
+</app>
+<app loc="526.25">
+<rdg></rdg>
+</app>
+<app loc="526.26">
+<rdg></rdg>
+</app>
+<app loc="526.27">
+<rdg></rdg>
+</app>
+<app loc="526.28">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="526.29">
+<rdg>unt d. magetlîch (manlich <wit>I</wit>) êre. <wit>*G</wit> · unde d. magetuomlîche êre. <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="526.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

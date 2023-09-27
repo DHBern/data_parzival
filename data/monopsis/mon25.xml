@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 25</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>14.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 25.01">wir solden vîende wênic sparn,</l>
+<l n="*D 25.02">sît <name type="Person">Vridebrant</name> ist hin gevarn.</l>
+<l n="*D 25.03">der l&#x0153;set dort sîn eigen lant.</l>
+<l n="*D 25.04">ein künec, heizet <name type="Person">Hernant</name>,</l>
+<l n="*D 25.05">den er durch <name type="Person">Herlinde</name> sluoc,</l>
+<l n="*D 25.06">des mâge tuont im leit genuoc.</l>
+<l n="*D 25.07">sine wellent sich es niht mâzen.</l>
+<l n="*D 25.08">er hât hie helde lâzen:</l>
+<l n="*D 25.09">den herzogen <name type="Person">Hiuteger</name>,</l>
+<l n="*D 25.10">des rîtertât uns manegiu sêr</l>
+<l n="*D 25.11">vrumt, unt sîn geselleschaft.</l>
+<l n="*D 25.12">ir strît hât kunst unt kraft.</l>
+<l n="*D 25.13">sô hât hie manegen soldier</l>
+<l n="*D 25.14">von <name type="Ort">Normandie</name> <name type="Person">Gaschier</name>,</l>
+<l n="*D 25.15">der wîse degen hêre.</l>
+<l n="*D 25.16">noch hât hie rîter mêre</l>
+<l n="*D 25.17"><name type="Person">Kaylet</name> von <name type="Ort">Hoskurast</name>,</l>
+<l n="*D 25.18">manegen zornigen gast.</l>
+<l n="*D 25.19">die br&#x00E6;hten alle in ditze lant</l>
+<l n="*D 25.20">der <name type="Person">Schotten</name> künec <name type="Person">Vridebrant</name></l>
+<l n="*D 25.21">unt sîner g<reg type="Synkope">e</reg>nôze viere</l>
+<l n="*D 25.22">mit manegem soldiere.</l>
+<l n="*D 25.23"><seg type="Initiale"><corr type="Emendation">W</corr></seg>esterhalp dor<corr type="Emendation">t</corr> an dem mer,</l>
+<l n="*D 25.24">dâ lît <name type="Person">Isenhartes</name> her</l>
+<l n="*D 25.25">mit vliezenden ougen.</l>
+<l n="*D 25.26">offenlîch noch tougen</l>
+<l n="*D 25.27">gesach si <corr type="Emendation">n</corr>immer mêr dehein man,</l>
+<l n="*D 25.28">sine m<corr type="Emendation">üe</corr>sen jâmers wunder hân.</l>
+<l n="*D 25.29">ir herzen regen die güsse warp,</l>
+<l n="*D 25.30">sît an der tjost ir hêrre starp."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr14</wit> <note>(25.13-30)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr29</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="25.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="25.13"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="25.23"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr14</wit> <wit>G</wit> <wit>L</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="25.06">
+<lem>leit</lem> <rdg>lîdens <wit>*m</wit></rdg>
+</app>
+<app loc="25.10">
+<rdg>- des ritter tet uns menige swer -, <wit>*m</wit></rdg>
+</app>
+<app loc="25.10">
+<rdg>des rîters tât uns manic sêr <wit>*G</wit></rdg>
+</app>
+<app loc="25.10">
+<rdg>des rîter hant (du&#x0366;nt <wit>U</wit> [<wit>V</wit> <wit>L</wit>]) uns manegiu (manigin <wit>U</wit> manig <wit>V</wit>) sêr (swer <wit>L</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="25.11">
+<rdg>vriunt und sîn geselleschaft. <wit>*m</wit></rdg>
+</app>
+<app loc="25.15">
+<lem>der</lem> <rdg>so <wit>Fr14</wit></rdg>
+</app>
+<app loc="25.19">
+<lem>br&#x00E6;hten</lem> <rdg>brachter <wit>Fr14</wit> (<wit>L</wit>) brâhten <wit>*m</wit></rdg>
+</app>
+<app loc="25.20">
+<lem>der</lem> <rdg>dirre <wit>*m</wit></rdg>
+</app>
+<app loc="25.21">
+<lem>sîner</lem> <rdg>sine <wit>Fr14</wit></rdg>
+</app>
+<app loc="25.23">
+<lem>Westerhalp dort</lem> <rdg>&#x00F7;esterhalp dor <wit>D</wit></rdg>
+</app>
+<app loc="25.27">
+<lem>nimmer</lem> <rdg>mimmer <wit>D</wit></rdg>
+</app>
+<app loc="25.28">
+<lem>müesen</lem> <rdg>mv&#x0366;sen <wit>D</wit> (<wit>Fr14</wit>)</rdg>
+</app>
+<app loc="25.29">
+<rdg>ir herze sô gar verdarp, <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="25.01">
+<rdg></rdg>
+</app>
+<app loc="25.02">
+<rdg>ist hinnen g. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="25.03">
+<rdg></rdg>
+</app>
+<app loc="25.04">
+<rdg>ein künic, der hiez (heisset <wit>V</wit>) H., <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="25.05">
+<rdg>Berlinde ersluoc (slu&#x0366;c <wit>U</wit> [<wit>V</wit>]), <wit>*T</wit></rdg>
+</app>
+<app loc="25.06">
+<rdg></rdg>
+</app>
+<app loc="25.07">
+<rdg></rdg>
+</app>
+<app loc="25.08">
+<rdg>helde verlâzen (gelazen <wit>U</wit> [<wit>V</wit> <wit>L</wit>]): <wit>*T</wit></rdg>
+</app>
+<app loc="25.09">
+<rdg></rdg>
+</app>
+<app loc="25.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="25.11">
+<rdg>gevrumt, und (Geru&#x0366;met vnd <wit>U</wit> <subst><del>*</del><add>Vnde dar zv&#x0366;</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="25.12">
+<rdg></rdg>
+</app>
+<app loc="25.13">
+<rdg></rdg>
+</app>
+<app loc="25.14">
+<rdg></rdg>
+</app>
+<app loc="25.15">
+<rdg></rdg>
+</app>
+<app loc="25.16">
+<rdg>ouch hât <wit>*G</wit> <note>(ohne L)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="25.17">
+<rdg></rdg>
+</app>
+<app loc="25.18">
+<rdg>vil manigen <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="25.19">
+<rdg>die brâht a. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="25.20">
+<rdg></rdg>
+</app>
+<app loc="25.21">
+<rdg></rdg>
+</app>
+<app loc="25.22">
+<rdg></rdg>
+</app>
+<app loc="25.23">
+<rdg>Dort westerthalp (westert <wit>L</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="25.24">
+<rdg></rdg>
+</app>
+<app loc="25.25">
+<rdg>mit riezenden ou. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="25.26">
+<rdg></rdg>
+</app>
+<app loc="25.27">
+<rdg>g. si niemer sît (me <wit>U</wit> <note>om.</note> <wit>V</wit>) kein man, <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="25.28">
+<rdg>j. vil hân. <wit>*T</wit></rdg>
+</app>
+<app loc="25.29">
+<rdg>r. in (in regen <wit>O</wit> regen ein <wit>U</wit> <wit>V</wit>) g. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="25.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

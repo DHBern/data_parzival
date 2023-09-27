@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 336</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>18.01.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 336.01"><name type="Person"><seg type="Initiale">E</seg>ckuba</name>, diu junge,</l>
+<l n="*D 336.02">vuor gein ir schiffunge,</l>
+<l n="*D 336.03">ich meine die rîchen <name type="Person">heidenîn</name>.</l>
+<l n="*D 336.04">dô kêrte manegen ende hin</l>
+<l n="*D 336.05">daz volc von dem <name type="Ort">Plimiz&#x0153;l</name>.</l>
+<l n="*D 336.06"><name type="Person">Artus</name> vuor gein <name type="Ort">Karidol</name>.</l>
+<l n="*D 336.07"><name type="Person">Cunneware</name> unt <name type="Person">Clamide</name>,</l>
+<l n="*D 336.08">die nâm<reg type="Synkope">e</reg>n ouch sînen urloub ê.</l>
+<l n="*D 336.09"><name type="Person">Orilus</name>, der vürste erkant,</l>
+<l n="*D 336.10">unt vrou <name type="Person">Jeschute</name> von <name type="Ort">Karnant</name>,</l>
+<l n="*D 336.11">die nâm<reg type="Synkope">e</reg>n ouch sînen urloub sân,</l>
+<l n="*D 336.12">doch beliben si ûf dem plân</l>
+<l n="*D 336.13">bî <name type="Person">Clamide</name> den dritten tac,</l>
+<l n="*D 336.14">wand<reg type="Synkope">e</reg>r der brûtloufte pflac,</l>
+<l n="*D 336.15">niht mit benant<reg type="Synkope">e</reg>r hôchgezît.</l>
+<l n="*D 336.16">si wart dâ heime gr&#x0153;zer sît,</l>
+<l n="*D 336.17">wand im sîn milte daz geriet.</l>
+<l n="*D 336.18">vil ritt<reg type="Synkope">e</reg>r, kumberhaftiu diet,</l>
+<l n="*D 336.19">beleib in <name type="Person">Cl<corr type="Emendation">a</corr>mides</name> schar</l>
+<l n="*D 336.20">unt ouch daz varende volc vil gar,</l>
+<l n="*D 336.21">die vuorter heim ze lande.</l>
+<l n="*D 336.22">mit êren, âne schande</l>
+<l n="*D 336.23">wart in geteilet dâ sîn habe,</l>
+<l n="*D 336.24">mit valsche niht gewîset abe.</l>
+<l n="*D 336.25"><seg type="Initiale" subtype="Majuskel">D</seg>ô vuor vrou <name type="Person">Jeschute</name></l>
+<l n="*D 336.26">mit <name type="Person">Orilus</name>, ir trûte,</l>
+<l n="*D 336.27">durch <name type="Person">Clamiden</name> ze <name type="Ort">Brandigan</name>.</l>
+<l n="*D 336.28">daz wart zeinen êren getân</l>
+<l n="*D 336.29">vroun <name type="Person">Cunnewaren</name>, der künegîn:</l>
+<l n="*D 336.30">dâ krônte man die swest<reg type="Synkope">e</reg>r sîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="336.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Z</wit> <wit>T</wit> <wit>U</wit>
+</rdg></app>
+<app loc="336.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="336.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="336.01">
+<rdg>Ekuba die iunge <wit>Z</wit></rdg>
+</app>
+<app loc="336.02">
+<rdg>Fvr gegen ir stiffunge <wit>Z</wit></rdg>
+</app>
+<app loc="336.04">
+<rdg>dô kêrte an manigen enden hin <wit>*m</wit></rdg>
+</app>
+<app loc="336.04">
+<rdg>Da kerte manigen enden hin <wit>Z</wit></rdg>
+</app>
+<app loc="336.05">
+<rdg>Daz volc von dem plimizol <wit>Z</wit></rdg>
+</app>
+<app loc="336.05">
+<lem>dem</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="336.06">
+<rdg>Artus fur gein karidol <wit>Z</wit></rdg>
+</app>
+<app loc="336.07">
+<rdg>Cvnneware vnd Clamide <wit>Z</wit></rdg>
+</app>
+<app loc="336.08">
+<rdg>Namen ovch sinen vrlovp e <wit>Z</wit></rdg>
+</app>
+<app loc="336.09">
+<rdg>Orilus der furste erkant <wit>Z</wit></rdg>
+</app>
+<app loc="336.10">
+<rdg>Vnd frow Jescute von karnant <wit>Z</wit></rdg>
+</app>
+<app loc="336.11">
+<rdg>Die namen ouch sinen vrlovp san <wit>Z</wit></rdg>
+</app>
+<app loc="336.12">
+<rdg>Jedoch blibens vf dem plan <wit>Z</wit></rdg>
+</app>
+<app loc="336.12">
+<lem>doch</lem> <rdg>iedoch <wit>*m</wit></rdg>
+</app>
+<app loc="336.13">
+<rdg>Bi clamide den dritten tac <wit>Z</wit></rdg>
+</app>
+<app loc="336.15">
+<rdg>Niht mit benanter hohzit <wit>Z</wit></rdg>
+</app>
+<app loc="336.16">
+<rdg>Sie wart da heim grozzer sit <wit>Z</wit></rdg>
+</app>
+<app loc="336.17">
+<rdg>Wan im sin milte daz geriet <wit>Z</wit></rdg>
+</app>
+<app loc="336.18">
+<rdg>vil ritter und (<note>om.</note> <wit>V</wit>) kumberhafter diet <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="336.18">
+<rdg>Vil ritter kummerhafte diet <wit>Z</wit></rdg>
+</app>
+<app loc="336.19">
+<rdg>Beleip an clamides schar <wit>Z</wit></rdg>
+</app>
+<app loc="336.19">
+<lem>in</lem> <rdg>an <wit>*m</wit></rdg>
+</app>
+<app loc="336.19">
+<lem>Clamides</lem> <rdg>Chlmides <wit>D</wit></rdg>
+</app>
+<app loc="336.20">
+<rdg>Vnd ouch daz varnde volc vil gar <wit>Z</wit></rdg>
+</app>
+<app loc="336.20">
+<lem>vil</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="336.21">
+<rdg>Die furt er heim zv lande <wit>Z</wit></rdg>
+</app>
+<app loc="336.22">
+<rdg>Mit eren ane schande <wit>Z</wit></rdg>
+</app>
+<app loc="336.23">
+<rdg>Wart in geteilt da sin habe <wit>Z</wit></rdg>
+</app>
+<app loc="336.24">
+<rdg>Mit falsche niht gewiset abe <wit>Z</wit></rdg>
+</app>
+<app loc="336.25">
+<rdg>Da fur frow Jescute <wit>Z</wit></rdg>
+</app>
+<app loc="336.26">
+<rdg>Mit orilus ir trute <wit>Z</wit></rdg>
+</app>
+<app loc="336.27">
+<rdg>Durch clamiden zv brandigan <wit>Z</wit></rdg>
+</app>
+<app loc="336.28">
+<rdg>Daz wart zv einen eren getan <wit>Z</wit></rdg>
+</app>
+<app loc="336.29">
+<rdg>Frowen kvnewaren der kunigin <wit>Z</wit></rdg>
+</app>
+<app loc="336.30">
+<rdg>Da kronte man die swester sin <wit>Z</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="336.01">
+<rdg><note>Die Verse 336.1-30 fehlen</note> &#x2193;<wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="336.02">
+<rdg></rdg>
+</app>
+<app loc="336.03">
+<rdg>ich m., diu rîche h. (heidemin <wit>U</wit>). <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="336.04">
+<rdg>dô k. in m. enden hin <wit>*T</wit></rdg>
+</app>
+<app loc="336.05">
+<rdg></rdg>
+</app>
+<app loc="336.06">
+<rdg></rdg>
+</app>
+<app loc="336.07">
+<rdg>unde Cl. <wit>*T</wit></rdg>
+</app>
+<app loc="336.08">
+<rdg>die <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="336.09">
+<rdg></rdg>
+</app>
+<app loc="336.10">
+<rdg>von Garnant <wit>*T</wit></rdg>
+</app>
+<app loc="336.11">
+<rdg>die <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="336.12">
+<rdg></rdg>
+</app>
+<app loc="336.13">
+<rdg>durch Cl. <wit>*T</wit></rdg>
+</app>
+<app loc="336.14">
+<rdg>wand er (der <wit>U</wit>) dâ br. pf., <wit>*T</wit> (<wit>Z</wit>)</rdg>
+</app>
+<app loc="336.15">
+<rdg></rdg>
+</app>
+<app loc="336.16">
+<rdg></rdg>
+</app>
+<app loc="336.17">
+<rdg></rdg>
+</app>
+<app loc="336.18">
+<rdg></rdg>
+</app>
+<app loc="336.19">
+<rdg><note>Versfolge 336.20-19</note> <wit>*T</wit> · bliben an Cl. sch., <wit>*T</wit></rdg>
+</app>
+<app loc="336.20">
+<rdg>volc gar <wit>*T</wit></rdg>
+</app>
+<app loc="336.21">
+<rdg></rdg>
+</app>
+<app loc="336.22">
+<rdg></rdg>
+</app>
+<app loc="336.23">
+<rdg></rdg>
+</app>
+<app loc="336.24">
+<rdg>n. gelenet (geleidet <wit>U</wit>) abe. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="336.25">
+<rdg>ouch v. (vu&#x0366;rte <wit>U</wit>) vr. J. <wit>*T</wit></rdg>
+</app>
+<app loc="336.26">
+<rdg></rdg>
+</app>
+<app loc="336.27">
+<rdg></rdg>
+</app>
+<app loc="336.28">
+<rdg>daz w. zêren g. <wit>*T</wit></rdg>
+</app>
+<app loc="336.29">
+<rdg>Cunnewarn, der (die <wit>U</wit>) swester sîn: <wit>*T</wit></rdg>
+</app>
+<app loc="336.30">
+<rdg>dâ krônde man die künegîn. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

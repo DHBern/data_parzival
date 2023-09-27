@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 528</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>02.06.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 528.01"><seg type="Initiale">D</seg>az si durch wîbes güete</l>
+<l n="*D 528.02"><seg type="singuläre_Lesart">senfte</seg> ir gemüete,</l>
+<l n="*D 528.03">sît daz si m<corr type="Emendation">üe</corr>se ir minne jeh<reg type="Synkope">e</reg>n,</l>
+<l n="*D 528.04">swaz ir dâ was von im gescheh<reg type="Synkope">e</reg>n</l>
+<l n="*D 528.05">unt ir clârem lîbe;</l>
+<l n="*D 528.06">unt ob ieman von wîbe</l>
+<l n="*D 528.07">mit dienste k&#x0153;me in herzenôt,</l>
+<l n="*D 528.08">ob si im dâ nâch ir helfe bôt -</l>
+<l n="*D 528.09">'der helfe tuot ez zêren.</l>
+<l n="*D 528.10">lât iuch von zorne kêren.'</l>
+<l n="*D 528.11"><seg type="Initiale" subtype="Majuskel">I</seg>ch bat den künec unt sîne man,</l>
+<l n="*D 528.12">ob ich im hete getân</l>
+<l n="*D 528.13">keinen dienst, daz ers ged&#x00E6;hte,</l>
+<l n="*D 528.14">daz er mir lasters &#x00E6;hte</l>
+<l n="*D 528.15">mit eime site werte,</l>
+<l n="*D 528.16">daz er den rîter nerte.</l>
+<l n="*D 528.17"><seg type="Initiale" subtype="Majuskel">S</seg>în wîp, die küneginne,</l>
+<l n="*D 528.18">bat ich durch sippe minne,</l>
+<l n="*D 528.19">wand mich der künec von kinde zôch</l>
+<l n="*D 528.20">unt daz mîn triwe ie gein ir vlôch,</l>
+<l n="*D 528.21">daz si mir hülfe. daz geschach.</l>
+<l n="*D 528.22">di<corr type="Emendation">e</corr> juncvrouwe<corr type="Emendation">n</corr> si sunder sprach.</l>
+<l n="*D 528.23"><seg type="Initiale" subtype="Majuskel">D</seg>ô g<reg type="Synkope">e</reg>nas er durch die künegîn;</l>
+<l n="*D 528.24">er muose aber lîden hôhen pîn.</l>
+<l n="*D 528.25">sus wart sîn lîp gereinet,</l>
+<l n="*D 528.26">solch wandel im bescheinet:</l>
+<l n="*D 528.27">ez w&#x00E6;re vorlouft oder leithunt,</l>
+<l n="*D 528.28">ûz eime troge az sîn munt</l>
+<l n="*D 528.29">mit in dâ vier wochen.</l>
+<l n="*D 528.30">sus wart diu vrouwe gerochen.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="528.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>O</wit>
+</rdg></app>
+<app loc="528.11"><rdg>
+ <note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="528.17"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="528.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="528.02">
+<lem>senfte</lem> <rdg>senfter <wit>*m</wit></rdg>
+</app>
+<app loc="528.03">
+<lem>müese</lem> <rdg>mv&#x0366;se <wit>D</wit></rdg>
+</app>
+<app loc="528.04">
+<lem>geschehen</lem> <rdg>beschehen <wit>*m</wit></rdg>
+</app>
+<app loc="528.05">
+<rdg>und ir clâren lîbe. <wit>*m</wit></rdg>
+</app>
+<app loc="528.06">
+<lem>unt ob</lem> <rdg>ob dô <wit>*m</wit></rdg>
+</app>
+<app loc="528.13">
+<rdg>kein dienst, daz ers ged&#x00E6;hte <wit>*m</wit></rdg>
+</app>
+<app loc="528.14">
+<rdg>und &#x2020;ers&#x2020; mirs (Vnde er mir <wit>V</wit>) lasters &#x00E6;hte <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="528.16">
+<lem>nerte</lem> <rdg>ernerte <wit>*m</wit></rdg>
+</app>
+<app loc="528.17">
+<rdg>mîn vrouwe, die küniginne, <wit>*m</wit></rdg>
+</app>
+<app loc="528.22">
+<lem>die juncvrouwen</lem> <rdg>div ivnchfro&#x036E;we <wit>D</wit> die ivncvrowe <wit>T</wit></rdg>
+</app>
+<app loc="528.26">
+<rdg>solch buoz im erscheinet: <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="528.01">
+<rdg></rdg>
+</app>
+<app loc="528.02">
+<rdg>senftert (Senfter <wit>U</wit>) <wit>*T</wit> <note>(ohne O)</note> (<wit>L</wit>)</rdg>
+</app>
+<app loc="528.03">
+<rdg>minne im j., <wit>*T</wit></rdg>
+</app>
+<app loc="528.04">
+<rdg>dâ was g. <wit>*G</wit> <note>(nur GI)</note> dâ von im was g. <wit>*T</wit></rdg>
+</app>
+<app loc="528.05">
+<rdg>an ir clâren lîbe. <wit>*T</wit></rdg>
+</app>
+<app loc="528.06">
+<rdg>'ob ie. <wit>*T</wit></rdg>
+</app>
+<app loc="528.07">
+<rdg>mit d. kom in kumbers nôt (in herzen not <wit>I</wit> ir herte not <wit>L</wit>), <wit>*T</wit> (<wit>I</wit> <wit>L</wit>)</rdg>
+</app>
+<app loc="528.08">
+<rdg>ob si (<note>om.</note> <wit>U</wit>) dar n. im (<subst><del>*</del><add>im ir</add></subst> <wit>V</wit>) h. bôt, <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="528.09">
+<rdg>der h. <wit>*T</wit></rdg>
+</app>
+<app loc="528.10">
+<rdg>lât iu. von kumber k.' <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="528.11">
+<rdg></rdg>
+</app>
+<app loc="528.12">
+<rdg>im ie h. <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="528.13">
+<rdg></rdg>
+</app>
+<app loc="528.14">
+<rdg></rdg>
+</app>
+<app loc="528.15">
+<rdg>mit einem s. (Mit gv&#x0366;tem willen <wit>O</wit>) werte <wit>*T</wit></rdg>
+</app>
+<app loc="528.16">
+<rdg>unde den r. n. <wit>*T</wit></rdg>
+</app>
+<app loc="528.17">
+<rdg></rdg>
+</app>
+<app loc="528.18">
+<rdg></rdg>
+</app>
+<app loc="528.19">
+<rdg></rdg>
+</app>
+<app loc="528.20">
+<rdg>gegen im vl., <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="528.21">
+<rdg></rdg>
+</app>
+<app loc="528.22">
+<rdg></rdg>
+</app>
+<app loc="528.23">
+<rdg></rdg>
+</app>
+<app loc="528.24">
+<rdg></rdg>
+</app>
+<app loc="528.25">
+<rdg></rdg>
+</app>
+<app loc="528.26">
+<rdg></rdg>
+</app>
+<app loc="528.27">
+<rdg></rdg>
+</app>
+<app loc="528.28">
+<rdg>ûz einem tr. als ein hunt (<subst><del>*</del><add>as sin mvnt</add></subst> <wit>V</wit>) <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="528.29">
+<rdg>az er mit in (im <wit>U</wit>) v. w. (<subst><del>*</del><add>Mit in do vier wochen</add></subst> <wit>V</wit>). <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="528.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

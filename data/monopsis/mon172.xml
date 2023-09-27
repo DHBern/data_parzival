@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 172</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 172.01">ir müezet dicke wâpen trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 172.02">sôz von iu kom, daz ir getwag<reg type="Synkope">e</reg>n</l>
+<l n="*D 172.03">und<reg type="Synkope">e</reg>r ougen unt an handen sît,</l>
+<l n="*D 172.04">des ist nâch îsers râme zît.</l>
+<l n="*D 172.05"></l>
+<l n="*D 172.06"></l>
+<l n="*D 172.07">sît manlîch unt wol gemuot,</l>
+<l n="*D 172.08">daz ist ze werdem prîse iu guot.</l>
+<l n="*D 172.09"><seg type="Initiale">U</seg>nd lât iu liep sîn diu wîp,</l>
+<l n="*D 172.10">daz tiwert junges mannes lîp.</l>
+<l n="*D 172.11">gewenket nimmer tag an in,</l>
+<l n="*D 172.12">daz ist rehte manlîcher sin.</l>
+<l n="*D 172.13">welt ir in gerne liegen,</l>
+<l n="*D 172.14">ir muget ir vil betriegen.</l>
+<l n="*D 172.15">gein werd<reg type="Synkope">e</reg>r minne valscher list</l>
+<l n="*D 172.16">hât gein prîse kurze vrist.</l>
+<l n="*D 172.17">dâ wirt der slîch&#x00E6;re klage</l>
+<l n="*D 172.18">daz dürre holz ime hage,</l>
+<l n="*D 172.19">daz bristet unt krachet;</l>
+<l n="*D 172.20">der waht&#x00E6;re erwachet.</l>
+<l n="*D 172.21">ungeverte und hâmît,</l>
+<l n="*D 172.22">dâr gedîhet manec strît.</l>
+<l n="*D 172.23"><seg type="Initiale" subtype="Majuskel">D</seg>iz zelt gein der minne.</l>
+<l n="*D 172.24">diu werde hât sinne,</l>
+<l n="*D 172.25">gein valsche listeclîch kunst.</l>
+<l n="*D 172.26">swenn ir bejaget ir ungunst,</l>
+<l n="*D 172.27">sô müezet ir g<reg type="Synkope">e</reg>unêret sîn</l>
+<l n="*D 172.28">unt immer dulten schamenden pîn.</l>
+<l n="*D 172.29">dise lêre sult ir nâhe trag<reg type="Synkope">e</reg>n.</l>
+<l n="*D 172.30">ich wil iu mêr von wîbes orden sag<reg type="Synkope">e</reg>n:</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <note>(ohne 172.5-6)</note>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <note>(ohne 172.5-6)</note> <wit>Fr69</wit> <note>(172.11-13, 16-18 und 24-26)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="172.01"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="172.01"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="172.07"><rdg>
+<note>Initiale</note> <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>
+</rdg></app>
+<app loc="172.09"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="172.15"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="172.19"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="172.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="172.29"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="172.08">
+<lem>iu</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="172.19">
+<lem>daz</lem> <rdg>ez <wit>*m</wit> (<wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="172.23">
+<lem>Diz zelt</lem> <rdg>diz mezzet (messer <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="172.26">
+<lem>ir</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="172.01">
+<rdg>m. ouch (doch <wit>O</wit> <wit>Fr21</wit>) d. <wit>*G</wit> <note>(ohne LZ)</note></rdg>
+</app>
+<app loc="172.02">
+<rdg></rdg>
+</app>
+<app loc="172.03">
+<rdg>u. den (vnd <wit>I</wit> Vnder <wit>L</wit> <wit>U</wit> <wit>V</wit>) ou. unde an den (<note>om.</note> <wit>Z</wit>) h. sît, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="172.04">
+<rdg>daz ist <wit>*T</wit> <wit>I</wit> · zît, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="172.05">
+<rdg>sô werdet ir minniclîch gevar (var <wit>*T</wit> <note>[ohne V]</note>), <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="172.06">
+<rdg>des nement (nemen <wit>Fr21</wit> nemet <wit>*T</wit> <note>[ohne V]</note>) wîbes ougen war. <wit>*G</wit> (<wit>V</wit>) (<wit>*T</wit>)</rdg>
+</app>
+<app loc="172.07">
+<rdg>weset (&#x00F7;est <wit>O</wit> Sit <wit>L</wit>) m. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="172.08">
+<rdg>ze werdem (zeder werlde <wit>O</wit> [<wit>Fr21</wit>] zu̽ werden <wit>L</wit> ze menlîchem <wit>*T</wit>) brîse g. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="172.09">
+<rdg><note>Versfolge 172.10-9</note> <wit>*T</wit> · Und <note>om.</note> <wit>*G</wit> · liep wesen diu <wit>*T</wit></rdg>
+</app>
+<app loc="172.10">
+<rdg></rdg>
+</app>
+<app loc="172.11">
+<rdg></rdg>
+</app>
+<app loc="172.12">
+<rdg></rdg>
+</app>
+<app loc="172.13">
+<rdg></rdg>
+</app>
+<app loc="172.14">
+<rdg></rdg>
+</app>
+<app loc="172.15">
+<rdg></rdg>
+</app>
+<app loc="172.16">
+<rdg>hât ze pr. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="172.17">
+<rdg>daz w. <wit>*T</wit></rdg>
+</app>
+<app loc="172.18">
+<rdg></rdg>
+</app>
+<app loc="172.19">
+<rdg>daz <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="172.20">
+<rdg></rdg>
+</app>
+<app loc="172.21">
+<rdg></rdg>
+</app>
+<app loc="172.22">
+<rdg></rdg>
+</app>
+<app loc="172.23">
+<rdg>daz mezzet (messen <wit>L</wit> <subst><del>*et</del><add>mezet</add></subst> <wit>V</wit>) g. der m. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="172.24">
+<rdg></rdg>
+</app>
+<app loc="172.25">
+<rdg></rdg>
+</app>
+<app loc="172.26">
+<rdg>ir (<subst><del>*</del><add>ir</add></subst> <wit>V</wit>) <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="172.27">
+<rdg></rdg>
+</app>
+<app loc="172.28">
+<rdg>doln <wit>*T</wit></rdg>
+</app>
+<app loc="172.29">
+<rdg>Die l. <wit>*T</wit> <note>(nur T)</note></rdg>
+</app>
+<app loc="172.30">
+<rdg>wil niht (<subst><del>*</del><add>wil v́ch</add></subst> <wit>V</wit>) mêr <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

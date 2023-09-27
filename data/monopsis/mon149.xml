@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 149</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 149.01">im kunde niem<reg type="Synkope">e</reg>n vîent sîn.</l>
+<l n="*D 149.02">dô besach in ouch diu künegîn,</l>
+<l n="*D 149.03">ê si schiede von dem palas,</l>
+<l n="*D 149.04">dâ si dâ vor begozzen was.</l>
+<l n="*D 149.05"><name type="Person">Artus</name> an de<corr type="Emendation">n</corr> knappen sach,</l>
+<l n="*D 149.06">zuo dem tumben er dô sprach:</l>
+<l n="*D 149.07">"junchêrre, got vergelde iu gruoz,</l>
+<l n="*D 149.08">den ich gerne dienen muoz</l>
+<l n="*D 149.09">mit dem lîbe unt mit dem guote.</l>
+<l n="*D 149.10">des ist mir wol ze muote."</l>
+<l n="*D 149.11">"wolt êt got, wan w&#x00E6;re daz wâr!</l>
+<l n="*D 149.12">der wîle dunket mich ein jâr,</l>
+<l n="*D 149.13">daz ich niht ritt<reg type="Synkope">e</reg>r wesen sol.</l>
+<l n="*D 149.14">daz tuot mir wirs denne wol.</l>
+<l n="*D 149.15">nûne sûmet mich niht mêre,</l>
+<l n="*D 149.16">pflegt mîn nâch ritt<reg type="Synkope">e</reg>rs êre."</l>
+<l n="*D 149.17">"daz tuon ich gerne", sprach der wirt,</l>
+<l n="*D 149.18">"ob werdecheit mich niht verbirt.</l>
+<l n="*D 149.19"><seg type="Initiale">D</seg>û bist wol sô gehiure,</l>
+<l n="*D 149.20">rîch an koste stiure</l>
+<l n="*D 149.21">wirt dir mîn gâbe undertân.</l>
+<l n="*D 149.22">dêswâr, ich solz ungerne lân.</l>
+<l n="*D 149.23">dû solt unze morgen beiten,</l>
+<l n="*D 149.24">ich wil dich wol bereiten."</l>
+<l n="*D 149.25">der wol geborne knapp<reg type="Synkope">e</reg></l>
+<l n="*D 149.26">hielt gagernde als ein trappe.</l>
+<l n="*D 149.27">er sprach: "ine wil hie nihtes bîten.</l>
+<l n="*D 149.28">mir kom ein ritt<reg type="Synkope">e</reg>r widerriten.</l>
+<l n="*D 149.29">mac mir des harnasch werden niht,</l>
+<l n="*D 149.30">ine ruoche, wer küneges gâbe giht.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="149.02"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="149.05"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="149.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="149.11"><rdg>
+<note>Initiale</note> <wit>I</wit> 
+</rdg></app><app loc="149.11"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="149.19"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="149.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="149.25"><rdg>
+<note>Initiale</note> <wit>I</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="149.02">
+<rdg>nû (dô <wit>*T</wit>) sach in ouch (in Geshach selb <wit>I</wit> Do gesach in avch <wit>O</wit> Do besach ouch <wit>L</wit>) diu künigîn, <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>) <note>(ohne T)</note></rdg>
+</app>
+<app loc="149.04">
+<lem>dâ vor</lem> <rdg>vor <wit>*m</wit></rdg>
+</app>
+<app loc="149.05">
+<lem>den</lem> <rdg>dem <wit>D</wit></rdg>
+</app>
+<app loc="149.07">
+<lem>iu</lem> <rdg>iuwer <wit>*m</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="149.08">
+<lem>gerne</lem> <rdg>vil gerne <wit>*m</wit></rdg>
+</app>
+<app loc="149.09">
+<rdg>mit lîbe und ouch mit guote. <wit>*m</wit></rdg>
+</app>
+<app loc="149.11">
+<lem>êt</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="149.11">
+<lem>daz</lem> <rdg>ez <wit>*m</wit></rdg>
+</app>
+<app loc="149.22">
+<lem>solz</lem> <rdg>solte ez <wit>*m</wit> (<wit>Z</wit> <wit>T</wit>)</rdg>
+</app>
+<app loc="149.26">
+<lem>gagernde</lem> <rdg>dâ gernde <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="149.01">
+<rdg></rdg>
+</app>
+<app loc="149.02">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="149.03">
+<rdg></rdg>
+</app>
+<app loc="149.04">
+<rdg>dâr ûffe si b. was. <wit>*G</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="149.05">
+<rdg>der künic an <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="149.06">
+<rdg></rdg>
+</app>
+<app loc="149.07">
+<rdg></rdg>
+</app>
+<app loc="149.08">
+<rdg>den ich vil g. d. m. <wit>*G</wit> <wit>V</wit> · den ich vil g. gedienen m. <wit>*T</wit></rdg>
+</app>
+<app loc="149.09">
+<rdg>mit l. und (vnd auch <wit>I</wit>) mit g. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="149.10">
+<rdg></rdg>
+</app>
+<app loc="149.11">
+<rdg>"daz wolt got, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="149.12">
+<rdg>die w. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="149.13">
+<rdg></rdg>
+</app>
+<app loc="149.14">
+<rdg></rdg>
+</app>
+<app loc="149.15">
+<rdg></rdg>
+</app>
+<app loc="149.16">
+<rdg></rdg>
+</app>
+<app loc="149.17">
+<rdg></rdg>
+</app>
+<app loc="149.18">
+<rdg></rdg>
+</app>
+<app loc="149.19">
+<rdg></rdg>
+</app>
+<app loc="149.20">
+<rdg>k. tiure (kostiwere <wit>O</wit>) <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="149.21">
+<rdg></rdg>
+</app>
+<app loc="149.22">
+<rdg></rdg>
+</app>
+<app loc="149.23">
+<rdg>solt biz m. <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="149.24">
+<rdg></rdg>
+</app>
+<app loc="149.25">
+<rdg></rdg>
+</app>
+<app loc="149.26">
+<rdg></rdg>
+</app>
+<app loc="149.27">
+<rdg></rdg>
+</app>
+<app loc="149.28">
+<rdg></rdg>
+</app>
+<app loc="149.29">
+<rdg></rdg>
+</app>
+<app loc="149.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

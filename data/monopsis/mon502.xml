@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 502</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>29.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 502.01"><seg type="Initiale">D</seg>urch rât si hânt den bett<reg type="Synkope">e</reg>risen.</l>
+<l n="*D 502.02"><seg type="singuläre_Lesart"></seg>in sîner jugent vurt und wisen</l>
+<l n="*D 502.03">reit er vil durch tjostier<reg type="Synkope">e</reg>n.</l>
+<l n="*D 502.04">wil dû dîn leben zieren</l>
+<l n="*D 502.05">unt <seg type="singuläre_Lesart">rehte</seg> werdeclîche varn,</l>
+<l n="*D 502.06">sô muostû haz gein wîben sparn.</l>
+<l n="*D 502.07">wîp unde pfaffen sint erkant,</l>
+<l n="*D 502.08">die tragent unwerlîche hant.</l>
+<l n="*D 502.09">sô reichet über pfaffen <seg type="singuläre_Lesart"></seg>gotes segen.</l>
+<l n="*D 502.10">der sol <seg type="singuläre_Lesart">dîn</seg> dienst mit triwen pfleg<reg type="Synkope">e</reg>n</l>
+<l n="*D 502.11">dar umbe, ob wirt dîn ende guot,</l>
+<l n="*D 502.12">dû muost ze<seg type="singuläre_Lesart">n</seg> pfaffen haben muot.</l>
+<l n="*D 502.13">swaz dîn ouge ûf erden siht,</l>
+<l n="*D 502.14">daz gelîchet sich dem priester niht.</l>
+<l n="*D 502.15">sîn munt die marter sprichet,</l>
+<l n="*D 502.16">diu unser vlust zerbrichet.</l>
+<l n="*D 502.17">ouch grîfet sîn gewîhtiu hant</l>
+<l n="*D 502.18">an daz h&#x0153;hste pfant,</l>
+<l n="*D 502.19">daz ie vür schult gesetzet wart.</l>
+<l n="*D 502.20">swelch priester sich hât sô bewart,</l>
+<l n="*D 502.21">daz er dem kiusche kan gegeb<reg type="Synkope">e</reg>n,</l>
+<l n="*D 502.22">wie m<corr type="Emendation">ö</corr>hte der heileclîcher leb<reg type="Synkope">e</reg>n?"</l>
+<l n="*D 502.23">diz was ir zweier scheidens tac.</l>
+<l n="*D 502.24"><name type="Person">Trevrizent</name> sich des bewac,</l>
+<l n="*D 502.25"><seg type="Initiale" subtype="Majuskel">E</seg>r sprach: "gip mir dîne sünde her</l>
+<l n="*D 502.26">- vor gote ich bin dîn wandels wer -</l>
+<l n="*D 502.27">und leist, als ich dir hân gesagt.</l>
+<l n="*D 502.28">belîp des willen unverzagt."</l>
+<l n="*D 502.29">von ein and<reg type="Synkope">e</reg>r schieden sie.</l>
+<l n="*D 502.30">ob ir welt, sô prüevet wie.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr57</wit> <note>(502.15-30)</note>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit> <wit>O</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="502.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>I</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit> <wit>V</wit> <wit>O</wit>
+</rdg></app>
+<app loc="502.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="502.23"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="502.25"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="502.29"><rdg>
+<note>Überschrift:</note> Hie lazen sich aventiwer von Parzifal vnd heuent sich von Gawan <wit>I</wit>
+</rdg></app><app loc="502.29"><rdg><note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="502.10">
+<lem>dîn dienst</lem> <rdg>dînes dienstes <wit>*m</wit></rdg>
+</app>
+<app loc="502.11">
+<rdg>dar umb wirt dîn ende guot, <wit>*m</wit></rdg>
+</app>
+<app loc="502.12">
+<lem>zen</lem> <rdg>zuom <wit>*m</wit></rdg>
+</app>
+<app loc="502.20">
+<lem>sich hât sô</lem> <rdg>hât sich sô (<subst><del>sih hat</del><add>hat sih</add></subst> so <wit>G</wit> sich so hat <wit>Fr57</wit> <wit>O</wit>) sô <wit>*G</wit> <note>(ohne LZ)</note> (<wit>O</wit>) sich hât <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="502.22">
+<rdg>wie möht er hêrlîcher leben?" <wit>*m</wit></rdg>
+</app>
+<app loc="502.22">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="502.29">
+<lem>schieden</lem> <rdg>scheiden <wit>*m</wit></rdg>
+</app>
+<app loc="502.30">
+<lem>ir</lem> <rdg>ir nû <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="502.01">
+<rdg>hânt (hanbt <wit>O</wit>) si <wit>*T</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="502.02">
+<rdg></rdg>
+</app>
+<app loc="502.03">
+<rdg>vil <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="502.04">
+<rdg></rdg>
+</app>
+<app loc="502.05">
+<rdg>unde nâch rehter werdecheite v., <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="502.06">
+<rdg>sô soltû haz (baz <wit>O</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="502.07">
+<rdg>s. bekant, <wit>*T</wit></rdg>
+</app>
+<app loc="502.08">
+<rdg></rdg>
+</app>
+<app loc="502.09">
+<rdg>sô r. ü. die (<note>om.</note> <wit>V</wit>) pf. der g. s. <wit>*T</wit></rdg>
+</app>
+<app loc="502.10">
+<rdg></rdg>
+</app>
+<app loc="502.11">
+<rdg>dar u. w. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="502.12">
+<rdg>ze (zdem <wit>O</wit>) pf. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="502.13">
+<rdg>wan sw. <wit>*T</wit></rdg>
+</app>
+<app loc="502.14">
+<rdg></rdg>
+</app>
+<app loc="502.15">
+<rdg></rdg>
+</app>
+<app loc="502.16">
+<rdg></rdg>
+</app>
+<app loc="502.17">
+<rdg>sô gr. <wit>*T</wit></rdg>
+</app>
+<app loc="502.18">
+<rdg>an daz aller h&#x0153;heste pf., <wit>*T</wit></rdg>
+</app>
+<app loc="502.19">
+<rdg>sch. versetzet w. <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="502.20">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="502.21">
+<rdg></rdg>
+</app>
+<app loc="502.22">
+<rdg>wie mac <wit>*T</wit> · der heiliger (helleclicher <wit>L</wit>) l.?" <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="502.23">
+<rdg>ir beider sch. tac (scheiden tac <wit>Z</wit> scheidetag <wit>V</wit>). <wit>*G</wit> <note>(ohne L)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="502.24">
+<rdg></rdg>
+</app>
+<app loc="502.25">
+<rdg>d. schulde (<subst><del>*h*</del><add>sv́nde</add></subst> <wit>V</wit>) her <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="502.26">
+<rdg>bin ich <wit>*T</wit> <note>(ohne O)</note></rdg>
+</app>
+<app loc="502.27">
+<rdg></rdg>
+</app>
+<app loc="502.28">
+<rdg></rdg>
+</app>
+<app loc="502.29">
+<rdg></rdg>
+</app>
+<app loc="502.30">
+<rdg>ir habt wol geh&#x0153;ret (<subst><del>J* h*</del><add>Ob ir nv wellent so prv&#x0364;fen</add></subst> <wit>V</wit>) wie. <wit>*T</wit></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

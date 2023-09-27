@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 452</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.12.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 452.01"><seg type="Initiale">E</seg>r sprach: "ist gotes kraft sô fier,</l>
+<l n="*D 452.02">daz si beidiu ors unde tier</l>
+<l n="*D 452.03">unt die liute mac wîsen,</l>
+<l n="*D 452.04">sîne kraft wil ich <seg type="singuläre_Lesart">im</seg> prîsen.</l>
+<l n="*D 452.05">mac gotes kunst die helfe hân,</l>
+<l n="*D 452.06">diu wîse mir <seg type="singuläre_Lesart">diz</seg> kastelân</l>
+<l n="*D 452.07">daz w&#x00E6;gest umbe die reise mîn.</l>
+<l n="*D 452.08">sô tuot sîn güete helfe schîn.</l>
+<l n="*D 452.09">nû genc nâch der gotes kür."</l>
+<l n="*D 452.10">den zügel gein den ôren vür</l>
+<l n="*D 452.11">er dem orse legete.</l>
+<l n="*D 452.12">mit den sporn erz vaste reg<reg type="Synkope">e</reg>te.</l>
+<l n="*D 452.13">gein <name type="Ort">Fontane lasalvatsche</name> ez gienc,</l>
+<l n="*D 452.14">dâ <name type="Person">Orilus</name> den eit enpfienc.</l>
+<l n="*D 452.15">der kiusche <name type="Person">Trevrizent</name> dâ saz,</l>
+<l n="*D 452.16">der manegen mântac übel g<reg type="Synkope">e</reg>az,</l>
+<l n="*D 452.17">als tet er gar die wochen.</l>
+<l n="*D 452.18">er het gar versprochen</l>
+<l n="*D 452.19"><seg type="Initiale" subtype="Majuskel">M</seg>ôraz, wîn unt ouchz brôt.</l>
+<l n="*D 452.20">sîn kiusche im dannoch mêr gebôt:</l>
+<l n="*D 452.21">der spîse het er decheinen muot,</l>
+<l n="*D 452.22">vische <seg type="singuläre_Lesart">noch vleisch</seg>, swaz <seg type="singuläre_Lesart">trüege</seg> bluot.</l>
+<l n="*D 452.23">sus <seg type="singuläre_Lesart">stuont sîn heileclîchez</seg> leb<reg type="Synkope">e</reg>n.</l>
+<l n="*D 452.24">got het im <seg type="singuläre_Lesart">den</seg> muot gegeb<reg type="Synkope">e</reg>n:</l>
+<l n="*D 452.25">der hêrre sich bereite gar</l>
+<l n="*D 452.26">gein der himelischen schar.</l>
+<l n="*D 452.27">mit vaste er grôzen kumber leit.</l>
+<l n="*D 452.28">sîn kiusche gein dem tievel streit.</l>
+<l n="*D 452.29"><seg type="singuläre_Lesart">an</seg> dem ervert nû <name type="Person">Parzival</name></l>
+<l n="*D 452.30"><seg type="singuläre_Lesart">diu verholniu</seg> m&#x00E6;re umben <name type="Sonstiges">Grâl</name>.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit> <wit>Fr5</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="452.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>Fr5</wit> <wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</rdg></app>
+<app loc="452.09"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+<app loc="452.19"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="452.04">
+<lem>im</lem> <rdg><note>om.</note> <wit>Fr5</wit> <wit>L</wit></rdg>
+</app>
+<app loc="452.05">
+<lem>kunst</lem> <rdg>gunst <wit>*m</wit></rdg>
+</app>
+<app loc="452.06">
+<lem>diz</lem> <rdg>daz <wit>Fr5</wit></rdg>
+</app>
+<app loc="452.13">
+<lem>ez</lem> <rdg>en <wit>Fr5</wit></rdg>
+</app>
+<app loc="452.18">
+<lem>gar</lem> <rdg><subst><del>gar vnt</del><add>gar</add></subst> <wit>D</wit></rdg>
+</app>
+<app loc="452.22">
+<rdg>Vische fleisch noch (vnd <wit>I</wit>) swas treit blu&#x0366;t <wit>Fr5</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="452.22">
+<rdg>vleisch noch visch, waz trüege bluot (bu̽t <wit>mk</wit>). <wit>*m</wit></rdg>
+</app>
+<app loc="452.23">
+<rdg>Sus herticliche stu&#x0366;nt sin lebin <wit>Fr5</wit></rdg>
+</app>
+<app loc="452.24">
+<lem>den</lem> <rdg>dein <wit>Fr5</wit></rdg>
+</app>
+<app loc="452.27">
+<lem>vaste</lem> <rdg>vasten <wit>*m</wit></rdg>
+</app>
+<app loc="452.28">
+<lem>streit</lem> <rdg>reit <wit>*m</wit></rdg>
+</app>
+<app loc="452.29">
+<lem>an</lem> <rdg>Ab <wit>Fr5</wit></rdg>
+</app>
+<app loc="452.30">
+<lem>diu verholniu</lem> <rdg>Daz verholne <wit>Fr5</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="452.01">
+<rdg></rdg>
+</app>
+<app loc="452.02">
+<rdg></rdg>
+</app>
+<app loc="452.03">
+<rdg></rdg>
+</app>
+<app loc="452.04">
+<rdg></rdg>
+</app>
+<app loc="452.05">
+<rdg></rdg>
+</app>
+<app loc="452.06">
+<rdg></rdg>
+</app>
+<app loc="452.07">
+<rdg></rdg>
+</app>
+<app loc="452.08">
+<rdg>helfe güete (gu&#x0366;ten <wit>U</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="452.09">
+<rdg>Dô ergiengez (Nu&#x0366; erginc iz <wit>U</wit> NV <subst><del>*</del><add>gang</add></subst> <wit>V</wit>) n. <wit>*T</wit></rdg>
+</app>
+<app loc="452.10">
+<rdg></rdg>
+</app>
+<app loc="452.11">
+<rdg></rdg>
+</app>
+<app loc="452.12">
+<rdg></rdg>
+</app>
+<app loc="452.13">
+<rdg></rdg>
+</app>
+<app loc="452.14">
+<rdg></rdg>
+</app>
+<app loc="452.15">
+<rdg></rdg>
+</app>
+<app loc="452.16">
+<rdg></rdg>
+</app>
+<app loc="452.17">
+<rdg></rdg>
+</app>
+<app loc="452.18">
+<rdg></rdg>
+</app>
+<app loc="452.19">
+<rdg>ouchz <note>om.</note> <wit>*T</wit></rdg>
+</app>
+<app loc="452.20">
+<rdg>sîn k. mêr d. (kusche im dan mer <wit>U</wit>) g.: <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="452.21">
+<rdg></rdg>
+</app>
+<app loc="452.22">
+<rdg></rdg>
+</app>
+<app loc="452.23">
+<rdg></rdg>
+</app>
+<app loc="452.24">
+<rdg></rdg>
+</app>
+<app loc="452.25">
+<rdg></rdg>
+</app>
+<app loc="452.26">
+<rdg></rdg>
+</app>
+<app loc="452.27">
+<rdg>vasten <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="452.28">
+<rdg></rdg>
+</app>
+<app loc="452.29">
+<rdg></rdg>
+</app>
+<app loc="452.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

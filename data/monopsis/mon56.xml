@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 56</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>17.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 56.01">er ist erborn von <name type="Ort">Anschouwe</name>.</l>
+<l n="*D 56.02">diu minne wirt sîn vrouwe.</l>
+<l n="*D 56.03">sô wirt aber er an strîte ein schûr,</l>
+<l n="*D 56.04">den vîenden herter nâchgebûr.</l>
+<l n="*D 56.05"><seg type="Initiale" subtype="Majuskel">W</seg>izzen sol der sun mîn:</l>
+<l n="*D 56.06">sîn an, der hiez <name type="Person">Gandin</name>,</l>
+<l n="*D 56.07">der lac an rîterschefte tôt.</l>
+<l n="*D 56.08">des <corr type="Emendation">v</corr>at<reg type="Synkope">e</reg>r leit die selben nôt,</l>
+<l n="*D 56.09">der was geheizen <name type="Person">Addanz</name></l>
+<l n="*D 56.10">- sîn schilt beleip vil selten ganz -,</l>
+<l n="*D 56.11">der was von arde ein <name type="Person">Bertûn</name>.</l>
+<l n="*D 56.12">er unde <name type="Person">Utepandragun</name></l>
+<l n="*D 56.13">w<corr type="Emendation">â</corr>ren zweier gebruod<reg type="Synkope">e</reg>r kint,</l>
+<l n="*D 56.14">die bêde alhie geschriben sint:</l>
+<l n="*D 56.15">daz was einer <name type="Person">Lazaliez</name>,</l>
+<l n="*D 56.16"><name type="Person">Brickus</name> der and<reg type="Synkope">e</reg>r hiez.</l>
+<l n="*D 56.17">der zweier vat<reg type="Synkope">e</reg>r hiez <name type="Person">Mazadan</name>.</l>
+<l n="*D 56.18">den vuort ein feie in <name type="Ort">Morgan</name>,</l>
+<l n="*D 56.19">diu hiez <name type="Person">Terredelaschoye</name>.</l>
+<l n="*D 56.20">er was ir herzen boye.</l>
+<l n="*D 56.21">von in zwein kom geslehte mîn,</l>
+<l n="*D 56.22">daz immer mêr gît liehten schîn.</l>
+<l n="*D 56.23">ieslîcher sider krône truoc</l>
+<l n="*D 56.24">unt heten werdecheit genuoc.</l>
+<l n="*D 56.25">vrouwe, wil dû toufen dich,</l>
+<l n="*D 56.26">dû maht ouch noch erwerben mich."</l>
+<l n="*D 56.27"><seg type="Initiale"><corr type="Emendation">D</corr></seg>es engerte si kein wa<corr type="Emendation">n</corr>del niht.</l>
+<l n="*D 56.28">"ouwê, wie balde daz geschiht,</l>
+<l n="*D 56.29">wil er wider wenden,</l>
+<l n="*D 56.30">schiere sol ichz enden.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="56.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="56.05"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="56.15"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="56.27"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>G</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="56.01">
+<lem>erborn</lem> <rdg>geborn <wit>*m</wit></rdg>
+</app>
+<app loc="56.06">
+<rdg>sîn ane, der hiez Gandin <wit>*m</wit></rdg>
+</app>
+<app loc="56.07">
+<lem>der</lem> <rdg>und <wit>*m</wit></rdg>
+</app>
+<app loc="56.08">
+<lem>vater</lem> <rdg>watr <wit>D</wit></rdg>
+</app>
+<app loc="56.13">
+<lem>wâren</lem> <rdg>w&#x00E6;ren <wit>D</wit></rdg>
+</app>
+<app loc="56.14">
+<lem>bêde</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="56.15">
+<lem>daz was</lem> <rdg>der hiez <wit>*m</wit></rdg>
+</app>
+<app loc="56.18">
+<rdg>den vuorte ein feie, hiez Morgan, <wit>*m</wit></rdg>
+</app>
+<app loc="56.19">
+<lem>diu hiez</lem> <rdg>in <wit>*m</wit></rdg>
+</app>
+<app loc="56.21">
+<rdg>von den zwein (Von in zwein <wit>O</wit> <wit>L</wit> <wit>Fr21</wit> <wit>V</wit> [<wit>T</wit>] von im <wit>*T</wit> <note>[nur U]</note>) kom daz (<note>om.</note> <wit>G</wit>) geslähte mîn, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="56.23">
+<lem>sider</lem> <rdg>sît her ein <wit>*m</wit></rdg>
+</app>
+<app loc="56.24">
+<lem>heten</lem> <rdg>hette <wit>*m</wit></rdg>
+</app>
+<app loc="56.27">
+<lem>Des</lem> <rdg>&#x00F7;es <wit>D</wit></rdg>
+</app>
+<app loc="56.27">
+<lem>wandel</lem> <rdg>waldel <wit>D</wit></rdg>
+</app>
+<app loc="56.28">
+<lem>balde</lem> <rdg>schiere <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="56.01">
+<rdg>und (&#x00F7;r <wit>O</wit>) ist geboren von Antschowe <wit>*G</wit> <note>(ohne O)</note> · er ist geborn von A. <wit>*T</wit></rdg>
+</app>
+<app loc="56.02">
+<rdg></rdg>
+</app>
+<app loc="56.03">
+<rdg>sô w. iu er (er <subst><del>*</del><add>aber</add></subst> <wit>V</wit>) an st. ein sch. (vnd wirt an st. ein werlich wer <wit>T</wit>), <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="56.04">
+<rdg>den vînden ein h. (herte <wit>*T</wit> <note>[ohne V]</note>) n. (sin vater ist comen von kvnegen her <wit>T</wit>) <wit>*G</wit> <note>(nur GIO)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="56.05">
+<rdg></rdg>
+</app>
+<app loc="56.06">
+<rdg>h. G. <wit>*T</wit></rdg>
+</app>
+<app loc="56.07">
+<rdg>und lac <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="56.08">
+<rdg></rdg>
+</app>
+<app loc="56.09">
+<rdg></rdg>
+</app>
+<app loc="56.10">
+<rdg>s. (wenic <wit>T</wit>) g. - <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="56.11">
+<rdg>unde (V<supplied resp="Sekundärliteratur">o</supplied> <wit>Fr21</wit>) was von <wit>*G</wit> <note>(ohne Z)</note> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="56.12">
+<rdg></rdg>
+</app>
+<app loc="56.13">
+<rdg>w. zw. bruoder k., <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="56.14">
+<rdg></rdg>
+</app>
+<app loc="56.15">
+<rdg>daz (da <wit>T</wit>) was ein L., <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="56.16">
+<rdg>Pricurs <wit>*G</wit> <note>(ohne I)</note></rdg>
+</app>
+<app loc="56.17">
+<rdg>der v. (Der <subst><del>*</del><add>zweier vatter</add></subst> <wit>V</wit>), der h. M. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="56.18">
+<rdg>den (der <wit>T</wit> [<wit>Z</wit>]) v. (vu&#x0364;rt <wit>I</wit> fvr <wit>Z</wit>) ein Phimurgan (Feimorgan <wit>*T</wit>), <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="56.19">
+<rdg></rdg>
+</app>
+<app loc="56.20">
+<rdg></rdg>
+</app>
+<app loc="56.21">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="56.22">
+<rdg></rdg>
+</app>
+<app loc="56.23">
+<rdg>ie. sunder (sin <wit>O</wit>) kr. tr. <wit>*G</wit> <note>(ohne Z)</note> · ieglîcher sît (<subst><del>*si*</del><add>sider</add></subst> <wit>V</wit>) kr. tr. <wit>*T</wit> (<wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="56.24">
+<rdg>hete <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="56.25">
+<rdg></rdg>
+</app>
+<app loc="56.26">
+<rdg>noch (<note>om.</note> <wit>I</wit> vil <wit>T</wit>) wol (<note>om.</note> <wit>L</wit>) e. <wit>*G</wit> <note>(nur G)</note> <wit>T</wit></rdg>
+</app>
+<app loc="56.27">
+<rdg></rdg>
+</app>
+<app loc="56.28">
+<rdg>wie schiere daz <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="56.29">
+<rdg></rdg>
+</app>
+<app loc="56.30">
+<rdg>vil balde sol ich ez e. <wit>*G</wit> <note>(ohne Z)</note> · vil schiere solt ich ez (solichs <wit>T</wit>) e. <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

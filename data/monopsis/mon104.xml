@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 104</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>30.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 104.01">manec viurîn don<reg type="Synkope">e</reg>rstrâle.</l>
+<l n="*D 104.02">die vlugen al zemâle</l>
+<l n="*D 104.03">gein ir. dô sungelt und sanc</l>
+<l n="*D 104.04">von genstern ir zöpfe lanc.</l>
+<l n="*D 104.05">mit krache gap der don<reg type="Synkope">e</reg>r duz.</l>
+<l n="*D 104.06">brinnendige zeher was sîn guz.</l>
+<l n="*D 104.07">ir lîp si dâ nâch wid<reg type="Synkope">e</reg>r vant.</l>
+<l n="*D 104.08">dô zuht ein grîfe ir zeswen hant.</l>
+<l n="*D 104.09">daz wart ir verkêret hie mite:</l>
+<l n="*D 104.10">si dûhte wunderlîcher site,</l>
+<l n="*D 104.11">wie si w&#x00E6;re eines wurmes amme,</l>
+<l n="*D 104.12">der sît zervuo<corr type="Emendation">r</corr>te ir wamme,</l>
+<l n="*D 104.13">unt wie ein trache ir brüste süge</l>
+<l n="*D 104.14">unt daz der gâhes von ir vlüge,</l>
+<l n="*D 104.15">sô daz si in nimmer mêr gesach.</l>
+<l n="*D 104.16">daz herze er ir ûzem lîbe brach.</l>
+<l n="*D 104.17">die vorhte muosen ir ougen sehen.</l>
+<l n="*D 104.18">ez ist selt<reg type="Synkope">e</reg>n wîbe mêr geschehen</l>
+<l n="*D 104.19">in slâfe kumb<reg type="Synkope">e</reg>r dem gelîch.</l>
+<l n="*D 104.20">dâ vor was si ritterlîch.</l>
+<l n="*D 104.21">ach wên<reg type="Synkope">e</reg>c, daz wirt verkêret gar!</l>
+<l n="*D 104.22">si wirt nâch jâmer nû gevar.</l>
+<l n="*D 104.23">ir schade wirt lanc unt breit.</l>
+<l n="*D 104.24">ir nâhent kumendiu herzeleit.</l>
+<l n="*D 104.25"><seg type="Initiale">D</seg>iu vrouwe dô begunde,</l>
+<l n="*D 104.26">daz si dâ vor niht kunde,</l>
+<l n="*D 104.27">beidiu zabelen unt wuofen,</l>
+<l n="*D 104.28">in slâfe lûte ruofen.</l>
+<l n="*D 104.29">vil juncvrouwen sâzen hie,</l>
+<l n="*D 104.30">die sprungen dar unt wacten sie.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="104.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="104.07"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="104.17"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="104.17"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app><app loc="104.17"><rdg><note>Capitulumzeichen</note> <wit>L</wit>
+</rdg></app>
+<app loc="104.25"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app><app loc="104.25"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="104.29"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="104.02">
+<lem>al</lem> <rdg>alle <wit>*m</wit></rdg>
+</app>
+<app loc="104.05">
+<lem>krache</lem> <rdg>kraft <wit>*m</wit> (<wit>I</wit>)</rdg>
+</app>
+<app loc="104.06">
+<rdg>brinnende zahere was sîn guz (sin flvz <wit>O</wit> sin floz <wit>Z</wit> <subst><del>dvz</del><add>flvz</add></subst> <wit>Fr21</wit> <subst><del>*</del><add>sin</add></subst> gus <wit>V</wit> ir gôz. <wit>*T</wit>) <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="104.09">
+<lem>ir</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="104.11">
+<lem>wie</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+<app loc="104.12">
+<lem>zervuorte</lem> <rdg>zerfv&#x0366;te <wit>D</wit></rdg>
+</app>
+<app loc="104.17">
+<rdg>die vorhte ir ougen muosen sehen. <wit>*m</wit></rdg>
+</app>
+<app loc="104.17">
+<rdg>die vorhte muose (mu&#x0364;s <wit>I</wit> musten <wit>Z</wit>) ir ougen (auge <wit>I</wit> [<wit>O</wit> <wit>Fr21</wit>]) sehen (an sehen <wit>O</wit>). <wit>*G</wit></rdg>
+</app>
+<app loc="104.17">
+<rdg>die (Div <wit>T</wit>) vorhte ê muoz (<subst><del>er*</del><add>emu&#x0366;z</add></subst> <wit>U</wit> mu&#x0364;st <wit>V</wit> [<wit>T</wit>]) ir ouge (o&#x036E;gen <wit>V</wit>) sehen. <wit>*T</wit></rdg>
+</app>
+<app loc="104.22">
+<lem>nû</lem> <rdg>hie <wit>*m</wit></rdg>
+</app>
+<app loc="104.23">
+<lem>wirt</lem> <rdg>wart <wit>*m</wit></rdg>
+</app>
+<app loc="104.25">
+<lem>dô</lem> <rdg><note>om.</note> <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="104.01">
+<rdg></rdg>
+</app>
+<app loc="104.02">
+<rdg>vl. (Flvgelin <wit>Fr21</wit>) alzemâl <wit>*G</wit> (<wit>T</wit>)</rdg>
+</app>
+<app loc="104.03">
+<rdg>dô sunet (suft <wit>G</wit> svncte <wit>L</wit> <wit>Z</wit>) und <wit>*G</wit> <note>(ohne O)</note> dô (<note>om.</note> <wit>T</wit>) sengete (svnke <wit>T</wit>) und <wit>*T</wit></rdg>
+</app>
+<app loc="104.04">
+<rdg>von ganeiste (Ganaistern <wit>I</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>]) ir <wit>*G</wit></rdg>
+</app>
+<app loc="104.05">
+<rdg>mit (von <wit>T</wit>) kr. gap aber der (<subst><del>*</del><add>abr</add></subst> der <wit>U</wit> <subst><del>*</del><add>gap</add></subst> der <wit>V</wit> gap der <wit>T</wit>) d. dôz. <wit>*T</wit></rdg>
+</app>
+<app loc="104.06">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="104.07">
+<rdg></rdg>
+</app>
+<app loc="104.08">
+<rdg>ir z. ein gr. zwischen ir (ir zesewen <wit>V</wit> [<wit>T</wit>]) h. <wit>*T</wit> · ir zuct ein <wit>*G</wit> <note>(ohne Z)</note></rdg>
+</app>
+<app loc="104.09">
+<rdg>w. verkêrt hie (da <wit>L</wit>) <wit>*G</wit> w. v. ir hie <wit>*T</wit> (<wit>O</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="104.10">
+<rdg>si d. wunderlîch ir (wunderlichei <wit>T</wit>) s., <wit>*T</wit></rdg>
+</app>
+<app loc="104.11">
+<rdg>e. tieres a., <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="104.12">
+<rdg>daz sît z. <wit>*G</wit> daz ir z. (Daz zu&#x0366; ir vu&#x0366;rte <wit>U</wit> vnd daz zerzerrete <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="104.13">
+<rdg></rdg>
+</app>
+<app loc="104.14">
+<rdg>unde wie (<note>om.</note> <wit>L</wit>) der <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="104.15">
+<rdg></rdg>
+</app>
+<app loc="104.16">
+<rdg></rdg>
+</app>
+<app loc="104.17">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="104.18">
+<rdg>daz ist <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="104.19">
+<rdg></rdg>
+</app>
+<app loc="104.20">
+<rdg></rdg>
+</app>
+<app loc="104.21">
+<rdg>ach, wie wirt daz v. g. (<subst><del>*</del><add>Daz wart verkeret gohens gar</add></subst> <wit>V</wit>)! <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="104.22">
+<rdg>si wart n. <wit>*G</wit> (<wit>V</wit>) <wit>T</wit></rdg>
+</app>
+<app loc="104.23">
+<rdg></rdg>
+</app>
+<app loc="104.24">
+<rdg></rdg>
+</app>
+<app loc="104.25">
+<rdg></rdg>
+</app>
+<app loc="104.26">
+<rdg>des si <wit>*G</wit> <wit>V</wit> <wit>T</wit></rdg>
+</app>
+<app loc="104.27">
+<rdg></rdg>
+</app>
+<app loc="104.28">
+<rdg></rdg>
+</app>
+<app loc="104.29">
+<rdg></rdg>
+</app>
+<app loc="104.30">
+<rdg>die (Vnd <wit>Z</wit>) sp. ûf (dar <wit>O</wit> <wit>Z</wit> <wit>Fr21</wit>) und <wit>*G</wit> (<wit>V</wit>) die sp. und <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

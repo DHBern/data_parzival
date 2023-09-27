@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 35</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>23.06.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 35.01">er vröute sich, daz man im bôt</l>
+<l n="*D 35.02">grôz êre. in twanc doch and<reg type="Synkope">e</reg>r nôt.</l>
+<l n="*D 35.03">daz was diu strenge minne,</l>
+<l n="*D 35.04">diu neiget hôhe sinne.</l>
+<l n="*D 35.05">diu wirtîn vuor an ir gemach.</l>
+<l n="*D 35.06">harte schiere daz geschach.</l>
+<l n="*D 35.07">man bette dem helde sân.</l>
+<l n="*D 35.08">daz wart mit vlîze getân.</l>
+<l n="*D 35.09"><seg type="Initiale" subtype="Majuskel">D</seg>er wirt sprach zem gaste:</l>
+<l n="*D 35.10">"nû sult ir slâfen vaste</l>
+<l n="*D 35.11">unt ruowet hînte. des wir<corr type="Emendation">t</corr> iu nôt."</l>
+<l n="*D 35.12">der wirt den sînen daz gebôt,</l>
+<l n="*D 35.13">si solten dannen kêren.</l>
+<l n="*D 35.14">des gastes junchêrren,</l>
+<l n="*D 35.15">der bette al umbe daz sîne lac,</l>
+<l n="*D 35.16">ir houbet dran, wand er des p<corr type="Emendation">f</corr>lac.</l>
+<l n="*D 35.17">dâ stuonden kerzen harte grôz</l>
+<l n="*D 35.18">unt brunnen lieht. den helt verdrôz,</l>
+<l n="*D 35.19">daz sô lanc was diu naht.</l>
+<l n="*D 35.20">in brâhte dicke in ungemaht</l>
+<l n="*D 35.21">diu swarze <name type="Person">m&#x0153;rinne</name>,</l>
+<l n="*D 35.22">des landes küneginne.</l>
+<l n="*D 35.23">er want sich dicke alsam wit,</l>
+<l n="*D 35.24">daz im kracheten diu lit.</l>
+<l n="*D 35.25">strît unt minne was sîn ger.</l>
+<l n="*D 35.26">nû wünschet, daz mans in gewer.</l>
+<l n="*D 35.27">sîn herze gap von stôzen schal,</l>
+<l n="*D 35.28">wand ez nâch rîterschefte swal.</l>
+<l n="*D 35.29"><seg type="Initiale">D</seg>az begunde dem recken</l>
+<l n="*D 35.30">sîne brust bêde erstrecken,</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <note>(35.1-22)</note> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="35.05"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="35.09"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="35.29"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="35.02">
+<rdg>êre (Groz ere <wit>Z</wit>). in twanc (vnd twanch <wit>O</wit> vnde twangin <wit>Fr21</wit> in twanc doch <wit>Z</wit>) ein ander nôt. <wit>*G</wit></rdg>
+</app>
+<app loc="35.02">
+<lem>doch</lem> <rdg>ouch <wit>*m</wit></rdg>
+</app>
+<app loc="35.11">
+<lem>wirt</lem> <rdg>wir <wit>D</wit></rdg>
+</app>
+<app loc="35.14">
+<lem>des gastes</lem> <rdg>Gahmuretes <wit>*m</wit></rdg>
+</app>
+<app loc="35.16">
+<lem>pflac</lem> <rdg>plach <wit>D</wit></rdg>
+</app>
+<app loc="35.20">
+<lem>in ungemaht</lem> <rdg>envngemacht <wit>D</wit> in unmaht <wit>*m</wit></rdg>
+</app>
+<app loc="35.23">
+<rdg>Er wande sich diche alsam (sam <wit>L</wit> <wit>Fr21</wit> als <wit>Z</wit>) ein (die <wit>L</wit>) wid <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.23">
+<lem>wit</lem> <rdg>ein wit <wit>*m</wit></rdg>
+</app>
+<app loc="35.24">
+<rdg>Daz im er chrachten (im krahten <wit>Z</wit>) gar div lid <wit>O</wit> (<wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.24">
+<rdg>Daz ẏm ercrachten sine lyde <wit>L</wit></rdg>
+</app>
+<app loc="35.24">
+<lem>kracheten diu</lem> <rdg>erkrachete gar sîn <wit>*m</wit></rdg>
+</app>
+<app loc="35.25">
+<rdg>Strît vnd minne was sin ger <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.26">
+<rdg>Nv wunschet daz man (mans <wit>Z</wit> [<wit>Fr21</wit>]) in (ynsz <wit>L</wit>) gewer <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.27">
+<rdg>Sin herze gab von stozen schal <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.28">
+<rdg>Wan iz nach ritterschefte swal <wit>O</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="35.28">
+<lem>ez</lem> <rdg>er <wit>*m</wit></rdg>
+</app>
+<app loc="35.29">
+<rdg>Daz begvnde dem reken <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.30">
+<rdg>Sîne brvste b&#x00E6;ide erstrechen <wit>O</wit> (<wit>L</wit> <wit>Z</wit> <wit>Fr21</wit>)</rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="35.01">
+<rdg></rdg>
+</app>
+<app loc="35.02">
+<rdg>&#x2193;<wit>*G</wit> · doch ein a. <wit>*T</wit></rdg>
+</app>
+<app loc="35.03">
+<rdg>daz ist (was doch <wit>Z</wit>) diu <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="35.04">
+<rdg></rdg>
+</app>
+<app loc="35.05">
+<rdg></rdg>
+</app>
+<app loc="35.06">
+<rdg>dar nâch vil sch. daz g. <wit>*G</wit> <note>(ohne Z)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="35.07">
+</app>
+<app loc="35.08">
+</app>
+<app loc="35.09">
+<rdg>dô sp. der wirt zem g.: <wit>*G</wit> <note>(ohne L)</note> (<wit>*T</wit>) <note>(ohne V)</note></rdg>
+</app>
+<app loc="35.10">
+<rdg></rdg>
+</app>
+<app loc="35.11">
+<rdg></rdg>
+</app>
+<app loc="35.12">
+<rdg>den s. er zehant g., <wit>*G</wit> <note>(ohne Z)</note> · wander (wan der <wit>U</wit>) den s. daz g., <wit>*T</wit> (<wit>O</wit> <wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.13">
+<rdg>si s. von im k. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="35.14">
+<rdg></rdg>
+</app>
+<app loc="35.15">
+<rdg>ir b. <wit>*G</wit> <note>(ohne LZ)</note> b. (<subst><del>Bette</del><add>Der bette</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="35.16">
+<rdg></rdg>
+</app>
+<app loc="35.17">
+<rdg></rdg>
+</app>
+<app loc="35.18">
+<rdg>die br. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="35.19">
+<rdg>daz alsus (also <wit>O</wit>) l. <wit>*G</wit> <note>(ohne Z)</note> daz sus l. <wit>*T</wit> <note>(ohne U)</note> (<wit>L</wit> <wit>Fr21</wit>)</rdg>
+</app>
+<app loc="35.20">
+<rdg>in unmaht <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="35.21">
+<rdg></rdg>
+</app>
+<app loc="35.22">
+<rdg></rdg>
+</app>
+<app loc="35.23">
+<rdg><note>Die Verse 35.23-30 fehlen</note> &#x2193;<wit>*G</wit> <note>(nur G)</note> · als ein wit, <wit>*T</wit></rdg>
+</app>
+<app loc="35.24">
+<rdg>daz im erkracheten gar diu (die <wit>U</wit> al sine <wit>V</wit>) lit. <wit>*T</wit></rdg>
+</app>
+<app loc="35.25">
+<rdg></rdg>
+</app>
+<app loc="35.26">
+<rdg></rdg>
+</app>
+<app loc="35.27">
+<rdg></rdg>
+</app>
+<app loc="35.28">
+<rdg></rdg>
+</app>
+<app loc="35.29">
+<rdg></rdg>
+</app>
+<app loc="35.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

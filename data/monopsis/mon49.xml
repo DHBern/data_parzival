@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 49</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>16.03.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 49.01">zwêne künege mit grôzer kraft.</l>
+<l n="*D 49.02">die vluot von der rîterschaft</l>
+<l n="*D 49.03">si brâhten unt manegen kiel.</l>
+<l n="*D 49.04">ir rotte mir vil wol geviel.</l>
+<l n="*D 49.05"><seg type="Initiale"><corr type="Emendation">H</corr></seg>ie was ouch <name type="Person">Morholt</name> durch in,</l>
+<l n="*D 49.06">des strît hât kraft unt sin.</l>
+<l n="*D 49.07">die sint nû hin gekêret.</l>
+<l n="*D 49.08">swie mich mîn vrouwe lêret,</l>
+<l n="*D 49.09">alsô tuon ich mit den mînen.</l>
+<l n="*D 49.10">mîn dienest sol ir erschînen.</l>
+<l n="*D 49.11">dûne darft mir dienest<corr type="Emendation">es</corr> danken niht,</l>
+<l n="*D 49.12">wand ez diu sippe sus vergiht.</l>
+<l n="*D 49.13">die vrevelen helde sint nû dîn.</l>
+<l n="*D 49.14">w&#x00E6;ren si getouft sô die mîn</l>
+<l n="*D 49.15">unt an der hiute nâch in getân,</l>
+<l n="*D 49.16">sô wart gekrônet nie dechein man,</l>
+<l n="*D 49.17">ern hete strîtes von in genuoc.</l>
+<l n="*D 49.18">mich wundert, waz dich her vertruoc.</l>
+<l n="*D 49.19">daz sag mir rehte unt wie."</l>
+<l n="*D 49.20">"<seg type="Initiale" subtype="Majuskel">I</seg>ch kom gestern. hiute bin ich hie</l>
+<l n="*D 49.21">worden hêrre überz lant.</l>
+<l n="*D 49.22">mich vienc diu künegîn mit ir hant.</l>
+<l n="*D 49.23">dô wert ich mich mit minne.</l>
+<l n="*D 49.24">sus rieten mir die sinne."</l>
+<l n="*D 49.25">"ich w&#x00E6;ne, dir hât diu süeziu wer</l>
+<l n="*D 49.26">betwungen beidenthalp diu her."</l>
+<l n="*D 49.27">"<seg type="Initiale" subtype="Majuskel">D</seg>û meinest, durch daz ich dir entran?</l>
+<l n="*D 49.28">vaste riefe dû mich an.</l>
+<l n="*D 49.29">waz woldest dû an mir ertwingen?</l>
+<l n="*D 49.30">lâ mich sus mit dir dingen."</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit>
+</app><app><lem>*T (U)</lem>
+<wit>U</wit> <wit>V</wit> <wit>T</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="49.01"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="49.05"><rdg>
+<note>Initiale</note> <wit>D</wit>
+</rdg></app>
+<app loc="49.19"><rdg>
+<note>Initiale</note> <wit>G</wit> <wit>I</wit>
+</rdg></app><app loc="49.19"><rdg><note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="49.20"><rdg>
+<note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="49.24"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="49.25"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="49.27"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app><app loc="49.27"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="49.02">
+<lem>vluot</lem> <rdg>vluht <wit>*m</wit></rdg>
+</app>
+<app loc="49.05">
+<lem>Hie</lem> <rdg>&#x00F7;ie <wit>D</wit></rdg>
+</app>
+<app loc="49.10">
+<rdg>ir sol mîn dienst (Min dinst sol ir <wit>O</wit> [<wit>L</wit>]) schînen. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="49.10">
+<rdg>mîn dienst sol erschînen (<subst><del>*</del><add>ir</add></subst> schinen <wit>V</wit> <del>ich</del> ir scheinen <wit>T</wit>). <wit>*T</wit></rdg>
+</app>
+<app loc="49.10">
+<lem>sol ir</lem> <rdg>ir sol <wit>*m</wit></rdg>
+</app>
+<app loc="49.11">
+<lem>darft</lem> <rdg>bedarft <wit>*m</wit></rdg>
+</app>
+<app loc="49.11">
+<lem>dienestes</lem> <rdg>dienest <wit>D</wit></rdg>
+</app>
+<app loc="49.16">
+<lem>sô</lem> <rdg>sch&#x0153;ner <wit>*m</wit></rdg>
+</app>
+<app loc="49.17">
+<rdg>dûne hetest strîtes im (im strites <wit>I</wit>) genuoc. <wit>*G</wit></rdg>
+</app>
+<app loc="49.17">
+<rdg>ern hete strîtes von dir (von dir strîtes <wit>T</wit> strîtes von <subst><del>in</del><add>dir</add></subst> <wit>O</wit>) genuoc. <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="49.25">
+<lem>diu</lem> <rdg>dîn <wit>*m</wit></rdg>
+</app>
+<app loc="49.27">
+<lem>durch daz</lem> <rdg>wand <wit>*m</wit></rdg>
+</app>
+<app loc="49.29">
+<lem>ertwingen</lem> <rdg>twingen <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="49.01">
+<rdg>mit ir kr. <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="49.02">
+<rdg>diu vluht von der ritterschaft, <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="49.03">
+<rdg>si vuorten und (im <wit>I</wit>) <wit>*G</wit> si vuorten vil (<subst><del>Si*</del><add>Sv́ brohtent o&#x036E;ch vil</add></subst> <wit>V</wit> vu&#x0366;rten si vnde <wit>T</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="49.04">
+<rdg></rdg>
+</app>
+<app loc="49.05">
+<rdg></rdg>
+</app>
+<app loc="49.06">
+<rdg></rdg>
+</app>
+<app loc="49.07">
+<rdg></rdg>
+</app>
+<app loc="49.08">
+<rdg></rdg>
+</app>
+<app loc="49.09">
+<rdg></rdg>
+</app>
+<app loc="49.10">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="49.11">
+<rdg>d. solt mir <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="49.12">
+<rdg>wan es (<subst><del>*</del><add>es</add></subst> <wit>V</wit>) diu <wit>*G</wit> <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="49.13">
+<rdg>die vrechen h. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="49.14">
+<rdg>getoufet sam die <wit>*G</wit> <note>(ohne G)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="49.15">
+<rdg>h. (lute <wit>I</wit>) sô g., <wit>*G</wit> <note>(nur GI)</note> h. gelîche g., <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="49.16">
+<rdg></rdg>
+</app>
+<app loc="49.17">
+<rdg>&#x2193;<wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="49.18">
+<rdg>her truoc (<subst><del>*tru&#x0366;g</del><add>vertru&#x0366;g</add></subst> <wit>V</wit> getrv&#x0366;c <wit>T</wit>) <wit>*T</wit> her tru&#x0364;c <wit>I</wit></rdg>
+</app>
+<app loc="49.19">
+<rdg>sage ich dir r. <wit>*T</wit> <note>(ohne T)</note></rdg>
+</app>
+<app loc="49.20">
+<rdg></rdg>
+</app>
+<app loc="49.21">
+<rdg>ü. diz l. <wit>*T</wit></rdg>
+</app>
+<app loc="49.22">
+<rdg></rdg>
+</app>
+<app loc="49.23">
+<rdg>mich ir m. (mich mit <subst><del>*</del><add>minne</add></subst> <wit>V</wit>) <wit>*T</wit></rdg>
+</app>
+<app loc="49.24">
+<rdg>sus r. mîne s. (<subst><del>*</del><add>Svz rietent mine sinne</add></subst> <wit>V</wit> Svs rieten <subst><del>min*</del><add>mine</add></subst> sinne <wit>T</wit>)." <wit>*G</wit> (<wit>V</wit>) <wit>T</wit></rdg>
+</app>
+<app loc="49.25">
+<rdg>hât dîn manlîch (sv&#x0366;zev <wit>O</wit> [<wit>L</wit>]) wer <wit>*G</wit> hât dîn süeze wer <wit>*T</wit></rdg>
+</app>
+<app loc="49.26">
+<rdg></rdg>
+</app>
+<app loc="49.27">
+<rdg>"dû manest, durch diz (meines daz <wit>T</wit>) ich dir e.? <wit>*T</wit> <note>(nur U)</note></rdg>
+</app>
+<app loc="49.28">
+<rdg>vil v. <wit>*T</wit> (<wit>O</wit> <wit>L</wit>) · ruoftestû m. an <wit>*G</wit> <note>(nur GI)</note> (<wit>V</wit>)</rdg>
+</app>
+<app loc="49.29">
+<rdg>mir twingen (mir <subst><del>ettwingen</del><add>ertwingen</add></subst> <wit>T</wit>)? <wit>*T</wit></rdg>
+</app>
+<app loc="49.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

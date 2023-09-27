@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 349</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>06.02.23</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 349.01"><seg type="Initiale">S</seg>us hât der zorn sich vür genom<reg type="Synkope">e</reg>n,</l>
+<l n="*D 349.02">daz bêde künege wellent kom<reg type="Synkope">e</reg>n</l>
+<l n="*D 349.03">vür <name type="Ort">Bearosche</name>, dâ man muoz</l>
+<l n="*D 349.04">gedienen mit arbeit wîbe gruoz.</l>
+<l n="*D 349.05">vil sper muoz man dâ brechen,</l>
+<l n="*D 349.06">bêdiu hurten unde stechen.</l>
+<l n="*D 349.07"><name type="Ort">Bearosche</name> ist sô ze wer,</l>
+<l n="*D 349.08">ob wir heten zweinzec her,</l>
+<l n="*D 349.09">ieslîchez gr&#x0153;zer denne wir hân,</l>
+<l n="*D 349.10">wir m<corr type="Emendation">üe</corr>sens unzervüert lân.</l>
+<l n="*D 349.11"><seg type="Initiale" subtype="Majuskel">M</seg>în reise ist daz hind<reg type="Synkope">e</reg>r her verholn.</l>
+<l n="*D 349.12">disen schilt hân ich dan verstoln</l>
+<l n="*D 349.13">ûz von andern kinden,</l>
+<l n="*D 349.14">ob mîn hêrre m<corr type="Emendation">ö</corr>hte vinden</l>
+<l n="*D 349.15">eine tjost durch sînen êrsten schilt</l>
+<l n="*D 349.16">mit hurten poynd<reg type="Synkope">e</reg>r dar gezilt."</l>
+<l n="*D 349.17"><seg type="Initiale" subtype="Majuskel">D</seg>er knappe hinder sich dô sach.</l>
+<l n="*D 349.18">sîn hêrre vuor im balde nâch.</l>
+<l n="*D 349.19">diu ors unt zwelf wîziu sper</l>
+<l n="*D 349.20">gâheten mit im balde her.</l>
+<l n="*D 349.21">ich w&#x00E6;ne, sîn gir des iem<reg type="Synkope">e</reg>n trüge,</l>
+<l n="*D 349.22">er wolde gern ze vorvlüge</l>
+<l n="*D 349.23">die êrsten tjost dâ hân bejagt.</l>
+<l n="*D 349.24">sus hât mir diu âventiure gesagt.</l>
+<l n="*D 349.25"><seg type="Initiale" subtype="Majuskel">D</seg>er knappe sprach ze <name type="Person">Gawan</name>:</l>
+<l n="*D 349.26">"hêrre, lât mich iwern urloup hân."</l>
+<l n="*D 349.27">der kêrte sîme hêrren zuo.</l>
+<l n="*D 349.28">waz welt ir, daz <name type="Person">Gawan</name> nû tuo,</l>
+<l n="*D 349.29">ern besehe, waz disiu m&#x00E6;re sîn?</l>
+<l n="*D 349.30">doch lêrt in zwîvel strengen pîn.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="349.01"><rdg>
+<note>Initiale</note> <wit>D</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit> <wit>T</wit>
+</rdg></app>
+<app loc="349.11"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="349.15"><rdg>
+<note>Initiale</note> <wit>G</wit>
+</rdg></app>
+<app loc="349.17"><rdg>
+<note>Initiale</note> <wit>mk</wit> <wit>I</wit>
+</rdg></app><app loc="349.17"><rdg><note>Majuskel</note> <wit>D</wit> <wit>T</wit>
+</rdg></app>
+<app loc="349.25"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>V</wit>
+</rdg></app><app loc="349.25"><rdg><note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="349.28"><rdg>
+<note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="349.04">
+<lem>wîbe</lem> <rdg>wîbes <wit>*m</wit></rdg>
+</app>
+<app loc="349.10">
+<lem>müesens</lem> <rdg>mv&#x0366;sens <wit>D</wit> müesen <wit>*m</wit></rdg>
+</app>
+<app loc="349.13">
+<lem>von</lem> <rdg>von den <wit>*m</wit></rdg>
+</app>
+<app loc="349.14">
+<lem>möhte</lem> <rdg>mohte <wit>D</wit></rdg>
+</app>
+<app loc="349.16">
+<lem>hurten</lem> <rdg>hurtes <wit>*m</wit></rdg>
+</app>
+<app loc="349.19">
+<lem>diu</lem> <rdg>driu (Druẏ <wit>mk</wit>) <wit>*m</wit></rdg>
+</app>
+<app loc="349.25">
+<rdg>dô sprach der (<note>om.</note> <wit>mk</wit>) knappe ze Gawan: <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="349.01">
+<rdg>vür g.: <wit>*G</wit></rdg>
+</app>
+<app loc="349.02">
+<rdg>daz <note>om.</note> <wit>*G</wit> <note>(ohne L)</note></rdg>
+</app>
+<app loc="349.03">
+<rdg></rdg>
+</app>
+<app loc="349.04">
+<rdg>mit a. dienen w. (wibes <wit>I</wit>) gr. <wit>*G</wit> <note>(ohne OZ)</note> · w. gruoz <wit>*T</wit></rdg>
+</app>
+<app loc="349.05">
+<rdg>man (unde <wit>*T</wit> [<wit>L</wit>]) m. vil sp. dâ (<note>om.</note> <wit>I</wit>) br., <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="349.06">
+<rdg></rdg>
+</app>
+<app loc="349.07">
+<rdg></rdg>
+</app>
+<app loc="349.08">
+<rdg></rdg>
+</app>
+<app loc="349.09">
+<rdg></rdg>
+</app>
+<app loc="349.10">
+<rdg>wir müesenz u. (mv&#x0364;ssen vnser fu&#x0366;re <wit>V</wit>) lân. <wit>*T</wit></rdg>
+</app>
+<app loc="349.11">
+<rdg></rdg>
+</app>
+<app loc="349.12">
+<rdg></rdg>
+</app>
+<app loc="349.13">
+<rdg>ûz von den a. k., <wit>*T</wit></rdg>
+</app>
+<app loc="349.14">
+<rdg></rdg>
+</app>
+<app loc="349.15">
+<rdg></rdg>
+</app>
+<app loc="349.16">
+<rdg>mit hurtes (hurtens <wit>Z</wit>) ponder <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="349.17">
+<rdg></rdg>
+</app>
+<app loc="349.18">
+<rdg></rdg>
+</app>
+<app loc="349.19">
+<rdg>driu ors <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="349.20">
+<rdg>gâhten vaste (Die gahten vasten <wit>L</wit>) mit im her. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="349.21">
+<rdg>des niemen tr. (trige <wit>L</wit>), <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="349.22">
+<rdg></rdg>
+</app>
+<app loc="349.23">
+<rdg>hân bejaget, <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="349.24">
+<rdg>sô (als <wit>*T</wit> [<wit>O</wit> <wit>L</wit> <wit>Z</wit>]) mir diu â. saget. <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="349.25">
+<rdg></rdg>
+</app>
+<app loc="349.26">
+<rdg></rdg>
+</app>
+<app loc="349.27">
+<rdg>er k. <wit>*G</wit> <note>(nur GIL)</note></rdg>
+</app>
+<app loc="349.28">
+<rdg></rdg>
+</app>
+<app loc="349.29">
+<rdg></rdg>
+</app>
+<app loc="349.30">
+<rdg></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>

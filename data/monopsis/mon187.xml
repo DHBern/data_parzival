@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title type="main">Parzival</title>
+ <title type="sub">XML-Export für den Verlag des Dreissigers 187</title>
+ <author>Wolfram von Eschenbach</author>
+ <editor>Parzival-Projekt Bern</editor>
+ </titleStmt>
+ <publicationStmt>
+ <authority>Parzival-Projekt Bern</authority>
+ <pubPlace>Bern</pubPlace>
+ <date>04.07.22</date>
+ </publicationStmt>
+ <sourceDesc>
+ <p>Digital born.</p>
+ </sourceDesc>
+ </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="Haupptext">
+<l n="*D 187.01">die vrouwen mitten an die stegen.</l>
+<l n="*D 187.02">dâ kuste si den werden degen.</l>
+<l n="*D 187.03">die münde wâren bêde rôt.</l>
+<l n="*D 187.04">diu künegîn ir hant im bôt.</l>
+<l n="*D 187.05"><name type="Person">Parzivalen</name> si vuorte wider,</l>
+<l n="*D 187.06">al dâ si sâzen beidiu nider.</l>
+<l n="*D 187.07">vrouwen unt ritt<reg type="Synkope">e</reg>r kraft</l>
+<l n="*D 187.08">heten alle swache kraft,</l>
+<l n="*D 187.09">die dâ stuonden und sâzen.</l>
+<l n="*D 187.10">si heten vreude lâzen,</l>
+<l n="*D 187.11">daz gesinde unt diu wirtîn.</l>
+<l n="*D 187.12"><name type="Person">Condwiramurs</name> ir schîn</l>
+<l n="*D 187.13">doch schiet von disen strîten:</l>
+<l n="*D 187.14"><name type="Person">Jeschuten</name>, <name type="Person">Eniten</name></l>
+<l n="*D 187.15">unt <name type="Person">Cunnewaren</name> de <name type="Ort">Lalant</name></l>
+<l n="*D 187.16">unt swâ man lob<reg type="Synkope">e</reg>s die besten vant,</l>
+<l n="*D 187.17">dâ man vrouwen sch&#x0153;ne gewuoc,</l>
+<l n="*D 187.18">ir glastes schîn vast und<reg type="Synkope">e</reg>rsluoc,</l>
+<l n="*D 187.19">unde bêder <name type="Person">Isalden</name>.</l>
+<l n="*D 187.20">jâ muose prîs<reg type="Synkope">e</reg>s walden</l>
+<l n="*D 187.21"><name type="Person">Condwiramurs</name>.</l>
+<l n="*D 187.22">diu truoc den rehten bêâcurs.</l>
+<l n="*D 187.23"><seg type="Initiale" subtype="Majuskel">D</seg>er name ist <name type="Person">tiuschen</name> 'sch&#x0153;ner lîp'.</l>
+<l n="*D 187.24">ez wâren wol nütziu wîp,</l>
+<l n="*D 187.25">die disiu zwei gebâren,</l>
+<l n="*D 187.26">die dâ bî ein and<reg type="Synkope">e</reg>r wâren.</l>
+<l n="*D 187.27">dô schuof wîp unt man</l>
+<l n="*D 187.28">niht mêre, wan daz si sâhen an</l>
+<l n="*D 187.29">diu zwei bî ein and<reg type="Synkope">e</reg>r.</l>
+<l n="*D 187.30">guote vriwent dâ vand<reg type="Synkope">e</reg>r.</l>
+</div>
+<div type="Apparat_Siglen"><listApp>
+<app><lem>*D</lem>
+<wit>D</wit>
+</app><app><lem>*m</lem>
+<wit>mk</wit> <wit>Fr69</wit> <note>(187.11-19)</note>
+</app><app><lem>*G</lem>
+<wit>G</wit> <wit>I</wit> <wit>O</wit> <wit>L</wit> <wit>Z</wit>
+</app><app><lem>*T</lem>
+<wit>T</wit> <wit>U</wit> <wit>V</wit>
+</app></listApp></div>
+<div type="Apparat_Gliederung"><listApp>
+<app loc="187.03"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app><app loc="187.03"><rdg> <note>Majuskel</note> <wit>T</wit>
+</rdg></app>
+<app loc="187.05"><rdg>
+<note>Initiale</note> <wit>L</wit>
+</rdg></app>
+<app loc="187.11"><rdg>
+<note>Initiale</note> <wit>O</wit>
+</rdg></app>
+<app loc="187.21"><rdg>
+<note>Initiale</note> <wit>Z</wit>
+</rdg></app>
+<app loc="187.23"><rdg>
+<note>Majuskel</note> <wit>D</wit>
+</rdg></app>
+<app loc="187.25"><rdg>
+<note>Initiale</note> <wit>I</wit>
+</rdg></app>
+<app loc="187.27"><rdg>
+<note>Initiale</note> <wit>T</wit> <wit>U</wit> <wit>V</wit>
+</rdg></app>
+</listApp></div>
+<div type="Apparat_DM"><listApp>
+<app loc="187.05">
+<rdg>Parcifale, und vuorte in wider, <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="187.06">
+<lem>sâzen beidiu</lem> <rdg>beidiu sâzen <wit>*m</wit></rdg>
+</app>
+<app loc="187.07">
+<lem>ritter kraft</lem> <rdg>ritterschaft <wit>*m</wit></rdg>
+</app>
+<app loc="187.13">
+<lem>disen strîten</lem> <rdg>disem strîten <wit>*m</wit> <note>(nur m)</note> disem strite <wit>I</wit></rdg>
+</app>
+<app loc="187.14">
+<rdg>Jeschuten und Eniten <wit>*m</wit></rdg>
+</app>
+<app loc="187.17">
+<rdg>oder swâ man sch&#x0153;ner vrouwen gewuoc (<subst><del>D*</del><add>Do man vrowen scho&#x0364;ne gewu&#x0366;g</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="187.24">
+<lem>wol</lem> <rdg>wol zwei (<subst><del>zwei*</del><add>wol zwei</add></subst> <wit>V</wit>) <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="187.27">
+<lem>schuof</lem> <rdg>enschuof dâ <wit>*m</wit></rdg>
+</app>
+<app loc="187.29">
+<lem>bî</lem> <rdg>dâ bî <wit>*m</wit> (<wit>V</wit>)</rdg>
+</app>
+<app loc="187.30">
+<lem>vriwent</lem> <rdg>vröude <wit>*m</wit></rdg>
+</app>
+</listApp></div>
+<div type="Apparat_GT"><listApp>
+<app loc="187.01">
+<rdg>ir vr. <wit>*G</wit> <wit>*T</wit></rdg>
+</app>
+<app loc="187.02">
+<rdg></rdg>
+</app>
+<app loc="187.03">
+<rdg></rdg>
+</app>
+<app loc="187.04">
+<rdg></rdg>
+</app>
+<app loc="187.05">
+<rdg></rdg>
+</app>
+<app loc="187.06">
+<rdg>beidiu sâzen <wit>*T</wit> (<wit>L</wit> <wit>Z</wit>)</rdg>
+</app>
+<app loc="187.07">
+<rdg>vr. unde rîterschaft, <wit>*G</wit> (<wit>*T</wit>)</rdg>
+</app>
+<app loc="187.08">
+<rdg>die h. <wit>*G</wit></rdg>
+</app>
+<app loc="187.09">
+<rdg></rdg>
+</app>
+<app loc="187.10">
+<rdg>die h. (hete <wit>U</wit>) <wit>*G</wit> <note>(ohne OZ)</note> <wit>*T</wit> · vröude gelâzen, <wit>*T</wit> (<wit>L</wit>)</rdg>
+</app>
+<app loc="187.11">
+<rdg>unde ouch diu <wit>*G</wit> <note>(nur GI)</note></rdg>
+</app>
+<app loc="187.12">
+<rdg></rdg>
+</app>
+<app loc="187.13">
+<rdg></rdg>
+</app>
+<app loc="187.14">
+<rdg>J. (Vro&#x036E;we ieschuten <wit>V</wit>) unde E. <wit>*G</wit> <note>(nur GI)</note> <wit>*T</wit></rdg>
+</app>
+<app loc="187.15">
+<rdg></rdg>
+</app>
+<app loc="187.16">
+<rdg>oder (<note>om.</note> <wit>L</wit>) swâ <wit>*G</wit> <wit>*T</wit> <note>(ohne V)</note></rdg>
+</app>
+<app loc="187.17">
+<rdg>swâ (vnd swa <wit>I</wit>) man <wit>*G</wit> · &#x2193;<wit>*T</wit></rdg>
+</app>
+<app loc="187.18">
+<rdg>vaste (vastes <wit>U</wit>) widersluoc (<subst><del>*erslv&#x0366;g</del><add>vnderslv&#x0366;g</add></subst> <wit>V</wit>), <wit>*T</wit></rdg>
+</app>
+<app loc="187.19">
+<rdg></rdg>
+</app>
+<app loc="187.20">
+<rdg>diu dâ muoz (mu&#x0364;zzen <wit>I</wit> mu̽ste <wit>L</wit>) pr. w. <wit>*G</wit></rdg>
+</app>
+<app loc="187.21">
+<rdg>daz was diu künigîn C. <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+<app loc="187.22">
+<rdg></rdg>
+</app>
+<app loc="187.23">
+<rdg></rdg>
+</app>
+<app loc="187.24">
+<rdg></rdg>
+</app>
+<app loc="187.25">
+<rdg></rdg>
+</app>
+<app loc="187.26">
+<rdg></rdg>
+</app>
+<app loc="187.27">
+<rdg></rdg>
+</app>
+<app loc="187.28">
+<rdg></rdg>
+</app>
+<app loc="187.29">
+<rdg>disiu (dise <wit>T</wit>) zw. <wit>*T</wit></rdg>
+</app>
+<app loc="187.30">
+<rdg>guoten vriunt <wit>*G</wit> <note>(nur G)</note></rdg>
+</app>
+</listApp></div>
+<div type="Übersetzung">
+</div>
+<div type="Erläuterungen_Haupttext">
+</div>
+<div type="Erläuterungen_Apparat_GT">
+</div>
+</body>
+</text>
+</TEI>
