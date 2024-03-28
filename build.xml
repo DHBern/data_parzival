@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<project default="all" name="TEI-Publisher">
+<project default="all" name="parzival">
     <xmlproperty file="${basedir}/expath-pkg.xml" />
     <property file="${basedir}/local.build.properties" />
     <property file="${basedir}/build.properties" />
@@ -49,7 +49,7 @@
                 <exclude name="package*.json" />
                 <exclude name="rollup.config.js" />
                 <exclude name="webtest/**" />
-                </fileset>
+            </fileset>
         </copy>
         <copy todir="${app.build.dir}" overwrite="true" verbose="true">
             <fileset file="*.xml.tmpl" />
@@ -113,8 +113,7 @@
     </target>
 
     <target name="xar" description="create XAR file of folder ${app.build.dir}">
-        <zip basedir="${app.build.dir}"
-            destfile="${build}/${project.app}-${project.version}${git.commit}.xar">
+        <zip basedir="${app.build.dir}" destfile="${build}/${project.app}-${project.version}${git.commit}.xar">
         </zip>
     </target>
 
@@ -138,25 +137,25 @@
 
     <target name="git.revision" description="Store git revision in ${repository.version}" if="git.present">
         <exec executable="git" outputproperty="git.revision" failifexecutionfails="false" errorproperty="">
-          <arg value="--git-dir=${git.repo.path}"/>
-          <arg value="rev-parse"/>
-          <arg value="HEAD"/>
+            <arg value="--git-dir=${git.repo.path}"/>
+            <arg value="rev-parse"/>
+            <arg value="HEAD"/>
         </exec>
         <condition property="repository.version" value="${git.revision}" else="unknown">
-          <and>
-            <isset property="git.revision"/>
-            <length string="${git.revision}" trim="yes" length="0" when="greater"/>
-          </and>
+            <and>
+                <isset property="git.revision"/>
+                <length string="${git.revision}" trim="yes" length="0" when="greater"/>
+            </and>
         </condition>
         <echo>Git repo: ${repository.version}</echo>
         <exec executable="git" outputproperty="git.time" failifexecutionfails="false" errorproperty="">
-          <arg value="--git-dir=${git.repo.path}"/>
-          <arg value="show"/>
-          <arg value="-s"/>
-          <arg value="--format=%ct"/>
-          <arg value="${git.revision}"/>
+            <arg value="--git-dir=${git.repo.path}"/>
+            <arg value="show"/>
+            <arg value="-s"/>
+            <arg value="--format=%ct"/>
+            <arg value="${git.revision}"/>
         </exec>
         <echo>Git time: ${git.time}</echo>
-      </target>
+    </target>
 
 </project>
