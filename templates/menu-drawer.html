@@ -1,16 +1,21 @@
-<div class="drawer-content">
+<nav class="drawer-content" aria-labelledby="primary-navigation">
     <pb-media-query query="(max-width: 1023px)">
-        <pb-login id="login" group="tei"/>
-        <h3><a href="${app}/index.html" data-template="pages:parse-params">Start</a></h3>
-        <h3><a href="https://www.e-editiones.org/tags/release" target="_blank"><pb-i18n key="menu.news">News</pb-i18n></a></h3>
-        <h3><a href="${app}/dts.html" data-template="pages:parse-params">DTS</a></h3>
-        <pb-collapse>
-            <h3 slot="collapse-trigger"><pb-i18n key="menu.documentation">Documentation</pb-i18n></h3>
+        <pb-login id="login" group="tei" login-label="Login" role="button"/>
+        <a href="${app}/index.html" data-template="pages:parse-params">Start</a>
+        <a href="https://www.e-editiones.org/tags/release" target="_blank">
+            <pb-i18n key="menu.news">News</pb-i18n>
+        </a>
+        <pb-collapse class="icon-right">
+            <div slot="collapse-trigger">
+                <pb-i18n key="menu.documentation">Documentation</pb-i18n>
+            </div>
             <paper-listbox slot="collapse-content">
                 <div data-template="lib:include" data-template-path="templates/documentation-items.html"/>
             </paper-listbox>
         </pb-collapse>
-        <paper-menu-button id="download-button">
+            <a href="${app}/dts.html" data-template="pages:parse-params">DTS</a>
+
+        <paper-menu-button id="download-button" role="button">
             <h3>
                 <a slot="dropdown-trigger" data-i18n="[title]menu.download.title" title="i18n(download)">
                     <pb-i18n key="menu.download.title">Download</pb-i18n>
@@ -27,17 +32,17 @@
                 </paper-item>
                 <paper-item data-template="pages:if-supported" data-template-media="latex">
                     <pb-download type="tex" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-latex" title="i18n(pdf-latex)" source="source">
-                        <pb-i18n key="menu.download.latex-source"/>
+                        <pb-i18n key="menu.download.latex-source"></pb-i18n>
                     </pb-download>
                 </paper-item>
                 <paper-item data-template="pages:if-supported" data-template-media="fo">
                     <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.pdf-fo" title="i18n(pdf-fo)">
-                        <pb-i18n key="menu.download.pdf-fo"/>
+                        <pb-i18n key="menu.download.pdf-fo"></pb-i18n>
                     </pb-download>
                 </paper-item>
                 <paper-item data-template="pages:if-supported" data-template-media="fo">
                     <pb-download type="pdf" src="document1" dialog="downloadDialog" data-i18n="[title]menu.download.fo-source" title="pdf-fo" source="source">
-                        <pb-i18n key="menu.download.fo-source"/>
+                        <pb-i18n key="menu.download.fo-source"></pb-i18n>
                     </pb-download>
                 </paper-item>
                 <paper-item data-template="pages:if-supported" data-template-media="epub">
@@ -52,7 +57,7 @@
                 </paper-item>
             </paper-listbox>
         </paper-menu-button>
-        <pb-restricted login="login">
+        <pb-restricted>
             <paper-menu-button>
                 <a slot="dropdown-trigger"><pb-i18n key="menu.admin.title">Admin</pb-i18n></a>
                 <paper-listbox slot="dropdown-content">
@@ -74,13 +79,11 @@
                 </paper-listbox>
             </paper-menu-button>
         </pb-restricted>
-        <h3>
-            <a href="https://github.com/eeditiones/tei-publisher-app" target="_blank" title="View code on GitHub" class="gitlab">
-                <img src="resources/images/github.svg"/>
+        <a href="https://github.com/eeditiones/tei-publisher-app" target="_blank" title="View code on GitHub" class="github">
+                <img src="resources/images/github-mark.svg" class="github-mark"/>
+                <span>View code on Github</span>
             </a>
-        </h3>
 
-        <pb-search action="${app}/search.html" value="${query}" data-template="pages:parse-params" redirect="redirect"/>   
 
     </pb-media-query>
-</div>
+</nav>

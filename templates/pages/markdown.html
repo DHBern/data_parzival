@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -13,7 +14,7 @@
         <meta name="pb-template" content="markdown.html"/>
 
         <link rel="stylesheet" href="resources/css/theme.css"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
         <style>
             .toolbar pb-navigation {
                 display: none;
@@ -36,11 +37,11 @@
                         <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
                     <main class="content-body">
-                        <pb-markdown data-template="pages:parse-params" url="api/document/${doc}"/>
+                        <pb-markdown data-template="pages:parse-params" url="api/document/${doc}"></pb-markdown>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
-        <div class="splash"/>
+        <div class="splash"></div>
     </body>
 </html>

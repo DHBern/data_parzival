@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -13,7 +14,7 @@
         <meta name="pb-template" content="view.html"/>
 
         <link rel="stylesheet" href="resources/css/theme.css"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
         <style>
             @media (min-width: 769px) {
                 .toolbar pb-navigation {
@@ -75,17 +76,21 @@
                         </pb-view>
                     </section>
                     <main class="content-body">
-                        <pb-navigation direction="backward" unit="page" emit="transcription" subscribe="transcription">
+                        <pb-navigation direction="backward" unit="page" emit="transcription"
+                            subscribe="transcription">
                             <paper-fab icon="icons:chevron-left"/>
                         </pb-navigation>
-                        <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
-                        <pb-navigation direction="forward" unit="page" emit="transcription" subscribe="transcription">
+                        <pb-view id="view1" src="document1"
+                            column-separator=".tei-cb" append-footnotes="append-footnotes"
+                            subscribe="transcription" emit="transcription"/>
+                        <pb-navigation direction="forward" unit="page" emit="transcription"
+                            subscribe="transcription">
                             <paper-fab icon="icons:chevron-right"/>
                         </pb-navigation>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
-        <div class="splash"/>
+        <div class="splash"></div>
     </body>
 </html>

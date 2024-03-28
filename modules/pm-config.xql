@@ -1,71 +1,20 @@
-
-xquery version "3.1";
+xquery version "3.0";
 
 module namespace pm-config="http://www.tei-c.org/tei-simple/pm-config";
 
-import module namespace pm-parzival-web="http://www.tei-c.org/pm/models/parzival/web/module" at "../transform/parzival-web-module.xql";
-import module namespace pm-parzival-print="http://www.tei-c.org/pm/models/parzival/print/module" at "../transform/parzival-print-module.xql";
-import module namespace pm-parzival-latex="http://www.tei-c.org/pm/models/parzival/latex/module" at "../transform/parzival-latex-module.xql";
-import module namespace pm-parzival-epub="http://www.tei-c.org/pm/models/parzival/epub/module" at "../transform/parzival-epub-module.xql";
-import module namespace pm-parzival-fo="http://www.tei-c.org/pm/models/parzival/fo/module" at "../transform/parzival-fo-module.xql";
-import module namespace pm-docx-tei="http://www.tei-c.org/pm/models/docx/tei/module" at "../transform/docx-tei-module.xql";
+import module namespace config="http://www.tei-c.org/tei-simple/config" at "config.xqm";
+import module namespace pmu="http://www.tei-c.org/tei-simple/xquery/util";
 
-declare variable $pm-config:web-transform := function($xml as node()*, $parameters as map(*)?, $odd as xs:string?) {
-    switch ($odd)
-    case "parzival.odd" return pm-parzival-web:transform($xml, $parameters)
-    default return pm-parzival-web:transform($xml, $parameters)
-            
-    
+declare variable $pm-config:web-transform := pm-config:process(?, ?, ?, "web");
+declare variable $pm-config:print-transform := pm-config:process(?, ?, ?, "print");
+declare variable $pm-config:fo-transform := pm-config:process(?, ?, ?, "fo");
+declare variable $pm-config:latex-transform := pm-config:process(?, ?, ?, "latex");
+declare variable $pm-config:epub-transform := pm-config:process(?, ?, ?, "epub");
+declare variable $pm-config:tei-transform := pm-config:process(?, ?, ?, "tei");
+
+declare function pm-config:process($xml as node()*, $parameters as map(*)?, $odd as xs:string?, $outputMode as xs:string) {
+    let $oddName := ($odd, $config:default-odd)[1]
+    return
+        pmu:process($config:odd-root || "/" || $oddName, $xml, $config:output-root, $outputMode,
+            "../" || $config:output, $config:module-config, $parameters)
 };
-            
-
-
-declare variable $pm-config:print-transform := function($xml as node()*, $parameters as map(*)?, $odd as xs:string?) {
-    switch ($odd)
-    case "parzival.odd" return pm-parzival-print:transform($xml, $parameters)
-    default return pm-parzival-print:transform($xml, $parameters)
-            
-    
-};
-            
-
-
-declare variable $pm-config:latex-transform := function($xml as node()*, $parameters as map(*)?, $odd as xs:string?) {
-    switch ($odd)
-    case "parzival.odd" return pm-parzival-latex:transform($xml, $parameters)
-    default return pm-parzival-latex:transform($xml, $parameters)
-            
-    
-};
-            
-
-
-declare variable $pm-config:epub-transform := function($xml as node()*, $parameters as map(*)?, $odd as xs:string?) {
-    switch ($odd)
-    case "parzival.odd" return pm-parzival-epub:transform($xml, $parameters)
-    default return pm-parzival-epub:transform($xml, $parameters)
-            
-    
-};
-            
-
-
-declare variable $pm-config:fo-transform := function($xml as node()*, $parameters as map(*)?, $odd as xs:string?) {
-    switch ($odd)
-    case "parzival.odd" return pm-parzival-fo:transform($xml, $parameters)
-    default return pm-parzival-fo:transform($xml, $parameters)
-            
-    
-};
-            
-
-
-declare variable $pm-config:tei-transform := function($xml as node()*, $parameters as map(*)?, $odd as xs:string?) {
-    switch ($odd)
-    case "docx.odd" return pm-docx-tei:transform($xml, $parameters)
-    default return error(QName("http://www.tei-c.org/tei-simple/pm-config", "error"), "No default ODD found for output mode tei")
-            
-    
-};
-            
-    
