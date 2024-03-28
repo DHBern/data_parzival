@@ -1,0 +1,8 @@
+{
+  "name" : "parzival",
+  "version" : "1.0.0",
+  "description" : "Parzival Edition",
+  "dependencies" : {
+    "@teipublisher/pb-components" : "latest"
+  }
+}
