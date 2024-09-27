@@ -1,7 +1,7 @@
 (:~
 
     Transformation module generated from TEI ODD extensions for processing models.
-    ODD: /db/apps/tei-publisher/odd/docx.odd
+    ODD: /db/apps/parzival/odd/docx.odd
  :)
 xquery version "3.1";
 
@@ -34,8 +34,6 @@ declare namespace dc='http://purl.org/dc/elements/1.1/';
 import module namespace css="http://www.tei-c.org/tei-simple/xquery/css";
 
 import module namespace tei="http://existsolutions.com/xquery/functions/tei";
-
-import module namespace ext-docx="http://www.tei-c.org/tei-simple/xquery/functions/docx";
 
 import module namespace global="http://www.tei-c.org/tei-simple/config" at "../modules/config.xqm";
 
@@ -73,7 +71,7 @@ declare function model:transform($options as map(*), $input as node()*) {
         map:merge(($options,
             map {
                 "output": ["tei"],
-                "odd": "/db/apps/tei-publisher/odd/docx.odd",
+                "odd": "/db/apps/parzival/odd/docx.odd",
                 "apply": model:apply#2,
                 "apply-children": model:apply-children#3
             }
@@ -83,7 +81,7 @@ declare function model:transform($options as map(*), $input as node()*) {
         
         let $output := model:apply($config, $input)
         return
-            ext-docx:finish($config, $output)
+            $output
     )
 };
 

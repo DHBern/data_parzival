@@ -2,7 +2,7 @@
 <head>
     <title>TEI Publisher Person Register</title>
     <link rel="stylesheet" href="fore.css" data-template="pages:load-fore"/>
-    <script type="module" src="fore.js" data-template="pages:load-fore"></script>
+    <script type="module" src="fore.js" data-template="pages:load-fore"/>
 </head>
 <body>
 
@@ -10,38 +10,26 @@
 
     <fx-model id="model-1">
 
-        <fx-instance
-                id="default"
-                src="api/forms/template/person-default"
-                xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+        <fx-instance id="default" src="api/forms/template/person-default" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
         </fx-instance>
 
-        <fx-instance
-                id="i-template"
-                src="api/forms/template/person-template"
-                xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-            <data></data>
+        <fx-instance id="i-template" src="api/forms/template/person-template" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+            <data/>
         </fx-instance>
 
-        <fx-submission
-                id="load"
-                method="GET"
-                replace="instance">
+        <fx-submission id="load" method="GET" replace="instance">
             <fx-action event="submit-done">
                 <!-- setting selection we got from user as default -->
                 <fx-action if="instance()/@xml:id = 'person-NEW'">
-                    <fx-setvalue ref="instance()/*[1][@type='main']" value="query()"></fx-setvalue>
+                    <fx-setvalue ref="instance()/*[1][@type='main']" value="query()"/>
                 </fx-action>
             </fx-action>
         </fx-submission>
-        <fx-submission
-                id="save"
-                method="PUT"
-                replace="instance">
-            <fx-action  event="submit-done">
+        <fx-submission id="save" method="PUT" replace="instance">
+            <fx-action event="submit-done">
                 <fx-message>Person saved with ID {instance()/@xml:id/string()}</fx-message>
                 <fx-dispatch name="authority-created">
-                    <fx-property name="ref" expr="instance()/@xml:id/string()"></fx-property>
+                    <fx-property name="ref" expr="instance()/@xml:id/string()"/>
                 </fx-dispatch>
             </fx-action>
             <fx-action event="submit-error">
@@ -68,15 +56,15 @@
         <h1>Person '{instance('default')/*[1][@type='main']}'</h1>
         <div>
             <fx-trigger>
-                <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"></paper-icon-button>
-                <fx-call action="saveAction"></fx-call>
+                <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"/>
+                <fx-call action="saveAction"/>
             </fx-trigger>
             <fx-trigger>
                 <paper-icon-button id="close-authority" icon="close" data-i18n="[title]annotations.authority">
                     <!-- ### load the authority editor for authority type -->
                 </paper-icon-button>
                 <fx-confirm message="close this editor?">
-                    <fx-dispatch name="hide-authority" target="#document"></fx-dispatch>
+                    <fx-dispatch name="hide-authority" target="#document"/>
                 </fx-confirm>
             </fx-trigger>
         </div>
@@ -87,19 +75,19 @@
         <!-- begin section general -->
         <fx-group id="general" ref="instance()" class="col-2">
             <h2>Person ID:
-                <fx-output ref="@xml:id"></fx-output>
+                <fx-output ref="@xml:id"/>
             </h2>
 
             <fx-control ref="persName[@type='main']">
-                <label >Canonical form</label>
+                <label>Canonical form</label>
                 <fx-hint>Joachim Lelewel</fx-hint>
             </fx-control>
             <fx-control ref="persName[@type='sort']">
-                <label >Sorting form</label>
+                <label>Sorting form</label>
                 <fx-hint>Lelewel, Joachim</fx-hint>
             </fx-control>
             <fx-control ref="gender/@value">
-                <label >Gender</label>
+                <label>Gender</label>
                 <select class="widget">
                     <option value="M">Male</option>
                     <option value="F">Female</option>
@@ -129,15 +117,15 @@
         <fx-group id="birth" ref="//person/birth" class="col-2">
             <h2>Birth</h2>
             <fx-control ref="date/@when">
-                <label >Date normalized (YYYY-MM-DD)</label>
+                <label>Date normalized (YYYY-MM-DD)</label>
                 <fx-hint>YYYY-MM-DD</fx-hint>
             </fx-control>
             <fx-control ref="date">
-                <label >Date descriptive</label>
+                <label>Date descriptive</label>
                 <fx-hint>1786-03-22</fx-hint>
             </fx-control>
             <fx-control ref="placeName">
-                <label >Place of birth</label>
+                <label>Place of birth</label>
                 <fx-hint>Warsaw</fx-hint>
             </fx-control>
         </fx-group>
@@ -145,15 +133,15 @@
         <fx-group id="birth" ref="//person/death" class="col-2">
             <h2>Death</h2>
             <fx-control ref="date/@when">
-                <label >Date normalized (YYYY-MM-DD)</label>
+                <label>Date normalized (YYYY-MM-DD)</label>
                 <fx-hint>YYYY-MM-DD</fx-hint>
             </fx-control>
             <fx-control ref="date">
-                <label >Date descriptive</label>
+                <label>Date descriptive</label>
                 <fx-hint>1786-03-22</fx-hint>
             </fx-control>
             <fx-control ref="placeName">
-                <label >Place of death</label>
+                <label>Place of death</label>
                 <fx-hint>Warsaw</fx-hint>
             </fx-control>
         </fx-group>
@@ -166,24 +154,20 @@
                 Name variants ({count(//persName[@type='variant'])})
                 <fx-trigger class="add-button">
                     <!--                        <button>add</button>-->
-                    <paper-icon-button icon="icons:add"
-                                       data-i18n="[title]annotations.add.authority"></paper-icon-button>
-                    <fx-insert
-                            context="//person"
-                            ref="persName"
-                            origin="instance('i-template')//persName[@type='variant']"></fx-insert>
+                    <paper-icon-button icon="icons:add" data-i18n="[title]annotations.add.authority"/>
+                    <fx-insert context="//person" ref="persName" origin="instance('i-template')//persName[@type='variant']"/>
                 </fx-trigger>
             </header>
 
             <fx-repeat id="r-nameVariant" ref="//persName[@type='variant']" class="two-col">
                 <template>
                     <fx-control ref=".">
-                        <label >Variant form</label>
+                        <label>Variant form</label>
                         <fx-hint>Joachim Lelewel</fx-hint>
                     </fx-control>
 
                     <fx-trigger>
-                        <paper-icon-button icon="close" data-i18n="[title]annotations.authority" title="delete"></paper-icon-button>
+                        <paper-icon-button icon="close" data-i18n="[title]annotations.authority" title="delete"/>
                         <fx-delete ref="."/>
                     </fx-trigger>
                 </template>
@@ -195,22 +179,19 @@
             <header>
                 Professions and roles ({count(//occupation)})
                 <fx-trigger class="add-button">
-                    <paper-icon-button icon="icons:add" data-i18n="[title]annotations.add.roles"></paper-icon-button>
-                    <fx-insert
-                            context="//person"
-                            ref="name"
-                            origin="instance('i-template')//occupation"></fx-insert>
+                    <paper-icon-button icon="icons:add" data-i18n="[title]annotations.add.roles"/>
+                    <fx-insert context="//person" ref="name" origin="instance('i-template')//occupation"/>
                 </fx-trigger>
             </header>
 
             <fx-repeat id="r-occupation" ref="//occupation" class="two-col">
                 <template>
                     <fx-control ref=".">
-                        <label >Profession</label>
+                        <label>Profession</label>
                         <fx-hint>teacher</fx-hint>
                     </fx-control>
                     <fx-trigger>
-                        <paper-icon-button icon="close" data-i18n="[title]annotations.authority" title="delete"></paper-icon-button>
+                        <paper-icon-button icon="close" data-i18n="[title]annotations.authority" title="delete"/>
                         <fx-delete ref="."/>
                     </fx-trigger>
                 </template>
@@ -219,23 +200,23 @@
 
     </main>
     <fx-trigger>
-        <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"></paper-icon-button>
-        <fx-call action="saveAction"></fx-call>
+        <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"/>
+        <fx-call action="saveAction"/>
     </fx-trigger>
 
     <fx-action event="ready" if="string-length(getRef()) = 0">
-        <fx-send event="ready" submission="load" url="api/register/NEW"></fx-send>
+        <fx-send event="ready" submission="load" url="api/register/NEW"/>
     </fx-action>
     <fx-action event="ready" if="string-length(getRef()) != 0">
-        <fx-send event="ready" submission="load" url="api/register/{getRef()}"></fx-send>
+        <fx-send event="ready" submission="load" url="api/register/{getRef()}"/>
     </fx-action>
 
     <fx-action id="saveAction">
         <fx-action if="string-length(getRef()) != 0">
-            <fx-send submission="save" url="api/register/{getRef()}"></fx-send>
+            <fx-send submission="save" url="api/register/{getRef()}"/>
         </fx-action>
         <fx-action if="string-length(getRef()) = 0">
-            <fx-send submission="save" url="api/register/person-NEW"></fx-send>
+            <fx-send submission="save" url="api/register/person-NEW"/>
         </fx-action>
     </fx-action>
 </fx-fore>

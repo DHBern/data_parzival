@@ -28,6 +28,16 @@ xmldb:create-collection($target || "/data", "dts"),
 sm:chmod(xs:anyURI($target || "/data/dts"), "rwxrwxr-x"),
 sm:chown(xs:anyURI($target || "/data/dts"), "tei-demo"),
 sm:chgrp(xs:anyURI($target || "/data/dts"), "tei"),
+sm:chmod(xs:anyURI($target || "/data/annotate"), "rwxrwxr-x"),
+sm:chown(xs:anyURI($target || "/data/annotate"), "tei-demo"),
+sm:chown(xs:anyURI($target || "/data/registers"), "tei-demo"),
+for $resource in xmldb:get-child-resources($target || "/data/registers")
+return (
+    sm:chown(xs:anyURI($target || "/data/registers/" || $resource), "tei-demo"),
+    sm:chmod(xs:anyURI($target || "/data/registers/" || $resource), "rw-rw-r--")
+),
+sm:chmod(xs:anyURI($target || "/data/jats"), "rwxrwxr-x"),
+sm:chown(xs:anyURI($target || "/data/jats"), "tei-demo"),
 xmldb:create-collection($target || "/data", "temp"),
 sm:chmod(xs:anyURI($target || "/data/temp"), "rwxrwxr-x"),
 sm:chown(xs:anyURI($target || "/data/temp"), "tei"),

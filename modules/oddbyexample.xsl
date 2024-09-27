@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright TEI Consortium.
     Dual-licensed under CC-by and BSD2 licences
@@ -6,11 +5,7 @@
     $Date$
     $Id$
 -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:n="www.example.com" xmlns:rng="http://relaxng.org/ns/structure/1.0"
-  xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0"
-  exclude-result-prefixes="rng tei n"
-  xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:n="www.example.com" exclude-result-prefixes="rng tei n" xpath-default-namespace="http://www.tei-c.org/ns/1.0" version="2.0">
   <!--
 This software is dual-licensed:
 
@@ -87,8 +82,7 @@ valList
   <!-- should elements in teiHeader be included?-->
   <xsl:param name="includeHeader">true</xsl:param>
   <!-- the source of the TEI (just needs *Spec)-->
-  <xsl:param name="defaultSource"
-    >http://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml</xsl:param>
+  <xsl:param name="defaultSource">http://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml</xsl:param>
   <!-- should we make valList for @rend and @rendition -->
   <xsl:param name="enumerateRend">false</xsl:param>
   <!-- should we make valList for @type -->
@@ -112,20 +106,17 @@ valList
   <!-- should P5 files be considered? -->
   <xsl:param name="processP5">true</xsl:param>
   <xsl:key name="Atts" match="@*" use="local-name(parent::*)"/>
-  <xsl:key name="attVals" match="@*"
-    use="concat(local-name(parent::*),local-name())"/>
+  <xsl:key name="attVals" match="@*" use="concat(local-name(parent::*),local-name())"/>
   <xsl:key name="ELEMENTS" use="1" match="elementSpec"/>
   <xsl:key name="CLASSES" use="1" match="classSpec[@type='atts']"/>
-  <xsl:key name="OTHERS" use="1"
-    match="classSpec[not(@module='tei') and @type='model']"/>
+  <xsl:key name="OTHERS" use="1" match="classSpec[not(@module='tei') and @type='model']"/>
   <xsl:key name="OTHERS" use="1" match="macroSpec[not(@module='tei')]"/>
   <xsl:key name="DOCIDENTS" use="@ident" match="docs/*[@ident]"/>
   <xsl:key name="IDENTS" use="@ident" match="*[@ident]"/>
   <xsl:key name="MEMBERS" use="@key" match="elementSpec/classes/memberOf"/>
   <xsl:key name="CLASSMEMBERS" use="@key" match="classSpec/classes/memberOf"/>
   <xsl:key name="Used" use="@ident" match="docs/elementSpec"/>
-  <xsl:key name="UsedAtt" use="concat(@ident,'@',../@ident)"
-    match="docs/elementSpec/attDef"/>
+  <xsl:key name="UsedAtt" use="concat(@ident,'@',../@ident)" match="docs/elementSpec/attDef"/>
   <xsl:key name="All" match="*" use="1"/>
   <xsl:key name="AllTEI" match="tei:*" use="1"/>
   <xsl:key name="E" match="*" use="local-name()"/>
@@ -137,9 +128,7 @@ valList
     <xsl:variable name="pathlist">
       <xsl:choose>
         <xsl:when test="$corpusList=''">
-          <xsl:value-of
-            select="concat($corpus,'?select=',$prefix, '*.',$suffix,';recurse=yes;on-error=warning')"
-          />
+          <xsl:value-of select="concat($corpus,'?select=',$prefix, '*.',$suffix,';recurse=yes;on-error=warning')"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="$corpusList"/>
@@ -147,7 +136,8 @@ valList
       </xsl:choose>
     </xsl:variable>
     <xsl:if test="$debug='true'">
-      <xsl:message>Process <xsl:value-of select="$pathlist"/></xsl:message>
+      <xsl:message>Process <xsl:value-of select="$pathlist"/>
+            </xsl:message>
     </xsl:if>
     <xsl:variable name="docs" select="collection($pathlist)"/>
     <xsl:variable name="stage0">
@@ -197,8 +187,8 @@ valList
           <tei>
             <xsl:for-each select="doc($defaultSource)">
               <xsl:if test="$verbose='true'">
-                <xsl:message>reading main source from <xsl:value-of
-                    select="$defaultSource"/></xsl:message>
+                <xsl:message>reading main source from <xsl:value-of select="$defaultSource"/>
+                                </xsl:message>
               </xsl:if>
               <xsl:for-each select="key('OTHERS',1)">
                 <xsl:copy>
@@ -248,16 +238,12 @@ valList
                 <xsl:attribute name="ident">
                   <xsl:value-of select="$ident"/>
                 </xsl:attribute>
-                <xsl:for-each-group select="key('Atts',$ident)"
-                  group-by="name()">
+                <xsl:for-each-group select="key('Atts',$ident)" group-by="name()">
                   <attDef ident="{current-grouping-key()}">
                     <valList type="closed">
-                      <xsl:for-each-group
-                        select="key('attVals',concat($ident,name()))"
-                        group-by=".">
+                      <xsl:for-each-group select="key('attVals',concat($ident,name()))" group-by=".">
                         <xsl:sort select="."/>
-                        <xsl:for-each
-                          select="tokenize(current-grouping-key(),' ')">
+                        <xsl:for-each select="tokenize(current-grouping-key(),' ')">
                           <valItem ident="{.}"/>
                         </xsl:for-each>
                       </xsl:for-each-group>
@@ -321,19 +307,15 @@ valList
               </xsl:for-each>
             </xsl:variable>
             <xsl:choose>
-              <xsl:when
-                test="$classatts/attDef[@mode='delete'] and $classatts/keep">
-                <classSpec ident="{@ident}" module="{@module}" type="atts"
-                  mode="change">
+              <xsl:when test="$classatts/attDef[@mode='delete'] and $classatts/keep">
+                <classSpec ident="{@ident}" module="{@module}" type="atts" mode="change">
                   <attList>
                     <xsl:copy-of select="$classatts/attDef"/>
                   </attList>
                 </classSpec>
               </xsl:when>
-              <xsl:when
-                test="$classatts/attDef[@mode='delete'] and        not($classatts/keep)">
-                <classSpec ident="{@ident}" module="{@module}" type="atts"
-                  mode="delete">
+              <xsl:when test="$classatts/attDef[@mode='delete'] and        not($classatts/keep)">
+                <classSpec ident="{@ident}" module="{@module}" type="atts" mode="delete">
                   <xsl:copy-of select="classmember"/>
                   <attList>
                     <xsl:copy-of select="$classatts/attDef"/>
@@ -341,8 +323,7 @@ valList
                 </classSpec>
               </xsl:when>
               <xsl:when test="$classatts/keep">
-                <classSpec ident="{@ident}" module="{@module}" type="atts"
-                  mode="keep"/>
+                <classSpec ident="{@ident}" module="{@module}" type="atts" mode="keep"/>
               </xsl:when>
             </xsl:choose>
           </xsl:for-each>
@@ -367,35 +348,41 @@ valList
                 <xsl:when test="namespace-uri()='http://www.tei-c.org/ns/1.0'"/>
                 <xsl:otherwise>
                   <!-- build new 'add' elementSpec -->
-                  <elementSpec ident="{current-grouping-key()}" mode="add"
-                    ns="{namespace-uri()}">
-                    <xsl:text>&#10;</xsl:text>
+                  <elementSpec ident="{current-grouping-key()}" mode="add" ns="{namespace-uri()}">
+                    <xsl:text>
+</xsl:text>
                     <xsl:comment>add an &lt;equiv/&gt; to point to an named  template
 		  in an XSLT file which will transform this to pure TEI</xsl:comment>
-                    <xsl:text>&#10;</xsl:text>
-                    <equiv filter="somefile.xsl" mimeType="text/xsl"
-                      name="{current-grouping-key()}"/>
+                    <xsl:text>
+</xsl:text>
+                    <equiv filter="somefile.xsl" mimeType="text/xsl" name="{current-grouping-key()}"/>
                     <desc>
-                      <xsl:text>&#10;</xsl:text>
+                      <xsl:text>
+</xsl:text>
                       <xsl:comment> Describe the <xsl:value-of select="current-grouping-key()"/> element  here</xsl:comment>
-                      <xsl:text>&#10;</xsl:text>
+                      <xsl:text>
+</xsl:text>
                     </desc>
                     <classes>
-                      <xsl:text>&#10;</xsl:text>
+                      <xsl:text>
+</xsl:text>
                       <xsl:comment> Add a memberOf key="model.className"' stanza for whatever classes it belongs to  here</xsl:comment>
-                      <xsl:text>&#10;</xsl:text>
+                      <xsl:text>
+</xsl:text>
                     </classes>
                     <content>
-                      <xsl:text>&#10;</xsl:text>
+                      <xsl:text>
+</xsl:text>
                       <xsl:comment>Add RNG content model here</xsl:comment>
-                      <xsl:text>&#10;</xsl:text>
+                      <xsl:text>
+</xsl:text>
                     </content>
                     <xsl:if test="key('Atts',local-name())">
                       <attList>
                         <xsl:comment>Add attDefs:</xsl:comment>
-                        <xsl:text>&#10;</xsl:text>
-                        <xsl:for-each-group select="key('Atts',local-name())"
-                          group-by="local-name()">
+                        <xsl:text>
+</xsl:text>
+                        <xsl:for-each-group select="key('Atts',local-name())" group-by="local-name()">
                           <xsl:sort/>
                           <attDef ident="{local-name()}" mode="add"/>
                         </xsl:for-each-group>
@@ -414,14 +401,17 @@ valList
           <teiHeader>
             <fileDesc>
               <titleStmt>
-                <title type="short"><xsl:value-of select="$schema"/></title>
+                <title type="short">
+                                    <xsl:value-of select="$schema"/>
+                                </title>
                 <title>ODD by Example customization</title>
               </titleStmt>
               <publicationStmt>
                 <p>Unpublished first draft </p>
               </publicationStmt>
               <sourceDesc>
-                <p>Derived from <ref target="{$defaultSource}">base odd</ref> after an analysis of <xsl:value-of select="$count"/> files in <xsl:value-of select="$corpus"/></p>
+                <p>Derived from <ref target="{$defaultSource}">base odd</ref> after an analysis of <xsl:value-of select="$count"/> files in <xsl:value-of select="$corpus"/>
+                                </p>
               </sourceDesc>
             </fileDesc>
           </teiHeader>
@@ -429,13 +419,9 @@ valList
             <body>
               <schemaSpec ident="{$schema}">
                 <xsl:attribute name="start">
-                  <xsl:if
-                    test="$stage2/stage2/elementSpec[@mode='keep' and @ident='TEI']"
-                    >TEI</xsl:if>
+                  <xsl:if test="$stage2/stage2/elementSpec[@mode='keep' and @ident='TEI']">TEI</xsl:if>
                   <xsl:text> </xsl:text>
-                  <xsl:if
-                    test="$stage2/stage2/elementSpec[@mode='keep' and @ident='teiCorpus']"
-                    >teiCorpus</xsl:if>
+                  <xsl:if test="$stage2/stage2/elementSpec[@mode='keep' and @ident='teiCorpus']">teiCorpus</xsl:if>
                 </xsl:attribute>
                 <!--
 		 We need to list only modules from which elements or
@@ -449,7 +435,8 @@ valList
                     <xsl:when test="$m='tei'"/>
                     <xsl:when test="count(current-group()/*)=0"/>
                     <xsl:otherwise>
-                 <xsl:comment>Checking module <xsl:value-of select="$m"/></xsl:comment>
+                 <xsl:comment>Checking module <xsl:value-of select="$m"/>
+                                            </xsl:comment>
 
               <xsl:for-each select="current-group()[self::macroSpec]">
                         <xsl:sort select="@ident"/>
@@ -468,7 +455,7 @@ valList
                       <xsl:variable name="keepList">
                         <xsl:value-of select="current-group()[self::elementSpec][not(@mode='delete')]/@ident" separator=" "/>
                       </xsl:variable>
-                     <xsl:if test='string-length($keepList) gt 1'> <moduleRef key="{$m}" include="{$keepList}"/>
+                     <xsl:if test="string-length($keepList) gt 1"> <moduleRef key="{$m}" include="{$keepList}"/>
                      </xsl:if>
                     </xsl:otherwise>
                   </xsl:choose>
@@ -484,33 +471,21 @@ valList
                           <xsl:variable name="enumerated" select="@enumerated"/>
                           <xsl:for-each select="$stage1">
                             <xsl:choose>
-                              <xsl:when
-                                test="not($class='') and        $stage2/stage2/classSpec[@ident=$class]/attList/attDef[@ident=$ident and @mode='delete']"> </xsl:when>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='xml:id'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='xml:base'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='xml:space'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='xml:lang'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='n'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='rendition'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='style'"/>
-                              <xsl:when
-                                test="$keepGlobals='true' and $ident='rend'"/>
-                              <xsl:when
-                                test="not(key('UsedAtt',concat($ident,'@',$e)))">
+                              <xsl:when test="not($class='') and        $stage2/stage2/classSpec[@ident=$class]/attList/attDef[@ident=$ident and @mode='delete']"> </xsl:when>
+                              <xsl:when test="$keepGlobals='true' and $ident='xml:id'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='xml:base'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='xml:space'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='xml:lang'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='n'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='rendition'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='style'"/>
+                              <xsl:when test="$keepGlobals='true' and $ident='rend'"/>
+                              <xsl:when test="not(key('UsedAtt',concat($ident,'@',$e)))">
                                 <attDef ident="{$ident}" mode="delete"/>
                               </xsl:when>
                               <xsl:when test="$enumerated='true'">
                                 <attDef ident="{$ident}" mode="change">
-                                  <xsl:apply-templates
-                                    select="key('UsedAtt',concat($ident,'@',$e))/valList"
-                                  />
+                                  <xsl:apply-templates select="key('UsedAtt',concat($ident,'@',$e))/valList"/>
                                 </attDef>
                               </xsl:when>
                             </xsl:choose>
@@ -526,10 +501,8 @@ valList
                       </xsl:if>
                     </xsl:for-each>
                   </xsl:for-each>
-                  <xsl:copy-of
-                    select="current-group()/elementSpec[@mode='delete']"/>
-                  <xsl:apply-templates
-                    select="current-group()[self::classSpec] "/>
+                  <xsl:copy-of select="current-group()/elementSpec[@mode='delete']"/>
+                  <xsl:apply-templates select="current-group()[self::classSpec] "/>
                 </xsl:for-each-group>
                 <xsl:for-each select="$stage2/stage2/elementSpec[@mode='add']">
                   <xsl:text>
@@ -583,9 +556,7 @@ valList
       <!--<xsl:message> CHECK       <xsl:value-of select="concat($this,'@',@ident)"/></xsl:message>-->
       <xsl:if test="key('UsedAtt',concat($this,'@',@ident))">
         <!--      <xsl:message>  ... FOUND  <xsl:value-of select="key('UsedAtt',concat($this,'@',@ident))/(ancestor-or-self::*[@ident]/@ident)"/></xsl:message>-->
-        <xsl:value-of
-          select="key('UsedAtt',concat($this,'@',@ident))/(ancestor-or-self::*[@ident]/@ident)"
-        />
+        <xsl:value-of select="key('UsedAtt',concat($this,'@',@ident))/(ancestor-or-self::*[@ident]/@ident)"/>
       </xsl:if>
     </xsl:for-each>
     <xsl:for-each select="../classmember">
@@ -627,17 +598,14 @@ valList
   <xsl:template name="checktype">
     <xsl:attribute name="enumerated">
       <xsl:choose>
-        <xsl:when test="ancestor::teiHeader and not($includeHeader='true')"
-          >false</xsl:when>
+        <xsl:when test="ancestor::teiHeader and not($includeHeader='true')">false</xsl:when>
         <xsl:when test="@ident = ($attributeList)">true</xsl:when>
         <xsl:when test="@ident='n'">false</xsl:when>
         <xsl:when test="@ident='rend' and $enumerateRend='true'">true</xsl:when>
-        <xsl:when test="@ident='rendition' and $enumerateRend='true'"
-          >true</xsl:when>
+        <xsl:when test="@ident='rendition' and $enumerateRend='true'">true</xsl:when>
         <xsl:when test="@ident='type' and $enumerateType='true'">true</xsl:when>
         <xsl:when test="valList[@type='closed']">true</xsl:when>
-        <xsl:when test="datatype/rng:ref[@name='data.enumerated']"
-          >true</xsl:when>
+        <xsl:when test="datatype/rng:ref[@name='data.enumerated']">true</xsl:when>
         <!--
       <xsl:when
 	  test="datatype/rng:ref[@name='data.word']">true</xsl:when>
@@ -665,14 +633,12 @@ valList
       </xsl:when>
     </xsl:choose>
   </xsl:template>
-  <xsl:template match="@*|text()|comment()|processing-instruction()"
-    mode="stage3">
+  <xsl:template match="@*|text()|comment()|processing-instruction()" mode="stage3">
     <xsl:copy-of select="."/>
   </xsl:template>
   <xsl:template match="*" mode="stage3">
     <xsl:copy>
-      <xsl:apply-templates
-        select="*|@*|processing-instruction()|comment()|text()" mode="stage3"/>
+      <xsl:apply-templates select="*|@*|processing-instruction()|comment()|text()" mode="stage3"/>
     </xsl:copy>
   </xsl:template>
   <!-- keep a class if someone else wants it -->
@@ -682,8 +648,7 @@ valList
       <xsl:copy-of select="@ident"/>
       <xsl:copy-of select="@type"/>
       <xsl:choose>
-        <xsl:when
-          test="../classSpec[not(@mode='delete') and @ident=current()/classmember/@ident]">
+        <xsl:when test="../classSpec[not(@mode='delete') and @ident=current()/classmember/@ident]">
           <xsl:attribute name="mode">change</xsl:attribute>
           <xsl:copy-of select="attList"/>
         </xsl:when>

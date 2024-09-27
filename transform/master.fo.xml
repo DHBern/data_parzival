@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <fo:layout-master-set xmlns:fo="http://www.w3.org/1999/XSL/Format">
     <fo:simple-page-master master-name="page-left" page-height="297mm" page-width="210mm" margin-bottom="10mm" margin-top="10mm" margin-left="36mm" margin-right="18mm">
         <fo:region-body margin-bottom="10mm" margin-top="16mm"/>

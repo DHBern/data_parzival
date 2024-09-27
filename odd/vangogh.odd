@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teipublisher_odds.xsd"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/" xmlns:pb="http://teipublisher.com/1.0" xml:lang="en">
     <teiHeader>
@@ -97,8 +96,7 @@
                     </model>
                     <model behaviour="webcomponent" useSourceRendition="true">
                         <param name="content" value="@f || ':' || @n"/>
-                        <param name="facs"
-                            value="let $zone := id(substring-after(@facs, '#'), root($parameters?root)) return  'http://vangoghletters.org/vg/facsimiles/' ||     $zone/graphic[@mimeType=&#34;image/png&#34;]/@url"/>
+                        <param name="facs" value="let $zone := id(substring-after(@facs, '#'), root($parameters?root)) return  'http://vangoghletters.org/vg/facsimiles/' ||     $zone/graphic[@mimeType=&#34;image/png&#34;]/@url"/>
                         <param name="name" value="'pb-facs-link'"/>
                         <param name="emit" value="'transcription'"/>                        
                         <outputRendition xml:space="preserve">

@@ -1,7 +1,7 @@
 (:~
 
     Transformation module generated from TEI ODD extensions for processing models.
-    ODD: /db/apps/tei-publisher/odd/dantiscus2.odd
+    ODD: /db/apps/parzival/odd/dantiscus2.odd
  :)
 xquery version "3.1";
 
@@ -18,6 +18,8 @@ declare namespace pb='http://teipublisher.com/1.0';
 import module namespace css="http://www.tei-c.org/tei-simple/xquery/css";
 
 import module namespace latex="http://www.tei-c.org/tei-simple/xquery/functions/latex";
+
+import module namespace global="http://www.tei-c.org/tei-simple/config" at "../modules/config.xqm";
 
 (: generated template function for element spec: teiHeader :)
 declare %private function model:template-teiHeader($config as map(*), $node as node()*, $params as map(*)) {
@@ -95,7 +97,7 @@ declare function model:transform($options as map(*), $input as node()*) {
         map:merge(($options,
             map {
                 "output": ["latex"],
-                "odd": "/db/apps/tei-publisher/odd/dantiscus2.odd",
+                "odd": "/db/apps/parzival/odd/dantiscus2.odd",
                 "apply": model:apply#2,
                 "apply-children": model:apply-children#3
             }

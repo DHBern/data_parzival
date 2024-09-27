@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -9,9 +8,9 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"></title>
-        <link rel="stylesheet" href="resources/css/theme.css" />
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
+        <title data-template="config:app-title"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <style>
             main {
                 padding: 0 20px 0 20px;
@@ -52,7 +51,7 @@
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                     <app-toolbar class="menubar">
-                        <a href="${app}/index.html" class="logo" data-template="pages:parse-params"></a>
+                        <a href="${app}/index.html" class="logo" data-template="pages:parse-params"/>
                         <a href="${app}/index.html" data-template="pages:parse-params">Start</a>
                         <paper-menu-button data-template="lib:include" data-template-path="templates/menu.documentation.html"/>
                         <a href="http://gitlab.exist-db.org/tei-publisher/" title="View code on GitHub" class="gitlab">
@@ -61,59 +60,72 @@
                         <!-- language selector -->
                         <pb-lang name="lang" data-template="pages:languages"/>
                         <pb-login id="login" group="tei">
-                            <iron-icon slot="icon" icon="account-circle"></iron-icon>
+                            <iron-icon slot="icon" icon="account-circle"/>
                         </pb-login>
-                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"></pb-progress>
+                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
                     </app-toolbar>
                 </app-header>
                 <main>
-                    <h1><pb-i18n key="ner.title">Train a Named Entity Recognition Model</pb-i18n></h1>
-                    <h2 id="spacy-notfound"><pb-i18n key="ner.not-found">This feature requires the TEI Publisher NER service to be
-                        running! Failed to contact the service.</pb-i18n></h2>
-                    <p id="spacy-found"><pb-i18n key="ner.found">Found TEI Publisher NER with spaCy version</pb-i18n> <span id="spacy-version"></span>.</p>
+                    <h1>
+                        <pb-i18n key="ner.title">Train a Named Entity Recognition Model</pb-i18n>
+                    </h1>
+                    <h2 id="spacy-notfound">
+                        <pb-i18n key="ner.not-found">This feature requires the TEI Publisher NER service to be
+                        running! Failed to contact the service.</pb-i18n>
+                    </h2>
+                    <p id="spacy-found">
+                        <pb-i18n key="ner.found">Found TEI Publisher NER with spaCy version</pb-i18n> <span id="spacy-version"/>.</p>
                     <iron-form id="form">
                         <form method="GET">
-                            <paper-input label="Name" data-i18n="[label]ner.name;[placeholder]ner.name-placeholder" placeholder="Name of the model to create" name="name" required="" auto-validate=""></paper-input>
+                            <paper-input label="Name" data-i18n="[label]ner.name;[placeholder]ner.name-placeholder" placeholder="Name of the model to create" name="name" required="" auto-validate=""/>
                             <fieldset>
-                                <paper-input label="Path" data-i18n="[label]ner.path;[placeholder]ner.path-placeholder" placeholder="Relative path to document or collection" name="id" required="" auto-validate=""></paper-input>
-                                <legend><pb-i18n key="ner.path-info">Enter path to a document or collection to use as training input. Should be relative to TEI Publisher's data root.</pb-i18n></legend>
+                                <paper-input label="Path" data-i18n="[label]ner.path;[placeholder]ner.path-placeholder" placeholder="Relative path to document or collection" name="id" required="" auto-validate=""/>
+                                <legend>
+                                    <pb-i18n key="ner.path-info">Enter path to a document or collection to use as training input. Should be relative to TEI Publisher's data root.</pb-i18n>
+                                </legend>
                             </fieldset>
                             <fieldset>
-                                <legend><pb-18n key="ner.lang-info">You may either train a new model for a language or select an existing model to extend below.
+                                <legend>
+                                    <pb-18n key="ner.lang-info">You may either train a new model for a language or select an existing model to extend below.
                                     If not extending an existing model, you must specify a language. Otherwise leave it empty.</pb-18n>
                                 </legend>
-                                <paper-input data-i18n="[label]ner.language;[placeholder]ner.language-placeholder;[error-message]ner.language-error" label="Language" name="lang" placeholder="Language to create the model for"
-                                    error-message="Either a language or a base model are required"></paper-input>
+                                <paper-input data-i18n="[label]ner.language;[placeholder]ner.language-placeholder;[error-message]ner.language-error" label="Language" name="lang" placeholder="Language to create the model for" error-message="Either a language or a base model are required"/>
                                 <paper-dropdown-menu id="models" data-i18n="[label]ner.model;[placeholder]ner.model-placeholder" label="Base Model" placeholder="Base model to extend" name="base">
-                                    <paper-listbox slot="dropdown-content"></paper-listbox>
+                                    <paper-listbox slot="dropdown-content"/>
                                 </paper-dropdown-menu>
-                                <paper-checkbox name="vectors"><pb-i18n key="ner.vectors">Only copy vectors from base model</pb-i18n></paper-checkbox>
+                                <paper-checkbox name="vectors">
+                                    <pb-i18n key="ner.vectors">Only copy vectors from base model</pb-i18n>
+                                </paper-checkbox>
                             </fieldset>
 
-                            <paper-button id="submit"><iron-icon icon="save"></iron-icon> <pb-i18n key="ner.start">Start</pb-i18n></paper-button>
+                            <paper-button id="submit">
+                                <iron-icon icon="save"/> <pb-i18n key="ner.start">Start</pb-i18n>
+                            </paper-button>
                         </form>
                     </iron-form>
                     <div id="output" style="display: none">
-                        <h2><pb-i18n key="ner.output">Training Output</pb-i18n></h2>
-                        <pre id="log"></pre>
+                        <h2>
+                            <pb-i18n key="ner.output">Training Output</pb-i18n>
+                        </h2>
+                        <pre id="log"/>
                     </div>
                 </main>
             </app-header-layout>
         </pb-page>
-        <script src="https://cdn.jsdelivr.net/npm/ansi_up@5.1.0/ansi_up.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/ansi_up@5.1.0/ansi_up.js"/>
         <script>
             window.addEventListener("WebComponentsReady", function() {
                 const log = document.getElementById('log');
                 let endpoint;
 
-                document.addEventListener('pb-page-ready', () => {
+                document.addEventListener('pb-page-ready', () =&gt; {
                     endpoint = document.querySelector("pb-page").getAttribute('endpoint');
                     fetch(`${endpoint}/api/nlp/status`, {
                         method: "GET",
                         mode: "cors",
                         credentials: "same-origin"
                     })
-                    .then((response) => {
+                    .then((response) =&gt; {
                         if (response.ok) {
                             return response.json();
                         }
@@ -121,7 +133,7 @@
                         document.getElementById('spacy-found').style.display = 'none';
                         document.getElementById('submit').disabled = true;
                     })
-                    .then((json) => {
+                    .then((json) =&gt; {
                         if (!json) {
                             return;
                         }
@@ -132,14 +144,14 @@
                             mode: "cors",
                             credentials: "same-origin"
                         })
-                        .then((response) => {
+                        .then((response) =&gt; {
                             if (response.ok) {
                                 return response.json();
                             }
                         })
-                        .then((json) => {
+                        .then((json) =&gt; {
                             const list = [];
-                            json.forEach((item) => {
+                            json.forEach((item) =&gt; {
                                 list.push(`<paper-item>${item}</paper-item>`);
                             });
                             document.querySelector('#models paper-listbox').innerHTML = list.join('\n');

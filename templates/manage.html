@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -9,10 +8,10 @@
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
 
-        <title data-template="config:app-title"></title>
-        <link rel="stylesheet" href="resources/css/theme.css" />
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
-        <script type="module" src="pb-edit-app.js" data-template="pages:load-components"></script>
+        <title data-template="config:app-title"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script type="module" src="pb-edit-app.js" data-template="pages:load-components"/>
         <style>
             main {
                 padding: 0 20px 0 20px;
@@ -33,7 +32,7 @@
             <app-header-layout>
                 <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
                     <app-toolbar class="menubar">
-                        <a href="${app}/index.html" class="logo" data-template="pages:parse-params"></a>
+                        <a href="${app}/index.html" class="logo" data-template="pages:parse-params"/>
                         <a href="${app}/index.html" data-template="pages:parse-params">Start</a>
                         <paper-menu-button data-template="lib:include" data-template-path="templates/menu.documentation.html"/>
                         <a href="http://gitlab.exist-db.org/tei-publisher/" title="View code on GitHub" class="gitlab">
@@ -42,16 +41,18 @@
                         <!-- language selector -->
                         <pb-lang name="lang" data-template="pages:languages"/>
                         <pb-login id="login" group="tei">
-                            <iron-icon slot="icon" icon="account-circle"></iron-icon>
+                            <iron-icon slot="icon" icon="account-circle"/>
                         </pb-login>
-                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"></pb-progress>
+                        <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
                     </app-toolbar>
                 </app-header>
                 <main>
                     <section>
-                        <h1 class="tp-title"><pb-i18n key="menu.admin.appGenerator"></pb-i18n></h1>
+                        <h1 class="tp-title">
+                            <pb-i18n key="menu.admin.appGenerator"/>
+                        </h1>
                     </section>
-                    <pb-edit-app></pb-edit-app>
+                    <pb-edit-app/>
                 </main>
             </app-header-layout>
         </pb-page>

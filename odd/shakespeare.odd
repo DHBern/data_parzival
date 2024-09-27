@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Shakespeare Plays<desc>Output of a classic play with facsimile links</desc></title>
+                <title>Shakespeare Plays<desc>Output of a classic play with facsimile links</desc>
+                </title>
             </titleStmt>
             <publicationStmt>
                 <publisher>eXistSolutions GmbH</publisher>

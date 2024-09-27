@@ -5,11 +5,8 @@ declare variable $xml external;
 declare variable $parameters external;
 
 let $options := map {
-    "class": "article",
-    "section-numbers": false(),
-    "font-size": "11pt",
     "styles": ["transform/osinski.css"],
-    "collection": "/db/apps/tei-publisher/transform",
+    "collection": "/db/apps/parzival/transform",
     "parameters": if (exists($parameters)) then $parameters else map {}
 }
 return m:transform($options, $xml)

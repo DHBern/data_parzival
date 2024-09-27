@@ -1,7 +1,7 @@
 (:~
 
     Transformation module generated from TEI ODD extensions for processing models.
-    ODD: /db/apps/tei-publisher/odd/serafin.odd
+    ODD: /db/apps/parzival/odd/serafin.odd
  :)
 xquery version "3.1";
 
@@ -18,6 +18,8 @@ declare namespace pb='http://teipublisher.com/1.0';
 import module namespace css="http://www.tei-c.org/tei-simple/xquery/css";
 
 import module namespace latex="http://www.tei-c.org/tei-simple/xquery/functions/latex";
+
+import module namespace global="http://www.tei-c.org/tei-simple/config" at "../modules/config.xqm";
 
 (: Generated behaviour function for ident glossary :)
 declare %private function model:glossary($config as map(*), $node as node()*, $class as xs:string+, $content, $name, $note) {
@@ -123,7 +125,7 @@ declare function model:transform($options as map(*), $input as node()*) {
         map:merge(($options,
             map {
                 "output": ["latex"],
-                "odd": "/db/apps/tei-publisher/odd/serafin.odd",
+                "odd": "/db/apps/parzival/odd/serafin.odd",
                 "apply": model:apply#2,
                 "apply-children": model:apply-children#3
             }

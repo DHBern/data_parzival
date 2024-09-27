@@ -1,7 +1,7 @@
 (:~
 
     Transformation module generated from TEI ODD extensions for processing models.
-    ODD: /db/apps/tei-publisher/odd/dantiscus2.odd
+    ODD: /db/apps/parzival/odd/dantiscus2.odd
  :)
 xquery version "3.1";
 
@@ -20,6 +20,8 @@ import module namespace css="http://www.tei-c.org/tei-simple/xquery/css";
 import module namespace html="http://www.tei-c.org/tei-simple/xquery/functions";
 
 import module namespace printcss="http://www.tei-c.org/tei-simple/xquery/functions/printcss";
+
+import module namespace global="http://www.tei-c.org/tei-simple/config" at "../modules/config.xqm";
 
 (: generated template function for element spec: ptr :)
 declare %private function model:template-ptr($config as map(*), $node as node()*, $params as map(*)) {
@@ -85,7 +87,7 @@ declare function model:transform($options as map(*), $input as node()*) {
         map:merge(($options,
             map {
                 "output": ["print","web"],
-                "odd": "/db/apps/tei-publisher/odd/dantiscus2.odd",
+                "odd": "/db/apps/parzival/odd/dantiscus2.odd",
                 "apply": model:apply#2,
                 "apply-children": model:apply-children#3
             }

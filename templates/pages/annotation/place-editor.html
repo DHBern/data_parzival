@@ -2,7 +2,7 @@
 <head>
     <title>TEI Publisher Place Register</title>
     <link rel="stylesheet" href="fore.css" data-template="pages:load-fore"/>
-    <script type="module" src="fore.js" data-template="pages:load-fore"></script>
+    <script type="module" src="fore.js" data-template="pages:load-fore"/>
 </head>
 <body>
 
@@ -10,45 +10,30 @@
 
     <fx-model id="model-1">
 
-        <fx-instance
-            id="default"
-            src="api/forms/template/place-default"
-            xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+        <fx-instance id="default" src="api/forms/template/place-default" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
         </fx-instance>
 
-        <fx-instance
-                id="i-template"
-                src="api/forms/template/place-template"
-                xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-            <data></data>
+        <fx-instance id="i-template" src="api/forms/template/place-template" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+            <data/>
         </fx-instance>
 
-        <fx-instance
-                id="place-types"
-                src="api/forms/template/place-types"
-                xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-            <data></data>
+        <fx-instance id="place-types" src="api/forms/template/place-types" xpath-default-namespace="http://www.tei-c.org/ns/1.0">
+            <data/>
         </fx-instance>
 
-        <fx-submission
-            id="load"
-            method="GET"
-            replace="instance">
+        <fx-submission id="load" method="GET" replace="instance">
             <fx-action event="submit-done">
                 <!-- setting selection we got from user as default -->
                 <fx-action if="instance()/@xml:id = 'place-NEW'">
-                    <fx-setvalue ref="instance()/*[1][@type='main']" value="query()"></fx-setvalue>
+                    <fx-setvalue ref="instance()/*[1][@type='main']" value="query()"/>
                 </fx-action>
             </fx-action>
         </fx-submission>
-        <fx-submission 
-            id="save"
-            method="PUT"
-            replace="instance">
+        <fx-submission id="save" method="PUT" replace="instance">
                 <fx-action event="submit-done">
                 <fx-message>Place saved with ID {instance()/@xml:id/string()}</fx-message>
                     <fx-dispatch name="authority-created">
-                    <fx-property name="ref" expr="instance()/@xml:id/string()"></fx-property>
+                    <fx-property name="ref" expr="instance()/@xml:id/string()"/>
                     </fx-dispatch>
                 </fx-action>
             <fx-action event="submit-error">
@@ -73,15 +58,15 @@
         <h1>Place</h1>
         <div>
             <fx-trigger>
-                <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"></paper-icon-button>
-                <fx-call action="saveAction"></fx-call>
+                <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"/>
+                <fx-call action="saveAction"/>
             </fx-trigger>
             <fx-trigger>
                 <paper-icon-button id="close-authority" icon="close" data-i18n="[title]annotations.authority">
                     <!-- ### load the authority editor for authority type -->
                 </paper-icon-button>
                 <fx-confirm message="close this editor?">
-                    <fx-dispatch name="hide-authority" target="#document"></fx-dispatch>
+                    <fx-dispatch name="hide-authority" target="#document"/>
                 </fx-confirm>
             </fx-trigger>
         </div>
@@ -93,14 +78,14 @@
         <!-- begin section general -->
         <fx-group id="general" ref="instance()" class="col-2">
             <h2>Place ID:
-                <fx-output ref="@xml:id"></fx-output>
+                <fx-output ref="@xml:id"/>
             </h2>
             <fx-control ref="placeName[@type='main']">
-                <label >Canonical form</label>
+                <label>Canonical form</label>
                 <fx-hint>Kraków</fx-hint>
             </fx-control>
             <fx-control ref="placeName[@type='sort']">
-                <label >Sorting form</label>
+                <label>Sorting form</label>
                 <fx-hint>Krakow</fx-hint>
             </fx-control>
             <fx-control ref="@type">
@@ -134,21 +119,18 @@
         <fx-group>
             <header>Name variants ({count(//placeName[@type='variant'])})
                 <fx-trigger class="add-button">
-                    <paper-icon-button icon="icons:add" data-i18n="[title]annotations.add.roles"></paper-icon-button>
-                    <fx-insert
-                            context="//place"
-                            ref="placeName"
-                            origin="instance('i-template')//placeName[@type='variant']"></fx-insert>
+                    <paper-icon-button icon="icons:add" data-i18n="[title]annotations.add.roles"/>
+                    <fx-insert context="//place" ref="placeName" origin="instance('i-template')//placeName[@type='variant']"/>
                 </fx-trigger>
             </header>
             <fx-repeat id="r-nameVariant" ref="//placeName[@type='variant']" class="two-col">
                 <template>
-                    <fx-control  ref=".">
-                        <label >Name</label>
+                    <fx-control ref=".">
+                        <label>Name</label>
                         <fx-hint>Cracow</fx-hint>
                     </fx-control>
                     <fx-trigger>
-                        <paper-icon-button icon="close" data-i18n="[title]annotations.authority" title="delete"></paper-icon-button>
+                        <paper-icon-button icon="close" data-i18n="[title]annotations.authority" title="delete"/>
                         <fx-delete ref="."/>
                     </fx-trigger>
                 </template>
@@ -157,56 +139,55 @@
         <!-- // end section name variants -->
         <fx-group>
             <header>Location</header>
-            <fx-control  ref="//location/geo" update-event="change">
-                <label >Latitude and longitude</label>
-                <fx-hint></fx-hint>
+            <fx-control ref="//location/geo" update-event="change">
+                <label>Latitude and longitude</label>
+                <fx-hint/>
                 <fx-action event="value-changed">
                     <fx-dispatch name="geolocation" targetid="authority-editor">
                         <fx-property name="coordinates" expr="string(.)"/>
                     </fx-dispatch>
                 </fx-action>
             </fx-control>
-            <fx-control  ref="//country">
-                <label >Country</label>
+            <fx-control ref="//country">
+                <label>Country</label>
                 <fx-hint>Cracow</fx-hint>
             </fx-control>
-            <fx-control  ref="//region">
-                <label >Region</label>
+            <fx-control ref="//region">
+                <label>Region</label>
                 <fx-hint>małopolska</fx-hint>
             </fx-control>
             <div>Search for location or click while holding ctrl or cmd key to mark coordinates</div>
             <pb-leaflet-map id="map" zoom="11" fit-markers="" geo-coding="">
-                <pb-map-layer show="" base="" label="Mapbox" url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" max-zoom="19"
-                    attribution="© &lt;a href=&quot;https://osm.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors"></pb-map-layer>
+                <pb-map-layer show="" base="" label="Mapbox" url="https://{s}.tile.osm.org/{z}/{x}/{y}.png" max-zoom="19" attribution="© &lt;a href=&#34;https://osm.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors"/>
             </pb-leaflet-map>
         </fx-group>
     </main>
     <fx-trigger>
-        <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"></paper-icon-button>
-        <fx-call action="saveAction"></fx-call>
+        <paper-icon-button icon="icons:save" data-i18n="[title]annotations.save"/>
+        <fx-call action="saveAction"/>
     </fx-trigger>
 
     <fx-action event="ready" if="string-length(getRef()) = 0">
-        <fx-send event="ready" submission="load" url="api/register/place-NEW"></fx-send>
+        <fx-send event="ready" submission="load" url="api/register/place-NEW"/>
     </fx-action>
     <fx-action event="ready" if="string-length(getRef()) != 0">
-        <fx-send event="ready" submission="load" url="api/register/{getRef()}"></fx-send>
+        <fx-send event="ready" submission="load" url="api/register/{getRef()}"/>
     </fx-action>
 
     <fx-action id="saveAction">
         <fx-action if="string-length(getRef()) != 0">
-            <fx-send submission="save" url="api/register/{getRef()}"></fx-send>
+            <fx-send submission="save" url="api/register/{getRef()}"/>
         </fx-action>
         <fx-action if="string-length(getRef()) = 0">
-            <fx-send submission="save" url="api/register"></fx-send>
+            <fx-send submission="save" url="api/register"/>
         </fx-action>
     </fx-action>
 
     <fx-action event="pb-geocode">
-        <fx-message value="event('name')"></fx-message>
-        <fx-setvalue ref="instance()//location/geo" value="event('coordinates')?latitude || ' ' || event('coordinates')?longitude"></fx-setvalue>
-        <fx-setvalue ref="instance()//country" value="event('properties')?address?country"></fx-setvalue>
-        <fx-setvalue ref="instance()//region" value="event('properties')?address?state"></fx-setvalue>
+        <fx-message value="event('name')"/>
+        <fx-setvalue ref="instance()//location/geo" value="event('coordinates')?latitude || ' ' || event('coordinates')?longitude"/>
+        <fx-setvalue ref="instance()//country" value="event('properties')?address?country"/>
+        <fx-setvalue ref="instance()//region" value="event('properties')?address?state"/>
     </fx-action>
 </fx-fore>
 

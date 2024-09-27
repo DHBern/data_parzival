@@ -1,7 +1,7 @@
 (:~
 
     Transformation module generated from TEI ODD extensions for processing models.
-    ODD: /db/apps/tei-publisher/odd/docbook.odd
+    ODD: /db/apps/parzival/odd/docbook.odd
  :)
 xquery version "3.1";
 
@@ -18,6 +18,8 @@ declare namespace xlink='http://www.w3.org/1999/xlink';
 import module namespace css="http://www.tei-c.org/tei-simple/xquery/css";
 
 import module namespace html="http://www.tei-c.org/tei-simple/xquery/functions";
+
+import module namespace global="http://www.tei-c.org/tei-simple/config" at "../modules/config.xqm";
 
 (: Generated behaviour function for ident definitionList :)
 declare %private function model:definitionList($config as map(*), $node as node()*, $class as xs:string+, $content) {
@@ -74,7 +76,7 @@ declare function model:transform($options as map(*), $input as node()*) {
         map:merge(($options,
             map {
                 "output": ["web"],
-                "odd": "/db/apps/tei-publisher/odd/docbook.odd",
+                "odd": "/db/apps/parzival/odd/docbook.odd",
                 "apply": model:apply#2,
                 "apply-children": model:apply-children#3
             }

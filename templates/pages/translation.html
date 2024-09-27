@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -15,7 +14,7 @@
 
         <link rel="stylesheet" href="resources/css/theme.css"/>
         
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <custom-style>
             <style>
                 body {
@@ -67,17 +66,12 @@
                         </pb-view>
                     </section>
                     <main class="content-body">
-                        <pb-view id="view1" src="document1"
-                            xpath="! (.//text[@xml:lang = 'la']/body | .//text/body)[1]"
-                            column-separator=".tei-cb" append-footnotes="append-footnotes"
-                            subscribe="transcription" emit="transcription"/>
-                        <pb-view id="view2" src="document1"
-                            xpath="//text[@xml:lang='pl']/body" subscribe="transcription"
-                            column-separator=".tei-cb" append-footnotes="append-footnotes"/>
+                        <pb-view id="view1" src="document1" xpath="! (.//text[@xml:lang = 'la']/body | .//text/body)[1]" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
+                        <pb-view id="view2" src="document1" xpath="//text[@xml:lang='pl']/body" subscribe="transcription" column-separator=".tei-cb" append-footnotes="append-footnotes"/>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
-        <div class="splash"></div>
+        <div class="splash"/>
     </body>
 </html>

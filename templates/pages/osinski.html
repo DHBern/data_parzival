@@ -11,7 +11,7 @@
         <title data-template="config:app-title"/>
         <meta name="description" content="Historical dictionary"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
-        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
         <style>
             body {
                 --pb-view-height: calc(100vh - 128px);
@@ -95,12 +95,11 @@
                             </pb-collapse>
                             <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription" wait-for="#facsimile"/>
                         </div>
-                        <pb-facsimile id="facsimile" base-uri="https://apps.existsolutions.com/cantaloupe/iiif/2/" default-zoom-level="0" show-navigation-control="show-navigation-control" 
-                            show-navigator="show-navigator" subscribe="transcription"/>
+                        <pb-facsimile id="facsimile" base-uri="https://apps.existsolutions.com/cantaloupe/iiif/2/" default-zoom-level="0" show-navigation-control="show-navigation-control" show-navigator="show-navigator" subscribe="transcription"/>
                     </main>
                 </app-header-layout>
             </app-drawer-layout>
         </pb-page>
-        <div class="splash"></div>
+        <div class="splash"/>
     </body>
 </html>

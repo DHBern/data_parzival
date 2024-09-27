@@ -3,7 +3,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lelewel Letters<desc>Letters of Polish historian Joachim Lelewel</desc></title>
+                <title>Lelewel Letters<desc>Letters of Polish historian Joachim Lelewel</desc>
+                </title>
             </titleStmt>
             <publicationStmt>
                 <publisher>eXistSolutions GmbH</publisher>

@@ -65,8 +65,7 @@
     </head>
 
     <body>
-        <pb-page data-template="pages:pb-page" unresolved="unresolved" url-template="encyclopedia/:search?" 
-            url-ignore="path,odd,view,userParams">
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" url-template="encyclopedia/:search?" url-ignore="path,odd,view,userParams">
             <pb-document id="document1" data-template="pages:pb-document"/>
             <app-drawer-layout force-narrow="force-narrow">
                 <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
@@ -77,17 +76,15 @@
                     </app-header>
                     <main class="content-body">
                         <header>
-                            <pb-view src="document1" view="single"></pb-view>
+                            <pb-view src="document1" view="single"/>
                         </header>
                         <pb-custom-form id="options" auto="" auto-submit="paper-input,paper-icon-button" emit="transcription">
                             <paper-input id="query" name="search" label="Suche" value="${search}" data-template="pages:parse-params">
                                 <paper-icon-button icon="search" slot="suffix"/>
                             </paper-input>                        
                         </pb-custom-form>
-                        <pb-split-list class="register-split-list" url="api/lemma" subforms="#options" target="#list"
-                            emit="transcription" subscribe="transcription"/>
-                        <pb-view id="view" src="document1" subscribe="detail" view="other"
-                            map="encyclopedia" append-footnotes="">
+                        <pb-split-list class="register-split-list" url="api/lemma" subforms="#options" target="#list" emit="transcription" subscribe="transcription"/>
+                        <pb-view id="view" src="document1" subscribe="detail" view="other" map="encyclopedia" append-footnotes="">
                         </pb-view>
                     </main>
                 </app-header-layout>

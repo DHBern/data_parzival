@@ -36,25 +36,20 @@
     </teiHeader>
     <text>
         <body>
-            <schemaSpec start="TEI teiCorpus" ident="parzival" source="teipublisher.odd"> <elementSpec ident="lem" mode="add">
-                    <model output="web" behaviour="inline">
-            <outputRendition xml:space="preserve">
-            color: red;
-            </outputRendition>
-        </model>
-                </elementSpec>
-                <elementSpec ident="l" mode="change">
-                    <model behaviour="block" cssClass="line" useSourceRendition="true">
-            <outputRendition xml:space="preserve">
-            margin-left: 1.4em;
-            </outputRendition>
-        </model>
-                </elementSpec>
+            <schemaSpec start="TEI teiCorpus" ident="parzival" source="teipublisher.odd"> <elementSpec ident="lem" mode="add"/>
+                <elementSpec ident="l" mode="change"/>
                 <elementSpec ident="seg" mode="change">
-                    <model behaviour="inline" useSourceRendition="true">
-            <outputRendition xml:space="preserve">
-            color: red;
-            </outputRendition>
+                    <model behaviour="inline" cssClass="glory-initial">
+            <param name="subtype" value="Prachtinitiale"/>
+        </model>
+                    <model behaviour="inline" cssClass="initial" useSourceRendition="true">
+            <param name="type" value="Initiale"/>
+        </model>
+                </elementSpec>
+            <elementSpec ident="name" mode="add">
+                    <model behaviour="inline">
+            <desc>delete me after testing</desc>
+            <param name="content" value="(given-names,surname)"/>
         </model>
                 </elementSpec>
             </schemaSpec>
