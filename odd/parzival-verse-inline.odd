@@ -37,7 +37,10 @@
     <text>
         <body>
             <schemaSpec start="TEI teiCorpus" ident="parzival-verse-inline" source="parzival.odd"> <elementSpec ident="l" mode="change">
-                    <model output="web" behaviour="inline" cssClass="test" useSourceRendition="true">
+                    <model behaviour="inline" cssClass="verse-inline" useSourceRendition="true">
+            <param name="id" value="substring-after(@xml:id,'_')"/>
+            <param name="content" value="."/>
+            <pb:template xmlns="" xml:space="preserve"><span class="verse-inline" data-verse="[[id]]">[[content]]</span></pb:template>
             <outputRendition xml:space="preserve">
             
             </outputRendition>

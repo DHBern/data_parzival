@@ -23,6 +23,10 @@ import module namespace printcss="http://www.tei-c.org/tei-simple/xquery/functio
 
 import module namespace global="http://www.tei-c.org/tei-simple/config" at "../modules/config.xqm";
 
+(: generated template function for element spec: l :)
+declare %private function model:template-l($config as map(*), $node as node()*, $params as map(*)) {
+    <t xmlns=""><span class="verse-inline" data-verse="{$config?apply-children($config, $node, $params?id)}">{$config?apply-children($config, $node, $params?content)}</span></t>/*
+};
 (: generated template function for element spec: ptr :)
 declare %private function model:template-ptr($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><pb-mei url="{$config?apply-children($config, $node, $params?url)}" player="player">
@@ -129,7 +133,16 @@ declare function model:apply($config as map(*), $input as node()*) {
                         else
                             $config?apply($config, ./node())
                     case element(l) return
-                        html:inline($config, ., css:get-rendition(., ("tei-l", "test", css:map-rend-to-class(.))), .)
+                        let $params := 
+                            map {
+                                "id": substring-after(@xml:id,'_'),
+                                "content": .
+                            }
+
+                                                let $content := 
+                            model:template-l($config, ., $params)
+                        return
+                                                html:inline(map:merge(($config, map:entry("template", true()))), ., css:get-rendition(., ("tei-l", "verse-inline", css:map-rend-to-class(.))), $content)
                     case element(closer) return
                         html:block($config, ., ("tei-closer", css:map-rend-to-class(.)), .)
                     case element(ptr) return
