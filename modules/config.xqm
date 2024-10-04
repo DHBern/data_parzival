@@ -34,7 +34,7 @@ declare variable $config:origin-whitelist := (
 (:~
  : Set to true to allow caching: if the browser sends an If-Modified-Since header,
  : TEI Publisher will respond with a 304 if the resource has not changed since last
- : access. However, this does *not* take into account changes to ODD or other auxiliary 
+ : access. However, this does *not* take into account changes to ODD or other auxiliary
  : files, so don't use it during development.
  :)
 declare variable $config:enable-proxy-caching :=
@@ -46,18 +46,18 @@ declare variable $config:enable-proxy-caching :=
 (:~
  : The version of the pb-components webcomponents library to be used by this app.
  : Should either point to a version published on npm,
- : or be set to 'local' or 'dev'. 
- : 
+ : or be set to 'local' or 'dev'.
+ :
  : If set to 'local', webcomponents
  : are assumed to be self-hosted in the app (which means you
  : have to npm install them yourself using the existing package.json).
- : 
+ :
  : If a version is given, the components will be loaded from a public CDN.
  : This is recommended unless you develop your own components.
- : 
+ :
  : Using 'dev' will try to load the components from a local development
  : server started from within the pb-components repo clone by using `npm start`.
- : In this case, change $config:webcomponents-cdn to point to http://localhost:port 
+ : In this case, change $config:webcomponents-cdn to point to http://localhost:port
  : (default: 8000, but check where your server is running).
  :)
 declare variable $config:webcomponents := "2.19.0";
@@ -82,7 +82,7 @@ declare variable $config:address-by-id := false();
 (:~
  : Set default language for publisher app i18n
  :)
-declare variable $config:default-language := "en";
+declare variable $config:default-language := "de";
 
 (:
  : The default to use for determining the amount of content to be shown
@@ -351,7 +351,7 @@ declare variable $config:context-path :=
     return
         if (exists($prop)) then
             if ($prop = "auto") then
-                request:get-context-path() || substring-after($config:app-root, "/db") 
+                request:get-context-path() || substring-after($config:app-root, "/db")
             else
                 $prop
         else if (exists(request:get-header("X-Forwarded-Host")))
@@ -424,7 +424,7 @@ declare variable $config:default-odd := "teipublisher.odd";
  : make sure to run modules/generate-pm-config.xql to update the main configuration
  : module for transformations (modules/pm-config.xql).
  :)
-declare variable $config:odd-available := 
+declare variable $config:odd-available :=
     xmldb:get-child-resources($config:odd-root)[ends-with(., ".odd")][. != "teipublisher_odds.odd"];
 
 (:~
@@ -541,7 +541,7 @@ declare function config:dts-metadata($doc as document-node()) {
  : Change this to support different configurations for different collections or document types.
  : By default this returns a configuration based on the default settings defined
  : by other variables in this module.
- : 
+ :
  : @param $collection relative collection path (i.e. with $config:data-root stripped off)
  : @param $docUri relative document path (including $collection)
  :)
@@ -565,7 +565,7 @@ declare function config:collection-config($collection as xs:string?, $docUri as 
                 }
             default return
                 (: Return empty sequence to use default config :)
-            
+
 
   () };
 
@@ -581,7 +581,7 @@ declare function config:default-config($docUri as xs:string?) {
         "fill": $config:pagination-fill,
         "template": $config:default-template
     }
-    let $collection := 
+    let $collection :=
         if (exists($docUri)) then
             replace($docUri, "^(.*)/[^/]+$", "$1") => substring-after($config:data-root || "/")
         else
