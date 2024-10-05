@@ -67,6 +67,9 @@
         </lucene>
         <range>
             <create qname="tei:term" type="xs:string"/>
+            <range>
+                <create qname="@n" type="xs:string"/>
+            </range>
         </range>
     </index>
 </collection>
